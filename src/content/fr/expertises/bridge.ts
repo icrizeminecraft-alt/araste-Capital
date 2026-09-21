@@ -4,7 +4,7 @@ export const bridge: ExpertiseContent = {
   meta: {
     title: "Financement relais",
     description:
-      "Recherche et structuration de financements relais pour une acquisition, une échéance ou une opération dans l'attente d'une vente, d'un refinancement ou d'une autre sortie identifiée.",
+      "Recherche et structuration de financements relais pour une acquisition, une échéance ou une opération, dans l'attente d'une vente ou d'un refinancement.",
   },
   title: "Financement relais",
   shortTitle: "Financement relais",
