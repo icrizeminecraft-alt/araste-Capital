@@ -30,7 +30,7 @@ export function Header({ locale, t }: { locale: Locale; t: CommonContent }) {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="link-line font-sans text-[0.9375rem] text-ink hover:text-forest"
+                  className="link-line whitespace-nowrap font-sans text-[0.9375rem] text-ink hover:text-forest"
                 >
                   {link.label}
                 </Link>

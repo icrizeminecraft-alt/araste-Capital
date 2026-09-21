@@ -212,7 +212,7 @@
   }
 
   /* Numérotation éditoriale */
-  .numeral { @apply font-serif; font-variant-numeric: lining-nums tabular-nums; color: var(--color-champagne-deep); }
+  .numeral { @apply font-serif; font-variant-numeric: lining-nums tabular-nums; color: var(--color-champagne-deep); white-space: nowrap; flex-shrink: 0; }
   .numeral--dark { color: var(--color-champagne-light); }
 }
 

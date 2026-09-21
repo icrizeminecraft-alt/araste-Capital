@@ -50,7 +50,7 @@ export const development: ExpertiseContent = {
       title: "Our role, and its limits",
       paragraphs: [
         "We act neither as developer, nor as architect or lead consultant, nor as sales agent. We do not design the project, do not supervise the site and do not sell the units. Our role is confined to the financing: analysing the transaction, preparing the file, sourcing lenders and comparing terms. Legal, tax, technical and planning questions belong to your advisers, with whom we work.",
-        "A level of equity, a loan-to-cost ratio, a rate or a term can only be determined once the project has been reviewed: they vary with the status of consents, the progress of the works, the chosen exit and the lenders consulted. We do not promise that financing will be obtained, and a project may remain unfinanced if its timetable or its budget is not convincing. We commit to the rigour of the analysis and the candour of our feedback, including when it is negative.",
+        "A level of equity, a loan-to-cost ratio, a rate or a term can only be set once the project is reviewed: they depend on the status of consents, the progress of the works, the chosen exit and the lenders consulted. We do not promise financing will be obtained, and a project may remain unfinanced if its timetable or its budget is not convincing. We commit to rigour in the analysis and candour in our feedback, even when it is negative.",
       ],
     },
   },
