@@ -35,7 +35,7 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
               onMouseEnter={() => setActive(i)}
               onFocus={() => setActive(i)}
               onTouchStart={() => setActive(i)}
-              className={`grid grid-cols-[3rem_minmax(0,1fr)] items-baseline gap-x-4 py-6 transition-colors md:grid-cols-[4rem_minmax(0,1fr)_auto] md:py-7 ${
+              className={`grid grid-cols-[2.5rem_minmax(0,1fr)] items-baseline gap-x-3 py-6 transition-colors md:grid-cols-[4rem_minmax(0,1fr)_auto] md:gap-x-4 md:py-7 ${
                 active === i ? "bg-ivory-deep/50" : ""
               } hover:bg-ivory-deep/50 focus-visible:bg-ivory-deep/50`}
               aria-current={active === i ? "true" : undefined}

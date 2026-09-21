@@ -73,6 +73,8 @@
     font-feature-settings: "kern", "liga", "calt";
     min-height: 100svh;
     overflow-x: clip;
+    /* Les mots trop longs pour leur colonne se coupent plutôt que de déborder (zoom 200 %). */
+    overflow-wrap: anywhere;
   }
 
   h1, h2, h3, h4 {
