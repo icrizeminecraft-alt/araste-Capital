@@ -3,16 +3,14 @@
 import Link from "next/link";
 import { useEffect } from "react";
 import { useParams } from "next/navigation";
+import { common as fr } from "@/content/fr/common";
+import { common as en } from "@/content/en/common";
 
-const copy = {
-  fr: { title: "Une erreur est survenue.", body: "La page n'a pas pu être affichée. Vous pouvez réessayer ou revenir à l'accueil.", retry: "Réessayer", home: "Retour à l'accueil" },
-  en: { title: "Something went wrong.", body: "The page could not be displayed. You can try again or return to the home page.", retry: "Try again", home: "Back to home" },
-};
-
+/** Page d'erreur localisée ; les libellés viennent des dictionnaires communs. */
 export default function ErrorPage({ error, reset }: { error: Error & { digest?: string }; reset: () => void }) {
   const params = useParams<{ locale?: string }>();
   const locale = params?.locale === "en" ? "en" : "fr";
-  const t = copy[locale];
+  const t = (locale === "en" ? en : fr).error;
 
   useEffect(() => {
     // Journal minimal côté client, sans données utilisateur.
@@ -21,7 +19,7 @@ export default function ErrorPage({ error, reset }: { error: Error & { digest?: 
 
   return (
     <section className="container-x py-24 md:py-32">
-      <p className="eyebrow mb-6">Erreur</p>
+      <p className="eyebrow mb-6">{t.eyebrow}</p>
       <h1 className="display-lg">{t.title}</h1>
       <p className="lead measure mt-8 text-ink-soft">{t.body}</p>
       <div className="mt-10 flex flex-col gap-5 sm:flex-row sm:items-center">

@@ -12,7 +12,7 @@ export const legal: LegalContent = {
   },
   eyebrow: "Information",
   title: "Legal notice",
-  lead: "This page identifies the publisher of the site, its host and the conditions of use of its contents. Items marked as “to be completed” must be filled in and validated before any publication.",
+  lead: "This page identifies the publisher of the site, its hosting provider, the rights attached to its contents and their scope. Items marked as “to be completed” must be filled in and validated before any publication.",
   pendingLabel: "To be completed before publication",
   updated: "Last updated: to be set at publication.",
   sections: [
@@ -25,7 +25,7 @@ export const legal: LegalContent = {
         "Legal form and country of incorporation",
         "Registration number",
         "Registered office address",
-        "Contact email address and telephone",
+        "Contact email address and telephone number",
         "Name of the person responsible for publication",
       ],
     },
@@ -33,7 +33,7 @@ export const legal: LegalContent = {
       title: "Activity and status",
       paragraphs: [
         "The firm advises on and arranges professional financing on behalf of professional borrowers. It does not lend, does not manage assets on behalf of third parties, does not offer any investment to the public and does not deal with private individuals.",
-        "The permitted scope of services, the applicable intermediary status, the countries served and any mandatory statements depend on the jurisdiction of operation and must be checked with counsel before publication.",
+        "The scope of services, the applicable intermediary status, the countries served and any mandatory statements are set out below.",
       ],
       pending: [
         "Applicable regulatory status, authorisation or registration (if any)",
@@ -52,6 +52,7 @@ export const legal: LegalContent = {
         "The texts, the typographic wordmark, the monogram and the visual compositions on this site are the property of the firm or are used under licence. Any reproduction or reuse without prior consent is prohibited.",
         "The Cormorant and DM Sans typefaces are used under the SIL Open Font License 1.1.",
       ],
+      pending: ["Ownership of the rights in the wordmark, monogram and visual compositions (assignment to be confirmed); possible trade mark filing"],
     },
     {
       title: "Nature of the contents",

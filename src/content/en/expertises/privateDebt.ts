@@ -8,7 +8,7 @@ export const privateDebt: ExpertiseContent = {
   },
   title: "Private debt and special situations",
   shortTitle: "Private debt",
-  eyebrow: "Specialist lenders, borrower side",
+  eyebrow: "Specialist lenders",
   summary:
     "Sourcing financing from debt funds, private lenders and institutional platforms, for transactions that standard bank credit does not cover, or does not cover on acceptable terms.",
   lead: "Debt funds, private lenders, institutional platforms: alongside bank credit, specialist lenders review transactions that standard bank criteria struggle to accommodate. In such cases, the timetable, the structure, the nature of the asset or a transitional situation calls for case-by-case analysis. We source this financing on your behalf, as the borrower's adviser: we do not lend, we represent no lender and we recommend this segment only on precise criteria, never by default.",

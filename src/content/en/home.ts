@@ -17,17 +17,17 @@ export const home: HomeContent = {
   stance: {
     eyebrow: "Our position",
     title: "Some transactions call for a different approach.",
-    body: "A tight timetable, an unusual asset, a multi-layered holding structure or debt in need of reorganisation cannot be read through a standard grid. We start by understanding the need, the assets, the deadlines and the exit options, then prepare a clear presentation of the case before seeking the financing routes that genuinely fit it.",
+    body: "A tight timetable, an unusual asset, a multi-layered holding structure or debt in need of reorganisation do not fit a standard template. We start by understanding the need, the assets, the deadlines and the exit options. We then prepare a clear presentation of the case before seeking the financing routes that genuinely fit it.",
   },
   expertises: {
     eyebrow: "Expertise",
-    title: "Six areas, one standard of reading.",
+    title: "Distinct areas, one level of rigour.",
     body: "Bridge finance and complex cases are at the heart of what we do. Our other areas of expertise follow naturally: they call for the same work of analysis and structuring.",
     all: "See all areas of expertise",
   },
   bridge: {
     eyebrow: "Bridge finance",
-    title: "Crossing a period of transition without being ruled by its timetable.",
+    title: "Crossing a period of transition without letting its timetable decide.",
     body: "Bridge finance covers the time between an immediate need and an expected resource: the sale of an asset, a refinancing in progress, a capital raise or another identified exit. Its relevance depends far less on speed than on the strength of the intended exit.",
     points: [
       {
@@ -36,7 +36,7 @@ export const home: HomeContent = {
       },
       {
         title: "Then the security",
-        body: "Available assets, ranking of security, retained value: the case sets out what the lender will need to assess, plainly.",
+        body: "Available assets, ranking of security, value adopted: the file sets out plainly what the lender will need to assess.",
       },
       {
         title: "Finally the file",
@@ -47,7 +47,7 @@ export const home: HomeContent = {
   },
   approach: {
     eyebrow: "Our approach",
-    title: "Four stages, one thread.",
+    title: "Four stages, one common thread.",
     intro: "Every transaction follows the same path, from the first conversation to the outcome of discussions.",
     steps: [
       {
@@ -93,7 +93,7 @@ export const home: HomeContent = {
   },
   interlocutors: {
     eyebrow: "Who we work with",
-    title: "Our counterparts.",
+    title: "Who we work for.",
     body: "We work with professional borrowers and with the advisers who support them. In every case, the quality of the collaboration rests on the clarity of the file and the candour of the discussions.",
     groups: [
       {
@@ -110,14 +110,14 @@ export const home: HomeContent = {
       },
       {
         title: "Referring advisers",
-        body: "Lawyers, accountants, notaries, managers and family offices who wish to refer a client to a dedicated counterpart.",
+        body: "Lawyers, accountants, notaries, wealth managers and family offices who wish to refer a client to a dedicated contact.",
       },
     ],
   },
   contact: {
     eyebrow: "Contact",
     title: "Let's talk about your next transaction.",
-    body: "A few elements are enough for a first conversation: the nature of the need, the order of magnitude, the country of the transaction and the intended timing. We will come back to you to discuss it.",
+    body: "A few details are enough for a first conversation: the type of need, the order of magnitude, the country of the transaction and the intended timeframe. We will come back to you to discuss it.",
     cta: "Present a transaction",
     secondary: "Understand our approach",
   },

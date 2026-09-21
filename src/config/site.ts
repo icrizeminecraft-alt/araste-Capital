@@ -25,8 +25,10 @@ export type ContactDetails = {
 
 export const siteConfig = {
   brand: {
-    /** Dénomination complète (identité juridique exacte à confirmer). */
+    /** Dénomination complète demandée (identité juridique exacte à confirmer). */
     legalName: "ARASTE CAPITAL LTD",
+    /** Passer à true une fois la dénomination vérifiée : elle est alors publiée dans les données structurées. */
+    legalNameConfirmed: false,
     /** Marque mise en avant dans le design. */
     name: "ARASTE CAPITAL",
     tagline: {

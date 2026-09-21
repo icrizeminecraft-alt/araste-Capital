@@ -4,10 +4,10 @@ export const expertisesIndex: ExpertisesIndexContent = {
   meta: {
     title: "Expertise",
     description:
-      "Bridge finance, complex financing, refinancing, professional property acquisition and investment, property development, private debt: ARASTE CAPITAL's areas of expertise.",
+      "Bridge finance, complex cases and transactions that call for the same analytical work: the areas of expertise of ARASTE CAPITAL, independent borrower-side advisers.",
   },
   eyebrow: "Expertise",
-  title: "Six areas of work, one method.",
-  lead: "Bridge finance and complex cases are at the heart of what we do. Our other areas of expertise call for the same work: understanding the transaction, presenting it with precision and seeking the routes that fit it.",
+  title: "Our areas of work, one method.",
+  lead: "Bridge finance and complex cases shape what we do. Every other area of expertise follows from them: understanding the transaction, presenting it with precision, seeking the routes that fit it.",
   cta: "Present a transaction",
 };

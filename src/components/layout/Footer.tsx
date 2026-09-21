@@ -5,6 +5,7 @@ import { expertisePath, pagePath } from "@/config/routes";
 import { siteConfig, enabledExpertises, hasContactDetails } from "@/config/site";
 import { Wordmark } from "@/components/brand/Wordmark";
 import { LocaleSwitcher } from "@/components/layout/LocaleSwitcher";
+import { NavLink } from "@/components/layout/NavLink";
 
 export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   const t = dict.common;
@@ -36,9 +37,9 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             <ul className="space-y-3">
               {nav.map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href} className={linkClass}>
+                  <NavLink href={item.href} className={linkClass} currentClassName="text-ivory">
                     {item.label}
-                  </Link>
+                  </NavLink>
                 </li>
               ))}
             </ul>
@@ -49,9 +50,9 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             <ul className="space-y-3">
               {enabledExpertises().map((key) => (
                 <li key={key}>
-                  <Link href={expertisePath(locale, key)} className={linkClass}>
+                  <NavLink href={expertisePath(locale, key)} className={linkClass} currentClassName="text-ivory">
                     {dict.expertises[key].shortTitle}
-                  </Link>
+                  </NavLink>
                 </li>
               ))}
             </ul>

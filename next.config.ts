@@ -10,7 +10,13 @@ const securityHeaders = [
     key: "Permissions-Policy",
     value: "camera=(), microphone=(), geolocation=(), payment=(), usb=()",
   },
-  // Pas de traceur, pas de script tiers : la CSP peut rester stricte.
+  // HSTS : ignoré en HTTP local, appliqué dès que le site est servi en HTTPS.
+  { key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains" },
+  // CSP : aucune ressource tierce n'est autorisée (scripts, styles, polices,
+  // images, connexions). `'unsafe-inline'` reste nécessaire aux scripts
+  // d'amorçage des pages prérendues de Next : cette CSP n'atténue donc pas
+  // une injection de script, elle limite ce qu'une page peut charger. Une CSP
+  // par nonce imposerait un rendu dynamique de chaque page (voir README).
   {
     key: "Content-Security-Policy",
     value: [
@@ -20,9 +26,11 @@ const securityHeaders = [
       "img-src 'self' data:",
       "font-src 'self'",
       "connect-src 'self'",
+      "object-src 'none'",
       "frame-ancestors 'none'",
       "base-uri 'self'",
       "form-action 'self'",
+      "upgrade-insecure-requests",
     ].join("; "),
   },
 ];

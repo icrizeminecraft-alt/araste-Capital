@@ -67,7 +67,7 @@ test.describe("formulaire en deux étapes", () => {
     expect(url.hash).toBe("");
   });
 
-  test("l'API refuse un jeton invalide, un pot de miel rempli et un corps trop gros", async ({ request }) => {
+  test("l'API refuse un jeton invalide et un corps trop gros, et neutralise le pot de miel", async ({ request }) => {
     const base = {
       financingType: "bridge",
       amount: fake.amount,
@@ -88,13 +88,19 @@ test.describe("formulaire en deux étapes", () => {
     expect(badToken.status()).toBe(400);
     expect((await badToken.json()).code).toBe("token");
 
+    // Pot de miel rempli : réponse neutre, sans indice pour le robot, avant même le contrôle du jeton.
     const honeypot = await request.post("/api/contact", { data: { ...base, token: "1.deadbeef", website: "http://spam.invalid" } });
-    expect(honeypot.status()).toBe(400);
+    expect(honeypot.status()).toBe(200);
+    expect((await honeypot.json()).status).toBe("demo");
 
     const huge = await request.post("/api/contact", { data: { ...base, token: "1.deadbeef", description: "x".repeat(20_000) } });
-    expect([400, 413]).toContain(huge.status());
+    expect(huge.status()).toBe(413);
+
+    const crossSite = await request.post("/api/contact", { data: { ...base, token: "1.deadbeef" }, headers: { "sec-fetch-site": "cross-site" } });
+    expect(crossSite.status()).toBe(403);
 
     const get = await request.get("/api/contact");
     expect(get.status()).toBe(405);
+    expect(get.headers()["allow"]).toBe("POST");
   });
 });

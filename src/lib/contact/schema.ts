@@ -22,25 +22,31 @@ export const LIMITS = {
   body: 16 * 1024,
 } as const;
 
-export type FieldErrorCode = "required" | "email" | "amount" | "tooLong" | "tooShort" | "phone";
+export type FieldErrorCode = "required" | "email" | "amount" | "tooLong" | "tooShort" | "phone" | "phoneRequired";
 
 const required = { error: "required" } as const;
+
+/** Champ monoligne : caractères de contrôle (retours à la ligne compris) remplacés par une espace. */
+const stripControls = (v: string) => v.replace(/[\p{Cc}]+/gu, " ").trim();
 
 const text = (max: number) =>
   z
     .string(required)
-    .trim()
-    .min(1, { error: "required" })
-    .max(max, { error: "tooLong" });
+    .transform(stripControls)
+    .pipe(z.string().min(1, { error: "required" }).max(max, { error: "tooLong" }));
 
 export const stepOneSchema = z.object({
   financingType: z.enum(financingTypes, { error: "required" }),
   amount: z
     .string(required)
-    .trim()
-    .min(1, { error: "required" })
-    .max(LIMITS.amount, { error: "tooLong" })
-    .regex(/^\d[\d\s.,'’]*$/u, { error: "amount" }),
+    .transform(stripControls)
+    .pipe(
+      z
+        .string()
+        .min(1, { error: "required" })
+        .max(LIMITS.amount, { error: "tooLong" })
+        .regex(/^\d[\d\s.,'’]*$/u, { error: "amount" }),
+    ),
   currency: z.enum(currencies, { error: "required" }),
   country: text(LIMITS.country),
   timeline: z.enum(timelines, { error: "required" }),
@@ -57,16 +63,20 @@ export const stepTwoSchema = z.object({
   company: text(LIMITS.company),
   email: z
     .string(required)
-    .trim()
-    .min(1, { error: "required" })
-    .max(LIMITS.email, { error: "tooLong" })
+    .transform(stripControls)
+    .pipe(z.string().min(1, { error: "required" }).max(LIMITS.email, { error: "tooLong" }))
     .pipe(z.email({ error: "email" })),
   phone: z
     .string()
-    .trim()
-    .max(LIMITS.phone, { error: "tooLong" })
+    .transform(stripControls)
+    .pipe(z.string().max(LIMITS.phone, { error: "tooLong" }))
     .refine((v) => v === "" || /^\+?[\d\s().-]{6,}$/.test(v), { error: "phone" }),
   channel: z.enum(channels, { error: "required" }),
+}).check((ctx) => {
+  // Être rappelé suppose un numéro.
+  if (ctx.value.channel === "phone" && ctx.value.phone === "") {
+    ctx.issues.push({ code: "custom", message: "phoneRequired", path: ["phone"], input: ctx.value.phone });
+  }
 });
 
 export const contactFieldsSchema = stepOneSchema.extend(stepTwoSchema.shape);
@@ -76,28 +86,55 @@ export const contactRequestSchema = contactFieldsSchema.extend({
   locale: z.enum(["fr", "en"]),
   token: z.string().min(1).max(200),
   idempotencyKey: z.string().regex(/^[a-zA-Z0-9-]{8,64}$/),
-  /** Pot de miel : doit rester vide. */
-  website: z.string().max(0).optional(),
+  /** Pot de miel : accepté tel quel, traité en silence par la route. */
+  website: z.string().max(500).optional(),
 });
 
 export type ContactFields = z.infer<typeof contactFieldsSchema>;
 export type ContactRequest = z.infer<typeof contactRequestSchema>;
 export type FieldErrors = Partial<Record<keyof ContactFields, FieldErrorCode>>;
 
-const knownCodes: FieldErrorCode[] = ["required", "email", "amount", "tooLong", "tooShort", "phone"];
+export const knownCodes: readonly FieldErrorCode[] = ["required", "email", "amount", "tooLong", "tooShort", "phone", "phoneRequired"];
 
-/** Transforme les problèmes zod en codes d'erreur par champ (premier problème seulement). */
+export function isFieldErrorCode(value: unknown): value is FieldErrorCode {
+  return typeof value === "string" && (knownCodes as readonly string[]).includes(value);
+}
+
+export function isContactField(value: unknown): value is keyof ContactFields {
+  return typeof value === "string" && value in emptyContactFields;
+}
+
+/** Transforme les problèmes zod en codes d'erreur par champ (champs du formulaire seulement, premier problème). */
 export function toFieldErrors(issues: z.core.$ZodIssue[]): FieldErrors {
   const errors: FieldErrors = {};
   for (const issue of issues) {
     const field = issue.path[0];
-    if (typeof field !== "string" || field in errors) continue;
-    const code = knownCodes.includes(issue.message as FieldErrorCode)
-      ? (issue.message as FieldErrorCode)
-      : "required";
-    errors[field as keyof ContactFields] = code;
+    if (!isContactField(field) || field in errors) continue;
+    errors[field] = isFieldErrorCode(issue.message) ? issue.message : "required";
   }
   return errors;
+}
+
+/** Erreurs d'enveloppe (hors champs du formulaire) : jeton ou requête invalide. */
+export function envelopeErrorCode(issues: z.core.$ZodIssue[]): "token" | "invalid" | null {
+  let code: "token" | "invalid" | null = null;
+  for (const issue of issues) {
+    const field = issue.path[0];
+    if (isContactField(field)) continue;
+    if (field === "token") return "token";
+    code = "invalid";
+  }
+  return code;
+}
+
+/** Nettoie les erreurs renvoyées par le serveur avant affichage. */
+export function sanitizeFieldErrors(input: unknown): FieldErrors {
+  const out: FieldErrors = {};
+  if (!input || typeof input !== "object") return out;
+  for (const [key, value] of Object.entries(input as Record<string, unknown>)) {
+    if (isContactField(key) && isFieldErrorCode(value)) out[key] = value;
+  }
+  return out;
 }
 
 export function validateStep(step: 1 | 2, values: Record<string, string>): FieldErrors {

@@ -29,7 +29,7 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
       <div className="container-x grid grid-cols-1 gap-14 py-14 md:py-20 lg:grid-cols-12 lg:gap-8">
         <aside className="order-2 lg:order-1 lg:col-span-4">
           <div className="lg:sticky lg:top-[calc(var(--header-h)+2rem)]">
-            <p className="eyebrow mb-4">{t.aside.title}</p>
+            <h2 className="eyebrow mb-4">{t.aside.title}</h2>
             <ul className="space-y-3 border-t border-forest pt-5">
               {t.aside.items.map((item) => (
                 <li key={item} className="flex gap-4 font-sans text-[0.9375rem] leading-relaxed text-ink">
@@ -40,7 +40,7 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
             </ul>
             <p className="mt-8 border-l border-champagne pl-4 font-sans text-sm leading-relaxed text-ink-soft">{t.aside.confidentiality}</p>
 
-            <p className="eyebrow mb-4 mt-12">{t.aside.detailsTitle}</p>
+            <h2 className="eyebrow mb-4 mt-12">{t.aside.detailsTitle}</h2>
             {hasContactDetails() ? (
               <address className="not-italic font-sans text-[0.9375rem] text-ink">
                 {c.addressLines.map((line) => (
@@ -68,7 +68,7 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
         <div className="order-1 relative lg:order-2 lg:col-span-7 lg:col-start-6">
           {demo ? (
             <p className="mb-8 border-l-2 border-champagne bg-ivory-deep/60 px-4 py-3 font-sans text-sm text-ink-soft" role="note">
-              {t.form.result.demoTitle}
+              {t.form.result.demoBanner}
             </p>
           ) : null}
           <ContactForm locale={locale} t={t.form} token={token} financingOptions={financingOptions} />

@@ -15,6 +15,7 @@ export const common: CommonContent = {
     menuOpen: "Open menu",
     menuClose: "Close menu",
     menuLabel: "Main navigation",
+    menuTitle: "Menu",
     skipToContent: "Skip to content",
     home: "ARASTE CAPITAL — home",
   },
@@ -39,24 +40,21 @@ export const common: CommonContent = {
     tagline: "Independent Financing Advisory",
   },
   ui: {
-    readMore: "Read more",
-    discover: "Discover",
     allExpertises: "All areas of expertise",
-    backHome: "Back to home",
-    illustrationNote:
-      "These situations are illustrative. They do not describe completed transactions and do not prejudge the outcome of any case.",
     breadcrumbLabel: "Breadcrumb",
-    decorativeVisual: "Decorative visual",
+    contents: "Contents",
   },
   notFound: {
     title: "This page does not exist.",
-    body: "The requested address could not be found or has changed. You can return to the home page or browse our expertise.",
+    body: "The requested address could not be found or has changed. You can return to the home page or browse our areas of expertise.",
     cta: "Back to home",
   },
   error: {
+    eyebrow: "Error",
     title: "Something went wrong.",
     body: "The page could not be displayed. You can try again or return to the home page.",
     retry: "Try again",
+    home: "Back to home",
   },
   loading: "Loading",
 };

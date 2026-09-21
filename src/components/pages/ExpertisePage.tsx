@@ -111,13 +111,13 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
       </section>
 
       {related.length > 0 ? (
-        <section className="container-x py-16 md:py-20" aria-label={dict.common.footer.expertisesTitle}>
-          <Eyebrow className="mb-6">{dict.common.footer.expertisesTitle}</Eyebrow>
+        <section className="container-x py-16 md:py-20" aria-labelledby="related-title">
+          <Eyebrow as="h2" id="related-title" className="mb-6">{dict.common.footer.expertisesTitle}</Eyebrow>
           <ul className="grid grid-cols-1 gap-px border-t border-stone md:grid-cols-3">
             {related.map((key) => (
               <li key={key} className="border-b border-stone md:border-b-0 md:border-r md:last:border-r-0">
                 <Link href={expertisePath(locale, key)} className="group block py-6 md:pr-6">
-                  <span className="eyebrow block text-[0.68rem]">{dict.expertises[key].eyebrow}</span>
+                  <span className="eyebrow block">{dict.expertises[key].eyebrow}</span>
                   <span className="link-line mt-2 inline-block font-serif text-2xl font-medium text-forest">{dict.expertises[key].title}</span>
                 </Link>
               </li>

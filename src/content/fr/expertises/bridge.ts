@@ -8,7 +8,7 @@ export const bridge: ExpertiseContent = {
   },
   title: "Financement relais",
   shortTitle: "Financement relais",
-  eyebrow: "Bridge finance",
+  eyebrow: "Le temps d'une sortie identifiée",
   summary:
     "Une ressource de transition pour une acquisition, une échéance ou une opération, dans l'attente d'une vente, d'un refinancement ou d'une autre sortie identifiée.",
   lead: "Un financement relais couvre le temps qui sépare un besoin immédiat d'une ressource attendue. Sa qualité se juge à la solidité de la sortie envisagée, à la cohérence des garanties et à la précision du dossier, bien plus qu'à sa rapidité supposée.",
@@ -20,7 +20,7 @@ export const bridge: ExpertiseContent = {
         "Sécuriser une acquisition avant la mise en place du financement de long terme.",
         "Faire face à une échéance de dette dans l'attente d'un refinancement en cours.",
         "Financer une opération dans l'attente de la vente d'un actif identifié.",
-        "Couvrir la période séparant un investissement de la levée ou de l'entrée d'un partenaire.",
+        "Couvrir la période séparant un investissement d'une levée de fonds ou de l'entrée d'un partenaire.",
         "Libérer un calendrier contraint par une condition suspensive ou un délai administratif.",
       ],
     },
@@ -47,7 +47,7 @@ export const bridge: ExpertiseContent = {
     limits: {
       title: "Ce que nous ne promettons pas",
       paragraphs: [
-        "Nous n'indiquons ni durée, ni taux, ni délai d'obtention avant d'avoir étudié l'opération : ces paramètres dépendent du dossier, des garanties et des prêteurs consultés. Un financement relais reste plus coûteux qu'un financement de long terme et ne se justifie que par une sortie crédible.",
+        "Nous n'indiquons ni durée, ni taux, ni délai d'obtention avant d'avoir étudié l'opération : ces paramètres dépendent du dossier, des garanties et des prêteurs consultés. Un financement relais est généralement plus coûteux qu'un financement de long terme et ne se justifie que par une sortie crédible.",
         "Nous ne garantissons pas l'obtention d'un financement. Notre engagement porte sur la qualité de l'analyse, la clarté de la présentation et la pertinence des pistes explorées.",
       ],
     },
@@ -55,7 +55,7 @@ export const bridge: ExpertiseContent = {
   related: ["complex", "refinancing", "development"],
   cta: {
     title: "Une transition à financer ?",
-    body: "Présentez-nous l'opération, sa sortie envisagée et son calendrier. Nous vous dirons rapidement si un relais nous paraît envisageable.",
+    body: "Présentez-nous l'opération, sa sortie envisagée et son calendrier. Nous vous dirons sans détour si un relais nous paraît envisageable.",
     button: "Présenter une opération",
   },
 };

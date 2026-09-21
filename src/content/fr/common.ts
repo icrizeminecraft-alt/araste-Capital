@@ -4,7 +4,7 @@ export const common: CommonContent = {
   meta: {
     siteName: "ARASTE CAPITAL",
     defaultDescription:
-      "Conseil indépendant en financements professionnels : financements relais, refinancements et opérations complexes pour les emprunteurs professionnels.",
+      "Conseil indépendant en financements professionnels : financements relais, refinancements et dossiers complexes, côté emprunteur.",
   },
   nav: {
     firm: "Le cabinet",
@@ -15,6 +15,7 @@ export const common: CommonContent = {
     menuOpen: "Ouvrir le menu",
     menuClose: "Fermer le menu",
     menuLabel: "Navigation principale",
+    menuTitle: "Menu",
     skipToContent: "Aller au contenu",
     home: "ARASTE CAPITAL — accueil",
   },
@@ -39,14 +40,9 @@ export const common: CommonContent = {
     tagline: "Conseil indépendant en financements professionnels",
   },
   ui: {
-    readMore: "Lire la suite",
-    discover: "Découvrir",
     allExpertises: "Toutes les expertises",
-    backHome: "Retour à l'accueil",
-    illustrationNote:
-      "Ces situations sont des illustrations pédagogiques. Elles ne décrivent pas des opérations réalisées et ne préjugent pas de l'issue d'un dossier.",
     breadcrumbLabel: "Fil d'Ariane",
-    decorativeVisual: "Visuel décoratif",
+    contents: "Sommaire",
   },
   notFound: {
     title: "Cette page n'existe pas.",
@@ -54,9 +50,11 @@ export const common: CommonContent = {
     cta: "Retour à l'accueil",
   },
   error: {
+    eyebrow: "Erreur",
     title: "Une erreur est survenue.",
     body: "La page n'a pas pu être affichée. Vous pouvez réessayer ou revenir à l'accueil.",
     retry: "Réessayer",
+    home: "Retour à l'accueil",
   },
   loading: "Chargement",
 };

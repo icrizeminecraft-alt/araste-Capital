@@ -63,21 +63,23 @@ export function MobileMenu({
         aria-haspopup="dialog"
         aria-expanded={open}
         aria-controls="mobile-menu"
+        aria-label={t.nav.menuOpen}
         className="flex min-h-[2.75rem] min-w-[2.75rem] items-center justify-center gap-2 font-sans text-[0.875rem] uppercase tracking-[0.14em] text-forest"
       >
-        <span className="hidden xs:inline">Menu</span>
+        <span aria-hidden="true" className="hidden xs:inline">
+          {t.nav.menuTitle}
+        </span>
         <span aria-hidden="true" className="flex w-6 flex-col gap-[5px]">
           <span className="block h-px w-full bg-forest" />
           <span className="block h-px w-full bg-forest" />
           <span className="block h-px w-3/4 bg-forest" />
         </span>
-        <span className="sr-only">{t.nav.menuOpen}</span>
       </button>
 
       <dialog
         ref={dialogRef}
         id="mobile-menu"
-        aria-label={t.nav.menuLabel}
+        aria-label={t.nav.menuTitle}
         onClose={() => setOpen(false)}
         onClick={(event) => {
           // Clic sur le fond (hors du panneau) : fermeture.
@@ -93,14 +95,17 @@ export function MobileMenu({
             <button
               type="button"
               onClick={close}
+              autoFocus
+              aria-label={t.nav.menuClose}
               className="flex min-h-[2.75rem] min-w-[2.75rem] items-center justify-center gap-2 font-sans text-[0.875rem] uppercase tracking-[0.14em] text-ivory"
             >
-              <span className="hidden xs:inline">{t.nav.menuClose}</span>
+              <span aria-hidden="true" className="hidden xs:inline">
+                {t.nav.menuClose}
+              </span>
               <span aria-hidden="true" className="relative block h-5 w-5">
                 <span className="absolute left-0 top-1/2 h-px w-full rotate-45 bg-ivory" />
                 <span className="absolute left-0 top-1/2 h-px w-full -rotate-45 bg-ivory" />
               </span>
-              <span className="sr-only xs:hidden">{t.nav.menuClose}</span>
             </button>
           </div>
 
@@ -129,7 +134,7 @@ export function MobileMenu({
             </div>
           </nav>
 
-          <p className="container-x shrink-0 border-t border-champagne/20 py-5 font-sans text-xs uppercase tracking-[0.18em] text-champagne-light">
+          <p className="container-x shrink-0 border-t border-champagne/20 py-5 font-serif text-lg text-champagne-light">
             {t.footer.tagline}
           </p>
         </div>

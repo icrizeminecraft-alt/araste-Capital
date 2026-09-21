@@ -25,7 +25,9 @@ export default defineConfig({
   webServer: {
     command: `npm run build && npx next start -p ${port}`,
     url: `${baseURL}/fr`,
-    reuseExistingServer: !process.env.CI,
+    // Un serveur déjà lancé n'est réutilisé que sur demande explicite, afin de
+    // ne jamais tester contre un déploiement configuré avec un vrai fournisseur.
+    reuseExistingServer: process.env.PLAYWRIGHT_REUSE_SERVER === "1",
     timeout: 240_000,
     env: { CONTACT_PROVIDER: "none", SITE_INDEXABLE: "false", PLAYWRIGHT_TEST_ENV: "1" },
   },

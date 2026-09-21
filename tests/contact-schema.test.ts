@@ -1,5 +1,13 @@
 import { describe, expect, it } from "vitest";
-import { contactRequestSchema, validateStep, LIMITS, toFieldErrors, stepOneSchema } from "@/lib/contact/schema";
+import {
+  contactRequestSchema,
+  validateStep,
+  LIMITS,
+  toFieldErrors,
+  stepOneSchema,
+  envelopeErrorCode,
+  sanitizeFieldErrors,
+} from "@/lib/contact/schema";
 
 const validStepOne = {
   financingType: "bridge",
@@ -48,11 +56,33 @@ describe("contactRequestSchema", () => {
   it("accepte une enveloppe complète", () => {
     expect(contactRequestSchema.safeParse(envelope).success).toBe(true);
   });
-  it("refuse un pot de miel rempli", () => {
-    expect(contactRequestSchema.safeParse({ ...envelope, website: "http://spam" }).success).toBe(false);
+  it("accepte un pot de miel rempli (traité en silence par la route)", () => {
+    expect(contactRequestSchema.safeParse({ ...envelope, website: "http://spam" }).success).toBe(true);
   });
   it("refuse une clé d'idempotence mal formée", () => {
     expect(contactRequestSchema.safeParse({ ...envelope, idempotencyKey: "x" }).success).toBe(false);
+  });
+  it("distingue les erreurs d'enveloppe des erreurs de champ", () => {
+    const noToken = contactRequestSchema.safeParse({ ...envelope, token: "" });
+    expect(noToken.success).toBe(false);
+    if (!noToken.success) {
+      expect(toFieldErrors(noToken.error.issues)).toEqual({});
+      expect(envelopeErrorCode(noToken.error.issues)).toBe("token");
+    }
+    const badLocale = contactRequestSchema.safeParse({ ...envelope, locale: "de" });
+    if (!badLocale.success) expect(envelopeErrorCode(badLocale.error.issues)).toBe("invalid");
+  });
+  it("neutralise les caractères de contrôle des champs monolignes", () => {
+    const result = contactRequestSchema.safeParse({ ...envelope, country: "France\nX-Injected: yes" });
+    expect(result.success).toBe(true);
+    if (result.success) expect(result.data.country).toBe("France X-Injected: yes");
+  });
+});
+
+describe("sanitizeFieldErrors", () => {
+  it("ne garde que les champs et codes connus", () => {
+    expect(sanitizeFieldErrors({ email: "email", token: "required", name: "bogus", x: 1 })).toEqual({ email: "email" });
+    expect(sanitizeFieldErrors(null)).toEqual({});
   });
 });
 

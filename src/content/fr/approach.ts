@@ -42,7 +42,7 @@ export const approach: ApproachContent = {
     },
     {
       title: "Accompagner jusqu'à l'issue",
-      body: "Une fois une piste retenue, nous suivons les échanges jusqu'à leur conclusion, en coordination avec vos conseils juridiques, fiscaux et comptables, dans le respect du rôle de chacun.",
+      body: "Une fois une piste retenue, nous suivons les échanges jusqu'à leur conclusion, en coordination avec vos conseils juridiques, fiscaux et comptables.",
       details: [
         "Suivi des conditions suspensives et des demandes complémentaires.",
         "Coordination avec les avocats, notaires et experts-comptables.",
@@ -57,8 +57,8 @@ export const approach: ApproachContent = {
     body: "Le conseil juridique, fiscal et comptable relève de vos conseils habituels. Notre rôle est de rendre l'opération lisible pour un prêteur et de conduire la recherche de financement. Cette répartition des rôles est claire dès le premier échange.",
   },
   cta: {
-    title: "Parlons de votre prochaine opération.",
-    body: "Quelques éléments suffisent pour un premier échange. Nous vous dirons rapidement si nous pouvons être utiles.",
+    title: "Une opération à nous présenter ?",
+    body: "Un premier échange suffit pour situer le besoin. Nous vous dirons franchement si nous pouvons être utiles.",
     button: "Présenter une opération",
   },
 };

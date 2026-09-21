@@ -20,7 +20,7 @@ export const firm: FirmContent = {
     items: [
       {
         title: "Discernement",
-        body: "Chaque opération est étudiée pour ce qu'elle est. Nous disons lorsqu'une piste nous paraît peu réaliste, et pourquoi.",
+        body: "Chaque opération est étudiée pour ce qu'elle est. Nous le disons lorsqu'une piste nous paraît peu réaliste, et nous expliquons pourquoi.",
       },
       {
         title: "Précision",
@@ -28,7 +28,7 @@ export const firm: FirmContent = {
       },
       {
         title: "Discrétion",
-        body: "Les informations confiées restent strictement limitées aux échanges nécessaires à la recherche de financement.",
+        body: "Les informations confiées ne sont partagées que dans le cadre des échanges nécessaires à la recherche de financement.",
       },
       {
         title: "Coordination",
@@ -39,7 +39,7 @@ export const firm: FirmContent = {
   scope: {
     eyebrow: "Périmètre",
     title: "Ce que nous faisons, et ce que nous ne faisons pas.",
-    body: "Notre activité est celle d'un conseil et d'un intermédiaire en financements professionnels. Le périmètre exact des prestations, ainsi que le statut réglementaire correspondant, sont précisés dans les informations légales.",
+    body: "Notre activité est celle d'un conseil et d'un intermédiaire en financements professionnels. Le périmètre exact des prestations et le statut réglementaire applicable seront précisés dans les mentions légales.",
     items: [
       "Analyse d'un besoin de financement professionnel et de sa faisabilité.",
       "Préparation et structuration de la présentation du dossier.",
@@ -51,6 +51,7 @@ export const firm: FirmContent = {
       "Crédit à la consommation et financement des particuliers.",
       "Gestion de portefeuille, gestion de fortune et conseil en placement.",
       "Commercialisation de fonds ou collecte auprès d'investisseurs.",
+      "Maîtrise d'ouvrage, conduite de projet et gestion technique des opérations immobilières.",
       "Conseil juridique ou fiscal, qui relève de vos conseils habituels.",
     ],
   },

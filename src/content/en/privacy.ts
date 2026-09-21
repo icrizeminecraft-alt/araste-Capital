@@ -31,15 +31,15 @@ export const privacy: LegalContent = {
     {
       title: "Contact form",
       paragraphs: [
-        "When you present a transaction, you provide us with: the type of financing, an amount and a currency, the country of the transaction, a timing, a brief description, your name, your company, your email address, an optional telephone number and your preferred contact channel.",
-        "This information is used solely to review your request and respond to it. It is not used for marketing purposes and is not passed on to third parties.",
-        "The form asks for no identity document, bank statement or financial document. A limit on the number of requests per period is applied to prevent automated submissions; it relies on a temporary technical fingerprint of the connection, without storing the IP address in clear text.",
+        "When you present a transaction, you provide us with the details of the need: the type of financing, an amount and a currency, the country of the transaction, an intended timeframe and a brief description. You also provide your name, your company, your email address, an optional telephone number and your preferred contact channel.",
+        "This information is used solely to review your request and respond to it. It is not used for marketing purposes and is not sold or disclosed to third parties, other than the service provider that delivers your request to us (identified below).",
+        "The form asks for no identity document, bank statement or financial document. A limit on the number of requests per period is applied to prevent automated submissions. It relies on a temporary technical fingerprint of the connection; the application itself does not store the IP address in clear text.",
       ],
     },
     {
       title: "Transmission and retention",
       paragraphs: [
-        "Requests are transmitted to the firm by the messaging provider identified below, then handled by the people in charge of cases. When no provider is configured, the form says so and no data is transmitted.",
+        "Requests are transmitted to the firm by the messaging provider identified below, then handled by the people in charge of cases. When no provider is configured, the form says so and nothing is forwarded or kept.",
       ],
       pending: [
         "Messaging or routing provider for requests",
@@ -57,15 +57,16 @@ export const privacy: LegalContent = {
     {
       title: "Your rights",
       paragraphs: [
-        "You may request access to, rectification or erasure of information concerning you, object to its processing or request its restriction, by writing to the address indicated above. You may also lodge a complaint with the competent supervisory authority.",
+        "You may request access to, rectification or erasure of information concerning you, object to its processing or request its restriction, by writing to the contact indicated in the “Data controller” section. You may also lodge a complaint with the competent supervisory authority.",
       ],
       pending: ["Competent supervisory authority depending on the jurisdiction"],
     },
     {
       title: "Technical logs",
       paragraphs: [
-        "The server may record limited technical logs (response code, timestamp) required for the security and proper operation of the site. The content of contact requests is not written to these logs.",
+        "The application does not write the content of contact requests to its logs. The server and its hosting provider may record limited technical logs (for example response code, timestamp and connection data) required for the security and proper operation of the site, under their own terms.",
       ],
+      pending: ["Scope and retention of the hosting provider's access logs"],
     },
   ],
 };

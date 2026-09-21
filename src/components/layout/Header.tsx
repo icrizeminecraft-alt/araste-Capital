@@ -5,6 +5,7 @@ import { pagePath } from "@/config/routes";
 import { Wordmark } from "@/components/brand/Wordmark";
 import { LocaleSwitcher } from "@/components/layout/LocaleSwitcher";
 import { MobileMenu } from "@/components/layout/MobileMenu";
+import { NavLink } from "@/components/layout/NavLink";
 
 export type NavLink = { label: string; href: string };
 
@@ -28,12 +29,13 @@ export function Header({ locale, t }: { locale: Locale; t: CommonContent }) {
           <ul className="flex items-center gap-8">
             {links.map((link) => (
               <li key={link.href}>
-                <Link
+                <NavLink
                   href={link.href}
                   className="link-line whitespace-nowrap font-sans text-[0.9375rem] text-ink hover:text-forest"
+                  currentClassName="text-forest [background-image:linear-gradient(var(--color-champagne),var(--color-champagne))] [background-size:100%_2px]"
                 >
                   {link.label}
-                </Link>
+                </NavLink>
               </li>
             ))}
           </ul>

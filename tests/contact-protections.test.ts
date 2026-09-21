@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { createFormToken, verifyFormToken } from "@/lib/contact/token";
-import { SlidingWindowLimiter, RecentKeys, fingerprint, clientIp } from "@/lib/contact/rate-limit";
+import { SlidingWindowLimiter, RecentKeys, fingerprint, clientAddress } from "@/lib/contact/rate-limit";
 
 const secret = "test-secret";
 
@@ -36,6 +36,13 @@ describe("limitation de débit", () => {
     expect(limiter.hit("b", 20).allowed).toBe(true);
     expect(limiter.hit("a", 1001).allowed).toBe(true);
   });
+  it("accepte une limite plus large pour le compartiment partagé", () => {
+    const limiter = new SlidingWindowLimiter(1, 1000);
+    expect(limiter.hit("shared", 0, 3).allowed).toBe(true);
+    expect(limiter.hit("shared", 1, 3).allowed).toBe(true);
+    expect(limiter.hit("shared", 2, 3).allowed).toBe(true);
+    expect(limiter.hit("shared", 3, 3).allowed).toBe(false);
+  });
 });
 
 describe("clés récentes", () => {
@@ -44,6 +51,12 @@ describe("clés récentes", () => {
     expect(keys.add("k", 0)).toBe(true);
     expect(keys.add("k", 500)).toBe(false);
     expect(keys.add("k", 1500)).toBe(true);
+  });
+  it("libère une clé après un envoi échoué", () => {
+    const keys = new RecentKeys(1000);
+    expect(keys.add("k", 0)).toBe(true);
+    keys.release("k");
+    expect(keys.add("k", 10)).toBe(true);
   });
 });
 
@@ -54,9 +67,13 @@ describe("empreinte", () => {
     expect(a).toHaveLength(32);
     expect(fingerprint("203.0.113.7", "s2")).not.toBe(a);
   });
-  it("lit l'adresse depuis les en-têtes de proxy", () => {
-    expect(clientIp(new Headers({ "x-forwarded-for": "203.0.113.7, 10.0.0.1" }))).toBe("203.0.113.7");
-    expect(clientIp(new Headers({ "x-real-ip": "203.0.113.9" }))).toBe("203.0.113.9");
-    expect(clientIp(new Headers())).toBe("unknown");
+  it("retient l'adresse ajoutée par le mandataire de confiance, pas celle fournie par le client", () => {
+    // Un saut de confiance : l'adresse est la dernière de X-Forwarded-For.
+    expect(clientAddress(new Headers({ "x-forwarded-for": "forged, 203.0.113.7" }), 1)).toEqual({ ip: "203.0.113.7", trusted: true });
+    // Deux sauts : l'avant-dernière.
+    expect(clientAddress(new Headers({ "x-forwarded-for": "forged, 203.0.113.7, 10.0.0.1" }), 2)).toEqual({ ip: "203.0.113.7", trusted: true });
+    expect(clientAddress(new Headers({ "cf-connecting-ip": "203.0.113.5", "x-forwarded-for": "forged" }), 1).ip).toBe("203.0.113.5");
+    expect(clientAddress(new Headers({ "x-real-ip": "203.0.113.9" }), 1).ip).toBe("203.0.113.9");
+    expect(clientAddress(new Headers(), 1)).toEqual({ ip: "unknown", trusted: false });
   });
 });

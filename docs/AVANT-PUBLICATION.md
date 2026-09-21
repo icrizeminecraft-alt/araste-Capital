@@ -27,6 +27,9 @@ Le site est un projet de communication à valider, pas une attestation de confor
 - [ ] Prestataire de messagerie ou d'acheminement des demandes (Resend, webhook, autre)
 - [ ] Durée de conservation des demandes de contact
 - [ ] Relecture juridique des mentions légales et de la politique de confidentialité ; retirer les blocs « à compléter » une fois renseignés
+- [ ] Vérifier les renvois internes une fois les champs renseignés : « le contact indiqué dans la section Responsable du traitement » (confidentialité), « seront précisés dans les mentions légales » (page Le cabinet, à passer au présent)
+- [ ] Portée et durée des journaux d'accès tenus par l'hébergeur
+- [ ] Titularité des droits sur le logotype, le monogramme et les compositions visuelles ; dépôt éventuel de la marque
 - [ ] Date de dernière mise à jour
 
 ## 4. Technique

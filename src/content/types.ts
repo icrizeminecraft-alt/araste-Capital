@@ -20,6 +20,7 @@ export type CommonContent = {
     menuOpen: string;
     menuClose: string;
     menuLabel: string;
+    menuTitle: string;
     skipToContent: string;
     home: string;
   };
@@ -43,16 +44,12 @@ export type CommonContent = {
     tagline: string;
   };
   ui: {
-    readMore: string;
-    discover: string;
     allExpertises: string;
-    backHome: string;
-    illustrationNote: string;
     breadcrumbLabel: string;
-    decorativeVisual: string;
+    contents: string;
   };
   notFound: { title: string; body: string; cta: string };
-  error: { title: string; body: string; retry: string };
+  error: { eyebrow: string; title: string; body: string; retry: string; home: string };
   loading: string;
 };
 
@@ -177,7 +174,11 @@ export type ContactContent = {
   };
   form: {
     stepLabel: string; // "Étape {current} sur {total}"
+    stepsLabel: string;
     steps: { title: string; description: string }[];
+    noscript: string;
+    honeypotLabel: string;
+    errorSummary: string; // "{count} champ(s) demandent votre attention."
     fields: {
       financingType: { label: string; placeholder: string; other: string };
       amount: { label: string; hint: string };
@@ -206,7 +207,9 @@ export type ContactContent = {
       tooLong: string;
       tooShort: string;
       phone: string;
+      phoneRequired: string;
       formInvalid: string;
+      tooLarge: string;
       network: string;
       rateLimited: string;
       server: string;
@@ -218,7 +221,7 @@ export type ContactContent = {
       sentBody: string;
       demoTitle: string;
       demoBody: string;
-      errorTitle: string;
+      demoBanner: string;
       newRequest: string;
     };
   };

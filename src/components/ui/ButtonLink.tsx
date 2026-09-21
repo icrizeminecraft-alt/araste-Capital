@@ -46,7 +46,7 @@ export function ArrowLink({
       className={`link-line font-sans text-[0.9375rem] font-medium ${dark ? "text-ivory" : "text-forest"} ${className}`}
     >
       {children}
-      <span aria-hidden="true" className="ml-2 inline-block transition-transform duration-300 group-hover:translate-x-1">
+      <span aria-hidden="true" className="ml-2 inline-block">
         →
       </span>
     </Link>

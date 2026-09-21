@@ -18,7 +18,7 @@ export function Situations({ locale, t, dict }: { locale: Locale; t: HomeContent
             const enabled = siteConfig.expertises[item.expertise];
             return (
               <Reveal as="article" key={item.title} className="flex flex-col border-t-2 border-forest pt-6" delay={i as 0 | 1 | 2}>
-                <p className="eyebrow mb-4 text-[0.68rem]">{String(i + 1).padStart(2, "0")}</p>
+                <p className="eyebrow mb-4">{String(i + 1).padStart(2, "0")}</p>
                 <h3 className="font-serif text-[1.6rem] font-medium leading-tight text-forest">{item.title}</h3>
                 <p className="mt-4 font-sans text-[0.9375rem] leading-relaxed text-ink-soft">{item.body}</p>
                 {enabled ? (

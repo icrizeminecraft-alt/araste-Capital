@@ -12,9 +12,9 @@ export function JsonLd({ locale }: { locale: Locale }) {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: siteConfig.brand.name,
-    legalName: siteConfig.brand.legalName,
     slogan: siteConfig.brand.tagline[locale],
   };
+  if (siteConfig.brand.legalNameConfirmed) data.legalName = siteConfig.brand.legalName;
   if (siteConfig.siteUrl) {
     data.url = `${siteConfig.siteUrl}/${locale}`;
     data.logo = `${siteConfig.siteUrl}/icon.svg`;

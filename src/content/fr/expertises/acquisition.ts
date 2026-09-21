@@ -8,7 +8,7 @@ export const acquisition: ExpertiseContent = {
   },
   title: "Acquisition et investissement immobilier en société",
   shortTitle: "Acquisition immobilière",
-  eyebrow: "Actifs détenus dans un cadre professionnel",
+  eyebrow: "Cadre professionnel",
   summary:
     "La recherche et la structuration du financement d'un actif immobilier détenu dans un cadre professionnel : résidentiel d'investissement, commercial, hôtelier ou portefeuille d'actifs, pour une société, une holding ou un véhicule d'investissement, dans la limite du périmètre effectivement proposé.",
   lead: "Acquérir un actif immobilier dans un cadre professionnel engage une société, son bilan et un calendrier. Nous recherchons et structurons, côté emprunteur, le financement de cette acquisition, qu'elle porte sur un actif isolé ou sur un portefeuille. Le dossier doit rendre lisibles l'actif, ses revenus, la structure qui l'acquiert et la manière dont la dette sera portée puis remboursée.",

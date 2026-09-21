@@ -41,7 +41,7 @@ npm run test:e2e    # Playwright : navigation, 404, langues, menu mobile, formul
 npm run check       # typecheck + lint + test
 ```
 
-Les tests de bout en bout construisent puis démarrent le site sur le port 3100 en mode démonstration. Si Playwright ne peut pas télécharger Chromium, indiquez un exécutable existant : `PLAYWRIGHT_CHROMIUM_EXECUTABLE=/chemin/vers/chromium npm run test:e2e`. Les tests utilisent uniquement des données fictives et ne peuvent déclencher aucun envoi réel.
+Les tests de bout en bout construisent puis démarrent le site sur le port 3100 en mode démonstration (`CONTACT_PROVIDER=none`), et n'utilisent que des données fictives. Un serveur déjà lancé sur ce port n'est réutilisé qu'avec `PLAYWRIGHT_REUSE_SERVER=1`, pour ne jamais tester contre un déploiement relié à un vrai fournisseur. Si Playwright ne peut pas télécharger Chromium, indiquez un exécutable existant : `PLAYWRIGHT_CHROMIUM_EXECUTABLE=/chemin/vers/chromium npm run test:e2e`.
 
 ## Arborescence
 
@@ -65,6 +65,7 @@ src/
     contact/ContactForm.tsx   formulaire en deux étapes
     visuals/                  compositions SVG et emplacement visuel
     ui/                       éléments réutilisables
+  instrumentation.ts        avertissements de configuration au démarrage (production)
   content/
     types.ts                  structure des contenus
     fr/, en/                  dictionnaires (une page par fichier, une expertise par fichier)
@@ -92,7 +93,17 @@ tests/, e2e/                  tests unitaires et de bout en bout
 
 ## Formulaire de contact
 
-Deux étapes (opération, puis coordonnées), données conservées en mémoire lors du retour, aucun stockage navigateur, URL ou analytics. Côté serveur : validation Zod, limite de taille (16 Ko), jeton signé HMAC (envoi refusé avant 3 s ou après 24 h), pot de miel, limitation de débit par empreinte salée de l'adresse IP, prévention des doubles envois par clé d'idempotence, journaux sans contenu.
+Deux étapes (opération, puis coordonnées), données conservées en mémoire lors du retour, aucun stockage navigateur, URL ou analytics. Sans JavaScript, un message l'indique et renvoie aux coordonnées de la page.
+
+Côté serveur (`src/app/api/contact/route.ts`) :
+
+- validation Zod partagée avec le client, caractères de contrôle neutralisés dans les champs monolignes ;
+- corps lu en flux et plafonné à 16 Ko (octets), quel que soit l'en-tête Content-Length ;
+- jeton signé HMAC émis au rendu de la page (envoi refusé avant 3 s ou après 24 h) ;
+- pot de miel : un champ caché rempli déclenche une réponse neutre, sans envoi ni indice ;
+- limitation de débit par empreinte salée de l'adresse IP (`TRUSTED_PROXY_HOPS` définit quel mandataire est de confiance ; sans adresse fiable, compartiment partagé à limite élargie) ;
+- clé d'idempotence contre les doubles envois, libérée si le fournisseur échoue afin qu'un nouvel essai reste possible ;
+- refus des requêtes déclarées inter-sites (`Sec-Fetch-Site`), journaux sans contenu.
 
 Fournisseurs (`CONTACT_PROVIDER`) :
 
@@ -102,19 +113,27 @@ Fournisseurs (`CONTACT_PROVIDER`) :
 | `resend` | Envoi par l'API Resend (`RESEND_API_KEY`, `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL`). |
 | `webhook` | POST JSON vers `CONTACT_WEBHOOK_URL`, jeton Bearer facultatif (`CONTACT_WEBHOOK_TOKEN`). |
 
-En production, définir `CONTACT_FORM_SECRET`. La limitation de débit et l'idempotence sont en mémoire par processus : sur une plateforme à plusieurs instances ou fonctions éphémères, les remplacer par un magasin partagé (Redis, KV) dans `src/lib/contact/rate-limit.ts`.
+Replis à connaître :
 
-## Indexation et URL
+- sans `CONTACT_FORM_SECRET`, un secret éphémère par processus est utilisé : suffisant en développement, incompatible avec plusieurs instances (jetons rejetés aléatoirement). Définir une valeur d'au moins 32 caractères en production ;
+- si `CONTACT_PROVIDER` vaut `resend` ou `webhook` mais que sa configuration est incomplète, le formulaire retombe en mode démonstration et l'annonce ;
+- ces deux situations sont signalées dans les journaux du serveur au démarrage en production (`src/instrumentation.ts`).
+
+La limitation de débit et l'idempotence sont en mémoire par processus : sur une plateforme à plusieurs instances ou fonctions éphémères, les remplacer par un magasin partagé (Redis, KV) dans `src/lib/contact/rate-limit.ts`.
+
+## Indexation, URL et en-têtes
 
 - `NEXT_PUBLIC_SITE_URL` : active les URL canoniques, les balises `hreflang`, le sitemap et les aperçus de partage absolus.
 - `SITE_INDEXABLE=true` : retire `noindex` (balise, en-tête `X-Robots-Tag`) et ouvre `robots.txt`. À n'activer qu'après validation des éléments légaux. `noindex` n'est pas une protection d'accès : pour une préproduction confidentielle, ajouter une authentification au niveau de l'hébergeur.
-- Les données structurées (`Organization`) ne contiennent que des faits confirmés.
+- Ces deux variables sont évaluées à la construction (pages prérendues, en-têtes compilés) : les modifier impose un nouveau `npm run build`.
+- Les données structurées (`Organization`) ne contiennent que des faits confirmés ; la dénomination sociale n'y figure qu'une fois `brand.legalNameConfirmed` passé à `true`.
+- En-têtes de sécurité (`next.config.ts`) : CSP sans aucune ressource tierce, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy`, HSTS. La CSP conserve `'unsafe-inline'` pour les scripts d'amorçage des pages statiques : elle limite ce qu'une page peut charger mais n'atténue pas une injection de script. Une CSP par nonce imposerait un rendu dynamique de toutes les pages.
 
 ## Ce qui a été vérifié
 
-- `npm run typecheck`, `npm run lint`, `npm run test` (28 tests unitaires) et `npm run build` : passés.
-- Tests de bout en bout Playwright (Chromium) à 1440, 768 et 390 px : navigation et liens internes, 404 localisée, sélecteur de langue, menu mobile au clavier, parcours complet du formulaire en mode démonstration, refus de l'API (jeton, pot de miel, taille), axe-core WCAG 2.x A/AA, texte à 200 %, `prefers-reduced-motion`.
-- Inspection visuelle des captures d'écran aux trois largeurs.
+- `npm run typecheck`, `npm run lint`, `npm run test` (48 tests unitaires : typographie, routes, schéma et protections du formulaire, contraintes éditoriales FR/EN) et `npm run build` : passés.
+- Tests de bout en bout Playwright (Chromium) à 1440, 768 et 390 px : navigation et liens internes, 404 localisée, sélecteur de langue, menu mobile au clavier, parcours complet du formulaire en mode démonstration, réponses de l'API (jeton, pot de miel, taille, origine, méthode), axe-core WCAG 2.x A/AA, texte à 200 %, `prefers-reduced-motion`.
+- Relecture adversariale par agents indépendants (contenus FR et EN, sécurité, accessibilité, code, design) et inspection visuelle des captures d'écran aux trois largeurs.
 
 Non vérifié : Firefox et Safari réels, Lighthouse (aucun score n'est avancé), lecteurs d'écran réels, envoi avec un fournisseur configuré.
 

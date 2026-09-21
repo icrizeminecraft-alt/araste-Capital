@@ -4,10 +4,10 @@ export const expertisesIndex: ExpertisesIndexContent = {
   meta: {
     title: "Expertises",
     description:
-      "Financement relais, financements complexes, refinancement, acquisition et investissement immobilier professionnel, promotion immobilière, dette privée : les expertises d'ARASTE CAPITAL.",
+      "Financement relais, dossiers complexes et opérations qui relèvent du même travail d'analyse : les expertises d'ARASTE CAPITAL, conseil indépendant côté emprunteur.",
   },
   eyebrow: "Expertises",
-  title: "Six domaines d'intervention, une même méthode.",
-  lead: "Le financement relais et les dossiers complexes sont au cœur de notre activité. Les autres expertises relèvent du même travail : comprendre l'opération, la présenter avec précision et rechercher les pistes qui lui correspondent.",
+  title: "Nos domaines d'intervention, une même méthode.",
+  lead: "Le financement relais et les dossiers complexes structurent notre activité. Chaque autre expertise en procède : comprendre l'opération, la présenter avec précision, rechercher les pistes qui lui correspondent.",
   cta: "Présenter une opération",
 };

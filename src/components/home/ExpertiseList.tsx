@@ -38,7 +38,6 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
               className={`grid grid-cols-[2.5rem_minmax(0,1fr)] items-baseline gap-x-3 py-6 transition-colors md:grid-cols-[4rem_minmax(0,1fr)_auto] md:gap-x-4 md:py-7 ${
                 active === i ? "bg-ivory-deep/50" : ""
               } hover:bg-ivory-deep/50 focus-visible:bg-ivory-deep/50`}
-              aria-current={active === i ? "true" : undefined}
             >
               <span aria-hidden="true" className="numeral pl-1 text-base md:pl-2">
                 {item.number}
@@ -60,7 +59,7 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
               </span>
               <span
                 aria-hidden="true"
-                className="hidden self-center pr-3 font-sans text-xl text-champagne-deep transition-transform duration-300 group-hover:translate-x-1 md:block"
+                className="hidden self-center pr-3 font-sans text-xl text-champagne-deep transition-transform duration-300 group-hover:translate-x-1 motion-reduce:transition-none motion-reduce:group-hover:translate-x-0 md:block"
               >
                 →
               </span>

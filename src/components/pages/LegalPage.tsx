@@ -15,8 +15,10 @@ export function LegalPage({ locale, dict, content, crumbLabel }: { locale: Local
       />
       <article className="container-x py-14 md:py-20">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
-          <nav aria-label={content.title} className="hidden lg:col-span-3 lg:block">
-            <ol className="sticky top-[calc(var(--header-h)+2rem)] space-y-3 border-t border-forest pt-5 font-sans text-sm">
+          <nav aria-labelledby="contents-title" className="lg:col-span-3">
+            <div className="lg:sticky lg:top-[calc(var(--header-h)+2rem)]">
+            <h2 id="contents-title" className="eyebrow mb-4">{dict.common.ui.contents}</h2>
+            <ol className="space-y-3 border-t border-forest pt-5 font-sans text-sm">
               {content.sections.map((section, i) => (
                 <li key={section.title}>
                   <a href={`#section-${i + 1}`} className="link-line text-ink-soft hover:text-forest">
@@ -25,6 +27,7 @@ export function LegalPage({ locale, dict, content, crumbLabel }: { locale: Local
                 </li>
               ))}
             </ol>
+            </div>
           </nav>
           <div className="lg:col-span-8 lg:col-start-5">
             {content.sections.map((section, i) => (

@@ -12,13 +12,32 @@ import { siteConfig } from "@/config/site";
 export type Provider = "none" | "resend" | "webhook";
 export type SendOutcome = "sent" | "demo";
 
-export function currentProvider(): Provider {
-  const value = (process.env.CONTACT_PROVIDER ?? "none").toLowerCase();
-  if (value === "resend" && process.env.RESEND_API_KEY && process.env.CONTACT_TO_EMAIL && process.env.CONTACT_FROM_EMAIL) {
-    return "resend";
+/** Fournisseur demandé, fournisseur effectif et raison d'un repli éventuel. */
+export function providerStatus(): { requested: string; provider: Provider; problem: string | null } {
+  const requested = (process.env.CONTACT_PROVIDER ?? "none").toLowerCase();
+  if (requested === "none") return { requested, provider: "none", problem: null };
+  if (requested === "resend") {
+    const ok = Boolean(process.env.RESEND_API_KEY && process.env.CONTACT_TO_EMAIL && process.env.CONTACT_FROM_EMAIL);
+    return ok
+      ? { requested, provider: "resend", problem: null }
+      : { requested, provider: "none", problem: "RESEND_API_KEY, CONTACT_TO_EMAIL et CONTACT_FROM_EMAIL sont requis" };
   }
-  if (value === "webhook" && process.env.CONTACT_WEBHOOK_URL) return "webhook";
-  return "none";
+  if (requested === "webhook") {
+    return process.env.CONTACT_WEBHOOK_URL
+      ? { requested, provider: "webhook", problem: null }
+      : { requested, provider: "none", problem: "CONTACT_WEBHOOK_URL est requis" };
+  }
+  return { requested, provider: "none", problem: `valeur inconnue « ${requested} »` };
+}
+
+export function currentProvider(): Provider {
+  return providerStatus().provider;
+}
+
+/** Sujet monoligne, borné. */
+function oneLine(value: string, max = 120): string {
+  const flat = value.replace(/\s+/g, " ").trim();
+  return flat.length > max ? `${flat.slice(0, max - 1)}…` : flat;
 }
 
 export function renderPlainText(fields: ContactFields, locale: string, receivedAt: Date): string {
@@ -59,7 +78,7 @@ export async function sendContact(fields: ContactFields, locale: string): Promis
 
   const receivedAt = new Date();
   const text = renderPlainText(fields, locale, receivedAt);
-  const subject = `[${siteConfig.brand.name}] ${fields.financingType} · ${fields.amount} ${fields.currency} · ${fields.country}`;
+  const subject = oneLine(`[${siteConfig.brand.name}] ${fields.financingType} · ${fields.amount} ${fields.currency} · ${fields.country}`);
 
   if (provider === "resend") {
     const response = await fetch("https://api.resend.com/emails", {

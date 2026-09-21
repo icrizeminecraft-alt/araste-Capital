@@ -22,7 +22,11 @@ export function proxy(request: NextRequest) {
 
   const url = request.nextUrl.clone();
   url.pathname = `/${target}${pathname === "/" ? "" : pathname}`;
-  return NextResponse.redirect(url, 307);
+  const response = NextResponse.redirect(url, 307);
+  // La redirection dépend de la langue du navigateur : ne pas la mettre en cache partagé.
+  response.headers.set("Vary", "Accept-Language");
+  response.headers.set("Cache-Control", "private, no-store");
+  return response;
 }
 
 export const config = {

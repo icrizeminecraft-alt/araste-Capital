@@ -4,7 +4,7 @@ export const home: HomeContent = {
   meta: {
     title: "Conseil indépendant en financements professionnels",
     description:
-      "ARASTE CAPITAL accompagne les emprunteurs professionnels dans la recherche et la structuration de financements relais, de refinancements et d'opérations complexes.",
+      "ARASTE CAPITAL accompagne les emprunteurs professionnels dans la recherche et la structuration de financements relais, de refinancements et de dossiers complexes.",
   },
   hero: {
     eyebrow: "Conseil indépendant en financement",
@@ -17,18 +17,18 @@ export const home: HomeContent = {
   stance: {
     eyebrow: "Prise de position",
     title: "Certaines opérations appellent une approche différente.",
-    body: "Un calendrier serré, un actif atypique, une détention à plusieurs niveaux ou une dette à réorganiser ne se lisent pas dans une grille standard. Nous commençons par comprendre le besoin, les actifs, les échéances et les options de sortie, puis nous préparons une présentation claire du dossier avant de rechercher les pistes de financement qui lui correspondent réellement.",
+    body: "Un calendrier serré, un actif atypique, une détention à plusieurs niveaux ou une dette à réorganiser ne se lisent pas dans une grille standard. Nous commençons par comprendre le besoin, les actifs, les échéances et les options de sortie. Nous préparons ensuite une présentation claire du dossier, avant de rechercher les pistes de financement qui lui correspondent.",
   },
   expertises: {
     eyebrow: "Expertises",
-    title: "Six domaines, une même exigence de lecture.",
+    title: "Des domaines distincts, une même exigence de lecture.",
     body: "Le financement relais et les dossiers complexes sont au cœur de notre activité. Les autres expertises s'y rattachent naturellement : elles relèvent du même travail d'analyse et de structuration.",
     all: "Voir toutes les expertises",
   },
   bridge: {
     eyebrow: "Financement relais",
-    title: "Franchir une période de transition sans en subir le calendrier.",
-    body: "Un financement relais couvre le temps qui sépare un besoin immédiat d'une ressource attendue : la vente d'un actif, un refinancement en cours, une levée ou une autre sortie identifiée. Sa pertinence dépend moins de sa vitesse que de la solidité de la sortie envisagée.",
+    title: "Franchir une période de transition sans en laisser le calendrier décider.",
+    body: "Un financement relais couvre le temps qui sépare un besoin immédiat d'une ressource attendue : la vente d'un actif, un refinancement en cours, une levée de fonds ou une autre sortie identifiée. Sa pertinence dépend moins de sa vitesse que de la solidité de la sortie envisagée.",
     points: [
       {
         title: "La sortie d'abord",
@@ -110,14 +110,14 @@ export const home: HomeContent = {
       },
       {
         title: "Conseils prescripteurs",
-        body: "Avocats, experts-comptables, notaires, gestionnaires et family offices qui souhaitent orienter un client vers un interlocuteur dédié.",
+        body: "Avocats, experts-comptables, notaires, gestionnaires de patrimoine et family offices qui souhaitent orienter un client vers un interlocuteur dédié.",
       },
     ],
   },
   contact: {
     eyebrow: "Contact",
     title: "Parlons de votre prochaine opération.",
-    body: "Quelques éléments suffisent pour un premier échange : la nature du besoin, l'ordre de grandeur, le pays de l'opération et l'échéance envisagée. Nous revenons vers vous pour en discuter.",
+    body: "Quelques éléments suffisent pour un premier échange : la nature du besoin, l'ordre de grandeur, le pays de l'opération et le délai envisagé. Nous revenons vers vous pour en discuter.",
     cta: "Présenter une opération",
     secondary: "Comprendre notre approche",
   },

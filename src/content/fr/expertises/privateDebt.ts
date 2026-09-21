@@ -8,7 +8,7 @@ export const privateDebt: ExpertiseContent = {
   },
   title: "Dette privée et situations particulières",
   shortTitle: "Dette privée",
-  eyebrow: "Prêteurs spécialisés, côté emprunteur",
+  eyebrow: "Prêteurs spécialisés",
   summary:
     "La recherche de financements auprès de fonds de dette, de prêteurs privés et de plateformes institutionnelles, pour les opérations que le crédit bancaire standard ne couvre pas, ou pas dans des conditions acceptables.",
   lead: "Fonds de dette, prêteurs privés, plateformes institutionnelles : à côté du crédit bancaire, des prêteurs spécialisés étudient des opérations que la grille bancaire standard peine à accueillir. Le calendrier, la structure, la nature de l'actif ou une situation de transition y appellent une analyse au cas par cas. Nous recherchons ces financements pour votre compte, en qualité de conseil de l'emprunteur : nous ne prêtons pas, ne représentons aucun prêteur et ne recommandons ce segment que sur des critères précis, jamais par défaut.",

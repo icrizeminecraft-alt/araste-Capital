@@ -67,7 +67,7 @@ export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary })
             </ul>
           </Reveal>
           <Reveal delay={1}>
-            <p className="eyebrow mb-4 text-[0.68rem]">{t.scope.exclusionsTitle}</p>
+            <p className="eyebrow mb-4">{t.scope.exclusionsTitle}</p>
             <ul className="space-y-4 border-t border-stone pt-5">
               {t.scope.exclusions.map((item) => (
                 <li key={item} className="flex gap-4 font-sans text-[0.9375rem] leading-relaxed text-ink-soft">

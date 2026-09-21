@@ -8,7 +8,7 @@ export const refinancing: ExpertiseContent = {
   },
   title: "Refinancement et réorganisation de dette",
   shortTitle: "Refinancement",
-  eyebrow: "Dette existante, structure nouvelle",
+  eyebrow: "Réorganiser la dette",
   summary:
     "L'étude d'une dette existante, proche de son terme ou devenue inadaptée, et la recherche d'une structure de financement cohérente avec l'opération dans son état actuel, son échéancier et ses garanties.",
   lead: "Une dette se négocie à un moment donné, pour une opération donnée. Lorsque l'échéance approche, que les engagements financiers (covenants) ne correspondent plus à la réalité de l'actif ou que plusieurs financements se sont superposés, la structure initiale doit être réexaminée. Nous étudions la dette existante et recherchons, auprès du prêteur en place ou d'autres prêteurs, une structure mieux adaptée à l'opération telle qu'elle est aujourd'hui.",

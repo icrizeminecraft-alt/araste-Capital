@@ -12,7 +12,7 @@ export const legal: LegalContent = {
   },
   eyebrow: "Informations",
   title: "Mentions légales",
-  lead: "Cette page présente l'éditeur du site, son hébergeur et les conditions d'utilisation des contenus. Les informations signalées comme « à compléter » doivent être renseignées et validées avant toute publication.",
+  lead: "Cette page présente l'éditeur du site, son hébergeur, les droits attachés aux contenus et leur portée. Les informations signalées comme « à compléter » doivent être renseignées et validées avant toute publication.",
   pendingLabel: "À compléter avant publication",
   updated: "Dernière mise à jour : à renseigner lors de la publication.",
   sections: [
@@ -33,7 +33,7 @@ export const legal: LegalContent = {
       title: "Activité et statut",
       paragraphs: [
         "Le cabinet exerce une activité de conseil et d'intermédiation en financements professionnels, pour le compte d'emprunteurs professionnels. Il ne consent pas de crédit, ne gère aucun actif pour compte de tiers, ne propose aucun placement au public et n'intervient pas auprès des particuliers.",
-        "Le périmètre autorisé des prestations, le statut d'intermédiaire applicable, les pays servis et les éventuelles mentions obligatoires dépendent de la juridiction d'exercice et doivent être vérifiés avec un conseil avant publication.",
+        "Le périmètre des prestations, le statut d'intermédiaire applicable, les pays servis et les éventuelles mentions obligatoires sont précisés ci-dessous.",
       ],
       pending: [
         "Statut réglementaire, agrément ou enregistrement applicable (le cas échéant)",
@@ -49,9 +49,10 @@ export const legal: LegalContent = {
     {
       title: "Propriété intellectuelle",
       paragraphs: [
-        "Les textes, la marque typographique, le monogramme et les compositions visuelles de ce site sont la propriété du cabinet ou font l'objet d'une autorisation d'utilisation. Toute reproduction ou réutilisation sans accord préalable est interdite.",
+        "Les textes, le logotype, le monogramme et les compositions visuelles de ce site sont la propriété du cabinet ou font l'objet d'une autorisation d'utilisation. Toute reproduction ou réutilisation sans accord préalable est interdite.",
         "Les polices de caractères Cormorant et DM Sans sont utilisées sous licence SIL Open Font License 1.1.",
       ],
+      pending: ["Titularité des droits sur le logotype, le monogramme et les compositions visuelles (cession à confirmer) ; dépôt éventuel de la marque"],
     },
     {
       title: "Nature des contenus",

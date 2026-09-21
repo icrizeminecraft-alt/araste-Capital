@@ -37,7 +37,7 @@ export function LocaleSwitcher({
                 </span>
               ) : null}
               {isCurrent ? (
-                <span aria-current="true" className={`${current} font-medium`} lang={target}>
+                <span aria-current="true" className={`${current} inline-flex min-h-6 items-center font-medium`} lang={target}>
                   <span className="sr-only">{labels.current} : </span>
                   {target.toUpperCase()}
                 </span>
@@ -47,7 +47,7 @@ export function LocaleSwitcher({
                   hrefLang={target}
                   lang={target}
                   aria-label={labels[target]}
-                  className={`${base} transition-colors`}
+                  className={`${base} inline-flex min-h-6 items-center transition-colors`}
                 >
                   {target.toUpperCase()}
                 </Link>

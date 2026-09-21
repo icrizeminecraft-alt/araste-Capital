@@ -37,7 +37,7 @@ export function ExpertisesIndexPage({ locale, dict }: { locale: Locale; dict: Di
                       {String(i + 1).padStart(2, "0")}
                     </span>
                     <div>
-                      <p className="eyebrow mb-2 text-[0.68rem]">{e.eyebrow}</p>
+                      <p className="eyebrow mb-2">{e.eyebrow}</p>
                       <h2 className={`font-serif font-medium leading-tight text-forest ${featured ? "text-[2rem] md:text-[2.4rem]" : "text-[1.75rem] md:text-[2rem]"}`}>
                         <Link href={expertisePath(locale, key)} className="link-line">
                           {e.title}

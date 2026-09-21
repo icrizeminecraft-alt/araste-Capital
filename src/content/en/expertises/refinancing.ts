@@ -8,7 +8,7 @@ export const refinancing: ExpertiseContent = {
   },
   title: "Refinancing and debt reorganisation",
   shortTitle: "Refinancing",
-  eyebrow: "Existing debt, new structure",
+  eyebrow: "Reorganising debt",
   summary:
     "The review of existing debt, approaching maturity or no longer fit for purpose, and the search for a financing structure consistent with the transaction in its current state, its repayment schedule and its security.",
   lead: "Debt is negotiated at a given moment, for a given transaction. When maturity approaches, when financial covenants no longer reflect the asset or when several loans have been layered on top of one another, the original structure needs to be re-examined. We review the debt in place and seek, from the existing lender or from others, a structure better matched to the transaction as it stands today.",
