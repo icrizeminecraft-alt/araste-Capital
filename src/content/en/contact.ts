@@ -46,7 +46,7 @@ export const contact: ContactContent = {
       },
       amount: {
         label: "Amount sought",
-        hint: "Order of magnitude, in figures only, without symbols or abbreviations (e.g. 5 000 000).",
+        hint: "Order of magnitude, in figures only, without symbols or abbreviations (e.g. 3 500 000).",
       },
       currency: { label: "Currency" },
       country: {
@@ -94,7 +94,7 @@ export const contact: ContactContent = {
     errors: {
       required: "This field is required.",
       email: "Please enter a valid email address.",
-      amount: "Enter the amount in figures only, without symbols or letters (e.g. 5 000 000).",
+      amount: "Enter the amount in figures only, without symbols or letters (e.g. 3 500 000).",
       tooLong: "This text exceeds the permitted length; please shorten it.",
       tooShort: "A few more words are needed (20 characters minimum).",
       phone: "Please enter a valid telephone number.",
