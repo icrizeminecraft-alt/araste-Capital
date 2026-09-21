@@ -222,7 +222,7 @@ export function ContactForm({
               const isCurrent = n === step;
               return (
                 <li key={s.title} className={`flex items-baseline gap-3 ${isCurrent ? "text-forest" : "text-ink-soft"}`} aria-current={isCurrent ? "step" : undefined}>
-                  <span aria-hidden="true" className={`numeral text-base ${isCurrent ? "" : "opacity-70"}`}>
+                  <span aria-hidden="true" className={`numeral text-base ${isCurrent ? "" : "text-ink-soft"}`}>
                     {String(n).padStart(2, "0")}
                   </span>
                   <span className={`font-serif text-lg ${isCurrent ? "font-medium" : ""}`}>{s.title}</span>
