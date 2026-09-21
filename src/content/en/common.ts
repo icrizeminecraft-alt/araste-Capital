@@ -1,0 +1,62 @@
+import type { CommonContent } from "@/content/types";
+
+export const common: CommonContent = {
+  meta: {
+    siteName: "ARASTE CAPITAL",
+    defaultDescription:
+      "Independent financing advisory: bridge finance, refinancing and complex transactions for professional borrowers.",
+  },
+  nav: {
+    firm: "The firm",
+    expertises: "Expertise",
+    approach: "Our approach",
+    contact: "Contact",
+    present: "Present a transaction",
+    menuOpen: "Open menu",
+    menuClose: "Close menu",
+    menuLabel: "Main navigation",
+    skipToContent: "Skip to content",
+    home: "ARASTE CAPITAL — home",
+  },
+  locale: {
+    switchLabel: "Language",
+    current: "Current language",
+    fr: "Français",
+    en: "English",
+  },
+  footer: {
+    navigationTitle: "Navigation",
+    expertisesTitle: "Expertise",
+    contactTitle: "Contact",
+    legalTitle: "Information",
+    languagesTitle: "Language",
+    legal: "Legal notice",
+    privacy: "Privacy",
+    contactPending: "Contact details to be confirmed before publication.",
+    rights: "All rights reserved.",
+    previewNotice:
+      "Pre-production version. Legal identity, contact details and regulatory statements to be confirmed before publication.",
+    tagline: "Independent Financing Advisory",
+  },
+  ui: {
+    readMore: "Read more",
+    discover: "Discover",
+    allExpertises: "All areas of expertise",
+    backHome: "Back to home",
+    illustrationNote:
+      "These situations are illustrative. They do not describe completed transactions and do not prejudge the outcome of any case.",
+    breadcrumbLabel: "Breadcrumb",
+    decorativeVisual: "Decorative visual",
+  },
+  notFound: {
+    title: "This page does not exist.",
+    body: "The requested address could not be found or has changed. You can return to the home page or browse our expertise.",
+    cta: "Back to home",
+  },
+  error: {
+    title: "Something went wrong.",
+    body: "The page could not be displayed. You can try again or return to the home page.",
+    retry: "Try again",
+  },
+  loading: "Loading",
+};
