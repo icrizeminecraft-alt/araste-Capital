@@ -3,6 +3,7 @@ import { contactRequestSchema, LIMITS, toFieldErrors, envelopeErrorCode } from "
 import { verifyFormToken, formSecret } from "@/lib/contact/token";
 import { SlidingWindowLimiter, RecentKeys, clientAddress, fingerprint } from "@/lib/contact/rate-limit";
 import { sendContact } from "@/lib/contact/providers";
+import { enabledExpertises } from "@/config/site";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -74,6 +75,11 @@ export async function POST(request: Request) {
     return error(400, envelopeErrorCode(parsed.error.issues) ?? "invalid");
   }
   const { token, idempotencyKey, website, locale, ...fields } = parsed.data;
+
+  // Seules les expertises actives (et « autre ») sont recevables.
+  if (fields.financingType !== "other" && !enabledExpertises().includes(fields.financingType)) {
+    return error(400, "invalid", { fields: { financingType: "required" } });
+  }
 
   // Pot de miel rempli : réponse neutre, rien n'est envoyé ni compté.
   if (website && website.trim() !== "") {

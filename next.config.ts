@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const isIndexable = process.env.SITE_INDEXABLE === "true";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "";
+// HSTS et la montée en HTTPS ne sont émis que pour un site public servi en HTTPS.
+const httpsProduction = process.env.NODE_ENV === "production" && siteUrl.startsWith("https://");
 
 const securityHeaders = [
   { key: "X-Content-Type-Options", value: "nosniff" },
@@ -10,8 +13,6 @@ const securityHeaders = [
     key: "Permissions-Policy",
     value: "camera=(), microphone=(), geolocation=(), payment=(), usb=()",
   },
-  // HSTS : ignoré en HTTP local, appliqué dès que le site est servi en HTTPS.
-  { key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains" },
   // CSP : aucune ressource tierce n'est autorisée (scripts, styles, polices,
   // images, connexions). `'unsafe-inline'` reste nécessaire aux scripts
   // d'amorçage des pages prérendues de Next : cette CSP n'atténue donc pas
@@ -30,9 +31,10 @@ const securityHeaders = [
       "frame-ancestors 'none'",
       "base-uri 'self'",
       "form-action 'self'",
-      "upgrade-insecure-requests",
+      ...(httpsProduction ? ["upgrade-insecure-requests"] : []),
     ].join("; "),
   },
+  ...(httpsProduction ? [{ key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains" }] : []),
 ];
 
 const nextConfig: NextConfig = {

@@ -46,7 +46,7 @@ export default async function LocaleLayout({
   const dict = getDictionary(locale);
 
   return (
-    <html lang={locale} className={`${cormorant.variable} ${dmSans.variable}`}>
+    <html lang={locale} className={`${cormorant.variable} ${dmSans.variable}`} suppressHydrationWarning>
       <head>
         {/* Active les apparitions au défilement uniquement si JavaScript est présent. */}
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />

@@ -14,15 +14,18 @@ test.describe("formulaire en deux étapes", () => {
   test("valide, conserve les données au retour et annonce le mode démonstration", async ({ page }) => {
     await page.goto("/fr/contact");
 
-    // Validation de l'étape 1
+    // Validation de l'étape 1 : résumé d'erreurs affiché, focalisé, champs marqués.
     await page.getByRole("button", { name: "Continuer" }).click();
-    await expect(page.getByText("Certains champs demandent votre attention.")).toBeVisible();
+    const summary = page.locator("form p", { hasText: /champ\(s\) demandent votre attention\./ });
+    await expect(summary).toBeVisible();
     await expect(page.locator("[aria-invalid='true']").first()).toBeVisible();
+    const focusedText = await page.evaluate(() => document.activeElement?.textContent ?? "");
+    expect(focusedText).toContain("demandent votre attention");
 
     await page.getByLabel("Nature du financement").selectOption("bridge");
     await page.getByLabel("Montant recherché").fill(fake.amount);
     await page.getByLabel("Pays de l'opération").fill(fake.country);
-    await page.getByLabel("Échéance souhaitée").selectOption("1-3m");
+    await page.getByLabel("Délai souhaité de mise en place").selectOption("1-3m");
     await page.getByLabel("Bref descriptif").fill(fake.description);
     await page.getByRole("button", { name: "Continuer" }).click();
 
@@ -36,7 +39,7 @@ test.describe("formulaire en deux étapes", () => {
 
     // Étape 2
     await page.getByRole("button", { name: "Envoyer la demande" }).click();
-    await expect(page.getByText("Certains champs demandent votre attention.")).toBeVisible();
+    await expect(page.locator("form p", { hasText: /champ\(s\) demandent votre attention\./ })).toBeVisible();
     await page.getByLabel("Nom et prénom").fill(fake.name);
     await page.getByLabel("Société ou structure").fill(fake.company);
     await page.getByLabel("Adresse électronique").fill("pas-un-courriel");
@@ -48,10 +51,26 @@ test.describe("formulaire en deux étapes", () => {
     await page.waitForTimeout(3200);
     await page.getByRole("button", { name: "Envoyer la demande" }).click();
 
-    const status = page.getByRole("status");
-    await expect(status).toContainText("Mode démonstration : aucun message n'a été envoyé.");
-    await expect(status).toBeFocused();
+    const result = page.getByRole("heading", { name: "Mode démonstration : aucun message n'a été envoyé." });
+    await expect(result).toBeVisible();
+    await expect(result).toBeFocused();
     await expect(page.getByRole("button", { name: "Présenter une autre opération" })).toBeVisible();
+  });
+
+  test("être rappelé exige un numéro de téléphone", async ({ page }) => {
+    await page.goto("/fr/contact");
+    await page.getByLabel("Nature du financement").selectOption("bridge");
+    await page.getByLabel("Montant recherché").fill(fake.amount);
+    await page.getByLabel("Pays de l'opération").fill(fake.country);
+    await page.getByLabel("Délai souhaité de mise en place").selectOption("1-3m");
+    await page.getByLabel("Bref descriptif").fill(fake.description);
+    await page.getByRole("button", { name: "Continuer" }).click();
+    await page.getByLabel("Nom et prénom").fill(fake.name);
+    await page.getByLabel("Société ou structure").fill(fake.company);
+    await page.getByLabel("Adresse électronique").fill(fake.email);
+    await page.getByRole("radio", { name: "Téléphone" }).check();
+    await page.getByRole("button", { name: "Envoyer la demande" }).click();
+    await expect(page.getByText("Indiquez un numéro pour être rappelé.")).toBeVisible();
   });
 
   test("rien n'est écrit dans le navigateur ni dans l'URL", async ({ page }) => {

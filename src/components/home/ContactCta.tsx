@@ -21,14 +21,14 @@ export function ContactCta({
       className={dark ? "on-dark bg-forest text-ivory" : "border-t border-stone bg-ivory"}
       aria-labelledby="contact-cta-title"
     >
-      <div className="container-x grid grid-cols-1 gap-10 py-20 md:py-28 lg:grid-cols-12 lg:items-center lg:gap-8">
+      <div className="container-x section-y grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-start lg:gap-8">
         <Reveal className="lg:col-span-8">
           {t.eyebrow ? <Eyebrow dark={dark} className="mb-6">{t.eyebrow}</Eyebrow> : null}
           <h2 id="contact-cta-title" className={`display-lg ${dark ? "text-ivory" : ""}`}>
             {t.title}
           </h2>
-          <p className={`lead measure mt-8 ${dark ? "text-stone" : "text-ink-soft"}`}>{t.body}</p>
-          <div className="mt-10 flex flex-col gap-5 sm:flex-row sm:items-center">
+          <p className={`lead measure-lead mt-8 ${dark ? "text-stone" : "text-ink-soft"}`}>{t.body}</p>
+          <div className="mt-10 flex flex-col items-start gap-5 sm:flex-row sm:items-center">
             <ButtonLink href={pagePath(locale, "contact")} variant={dark ? "ivory" : "primary"}>
               {t.cta}
             </ButtonLink>
@@ -42,8 +42,8 @@ export function ContactCta({
             ) : null}
           </div>
         </Reveal>
-        <div className="hidden lg:col-span-3 lg:col-start-10 lg:flex lg:justify-end" aria-hidden="true">
-          <Monogram tone={dark ? "ivory" : "forest"} className="h-40 w-40 opacity-80" />
+        <div className="hidden lg:col-span-3 lg:col-start-10 lg:flex lg:justify-end lg:pt-2" aria-hidden="true">
+          <Monogram tone={dark ? "ivory" : "forest"} className="h-24 w-24 opacity-60" />
         </div>
       </div>
     </section>

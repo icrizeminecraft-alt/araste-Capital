@@ -52,7 +52,7 @@ function allStrings(value: unknown, acc: string[] = []): string[] {
 const forbidden = [
   /leader/i, /financement garanti/i, /guaranteed (financing|funding|approval|outcome)/i, /accès exclusif/i, /exclusive access/i, /toutes les banques/i, /all (the )?banks/i, /48\s?h/i, /financ\w+ l'impossible/i,
   /Monte[- ]Carlo/i, /Hermitage/i, /Hôtel de Paris/i, /Enness/i, /Brotherton/i, /Londres|Monaco|Duba[iï]|London|Dubai/i,
-  /\d+\s?%/, /\bLTV\b/, /\d+\s?(M€|m€|€|£|\$)/, /taux (fixe|réduit|bas|compétitif)/i, /best rate/i,
+  /\bSix (domaines|areas)\b/i, /\d+\s?%/, /\bLTV\b/, /\d+\s?(M€|m€|€|£|\$)/, /taux (fixe|réduit|bas|compétitif)/i, /best rate/i,
   /[\u{1F300}-\u{1FAFF}]/u,
 ];
 

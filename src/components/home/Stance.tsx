@@ -4,7 +4,7 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function Stance({ t }: { t: HomeContent["stance"] }) {
   return (
-    <section className="container-x py-20 md:py-28 lg:py-36" aria-labelledby="stance-title">
+    <section className="container-x section-y" aria-labelledby="stance-title">
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-8">
         <Reveal className="lg:col-span-3">
           <Eyebrow>{t.eyebrow}</Eyebrow>
@@ -14,7 +14,7 @@ export function Stance({ t }: { t: HomeContent["stance"] }) {
           <h2 id="stance-title" className="display-md">
             {t.title}
           </h2>
-          <p className="lead measure mt-8 text-ink-soft">{t.body}</p>
+          <p className="lead measure-lead mt-8 text-ink-soft">{t.body}</p>
         </Reveal>
       </div>
     </section>

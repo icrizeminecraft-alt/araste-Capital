@@ -81,32 +81,34 @@ export function fingerprint(ip: string, secret: string): string {
 
 export type ClientAddress = { ip: string; trusted: boolean };
 
+export type AddressOptions = {
+  /** Nombre de mandataires de confiance devant l'application (X-Forwarded-For). 0 = ne pas lire l'en-tête. */
+  hops?: number;
+  /** En-tête posé par l'hébergeur (ex. cf-connecting-ip), lu en priorité s'il est configuré. */
+  trustedHeader?: string;
+};
+
 /**
  * Adresse du client selon la topologie déclarée.
- * `TRUSTED_PROXY_HOPS` (défaut 1) : nombre de mandataires de confiance devant
- * l'application ; l'adresse retenue est la n-ième en partant de la droite de
- * X-Forwarded-For (les mandataires ajoutent leur entrée à droite). Les en-têtes
- * propres à certains hébergeurs sont pris en compte en priorité. Sans adresse
- * fiable, la requête est rattachée à un compartiment partagé (`trusted: false`).
+ * - `TRUSTED_IP_HEADER` : en-tête propre à l'hébergeur, lu seulement s'il est
+ *   explicitement configuré (sinon un client pourrait le forger).
+ * - `TRUSTED_PROXY_HOPS` (défaut 1) : l'adresse retenue est la n-ième en partant
+ *   de la droite de X-Forwarded-For, les mandataires ajoutant leur entrée à droite.
+ * Sans adresse fiable, la requête est rattachée à un compartiment partagé.
  */
-export function clientAddress(headers: Headers, hops = Number(process.env.TRUSTED_PROXY_HOPS ?? 1)): ClientAddress {
-  for (const name of ["cf-connecting-ip", "x-vercel-forwarded-for", "fly-client-ip", "true-client-ip"]) {
-    const value = headers.get(name)?.split(",")[0]?.trim();
+export function clientAddress(headers: Headers, options: AddressOptions = {}): ClientAddress {
+  const trustedHeader = options.trustedHeader ?? process.env.TRUSTED_IP_HEADER?.trim().toLowerCase();
+  const hops = options.hops ?? Number(process.env.TRUSTED_PROXY_HOPS ?? 1);
+
+  if (trustedHeader) {
+    const value = headers.get(trustedHeader)?.split(",")[0]?.trim();
     if (value) return { ip: value, trusted: true };
   }
   const forwarded = headers.get("x-forwarded-for");
-  if (forwarded) {
+  if (forwarded && Number.isFinite(hops) && hops >= 1) {
     const parts = forwarded.split(",").map((p) => p.trim()).filter(Boolean);
-    const n = Number.isFinite(hops) && hops >= 1 ? Math.floor(hops) : 1;
-    const picked = parts[parts.length - n];
+    const picked = parts[parts.length - Math.floor(hops)];
     if (picked) return { ip: picked, trusted: true };
   }
-  const real = headers.get("x-real-ip")?.trim();
-  if (real) return { ip: real, trusted: true };
   return { ip: "unknown", trusted: false };
-}
-
-/** @deprecated Conservé pour compatibilité ; préférer clientAddress. */
-export function clientIp(headers: Headers): string {
-  return clientAddress(headers).ip;
 }

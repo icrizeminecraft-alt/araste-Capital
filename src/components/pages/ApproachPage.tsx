@@ -16,7 +16,7 @@ export function ApproachPage({ locale, dict }: { locale: Locale; dict: Dictionar
         eyebrow={t.eyebrow}
         title={t.title}
         lead={t.lead}
-        crumbs={[{ label: "ARASTE CAPITAL", href: `/${locale}` }, { label: dict.common.nav.approach }]}
+        crumbs={[{ label: dict.common.ui.homeCrumb, href: `/${locale}` }, { label: dict.common.nav.approach }]}
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
 
@@ -26,7 +26,7 @@ export function ApproachPage({ locale, dict }: { locale: Locale; dict: Dictionar
         </Reveal>
       </div>
 
-      <section className="container-x py-16 md:py-24">
+      <section className="container-x section-y-sm">
         <ol className="space-y-0 divide-y divide-stone border-y border-stone">
           {t.steps.map((step, i) => (
             <Reveal as="li" key={step.title} className="grid grid-cols-1 gap-8 py-12 lg:grid-cols-12 lg:gap-8 lg:py-16">
@@ -51,7 +51,7 @@ export function ApproachPage({ locale, dict }: { locale: Locale; dict: Dictionar
       </section>
 
       <section className="bg-ivory-deep/60" aria-labelledby="coordination-title">
-        <div className="container-x py-16 md:py-24">
+        <div className="container-x section-y-sm">
           <Reveal>
             <SectionHeading id="coordination-title" eyebrow={t.coordination.eyebrow} title={t.coordination.title} body={t.coordination.body} size="md" className="max-w-3xl" />
           </Reveal>

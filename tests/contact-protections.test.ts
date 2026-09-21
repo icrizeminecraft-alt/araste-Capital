@@ -69,11 +69,16 @@ describe("empreinte", () => {
   });
   it("retient l'adresse ajoutée par le mandataire de confiance, pas celle fournie par le client", () => {
     // Un saut de confiance : l'adresse est la dernière de X-Forwarded-For.
-    expect(clientAddress(new Headers({ "x-forwarded-for": "forged, 203.0.113.7" }), 1)).toEqual({ ip: "203.0.113.7", trusted: true });
+    expect(clientAddress(new Headers({ "x-forwarded-for": "forged, 203.0.113.7" }), { hops: 1 })).toEqual({ ip: "203.0.113.7", trusted: true });
     // Deux sauts : l'avant-dernière.
-    expect(clientAddress(new Headers({ "x-forwarded-for": "forged, 203.0.113.7, 10.0.0.1" }), 2)).toEqual({ ip: "203.0.113.7", trusted: true });
-    expect(clientAddress(new Headers({ "cf-connecting-ip": "203.0.113.5", "x-forwarded-for": "forged" }), 1).ip).toBe("203.0.113.5");
-    expect(clientAddress(new Headers({ "x-real-ip": "203.0.113.9" }), 1).ip).toBe("203.0.113.9");
-    expect(clientAddress(new Headers(), 1)).toEqual({ ip: "unknown", trusted: false });
+    expect(clientAddress(new Headers({ "x-forwarded-for": "forged, 203.0.113.7, 10.0.0.1" }), { hops: 2 })).toEqual({ ip: "203.0.113.7", trusted: true });
+    // Zéro saut : X-Forwarded-For est ignoré.
+    expect(clientAddress(new Headers({ "x-forwarded-for": "forged" }), { hops: 0 })).toEqual({ ip: "unknown", trusted: false });
+    // Un en-tête propriétaire n'est lu que s'il est configuré.
+    expect(clientAddress(new Headers({ "cf-connecting-ip": "203.0.113.5", "x-forwarded-for": "forged, 203.0.113.7" }), { hops: 1 }).ip).toBe("203.0.113.7");
+    expect(clientAddress(new Headers({ "cf-connecting-ip": "203.0.113.5" }), { hops: 1, trustedHeader: "cf-connecting-ip" }).ip).toBe("203.0.113.5");
+    // x-real-ip seul n'est pas fiable.
+    expect(clientAddress(new Headers({ "x-real-ip": "203.0.113.9" }), { hops: 1 })).toEqual({ ip: "unknown", trusted: false });
+    expect(clientAddress(new Headers(), { hops: 1 })).toEqual({ ip: "unknown", trusted: false });
   });
 });

@@ -8,7 +8,7 @@ test.describe("menu mobile", () => {
     const trigger = page.getByRole("button", { name: /ouvrir le menu/i });
     await trigger.focus();
     await page.keyboard.press("Enter");
-    const dialog = page.getByRole("dialog", { name: "Navigation principale" });
+    const dialog = page.getByRole("dialog", { name: "Menu" });
     await expect(dialog).toBeVisible();
     await expect(trigger).toHaveAttribute("aria-expanded", "true");
     await expect(dialog.getByRole("link", { name: "Le cabinet" })).toBeVisible();

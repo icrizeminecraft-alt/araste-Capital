@@ -22,11 +22,11 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
         eyebrow={t.eyebrow}
         title={t.title}
         lead={t.lead}
-        crumbs={[{ label: "ARASTE CAPITAL", href: `/${locale}` }, { label: dict.common.nav.contact }]}
+        crumbs={[{ label: dict.common.ui.homeCrumb, href: `/${locale}` }, { label: dict.common.nav.contact }]}
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
 
-      <div className="container-x grid grid-cols-1 gap-14 py-14 md:py-20 lg:grid-cols-12 lg:gap-8">
+      <div className="container-x section-y-sm grid grid-cols-1 gap-14 lg:grid-cols-12 lg:gap-8">
         <aside className="order-2 lg:order-1 lg:col-span-4">
           <div className="lg:sticky lg:top-[calc(var(--header-h)+2rem)]">
             <h2 className="eyebrow mb-4">{t.aside.title}</h2>

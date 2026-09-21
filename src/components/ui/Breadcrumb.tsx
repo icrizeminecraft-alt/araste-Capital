@@ -9,7 +9,7 @@ export function Breadcrumb({ items, label }: { items: Crumb[]; label: string }) 
         {items.map((item, i) => (
           <li key={`${item.label}-${i}`} className="flex items-center gap-2">
             {item.href ? (
-              <Link href={item.href} className="link-line hover:text-forest">
+              <Link href={item.href} className="underline-offset-4 hover:text-forest hover:underline">
                 {item.label}
               </Link>
             ) : (
@@ -18,7 +18,7 @@ export function Breadcrumb({ items, label }: { items: Crumb[]; label: string }) 
               </span>
             )}
             {i < items.length - 1 ? (
-              <span aria-hidden="true" className="text-champagne-deep">
+              <span aria-hidden="true" className="text-stone-dark">
                 /
               </span>
             ) : null}

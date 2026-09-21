@@ -2,13 +2,13 @@
 
 Le site est un projet de communication à valider, pas une attestation de conformité. Rien de ce qui suit n'est déduit du seul nom « LTD » ni de la seule clientèle professionnelle. Tant que cette liste n'est pas traitée, laisser `SITE_INDEXABLE=false`.
 
-## 1. Identité et coordonnées (`src/config/site.ts` → `toConfirm`)
+## 1. Identité et coordonnées
 
-- [ ] Dénomination sociale exacte, forme juridique, pays d'immatriculation
-- [ ] Numéro d'immatriculation
-- [ ] Adresse du siège
-- [ ] Adresse électronique et téléphone de contact (affichés dans le pied de page et la page contact dès qu'ils sont renseignés)
-- [ ] Responsable de la publication
+- [ ] Dénomination sociale exacte, forme juridique, pays d'immatriculation (`src/content/{fr,en}/legal.ts`, puis `brand.legalNameConfirmed` dans `src/config/site.ts` pour les données structurées)
+- [ ] Numéro d'immatriculation (`legal.ts`)
+- [ ] Adresse du siège (`legal.ts` et `siteConfig.toConfirm.addressLines`)
+- [ ] Adresse électronique et téléphone de contact (`siteConfig.toConfirm` : affichés dans le pied de page, la page contact et les données structurées dès qu'ils sont renseignés)
+- [ ] Responsable de la publication (`legal.ts`)
 
 ## 2. Périmètre et statut (à valider avec un conseil)
 
@@ -34,7 +34,8 @@ Le site est un projet de communication à valider, pas une attestation de confor
 
 ## 4. Technique
 
-- [ ] `NEXT_PUBLIC_SITE_URL` (domaine réel) : canoniques, hreflang, sitemap, aperçus de partage
+- [ ] `NEXT_PUBLIC_SITE_URL` (domaine réel, en HTTPS) défini avant la construction : canoniques, hreflang, sitemap, aperçus de partage, HSTS
+- [ ] `TRUSTED_PROXY_HOPS` / `TRUSTED_IP_HEADER` adaptés à l'hébergeur (limitation de débit)
 - [ ] `CONTACT_FORM_SECRET` (valeur aléatoire longue) et fournisseur d'envoi configuré, testé avec des données fictives vers une boîte interne
 - [ ] Limitation de débit : magasin partagé si l'hébergement est multi-instance
 - [ ] En-têtes de sécurité (CSP) adaptés si un service tiers est ajouté un jour

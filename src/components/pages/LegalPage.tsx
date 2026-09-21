@@ -10,10 +10,10 @@ export function LegalPage({ locale, dict, content, crumbLabel }: { locale: Local
         eyebrow={content.eyebrow}
         title={content.title}
         lead={content.lead}
-        crumbs={[{ label: "ARASTE CAPITAL", href: `/${locale}` }, { label: crumbLabel }]}
+        crumbs={[{ label: dict.common.ui.homeCrumb, href: `/${locale}` }, { label: crumbLabel }]}
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
-      <article className="container-x py-14 md:py-20">
+      <article className="container-x section-y-sm">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
           <nav aria-labelledby="contents-title" className="lg:col-span-3">
             <div className="lg:sticky lg:top-[calc(var(--header-h)+2rem)]">

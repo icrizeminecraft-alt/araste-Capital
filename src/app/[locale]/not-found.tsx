@@ -2,8 +2,9 @@ import { getDictionary } from "@/content";
 import { NotFoundContent } from "@/components/layout/NotFoundContent";
 
 /**
- * Page introuvable localisée. Le choix de la langue se fait côté client à
- * partir de l'URL, ce qui permet de conserver le rendu statique des pages.
+ * Page introuvable localisée. La langue est déduite de l'URL par un composant
+ * client (rendu côté serveur à la demande), ce qui évite d'utiliser headers()
+ * ici et conserve le rendu statique des autres pages.
  */
 export default function NotFound() {
   const fr = getDictionary("fr");

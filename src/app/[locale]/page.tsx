@@ -58,7 +58,7 @@ export default async function HomePage({ params }: Props) {
       <Hero locale={l} t={t.hero} />
       <Stance t={t.stance} />
 
-      <section id="expertises" className="container-x scroll-mt-24 py-20 md:py-28 lg:py-32" aria-labelledby="expertises-title">
+      <section id="expertises" className="container-x section-y scroll-mt-24" aria-labelledby="expertises-title">
         <Reveal>
           <SectionHeading id="expertises-title" eyebrow={t.expertises.eyebrow} title={t.expertises.title} body={t.expertises.body} className="max-w-3xl" />
         </Reveal>

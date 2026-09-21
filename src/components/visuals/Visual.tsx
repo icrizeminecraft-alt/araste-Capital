@@ -39,11 +39,6 @@ export function Visual({
     );
   }
   return (
-    <ArchitecturalPlate
-      kind={slot.plate}
-      title={decorative ? undefined : slot.alt[locale]}
-      priority={priority}
-      className={`h-full w-full ${className}`}
-    />
+    <ArchitecturalPlate kind={slot.plate} title={decorative ? undefined : slot.alt[locale]} className={`h-full w-full ${className}`} />
   );
 }

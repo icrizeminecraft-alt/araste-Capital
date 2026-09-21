@@ -64,6 +64,7 @@ src/
     pages/                    pages intérieures
     contact/ContactForm.tsx   formulaire en deux étapes
     visuals/                  compositions SVG et emplacement visuel
+    seo/                      données structurées (faits confirmés seulement)
     ui/                       éléments réutilisables
   instrumentation.ts        avertissements de configuration au démarrage (production)
   content/
@@ -79,6 +80,7 @@ src/
     i18n.ts, metadata.ts, typography.ts
   proxy.ts                    redirection vers la langue (/ → /fr ou /en)
 docs/                         images, contenus, liste avant publication
+scripts/render-icons.mjs      génération de l'icône Apple depuis le SVG
 tests/, e2e/                  tests unitaires et de bout en bout
 ```
 
@@ -87,7 +89,7 @@ tests/, e2e/                  tests unitaires et de bout en bout
 - Textes : `src/content/fr/*.ts` et `src/content/en/*.ts`. Chaque fichier est typé (`src/content/types.ts`) ; une clé manquante fait échouer la compilation. Les espaces insécables françaises sont ajoutées automatiquement.
 - Expertises : activer ou désactiver dans `src/config/site.ts` (`expertises`), ordre dans `expertiseOrder`. Une expertise désactivée disparaît de la navigation, des listes, du sitemap et renvoie une 404.
 - Montants cibles (5 M€ et plus) : `siteConfig.ticketSize.enabled`, désactivé par défaut tant qu'ils ne sont pas validés.
-- Coordonnées et informations légales : `siteConfig.toConfirm`. Vides par défaut, ils ne sont jamais inventés ; les pages légales affichent les champs restants comme « à compléter ».
+- Coordonnées affichées (pied de page, contact, données structurées) : `siteConfig.toConfirm`. Vides par défaut, elles ne sont jamais inventées. Les informations légales (immatriculation, siège, statut, hébergeur, responsable du traitement, conservation) se renseignent directement dans `src/content/{fr,en}/legal.ts` et `privacy.ts`, dont les blocs « à compléter » disparaissent une fois les textes rédigés.
 - Visuels : `src/config/images.ts` et `docs/IMAGES.md`.
 - Slugs : `src/config/routes.ts` (le sélecteur de langue et le sitemap en dépendent).
 
@@ -101,9 +103,10 @@ Côté serveur (`src/app/api/contact/route.ts`) :
 - corps lu en flux et plafonné à 16 Ko (octets), quel que soit l'en-tête Content-Length ;
 - jeton signé HMAC émis au rendu de la page (envoi refusé avant 3 s ou après 24 h) ;
 - pot de miel : un champ caché rempli déclenche une réponse neutre, sans envoi ni indice ;
-- limitation de débit par empreinte salée de l'adresse IP (`TRUSTED_PROXY_HOPS` définit quel mandataire est de confiance ; sans adresse fiable, compartiment partagé à limite élargie) ;
+- limitation de débit par empreinte salée de l'adresse IP : `TRUSTED_PROXY_HOPS` définit quel mandataire de la chaîne X-Forwarded-For est de confiance, `TRUSTED_IP_HEADER` désigne un en-tête d'hébergeur lu en priorité ; les en-têtes non configurés sont ignorés et, sans adresse fiable, un compartiment partagé à limite élargie s'applique ;
 - clé d'idempotence contre les doubles envois, libérée si le fournisseur échoue afin qu'un nouvel essai reste possible ;
-- refus des requêtes déclarées inter-sites (`Sec-Fetch-Site`), journaux sans contenu.
+- refus des requêtes déclarées inter-sites (`Sec-Fetch-Site`) et des expertises désactivées, journaux sans contenu ;
+- courriel ou webhook rédigé dans la langue de la demande, avec les libellés du site plutôt que les codes internes.
 
 Fournisseurs (`CONTACT_PROVIDER`) :
 
@@ -127,11 +130,13 @@ La limitation de débit et l'idempotence sont en mémoire par processus : sur un
 - `SITE_INDEXABLE=true` : retire `noindex` (balise, en-tête `X-Robots-Tag`) et ouvre `robots.txt`. À n'activer qu'après validation des éléments légaux. `noindex` n'est pas une protection d'accès : pour une préproduction confidentielle, ajouter une authentification au niveau de l'hébergeur.
 - Ces deux variables sont évaluées à la construction (pages prérendues, en-têtes compilés) : les modifier impose un nouveau `npm run build`.
 - Les données structurées (`Organization`) ne contiennent que des faits confirmés ; la dénomination sociale n'y figure qu'une fois `brand.legalNameConfirmed` passé à `true`.
-- En-têtes de sécurité (`next.config.ts`) : CSP sans aucune ressource tierce, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy`, HSTS. La CSP conserve `'unsafe-inline'` pour les scripts d'amorçage des pages statiques : elle limite ce qu'une page peut charger mais n'atténue pas une injection de script. Une CSP par nonce imposerait un rendu dynamique de toutes les pages.
+- En-têtes de sécurité (`next.config.ts`) : CSP sans aucune ressource tierce, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy`. HSTS et `upgrade-insecure-requests` ne sont émis qu'en production avec une `NEXT_PUBLIC_SITE_URL` en HTTPS, pour ne pas casser une préproduction servie en HTTP. La CSP conserve `'unsafe-inline'` pour les scripts d'amorçage des pages statiques : elle limite ce qu'une page peut charger mais n'atténue pas une injection de script. Une CSP par nonce imposerait un rendu dynamique de toutes les pages.
+- Sans `NEXT_PUBLIC_SITE_URL`, l'image d'aperçu de partage est référencée sur `localhost` (comportement de Next) : sans conséquence tant que le site n'est pas indexé, à corriger avant publication.
+- La dénomination « ARASTE CAPITAL LTD » figure dans le pied de page et le manifeste comme demandé ; elle n'est ajoutée aux données structurées qu'une fois `brand.legalNameConfirmed` passé à `true`.
 
 ## Ce qui a été vérifié
 
-- `npm run typecheck`, `npm run lint`, `npm run test` (48 tests unitaires : typographie, routes, schéma et protections du formulaire, contraintes éditoriales FR/EN) et `npm run build` : passés.
+- `npm run typecheck`, `npm run lint`, `npm run test` (typographie, routes, schéma et protections du formulaire, contraintes éditoriales FR/EN) et `npm run build` : passés.
 - Tests de bout en bout Playwright (Chromium) à 1440, 768 et 390 px : navigation et liens internes, 404 localisée, sélecteur de langue, menu mobile au clavier, parcours complet du formulaire en mode démonstration, réponses de l'API (jeton, pot de miel, taille, origine, méthode), axe-core WCAG 2.x A/AA, texte à 200 %, `prefers-reduced-motion`.
 - Relecture adversariale par agents indépendants (contenus FR et EN, sécurité, accessibilité, code, design) et inspection visuelle des captures d'écran aux trois largeurs.
 
@@ -139,4 +144,4 @@ Non vérifié : Firefox et Safari réels, Lighthouse (aucun score n'est avancé)
 
 ## Licences
 
-Cormorant et DM Sans : SIL Open Font License 1.1 (`src/assets/fonts/`). Compositions visuelles, logotype et monogramme : créations originales livrées avec le projet.
+Cormorant et DM Sans : SIL Open Font License 1.1, fichiers et licences copiés dans `src/assets/fonts/` (aucune dépendance de police à l'exécution). Compositions visuelles, logotype et monogramme : créations originales livrées avec le projet.

@@ -46,6 +46,7 @@ export type CommonContent = {
   ui: {
     allExpertises: string;
     breadcrumbLabel: string;
+    homeCrumb: string;
     contents: string;
   };
   notFound: { title: string; body: string; cta: string };

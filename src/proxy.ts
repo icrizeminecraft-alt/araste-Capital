@@ -3,12 +3,21 @@ import { defaultLocale, isLocale, locales } from "@/lib/i18n";
 
 /**
  * Redirige les chemins sans préfixe de langue vers la langue par défaut,
- * en respectant la préférence Accept-Language pour la racine.
+ * en respectant la préférence Accept-Language pour la racine, et normalise
+ * un préfixe de langue en capitales (/FR → /fr).
  */
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  const first = pathname.split("/")[1];
-  if (isLocale(first)) return NextResponse.next();
+  const segments = pathname.split("/");
+  const first = segments[1] ?? "";
+  const lowered = first.toLowerCase();
+
+  if (isLocale(lowered)) {
+    if (first === lowered) return NextResponse.next();
+    const url = request.nextUrl.clone();
+    url.pathname = ["", lowered, ...segments.slice(2)].join("/");
+    return NextResponse.redirect(url, 308);
+  }
 
   let target: string = defaultLocale;
   if (pathname === "/") {
@@ -30,5 +39,6 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!api|_next|icon|apple-icon|manifest|robots|sitemap|opengraph-image|.*\\..*).*)"],
+  // Tout sauf l'API, les ressources internes et les fichiers (favicon, manifest, robots, sitemap, images…).
+  matcher: ["/((?!api/|_next/|icon\\.svg$|apple-icon\\.png$|manifest\\.webmanifest$|robots\\.txt$|sitemap\\.xml$|.*\\.[a-zA-Z0-9]+$).*)"],
 };

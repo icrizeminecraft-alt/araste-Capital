@@ -29,7 +29,7 @@ export default defineConfig({
     // ne jamais tester contre un déploiement configuré avec un vrai fournisseur.
     reuseExistingServer: process.env.PLAYWRIGHT_REUSE_SERVER === "1",
     timeout: 240_000,
-    env: { CONTACT_PROVIDER: "none", SITE_INDEXABLE: "false", PLAYWRIGHT_TEST_ENV: "1" },
+    env: { CONTACT_PROVIDER: "none", SITE_INDEXABLE: "false" },
   },
   projects: [
     { name: "desktop", use: { ...devices["Desktop Chrome"], viewport: { width: 1440, height: 900 } } },

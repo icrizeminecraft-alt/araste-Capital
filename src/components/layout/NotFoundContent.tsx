@@ -18,7 +18,7 @@ export function NotFoundContent({ copy }: { copy: { fr: Copy; en: Copy } }) {
         <Eyebrow className="mb-6">404</Eyebrow>
         <h1 className="display-lg">{t.title}</h1>
         <p className="lead measure mt-8 text-ink-soft">{t.body}</p>
-        <div className="mt-10 flex flex-col gap-5 sm:flex-row sm:items-center">
+        <div className="mt-10 flex flex-col items-start gap-5 sm:flex-row sm:items-center">
           <Link href={`/${locale}`} className="btn btn-primary">
             {t.cta}
           </Link>

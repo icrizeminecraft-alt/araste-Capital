@@ -23,10 +23,12 @@ export function buildMetadata({
 }): Metadata {
   const paths = alternatesFor(route);
   const base = siteConfig.siteUrl;
-  const fullTitle = route.kind === "page" && route.key === "home" ? `${siteName} — ${title}` : `${title} — ${siteName}`;
+  const isHome = route.kind === "page" && route.key === "home";
+  const fullTitle = isHome ? `${siteName} — ${title}` : `${title} — ${siteName}`;
 
   const metadata: Metadata = {
-    title: fullTitle,
+    // Le gabarit du layout ajoute « — ARASTE CAPITAL » ; l'accueil inverse l'ordre.
+    title: isHome ? { absolute: fullTitle } : title,
     description,
     robots: siteConfig.indexable ? { index: true, follow: true } : { index: false, follow: false, nocache: true },
     openGraph: {

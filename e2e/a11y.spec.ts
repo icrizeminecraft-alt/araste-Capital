@@ -1,7 +1,18 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 
-const pages = ["/fr", "/fr/expertises", "/fr/expertises/financement-relais", "/fr/notre-approche", "/fr/contact", "/en", "/fr/mentions-legales"];
+const pages = [
+  "/fr",
+  "/fr/le-cabinet",
+  "/fr/expertises",
+  "/fr/expertises/financement-relais",
+  "/fr/notre-approche",
+  "/fr/contact",
+  "/fr/mentions-legales",
+  "/fr/confidentialite",
+  "/en",
+  "/en/contact",
+];
 
 test.describe("accessibilité (axe-core, WCAG 2.x A/AA)", () => {
   for (const path of pages) {

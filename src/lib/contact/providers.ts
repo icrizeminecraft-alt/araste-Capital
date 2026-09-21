@@ -1,6 +1,9 @@
 import "server-only";
 import type { ContactFields } from "@/lib/contact/schema";
 import { siteConfig } from "@/config/site";
+import { getDictionary } from "@/content";
+import { isLocale, type Locale } from "@/lib/i18n";
+import type { ExpertiseKey } from "@/config/routes";
 
 /**
  * Envoi des demandes de contact.
@@ -40,25 +43,38 @@ function oneLine(value: string, max = 120): string {
   return flat.length > max ? `${flat.slice(0, max - 1)}…` : flat;
 }
 
+/** Libellés lisibles, dans la langue de la demande, pour les valeurs codées. */
+export function describeFields(fields: ContactFields, locale: string) {
+  const l: Locale = isLocale(locale) ? locale : "fr";
+  const t = getDictionary(l).contact.form.fields;
+  const dict = getDictionary(l);
+  const financing =
+    fields.financingType === "other" ? t.financingType.other : dict.expertises[fields.financingType as ExpertiseKey]?.shortTitle ?? fields.financingType;
+  const timeline = t.timeline.options.find((o) => o.value === fields.timeline)?.label ?? fields.timeline;
+  const channel = t.channel.options.find((o) => o.value === fields.channel)?.label ?? fields.channel;
+  return { locale: l, t, financing, timeline, channel };
+}
+
 export function renderPlainText(fields: ContactFields, locale: string, receivedAt: Date): string {
+  const d = describeFields(fields, locale);
   const lines = [
-    `${siteConfig.brand.name} — nouvelle demande (${locale.toUpperCase()})`,
-    `Reçue le ${receivedAt.toISOString()}`,
+    `${siteConfig.brand.name} — ${d.locale === "fr" ? "nouvelle demande" : "new request"} (${d.locale.toUpperCase()})`,
+    `${d.locale === "fr" ? "Reçue le" : "Received on"} ${receivedAt.toISOString()}`,
     "",
-    "OPÉRATION",
-    `Nature du financement : ${fields.financingType}`,
-    `Montant recherché : ${fields.amount} ${fields.currency}`,
-    `Pays de l'opération : ${fields.country}`,
-    `Échéance souhaitée : ${fields.timeline}`,
-    "Descriptif :",
+    d.locale === "fr" ? "OPÉRATION" : "TRANSACTION",
+    `${d.t.financingType.label} : ${d.financing}`,
+    `${d.t.amount.label} : ${fields.amount} ${fields.currency}`,
+    `${d.t.country.label} : ${fields.country}`,
+    `${d.t.timeline.label} : ${d.timeline}`,
+    `${d.t.description.label} :`,
     fields.description,
     "",
     "CONTACT",
-    `Nom : ${fields.name}`,
-    `Société : ${fields.company}`,
-    `Courriel : ${fields.email}`,
-    `Téléphone : ${fields.phone || "—"}`,
-    `Canal préféré : ${fields.channel}`,
+    `${d.t.name.label} : ${fields.name}`,
+    `${d.t.company.label} : ${fields.company}`,
+    `${d.t.email.label} : ${fields.email}`,
+    `${d.t.phone.label} : ${fields.phone || "—"}`,
+    `${d.t.channel.label} : ${d.channel}`,
   ];
   return lines.join("\n");
 }
@@ -78,7 +94,7 @@ export async function sendContact(fields: ContactFields, locale: string): Promis
 
   const receivedAt = new Date();
   const text = renderPlainText(fields, locale, receivedAt);
-  const subject = oneLine(`[${siteConfig.brand.name}] ${fields.financingType} · ${fields.amount} ${fields.currency} · ${fields.country}`);
+  const subject = oneLine(`[${siteConfig.brand.name}] ${describeFields(fields, locale).financing} · ${fields.amount} ${fields.currency} · ${fields.country}`);
 
   if (provider === "resend") {
     const response = await fetch("https://api.resend.com/emails", {

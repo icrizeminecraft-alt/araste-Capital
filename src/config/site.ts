@@ -14,13 +14,6 @@ export type ContactDetails = {
   email: string;
   phone: string;
   addressLines: string[];
-  jurisdiction: string;
-  registrationNumber: string;
-  regulatoryStatus: string;
-  dataController: string;
-  host: string;
-  emailProvider: string;
-  retentionPeriod: string;
 };
 
 export const siteConfig = {
@@ -44,27 +37,17 @@ export const siteConfig = {
   indexable: process.env.SITE_INDEXABLE === "true",
 
   /**
-   * Coordonnées et informations légales — À COMPLÉTER AVANT PUBLICATION.
-   * Laisser une chaîne vide pour masquer l'élément correspondant.
+   * Coordonnées affichées (pied de page, page contact, données structurées) —
+   * À COMPLÉTER AVANT PUBLICATION. Vides, elles sont masquées et signalées.
+   * Les informations légales (immatriculation, siège, statut, hébergeur,
+   * responsable du traitement, conservation) se renseignent dans les blocs
+   * « à compléter » de src/content/{fr,en}/legal.ts et privacy.ts.
    */
   toConfirm: {
     email: "",
     phone: "",
     /** Adresse du siège (une ligne par élément). */
     addressLines: [],
-    /** Pays / juridiction d'immatriculation. */
-    jurisdiction: "",
-    registrationNumber: "",
-    /** Statut d'intermédiaire, agrément ou mention réglementaire éventuelle. */
-    regulatoryStatus: "",
-    /** Responsable du traitement (RGPD / UK GDPR) — nom et contact. */
-    dataController: "",
-    /** Hébergeur du site. */
-    host: "",
-    /** Prestataire de messagerie utilisé pour le formulaire. */
-    emailProvider: "",
-    /** Durée de conservation des demandes de contact. */
-    retentionPeriod: "",
   } as ContactDetails,
 
   /**

@@ -4,7 +4,7 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function Interlocutors({ t }: { t: HomeContent["interlocutors"] }) {
   return (
-    <section className="container-x py-20 md:py-28 lg:py-32" aria-labelledby="interlocutors-title">
+    <section className="container-x section-y" aria-labelledby="interlocutors-title">
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
         <Reveal className="lg:col-span-5">
           <SectionHeading id="interlocutors-title" eyebrow={t.eyebrow} title={t.title} body={t.body} />

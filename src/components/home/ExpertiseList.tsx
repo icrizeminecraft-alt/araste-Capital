@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import type { PlateKind } from "@/config/images";
 import { ArchitecturalPlate } from "@/components/visuals/ArchitecturalPlate";
+import { ArrowLink } from "@/components/ui/ButtonLink";
 
 export type ExpertiseListItem = {
   key: string;
@@ -35,8 +36,8 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
               onMouseEnter={() => setActive(i)}
               onFocus={() => setActive(i)}
               onTouchStart={() => setActive(i)}
-              className={`grid grid-cols-[2.5rem_minmax(0,1fr)] items-baseline gap-x-3 py-6 transition-colors md:grid-cols-[4rem_minmax(0,1fr)_auto] md:gap-x-4 md:py-7 ${
-                active === i ? "bg-ivory-deep/50" : ""
+              className={`-mx-3 grid grid-cols-[2.5rem_minmax(0,1fr)] items-baseline gap-x-3 px-3 py-6 transition-colors md:-mx-4 md:grid-cols-[4rem_minmax(0,1fr)_auto] md:gap-x-4 md:px-4 md:py-7 ${
+                active === i ? "lg:bg-ivory-deep/50" : ""
               } hover:bg-ivory-deep/50 focus-visible:bg-ivory-deep/50`}
             >
               <span aria-hidden="true" className="numeral pl-1 text-base md:pl-2">
@@ -59,7 +60,7 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
               </span>
               <span
                 aria-hidden="true"
-                className="hidden self-center pr-3 font-sans text-xl text-champagne-deep transition-transform duration-300 group-hover:translate-x-1 motion-reduce:transition-none motion-reduce:group-hover:translate-x-0 md:block"
+                className="hidden self-baseline pr-1 font-sans text-xl text-champagne-deep transition-transform duration-300 group-hover:translate-x-1 motion-reduce:transition-none motion-reduce:group-hover:translate-x-0 md:block"
               >
                 →
               </span>
@@ -69,7 +70,10 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
       </ol>
 
       <div className="lg:col-span-5">
-        <div className="lg:sticky lg:top-[calc(var(--header-h)+2rem)]">
+        <div className="mt-2 lg:hidden">
+          <ArrowLink href={allHref}>{allLabel}</ArrowLink>
+        </div>
+        <div className="hidden lg:sticky lg:top-[calc(var(--header-h)+2rem)] lg:block">
           <div className="grain relative aspect-[4/5] overflow-hidden bg-stone">
             {items.map((item, i) => (
               <div
@@ -84,17 +88,14 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
             ))}
             <div
               aria-hidden="true"
-              className="absolute bottom-0 left-0 right-0 flex items-baseline justify-between bg-forest/85 px-6 py-4 text-ivory backdrop-blur-[1px]"
+              className="absolute bottom-0 left-0 right-0 flex items-baseline justify-between bg-forest px-6 py-4 text-ivory"
             >
               <span className="numeral numeral--dark text-sm">{current?.number}</span>
               <span className="font-serif text-lg">{current?.title}</span>
             </div>
           </div>
           <div className="mt-8">
-            <Link href={allHref} className="link-line font-sans text-[0.9375rem] font-medium text-forest">
-              {allLabel}
-              <span aria-hidden="true" className="ml-2">→</span>
-            </Link>
+            <ArrowLink href={allHref}>{allLabel}</ArrowLink>
           </div>
         </div>
       </div>

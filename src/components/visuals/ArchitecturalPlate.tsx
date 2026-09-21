@@ -30,12 +30,10 @@ export function ArchitecturalPlate({
   kind,
   className = "",
   title,
-  priority = false,
 }: {
   kind: PlateKind;
   className?: string;
   title?: string;
-  priority?: boolean;
 }) {
   const uid = useId().replace(/:/g, "");
   const id = (name: string) => `${uid}-${name}`;
@@ -50,7 +48,6 @@ export function ArchitecturalPlate({
       aria-hidden={title ? undefined : true}
       focusable="false"
       data-plate={kind}
-      data-priority={priority ? "true" : undefined}
     >
       {title ? <title>{title}</title> : null}
       <defs>
@@ -144,20 +141,19 @@ function Arcade({ id, url }: { id: I; url: U }) {
         fill={C.stoneLight}
         d={`M0 0 H800 V830 H0 Z ${front.map((cx) => archHole(cx, 430, 120, 830)).join(" ")}`}
       />
-      {/* Intrados ombrés */}
+      {/* Intrados ombrés : un seul trait dégradé, clipé à l'ouverture */}
       {front.map((cx, i) => (
         <g key={cx} clipPath={`url(#${id(`clipA${i + 1}`)})`}>
-          <path d={archHole(cx, 430, 120, 830)} fill="none" stroke={url("reveal")} strokeWidth="64" />
-          <rect x={cx - 120} y="430" width="34" height="400" fill={url("reveal")} />
+          <path d={archHole(cx, 430, 120, 830)} fill="none" stroke={url("reveal")} strokeWidth="56" />
         </g>
       ))}
       {/* Corniche et cordon */}
       <rect x="0" y="118" width="800" height="10" fill={C.stone} />
       <rect x="0" y="128" width="800" height="2" fill={C.stoneDark} opacity="0.6" />
       <rect x="0" y="176" width="800" height="1.5" fill={C.brass} opacity="0.55" />
-      {/* Clés de voûte */}
+      {/* Clés de voûte : trapèzes intégrés à l'anneau */}
       {front.map((cx) => (
-        <rect key={cx} x={cx - 9} y="296" width="18" height="30" fill={C.stone} />
+        <path key={cx} d={`M${cx - 14} 292 L${cx + 14} 292 L${cx + 10} 318 L${cx - 10} 318 Z`} fill={C.stoneMid} />
       ))}
       {/* Sol de premier plan */}
       <rect x="0" y="830" width="800" height="170" fill={url("floor")} />
@@ -364,7 +360,7 @@ function Vault({ id, url }: { id: I; url: U }) {
       {/* Bandeau d'archivolte */}
       <path d={archHole(400, 520, 318, 1000)} fill="none" stroke={C.stoneLight} strokeWidth="14" />
       <path d={archHole(400, 520, 330, 1000)} fill="none" stroke={C.brass} strokeWidth="1.5" opacity="0.6" />
-      <rect x="386" y="188" width="28" height="44" fill={C.stoneLight} />
+      <path d="M382 194 L418 194 L412 232 L388 232 Z" fill={C.stoneLight} />
       <path d="M0 0 H420 L0 560 Z" fill={url("light")} opacity="0.5" />
     </g>
   );

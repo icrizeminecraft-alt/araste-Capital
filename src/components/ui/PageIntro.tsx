@@ -26,7 +26,7 @@ export function PageIntro({
           <h1 className="display-lg">{title}</h1>
         </div>
         {lead ? (
-          <p className="lead measure text-ink-soft lg:col-span-8 lg:col-start-1">{lead}</p>
+          <p className="lead measure-lead text-ink-soft lg:col-span-8 lg:col-start-1">{lead}</p>
         ) : null}
       </div>
       {children}

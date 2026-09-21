@@ -38,6 +38,21 @@ test.describe("navigation", () => {
     await expect(page.locator("h1")).toContainText("Cette page n'existe pas");
     const en = await page.goto("/en/does-not-exist");
     expect(en?.status()).toBe(404);
+    await expect(page.locator("h1")).toContainText("This page does not exist");
+  });
+
+  test("les titres de page portent un seul suffixe de marque", async ({ page }) => {
+    await page.goto("/fr/le-cabinet");
+    await expect(page).toHaveTitle(/^Le cabinet — ARASTE CAPITAL$/);
+    await page.goto("/fr");
+    await expect(page).toHaveTitle(/^ARASTE CAPITAL — Conseil indépendant en financements professionnels$/);
+    await page.goto("/en/expertise/bridge-finance");
+    await expect(page).toHaveTitle(/^Bridge finance — ARASTE CAPITAL$/);
+  });
+
+  test("un préfixe de langue en capitales est normalisé", async ({ page }) => {
+    const response = await page.goto("/FR/le-cabinet");
+    expect(response?.url()).toMatch(/\/fr\/le-cabinet$/);
   });
 
   test("le sélecteur de langue conserve la page correspondante", async ({ page }) => {

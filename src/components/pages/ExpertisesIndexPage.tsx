@@ -18,19 +18,22 @@ export function ExpertisesIndexPage({ locale, dict }: { locale: Locale; dict: Di
         eyebrow={t.eyebrow}
         title={t.title}
         lead={t.lead}
-        crumbs={[{ label: "ARASTE CAPITAL", href: `/${locale}` }, { label: dict.common.nav.expertises }]}
+        crumbs={[{ label: dict.common.ui.homeCrumb, href: `/${locale}` }, { label: dict.common.nav.expertises }]}
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
-      <section className="container-x py-16 md:py-20">
-        <ol className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:gap-y-20">
+      <section className="container-x section-y-sm">
+        <ol className="grid grid-cols-1 gap-y-14 lg:grid-cols-12 lg:gap-x-8 lg:gap-y-24">
           {keys.map((key, i) => {
             const e = dict.expertises[key];
             const featured = i < 2;
+            // Composition asymétrique : larges et étroites alternent, la seconde colonne est décalée.
+            const layouts = ["lg:col-span-7", "lg:col-span-5 lg:mt-24", "lg:col-span-5", "lg:col-span-6 lg:col-start-7", "lg:col-span-7", "lg:col-span-5 lg:mt-24"];
+            const wide = i % 3 === 0 || i === 3;
             return (
-              <Reveal as="li" key={key} className={featured ? "md:col-span-1" : ""} delay={(i % 2) as 0 | 1}>
+              <Reveal as="li" key={key} className={layouts[i % layouts.length]} delay={(i % 2) as 0 | 1}>
                 <article className="group grid grid-cols-1 gap-6">
-                  <Link href={expertisePath(locale, key)} className="grain relative block aspect-[16/10] overflow-hidden bg-stone" tabIndex={-1} aria-hidden="true">
-                    <Visual slot={visuals.expertises[key]} locale={locale} decorative sizes="(min-width: 48rem) 50vw, 100vw" className="transition-transform duration-700 ease-out-quart group-hover:scale-[1.02] motion-reduce:transition-none" />
+                  <Link href={expertisePath(locale, key)} className={`grain relative block overflow-hidden bg-stone ${wide ? "aspect-[4/3]" : "aspect-[4/5] sm:aspect-[4/3] lg:aspect-[4/5]"}`} tabIndex={-1} aria-hidden="true">
+                    <Visual slot={visuals.expertises[key]} locale={locale} decorative sizes="(min-width: 64rem) 50vw, 100vw" className="transition-transform duration-700 ease-out-quart group-hover:scale-[1.02] motion-reduce:transition-none" />
                   </Link>
                   <div className="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-x-4">
                     <span aria-hidden="true" className="numeral text-xl">
@@ -38,8 +41,8 @@ export function ExpertisesIndexPage({ locale, dict }: { locale: Locale; dict: Di
                     </span>
                     <div>
                       <p className="eyebrow mb-2">{e.eyebrow}</p>
-                      <h2 className={`font-serif font-medium leading-tight text-forest ${featured ? "text-[2rem] md:text-[2.4rem]" : "text-[1.75rem] md:text-[2rem]"}`}>
-                        <Link href={expertisePath(locale, key)} className="link-line">
+                      <h2 className={`font-serif font-medium leading-tight text-forest ${featured ? "text-[1.85rem] lg:text-[2.5rem]" : "text-[1.6rem] lg:text-[2.1rem]"}`}>
+                        <Link href={expertisePath(locale, key)} className="decoration-champagne underline-offset-8 transition-colors group-hover:underline hover:underline">
                           {e.title}
                         </Link>
                       </h2>

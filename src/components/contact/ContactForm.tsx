@@ -8,6 +8,7 @@ import { pagePath } from "@/config/routes";
 import {
   currencies,
   emptyContactFields,
+  LIMITS,
   sanitizeFieldErrors,
   validateStep,
   type ContactFields,
@@ -87,8 +88,9 @@ export function ContactForm({
     ) : null;
   };
 
-  const focus = (el: HTMLElement | null | undefined) => {
-    window.requestAnimationFrame(() => el?.focus());
+  // Le focus est lu au moment du rendu suivant : l'élément visé peut changer (résultat, étape).
+  const focus = (ref: { current: HTMLElement | null }) => {
+    window.requestAnimationFrame(() => ref.current?.focus());
   };
 
   const showFieldErrors = (stepErrors: FieldErrors) => {
@@ -96,13 +98,13 @@ export function ContactForm({
     setErrors(stepErrors);
     setStatus({ kind: "error", code: "formInvalid" });
     setAnnouncement(t.errorSummary.replace("{count}", String(count)));
-    focus(summaryRef.current);
+    focus(summaryRef);
   };
 
   const fail = (code: ErrorCode) => {
     setStatus({ kind: "error", code });
     setAnnouncement(t.errors[code]);
-    focus(summaryRef.current);
+    focus(summaryRef);
   };
 
   const goNext = () => {
@@ -112,14 +114,14 @@ export function ContactForm({
     setStatus({ kind: "idle" });
     setAnnouncement("");
     setStep(2);
-    focus(headingRef.current);
+    focus(headingRef);
   };
 
   const goBack = () => {
     setStatus({ kind: "idle" });
     setAnnouncement("");
     setStep(1);
-    focus(headingRef.current);
+    focus(headingRef);
   };
 
   const submit = async (event: FormEvent<HTMLFormElement>) => {
@@ -147,6 +149,7 @@ export function ContactForm({
       if (response.ok && data && (data.status === "sent" || data.status === "demo")) {
         setStatus({ kind: data.status });
         setAnnouncement(data.status === "sent" ? t.result.sentTitle : t.result.demoTitle);
+        focus(headingRef);
         return;
       }
       if (response.status === 400 && data && data.status === "error" && data.fields) {
@@ -181,7 +184,7 @@ export function ContactForm({
     idempotencyRef.current = null;
     setStatus({ kind: "idle" });
     setAnnouncement("");
-    focus(headingRef.current);
+    focus(headingRef);
   };
 
   const current = t.steps[step - 1];
@@ -213,21 +216,16 @@ export function ContactForm({
             <p className="mb-8 border-l-2 border-champagne bg-ivory-deep/60 px-4 py-3 font-sans text-sm text-ink">{t.noscript}</p>
           </noscript>
 
-          <ol className="mb-10 flex gap-6 border-b border-stone pb-5 font-sans text-sm" aria-label={t.stepsLabel}>
+          <ol className="mb-10 flex flex-wrap items-baseline gap-x-8 gap-y-3" aria-label={t.stepsLabel}>
             {t.steps.map((s, i) => {
               const n = i + 1;
               const isCurrent = n === step;
               return (
-                <li key={s.title} className={`flex items-center gap-3 ${isCurrent ? "text-forest" : "text-ink-soft"}`} aria-current={isCurrent ? "step" : undefined}>
-                  <span
-                    aria-hidden="true"
-                    className={`flex h-7 w-7 items-center justify-center border text-xs ${
-                      isCurrent ? "border-forest bg-forest text-ivory" : n < step ? "border-forest text-forest" : "border-stone-dark"
-                    }`}
-                  >
-                    {n}
+                <li key={s.title} className={`flex items-baseline gap-3 ${isCurrent ? "text-forest" : "text-ink-soft"}`} aria-current={isCurrent ? "step" : undefined}>
+                  <span aria-hidden="true" className={`numeral text-base ${isCurrent ? "" : "opacity-70"}`}>
+                    {String(n).padStart(2, "0")}
                   </span>
-                  <span className={isCurrent ? "font-medium" : ""}>{s.title}</span>
+                  <span className={`font-serif text-lg ${isCurrent ? "font-medium" : ""}`}>{s.title}</span>
                 </li>
               );
             })}
@@ -256,7 +254,7 @@ export function ContactForm({
           {/* Pot de miel : hors écran, ignoré par les personnes, rempli par les robots. */}
           <div aria-hidden="true" className="absolute -left-[9999px] top-auto h-px w-px overflow-hidden">
             <label htmlFor={`${uid}-website`}>{t.honeypotLabel}</label>
-            <input ref={honeypotRef} id={`${uid}-website`} name="website" type="text" tabIndex={-1} autoComplete="off" defaultValue="" />
+            <input ref={honeypotRef} id={`${uid}-website`} name="extra_field" type="text" tabIndex={-1} autoComplete="off" defaultValue="" />
           </div>
 
           {step === 1 ? (
@@ -334,7 +332,7 @@ export function ContactForm({
                 <label htmlFor={`${uid}-description`} className="field-label">
                   {t.fields.description.label}
                 </label>
-                <textarea {...field("description")} rows={6} maxLength={1500} className="field-input resize-y" required />
+                <textarea {...field("description")} rows={6} maxLength={LIMITS.description} className="field-input resize-y" required />
                 <p id={`${uid}-description-hint`} className="field-hint">
                   {t.fields.description.hint}
                 </p>

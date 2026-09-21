@@ -42,6 +42,7 @@ export const common: CommonContent = {
   ui: {
     allExpertises: "All areas of expertise",
     breadcrumbLabel: "Breadcrumb",
+    homeCrumb: "Home",
     contents: "Contents",
   },
   notFound: {

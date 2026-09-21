@@ -17,15 +17,15 @@ export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary })
         eyebrow={t.eyebrow}
         title={t.title}
         lead={t.lead}
-        crumbs={[{ label: "ARASTE CAPITAL", href: `/${locale}` }, { label: dict.common.nav.firm }]}
+        crumbs={[{ label: dict.common.ui.homeCrumb, href: `/${locale}` }, { label: dict.common.nav.firm }]}
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
 
-      <section className="container-x grid grid-cols-1 gap-12 py-16 md:py-20 lg:grid-cols-12 lg:gap-8">
-        <Reveal className="grain relative aspect-[4/5] overflow-hidden bg-stone lg:col-span-5">
-          <Visual slot={visuals.firm} locale={locale} decorative sizes="(min-width: 64rem) 40vw, 100vw" />
+      <section className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center lg:gap-8">
+        <Reveal className="grain relative aspect-[4/5] overflow-hidden bg-stone sm:aspect-[4/3] lg:col-span-6">
+          <Visual slot={visuals.firm} locale={locale} decorative sizes="(min-width: 64rem) 50vw, 100vw" />
         </Reveal>
-        <div className="lg:col-span-6 lg:col-start-7 lg:pt-8">
+        <div className="lg:col-span-5 lg:col-start-8">
           {t.paragraphs.map((p, i) => (
             <Reveal as="p" key={i} className="measure mt-6 first:mt-0 font-sans text-[1.0625rem] leading-relaxed text-ink" delay={Math.min(i, 3) as 0 | 1 | 2 | 3}>
               {p}
@@ -36,7 +36,7 @@ export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary })
       </section>
 
       <section className="bg-ivory-deep/60" aria-labelledby="principles-title">
-        <div className="container-x py-16 md:py-24">
+        <div className="container-x section-y-sm">
           <Reveal>
             <SectionHeading id="principles-title" eyebrow={t.principles.eyebrow} title={t.principles.title} className="max-w-3xl" />
           </Reveal>
@@ -51,7 +51,7 @@ export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary })
         </div>
       </section>
 
-      <section className="container-x grid grid-cols-1 gap-12 py-16 md:py-24 lg:grid-cols-12 lg:gap-8" aria-labelledby="scope-title">
+      <section className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8" aria-labelledby="scope-title">
         <Reveal className="lg:col-span-5">
           <SectionHeading id="scope-title" eyebrow={t.scope.eyebrow} title={t.scope.title} body={t.scope.body} size="md" />
         </Reveal>
