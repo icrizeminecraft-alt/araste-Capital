@@ -17,7 +17,7 @@ export function Hero({ locale, t }: { locale: Locale; t: HomeContent["hero"] }) 
   const ticket = siteConfig.ticketSize;
   return (
     <section className="relative overflow-hidden" aria-labelledby="hero-title">
-      <div className="container-x grid gap-10 pb-12 pt-10 md:pt-14 lg:grid-cols-12 lg:items-end lg:gap-8 lg:pb-0 lg:pt-16 xl:pt-20">
+      <div className="container-x grid grid-cols-1 gap-10 pb-12 pt-10 md:pt-14 lg:grid-cols-12 lg:items-end lg:gap-8 lg:pb-0 lg:pt-16 xl:pt-20">
         <div className="lg:col-span-6 lg:pb-20 xl:col-span-5">
           <Eyebrow className="mb-6">{t.eyebrow}</Eyebrow>
           <h1 id="hero-title" className="display-xl">

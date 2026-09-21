@@ -13,7 +13,7 @@ export function Situations({ locale, t, dict }: { locale: Locale; t: HomeContent
         <Reveal>
           <SectionHeading id="situations-title" eyebrow={t.eyebrow} title={t.title} className="max-w-3xl" />
         </Reveal>
-        <div className="mt-14 grid gap-8 md:grid-cols-3 md:gap-6 lg:mt-20 lg:gap-10">
+        <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-6 lg:mt-20 lg:gap-10">
           {t.cases.map((item, i) => {
             const enabled = siteConfig.expertises[item.expertise];
             return (

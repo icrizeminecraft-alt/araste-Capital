@@ -21,7 +21,7 @@ export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary })
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
 
-      <section className="container-x grid gap-12 py-16 md:py-20 lg:grid-cols-12 lg:gap-8">
+      <section className="container-x grid grid-cols-1 gap-12 py-16 md:py-20 lg:grid-cols-12 lg:gap-8">
         <Reveal className="grain relative aspect-[4/5] overflow-hidden bg-stone lg:col-span-5">
           <Visual slot={visuals.firm} locale={locale} decorative sizes="(min-width: 64rem) 40vw, 100vw" />
         </Reveal>
@@ -40,7 +40,7 @@ export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary })
           <Reveal>
             <SectionHeading id="principles-title" eyebrow={t.principles.eyebrow} title={t.principles.title} className="max-w-3xl" />
           </Reveal>
-          <dl className="mt-12 grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
+          <dl className="mt-12 grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
             {t.principles.items.map((item, i) => (
               <Reveal key={item.title} className="border-t border-forest/40 pt-5" delay={Math.min(i, 3) as 0 | 1 | 2 | 3}>
                 <dt className="font-serif text-2xl font-medium text-forest">{item.title}</dt>
@@ -51,11 +51,11 @@ export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary })
         </div>
       </section>
 
-      <section className="container-x grid gap-12 py-16 md:py-24 lg:grid-cols-12 lg:gap-8" aria-labelledby="scope-title">
+      <section className="container-x grid grid-cols-1 gap-12 py-16 md:py-24 lg:grid-cols-12 lg:gap-8" aria-labelledby="scope-title">
         <Reveal className="lg:col-span-5">
           <SectionHeading id="scope-title" eyebrow={t.scope.eyebrow} title={t.scope.title} body={t.scope.body} size="md" />
         </Reveal>
-        <div className="grid gap-10 sm:grid-cols-2 lg:col-span-6 lg:col-start-7">
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:col-span-6 lg:col-start-7">
           <Reveal>
             <ul className="space-y-4 border-t border-forest pt-5">
               {t.scope.items.map((item) => (

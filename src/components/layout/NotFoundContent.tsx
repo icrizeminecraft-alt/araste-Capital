@@ -13,7 +13,7 @@ export function NotFoundContent({ copy }: { copy: { fr: Copy; en: Copy } }) {
   const locale = pathname?.startsWith("/en") ? "en" : "fr";
   const t = copy[locale];
   return (
-    <section className="container-x grid gap-10 py-24 md:py-32 lg:grid-cols-12" lang={locale}>
+    <section className="container-x grid grid-cols-1 gap-10 py-24 md:py-32 lg:grid-cols-12" lang={locale}>
       <div className="lg:col-span-7">
         <Eyebrow className="mb-6">404</Eyebrow>
         <h1 className="display-lg">{t.title}</h1>

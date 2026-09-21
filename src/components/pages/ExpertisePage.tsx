@@ -30,13 +30,13 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
 
-      <div className="container-x mt-12 grid gap-12 md:mt-16 lg:grid-cols-12 lg:gap-8">
+      <div className="container-x mt-12 grid grid-cols-1 gap-12 md:mt-16 lg:grid-cols-12 lg:gap-8">
         <Reveal className="grain relative aspect-[16/9] overflow-hidden bg-stone lg:col-span-12 lg:aspect-[21/9]">
           <Visual slot={visuals.expertises[expertise]} locale={locale} decorative sizes="100vw" />
         </Reveal>
       </div>
 
-      <section className="container-x grid gap-12 py-16 md:py-20 lg:grid-cols-12 lg:gap-8" aria-labelledby="needs-title">
+      <section className="container-x grid grid-cols-1 gap-12 py-16 md:py-20 lg:grid-cols-12 lg:gap-8" aria-labelledby="needs-title">
         <Reveal className="lg:col-span-4">
           <Eyebrow className="mb-4">01</Eyebrow>
           <h2 id="needs-title" className="display-sm">
@@ -55,7 +55,7 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
       </section>
 
       <section className="on-dark bg-forest text-ivory" aria-labelledby="approach-title">
-        <div className="container-x grid gap-12 py-16 md:py-24 lg:grid-cols-12 lg:gap-8">
+        <div className="container-x grid grid-cols-1 gap-12 py-16 md:py-24 lg:grid-cols-12 lg:gap-8">
           <Reveal className="lg:col-span-4">
             <Eyebrow dark className="mb-4">02</Eyebrow>
             <h2 id="approach-title" className="display-sm text-ivory">
@@ -72,7 +72,7 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
         </div>
       </section>
 
-      <section className="container-x grid gap-12 py-16 md:py-20 lg:grid-cols-12 lg:gap-8" aria-labelledby="analysis-title">
+      <section className="container-x grid grid-cols-1 gap-12 py-16 md:py-20 lg:grid-cols-12 lg:gap-8" aria-labelledby="analysis-title">
         <Reveal className="lg:col-span-4">
           <Eyebrow className="mb-4">03</Eyebrow>
           <h2 id="analysis-title" className="display-sm">
@@ -80,7 +80,7 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
           </h2>
           <p className="mt-4 font-sans text-[0.9375rem] leading-relaxed text-ink-soft">{s.analysis.intro}</p>
         </Reveal>
-        <Reveal as="ol" className="grid gap-x-8 gap-y-4 border-t border-forest pt-6 sm:grid-cols-2 lg:col-span-7 lg:col-start-6" delay={1}>
+        <Reveal as="ol" className="grid grid-cols-1 gap-x-8 gap-y-4 border-t border-forest pt-6 sm:grid-cols-2 lg:col-span-7 lg:col-start-6" delay={1}>
           {s.analysis.items.map((item, i) => (
             <li key={item} className="flex gap-4 border-b border-stone py-3 font-sans text-[0.9375rem] leading-relaxed text-ink">
               <span aria-hidden="true" className="numeral text-sm">
@@ -93,7 +93,7 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
       </section>
 
       <section className="bg-ivory-deep/60" aria-labelledby="limits-title">
-        <div className="container-x grid gap-12 py-16 md:py-20 lg:grid-cols-12 lg:gap-8">
+        <div className="container-x grid grid-cols-1 gap-12 py-16 md:py-20 lg:grid-cols-12 lg:gap-8">
           <Reveal className="lg:col-span-4">
             <Eyebrow className="mb-4">04</Eyebrow>
             <h2 id="limits-title" className="display-sm">
@@ -113,7 +113,7 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
       {related.length > 0 ? (
         <section className="container-x py-16 md:py-20" aria-label={dict.common.footer.expertisesTitle}>
           <Eyebrow className="mb-6">{dict.common.footer.expertisesTitle}</Eyebrow>
-          <ul className="grid gap-px border-t border-stone md:grid-cols-3">
+          <ul className="grid grid-cols-1 gap-px border-t border-stone md:grid-cols-3">
             {related.map((key) => (
               <li key={key} className="border-b border-stone md:border-b-0 md:border-r md:last:border-r-0">
                 <Link href={expertisePath(locale, key)} className="group block py-6 md:pr-6">

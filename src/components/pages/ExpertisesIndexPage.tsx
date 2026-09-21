@@ -22,17 +22,17 @@ export function ExpertisesIndexPage({ locale, dict }: { locale: Locale; dict: Di
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
       <section className="container-x py-16 md:py-20">
-        <ol className="grid gap-x-8 gap-y-14 md:grid-cols-2 lg:gap-y-20">
+        <ol className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:gap-y-20">
           {keys.map((key, i) => {
             const e = dict.expertises[key];
             const featured = i < 2;
             return (
               <Reveal as="li" key={key} className={featured ? "md:col-span-1" : ""} delay={(i % 2) as 0 | 1}>
-                <article className="group grid gap-6">
+                <article className="group grid grid-cols-1 gap-6">
                   <Link href={expertisePath(locale, key)} className="grain relative block aspect-[16/10] overflow-hidden bg-stone" tabIndex={-1} aria-hidden="true">
                     <Visual slot={visuals.expertises[key]} locale={locale} decorative sizes="(min-width: 48rem) 50vw, 100vw" className="transition-transform duration-700 ease-out-quart group-hover:scale-[1.02] motion-reduce:transition-none" />
                   </Link>
-                  <div className="grid grid-cols-[3.5rem_1fr] gap-x-4">
+                  <div className="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-x-4">
                     <span aria-hidden="true" className="numeral text-xl">
                       {String(i + 1).padStart(2, "0")}
                     </span>

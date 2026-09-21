@@ -11,7 +11,7 @@ export const complex: ExpertiseContent = {
   eyebrow: "Beyond standard channels",
   summary:
     "Support for transactions that standard banking channels struggle to assess: layered holdings, foreign structures, atypical assets, a constrained timetable or a case that calls for an in-depth presentation.",
-  lead: "Some transactions do not fit a standard credit framework: multi-tier ownership, cross-holdings, a foreign structure, an asset with no reference market, a timetable too short for a conventional process. The need itself is often simple; what takes work is making it understandable. Our role is to make the transaction clear, then to take it to the lenders whose analytical approach suits this kind of structure.",
+  lead: "Some transactions fall outside the standard credit framework: multi-tier ownership, cross-holdings, a foreign structure, an asset with no reference market, a timetable too short for a conventional process. The need itself is often simple; what takes work is making it understandable. Our role is to make the transaction clear, then to take it to the lenders whose analytical approach suits this kind of structure.",
   sections: {
     needs: {
       title: "The situations we review",
@@ -28,7 +28,7 @@ export const complex: ExpertiseContent = {
     approach: {
       title: "How we approach these cases",
       paragraphs: [
-        "Everything starts with the structure. Multi-tier ownership, a chain of companies or a foreign entity is nothing unusual, but each must be explainable in a few diagrams. Who owns what, where the asset sits, which entity receives the cash flows, where the debt will be placed, what security each level can grant: this is what a lender needs to see at once. This clarification precedes any search for financing. It sometimes reveals that a transaction deemed complex is simply poorly described, and sometimes that an adjustment to the structure, to be assessed with your advisers, would make it simpler to finance.",
+        "Everything starts with the structure. Multi-tier ownership, a chain of companies or a foreign entity is nothing unusual, but each must be explainable in a few diagrams. Who owns what, where the asset sits, where the cash flows sit, where the debt will be placed, what security each level can grant: this is what a lender needs to see at once. This clarification precedes any search for financing. It sometimes reveals that a transaction deemed complex is simply poorly described, and sometimes that an adjustment to the structure, for your advisers to assess, would make it simpler to finance.",
         "We then address what makes a lender hesitate. An asset without comparables, mixed use, a recently formed entity, an irregular track record: each of these points calls for a documented answer rather than silence. We identify them with you, gather the elements that shed light on them (valuations, contracts, accounts, shareholder undertakings) and build the case around them. The presentation does not seek to play down the particular features of the transaction; it sets them out, explains them and shows how the proposed structure takes them into account.",
         "The choice of lenders follows from this analysis. Not all of them review the same structures, the same assets or the same jurisdictions; some have the capacity to analyse case by case, while others apply fixed criteria. We take the case to those whose review framework matches the transaction, rather than circulating it widely. We follow the discussions, answer further questions and compare with you the terms and constraints of each proposal, in coordination with your legal and tax advisers.",
       ],
@@ -49,7 +49,7 @@ export const complex: ExpertiseContent = {
     limits: {
       title: "The limits of the exercise",
       paragraphs: [
-        "A case declined by one lender will not necessarily be taken up by another. Complexity cannot be circumvented; it has to be documented. Some transactions still prove difficult to finance on reasonable terms, or find no lender at all; we say so as soon as our analysis shows it. A tight timetable does not shorten the lender's review: we indicate neither timing nor terms before studying the transaction, and we do not guarantee that financing will be obtained.",
+        "A case declined by one lender will not necessarily be taken up by another. Complexity cannot be circumvented; it has to be documented. Some transactions still prove difficult to finance on reasonable terms, or find no lender at all; we say so as soon as our analysis shows it. A tight timetable does not shorten the lender's review: we indicate neither timing nor terms before studying the transaction and do not guarantee that financing will be obtained.",
         "We do not restructure ownership arrangements and we give no legal or tax advice. Where an adjustment to the holding structure or the security appears useful, it is for your advisers to assess and implement it. Nor do we stand in for the lender: the review, the terms and the decision are the lender's alone. What we owe you is an accurate analysis of your structure and an introduction to the lenders genuinely able to review it.",
       ],
     },

@@ -21,7 +21,7 @@ export function ContactCta({
       className={dark ? "on-dark bg-forest text-ivory" : "border-t border-stone bg-ivory"}
       aria-labelledby="contact-cta-title"
     >
-      <div className="container-x grid gap-10 py-20 md:py-28 lg:grid-cols-12 lg:items-center lg:gap-8">
+      <div className="container-x grid grid-cols-1 gap-10 py-20 md:py-28 lg:grid-cols-12 lg:items-center lg:gap-8">
         <Reveal className="lg:col-span-8">
           {t.eyebrow ? <Eyebrow dark={dark} className="mb-6">{t.eyebrow}</Eyebrow> : null}
           <h2 id="contact-cta-title" className={`display-lg ${dark ? "text-ivory" : ""}`}>

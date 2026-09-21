@@ -228,7 +228,7 @@ export function ContactForm({
       </div>
 
       {step === 1 ? (
-        <fieldset className="mt-8 grid gap-7 md:grid-cols-2 md:gap-x-8">
+        <fieldset className="mt-8 grid grid-cols-1 gap-7 md:grid-cols-2 md:gap-x-8">
           <legend className="sr-only">{current?.title}</legend>
 
           <div className="md:col-span-2">
@@ -316,7 +316,7 @@ export function ContactForm({
           </div>
         </fieldset>
       ) : (
-        <fieldset className="mt-8 grid gap-7 md:grid-cols-2 md:gap-x-8">
+        <fieldset className="mt-8 grid grid-cols-1 gap-7 md:grid-cols-2 md:gap-x-8">
           <legend className="sr-only">{current?.title}</legend>
 
           <div>

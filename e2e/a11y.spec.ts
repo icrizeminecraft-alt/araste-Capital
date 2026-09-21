@@ -6,7 +6,10 @@ const pages = ["/fr", "/fr/expertises", "/fr/expertises/financement-relais", "/f
 test.describe("accessibilité (axe-core, WCAG 2.x A/AA)", () => {
   for (const path of pages) {
     test(`${path} sans violation`, async ({ page }) => {
-      await page.goto(path);
+      // Les apparitions au défilement sont neutralisées : axe mesurerait sinon un contraste
+      // intermédiaire pendant le fondu (0,9 s), sans rapport avec les couleurs finales.
+      await page.emulateMedia({ reducedMotion: "reduce" });
+      await page.goto(path, { waitUntil: "load" });
       const results = await new AxeBuilder({ page })
         .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"])
         .analyze();

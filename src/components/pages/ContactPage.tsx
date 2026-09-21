@@ -26,7 +26,7 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
 
-      <div className="container-x grid gap-14 py-14 md:py-20 lg:grid-cols-12 lg:gap-8">
+      <div className="container-x grid grid-cols-1 gap-14 py-14 md:py-20 lg:grid-cols-12 lg:gap-8">
         <aside className="order-2 lg:order-1 lg:col-span-4">
           <div className="lg:sticky lg:top-[calc(var(--header-h)+2rem)]">
             <p className="eyebrow mb-4">{t.aside.title}</p>

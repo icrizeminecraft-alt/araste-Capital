@@ -14,7 +14,7 @@ export function LegalPage({ locale, dict, content, crumbLabel }: { locale: Local
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
       <article className="container-x py-14 md:py-20">
-        <div className="grid gap-12 lg:grid-cols-12 lg:gap-8">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
           <nav aria-label={content.title} className="hidden lg:col-span-3 lg:block">
             <ol className="sticky top-[calc(var(--header-h)+2rem)] space-y-3 border-t border-forest pt-5 font-sans text-sm">
               {content.sections.map((section, i) => (

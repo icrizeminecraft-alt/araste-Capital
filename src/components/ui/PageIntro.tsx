@@ -20,7 +20,7 @@ export function PageIntro({
   return (
     <header className="container-x pt-10 md:pt-16">
       {crumbs && crumbsLabel ? <Breadcrumb items={crumbs} label={crumbsLabel} /> : null}
-      <div className="grid gap-8 lg:grid-cols-12 lg:gap-12">
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-12">
         <div className="lg:col-span-8">
           <Eyebrow className="mb-5">{eyebrow}</Eyebrow>
           <h1 className="display-lg">{title}</h1>

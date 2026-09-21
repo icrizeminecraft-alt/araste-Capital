@@ -22,7 +22,7 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   return (
     <footer className="on-dark bg-forest text-ivory">
       <div className="container-x py-16 md:py-20">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-12 lg:gap-8">
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-4">
             <Link href={`/${locale}`} aria-label={t.nav.home} className="inline-block">
               <Wordmark tone="ivory" />

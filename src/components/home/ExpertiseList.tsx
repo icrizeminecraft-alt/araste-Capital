@@ -26,7 +26,7 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
   const current = items[active] ?? items[0];
 
   return (
-    <div className="grid gap-12 lg:grid-cols-12 lg:gap-8">
+    <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
       <ol className="lg:col-span-7">
         {items.map((item, i) => (
           <li key={item.key} className="group border-t border-stone last:border-b">
@@ -35,7 +35,7 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
               onMouseEnter={() => setActive(i)}
               onFocus={() => setActive(i)}
               onTouchStart={() => setActive(i)}
-              className={`grid grid-cols-[3rem_1fr] items-baseline gap-x-4 py-6 transition-colors md:grid-cols-[4rem_1fr_auto] md:py-7 ${
+              className={`grid grid-cols-[3rem_minmax(0,1fr)] items-baseline gap-x-4 py-6 transition-colors md:grid-cols-[4rem_minmax(0,1fr)_auto] md:py-7 ${
                 active === i ? "bg-ivory-deep/50" : ""
               } hover:bg-ivory-deep/50 focus-visible:bg-ivory-deep/50`}
               aria-current={active === i ? "true" : undefined}

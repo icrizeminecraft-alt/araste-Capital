@@ -11,7 +11,7 @@ export const complex: ExpertiseContent = {
   eyebrow: "Hors des circuits standard",
   summary:
     "Un accompagnement pour les opérations que les circuits bancaires standard lisent mal : holdings en cascade, structures étrangères, actifs atypiques, calendrier contraint ou dossier qui appelle une présentation approfondie.",
-  lead: "Certaines opérations ne tiennent pas dans une grille d'analyse standard : détention à plusieurs niveaux, participations croisées, structure étrangère, actif sans marché de référence, calendrier trop court pour une instruction classique. Le besoin lui-même est souvent simple ; c'est sa lecture qui demande un travail particulier. Notre rôle consiste à rendre l'opération lisible, puis à la porter vers les prêteurs dont le cadre d'analyse correspond à ce type de structure.",
+  lead: "Certaines opérations échappent à la grille d'analyse standard : détention à plusieurs niveaux, participations croisées, structure étrangère, actif sans marché de référence, calendrier trop court pour une instruction classique. Le besoin lui-même est souvent simple ; c'est sa lecture qui demande un travail particulier. Notre rôle consiste à rendre l'opération lisible, puis à la porter vers les prêteurs dont le cadre d'analyse correspond à ce type de structure.",
   sections: {
     needs: {
       title: "Les configurations que nous étudions",
@@ -49,7 +49,7 @@ export const complex: ExpertiseContent = {
     limits: {
       title: "Les limites de l'exercice",
       paragraphs: [
-        "Un dossier écarté par un prêteur ne sera pas nécessairement accueilli par un autre. La complexité ne se contourne pas : elle se documente. Certaines opérations restent difficiles à financer dans des conditions raisonnables, ou ne trouvent pas de prêteur ; nous vous le disons dès que notre analyse le montre. Un calendrier contraint ne raccourcit pas l'instruction du prêteur : nous n'indiquons ni délai ni conditions avant d'avoir étudié l'opération, et nous ne garantissons pas l'obtention d'un financement.",
+        "Un dossier écarté par un prêteur ne sera pas nécessairement accueilli par un autre. La complexité ne se contourne pas : elle se documente. Certaines opérations restent difficiles à financer dans des conditions raisonnables, ou ne trouvent pas de prêteur ; nous vous le disons dès que notre analyse le montre. Un calendrier contraint ne raccourcit pas l'instruction du prêteur : nous n'indiquons ni délai ni conditions avant d'avoir étudié l'opération et ne garantissons pas l'obtention d'un financement.",
         "Nous ne restructurons pas les montages et ne donnons pas de conseil juridique ou fiscal. Lorsqu'un ajustement de la détention ou des garanties paraît utile, il revient à vos conseils de l'apprécier et de le mettre en œuvre. Nous ne nous substituons pas non plus au prêteur : l'instruction, les conditions et la décision lui appartiennent. Ce que nous vous devons, c'est une analyse exacte de votre structure et une orientation vers les prêteurs qui peuvent réellement l'instruire.",
       ],
     },

@@ -12,7 +12,7 @@ import { Numeral } from "@/components/ui/Numeral";
 export function BridgeFeature({ locale, t }: { locale: Locale; t: HomeContent["bridge"] }) {
   return (
     <section className="on-dark bg-forest text-ivory" aria-labelledby="bridge-title">
-      <div className="container-x grid gap-12 py-20 md:py-28 lg:grid-cols-12 lg:gap-8 lg:py-32">
+      <div className="container-x grid grid-cols-1 gap-12 py-20 md:py-28 lg:grid-cols-12 lg:gap-8 lg:py-32">
         <Reveal className="lg:col-span-6 lg:pr-8">
           <Eyebrow dark className="mb-6">{t.eyebrow}</Eyebrow>
           <h2 id="bridge-title" className="display-lg text-ivory">
@@ -26,13 +26,13 @@ export function BridgeFeature({ locale, t }: { locale: Locale; t: HomeContent["b
           </div>
         </Reveal>
 
-        <div className="grid gap-10 lg:col-span-5 lg:col-start-8">
+        <div className="grid grid-cols-1 gap-10 lg:col-span-5 lg:col-start-8">
           <Reveal className="grain relative aspect-[4/3] overflow-hidden bg-forest-soft" delay={1}>
             <Visual slot={visuals.bridgeFeature} locale={locale} decorative sizes="(min-width: 64rem) 40vw, 100vw" />
           </Reveal>
           <ol className="divide-y divide-champagne/25 border-y border-champagne/25">
             {t.points.map((point, i) => (
-              <Reveal as="li" key={point.title} className="grid grid-cols-[3rem_1fr] gap-4 py-6" delay={(i + 1) as 1 | 2 | 3}>
+              <Reveal as="li" key={point.title} className="grid grid-cols-[3rem_minmax(0,1fr)] gap-4 py-6" delay={(i + 1) as 1 | 2 | 3}>
                 <Numeral n={i + 1} dark className="text-lg" />
                 <div>
                   <h3 className="font-serif text-2xl font-medium text-ivory">{point.title}</h3>

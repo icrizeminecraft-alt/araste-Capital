@@ -29,7 +29,7 @@ export function ApproachPage({ locale, dict }: { locale: Locale; dict: Dictionar
       <section className="container-x py-16 md:py-24">
         <ol className="space-y-0 divide-y divide-stone border-y border-stone">
           {t.steps.map((step, i) => (
-            <Reveal as="li" key={step.title} className="grid gap-8 py-12 lg:grid-cols-12 lg:gap-8 lg:py-16">
+            <Reveal as="li" key={step.title} className="grid grid-cols-1 gap-8 py-12 lg:grid-cols-12 lg:gap-8 lg:py-16">
               <div className="lg:col-span-1">
                 <Numeral n={i + 1} className="text-3xl" />
               </div>
