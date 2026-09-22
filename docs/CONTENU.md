@@ -18,7 +18,9 @@
 | Index des expertises | `src/content/{fr,en}/expertises-index.ts` |
 | Une expertise | `src/content/{fr,en}/expertises/<clé>.ts` |
 | Notre approche | `src/content/{fr,en}/approach.ts` |
-| Contact et formulaire (libellés, erreurs, résultats) | `src/content/{fr,en}/contact.ts` |
+| Contact et fiche d'opération (étapes, libellés, options, erreurs, résultats) | `src/content/{fr,en}/contact.ts` ; listes de valeurs dans `src/lib/contact/schema.ts` |
+| Partenaires indépendants (profils, méthode, engagements, FAQ) | `src/content/{fr,en}/partners.ts` |
+| Implantations et heures locales | `siteConfig.locations` dans `src/config/site.ts` |
 | Mentions légales, confidentialité | `src/content/{fr,en}/legal.ts`, `privacy.ts` |
 | Un repère (guide) | `src/content/{fr,en}/guides/<clé>.ts` |
 | Index des repères | `src/content/{fr,en}/guides-index.ts` |

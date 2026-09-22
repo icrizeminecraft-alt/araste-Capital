@@ -11,6 +11,7 @@ export const common: CommonContent = {
     expertises: "Expertise",
     approach: "Our approach",
     guides: "Guides",
+    partners: "Partners",
     contact: "Contact",
     present: "Present a transaction",
     menuOpen: "Open menu",
@@ -52,6 +53,9 @@ export const common: CommonContent = {
     faq: "Frequently asked questions",
     readingTime: "{minutes} min read",
     mobileCta: "Present a transaction",
+    presence: "Presence",
+    localTime: "Local time",
+    addressPending: "Address to be confirmed before publication.",
   },
   notFound: {
     title: "This page does not exist.",

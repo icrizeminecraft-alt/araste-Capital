@@ -19,6 +19,7 @@ import { acquisition as frAcquisition } from "@/content/fr/expertises/acquisitio
 import { development as frDevelopment } from "@/content/fr/expertises/development";
 import { privateDebt as frPrivateDebt } from "@/content/fr/expertises/privateDebt";
 import { guidesIndex as frGuidesIndex } from "@/content/fr/guides-index";
+import { partners as frPartners } from "@/content/fr/partners";
 import { bridgeBasics as frBridgeBasics } from "@/content/fr/guides/bridgeBasics";
 import { exitStrategy as frExitStrategy } from "@/content/fr/guides/exitStrategy";
 import { preparingFile as frPreparingFile } from "@/content/fr/guides/preparingFile";
@@ -41,6 +42,7 @@ import { acquisition as enAcquisition } from "@/content/en/expertises/acquisitio
 import { development as enDevelopment } from "@/content/en/expertises/development";
 import { privateDebt as enPrivateDebt } from "@/content/en/expertises/privateDebt";
 import { guidesIndex as enGuidesIndex } from "@/content/en/guides-index";
+import { partners as enPartners } from "@/content/en/partners";
 import { bridgeBasics as enBridgeBasics } from "@/content/en/guides/bridgeBasics";
 import { exitStrategy as enExitStrategy } from "@/content/en/guides/exitStrategy";
 import { preparingFile as enPreparingFile } from "@/content/en/guides/preparingFile";
@@ -94,6 +96,7 @@ const raw: Record<Locale, Dictionary> = {
     approach: frApproach,
     guidesIndex: frGuidesIndex,
     guides: frGuides,
+    partners: frPartners,
     contact: frContact,
     legal: frLegal,
     privacy: frPrivacy,
@@ -107,6 +110,7 @@ const raw: Record<Locale, Dictionary> = {
     approach: enApproach,
     guidesIndex: enGuidesIndex,
     guides: enGuides,
+    partners: enPartners,
     contact: enContact,
     legal: enLegal,
     privacy: enPrivacy,

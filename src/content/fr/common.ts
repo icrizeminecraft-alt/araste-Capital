@@ -11,6 +11,7 @@ export const common: CommonContent = {
     expertises: "Expertises",
     approach: "Notre approche",
     guides: "Repères",
+    partners: "Partenaires",
     contact: "Contact",
     present: "Présenter une opération",
     menuOpen: "Ouvrir le menu",
@@ -52,6 +53,9 @@ export const common: CommonContent = {
     faq: "Questions fréquentes",
     readingTime: "{minutes} min de lecture",
     mobileCta: "Présenter une opération",
+    presence: "Présence",
+    localTime: "Heure locale",
+    addressPending: "Adresse à renseigner avant publication.",
   },
   notFound: {
     title: "Cette page n'existe pas.",

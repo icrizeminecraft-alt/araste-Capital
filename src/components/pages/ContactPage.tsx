@@ -6,6 +6,7 @@ import { createFormToken } from "@/lib/contact/token";
 import { enabledExpertises, siteConfig, hasContactDetails } from "@/config/site";
 import { currentProvider } from "@/lib/contact/providers";
 import { Faq } from "@/components/ui/Faq";
+import { LocalClocks } from "@/components/layout/LocalClocks";
 import { connection } from "next/server";
 
 export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dictionary }) {
@@ -40,6 +41,27 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
               ))}
             </ul>
             <p className="mt-8 border-l border-champagne pl-4 font-sans text-sm leading-relaxed text-ink-soft">{t.aside.confidentiality}</p>
+
+            <h2 className="eyebrow mb-4 mt-12">{dict.common.ui.presence}</h2>
+            <LocalClocks places={siteConfig.locations.map((l) => ({ key: l.key, name: l.name[locale], timeZone: l.timeZone }))} locale={locale === "fr" ? "fr-FR" : "en-GB"} label={dict.common.ui.localTime} compact />
+            {siteConfig.locations.some((l) => l.addressLines.length > 0) ? (
+              <ul className="mt-6 space-y-4 font-sans text-sm text-ink">
+                {siteConfig.locations
+                  .filter((l) => l.addressLines.length > 0)
+                  .map((l) => (
+                    <li key={l.key}>
+                      <span className="block font-medium text-forest">{l.name[locale]}</span>
+                      {l.addressLines.map((line) => (
+                        <span key={line} className="block">
+                          {line}
+                        </span>
+                      ))}
+                    </li>
+                  ))}
+              </ul>
+            ) : (
+              <p className="mt-4 font-sans text-sm text-ink-soft">{dict.common.ui.addressPending}</p>
+            )}
 
             <h2 className="eyebrow mb-4 mt-12">{t.aside.detailsTitle}</h2>
             {hasContactDetails() ? (

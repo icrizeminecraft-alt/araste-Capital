@@ -98,6 +98,18 @@ export const home: HomeContent = {
     all: "All guides",
     featured: ["bridgeBasics", "exitStrategy", "preparingFile"],
   },
+  presence: {
+    eyebrow: "Presence",
+    title: "Andorra, London, Monaco, United Arab Emirates.",
+    body: "A presence in the places where the property and corporate financings we support are decided, and counterparts who travel.",
+    note: "The details of each office are shown on the contact page.",
+  },
+  partners: {
+    eyebrow: "Independent partners",
+    title: "You bring a transaction; we take care of it.",
+    body: "Introducers, independent brokers, lawyers, accountants, wealth managers: we work with a large number of independent professionals. A clear transaction sheet, candid feedback and a collaboration set out in writing.",
+    cta: "The partners area",
+  },
   interlocutors: {
     eyebrow: "Who we work with",
     title: "Who we work for.",

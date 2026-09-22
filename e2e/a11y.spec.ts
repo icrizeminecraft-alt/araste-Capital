@@ -9,6 +9,7 @@ const pages = [
   "/fr/notre-approche",
   "/fr/reperes",
   "/fr/reperes/comprendre-le-financement-relais",
+  "/fr/partenaires",
   "/fr/contact",
   "/fr/mentions-legales",
   "/fr/confidentialite",

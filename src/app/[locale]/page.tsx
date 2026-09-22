@@ -13,6 +13,8 @@ import { ApproachSteps } from "@/components/home/ApproachSteps";
 import { Situations } from "@/components/home/Situations";
 import { Interlocutors } from "@/components/home/Interlocutors";
 import { HomeGuides } from "@/components/home/HomeGuides";
+import { Presence } from "@/components/home/Presence";
+import { HomePartners } from "@/components/home/HomePartners";
 import { ContactCta } from "@/components/home/ContactCta";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
@@ -72,6 +74,8 @@ export default async function HomePage({ params }: Props) {
       <ApproachSteps locale={l} t={t.approach} />
       <Situations locale={l} t={t.situations} dict={dict} />
       <Interlocutors t={t.interlocutors} />
+      <HomePartners locale={l} t={t.partners} />
+      <Presence locale={l} t={t.presence} dict={dict} />
       <HomeGuides locale={l} t={t.guides} dict={dict} />
       <ContactCta locale={l} t={t.contact} />
     </>

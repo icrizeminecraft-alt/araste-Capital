@@ -15,6 +15,8 @@ import { legal as frLegal } from "@/content/fr/legal";
 import { legal as enLegal } from "@/content/en/legal";
 import { privacy as frPrivacy } from "@/content/fr/privacy";
 import { privacy as enPrivacy } from "@/content/en/privacy";
+import { partners as frPartners } from "@/content/fr/partners";
+import { partners as enPartners } from "@/content/en/partners";
 import { expertisesIndex as frIndex } from "@/content/fr/expertises-index";
 import { expertisesIndex as enIndex } from "@/content/en/expertises-index";
 import { guidesIndex as frGuidesIndex } from "@/content/fr/guides-index";
@@ -47,13 +49,13 @@ import { privateDebt as enPrivateDebt } from "@/content/en/expertises/privateDeb
 const dicts: Record<"fr" | "en", Dictionary> = {
   fr: {
     common: frCommon.common, home: frHome, firm: frFirm, approach: frApproach, contact: frContact, legal: frLegal, privacy: frPrivacy, expertisesIndex: frIndex,
-    guidesIndex: frGuidesIndex,
+    guidesIndex: frGuidesIndex, partners: frPartners,
     guides: { bridgeBasics: frG.bridgeBasics, exitStrategy: frG2.exitStrategy, preparingFile: frG3.preparingFile, refinancingSignals: frG4.refinancingSignals, developmentPhases: frG5.developmentPhases, privateDebtWhen: frG6.privateDebtWhen },
     expertises: { bridge: frBridge, complex: frComplex, refinancing: frRefinancing, acquisition: frAcquisition, development: frDevelopment, privateDebt: frPrivateDebt },
   },
   en: {
     common: enCommon.common, home: enHome, firm: enFirm, approach: enApproach, contact: enContact, legal: enLegal, privacy: enPrivacy, expertisesIndex: enIndex,
-    guidesIndex: enGuidesIndex,
+    guidesIndex: enGuidesIndex, partners: enPartners,
     guides: { bridgeBasics: enG.bridgeBasics, exitStrategy: enG2.exitStrategy, preparingFile: enG3.preparingFile, refinancingSignals: enG4.refinancingSignals, developmentPhases: enG5.developmentPhases, privateDebtWhen: enG6.privateDebtWhen },
     expertises: { bridge: enBridge, complex: enComplex, refinancing: enRefinancing, acquisition: enAcquisition, development: enDevelopment, privateDebt: enPrivateDebt },
   },
@@ -66,10 +68,12 @@ function allStrings(value: unknown, acc: string[] = []): string[] {
   return acc;
 }
 
-/** Termes interdits par le brief : promesses, chiffres commerciaux, marques d'inspiration. */
+/** Termes interdits par le brief : promesses, chiffres commerciaux, marques d'inspiration, adresses inventées. */
 const forbidden = [
   /leader/i, /financement garanti/i, /guaranteed (financing|funding|approval|outcome)/i, /accès exclusif/i, /exclusive access/i, /toutes les banques/i, /all (the )?banks/i, /48\s?h/i, /financ\w+ l'impossible/i,
-  /Monte[- ]Carlo/i, /Hermitage/i, /Hôtel de Paris/i, /Enness/i, /Brotherton/i, /Londres|Monaco|Duba[iï]|London|Dubai/i,
+  /Monte[- ]Carlo/i, /Hermitage/i, /Hôtel de Paris/i, /Enness/i, /Brotherton/i,
+  // Les implantations (Andorre, Londres, Monaco, Émirats) sont nommées, mais aucune adresse ni code postal ne doit être inventé.
+  /\b\d{1,4}\s?(bis|ter)?,?\s?(rue|avenue|boulevard|quai|place|street|road|square|tower|floor)\b/i, /\b(PO Box|BP)\s?\d/i, /\b\d{5}\b/, /\bSW1|\bEC[1-4]|\bW1[A-Z]?\b/,
   /\bSix (domaines|areas)\b/i, /\d+\s?%/, /\bLTV\b/, /\d+\s?(M€|m€|€|£|\$)/, /taux (fixe|réduit|bas|compétitif)/i, /best rate/i,
   /[\u{1F300}-\u{1FAFF}]/u,
 ];

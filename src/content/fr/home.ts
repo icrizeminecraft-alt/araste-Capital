@@ -98,6 +98,18 @@ export const home: HomeContent = {
     all: "Tous les repères",
     featured: ["bridgeBasics", "exitStrategy", "preparingFile"],
   },
+  presence: {
+    eyebrow: "Présence",
+    title: "Andorre, Londres, Monaco, Émirats arabes unis.",
+    body: "Une présence sur les places où se décident les financements immobiliers et d'entreprise que nous accompagnons, et des interlocuteurs qui se déplacent.",
+    note: "Les coordonnées de chaque implantation sont indiquées sur la page contact.",
+  },
+  partners: {
+    eyebrow: "Partenaires indépendants",
+    title: "Vous apportez une opération, nous en prenons soin.",
+    body: "Apporteurs d'affaires, courtiers indépendants, avocats, experts-comptables, gestionnaires de patrimoine : nous travaillons avec un grand nombre de professionnels indépendants. Une fiche d'opération claire, un retour franc et une collaboration formalisée par écrit.",
+    cta: "L'espace partenaires",
+  },
   interlocutors: {
     eyebrow: "Interlocuteurs",
     title: "À qui nous nous adressons.",

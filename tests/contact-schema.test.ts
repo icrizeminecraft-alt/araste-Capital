@@ -5,12 +5,15 @@ import {
   LIMITS,
   toFieldErrors,
   stepOneSchema,
+  stepFields,
+  emptyContactFields,
   envelopeErrorCode,
   sanitizeFieldErrors,
 } from "@/lib/contact/schema";
 
 const validStepOne = {
   financingType: "bridge",
+  purpose: "acquisition",
   amount: "12 000 000",
   currency: "EUR",
   country: "France",
@@ -19,11 +22,33 @@ const validStepOne = {
 };
 
 const validStepTwo = {
+  assetType: "commercial",
+  assetLocation: "Lyon",
+  assetValue: "",
+  valueBasis: "",
+  annualIncome: "",
+  assetStatus: "",
+};
+
+const validStepThree = {
+  borrowerType: "spv",
+  borrowerCountry: "France",
+  equity: "",
+  existingDebt: "",
+  existingDebtMaturity: "",
+  securityOffered: "",
+  exitType: "refinancing",
+  exitTiming: "",
+};
+
+const validStepFour = {
+  role: "borrower",
   name: "Test Fictif",
   company: "Société Exemple",
   email: "test@example.invalid",
   phone: "",
   channel: "email",
+  notes: "",
 };
 
 describe("validateStep", () => {
@@ -31,8 +56,9 @@ describe("validateStep", () => {
     expect(validateStep(1, validStepOne)).toEqual({});
   });
   it("signale les champs requis avec des codes", () => {
-    const errors = validateStep(1, { ...validStepOne, financingType: "", country: "  ", description: "" });
+    const errors = validateStep(1, { ...validStepOne, financingType: "", purpose: "", country: "  ", description: "" });
     expect(errors.financingType).toBe("required");
+    expect(errors.purpose).toBe("required");
     expect(errors.country).toBe("required");
     expect(errors.description).toBe("required");
   });
@@ -43,16 +69,39 @@ describe("validateStep", () => {
     expect(validateStep(1, { ...validStepOne, description: "court" }).description).toBe("tooShort");
     expect(validateStep(1, { ...validStepOne, description: "x".repeat(LIMITS.description + 1) }).description).toBe("tooLong");
   });
-  it("valide l'étape 2", () => {
+  it("valide l'étape 2 : type et localisation requis, montants facultatifs mais numériques", () => {
     expect(validateStep(2, validStepTwo)).toEqual({});
-    expect(validateStep(2, { ...validStepTwo, email: "pas-un-courriel" }).email).toBe("email");
-    expect(validateStep(2, { ...validStepTwo, phone: "abc" }).phone).toBe("phone");
-    expect(validateStep(2, { ...validStepTwo, phone: "+33 1 23 45 67 89" })).toEqual({});
+    const errors = validateStep(2, { ...validStepTwo, assetType: "", assetLocation: "" });
+    expect(errors.assetType).toBe("required");
+    expect(errors.assetLocation).toBe("required");
+    expect(validateStep(2, { ...validStepTwo, assetValue: "environ 5M" }).assetValue).toBe("amount");
+    expect(validateStep(2, { ...validStepTwo, assetValue: "5 000 000", valueBasis: "appraisal" })).toEqual({});
+  });
+  it("valide l'étape 3 : emprunteur, pays et sortie requis", () => {
+    expect(validateStep(3, validStepThree)).toEqual({});
+    const errors = validateStep(3, { ...validStepThree, borrowerType: "", borrowerCountry: "", exitType: "" });
+    expect(errors.borrowerType).toBe("required");
+    expect(errors.borrowerCountry).toBe("required");
+    expect(errors.exitType).toBe("required");
+    expect(validateStep(3, { ...validStepThree, existingDebt: "abc" }).existingDebt).toBe("amount");
+  });
+  it("valide l'étape 4", () => {
+    expect(validateStep(4, validStepFour)).toEqual({});
+    expect(validateStep(4, { ...validStepFour, role: "" }).role).toBe("required");
+    expect(validateStep(4, { ...validStepFour, email: "pas-un-courriel" }).email).toBe("email");
+    expect(validateStep(4, { ...validStepFour, phone: "abc" }).phone).toBe("phone");
+    expect(validateStep(4, { ...validStepFour, phone: "+33 1 23 45 67 89" })).toEqual({});
+    expect(validateStep(4, { ...validStepFour, channel: "phone" }).phone).toBe("phoneRequired");
+  });
+  it("couvre tous les champs de la fiche, une seule fois", () => {
+    const all = Object.values(stepFields).flat();
+    expect(new Set(all).size).toBe(all.length);
+    expect([...all].sort()).toEqual(Object.keys(emptyContactFields).sort());
   });
 });
 
 describe("contactRequestSchema", () => {
-  const envelope = { ...validStepOne, ...validStepTwo, locale: "fr", token: "1.a", idempotencyKey: "abcdefgh-1234", website: "" };
+  const envelope = { ...validStepOne, ...validStepTwo, ...validStepThree, ...validStepFour, locale: "fr", token: "1.a", idempotencyKey: "abcdefgh-1234", website: "" };
   it("accepte une enveloppe complète", () => {
     expect(contactRequestSchema.safeParse(envelope).success).toBe(true);
   });

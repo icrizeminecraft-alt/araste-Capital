@@ -63,6 +63,19 @@ export const siteConfig = {
     },
   },
 
+  /**
+   * Implantations affichées (accueil, pied de page, contact).
+   * Les noms sont fournis par le cabinet ; adresses et entités juridiques
+   * de chaque implantation restent À RENSEIGNER avant publication
+   * (chaîne vide = non affichée). `timeZone` sert à l'heure locale.
+   */
+  locations: [
+    { key: "andorra", name: { fr: "Andorre", en: "Andorra" }, timeZone: "Europe/Andorra", addressLines: [] as string[] },
+    { key: "london", name: { fr: "Londres", en: "London" }, timeZone: "Europe/London", addressLines: [] as string[] },
+    { key: "monaco", name: { fr: "Monaco", en: "Monaco" }, timeZone: "Europe/Monaco", addressLines: [] as string[] },
+    { key: "uae", name: { fr: "Émirats arabes unis", en: "United Arab Emirates" }, timeZone: "Asia/Dubai", addressLines: [] as string[] },
+  ],
+
   /** Activation individuelle des expertises présentées. */
   expertises: {
     bridge: true,

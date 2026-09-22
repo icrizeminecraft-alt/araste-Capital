@@ -36,6 +36,8 @@ export function Hero({ locale, t }: { locale: Locale; t: HomeContent["hero"] }) 
         </div>
 
         <figure className="relative lg:col-span-6 lg:col-start-7">
+          {/* Cadre laiton décalé : le visuel est présenté comme une planche encadrée. */}
+          <div aria-hidden="true" className="pointer-events-none absolute -bottom-3 -right-3 hidden h-full w-full border border-champagne/60 md:block" />
           <div className="grain relative aspect-[4/5] w-full overflow-hidden bg-stone sm:aspect-[5/6] lg:aspect-[4/5] lg:max-h-[80vh] xl:aspect-[5/6]">
             <Visual slot={visuals.hero} locale={locale} priority sizes="(min-width: 64rem) 50vw, 100vw" />
           </div>

@@ -2,24 +2,34 @@ import { z } from "zod";
 import { expertiseKeys } from "@/config/routes";
 
 /**
- * Schéma partagé client / serveur du formulaire « Présenter une opération ».
+ * Schéma partagé client / serveur de la fiche d'opération.
  * Les messages sont des codes, traduits par le dictionnaire de la langue.
+ * Quatre étapes : l'opération, l'actif, la structure et la sortie, vous.
  */
 export const financingTypes = [...expertiseKeys, "other"] as const;
-export const currencies = ["EUR", "GBP", "USD", "CHF"] as const;
+export const purposes = ["acquisition", "refinancing", "development", "liquidity", "other"] as const;
+export const currencies = ["EUR", "GBP", "USD", "CHF", "AED"] as const;
 export const timelines = ["under-1m", "1-3m", "3-6m", "over-6m", "undefined"] as const;
+export const assetTypes = ["residential", "commercial", "hotel", "mixed", "land", "portfolio", "business", "other"] as const;
+export const valueBases = ["appraisal", "estimate", "price", "none"] as const;
+export const assetStatuses = ["stabilised", "works", "development", "vacant", "other"] as const;
+export const borrowerTypes = ["company", "spv", "holding", "fund", "professional", "other"] as const;
+export const exitTypes = ["sale", "refinancing", "receipt", "partner", "amortisation", "other"] as const;
+export const roles = ["borrower", "introducer", "adviser", "other"] as const;
 export const channels = ["email", "phone"] as const;
 
 export const LIMITS = {
   amount: 20,
+  short: 80,
   country: 80,
   descriptionMin: 20,
   description: 1500,
+  medium: 600,
   name: 120,
   company: 160,
   email: 254,
   phone: 40,
-  body: 16 * 1024,
+  body: 24 * 1024,
 } as const;
 
 export type FieldErrorCode = "required" | "email" | "amount" | "tooLong" | "tooShort" | "phone" | "phoneRequired";
@@ -35,8 +45,33 @@ const text = (max: number) =>
     .transform(stripControls)
     .pipe(z.string().min(1, { error: "required" }).max(max, { error: "tooLong" }));
 
+const optionalText = (max: number) =>
+  z
+    .string()
+    .optional()
+    .transform((v) => stripControls(v ?? ""))
+    .pipe(z.string().max(max, { error: "tooLong" }));
+
+const optionalNumeric = (max: number) =>
+  optionalText(max).refine((v) => v === "" || /^\d[\d\s.,'’]*$/u.test(v), { error: "amount" });
+
+const optionalMultiline = (max: number) =>
+  z
+    .string()
+    .optional()
+    .transform((v) => (v ?? "").replace(/[^\P{Cc}\n]+/gu, " ").trim())
+    .pipe(z.string().max(max, { error: "tooLong" }));
+
+const optionalEnum = <T extends readonly [string, ...string[]]>(values: T) =>
+  z
+    .string()
+    .optional()
+    .transform((v) => v ?? "")
+    .pipe(z.union([z.literal(""), z.enum(values)]));
+
 export const stepOneSchema = z.object({
   financingType: z.enum(financingTypes, { error: "required" }),
+  purpose: z.enum(purposes, { error: "required" }),
   amount: z
     .string(required)
     .transform(stripControls)
@@ -59,27 +94,54 @@ export const stepOneSchema = z.object({
 });
 
 export const stepTwoSchema = z.object({
-  name: text(LIMITS.name),
-  company: text(LIMITS.company),
-  email: z
-    .string(required)
-    .transform(stripControls)
-    .pipe(z.string().min(1, { error: "required" }).max(LIMITS.email, { error: "tooLong" }))
-    .pipe(z.email({ error: "email" })),
-  phone: z
-    .string()
-    .transform(stripControls)
-    .pipe(z.string().max(LIMITS.phone, { error: "tooLong" }))
-    .refine((v) => v === "" || /^\+?[\d\s().-]{6,}$/.test(v), { error: "phone" }),
-  channel: z.enum(channels, { error: "required" }),
-}).check((ctx) => {
-  // Être rappelé suppose un numéro.
-  if (ctx.value.channel === "phone" && ctx.value.phone === "") {
-    ctx.issues.push({ code: "custom", message: "phoneRequired", path: ["phone"], input: ctx.value.phone });
-  }
+  assetType: z.enum(assetTypes, { error: "required" }),
+  assetLocation: text(LIMITS.short),
+  assetValue: optionalNumeric(LIMITS.amount),
+  valueBasis: optionalEnum(valueBases),
+  annualIncome: optionalNumeric(LIMITS.amount),
+  assetStatus: optionalEnum(assetStatuses),
 });
 
-export const contactFieldsSchema = stepOneSchema.extend(stepTwoSchema.shape);
+export const stepThreeSchema = z.object({
+  borrowerType: z.enum(borrowerTypes, { error: "required" }),
+  borrowerCountry: text(LIMITS.country),
+  equity: optionalNumeric(LIMITS.amount),
+  existingDebt: optionalNumeric(LIMITS.amount),
+  existingDebtMaturity: optionalText(LIMITS.short),
+  securityOffered: optionalMultiline(LIMITS.medium),
+  exitType: z.enum(exitTypes, { error: "required" }),
+  exitTiming: optionalText(LIMITS.short),
+});
+
+export const stepFourSchema = z
+  .object({
+    role: z.enum(roles, { error: "required" }),
+    name: text(LIMITS.name),
+    company: text(LIMITS.company),
+    email: z
+      .string(required)
+      .transform(stripControls)
+      .pipe(z.string().min(1, { error: "required" }).max(LIMITS.email, { error: "tooLong" }))
+      .pipe(z.email({ error: "email" })),
+    phone: z
+      .string()
+      .transform(stripControls)
+      .pipe(z.string().max(LIMITS.phone, { error: "tooLong" }))
+      .refine((v) => v === "" || /^\+?[\d\s().-]{6,}$/.test(v), { error: "phone" }),
+    channel: z.enum(channels, { error: "required" }),
+    notes: optionalMultiline(LIMITS.medium),
+  })
+  .check((ctx) => {
+    // Être rappelé suppose un numéro.
+    if (ctx.value.channel === "phone" && ctx.value.phone === "") {
+      ctx.issues.push({ code: "custom", message: "phoneRequired", path: ["phone"], input: ctx.value.phone });
+    }
+  });
+
+export const stepSchemas = { 1: stepOneSchema, 2: stepTwoSchema, 3: stepThreeSchema, 4: stepFourSchema } as const;
+export type StepNumber = keyof typeof stepSchemas;
+
+export const contactFieldsSchema = stepOneSchema.extend(stepTwoSchema.shape).extend(stepThreeSchema.shape).extend(stepFourSchema.shape);
 
 /** Enveloppe envoyée à l'API : champs + protections. */
 export const contactRequestSchema = contactFieldsSchema.extend({
@@ -137,22 +199,45 @@ export function sanitizeFieldErrors(input: unknown): FieldErrors {
   return out;
 }
 
-export function validateStep(step: 1 | 2, values: Record<string, string>): FieldErrors {
-  const schema = step === 1 ? stepOneSchema : stepTwoSchema;
-  const result = schema.safeParse(values);
+export function validateStep(step: StepNumber, values: Record<string, string>): FieldErrors {
+  const result = stepSchemas[step].safeParse(values);
   return result.success ? {} : toFieldErrors(result.error.issues);
 }
 
+export const stepFields: Record<StepNumber, (keyof ContactFields)[]> = {
+  1: ["financingType", "purpose", "amount", "currency", "country", "timeline", "description"],
+  2: ["assetType", "assetLocation", "assetValue", "valueBasis", "annualIncome", "assetStatus"],
+  3: ["borrowerType", "borrowerCountry", "equity", "existingDebt", "existingDebtMaturity", "securityOffered", "exitType", "exitTiming"],
+  4: ["role", "name", "company", "email", "phone", "channel", "notes"],
+};
+
 export const emptyContactFields: Record<keyof ContactFields, string> = {
   financingType: "",
+  purpose: "",
   amount: "",
   currency: "EUR",
   country: "",
   timeline: "",
   description: "",
+  assetType: "",
+  assetLocation: "",
+  assetValue: "",
+  valueBasis: "",
+  annualIncome: "",
+  assetStatus: "",
+  borrowerType: "",
+  borrowerCountry: "",
+  equity: "",
+  existingDebt: "",
+  existingDebtMaturity: "",
+  securityOffered: "",
+  exitType: "",
+  exitTiming: "",
+  role: "",
   name: "",
   company: "",
   email: "",
   phone: "",
   channel: "email",
+  notes: "",
 };

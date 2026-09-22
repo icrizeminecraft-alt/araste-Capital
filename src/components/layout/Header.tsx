@@ -15,19 +15,20 @@ export function Header({ locale, t }: { locale: Locale; t: CommonContent }) {
     { label: t.nav.expertises, href: pagePath(locale, "expertises") },
     { label: t.nav.approach, href: pagePath(locale, "approach") },
     { label: t.nav.guides, href: pagePath(locale, "guides") },
+    { label: t.nav.partners, href: pagePath(locale, "partners") },
     { label: t.nav.contact, href: pagePath(locale, "contact") },
   ];
   const contactHref = pagePath(locale, "contact");
 
   return (
-    <header className="sticky top-0 z-40 border-b border-stone/70 bg-ivory">
+    <header className="sticky top-0 z-40 border-b border-stone/70 border-t-2 border-t-champagne bg-ivory">
       <div className="container-x flex min-h-[var(--header-h)] flex-wrap items-center justify-between gap-x-6 gap-y-2 py-2">
         <Link href={`/${locale}`} aria-label={t.nav.home} className="min-w-0 shrink">
           <Wordmark />
         </Link>
 
         <nav aria-label={t.nav.menuLabel} className="hidden lg:block">
-          <ul className="flex items-center gap-8">
+          <ul className="flex items-center gap-7 xl:gap-8">
             {links.map((link) => (
               <li key={link.href}>
                 <NavLink

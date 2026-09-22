@@ -16,6 +16,7 @@ export type CommonContent = {
     expertises: string;
     approach: string;
     guides: string;
+    partners: string;
     contact: string;
     present: string;
     menuOpen: string;
@@ -56,6 +57,9 @@ export type CommonContent = {
     faq: string;
     readingTime: string; // "{minutes} min de lecture"
     mobileCta: string;
+    presence: string;
+    localTime: string;
+    addressPending: string;
   };
   notFound: { title: string; body: string; cta: string };
   error: { eyebrow: string; title: string; body: string; retry: string; home: string };
@@ -109,6 +113,18 @@ export type HomeContent = {
     body: string;
     all: string;
     featured: GuideKey[];
+  };
+  presence: {
+    eyebrow: string;
+    title: string;
+    body: string;
+    note: string;
+  };
+  partners: {
+    eyebrow: string;
+    title: string;
+    body: string;
+    cta: string;
   };
   interlocutors: {
     eyebrow: string;
@@ -191,6 +207,19 @@ export type GuidesIndexContent = {
   note: string;
 };
 
+export type PartnersContent = {
+  meta: Meta;
+  eyebrow: string;
+  title: string;
+  lead: string;
+  paragraphs: string[];
+  profiles: { eyebrow: string; title: string; items: { title: string; body: string }[] };
+  method: { eyebrow: string; title: string; steps: { title: string; body: string }[] };
+  commitments: { eyebrow: string; title: string; items: string[] };
+  faq: FaqItem[];
+  cta: { title: string; body: string; button: string };
+};
+
 export type ApproachContent = {
   meta: Meta;
   eyebrow: string;
@@ -223,17 +252,37 @@ export type ContactContent = {
     errorSummary: string; // "{count} champ(s) demandent votre attention."
     fields: {
       financingType: { label: string; placeholder: string; other: string };
+      purpose: { label: string; options: { value: string; label: string }[] };
       amount: { label: string; hint: string };
       currency: { label: string };
       country: { label: string; hint: string };
       timeline: { label: string; options: { value: string; label: string }[] };
       description: { label: string; hint: string };
+      assetType: { label: string; options: { value: string; label: string }[] };
+      assetLocation: { label: string; hint: string };
+      assetValue: { label: string; hint: string };
+      valueBasis: { label: string; options: { value: string; label: string }[] };
+      annualIncome: { label: string; hint: string };
+      assetStatus: { label: string; options: { value: string; label: string }[] };
+      borrowerType: { label: string; options: { value: string; label: string }[] };
+      borrowerCountry: { label: string };
+      equity: { label: string; hint: string };
+      existingDebt: { label: string; hint: string };
+      existingDebtMaturity: { label: string; hint: string };
+      securityOffered: { label: string; hint: string };
+      exitType: { label: string; options: { value: string; label: string }[] };
+      exitTiming: { label: string; hint: string };
+      role: { label: string; options: { value: string; label: string }[] };
       name: { label: string };
       company: { label: string };
       email: { label: string };
       phone: { label: string; hint: string };
       channel: { label: string; options: { value: string; label: string }[] };
+      notes: { label: string; hint: string };
     };
+    summaryTitle: string;
+    summaryHint: string;
+    edit: string;
     optional: string;
     required: string;
     next: string;
@@ -295,6 +344,7 @@ export type Dictionary = {
   approach: ApproachContent;
   guidesIndex: GuidesIndexContent;
   guides: Record<GuideKey, GuideContent>;
+  partners: PartnersContent;
   contact: ContactContent;
   legal: LegalContent;
   privacy: LegalContent;

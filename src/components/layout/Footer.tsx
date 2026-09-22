@@ -4,6 +4,7 @@ import type { Dictionary } from "@/content/types";
 import { expertisePath, pagePath } from "@/config/routes";
 import { siteConfig, enabledExpertises, hasContactDetails } from "@/config/site";
 import { Wordmark } from "@/components/brand/Wordmark";
+import { Monogram } from "@/components/brand/Monogram";
 import { LocaleSwitcher } from "@/components/layout/LocaleSwitcher";
 import { NavLink } from "@/components/layout/NavLink";
 
@@ -16,14 +17,16 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
     { label: t.nav.expertises, href: pagePath(locale, "expertises") },
     { label: t.nav.approach, href: pagePath(locale, "approach") },
     { label: t.nav.guides, href: pagePath(locale, "guides") },
+    { label: t.nav.partners, href: pagePath(locale, "partners") },
     { label: t.nav.contact, href: pagePath(locale, "contact") },
   ];
   const linkClass = "text-[0.9375rem] text-stone underline-offset-4 transition-colors hover:text-ivory hover:underline";
   const titleClass = "eyebrow eyebrow--dark mb-5";
 
   return (
-    <footer className="on-dark bg-forest text-ivory">
-      <div className="container-x py-16 md:py-20">
+    <footer className="on-dark relative overflow-hidden bg-forest text-ivory">
+      <Monogram tone="ivory" className="pointer-events-none absolute -bottom-24 -right-10 h-[30rem] w-[30rem] opacity-[0.04]" />
+      <div className="container-x relative py-16 md:py-20">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-4">
             <Link href={`/${locale}`} aria-label={t.nav.home} className="inline-block">
@@ -31,6 +34,8 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             </Link>
             <p className="mt-6 max-w-xs font-serif text-xl leading-snug text-stone">{t.footer.tagline}</p>
             <p className="mt-6 font-sans text-sm text-stone">{siteConfig.brand.legalName}</p>
+            <p className="mt-8 font-sans text-xs uppercase tracking-[0.18em] text-champagne-light">{t.ui.presence}</p>
+            <p className="mt-2 font-serif text-lg text-stone">{siteConfig.locations.map((l) => l.name[locale]).join(" · ")}</p>
           </div>
 
           <nav aria-label={t.footer.navigationTitle} className="lg:col-span-2">
