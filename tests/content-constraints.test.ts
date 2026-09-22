@@ -117,6 +117,28 @@ describe("contraintes des contenus", () => {
     }
   }
 
+  /** Règle rédactionnelle des repères et des FAQ : phrases courtes ou moyennes. */
+  function longSentences(text: string, max = 30): string[] {
+    return text
+      .split(/(?<=[.!?…])\s+(?=[A-ZÀ-ÖÙ-Ü«“])/u)
+      .filter((sentence) => sentence.trim().split(/\s+/).length > max);
+  }
+
+  for (const locale of ["fr", "en"] as const) {
+    it(`${locale} : aucune phrase de plus de 30 mots dans les repères et les FAQ`, () => {
+      const dict = dicts[locale];
+      const texts: string[] = [];
+      for (const key of guideKeys) {
+        const g = dict.guides[key];
+        texts.push(g.summary, g.lead, ...g.keyPoints, ...g.sections.flatMap((s) => [...s.paragraphs, ...(s.items ?? [])]));
+      }
+      for (const key of expertiseKeys) texts.push(...dict.expertises[key].faq.map((f) => f.answer));
+      texts.push(...dict.contact.faq.items.map((f) => f.answer));
+      const hits = texts.flatMap((t) => longSentences(t));
+      expect(hits, hits.join("\n")).toEqual([]);
+    });
+  }
+
   it("FR et EN sont structurellement équivalents", () => {
     for (const key of expertiseKeys) {
       const fr = dicts.fr.expertises[key];

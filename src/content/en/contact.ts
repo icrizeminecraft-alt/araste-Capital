@@ -28,7 +28,7 @@ export const contact: ContactContent = {
     items: [
       {
         question: "When should you contact us?",
-        answer: "As early as possible, as soon as a transaction takes shape: an acquisition to secure, a maturity approaching, a project to finance in stages. A first conversation allows us to understand where the need sits, identify the useful documents and say whether we can be useful, before the timetable tightens.",
+        answer: "As early as possible, as soon as a transaction takes shape: an acquisition to secure, a maturity approaching, a project to finance in stages. A first conversation allows us to understand where the need sits, identify the relevant documents and say whether we can help you, before the timetable tightens.",
       },
       {
         question: "What happens after the form is sent?",
@@ -44,7 +44,7 @@ export const contact: ContactContent = {
       },
       {
         question: "How is the firm remunerated?",
-        answer: "Remuneration arrangements are presented before any commitment and set out in the legal information. They are agreed with you in writing, ahead of the search for financing.",
+        answer: "Remuneration arrangements are presented before any commitment and set out in the legal notice. They are agreed with you in writing, ahead of the search for financing.",
       },
       {
         question: "Do you guarantee that financing will be obtained?",
@@ -52,7 +52,7 @@ export const contact: ContactContent = {
       },
       {
         question: "How is the information you provide handled?",
-        answer: "It is used solely to review your request. It is neither used for marketing purposes nor passed on to third parties. It is shared only with the lenders we consult for your transaction, with your agreement. The details are set out in the privacy policy.",
+        answer: "It is used solely to review your request. It is neither used for marketing purposes nor sold or transferred to third parties. It is shared only with the lenders we consult for your transaction, with your agreement. The details are set out in the privacy policy.",
       },
     ],
   },
