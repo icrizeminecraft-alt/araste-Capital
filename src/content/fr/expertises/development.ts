@@ -55,6 +55,28 @@ export const development: ExpertiseContent = {
     },
   },
   related: ["bridge", "acquisition", "complex"],
+  faq: [
+    {
+      question: "À quel stade faut-il solliciter un financement ?",
+      answer:
+        "Un premier échange peut avoir lieu tôt, dès que le projet est décrit. Une demande formelle suppose en revanche des éléments stabilisés : foncier maîtrisé ou sous promesse, permis au moins déposé, budget détaillé et calendrier par phase. Avant cela, un prêteur ne donne qu'un avis de principe. Préparer le dossier en amont permet de solliciter les bons interlocuteurs au moment où le projet devient réellement finançable.",
+    },
+    {
+      question: "Faut-il un permis purgé de tout recours ?",
+      answer:
+        "Ce n'est pas toujours indispensable, mais cela change la lecture de l'opération. Tant que des recours restent possibles, le prêteur finance une incertitude : la ressource disponible est plus rare et plus coûteuse. Certains financeurs acceptent d'intervenir avant la purge, sur le foncier par exemple, en attendant que le financement de construction prenne le relais. Le statut du permis conditionne donc la phase que l'on peut financer, et avec qui.",
+    },
+    {
+      question: "Comment la construction est-elle financée ?",
+      answer:
+        "Le plus souvent par tranches, au rythme de l'avancement du chantier. Le prêteur débloque les fonds sur présentation des situations de travaux, validées par le maître d'œuvre ou un contrôleur indépendant, une fois les fonds propres engagés. Ce mécanisme suppose un suivi rigoureux et une trésorerie capable d'absorber les décalages entre les dépenses et les déblocages. Le budget et le calendrier présentés au départ servent de référence tout au long du chantier.",
+    },
+    {
+      question: "Que se passe-t-il si le calendrier dérape ?",
+      answer:
+        "Un retard prolonge la période pendant laquelle la dette court sans revenu et peut rapprocher l'échéance du prêt de la date de sortie. Mieux vaut en informer le prêteur tôt, avec un calendrier révisé et un budget mis à jour. Selon les cas, la solution passe par une prorogation, un complément de fonds propres ou un financement complémentaire. Un calendrier construit avec des marges dès l'origine limite la fréquence de ces situations.",
+    },
+  ],
   cta: {
     title: "Un projet à financer par étapes ?",
     body: "Décrivez-nous le projet, où il en est, son budget et la sortie prévue. Nous vous répondrons franchement sur la phase et la forme de financement qui nous paraissent envisageables.",

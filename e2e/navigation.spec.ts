@@ -6,6 +6,8 @@ const pages = [
   "/fr/expertises",
   "/fr/expertises/financement-relais",
   "/fr/notre-approche",
+  "/fr/reperes",
+  "/fr/reperes/comprendre-le-financement-relais",
   "/fr/contact",
   "/fr/mentions-legales",
   "/fr/confidentialite",
@@ -59,13 +61,16 @@ test.describe("navigation", () => {
     await page.goto("/fr/expertises/financement-relais");
     await page.getByRole("link", { name: "English" }).first().click();
     await expect(page).toHaveURL(/\/en\/expertise\/bridge-finance$/);
+    await page.goto("/fr/reperes/la-sortie-cle-du-relais");
+    await page.getByRole("link", { name: "English" }).first().click();
+    await expect(page).toHaveURL(/\/en\/guides\/the-exit-key-to-a-bridge$/);
     await page.getByRole("link", { name: "Français" }).first().click();
     await expect(page).toHaveURL(/\/fr\/expertises\/financement-relais$/);
   });
 
   test("aucun lien interne mort sur l'accueil et l'index des expertises", async ({ page, request }) => {
     const seen = new Set<string>();
-    for (const start of ["/fr", "/en", "/fr/expertises"]) {
+    for (const start of ["/fr", "/en", "/fr/expertises", "/fr/reperes"]) {
       await page.goto(start);
       const hrefs = await page.locator("a[href^='/']").evaluateAll((els) => els.map((el) => (el as HTMLAnchorElement).getAttribute("href") ?? ""));
       for (const href of hrefs) {

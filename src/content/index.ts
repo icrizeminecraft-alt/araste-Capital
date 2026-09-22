@@ -1,7 +1,7 @@
 import "server-only";
 import type { Locale } from "@/lib/i18n";
-import type { Dictionary, ExpertiseContent } from "@/content/types";
-import type { ExpertiseKey } from "@/config/routes";
+import type { Dictionary, ExpertiseContent, GuideContent } from "@/content/types";
+import type { ExpertiseKey, GuideKey } from "@/config/routes";
 import { deepMapStrings, frenchTypography } from "@/lib/typography";
 
 import { common as frCommon } from "@/content/fr/common";
@@ -18,6 +18,13 @@ import { refinancing as frRefinancing } from "@/content/fr/expertises/refinancin
 import { acquisition as frAcquisition } from "@/content/fr/expertises/acquisition";
 import { development as frDevelopment } from "@/content/fr/expertises/development";
 import { privateDebt as frPrivateDebt } from "@/content/fr/expertises/privateDebt";
+import { guidesIndex as frGuidesIndex } from "@/content/fr/guides-index";
+import { bridgeBasics as frBridgeBasics } from "@/content/fr/guides/bridgeBasics";
+import { exitStrategy as frExitStrategy } from "@/content/fr/guides/exitStrategy";
+import { preparingFile as frPreparingFile } from "@/content/fr/guides/preparingFile";
+import { refinancingSignals as frRefinancingSignals } from "@/content/fr/guides/refinancingSignals";
+import { developmentPhases as frDevelopmentPhases } from "@/content/fr/guides/developmentPhases";
+import { privateDebtWhen as frPrivateDebtWhen } from "@/content/fr/guides/privateDebtWhen";
 
 import { common as enCommon } from "@/content/en/common";
 import { home as enHome } from "@/content/en/home";
@@ -33,6 +40,13 @@ import { refinancing as enRefinancing } from "@/content/en/expertises/refinancin
 import { acquisition as enAcquisition } from "@/content/en/expertises/acquisition";
 import { development as enDevelopment } from "@/content/en/expertises/development";
 import { privateDebt as enPrivateDebt } from "@/content/en/expertises/privateDebt";
+import { guidesIndex as enGuidesIndex } from "@/content/en/guides-index";
+import { bridgeBasics as enBridgeBasics } from "@/content/en/guides/bridgeBasics";
+import { exitStrategy as enExitStrategy } from "@/content/en/guides/exitStrategy";
+import { preparingFile as enPreparingFile } from "@/content/en/guides/preparingFile";
+import { refinancingSignals as enRefinancingSignals } from "@/content/en/guides/refinancingSignals";
+import { developmentPhases as enDevelopmentPhases } from "@/content/en/guides/developmentPhases";
+import { privateDebtWhen as enPrivateDebtWhen } from "@/content/en/guides/privateDebtWhen";
 
 const frExpertises: Record<ExpertiseKey, ExpertiseContent> = {
   bridge: frBridge,
@@ -52,6 +66,24 @@ const enExpertises: Record<ExpertiseKey, ExpertiseContent> = {
   privateDebt: enPrivateDebt,
 };
 
+const frGuides: Record<GuideKey, GuideContent> = {
+  bridgeBasics: frBridgeBasics,
+  exitStrategy: frExitStrategy,
+  preparingFile: frPreparingFile,
+  refinancingSignals: frRefinancingSignals,
+  developmentPhases: frDevelopmentPhases,
+  privateDebtWhen: frPrivateDebtWhen,
+};
+
+const enGuides: Record<GuideKey, GuideContent> = {
+  bridgeBasics: enBridgeBasics,
+  exitStrategy: enExitStrategy,
+  preparingFile: enPreparingFile,
+  refinancingSignals: enRefinancingSignals,
+  developmentPhases: enDevelopmentPhases,
+  privateDebtWhen: enPrivateDebtWhen,
+};
+
 const raw: Record<Locale, Dictionary> = {
   fr: {
     common: frCommon,
@@ -60,6 +92,8 @@ const raw: Record<Locale, Dictionary> = {
     expertisesIndex: frExpertisesIndex,
     expertises: frExpertises,
     approach: frApproach,
+    guidesIndex: frGuidesIndex,
+    guides: frGuides,
     contact: frContact,
     legal: frLegal,
     privacy: frPrivacy,
@@ -71,6 +105,8 @@ const raw: Record<Locale, Dictionary> = {
     expertisesIndex: enExpertisesIndex,
     expertises: enExpertises,
     approach: enApproach,
+    guidesIndex: enGuidesIndex,
+    guides: enGuides,
     contact: enContact,
     legal: enLegal,
     privacy: enPrivacy,

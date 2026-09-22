@@ -39,7 +39,7 @@ export function BridgeFeature({ locale, t }: { locale: Locale; t: HomeContent["b
           </ol>
         </div>
 
-        <Reveal className="grain relative aspect-[4/3] overflow-hidden bg-forest-soft lg:col-span-5 lg:col-start-8 lg:aspect-auto lg:min-h-full" delay={1}>
+        <Reveal className="reveal-media grain relative aspect-[4/3] overflow-hidden bg-forest-soft [--color-ivory:var(--color-forest)] lg:col-span-5 lg:col-start-8 lg:aspect-auto lg:min-h-full" delay={1}>
           <Visual slot={visuals.bridgeFeature} locale={locale} decorative sizes="(min-width: 64rem) 40vw, 100vw" className="lg:absolute lg:inset-0" />
         </Reveal>
       </div>

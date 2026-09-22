@@ -15,6 +15,7 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
     { label: t.nav.firm, href: pagePath(locale, "firm") },
     { label: t.nav.expertises, href: pagePath(locale, "expertises") },
     { label: t.nav.approach, href: pagePath(locale, "approach") },
+    { label: t.nav.guides, href: pagePath(locale, "guides") },
     { label: t.nav.contact, href: pagePath(locale, "contact") },
   ];
   const linkClass = "text-[0.9375rem] text-stone underline-offset-4 transition-colors hover:text-ivory hover:underline";

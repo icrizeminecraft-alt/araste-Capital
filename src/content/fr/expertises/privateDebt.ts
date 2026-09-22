@@ -55,6 +55,28 @@ export const privateDebt: ExpertiseContent = {
     },
   },
   related: ["complex", "bridge", "refinancing"],
+  faq: [
+    {
+      question: "Qu'est-ce qu'un prêteur spécialisé ?",
+      answer:
+        "Un fonds de dette, un prêteur privé ou une plateforme institutionnelle qui finance des opérations selon ses propres critères, en dehors de la grille bancaire standard. Ces acteurs interviennent en premier rang, en rang subordonné ou en complément d'une dette existante. Chacun a un cadre d'intervention précis : types d'actifs, zones géographiques, structures, situations. Leur analyse porte avant tout sur la sortie et les garanties.",
+    },
+    {
+      question: "La dette privée est-elle réservée aux dossiers refusés par les banques ?",
+      answer:
+        "Non. Le refus d'une banque n'est ni nécessaire ni suffisant. Ce segment se justifie par une caractéristique de l'opération : un calendrier serré, une structure de détention particulière, un actif en transition ou une tranche complémentaire à trouver. Beaucoup d'emprunteurs y recourent alors qu'une banque finance par ailleurs l'essentiel de leur activité. À l'inverse, un dossier refusé pour des raisons de fond ne trouvera pas davantage preneur ici.",
+    },
+    {
+      question: "Quelle documentation faut-il prévoir ?",
+      answer:
+        "Un dossier complet dès la première présentation : description de l'opération et de la structure emprunteuse, plan de trésorerie avec ses hypothèses, garanties mobilisables et dettes existantes, scénario de sortie et solutions de repli, comptes récents. La documentation contractuelle est ensuite plus détaillée qu'un contrat bancaire : engagements financiers, obligations d'information, cas de défaut. Elle relève de vos conseils juridiques, que nous accompagnons pendant la négociation.",
+    },
+    {
+      question: "Peut-on combiner dette bancaire et dette privée ?",
+      answer:
+        "Oui, c'est une configuration fréquente : une banque finance la part principale et un prêteur spécialisé apporte une tranche complémentaire, souvent en rang subordonné. Cette combinaison suppose que les deux prêteurs acceptent de coexister, qu'un accord règle l'ordre des garanties et des remboursements, et que les flux de l'opération supportent l'ensemble. Elle se prépare dès le départ, pas une fois la dette bancaire signée.",
+    },
+  ],
   cta: {
     title: "Un besoin que le crédit bancaire ne couvre pas ?",
     body: "Décrivez-nous l'opération, ce qui la distingue d'un dossier bancaire classique et la sortie envisagée. Nous vous dirons si ce segment nous paraît pertinent et ce qu'il impliquerait pour vous.",

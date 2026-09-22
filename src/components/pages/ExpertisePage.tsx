@@ -9,11 +9,14 @@ import { Reveal } from "@/components/ui/Reveal";
 import { Visual } from "@/components/visuals/Visual";
 import { ContactCta } from "@/components/home/ContactCta";
 import { Eyebrow } from "@/components/ui/Eyebrow";
+import { Faq } from "@/components/ui/Faq";
+import { guideKeys, guidePath } from "@/config/routes";
 
 export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dict: Dictionary; expertise: ExpertiseKey }) {
   const e = dict.expertises[expertise];
   const index = enabledExpertises().indexOf(expertise) + 1;
   const related = e.related.filter((key) => siteConfig.expertises[key]);
+  const relatedGuides = guideKeys.filter((key) => dict.guides[key].relatedExpertises.includes(expertise)).slice(0, 2);
   const s = e.sections;
 
   return (
@@ -31,7 +34,7 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
       />
 
       <div className="container-x mt-12 grid grid-cols-1 gap-12 md:mt-16 lg:grid-cols-12 lg:gap-8">
-        <Reveal className="grain relative aspect-[16/9] overflow-hidden bg-stone lg:col-span-12 lg:aspect-[21/9]">
+        <Reveal className="reveal-media grain relative aspect-[16/9] overflow-hidden bg-stone lg:col-span-12 lg:aspect-[21/9]">
           <Visual slot={visuals.expertises[expertise]} locale={locale} decorative sizes="100vw" />
         </Reveal>
       </div>
@@ -109,6 +112,37 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
           </Reveal>
         </div>
       </section>
+
+      {e.faq.length > 0 ? (
+        <div className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
+          <div className="lg:col-span-10 lg:col-start-2">
+            <Faq id={`faq-${expertise}`} title={dict.common.ui.faq} items={e.faq} />
+          </div>
+        </div>
+      ) : null}
+
+      {relatedGuides.length > 0 ? (
+        <section className="bg-ivory-deep/60" aria-labelledby="guides-related-title">
+          <div className="container-x section-y-sm">
+            <Eyebrow as="h2" id="guides-related-title" className="mb-6">
+              {dict.common.ui.relatedGuides}
+            </Eyebrow>
+            <ul className="grid grid-cols-1 gap-px border-t border-stone-dark/60 md:grid-cols-2">
+              {relatedGuides.map((key) => (
+                <li key={key} className="border-b border-stone-dark/60 md:odd:border-r md:odd:pr-8">
+                  <Link href={guidePath(locale, key)} className="group block py-6">
+                    <span className="eyebrow block">{dict.guides[key].eyebrow}</span>
+                    <span className="mt-2 inline-flex items-baseline gap-2 font-serif text-2xl font-medium text-forest transition-colors group-hover:text-champagne-deep">
+                      {dict.guides[key].title}
+                      <span aria-hidden="true" className="font-sans text-base text-champagne-deep">→</span>
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      ) : null}
 
       {related.length > 0 ? (
         <section className="container-x section-y-sm" aria-labelledby="related-title">

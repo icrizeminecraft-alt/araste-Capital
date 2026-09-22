@@ -55,6 +55,28 @@ export const acquisition: ExpertiseContent = {
     },
   },
   related: ["bridge", "refinancing", "development"],
+  faq: [
+    {
+      question: "Which types of property asset do you review?",
+      answer:
+        "We review the financing of assets held through a company or an investment vehicle: residential investment buildings, commercial premises let to third parties or occupied by your own business, hotel premises and portfolios sold by a single vendor, within the scope we actually offer. The purchase of shares in a property company also falls within this field. What matters to a lender is less the category of the asset than its income, its condition and the structure acquiring it.",
+    },
+    {
+      question: "Do I need a company to borrow?",
+      answer:
+        "Our role concerns assets held through a company, a holding company or an investment vehicle. The form of that structure is not a neutral choice: it determines the security available, the undertakings asked of the shareholders and how the lender will read the file. Choosing it, together with its legal and tax aspects, is a matter for you and your advisers. We draw the consequences for the structuring of the financing.",
+    },
+    {
+      question: "When should I consult a financing adviser?",
+      answer:
+        "As early as possible, ideally before the sale agreement is signed. That is when the timetable, the conditions precedent and the balance between equity and debt are decided. An adviser consulted early can flag what will put the financing under strain and prepare the file while the other aspects of the transaction are being negotiated. Consulted late, they can only work within a timetable already fixed.",
+    },
+    {
+      question: "What should I gather for a first conversation?",
+      answer:
+        "A first conversation can be held on the description of the asset, the price, the intended structure and the timetable. The tenancy schedule and any valuation material are helpful if they already exist. The review itself will then require the accounts, the source of the equity, the shareholders' position and the holding strategy. Not everything needs to be in hand before you present the transaction to us.",
+    },
+  ],
   cta: {
     title: "An acquisition to finance?",
     body: "Tell us about the asset, the structure acquiring it and the timetable of the transaction. We will tell you whether it falls within what we review and on what basis we can take it forward.",

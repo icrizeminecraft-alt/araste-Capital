@@ -8,6 +8,8 @@ import { siteConfig } from "@/config/site";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { JsonLd } from "@/components/seo/JsonLd";
+import { MobileCta } from "@/components/layout/MobileCta";
+import { pagePath } from "@/config/routes";
 
 export const dynamicParams = false;
 
@@ -63,6 +65,7 @@ export default async function LocaleLayout({
           {children}
         </main>
         <Footer locale={locale} dict={dict} />
+        <MobileCta href={pagePath(locale, "contact")} label={dict.common.ui.mobileCta} />
         <JsonLd locale={locale} />
       </body>
     </html>

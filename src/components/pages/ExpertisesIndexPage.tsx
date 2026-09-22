@@ -30,9 +30,9 @@ export function ExpertisesIndexPage({ locale, dict }: { locale: Locale; dict: Di
             const layouts = ["lg:col-span-7", "lg:col-span-5 lg:mt-24", "lg:col-span-5", "lg:col-span-6 lg:col-start-7", "lg:col-span-7", "lg:col-span-5 lg:mt-24"];
             const wide = i % 3 === 0 || i === 3;
             return (
-              <Reveal as="li" key={key} className={layouts[i % layouts.length]} delay={(i % 2) as 0 | 1}>
+              <Reveal as="li" key={key} className={`reveal-media-host ${layouts[i % layouts.length]}`} delay={(i % 2) as 0 | 1}>
                 <article className="group grid grid-cols-1 gap-6">
-                  <Link href={expertisePath(locale, key)} className={`grain relative block overflow-hidden bg-stone ${wide ? "aspect-[4/3]" : "aspect-[4/5] sm:aspect-[4/3] lg:aspect-[4/5]"}`} tabIndex={-1} aria-hidden="true">
+                  <Link href={expertisePath(locale, key)} className={`reveal-media grain relative block overflow-hidden bg-stone ${wide ? "aspect-[4/3]" : "aspect-[4/5] sm:aspect-[4/3] lg:aspect-[4/5]"}`} tabIndex={-1} aria-hidden="true">
                     <Visual slot={visuals.expertises[key]} locale={locale} decorative sizes="(min-width: 64rem) 50vw, 100vw" className="transition-transform duration-700 ease-out-quart group-hover:scale-[1.02] motion-reduce:transition-none" />
                   </Link>
                   <div className="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-x-4">

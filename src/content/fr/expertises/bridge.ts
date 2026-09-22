@@ -53,6 +53,28 @@ export const bridge: ExpertiseContent = {
     },
   },
   related: ["complex", "refinancing", "development"],
+  faq: [
+    {
+      question: "À quoi sert un financement relais ?",
+      answer:
+        "Un relais couvre le temps qui sépare un besoin immédiat d'une ressource attendue : le produit d'une vente, un refinancement en cours, une levée de fonds ou un encaissement prévu. Il permet de sécuriser une acquisition, d'honorer une échéance ou de franchir une étape sans attendre que la ressource définitive soit disponible. Il ne remplace pas cette ressource ; il en avance l'effet, pour une période limitée.",
+    },
+    {
+      question: "Qu'appelle-t-on la « sortie » d'un relais ?",
+      answer:
+        "La sortie est l'événement qui permettra de rembourser le relais : signature d'une vente, mise en place d'un refinancement, encaissement d'une somme attendue. C'est le premier élément qu'un prêteur analyse, avant les garanties et la situation de l'emprunteur. Une sortie identifiée, datée avec réalisme et documentée change la lecture du dossier. Une sortie vague ou lointaine rend le relais difficile à justifier.",
+    },
+    {
+      question: "Faut-il des garanties pour obtenir un relais ?",
+      answer:
+        "Dans la plupart des cas, un prêteur attend des garanties cohérentes avec le montant et la durée du relais : actifs concernés par l'opération, autres actifs mobilisables, rang envisageable, valeur retenue. Leur nature dépend de l'opération et du prêteur consulté. L'important est de vérifier en amont ce qui est réellement disponible, en tenant compte des dettes existantes et des sûretés déjà prises sur les actifs concernés.",
+    },
+    {
+      question: "Un relais est-il envisageable sans vente engagée ?",
+      answer:
+        "Une vente signée n'est pas la seule sortie possible. Un refinancement en cours d'instruction, une levée de fonds avancée ou un encaissement contractuel peuvent aussi documenter la sortie. En revanche, une simple intention de vendre, sans démarche engagée ni élément de valorisation, rend le dossier plus difficile à présenter. Plus la sortie est étayée, plus la discussion avec un prêteur est ouverte. Seule l'étude du dossier permet de le mesurer.",
+    },
+  ],
   cta: {
     title: "Une transition à financer ?",
     body: "Présentez-nous l'opération, sa sortie envisagée et son calendrier. Nous vous dirons sans détour si un relais nous paraît envisageable.",

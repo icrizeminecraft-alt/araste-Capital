@@ -22,6 +22,40 @@ export const contact: ContactContent = {
     detailsTitle: "Reach us directly",
     detailsPending: "Direct contact details to be confirmed before publication.",
   },
+  faq: {
+    title: "Frequently asked questions",
+    lead: "What we are asked most often before a first conversation.",
+    items: [
+      {
+        question: "When should you contact us?",
+        answer: "As early as possible, as soon as a transaction takes shape: an acquisition to secure, a maturity approaching, a project to finance in stages. A first conversation allows us to understand where the need sits, identify the useful documents and say whether we can be useful, before the timetable tightens.",
+      },
+      {
+        question: "What happens after the form is sent?",
+        answer: "We review the details provided and come back to you through the channel you indicated. If the transaction falls within our scope, we arrange a conversation to understand it in detail and specify the documents to gather. Nothing is committed at this stage.",
+      },
+      {
+        question: "What information should you prepare for a first conversation?",
+        answer: "Orders of magnitude are enough: the type of need, the amount envisaged, the country of the transaction, the intended timeframe and a description of the asset or business, the structure and the expected exit. Detailed documents come later, if we decide together to go further.",
+      },
+      {
+        question: "Do you work with private individuals?",
+        answer: "No. We act for professional borrowers: companies, property companies, holding companies, investment vehicles, developers and professional owners. We do not deal with consumer credit or the financing of a main residence.",
+      },
+      {
+        question: "How is the firm remunerated?",
+        answer: "Remuneration arrangements are presented before any commitment and set out in the legal information. They are agreed with you in writing, ahead of the search for financing.",
+      },
+      {
+        question: "Do you guarantee that financing will be obtained?",
+        answer: "No, and nobody seriously can. The decision always rests with the lender. Our commitment concerns the quality of the analysis, the clarity of the file, the relevance of the routes explored and the candour of our feedback, including when it is negative.",
+      },
+      {
+        question: "How is the information you provide handled?",
+        answer: "It is used solely to review your request. It is neither used for marketing purposes nor passed on to third parties, and it is shared only with the lenders we consult for your transaction, with your agreement. The details are set out in the privacy policy.",
+      },
+    ],
+  },
   form: {
     stepLabel: "Step {current} of {total}",
     stepsLabel: "Form steps",

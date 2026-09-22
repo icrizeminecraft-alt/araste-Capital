@@ -1,4 +1,4 @@
-import type { ExpertiseKey } from "@/config/routes";
+import type { ExpertiseKey, GuideKey } from "@/config/routes";
 
 export type Meta = {
   title: string;
@@ -15,6 +15,7 @@ export type CommonContent = {
     firm: string;
     expertises: string;
     approach: string;
+    guides: string;
     contact: string;
     present: string;
     menuOpen: string;
@@ -45,9 +46,16 @@ export type CommonContent = {
   };
   ui: {
     allExpertises: string;
+    allGuides: string;
     breadcrumbLabel: string;
     homeCrumb: string;
     contents: string;
+    keyPoints: string;
+    relatedExpertises: string;
+    relatedGuides: string;
+    faq: string;
+    readingTime: string; // "{minutes} min de lecture"
+    mobileCta: string;
   };
   notFound: { title: string; body: string; cta: string };
   error: { eyebrow: string; title: string; body: string; retry: string; home: string };
@@ -94,6 +102,13 @@ export type HomeContent = {
     title: string;
     note: string;
     cases: { title: string; body: string; expertise: ExpertiseKey }[];
+  };
+  guides: {
+    eyebrow: string;
+    title: string;
+    body: string;
+    all: string;
+    featured: GuideKey[];
   };
   interlocutors: {
     eyebrow: string;
@@ -148,7 +163,32 @@ export type ExpertiseContent = {
     limits: { title: string; paragraphs: string[] };
   };
   related: ExpertiseKey[];
+  /** Questions fréquentes propres à l'expertise (3 à 4). */
+  faq: FaqItem[];
   cta: { title: string; body: string; button: string };
+};
+
+export type FaqItem = { question: string; answer: string };
+
+/** Guide pédagogique (« Repères ») : contenu évolutif, sans date ni auteur nommé. */
+export type GuideContent = {
+  meta: Meta;
+  title: string;
+  eyebrow: string;
+  summary: string;
+  lead: string;
+  sections: { title: string; paragraphs: string[]; items?: string[] }[];
+  keyPoints: string[];
+  relatedExpertises: ExpertiseKey[];
+  relatedGuides: GuideKey[];
+};
+
+export type GuidesIndexContent = {
+  meta: Meta;
+  eyebrow: string;
+  title: string;
+  lead: string;
+  note: string;
 };
 
 export type ApproachContent = {
@@ -173,6 +213,7 @@ export type ContactContent = {
     detailsTitle: string;
     detailsPending: string;
   };
+  faq: { title: string; lead: string; items: FaqItem[] };
   form: {
     stepLabel: string; // "Étape {current} sur {total}"
     stepsLabel: string;
@@ -252,6 +293,8 @@ export type Dictionary = {
   expertisesIndex: ExpertisesIndexContent;
   expertises: Record<ExpertiseKey, ExpertiseContent>;
   approach: ApproachContent;
+  guidesIndex: GuidesIndexContent;
+  guides: Record<GuideKey, GuideContent>;
   contact: ContactContent;
   legal: LegalContent;
   privacy: LegalContent;

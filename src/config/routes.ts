@@ -10,6 +10,7 @@ export const pageKeys = [
   "firm",
   "expertises",
   "approach",
+  "guides",
   "contact",
   "legal",
   "privacy",
@@ -21,6 +22,7 @@ export const pageSlugs: Record<PageKey, Record<Locale, string>> = {
   firm: { fr: "le-cabinet", en: "the-firm" },
   expertises: { fr: "expertises", en: "expertise" },
   approach: { fr: "notre-approche", en: "our-approach" },
+  guides: { fr: "reperes", en: "guides" },
   contact: { fr: "contact", en: "contact" },
   legal: { fr: "mentions-legales", en: "legal-notice" },
   privacy: { fr: "confidentialite", en: "privacy" },
@@ -44,6 +46,36 @@ export const expertiseSlugs: Record<ExpertiseKey, Record<Locale, string>> = {
   development: { fr: "promotion-immobiliere", en: "property-development" },
   privateDebt: { fr: "dette-privee", en: "private-debt" },
 };
+
+export const guideKeys = [
+  "bridgeBasics",
+  "exitStrategy",
+  "preparingFile",
+  "refinancingSignals",
+  "developmentPhases",
+  "privateDebtWhen",
+] as const;
+export type GuideKey = (typeof guideKeys)[number];
+
+export const guideSlugs: Record<GuideKey, Record<Locale, string>> = {
+  bridgeBasics: { fr: "comprendre-le-financement-relais", en: "understanding-bridge-finance" },
+  exitStrategy: { fr: "la-sortie-cle-du-relais", en: "the-exit-key-to-a-bridge" },
+  preparingFile: { fr: "preparer-un-dossier-de-financement", en: "preparing-a-financing-file" },
+  refinancingSignals: { fr: "quand-refinancer-une-dette", en: "when-to-refinance-debt" },
+  developmentPhases: { fr: "financer-un-projet-immobilier-par-etapes", en: "financing-a-property-project-in-stages" },
+  privateDebtWhen: { fr: "quand-la-dette-privee-a-du-sens", en: "when-private-debt-makes-sense" },
+};
+
+export function guidePath(locale: Locale, key: GuideKey): string {
+  return `/${locale}/${pageSlugs.guides[locale]}/${guideSlugs[key][locale]}`;
+}
+
+export function guideKeyFromSlug(locale: Locale, slug: string): GuideKey | null {
+  for (const key of guideKeys) {
+    if (guideSlugs[key][locale] === slug) return key;
+  }
+  return null;
+}
 
 export function pagePath(locale: Locale, key: PageKey): string {
   const slug = pageSlugs[key][locale];
@@ -71,6 +103,7 @@ export function expertiseKeyFromSlug(locale: Locale, slug: string): ExpertiseKey
 export type ResolvedRoute =
   | { kind: "page"; key: PageKey }
   | { kind: "expertise"; key: ExpertiseKey }
+  | { kind: "guide"; key: GuideKey }
   | { kind: "unknown" };
 
 /** Analyse un chemin (« /fr/expertises/financement-relais ») en route connue. */
@@ -89,6 +122,10 @@ export function resolvePath(pathname: string): { locale: Locale; route: Resolved
     const key = expertiseKeyFromSlug(locale, second);
     return { locale, route: key ? { kind: "expertise", key } : { kind: "unknown" } };
   }
+  if (first === pageSlugs.guides[locale]) {
+    const key = guideKeyFromSlug(locale, second);
+    return { locale, route: key ? { kind: "guide", key } : { kind: "unknown" } };
+  }
   return { locale, route: { kind: "unknown" } };
 }
 
@@ -97,6 +134,7 @@ export function alternatePath(pathname: string, target: Locale): string {
   const resolved = resolvePath(pathname);
   if (!resolved || resolved.route.kind === "unknown") return `/${target}`;
   if (resolved.route.kind === "page") return pagePath(target, resolved.route.key);
+  if (resolved.route.kind === "guide") return guidePath(target, resolved.route.key);
   return expertisePath(target, resolved.route.key);
 }
 
@@ -109,7 +147,9 @@ export function alternatesFor(route: ResolvedRoute): Record<Locale, string> {
         ? pagePath(locale, route.key)
         : route.kind === "expertise"
           ? expertisePath(locale, route.key)
-          : `/${locale}`;
+          : route.kind === "guide"
+            ? guidePath(locale, route.key)
+            : `/${locale}`;
   }
   return out;
 }

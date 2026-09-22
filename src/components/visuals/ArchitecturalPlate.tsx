@@ -169,39 +169,50 @@ function Arcade({ id, url }: { id: I; url: U }) {
   );
 }
 
-/* --- Colonnade : rythme régulier de colonnes devant un intérieur profond. */
+/* --- Colonnade : rythme régulier de colonnes ouvrant sur une lumière lointaine. */
 function Colonnade({ url }: { url: U }) {
-  const cols = [70, 250, 430, 610];
+  const cols = [40, 235, 430, 625];
   return (
     <g>
       <rect width="800" height="1000" fill={url("interior")} />
-      <rect x="0" y="0" width="800" height="240" fill={url("glow")} opacity="0.35" />
-      {/* Sol */}
-      <rect x="0" y="820" width="800" height="180" fill={url("floor")} />
-      <rect x="0" y="820" width="800" height="2" fill={C.stoneDark} />
+      {/* Ouverture lumineuse au fond */}
+      <rect x="0" y="0" width="800" height="1000" fill={url("glow")} opacity="0.5" />
+      <ellipse cx="400" cy="600" rx="520" ry="360" fill={url("sun")} opacity="0.35" />
+      {/* Sol dallé en perspective */}
+      <rect x="0" y="800" width="800" height="200" fill={url("floor")} />
+      <rect x="0" y="800" width="800" height="2" fill={C.stoneDark} />
+      {[860, 905, 960].map((y) => (
+        <rect key={y} x="0" y={y} width="800" height="1" fill={C.stoneDark} opacity="0.35" />
+      ))}
+      {[80, 240, 400, 560, 720].map((x) => (
+        <path key={x} d={`M${x} 800 L${x + (x - 400) * 0.6} 1000`} stroke={C.stoneDark} strokeWidth="1" opacity="0.3" />
+      ))}
       {/* Entablement */}
-      <rect x="0" y="120" width="800" height="70" fill={C.stoneLight} />
-      <rect x="0" y="190" width="800" height="14" fill={C.stone} />
-      <rect x="0" y="204" width="800" height="3" fill={C.stoneDark} opacity="0.7" />
-      <rect x="0" y="150" width="800" height="1.5" fill={C.brass} opacity="0.6" />
+      <rect x="0" y="96" width="800" height="90" fill={C.stoneLight} />
+      <rect x="0" y="186" width="800" height="16" fill={C.stone} />
+      <rect x="0" y="202" width="800" height="4" fill={C.stoneDark} opacity="0.6" />
+      <rect x="0" y="130" width="800" height="1.5" fill={C.brass} opacity="0.6" />
+      <path d="M0 96 H800 V110 H0 Z" fill={C.forest} opacity="0.12" />
       {cols.map((x) => (
         <g key={x}>
-          {/* Chapiteau */}
-          <rect x={x - 6} y="207" width="132" height="22" fill={C.stone} />
-          <rect x={x + 4} y="229" width="112" height="16" fill={C.stoneMid} />
-          {/* Fût avec ombre latérale */}
-          <rect x={x + 8} y="245" width="104" height="530" fill={C.stoneLight} />
-          <rect x={x + 8} y="245" width="104" height="530" fill={url("shade")} />
-          <rect x={x + 22} y="245" width="3" height="530" fill={C.stoneDark} opacity="0.25" />
-          <rect x={x + 52} y="245" width="2" height="530" fill={C.stoneDark} opacity="0.2" />
+          {/* Chapiteau mouluré */}
+          <path d={`M${x - 8} 206 H${x + 143} V226 H${x - 8} Z`} fill={C.stone} />
+          <path d={`M${x} 226 C${x + 10} 238 ${x + 20} 240 ${x + 30} 242 H${x + 105} C${x + 115} 240 ${x + 125} 238 ${x + 135} 226 Z`} fill={C.stoneMid} />
+          {/* Fût : dégradé de lumière et cannelures */}
+          <rect x={x + 18} y="242" width="99" height="520" fill={C.stoneLight} />
+          <rect x={x + 18} y="242" width="99" height="520" fill={url("shade")} opacity="0.9" />
+          <rect x={x + 18} y="242" width="26" height="520" fill="#ffffff" opacity="0.18" />
+          {[34, 52, 70, 88].map((o) => (
+            <rect key={o} x={x + o} y="242" width="2" height="520" fill={C.stoneDark} opacity="0.22" />
+          ))}
           {/* Base */}
-          <rect x={x + 2} y="775" width="116" height="18" fill={C.stone} />
-          <rect x={x - 6} y="793" width="132" height="27" fill={C.stoneMid} />
+          <path d={`M${x + 12} 762 H${x + 123} V780 H${x + 12} Z`} fill={C.stone} />
+          <path d={`M${x} 780 H${x + 135} V800 H${x} Z`} fill={C.stoneMid} />
           {/* Ombre au sol */}
-          <path d={`M${x + 8} 822 H${x + 112} L${x + 190} 1000 H${x + 86} Z`} fill={C.forest} opacity="0.18" />
+          <path d={`M${x + 18} 802 H${x + 117} L${x + 205} 1000 H${x + 96} Z`} fill={C.forest} opacity="0.16" />
         </g>
       ))}
-      <path d="M0 0 H400 L0 560 Z" fill={url("light")} opacity="0.5" />
+      <path d="M0 0 H360 L0 520 Z" fill={url("light")} opacity="0.45" />
     </g>
   );
 }
@@ -283,41 +294,48 @@ function Facade({ url }: { url: U }) {
   );
 }
 
-/* --- Horizon : balustrade ouverte sur la mer. */
+/* --- Horizon : balustrade de pierre ouverte sur la mer. */
 function Horizon({ url }: { url: U }) {
-  const balusters = Array.from({ length: 9 }, (_, i) => 60 + i * 86);
+  const balusters = Array.from({ length: 7 }, (_, i) => 62 + i * 112);
   return (
     <g>
       <rect width="800" height="1000" fill={url("sky")} />
-      <ellipse cx="560" cy="330" rx="420" ry="240" fill={url("sun")} opacity="0.8" />
-      <rect x="0" y="520" width="800" height="200" fill={C.sea} />
-      <rect x="0" y="520" width="800" height="2" fill={C.seaDeep} />
-      {[560, 600, 650, 700].map((y) => (
-        <rect key={y} x="0" y={y} width="800" height="1" fill={C.seaDeep} opacity="0.45" />
+      <ellipse cx="540" cy="360" rx="460" ry="260" fill={url("sun")} opacity="0.85" />
+      {/* Mer */}
+      <rect x="0" y="540" width="800" height="180" fill={C.sea} />
+      <rect x="0" y="540" width="800" height="2" fill={C.seaDeep} />
+      {[575, 605, 640, 680].map((y, i) => (
+        <rect key={y} x="0" y={y} width="800" height="1" fill={C.seaDeep} opacity={0.5 - i * 0.08} />
       ))}
-      {/* Terrasse */}
+      <rect x="0" y="540" width="800" height="180" fill="#ffffff" opacity="0.08" />
+      {/* Terrasse dallée */}
       <rect x="0" y="720" width="800" height="280" fill={url("floor")} />
-      {/* Balustrade */}
-      <rect x="0" y="600" width="800" height="26" fill={C.stoneLight} />
-      <rect x="0" y="626" width="800" height="8" fill={C.stone} />
-      {balusters.map((x) => (
-        <g key={x}>
-          <path
-            d={`M${x} 634 h44 v14 h-8 c0 20 -6 34 -6 58 c0 30 8 46 8 70 h8 v14 h-48 v-14 h8 c0 -24 8 -40 8 -70 c0 -24 -6 -38 -6 -58 h-8 z`}
-            fill={C.stone}
-          />
-          <path
-            d={`M${x + 22} 648 c0 20 -6 34 -6 58 c0 30 8 46 8 70`}
-            fill="none"
-            stroke={C.stoneDark}
-            strokeWidth="6"
-            opacity="0.35"
-          />
-        </g>
+      {[790, 860, 940].map((y) => (
+        <rect key={y} x="0" y={y} width="800" height="1" fill={C.stoneDark} opacity="0.35" />
       ))}
-      <rect x="0" y="804" width="800" height="24" fill={C.stone} />
-      <rect x="0" y="828" width="800" height="4" fill={C.stoneDark} opacity="0.6" />
-      <path d="M0 832 H800 V1000 H0 Z" fill={C.forest} opacity="0.1" />
+      {/* Balustrade : main courante, balustres galbés, socle */}
+      <rect x="0" y="612" width="800" height="22" fill={C.stoneLight} />
+      <rect x="0" y="634" width="800" height="10" fill={C.stone} />
+      <rect x="0" y="644" width="800" height="3" fill={C.stoneDark} opacity="0.5" />
+      {balusters.map((x) => {
+        const cx = x + 24;
+        return (
+          <g key={x}>
+            {/* Balustre classique : abaque, col, panse, fût, socle */}
+            <rect x={cx - 22} y="647" width="44" height="9" fill={C.stone} />
+            <rect x={cx - 7} y="656" width="14" height="22" fill={C.stone} />
+            <ellipse cx={cx} cy="704" rx="21" ry="30" fill={C.stone} />
+            <ellipse cx={cx - 7} cy="700" rx="7" ry="22" fill="#ffffff" opacity="0.3" />
+            <ellipse cx={cx + 9} cy="706" rx="8" ry="26" fill={C.forest} opacity="0.14" />
+            <rect x={cx - 8} y="732" width="16" height="48" fill={C.stone} />
+            <rect x={cx + 3} y="732" width="5" height="48" fill={C.forest} opacity="0.12" />
+            <rect x={cx - 20} y="780" width="40" height="21" fill={C.stoneMid} />
+          </g>
+        );
+      })}
+      <rect x="0" y="801" width="800" height="26" fill={C.stone} />
+      <rect x="0" y="827" width="800" height="5" fill={C.stoneDark} opacity="0.55" />
+      <path d="M0 832 H800 V1000 H0 Z" fill={C.forest} opacity="0.08" />
       <path d="M0 0 H520 L0 520 Z" fill={url("light")} opacity="0.5" />
     </g>
   );
@@ -366,39 +384,44 @@ function Vault({ id, url }: { id: I; url: U }) {
   );
 }
 
-/* --- Corniche : superposition de moulures et de denticules. */
+/* --- Corniche : moulures superposées sous un ciel clair. */
 function Cornice({ url }: { url: U }) {
-  const dentils = Array.from({ length: 14 }, (_, i) => 20 + i * 56);
+  const dentils = Array.from({ length: 18 }, (_, i) => 12 + i * 44);
   return (
     <g>
-      <rect width="800" height="1000" fill={C.stoneLight} />
-      <rect width="800" height="1000" fill={url("shade")} opacity="0.2" />
-      {/* Larmier */}
-      <rect x="0" y="120" width="800" height="70" fill={C.stone} />
-      <path d="M0 190 H800 V236 H0 Z" fill={C.forest} opacity="0.22" />
-      <rect x="0" y="150" width="800" height="1.5" fill={C.brass} opacity="0.6" />
+      <rect width="800" height="1000" fill={url("sky")} />
+      {/* Larmier et sa sous-face ombrée */}
+      <rect x="0" y="150" width="800" height="64" fill={C.stoneLight} />
+      <rect x="0" y="150" width="800" height="6" fill="#ffffff" opacity="0.5" />
+      <path d="M0 214 H800 V262 H0 Z" fill={C.forest} opacity="0.3" />
+      <rect x="0" y="182" width="800" height="1.5" fill={C.brass} opacity="0.6" />
       {/* Doucine */}
-      <path d="M0 236 H800 V300 C600 300 600 330 400 330 C200 330 200 300 0 300 Z" fill={C.stoneMid} />
-      <rect x="0" y="330" width="800" height="36" fill={C.stone} />
-      {/* Denticules */}
-      <rect x="0" y="366" width="800" height="90" fill={C.stoneMid} />
+      <path d="M0 262 H800 V318 C600 318 600 346 400 346 C200 346 200 318 0 318 Z" fill={C.stoneMid} />
+      <path d="M0 262 H800 V286 C600 286 600 300 400 300 C200 300 200 286 0 286 Z" fill={C.forest} opacity="0.12" />
+      <rect x="0" y="346" width="800" height="30" fill={C.stone} />
+      {/* Denticules fins avec ombre portée */}
+      <rect x="0" y="376" width="800" height="72" fill={C.stoneMid} />
       {dentils.map((x) => (
         <g key={x}>
-          <rect x={x} y="366" width="34" height="90" fill={C.stoneLight} />
-          <rect x={x + 34} y="366" width="10" height="90" fill={C.forest} opacity="0.35" />
+          <rect x={x} y="376" width="26" height="72" fill={C.stoneLight} />
+          <rect x={x + 26} y="376" width="8" height="72" fill={C.forest} opacity="0.3" />
+          <rect x={x} y="440" width="26" height="8" fill={C.forest} opacity="0.12" />
         </g>
       ))}
-      <rect x="0" y="456" width="800" height="18" fill={C.stone} />
-      <path d="M0 474 H800 V520 H0 Z" fill={C.forest} opacity="0.18" />
-      {/* Frise lisse */}
-      <rect x="0" y="520" width="800" height="240" fill={C.stoneLight} />
-      <rect x="0" y="760" width="800" height="14" fill={C.stone} />
-      <rect x="0" y="774" width="800" height="3" fill={C.stoneDark} opacity="0.6" />
-      {/* Architrave */}
-      <rect x="0" y="777" width="800" height="223" fill={C.stone} />
-      <rect x="0" y="860" width="800" height="2" fill={C.stoneDark} opacity="0.5" />
-      <rect x="0" y="940" width="800" height="2" fill={C.stoneDark} opacity="0.5" />
-      <path d="M0 0 H520 L0 700 Z" fill={url("light")} opacity="0.6" />
+      <rect x="0" y="448" width="800" height="16" fill={C.stone} />
+      <path d="M0 464 H800 V520 H0 Z" fill={C.forest} opacity="0.22" />
+      {/* Frise lisse et architrave */}
+      <rect x="0" y="520" width="800" height="230" fill={C.stoneLight} />
+      <rect x="0" y="520" width="800" height="230" fill={url("shade")} opacity="0.35" />
+      <rect x="0" y="750" width="800" height="18" fill={C.stone} />
+      <rect x="0" y="768" width="800" height="4" fill={C.stoneDark} opacity="0.55" />
+      <rect x="0" y="772" width="800" height="228" fill={C.stone} />
+      <rect x="0" y="772" width="800" height="228" fill={url("shade")} opacity="0.3" />
+      {[850, 930].map((y) => (
+        <rect key={y} x="0" y={y} width="800" height="2" fill={C.stoneDark} opacity="0.45" />
+      ))}
+      <path d="M0 0 H560 L0 720 Z" fill={url("light")} opacity="0.5" />
     </g>
   );
 }
+

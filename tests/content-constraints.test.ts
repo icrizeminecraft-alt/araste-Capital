@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { expertiseKeys } from "@/config/routes";
+import { expertiseKeys, guideKeys } from "@/config/routes";
 import type { Dictionary } from "@/content/types";
 import * as frCommon from "@/content/fr/common";
 import * as enCommon from "@/content/en/common";
@@ -17,6 +17,20 @@ import { privacy as frPrivacy } from "@/content/fr/privacy";
 import { privacy as enPrivacy } from "@/content/en/privacy";
 import { expertisesIndex as frIndex } from "@/content/fr/expertises-index";
 import { expertisesIndex as enIndex } from "@/content/en/expertises-index";
+import { guidesIndex as frGuidesIndex } from "@/content/fr/guides-index";
+import { guidesIndex as enGuidesIndex } from "@/content/en/guides-index";
+import * as frG from "@/content/fr/guides/bridgeBasics";
+import * as frG2 from "@/content/fr/guides/exitStrategy";
+import * as frG3 from "@/content/fr/guides/preparingFile";
+import * as frG4 from "@/content/fr/guides/refinancingSignals";
+import * as frG5 from "@/content/fr/guides/developmentPhases";
+import * as frG6 from "@/content/fr/guides/privateDebtWhen";
+import * as enG from "@/content/en/guides/bridgeBasics";
+import * as enG2 from "@/content/en/guides/exitStrategy";
+import * as enG3 from "@/content/en/guides/preparingFile";
+import * as enG4 from "@/content/en/guides/refinancingSignals";
+import * as enG5 from "@/content/en/guides/developmentPhases";
+import * as enG6 from "@/content/en/guides/privateDebtWhen";
 import { bridge as frBridge } from "@/content/fr/expertises/bridge";
 import { complex as frComplex } from "@/content/fr/expertises/complex";
 import { refinancing as frRefinancing } from "@/content/fr/expertises/refinancing";
@@ -33,10 +47,14 @@ import { privateDebt as enPrivateDebt } from "@/content/en/expertises/privateDeb
 const dicts: Record<"fr" | "en", Dictionary> = {
   fr: {
     common: frCommon.common, home: frHome, firm: frFirm, approach: frApproach, contact: frContact, legal: frLegal, privacy: frPrivacy, expertisesIndex: frIndex,
+    guidesIndex: frGuidesIndex,
+    guides: { bridgeBasics: frG.bridgeBasics, exitStrategy: frG2.exitStrategy, preparingFile: frG3.preparingFile, refinancingSignals: frG4.refinancingSignals, developmentPhases: frG5.developmentPhases, privateDebtWhen: frG6.privateDebtWhen },
     expertises: { bridge: frBridge, complex: frComplex, refinancing: frRefinancing, acquisition: frAcquisition, development: frDevelopment, privateDebt: frPrivateDebt },
   },
   en: {
     common: enCommon.common, home: enHome, firm: enFirm, approach: enApproach, contact: enContact, legal: enLegal, privacy: enPrivacy, expertisesIndex: enIndex,
+    guidesIndex: enGuidesIndex,
+    guides: { bridgeBasics: enG.bridgeBasics, exitStrategy: enG2.exitStrategy, preparingFile: enG3.preparingFile, refinancingSignals: enG4.refinancingSignals, developmentPhases: enG5.developmentPhases, privateDebtWhen: enG6.privateDebtWhen },
     expertises: { bridge: enBridge, complex: enComplex, refinancing: enRefinancing, acquisition: enAcquisition, development: enDevelopment, privateDebt: enPrivateDebt },
   },
 };
@@ -80,6 +98,21 @@ describe("contraintes des contenus", () => {
         expect(e.sections.limits.paragraphs).toHaveLength(2);
         expect(e.related).not.toContain(key);
         expect(e.related.length).toBeGreaterThan(0);
+        expect(e.faq.length).toBeGreaterThanOrEqual(3);
+        expect(e.faq.length).toBeLessThanOrEqual(5);
+      });
+    }
+
+    for (const key of guideKeys) {
+      it(`${locale}/${key} : structure du repère conforme`, () => {
+        const g = dict.guides[key];
+        expect(g.meta.description.length).toBeLessThanOrEqual(160);
+        expect(g.sections.length).toBeGreaterThanOrEqual(4);
+        expect(g.sections.length).toBeLessThanOrEqual(6);
+        expect(g.keyPoints.length).toBeGreaterThanOrEqual(3);
+        expect(g.keyPoints.length).toBeLessThanOrEqual(5);
+        expect(g.relatedGuides).not.toContain(key);
+        for (const s of g.sections) expect(s.paragraphs.length).toBeGreaterThanOrEqual(1);
       });
     }
   }
@@ -91,7 +124,17 @@ describe("contraintes des contenus", () => {
       expect(en.sections.needs.items.length).toBe(fr.sections.needs.items.length);
       expect(en.sections.analysis.items.length).toBe(fr.sections.analysis.items.length);
       expect(en.related).toEqual(fr.related);
+      expect(en.faq.length).toBe(fr.faq.length);
     }
+    for (const key of guideKeys) {
+      const fr = dicts.fr.guides[key];
+      const en = dicts.en.guides[key];
+      expect(en.sections.length).toBe(fr.sections.length);
+      expect(en.keyPoints.length).toBe(fr.keyPoints.length);
+      expect(en.relatedExpertises).toEqual(fr.relatedExpertises);
+      expect(en.relatedGuides).toEqual(fr.relatedGuides);
+    }
+    expect(dicts.en.contact.faq.items.length).toBe(dicts.fr.contact.faq.items.length);
     expect(dicts.en.home.approach.steps.length).toBe(dicts.fr.home.approach.steps.length);
     expect(dicts.en.home.situations.cases.length).toBe(dicts.fr.home.situations.cases.length);
     expect(dicts.en.approach.steps.length).toBe(dicts.fr.approach.steps.length);

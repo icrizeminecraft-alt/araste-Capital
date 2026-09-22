@@ -55,6 +55,28 @@ export const development: ExpertiseContent = {
     },
   },
   related: ["bridge", "acquisition", "complex"],
+  faq: [
+    {
+      question: "At what stage should financing be sought?",
+      answer:
+        "A first conversation can take place early, as soon as the project can be described. A formal request, however, requires settled elements: land under control or under option, a planning application at least lodged, a detailed budget and a timetable by phase. Before that, a lender will only give an indication of interest. Preparing the file in advance makes it possible to approach the right counterparts at the moment the project genuinely becomes financeable.",
+    },
+    {
+      question: "Does the planning permission need to be beyond challenge?",
+      answer:
+        "Not always, but it changes how the transaction is read. As long as a challenge remains possible, the lender is financing an uncertainty: the funding available is scarcer and more expensive. Some lenders are willing to step in before the challenge period has expired, on the land for instance, until the construction facility takes over. The status of the permission therefore determines which phase can be financed, and with whom.",
+    },
+    {
+      question: "How is the construction financed?",
+      answer:
+        "Most often in tranches, in step with progress on site. The lender releases funds against the contractors' applications for payment, certified by the lead consultant or an independent monitor, once the equity has been committed. This mechanism requires close monitoring and cash resources able to absorb the gap between expenditure and drawdowns. The budget and timetable presented at the outset serve as the reference throughout the works.",
+    },
+    {
+      question: "What happens if the timetable slips?",
+      answer:
+        "A delay extends the period during which the debt runs without income and may bring the loan's maturity closer to the exit date. It is better to inform the lender early, with a revised timetable and an updated budget. Depending on the case, the solution may be an extension, additional equity or a top-up facility. A timetable built with margins from the outset limits how often these situations arise.",
+    },
+  ],
   cta: {
     title: "A project to finance in stages?",
     body: "Describe the project to us, where it stands, its budget and the intended exit. We will give you a candid answer on the phase and the form of financing that seem feasible to us.",

@@ -9,6 +9,7 @@ import { ExpertisesIndexPage } from "@/components/pages/ExpertisesIndexPage";
 import { ApproachPage } from "@/components/pages/ApproachPage";
 import { ContactPage } from "@/components/pages/ContactPage";
 import { LegalPage } from "@/components/pages/LegalPage";
+import { GuidesIndexPage } from "@/components/pages/GuidesIndexPage";
 
 type Props = { params: Promise<{ locale: string; section: string }> };
 
@@ -31,6 +32,8 @@ function metaFor(locale: "fr" | "en", section: string) {
         ? dict.expertisesIndex.meta
         : key === "approach"
           ? dict.approach.meta
+          : key === "guides"
+            ? dict.guidesIndex.meta
           : key === "contact"
             ? dict.contact.meta
             : key === "legal"
@@ -67,6 +70,8 @@ export default async function SectionPage({ params }: Props) {
       return <ExpertisesIndexPage locale={locale} dict={dict} />;
     case "approach":
       return <ApproachPage locale={locale} dict={dict} />;
+    case "guides":
+      return <GuidesIndexPage locale={locale} dict={dict} />;
     case "contact":
       return <ContactPage locale={locale} dict={dict} />;
     case "legal":

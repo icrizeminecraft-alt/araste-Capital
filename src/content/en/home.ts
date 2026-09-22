@@ -91,6 +91,13 @@ export const home: HomeContent = {
       },
     ],
   },
+  guides: {
+    eyebrow: "Guides",
+    title: "Understand before you decide.",
+    body: "A few short guides to read a transaction the way a lender will: how a bridge works, the exit, preparing a file.",
+    all: "All guides",
+    featured: ["bridgeBasics", "exitStrategy", "preparingFile"],
+  },
   interlocutors: {
     eyebrow: "Who we work with",
     title: "Who we work for.",

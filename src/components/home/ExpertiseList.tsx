@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import type { PlateKind } from "@/config/images";
-import { ArchitecturalPlate } from "@/components/visuals/ArchitecturalPlate";
 import { ArrowLink } from "@/components/ui/ButtonLink";
 
 export type ExpertiseListItem = {
@@ -83,7 +82,8 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
                   active === i ? "opacity-100" : "opacity-0"
                 }`}
               >
-                <ArchitecturalPlate kind={item.plate} className="h-full w-full" />
+                {/* eslint-disable-next-line @next/next/no-img-element -- SVG statique */}
+                <img src={`/plates/${item.plate}.svg`} alt="" width={800} height={1000} loading="lazy" decoding="async" className="h-full w-full object-cover" />
               </div>
             ))}
             <div

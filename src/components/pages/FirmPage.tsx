@@ -22,7 +22,7 @@ export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary })
       />
 
       <section className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center lg:gap-8">
-        <Reveal className="grain relative aspect-[4/5] overflow-hidden bg-stone sm:aspect-[4/3] lg:col-span-6">
+        <Reveal className="reveal-media grain relative aspect-[4/5] overflow-hidden bg-stone sm:aspect-[4/3] lg:col-span-6">
           <Visual slot={visuals.firm} locale={locale} decorative sizes="(min-width: 64rem) 50vw, 100vw" />
         </Reveal>
         <div className="lg:col-span-5 lg:col-start-8">

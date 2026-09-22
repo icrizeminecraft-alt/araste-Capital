@@ -21,7 +21,7 @@ export function ApproachPage({ locale, dict }: { locale: Locale; dict: Dictionar
       />
 
       <div className="container-x mt-12 md:mt-16">
-        <Reveal className="grain relative aspect-[16/9] overflow-hidden bg-stone lg:aspect-[21/9]">
+        <Reveal className="reveal-media grain relative aspect-[16/9] overflow-hidden bg-stone lg:aspect-[21/9]">
           <Visual slot={visuals.approach} locale={locale} decorative sizes="100vw" />
         </Reveal>
       </div>

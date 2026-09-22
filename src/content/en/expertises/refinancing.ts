@@ -55,6 +55,28 @@ export const refinancing: ExpertiseContent = {
     },
   },
   related: ["bridge", "complex", "acquisition"],
+  faq: [
+    {
+      question: "When should we start thinking about a refinancing?",
+      answer:
+        "Well before maturity. A refinancing involves a review, the approach to lenders, a negotiation and the creation of new security, each with its own lead time. Starting from the maturity date and working back through these steps gives the moment when the thinking should begin. An earlier signal can also prompt it: covenants that no longer fit, an asset or strategy that has moved on, several loans to consolidate.",
+    },
+    {
+      question: "Can debt be refinanced before maturity?",
+      answer:
+        "In principle yes, on the terms set out in the agreement in place. It defines the prepayment arrangements, any indemnities and sometimes exit windows. These clauses determine the true cost and the most favourable moment for changing structure. A careful reading of them, with your advisers, comes before any approach to lenders. The existing lender can also be approached for an amendment.",
+    },
+    {
+      question: "What happens to the existing security in a refinancing?",
+      answer:
+        "It is generally released on repayment of the debt it secures, then replaced by the security granted to the new lender. Where the existing lender is retained, the security may be kept or amended by deed of variation. The timetable for release and for creating the new security is coordinated between the lenders, the notary and your advisers. This point deserves to be anticipated, as it sets the effective date of the change.",
+    },
+    {
+      question: "Does a refinancing cost anything?",
+      answer:
+        "Yes, and that cost needs to be measured before any decision. Exiting a financing may trigger prepayment costs, to be checked in the agreement in place. Added to these are the creation of new security, the new lender's fees and the fees of the parties involved. A better-suited structure may therefore carry an overall cost comparable to or higher than the existing debt. It is that complete comparison that grounds the decision.",
+    },
+  ],
   cta: {
     title: "Debt worth a second look?",
     body: "Tell us about the financing in place, its maturity and what has changed since it was arranged. We will tell you whether, in our view, a new structure is worth exploring.",

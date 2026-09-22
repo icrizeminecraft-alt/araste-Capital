@@ -55,6 +55,28 @@ export const complex: ExpertiseContent = {
     },
   },
   related: ["bridge", "privateDebt", "refinancing"],
+  faq: [
+    {
+      question: "Qu'est-ce qui rend un dossier « complexe » ?",
+      answer:
+        "La complexité tient rarement au montant. Elle vient d'une détention à plusieurs niveaux, d'une entité étrangère, d'un actif sans marché de référence, d'un calendrier plus court que celui d'une instruction ordinaire ou d'un historique qui demande des explications. Dans la plupart des cas, le besoin lui-même est simple ; c'est sa lecture par un prêteur qui exige un travail de présentation particulier.",
+    },
+    {
+      question: "Une détention à plusieurs niveaux est-elle un obstacle ?",
+      answer:
+        "Non, à condition de pouvoir l'expliquer. Une chaîne de holdings ou des participations croisées n'ont rien d'anormal, mais le prêteur doit comprendre qui détient quoi, où se trouve l'actif, où passent les flux et quelles garanties chaque niveau peut consentir. Un organigramme clair, jusqu'aux bénéficiaires effectifs, lève souvent l'essentiel des réticences. Ce qui inquiète un prêteur, c'est l'opacité, pas la structure elle-même.",
+    },
+    {
+      question: "Un refus bancaire ferme-t-il la porte à tout financement ?",
+      answer:
+        "Pas nécessairement, mais il ne préjuge pas non plus d'une issue favorable. Un refus s'explique parfois par le cadre d'analyse du prêteur consulté, qui ne correspondait pas à la structure ou à l'actif. Il peut aussi révéler une faiblesse réelle du dossier. La première étape consiste à comprendre les motifs du refus, à documenter les points soulevés, puis à orienter le dossier vers des prêteurs dont le cadre d'instruction correspond à l'opération.",
+    },
+    {
+      question: "Quels documents préparer pour un premier échange ?",
+      answer:
+        "Pour un premier échange, un schéma de détention et une description sommaire du besoin suffisent. Pour l'étude, il faudra réunir l'organigramme complet avec les juridictions concernées, la description de l'actif ou de l'opération, le montant recherché et son emploi, les dettes et garanties existantes, les comptes des entités emprunteuses, les éléments de valorisation disponibles et, le cas échéant, l'historique des démarches déjà engagées.",
+    },
+  ],
   cta: {
     title: "Une opération qui sort du cadre ?",
     body: "Décrivez-nous la structure, l'actif et le calendrier, même de manière sommaire. Nous vous indiquerons ce qui peut, selon nous, être étudié et ce qui ne le peut pas.",

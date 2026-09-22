@@ -91,6 +91,13 @@ export const home: HomeContent = {
       },
     ],
   },
+  guides: {
+    eyebrow: "Repères",
+    title: "Comprendre avant de décider.",
+    body: "Quelques guides courts pour lire une opération comme un prêteur la lira : le mécanisme d'un relais, la sortie, la préparation d'un dossier.",
+    all: "Tous les repères",
+    featured: ["bridgeBasics", "exitStrategy", "preparingFile"],
+  },
   interlocutors: {
     eyebrow: "Interlocuteurs",
     title: "À qui nous nous adressons.",

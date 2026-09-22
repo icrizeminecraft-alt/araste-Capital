@@ -5,6 +5,7 @@ import { ContactForm } from "@/components/contact/ContactForm";
 import { createFormToken } from "@/lib/contact/token";
 import { enabledExpertises, siteConfig, hasContactDetails } from "@/config/site";
 import { currentProvider } from "@/lib/contact/providers";
+import { Faq } from "@/components/ui/Faq";
 import { connection } from "next/server";
 
 export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dictionary }) {
@@ -72,6 +73,14 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
             </p>
           ) : null}
           <ContactForm locale={locale} t={t.form} token={token} financingOptions={financingOptions} />
+        </div>
+      </div>
+
+      <div className="border-t border-stone">
+        <div className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
+          <div className="lg:col-span-10 lg:col-start-2">
+            <Faq id="faq-contact" title={t.faq.title} lead={t.faq.lead} items={t.faq.items} />
+          </div>
         </div>
       </div>
     </>

@@ -53,6 +53,28 @@ export const bridge: ExpertiseContent = {
     },
   },
   related: ["complex", "refinancing", "development"],
+  faq: [
+    {
+      question: "What is bridge finance for?",
+      answer:
+        "A bridge covers the time between an immediate need and an expected resource: the proceeds of a sale, a refinancing in progress, a capital raise or an expected receipt. It makes it possible to secure an acquisition, meet a maturity or complete a step without waiting for the permanent resource to be available. It does not replace that resource; it brings its effect forward, for a limited period.",
+    },
+    {
+      question: "What is meant by the “exit” of a bridge?",
+      answer:
+        "The exit is the event that will allow the bridge to be repaid: the signing of a sale, the completion of a refinancing, the receipt of an expected sum. It is the first element a lender analyses, before the security and the borrower's position. An identified exit, realistically dated and documented, changes the reading of the file. A vague or distant exit makes the bridge hard to justify.",
+    },
+    {
+      question: "Is security required to obtain a bridge?",
+      answer:
+        "In most cases, a lender expects security consistent with the amount and term of the bridge: the assets involved in the transaction, other available assets, the ranking that can be envisaged, the value adopted. Its nature depends on the transaction and on the lender consulted. What matters is to check beforehand what is genuinely available, taking into account existing debt and charges already taken over the assets concerned.",
+    },
+    {
+      question: "Is a bridge feasible without a committed sale?",
+      answer:
+        "A signed sale is not the only possible exit. A refinancing under review, an advanced capital raise or a contractual receipt can also document the exit. On the other hand, a mere intention to sell, with no steps taken and no valuation elements, makes the file harder to present. The better supported the exit, the more open the conversation with a lender. Only a review of the file can measure this.",
+    },
+  ],
   cta: {
     title: "A transition to finance?",
     body: "Tell us about the transaction, its intended exit and its timetable. We will tell you plainly whether a bridge seems feasible to us.",

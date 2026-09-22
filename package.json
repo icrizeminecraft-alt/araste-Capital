@@ -11,7 +11,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "check": "npm run typecheck && npm run lint && npm run test"
+    "check": "npm run typecheck && npm run lint && npm run test",
+    "plates": "node --import tsx scripts/render-plates.mts"
   },
   "dependencies": {
     "next": "16.3.5",
@@ -28,7 +29,9 @@
     "@types/react-dom": "^19.3.0",
     "eslint": "^9.39.5",
     "eslint-config-next": "16.3.5",
+    "lighthouse": "^13.5.0",
     "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.0",
     "vitest": "^5.0.1"
   },

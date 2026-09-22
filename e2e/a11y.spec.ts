@@ -7,6 +7,8 @@ const pages = [
   "/fr/expertises",
   "/fr/expertises/financement-relais",
   "/fr/notre-approche",
+  "/fr/reperes",
+  "/fr/reperes/comprendre-le-financement-relais",
   "/fr/contact",
   "/fr/mentions-legales",
   "/fr/confidentialite",
@@ -28,6 +30,15 @@ test.describe("accessibilité (axe-core, WCAG 2.x A/AA)", () => {
       expect(violations, violations.join("\n")).toEqual([]);
     });
   }
+
+  test("la FAQ s'ouvre au clavier", async ({ page }) => {
+    await page.goto("/fr/contact");
+    const first = page.locator("details.faq-item").first();
+    await first.locator("summary").focus();
+    await page.keyboard.press("Enter");
+    await expect(first).toHaveAttribute("open", "");
+    await expect(first.locator("p")).toBeVisible();
+  });
 
   test("le lien d'évitement mène au contenu", async ({ page }) => {
     await page.goto("/fr");

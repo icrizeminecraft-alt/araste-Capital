@@ -55,6 +55,28 @@ export const refinancing: ExpertiseContent = {
     },
   },
   related: ["bridge", "complex", "acquisition"],
+  faq: [
+    {
+      question: "Quand faut-il commencer à réfléchir à un refinancement ?",
+      answer:
+        "Bien avant l'échéance. Un refinancement suppose une étude, la consultation de prêteurs, une négociation et la constitution de nouvelles garanties, chacune avec son délai. Partir de la date d'échéance et remonter ces étapes donne le moment où la réflexion doit s'ouvrir. Un signal plus précoce peut aussi la déclencher : covenants devenus inadaptés, actif ou stratégie ayant évolué, plusieurs dettes à consolider.",
+    },
+    {
+      question: "Peut-on refinancer une dette avant son échéance ?",
+      answer:
+        "En principe oui, dans les conditions prévues par le contrat en place. Celui-ci définit les modalités de remboursement anticipé, les éventuelles indemnités et parfois des fenêtres de sortie. Ces clauses déterminent le coût réel et le moment le plus favorable pour changer de structure. Leur lecture attentive, avec vos conseils, précède toute consultation de prêteurs. Le prêteur en place peut aussi être approché pour un aménagement.",
+    },
+    {
+      question: "Que devient la garantie existante lors d'un refinancement ?",
+      answer:
+        "Elle est en général levée au remboursement de la dette qu'elle garantit, puis remplacée par les sûretés consenties au nouveau prêteur. Lorsque le prêteur en place est conservé, la garantie peut être maintenue ou aménagée par avenant. Le calendrier de mainlevée et de constitution des nouvelles sûretés se coordonne entre les prêteurs, le notaire et vos conseils. Ce point mérite d'être anticipé, car il conditionne la date effective du changement.",
+    },
+    {
+      question: "Un refinancement coûte-t-il quelque chose ?",
+      answer:
+        "Oui, et ce coût doit être mesuré avant toute décision. Sortir d'un financement peut entraîner des frais de remboursement anticipé, à vérifier dans le contrat en place. S'y ajoutent la constitution des nouvelles garanties, les frais du nouveau prêteur et les honoraires des intervenants. Une structure plus adaptée peut donc présenter un coût global comparable ou supérieur à la dette existante. C'est cette comparaison complète qui fonde la décision.",
+    },
+  ],
   cta: {
     title: "Une dette à réexaminer ?",
     body: "Présentez-nous le financement en place, son échéance et ce qui a changé depuis sa signature. Nous vous dirons si une nouvelle structure nous paraît mériter d'être étudiée.",

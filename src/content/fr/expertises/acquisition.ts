@@ -55,6 +55,28 @@ export const acquisition: ExpertiseContent = {
     },
   },
   related: ["bridge", "refinancing", "development"],
+  faq: [
+    {
+      question: "Quels types d'actifs immobiliers étudiez-vous ?",
+      answer:
+        "Nous étudions le financement d'actifs détenus dans un cadre professionnel : immeubles résidentiels d'investissement, murs commerciaux loués ou occupés par votre activité, murs d'actifs hôteliers et portefeuilles cédés par un même vendeur, dans la limite du périmètre effectivement proposé. L'acquisition des titres d'une société immobilière entre également dans ce champ. Ce qui compte pour un prêteur est moins la catégorie de l'actif que ses revenus, son état et la structure qui l'acquiert.",
+    },
+    {
+      question: "Faut-il une société pour emprunter ?",
+      answer:
+        "Notre intervention porte sur les actifs détenus par une société, une holding ou un véhicule d'investissement. La forme de cette structure n'est pas indifférente : elle détermine les garanties envisageables, les engagements demandés aux associés et la lecture que le prêteur fera du dossier. Son choix, comme ses aspects juridiques et fiscaux, relève de vous et de vos conseils. Nous en tirons les conséquences pour la structuration du financement.",
+    },
+    {
+      question: "À quel moment consulter un conseil en financement ?",
+      answer:
+        "Le plus tôt possible, idéalement avant la signature de la promesse. C'est à ce stade que se décident le calendrier, les conditions suspensives et l'articulation entre apport et dette. Un conseil consulté tôt peut signaler ce qui mettra le financement en tension et préparer le dossier pendant que se négocient les autres volets de l'opération. Consulté tard, il ne peut que composer avec un calendrier déjà fixé.",
+    },
+    {
+      question: "Quelles pièces réunir pour un premier échange ?",
+      answer:
+        "Un premier échange peut se tenir sur la description de l'actif, le prix, la structure envisagée et le calendrier. L'état locatif et les éléments de valorisation disponibles sont utiles s'ils existent déjà. L'étude proprement dite demandera ensuite les comptes, l'origine de l'apport, la situation des associés et la stratégie de détention. Il n'est pas nécessaire que tout soit réuni pour nous présenter l'opération.",
+    },
+  ],
   cta: {
     title: "Une acquisition à financer ?",
     body: "Présentez-nous l'actif, la structure qui l'acquiert et le calendrier de l'opération. Nous vous dirons si elle entre dans ce que nous étudions et sur quelles bases nous pouvons l'instruire.",

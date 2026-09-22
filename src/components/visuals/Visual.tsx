@@ -6,6 +6,8 @@ import { ArchitecturalPlate } from "@/components/visuals/ArchitecturalPlate";
 /**
  * Rend un emplacement visuel du registre `config/images.ts` :
  * composition SVG originale ou photographie (une fois les droits vérifiés).
+ * Les compositions sont servies en fichiers statiques (public/plates) chargés
+ * à la demande ; seule l'ouverture (priority) est rendue inline pour le LCP.
  */
 export function Visual({
   slot,
@@ -38,7 +40,19 @@ export function Visual({
       />
     );
   }
+  if (priority) {
+    return <ArchitecturalPlate kind={slot.plate} title={decorative ? undefined : slot.alt[locale]} className={`h-full w-full ${className}`} />;
+  }
   return (
-    <ArchitecturalPlate kind={slot.plate} title={decorative ? undefined : slot.alt[locale]} className={`h-full w-full ${className}`} />
+    // eslint-disable-next-line @next/next/no-img-element -- SVG statique, aucune optimisation raster à appliquer.
+    <img
+      src={`/plates/${slot.plate}.svg`}
+      alt={decorative ? "" : slot.alt[locale]}
+      width={800}
+      height={1000}
+      loading="lazy"
+      decoding="async"
+      className={`h-full w-full object-cover ${className}`}
+    />
   );
 }

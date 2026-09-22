@@ -14,6 +14,7 @@ export function Header({ locale, t }: { locale: Locale; t: CommonContent }) {
     { label: t.nav.firm, href: pagePath(locale, "firm") },
     { label: t.nav.expertises, href: pagePath(locale, "expertises") },
     { label: t.nav.approach, href: pagePath(locale, "approach") },
+    { label: t.nav.guides, href: pagePath(locale, "guides") },
     { label: t.nav.contact, href: pagePath(locale, "contact") },
   ];
   const contactHref = pagePath(locale, "contact");

@@ -51,7 +51,7 @@ src/
     [locale]/                 layout racine (html lang, polices, en-tête, pied de page)
       page.tsx                accueil
       [section]/page.tsx      cabinet, expertises, approche, contact, mentions légales, confidentialité
-      [section]/[slug]/       pages d'expertise
+      [section]/[slug]/       pages d'expertise et repères (guides), aperçu de partage par page
       [...rest]/              404 localisée
       opengraph-image.tsx     aperçu de partage FR/EN généré à la construction
       error.tsx, not-found.tsx
@@ -63,13 +63,13 @@ src/
     home/                     sections de l'accueil
     pages/                    pages intérieures
     contact/ContactForm.tsx   formulaire en deux étapes
-    visuals/                  compositions SVG et emplacement visuel
+    visuals/                  compositions SVG (source) et emplacement visuel ; fichiers statiques dans public/plates
     seo/                      données structurées (faits confirmés seulement)
     ui/                       éléments réutilisables
   instrumentation.ts        avertissements de configuration au démarrage (production)
   content/
     types.ts                  structure des contenus
-    fr/, en/                  dictionnaires (une page par fichier, une expertise par fichier)
+    fr/, en/                  dictionnaires (une page par fichier, une expertise par fichier, un guide par fichier)
     index.ts                  chargement + typographie française automatique
   config/
     site.ts                   marque, champs à confirmer, activation des expertises, montants cibles
@@ -81,6 +81,7 @@ src/
   proxy.ts                    redirection vers la langue (/ → /fr ou /en)
 docs/                         images, contenus, liste avant publication
 scripts/render-icons.mjs      génération de l'icône Apple depuis le SVG
+scripts/render-plates.mts     génération des planches SVG statiques (npm run plates)
 tests/, e2e/                  tests unitaires et de bout en bout
 ```
 
@@ -90,7 +91,8 @@ tests/, e2e/                  tests unitaires et de bout en bout
 - Expertises : activer ou désactiver dans `src/config/site.ts` (`expertises`), ordre dans `expertiseOrder`. Une expertise désactivée disparaît de la navigation, des listes, du sitemap et renvoie une 404.
 - Montants cibles (5 M€ et plus) : `siteConfig.ticketSize.enabled`, désactivé par défaut tant qu'ils ne sont pas validés.
 - Coordonnées affichées (pied de page, contact, données structurées) : `siteConfig.toConfirm`. Vides par défaut, elles ne sont jamais inventées. Les informations légales (immatriculation, siège, statut, hébergeur, responsable du traitement, conservation) se renseignent directement dans `src/content/{fr,en}/legal.ts` et `privacy.ts`, dont les blocs « à compléter » disparaissent une fois les textes rédigés.
-- Visuels : `src/config/images.ts` et `docs/IMAGES.md`.
+- Repères (guides) : `src/content/{fr,en}/guides/<clé>.ts`, clés et slugs dans `src/config/routes.ts` (`guideKeys`, `guideSlugs`). Chaque expertise porte aussi ses questions fréquentes (`faq`), la page contact les siennes.
+- Visuels : `src/config/images.ts` et `docs/IMAGES.md`. Après modification d'une composition SVG, régénérer les fichiers statiques avec `npm run plates` (commités).
 - Slugs : `src/config/routes.ts` (le sélecteur de langue et le sitemap en dépendent).
 
 ## Formulaire de contact

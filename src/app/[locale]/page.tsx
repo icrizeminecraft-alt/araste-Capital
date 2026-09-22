@@ -12,6 +12,7 @@ import { BridgeFeature } from "@/components/home/BridgeFeature";
 import { ApproachSteps } from "@/components/home/ApproachSteps";
 import { Situations } from "@/components/home/Situations";
 import { Interlocutors } from "@/components/home/Interlocutors";
+import { HomeGuides } from "@/components/home/HomeGuides";
 import { ContactCta } from "@/components/home/ContactCta";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
@@ -71,6 +72,7 @@ export default async function HomePage({ params }: Props) {
       <ApproachSteps locale={l} t={t.approach} />
       <Situations locale={l} t={t.situations} dict={dict} />
       <Interlocutors t={t.interlocutors} />
+      <HomeGuides locale={l} t={t.guides} dict={dict} />
       <ContactCta locale={l} t={t.contact} />
     </>
   );

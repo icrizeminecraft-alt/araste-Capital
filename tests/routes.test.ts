@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { alternatePath, expertisePath, pagePath, resolvePath, alternatesFor } from "@/config/routes";
+import { alternatePath, expertisePath, guidePath, pagePath, resolvePath, alternatesFor } from "@/config/routes";
 
 describe("routes", () => {
   it("construit les chemins localisés", () => {
@@ -22,6 +22,13 @@ describe("routes", () => {
     expect(alternatePath("/fr/expertises/financement-relais", "en")).toBe("/en/expertise/bridge-finance");
     expect(alternatePath("/en/legal-notice", "fr")).toBe("/fr/mentions-legales");
     expect(alternatePath("/fr/inconnue", "en")).toBe("/en");
+  });
+
+  it("résout et alterne les repères", () => {
+    expect(guidePath("fr", "bridgeBasics")).toBe("/fr/reperes/comprendre-le-financement-relais");
+    expect(resolvePath("/en/guides/the-exit-key-to-a-bridge")).toEqual({ locale: "en", route: { kind: "guide", key: "exitStrategy" } });
+    expect(alternatePath("/fr/reperes/preparer-un-dossier-de-financement", "en")).toBe("/en/guides/preparing-a-financing-file");
+    expect(resolvePath("/fr/reperes/inconnu")?.route.kind).toBe("unknown");
   });
 
   it("fournit toutes les alternatives", () => {
