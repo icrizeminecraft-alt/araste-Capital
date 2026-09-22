@@ -140,7 +140,8 @@ La limitation de débit et l'idempotence sont en mémoire par processus : sur un
 
 - `npm run typecheck`, `npm run lint`, `npm run test` (typographie, routes, schéma et protections du formulaire, contraintes éditoriales FR/EN) et `npm run build` : passés.
 - Tests de bout en bout Playwright (Chromium) à 1440, 768 et 390 px : navigation et liens internes, 404 localisée, sélecteur de langue, menu mobile au clavier, parcours complet du formulaire en mode démonstration, réponses de l'API (jeton, pot de miel, taille, origine, méthode), axe-core WCAG 2.x A/AA, texte à 200 %, `prefers-reduced-motion`.
-- Relecture adversariale par agents indépendants (contenus FR et EN, sécurité, accessibilité, code, design) et inspection visuelle des captures d'écran aux trois largeurs.
+- Relecture adversariale par agents indépendants (contenus FR et EN, sécurité, accessibilité, code, design, repères) et inspection visuelle des captures d'écran aux trois largeurs.
+- Lighthouse (Chromium headless, réseau mobile simulé, build de production locale) : desktop 100 / 100 / 100 en performance, accessibilité et bonnes pratiques ; mobile 92 à 97 en performance selon la page, 100 en accessibilité. Le score SEO (63 à 66) reflète uniquement le `noindex` volontaire de préproduction. Les planches SVG servies en fichiers ont ramené le blocage du fil principal de l'accueil mobile de 460 ms à 70 ms. Ces mesures dépendent de la machine et du réseau simulé : à refaire sur l'hébergement réel.
 
 Non vérifié : Firefox et Safari réels, Lighthouse (aucun score n'est avancé), lecteurs d'écran réels, envoi avec un fournisseur configuré.
 

@@ -4,7 +4,7 @@ export const acquisition: ExpertiseContent = {
   meta: {
     title: "Investment and commercial property acquisition",
     description:
-      "Sourcing and structuring, for the borrower, the financing of a property asset held through a company or investment vehicle, within the scope of the services we offer.",
+      "Sourcing and structuring, for the borrower, the financing of a property asset held through a company or investment vehicle: acquisition, investment, portfolios.",
   },
   title: "Investment and commercial property acquisition",
   shortTitle: "Investment property acquisition",
@@ -19,7 +19,7 @@ export const acquisition: ExpertiseContent = {
       items: [
         "Acquiring a residential building intended for letting, held through a dedicated company or a holding company.",
         "Financing commercial premises, whether let to third parties or occupied by your own business.",
-        "Acquiring the premises of a hotel through a dedicated company, within the scope of the services we offer.",
+        "Acquiring the premises of a hotel through a dedicated company.",
         "Acquiring in a single transaction a portfolio of assets sold by the same vendor.",
         "Financing the purchase of shares in a property company rather than of the asset itself.",
         "Combining the acquisition with a programme of works before the asset is let or re-let.",

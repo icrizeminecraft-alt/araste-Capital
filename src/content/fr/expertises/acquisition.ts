@@ -4,7 +4,7 @@ export const acquisition: ExpertiseContent = {
   meta: {
     title: "Acquisition et investissement immobilier en société",
     description:
-      "Recherche et structuration, côté emprunteur, du financement d'un actif immobilier détenu dans un cadre professionnel, dans la limite de notre périmètre d'intervention.",
+      "Recherche et structuration, côté emprunteur, du financement d'un actif immobilier détenu en société : acquisition, investissement, portefeuilles.",
   },
   title: "Acquisition et investissement immobilier en société",
   shortTitle: "Acquisition immobilière",
@@ -19,7 +19,7 @@ export const acquisition: ExpertiseContent = {
       items: [
         "Acquérir un immeuble résidentiel destiné à la location, détenu par une société dédiée ou une holding.",
         "Financer les murs d'un actif commercial, qu'il soit loué à des tiers ou occupé par votre propre activité.",
-        "Acquérir les murs d'un actif hôtelier au travers d'une société dédiée, dans la limite de notre périmètre d'intervention.",
+        "Acquérir les murs d'un actif hôtelier au travers d'une société dédiée.",
         "Acquérir en une seule opération un portefeuille d'actifs cédé par un même vendeur.",
         "Financer l'achat des titres d'une société immobilière plutôt que de l'actif lui-même.",
         "Combiner l'acquisition et un programme de travaux avant la mise en location ou la relocation de l'actif.",
