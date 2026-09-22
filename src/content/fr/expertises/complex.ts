@@ -59,12 +59,12 @@ export const complex: ExpertiseContent = {
     {
       question: "Qu'est-ce qui rend un dossier « complexe » ?",
       answer:
-        "La complexité tient rarement au montant. Elle vient d'une détention à plusieurs niveaux, d'une entité étrangère, d'un actif sans marché de référence, d'un calendrier plus court que celui d'une instruction ordinaire ou d'un historique qui demande des explications. Dans la plupart des cas, le besoin lui-même est simple ; c'est sa lecture par un prêteur qui exige un travail de présentation particulier.",
+        "La complexité tient rarement au montant. Elle vient d'une détention à plusieurs niveaux, d'une entité étrangère ou d'un actif sans marché de référence. Elle peut aussi tenir à un calendrier plus court que celui d'une instruction ordinaire, ou à un historique qui demande des explications. Dans la plupart des cas, le besoin lui-même est simple ; c'est sa lecture par un prêteur qui exige un travail de présentation particulier.",
     },
     {
       question: "Une détention à plusieurs niveaux est-elle un obstacle ?",
       answer:
-        "Non, à condition de pouvoir l'expliquer. Une chaîne de holdings ou des participations croisées n'ont rien d'anormal, mais le prêteur doit comprendre qui détient quoi, où se trouve l'actif, où passent les flux et quelles garanties chaque niveau peut consentir. Un organigramme clair, jusqu'aux bénéficiaires effectifs, lève souvent l'essentiel des réticences. Ce qui inquiète un prêteur, c'est l'opacité, pas la structure elle-même.",
+        "Non, à condition de pouvoir l'expliquer. Une chaîne de holdings ou des participations croisées n'ont rien d'anormal. Le prêteur doit cependant comprendre qui détient quoi, où se trouve l'actif, où passent les flux et quelles garanties chaque niveau peut consentir. Un organigramme clair, jusqu'aux bénéficiaires effectifs, lève souvent l'essentiel des réticences. Ce qui inquiète un prêteur, c'est l'opacité, pas la structure elle-même.",
     },
     {
       question: "Un refus bancaire ferme-t-il la porte à tout financement ?",
@@ -74,7 +74,7 @@ export const complex: ExpertiseContent = {
     {
       question: "Quels documents préparer pour un premier échange ?",
       answer:
-        "Pour un premier échange, un schéma de détention et une description sommaire du besoin suffisent. Pour l'étude, il faudra réunir l'organigramme complet avec les juridictions concernées, la description de l'actif ou de l'opération, le montant recherché et son emploi, les dettes et garanties existantes, les comptes des entités emprunteuses, les éléments de valorisation disponibles et, le cas échéant, l'historique des démarches déjà engagées.",
+        "Pour un premier échange, un schéma de détention et une description sommaire du besoin suffisent. Pour l'étude, il faudra réunir l'organigramme complet avec les juridictions concernées, la description de l'actif ou de l'opération, le montant recherché et son emploi. S'y ajoutent les dettes et garanties existantes, les comptes des entités emprunteuses, les éléments de valorisation disponibles et, le cas échéant, l'historique des démarches déjà engagées.",
     },
   ],
   cta: {

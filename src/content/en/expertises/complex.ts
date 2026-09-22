@@ -57,14 +57,14 @@ export const complex: ExpertiseContent = {
   related: ["bridge", "privateDebt", "refinancing"],
   faq: [
     {
-      question: "What makes a case 'complex'?",
+      question: "What makes a file “complex”?",
       answer:
-        "Complexity rarely lies in the amount. It comes from multi-tier ownership, a foreign entity, an asset with no reference market, a timetable shorter than an ordinary credit process allows, or a history that needs explaining. In most cases the need itself is simple; what requires particular work is presenting it in a way a lender can assess.",
+        "Complexity rarely lies in the amount. It comes from multi-tier ownership, a foreign entity or an asset with no reference market. It may also stem from a timetable shorter than an ordinary credit process allows, or from a history that needs explaining. In most cases the need itself is simple; what requires particular work is presenting it in a way a lender can assess.",
     },
     {
       question: "Is multi-tier ownership an obstacle?",
       answer:
-        "No, provided it can be explained. A chain of holding companies or cross-holdings is nothing unusual, but the lender must understand who owns what, where the asset sits, where the cash flows pass and what security each level can grant. A clear ownership chart, down to the beneficial owners, often removes most of the hesitation. What worries a lender is opacity, not the structure itself.",
+        "No, provided it can be explained. A chain of holding companies or cross-holdings is nothing unusual. The lender must, however, understand who owns what, where the asset sits, where the cash flows pass and what security each level can grant. A clear ownership chart, down to the beneficial owners, often removes most of the reservations. What worries a lender is opacity, not the structure itself.",
     },
     {
       question: "Does a bank's refusal close the door to any financing?",
@@ -74,7 +74,7 @@ export const complex: ExpertiseContent = {
     {
       question: "What documents should we prepare for a first conversation?",
       answer:
-        "For a first conversation, an ownership diagram and an outline of the need are enough. For the review, you will need the full ownership chart with the jurisdictions concerned, a description of the asset or transaction, the amount sought and its use, existing debt and security, the accounts of the borrowing entities, any available valuation material and, where relevant, the history of steps already taken.",
+        "For a first conversation, an ownership diagram and an outline of the need are enough. For the review, you will need the full ownership chart with the jurisdictions concerned, a description of the asset or transaction, the amount sought and its use. To these are added existing debt and security, the accounts of the borrowing entities, any available valuation material and, where relevant, the history of steps already taken.",
     },
   ],
   cta: {

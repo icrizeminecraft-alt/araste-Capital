@@ -57,7 +57,7 @@ export const refinancing: ExpertiseContent = {
   related: ["bridge", "complex", "acquisition"],
   faq: [
     {
-      question: "When should we start thinking about a refinancing?",
+      question: "When should I start thinking about a refinancing?",
       answer:
         "Well before maturity. A refinancing involves a review, the approach to lenders, a negotiation and the creation of new security, each with its own lead time. Starting from the maturity date and working back through these steps gives the moment when the thinking should begin. An earlier signal can also prompt it: covenants that no longer fit, an asset or strategy that has moved on, several loans to consolidate.",
     },
@@ -69,7 +69,7 @@ export const refinancing: ExpertiseContent = {
     {
       question: "What happens to the existing security in a refinancing?",
       answer:
-        "It is generally released on repayment of the debt it secures, then replaced by the security granted to the new lender. Where the existing lender is retained, the security may be kept or amended by deed of variation. The timetable for release and for creating the new security is coordinated between the lenders, the notary and your advisers. This point deserves to be anticipated, as it sets the effective date of the change.",
+        "It is generally released on repayment of the debt it secures, then replaced by the security granted to the new lender. Where the existing lender is retained, the security may be kept or amended by agreement with that lender. The timetable for release and for creating the new security is coordinated between the lenders, the notary and your advisers. This point deserves to be anticipated, as it sets the effective date of the change.",
     },
     {
       question: "Does a refinancing cost anything?",

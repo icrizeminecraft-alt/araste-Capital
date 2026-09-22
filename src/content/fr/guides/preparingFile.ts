@@ -10,7 +10,7 @@ export const preparingFile: GuideContent = {
   eyebrow: "Méthode",
   summary:
     "Un prêteur décide sur ce qu'il lit. Ce repère décrit les pièces d'un dossier de financement, l'ordre dans lequel un analyste les parcourt et les erreurs qui pèsent sur sa réponse.",
-  lead: "Pourquoi deux opérations comparables reçoivent-elles des réponses différentes ? Souvent parce que l'une a été présentée de manière lisible et l'autre non. Ce repère expose ce qu'un dossier de financement doit contenir, comment l'ordonner et comment traiter les points sensibles, afin que le prêteur puisse instruire sur des bases claires.",
+  lead: "Pourquoi deux opérations comparables reçoivent-elles des réponses différentes ? Souvent parce que l'une a été présentée de manière lisible et l'autre non. Ce repère expose ce qu'un dossier de financement doit contenir, comment l'ordonner et comment traiter les points sensibles. Le prêteur pourra ainsi instruire sur des bases claires.",
   sections: [
     {
       title: "Ce que le dossier dit de l'opération",
@@ -35,7 +35,7 @@ export const preparingFile: GuideContent = {
     {
       title: "L'ordre de lecture d'un analyste",
       paragraphs: [
-        "Un analyste lit rarement un dossier de la première à la dernière page. Il commence par la synthèse pour situer l'opération et vérifier qu'elle entre dans la politique de son établissement. Il regarde ensuite la sortie et les garanties : comment sera-t-il remboursé, et sur quoi peut-il compter si le scénario prévu ne se réalise pas. Viennent alors les chiffres, qu'il confronte aux hypothèses annoncées, puis la structure et les pièces justificatives. Le dossier gagne à suivre cet ordre plutôt que la chronologie du projet.",
+        "Un analyste lit rarement un dossier de la première à la dernière page. Il commence par la synthèse pour situer l'opération et vérifier qu'elle entre dans la politique de son établissement. Il regarde ensuite la sortie et les garanties : comment il sera remboursé, et sur quoi il pourra compter si le scénario prévu ne se réalise pas. Viennent alors les chiffres, qu'il confronte aux hypothèses annoncées, puis la structure et les pièces justificatives. Le dossier gagne à suivre cet ordre plutôt que la chronologie du projet.",
         "Cet ordre n'est pas une règle absolue ; il varie selon le prêteur, la nature de l'opération et le mode de décision interne. Il rappelle néanmoins une chose : les questions décisives doivent trouver réponse dès les premières pages, sans que l'analyste ait à les reconstituer. Ce qui relève du détail ou de la preuve vient ensuite, en annexe, référencé depuis le corps du dossier.",
       ],
     },
@@ -43,7 +43,7 @@ export const preparingFile: GuideContent = {
       title: "Présenter les points sensibles",
       paragraphs: [
         "Toute opération comporte des points sensibles : un bail qui arrive à échéance, un exercice déficitaire, une garantie déjà grevée, un calendrier serré. La tentation est de les laisser à l'arrière-plan. C'est une erreur : l'analyste les découvrira, souvent au moment où il vérifie les pièces, et il se demandera alors ce qu'on ne lui a pas dit. Un point sensible identifié, expliqué et accompagné d'une réponse renforce le dossier. Le même point découvert par le prêteur l'affaiblit, quelle que soit sa gravité réelle.",
-        "Présenter un point sensible consiste à le nommer, à mesurer son effet sur l'opération et à indiquer ce qui est prévu pour y répondre : une garantie complémentaire, une réserve, un scénario de repli, une condition suspensive. Cette manière de faire montre que l'emprunteur connaît son opération et a déjà travaillé ses fragilités. C'est souvent ce que le prêteur retient le mieux d'un dossier, et ce qui le distingue des autres.",
+        "Présenter un point sensible consiste à le nommer, à mesurer son effet sur l'opération et à indiquer ce qui est prévu pour y répondre. Ce peut être une garantie complémentaire, une réserve, un scénario de repli ou une condition suspensive. Cette manière de faire montre que l'emprunteur connaît son opération et a déjà travaillé ses fragilités. C'est souvent ce que le prêteur retient le mieux d'un dossier, et ce qui le distingue des autres.",
       ],
     },
     {

@@ -64,7 +64,7 @@ export const development: ExpertiseContent = {
     {
       question: "Does the planning permission need to be beyond challenge?",
       answer:
-        "Not always, but it changes how the transaction is read. As long as a challenge remains possible, the lender is financing an uncertainty: the funding available is scarcer and more expensive. Some lenders are willing to step in before the challenge period has expired, on the land for instance, until the construction facility takes over. The status of the permission therefore determines which phase can be financed, and with whom.",
+        "Not always, but it changes how the transaction is read. As long as a challenge remains possible, the lender is financing an uncertainty: the funding available is scarcer and more expensive. Some lenders are willing to step in before the challenge period has expired, on the land for instance, before the construction facility takes over. The status of the permission therefore determines which phase can be financed, and with whom.",
     },
     {
       question: "How is the construction financed?",

@@ -64,7 +64,7 @@ export const development: ExpertiseContent = {
     {
       question: "Faut-il un permis purgé de tout recours ?",
       answer:
-        "Ce n'est pas toujours indispensable, mais cela change la lecture de l'opération. Tant que des recours restent possibles, le prêteur finance une incertitude : la ressource disponible est plus rare et plus coûteuse. Certains financeurs acceptent d'intervenir avant la purge, sur le foncier par exemple, en attendant que le financement de construction prenne le relais. Le statut du permis conditionne donc la phase que l'on peut financer, et avec qui.",
+        "Ce n'est pas toujours indispensable, mais cela change la lecture de l'opération. Tant que des recours restent possibles, le prêteur finance une incertitude : la ressource disponible est plus rare et plus coûteuse. Certains prêteurs acceptent d'intervenir avant la purge, sur le foncier par exemple, avant que le financement de construction ne prenne la suite. Le statut du permis conditionne donc la phase que l'on peut financer, et avec qui.",
     },
     {
       question: "Comment la construction est-elle financée ?",

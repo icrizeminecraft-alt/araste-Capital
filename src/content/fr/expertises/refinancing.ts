@@ -59,7 +59,7 @@ export const refinancing: ExpertiseContent = {
     {
       question: "Quand faut-il commencer à réfléchir à un refinancement ?",
       answer:
-        "Bien avant l'échéance. Un refinancement suppose une étude, la consultation de prêteurs, une négociation et la constitution de nouvelles garanties, chacune avec son délai. Partir de la date d'échéance et remonter ces étapes donne le moment où la réflexion doit s'ouvrir. Un signal plus précoce peut aussi la déclencher : covenants devenus inadaptés, actif ou stratégie ayant évolué, plusieurs dettes à consolider.",
+        "Bien avant l'échéance. Un refinancement suppose une étude, la consultation de prêteurs, une négociation et la constitution de nouvelles garanties, chacune avec son délai. Partir de la date d'échéance et remonter ces étapes donne le moment où la réflexion doit s'ouvrir. Un signal plus précoce peut aussi la déclencher : engagements financiers devenus inadaptés, actif ou stratégie ayant évolué, plusieurs dettes à consolider.",
     },
     {
       question: "Peut-on refinancer une dette avant son échéance ?",

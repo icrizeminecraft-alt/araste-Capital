@@ -15,7 +15,7 @@ export const acquisition: ExpertiseContent = {
   sections: {
     needs: {
       title: "The acquisitions we review",
-      intro: "Within the scope of services we actually offer, the acquisition concerns a residential investment, commercial or hotel asset, or a portfolio of assets, always held through a company or an investment vehicle.",
+      intro: "Within the scope of the services we offer, the acquisition concerns a residential investment, commercial or hotel asset, or a portfolio of assets. It is always held through a company or an investment vehicle.",
       items: [
         "Acquiring a residential building intended for letting, held through a dedicated company or a holding company.",
         "Financing commercial premises, whether let to third parties or occupied by your own business.",
@@ -59,12 +59,12 @@ export const acquisition: ExpertiseContent = {
     {
       question: "Which types of property asset do you review?",
       answer:
-        "We review the financing of assets held through a company or an investment vehicle: residential investment buildings, commercial premises let to third parties or occupied by your own business, hotel premises and portfolios sold by a single vendor, within the scope we actually offer. The purchase of shares in a property company also falls within this field. What matters to a lender is less the category of the asset than its income, its condition and the structure acquiring it.",
+        "We review the financing of assets held through a company or an investment vehicle, within the scope of the services we offer. These include residential investment buildings, commercial premises let to third parties or occupied by your own business, hotel premises and portfolios sold by a single vendor. The purchase of shares in a property company also falls within this field. What matters to a lender is less the category of the asset than its income, its condition and the structure acquiring it.",
     },
     {
       question: "Do I need a company to borrow?",
       answer:
-        "Our role concerns assets held through a company, a holding company or an investment vehicle. The form of that structure is not a neutral choice: it determines the security available, the undertakings asked of the shareholders and how the lender will read the file. Choosing it, together with its legal and tax aspects, is a matter for you and your advisers. We draw the consequences for the structuring of the financing.",
+        "Our role concerns assets held through a company, a holding company or an investment vehicle. The form of that structure is not a neutral choice: it determines the security available, the undertakings asked of the shareholders and how the lender will read the file. Choosing it, together with its legal and tax aspects, is a matter for you and your advisers. We then take it into account when structuring the financing.",
     },
     {
       question: "When should I consult a financing adviser?",

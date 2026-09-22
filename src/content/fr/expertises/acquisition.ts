@@ -15,7 +15,7 @@ export const acquisition: ExpertiseContent = {
   sections: {
     needs: {
       title: "Les acquisitions que nous étudions",
-      intro: "Sous réserve du périmètre effectivement proposé, l'acquisition porte sur un actif résidentiel d'investissement, commercial ou hôtelier, ou sur un portefeuille d'actifs, toujours détenu dans un cadre professionnel.",
+      intro: "Dans la limite de notre périmètre d'intervention, l'acquisition porte sur un actif résidentiel d'investissement, commercial ou hôtelier, ou sur un portefeuille d'actifs, toujours détenu dans un cadre professionnel.",
       items: [
         "Acquérir un immeuble résidentiel destiné à la location, détenu par une société dédiée ou une holding.",
         "Financer les murs d'un actif commercial, qu'il soit loué à des tiers ou occupé par votre propre activité.",
@@ -59,7 +59,7 @@ export const acquisition: ExpertiseContent = {
     {
       question: "Quels types d'actifs immobiliers étudiez-vous ?",
       answer:
-        "Nous étudions le financement d'actifs détenus dans un cadre professionnel : immeubles résidentiels d'investissement, murs commerciaux loués ou occupés par votre activité, murs d'actifs hôteliers et portefeuilles cédés par un même vendeur, dans la limite du périmètre effectivement proposé. L'acquisition des titres d'une société immobilière entre également dans ce champ. Ce qui compte pour un prêteur est moins la catégorie de l'actif que ses revenus, son état et la structure qui l'acquiert.",
+        "Nous étudions le financement d'actifs détenus dans un cadre professionnel, dans la limite de notre périmètre d'intervention. Il peut s'agir d'immeubles résidentiels d'investissement, de murs commerciaux loués ou occupés par votre activité, de murs d'actifs hôteliers ou de portefeuilles cédés par un même vendeur. L'acquisition des titres d'une société immobilière entre également dans ce champ. Ce qui compte pour un prêteur est moins la catégorie de l'actif que ses revenus, son état et la structure qui l'acquiert.",
     },
     {
       question: "Faut-il une société pour emprunter ?",

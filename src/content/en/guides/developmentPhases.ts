@@ -28,7 +28,7 @@ export const developmentPhases: GuideContent = {
     {
       title: "The overall budget and contingencies",
       paragraphs: [
-        "A lender does not finance a construction cost but a complete transaction. The budget must therefore bring together the price of the land or the building, the works, design and supervision fees, taxes, financing costs and sales costs. It must also include a contingency, because a building site almost always meets the unexpected. A budget presented without one worries more than it reassures: it suggests that the sponsor will discover the overruns along the way, at the point where they are hardest to finance.",
+        "The budget presented to a lender covers the whole transaction, from the land to the exit, and not only the cost of the works. It brings together the price of the land or the building, the works, professional fees, taxes, financing costs and sales costs. It must also include a contingency, because a building site almost always meets the unexpected. A budget presented without one worries more than it reassures. It suggests that the project sponsor will discover the overruns along the way, at the point where they are hardest to finance.",
         "Financing costs deserve particular attention. They depend on the timetable: every month of delay extends the period during which the debt runs without the asset producing any income. A realistic timetable, phase by phase, is therefore a component of the budget in its own right. It makes it possible to check that the planned margin withstands a later completion or slower sales than hoped.",
       ],
     },
@@ -63,10 +63,10 @@ export const developmentPhases: GuideContent = {
         "Some mistakes recur. Seeking financing too early, before the land is under control or the planning application has been lodged, leads to indications of interest without commitment. Presenting a budget without a contingency, or a timetable without any margin, weakens the credibility of the file. Relying on a single exit, with no fallback, exposes the transaction to a market downturn. Finally, overlooking the period after practical completion, during which the debt is still running, is a frequent source of strain. An adviser can help you spot these points before a lender raises them.",
       ],
       items: [
-        "Requesting financing before securing the land or lodging the planning application.",
-        "Underestimating the financing costs caused by a delay on site or in sales.",
-        "Presenting equity whose origin or availability is not documented.",
-        "Planning for a single exit, without a costed fallback route.",
+        "Does your timetable state, phase by phase, when each source of funding must be available?",
+        "Does your budget cost a later completion or slower sales than planned?",
+        "Can you evidence the origin and availability of the equity to be committed first?",
+        "Have you costed the fallback route if the chosen exit does not materialise?",
       ],
     },
   ],

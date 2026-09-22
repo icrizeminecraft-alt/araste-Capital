@@ -59,22 +59,22 @@ export const privateDebt: ExpertiseContent = {
     {
       question: "What is a specialist lender?",
       answer:
-        "A debt fund, a private lender or an institutional platform that finances transactions according to its own criteria, outside the standard bank grid. These lenders act in senior ranking, in subordinated ranking or alongside existing debt. Each has a precise remit: asset types, geographies, structures, situations. Their analysis focuses above all on the exit and the security.",
+        "A debt fund, a private lender or an institutional platform that finances transactions according to its own criteria, outside standard bank criteria. These lenders lend on a senior or subordinated basis, or alongside existing debt. Each has a precise remit: asset types, geographies, structures, situations. Their analysis focuses above all on the exit and the security.",
     },
     {
       question: "Is private debt reserved for files that banks have declined?",
       answer:
-        "No. A bank's refusal is neither necessary nor sufficient. This segment is justified by a feature of the transaction: a tight timetable, a particular ownership structure, an asset in transition or an additional tranche to be found. Many borrowers use it while a bank finances most of their activity elsewhere. Conversely, a file declined on substantive grounds will not find a taker here any more readily.",
+        "No. A bank's refusal is neither necessary nor sufficient. This segment is justified by a feature of the transaction: a tight timetable, a particular ownership structure, an asset in transition or an additional tranche to be found. Many borrowers use it while a bank finances most of their activity elsewhere. Conversely, a file declined on substantive grounds will rarely find a taker here.",
     },
     {
       question: "What documentation should you expect?",
       answer:
-        "A complete file from the first presentation: description of the transaction and the borrowing structure, cash-flow forecast with its assumptions, security available and existing debt, exit scenario and fallback options, recent accounts. The contractual documentation is then more detailed than a bank agreement: financial covenants, information undertakings, events of default. It is a matter for your legal advisers, whom we support during the negotiation.",
+        "A complete file from the first presentation: description of the transaction and the borrowing structure, cash-flow forecast with its assumptions. Added to this are the security available and existing debt, the exit scenario with its fallback options, and recent accounts. The contractual documentation is then more detailed than a bank agreement: financial covenants, information undertakings, events of default. It is a matter for your legal advisers, whom we support during the negotiation.",
     },
     {
       question: "Can bank debt and private debt be combined?",
       answer:
-        "Yes, it is a common configuration: a bank finances the main portion and a specialist lender provides an additional tranche, often subordinated. This combination requires both lenders to agree to coexist, an agreement to settle the order of security and repayments, and the transaction's cash flows to support the whole. It is prepared from the outset, not once the bank debt has been signed.",
+        "Yes: it is a common configuration. A bank finances the main portion and a specialist lender provides an additional tranche, often subordinated. This combination requires both lenders to agree to coexist, an agreement to settle the order of security and repayments, and the transaction's cash flows to support the whole. It is prepared from the outset, not once the bank debt has been signed.",
     },
   ],
   cta: {

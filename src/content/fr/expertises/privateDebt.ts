@@ -64,17 +64,17 @@ export const privateDebt: ExpertiseContent = {
     {
       question: "La dette privée est-elle réservée aux dossiers refusés par les banques ?",
       answer:
-        "Non. Le refus d'une banque n'est ni nécessaire ni suffisant. Ce segment se justifie par une caractéristique de l'opération : un calendrier serré, une structure de détention particulière, un actif en transition ou une tranche complémentaire à trouver. Beaucoup d'emprunteurs y recourent alors qu'une banque finance par ailleurs l'essentiel de leur activité. À l'inverse, un dossier refusé pour des raisons de fond ne trouvera pas davantage preneur ici.",
+        "Non. Le refus d'une banque n'est ni nécessaire ni suffisant. Ce segment se justifie par une caractéristique de l'opération : un calendrier serré, une structure de détention particulière, un actif en transition ou une tranche complémentaire à trouver. Beaucoup d'emprunteurs y recourent alors qu'une banque finance par ailleurs l'essentiel de leur activité. À l'inverse, un dossier refusé pour des raisons de fond trouvera rarement preneur ici.",
     },
     {
       question: "Quelle documentation faut-il prévoir ?",
       answer:
-        "Un dossier complet dès la première présentation : description de l'opération et de la structure emprunteuse, plan de trésorerie avec ses hypothèses, garanties mobilisables et dettes existantes, scénario de sortie et solutions de repli, comptes récents. La documentation contractuelle est ensuite plus détaillée qu'un contrat bancaire : engagements financiers, obligations d'information, cas de défaut. Elle relève de vos conseils juridiques, que nous accompagnons pendant la négociation.",
+        "Un dossier complet dès la première présentation : description de l'opération et de la structure emprunteuse, plan de trésorerie avec ses hypothèses. S'y ajoutent les garanties mobilisables et les dettes existantes, le scénario de sortie avec ses solutions de repli, et les comptes récents. La documentation contractuelle est ensuite plus détaillée qu'un contrat bancaire : engagements financiers, obligations d'information, cas de défaut. Elle relève de vos conseils juridiques, que nous accompagnons pendant la négociation.",
     },
     {
       question: "Peut-on combiner dette bancaire et dette privée ?",
       answer:
-        "Oui, c'est une configuration fréquente : une banque finance la part principale et un prêteur spécialisé apporte une tranche complémentaire, souvent en rang subordonné. Cette combinaison suppose que les deux prêteurs acceptent de coexister, qu'un accord règle l'ordre des garanties et des remboursements, et que les flux de l'opération supportent l'ensemble. Elle se prépare dès le départ, pas une fois la dette bancaire signée.",
+        "Oui : c'est une configuration fréquente. Une banque finance la part principale et un prêteur spécialisé apporte une tranche complémentaire, souvent en rang subordonné. Cette combinaison suppose que les deux prêteurs acceptent de coexister, qu'un accord règle l'ordre des garanties et des remboursements, et que les flux de l'opération supportent l'ensemble. Elle se prépare dès le départ, pas une fois la dette bancaire signée.",
     },
   ],
   cta: {

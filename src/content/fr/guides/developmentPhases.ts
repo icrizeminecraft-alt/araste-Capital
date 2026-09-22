@@ -9,8 +9,8 @@ export const developmentPhases: GuideContent = {
   title: "Financer un projet immobilier par étapes",
   eyebrow: "Calendrier",
   summary:
-    "Maîtrise du foncier, autorisations, travaux, livraison, puis vente ou mise en location : chaque phase d'un projet immobilier appelle un financement différent. Ce guide explique comment un prêteur lit un calendrier, un budget et une sortie.",
-  lead: "Comment un projet immobilier se finance-t-il, du terrain à la livraison ? Chaque phase modifie le risque de l'opération, et donc la ressource que l'on peut mobiliser. Ce guide décrit ce que chaque étape implique pour le financement, le rôle des fonds propres, les sorties envisageables et les points qu'un prêteur examine.",
+    "Maîtrise du foncier, autorisations, travaux, livraison, puis vente ou mise en location : chaque phase d'un projet immobilier appelle un financement différent. Ce repère explique comment un prêteur lit un calendrier, un budget et une sortie.",
+  lead: "Comment un projet immobilier se finance-t-il, du terrain à la livraison ? Chaque phase modifie le risque de l'opération, et donc la ressource que l'on peut mobiliser. Ce repère décrit ce que chaque étape implique pour le financement, le rôle des fonds propres, les sorties envisageables et les points qu'un prêteur examine.",
   sections: [
     {
       title: "Les phases d'un projet",
@@ -19,7 +19,7 @@ export const developmentPhases: GuideContent = {
       ],
       items: [
         "Maîtrise du foncier : promesse, acquisition ou apport d'un immeuble déjà détenu.",
-        "Autorisations : dépôt, obtention, puis purge des recours des tiers et du retrait administratif.",
+        "Autorisations : dépôt, obtention, puis purge des délais de recours des tiers et de retrait administratif.",
         "Travaux : consultation des entreprises, démarrage, avancement et réception.",
         "Livraison : l'actif est achevé, mais la dette de construction reste à rembourser.",
         "Commercialisation ou mise en location : la sortie se réalise et le financement se dénoue.",
@@ -28,7 +28,7 @@ export const developmentPhases: GuideContent = {
     {
       title: "Le budget global et les aléas",
       paragraphs: [
-        "Un prêteur ne finance pas un coût de construction, mais une opération complète. Le budget doit donc rassembler le prix du foncier ou de l'immeuble, les travaux, les honoraires, les taxes, les frais financiers et les frais de commercialisation. Il doit aussi prévoir une provision pour aléas, car un chantier connaît presque toujours des imprévus. Un budget présenté sans cette provision inquiète plus qu'il ne rassure : il laisse penser que le porteur découvrira les dépassements en cours de route, au moment où ils sont les plus difficiles à financer.",
+        "Le budget présenté à un prêteur couvre l'opération entière, du foncier à la sortie, et pas seulement le coût des travaux. Il rassemble le prix du foncier ou de l'immeuble, les travaux, les honoraires, les taxes, les frais financiers et les frais de commercialisation. Il doit aussi prévoir une provision pour aléas, car un chantier connaît presque toujours des imprévus. Un budget présenté sans cette provision inquiète plus qu'il ne rassure. Il laisse penser que le porteur de projet découvrira les dépassements en cours de route, au moment où ils sont les plus difficiles à financer.",
         "Les frais financiers méritent une attention particulière. Ils dépendent du calendrier : chaque mois de retard prolonge la période pendant laquelle la dette court sans que l'actif produise de revenu. Un calendrier réaliste, phase par phase, est donc une pièce du budget à part entière. Il permet de vérifier que la marge prévue résiste à un décalage de la livraison ou à une commercialisation plus lente qu'espéré.",
       ],
     },
@@ -63,10 +63,10 @@ export const developmentPhases: GuideContent = {
         "Certaines erreurs reviennent souvent. Solliciter un financement trop tôt, avant que le foncier ne soit maîtrisé ou que le permis ne soit déposé, conduit à des réponses de principe sans engagement. Présenter un budget sans provision pour aléas, ou un calendrier sans marge, fragilise la crédibilité du dossier. Retenir une sortie unique, sans repli, expose l'opération à un retournement de marché. Enfin, négliger la période qui suit la livraison, pendant laquelle la dette court encore, est une source fréquente de tension. Un conseil peut vous aider à repérer ces points avant qu'un prêteur ne les relève.",
       ],
       items: [
-        "Demander un financement avant d'avoir sécurisé le foncier ou déposé le permis.",
-        "Sous-estimer les frais financiers liés à un retard de chantier ou de commercialisation.",
-        "Présenter des fonds propres dont l'origine ou la disponibilité n'est pas documentée.",
-        "Ne prévoir qu'une seule sortie, sans solution de repli chiffrée.",
+        "Votre calendrier précise-t-il, phase par phase, la date à laquelle chaque ressource doit être disponible ?",
+        "Votre budget chiffre-t-il le coût d'un décalage de livraison ou d'une commercialisation plus lente ?",
+        "Pouvez-vous justifier l'origine et la disponibilité des fonds propres à engager en premier ?",
+        "Avez-vous chiffré la solution de repli si la sortie retenue ne se réalise pas ?",
       ],
     },
   ],
