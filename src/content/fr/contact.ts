@@ -28,7 +28,7 @@ export const contact: ContactContent = {
     items: [
       {
         question: "À quel moment nous contacter ?",
-        answer: "Le plus tôt possible, dès qu'une opération se dessine : une acquisition à sécuriser, une échéance qui approche, un projet à financer par étapes. Un premier échange permet de situer le besoin, d'identifier les pièces utiles et de dire si nous pouvons être utiles, avant que le calendrier ne se resserre.",
+        answer: "Le plus tôt possible, dès qu'une opération se dessine : une acquisition à sécuriser, une échéance qui approche, un projet à financer par étapes. Un premier échange permet de situer le besoin, d'identifier les pièces utiles et de dire si nous pouvons vous aider, avant que le calendrier ne se resserre.",
       },
       {
         question: "Que se passe-t-il après l'envoi du formulaire ?",
@@ -36,7 +36,7 @@ export const contact: ContactContent = {
       },
       {
         question: "Quelles informations préparer pour un premier échange ?",
-        answer: "Des ordres de grandeur suffisent : la nature du besoin, le montant envisagé, le pays de l'opération, le délai souhaité et une description de l'actif ou de l'activité, de la structure et de la sortie pressentie. Les pièces détaillées viendront plus tard, si nous décidons ensemble d'avancer.",
+        answer: "Des ordres de grandeur suffisent : la nature du besoin, le montant envisagé, le pays de l'opération et le délai souhaité. Ajoutez une description de l'actif ou de l'activité, de la structure et de la sortie envisagée. Les pièces détaillées viendront plus tard, si nous décidons ensemble d'avancer.",
       },
       {
         question: "Travaillez-vous avec des particuliers ?",
@@ -52,7 +52,7 @@ export const contact: ContactContent = {
       },
       {
         question: "Comment sont traitées les informations transmises ?",
-        answer: "Elles servent uniquement à étudier votre demande. Elles ne sont ni utilisées à des fins de prospection, ni cédées à des tiers, et ne sont partagées qu'avec les prêteurs que nous consultons pour votre opération, avec votre accord. Le détail figure dans la politique de confidentialité.",
+        answer: "Elles servent uniquement à étudier votre demande. Elles ne sont ni utilisées à des fins de prospection, ni cédées à des tiers. Elles ne sont partagées qu'avec les prêteurs que nous consultons pour votre opération, avec votre accord. Le détail figure dans la politique de confidentialité.",
       },
     ],
   },

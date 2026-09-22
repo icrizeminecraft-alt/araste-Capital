@@ -36,7 +36,7 @@ export const contact: ContactContent = {
       },
       {
         question: "What information should you prepare for a first conversation?",
-        answer: "Orders of magnitude are enough: the type of need, the amount envisaged, the country of the transaction, the intended timeframe and a description of the asset or business, the structure and the expected exit. Detailed documents come later, if we decide together to go further.",
+        answer: "Orders of magnitude are enough: the type of need, the amount envisaged, the country of the transaction and the intended timeframe. Add a description of the asset or business, the structure and the intended exit. Detailed documents come later, if we decide together to go further.",
       },
       {
         question: "Do you work with private individuals?",
@@ -52,7 +52,7 @@ export const contact: ContactContent = {
       },
       {
         question: "How is the information you provide handled?",
-        answer: "It is used solely to review your request. It is neither used for marketing purposes nor passed on to third parties, and it is shared only with the lenders we consult for your transaction, with your agreement. The details are set out in the privacy policy.",
+        answer: "It is used solely to review your request. It is neither used for marketing purposes nor passed on to third parties. It is shared only with the lenders we consult for your transaction, with your agreement. The details are set out in the privacy policy.",
       },
     ],
   },
