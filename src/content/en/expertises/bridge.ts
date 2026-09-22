@@ -67,7 +67,7 @@ export const bridge: ExpertiseContent = {
     {
       question: "Is security required to obtain a bridge?",
       answer:
-        "In most cases, a lender expects security consistent with the amount and term of the bridge: the assets involved in the transaction, other available assets, the ranking that can be envisaged, the value adopted. Its nature depends on the transaction and on the lender consulted. What matters is to check beforehand what is genuinely available, taking into account existing debt and charges already taken over the assets concerned.",
+        "In most cases, a lender expects security consistent with the amount and term of the bridge. It looks at the assets involved in the transaction, other available assets, the ranking that can be envisaged and the value adopted. Its nature depends on the transaction and on the lender consulted. What matters is to check beforehand what is genuinely available, taking into account existing debt and charges already taken over the assets concerned.",
     },
     {
       question: "Is a bridge feasible without a committed sale?",

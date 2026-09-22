@@ -4,13 +4,13 @@ export const acquisition: ExpertiseContent = {
   meta: {
     title: "Investment and commercial property acquisition",
     description:
-      "Sourcing and structuring, for the borrower, the financing of a property asset held through a company or investment vehicle, within the scope we actually offer.",
+      "Sourcing and structuring, for the borrower, the financing of a property asset held through a company or investment vehicle, within the scope of the services we offer.",
   },
   title: "Investment and commercial property acquisition",
   shortTitle: "Investment property acquisition",
   eyebrow: "Assets held through a company or investment vehicle",
   summary:
-    "The sourcing and structuring of financing for residential investment, commercial or hotel property, or a portfolio of assets, held through a company, a holding company or an investment vehicle, within the scope we actually offer.",
+    "The sourcing and structuring of financing for residential investment, commercial or hotel property, or a portfolio of assets, held through a company, a holding company or an investment vehicle, within the scope of the services we offer.",
   lead: "Acquiring a property asset for business or investment purposes commits a company, its balance sheet and a timetable. We source and structure, on the borrower's side, the financing of that acquisition, whether it concerns a single asset or a portfolio. The file must give a clear picture of the asset, its income, the structure acquiring it and how the debt will be carried and then repaid.",
   sections: {
     needs: {
@@ -19,7 +19,7 @@ export const acquisition: ExpertiseContent = {
       items: [
         "Acquiring a residential building intended for letting, held through a dedicated company or a holding company.",
         "Financing commercial premises, whether let to third parties or occupied by your own business.",
-        "Acquiring the premises of a hotel through a dedicated company, within the scope we actually offer.",
+        "Acquiring the premises of a hotel through a dedicated company, within the scope of the services we offer.",
         "Acquiring in a single transaction a portfolio of assets sold by the same vendor.",
         "Financing the purchase of shares in a property company rather than of the asset itself.",
         "Combining the acquisition with a programme of works before the asset is let or re-let.",
@@ -49,7 +49,7 @@ export const acquisition: ExpertiseContent = {
     limits: {
       title: "The limits of our role",
       paragraphs: [
-        "The level of debt an asset can carry, the term and the conditions cannot be read off the purchase price. They emerge from the review of the income, the structure and the security, and then from the responses of the lenders consulted. Our role is confined to assets held through a company or an investment vehicle and to the scope of services we actually offer, and we would rather say so early when a transaction falls outside it.",
+        "The level of debt an asset can carry, the term and the conditions cannot be read off the purchase price. They emerge from the review of the income, the structure and the security, and then from the responses of the lenders consulted. Our role is confined to assets held through a company or an investment vehicle and to the scope of the services we offer, and we would rather say so early when a transaction falls outside it.",
         "We take no view on the merits of the acquisition itself. The price, the asset's quality and the holding strategy are matters for you and your advisers, as are the legal and tax aspects of the chosen structure. We do not lend, do not source assets on your behalf and cannot assure you that a lender will take on the transaction. What we owe you is a rigorous analysis and a file lenders can assess on a clear basis.",
       ],
     },

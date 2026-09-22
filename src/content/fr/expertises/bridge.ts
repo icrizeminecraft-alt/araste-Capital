@@ -67,7 +67,7 @@ export const bridge: ExpertiseContent = {
     {
       question: "Faut-il des garanties pour obtenir un relais ?",
       answer:
-        "Dans la plupart des cas, un prêteur attend des garanties cohérentes avec le montant et la durée du relais : actifs concernés par l'opération, autres actifs mobilisables, rang envisageable, valeur retenue. Leur nature dépend de l'opération et du prêteur consulté. L'important est de vérifier en amont ce qui est réellement disponible, en tenant compte des dettes existantes et des sûretés déjà prises sur les actifs concernés.",
+        "Dans la plupart des cas, un prêteur attend des garanties cohérentes avec le montant et la durée du relais. Il regarde les actifs concernés par l'opération, les autres actifs mobilisables, le rang envisageable et la valeur retenue. Leur nature dépend de l'opération et du prêteur consulté. L'important est de vérifier en amont ce qui est réellement disponible, en tenant compte des dettes existantes et des sûretés déjà prises sur les actifs concernés.",
     },
     {
       question: "Un relais est-il envisageable sans vente engagée ?",

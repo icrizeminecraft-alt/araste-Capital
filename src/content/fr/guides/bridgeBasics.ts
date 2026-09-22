@@ -42,7 +42,7 @@ export const bridgeBasics: GuideContent = {
     {
       title: "Ce qu'un prêteur analyse",
       paragraphs: [
-        "Un prêteur qui étudie un relais lit le dossier dans un ordre précis. Il commence par la sortie : sa nature, son degré de certitude, sa date réaliste et les pièces qui la documentent. Une vente signée sous conditions suspensives, un refinancement dont l'instruction est engagée ou un encaissement contractuel ne se lisent pas de la même manière qu'une intention. Il examine ensuite les garanties : ce qui peut être pris en sûreté et la place qu'il occupera parmi les créanciers existants. Il se demande aussi quelle valeur reconnaître à ces actifs, et si elle est cohérente avec le montant demandé. Il regarde enfin la structure emprunteuse, ses dettes et ses associés.",
+        "Un prêteur qui étudie un relais lit le dossier dans un ordre précis. Il commence par la sortie : sa nature, son degré de certitude, sa date réaliste et les pièces qui la documentent. Une vente signée sous conditions suspensives, un refinancement dont l'instruction est engagée ou un encaissement contractuel ne se lisent pas de la même manière qu'une intention. Il examine ensuite les garanties : ce qui peut être pris en sûreté et la place qu'il occupera parmi les créanciers existants. Il se demande aussi quelle valeur retenir pour ces actifs, au regard du montant demandé. Il regarde enfin la structure emprunteuse, ses dettes et ses associés.",
       ],
       items: [
         "Fournissez les pièces qui datent la sortie : promesse signée, accord de principe d'un prêteur, contrat prévoyant l'encaissement.",

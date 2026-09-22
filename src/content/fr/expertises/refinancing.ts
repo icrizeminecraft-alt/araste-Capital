@@ -18,7 +18,7 @@ export const refinancing: ExpertiseContent = {
       intro: "Le refinancement s'impose lorsque la dette en place ne correspond plus à l'opération qu'elle finance.",
       items: [
         "Anticiper une échéance proche sans dépendre du seul renouvellement par le prêteur en place.",
-        "Revoir des covenants devenus inadaptés à l'activité, aux revenus ou à la valeur de l'actif.",
+        "Revoir des engagements financiers devenus inadaptés à l'activité, aux revenus ou à la valeur de l'actif.",
         "Adapter la dette à un actif qui a changé : travaux achevés, baux renouvelés, usage modifié.",
         "Accompagner un changement de stratégie : conservation d'un actif initialement destiné à la vente, ou l'inverse.",
         "Consolider plusieurs dettes contractées à des moments différents en une structure unique et lisible.",
@@ -28,7 +28,7 @@ export const refinancing: ExpertiseContent = {
     approach: {
       title: "Comment nous abordons un refinancement",
       paragraphs: [
-        "Nous partons de la dette en place, non de la dette souhaitée. Contrats, échéancier, garanties consenties, covenants, conditions de remboursement anticipé : chaque élément est relu pour comprendre ce qui contraint réellement l'opération et ce qui peut être renégocié. Cette lecture distingue les difficultés de calendrier des difficultés de structure. Elle permet aussi de mesurer le coût d'une sortie du financement existant, qui pèse sur l'intérêt réel de toute alternative.",
+        "Nous partons de la dette en place, non de la dette souhaitée. Contrats, échéancier, garanties consenties, engagements financiers, conditions de remboursement anticipé : chaque élément est relu pour comprendre ce qui contraint réellement l'opération et ce qui peut être renégocié. Cette lecture distingue les difficultés de calendrier des difficultés de structure. Elle permet aussi de mesurer le coût d'une sortie du financement existant, qui pèse sur l'intérêt réel de toute alternative.",
         "Nous confrontons ensuite cette dette à l'opération d'aujourd'hui : revenus effectivement dégagés, valeur actuelle des actifs, structure de détention, horizon de conservation. De cet écart naît la structure recherchée. Selon les cas, elle prend la forme d'un aménagement négocié avec le prêteur en place, d'un remplacement par un nouveau prêteur ou d'une consolidation de plusieurs lignes. Nous ne privilégions aucune de ces voies par principe : la bonne est celle dont l'échéancier et les garanties correspondent à la réalité de l'opération.",
         "Le dossier présenté aux prêteurs retrace cette évolution sans la masquer : ce que la dette finançait, ce que l'opération est devenue, ce que la nouvelle structure doit permettre. Il comprend l'historique du financement, l'échéancier proposé, les garanties offertes et les pièces qui les étayent. Nous conduisons les échanges avec les prêteurs sollicités, y compris le prêteur en place lorsque c'est pertinent, et comparons avec vous les propositions reçues. La mainlevée des sûretés existantes et la constitution des nouvelles se font en coordination avec vos conseils.",
       ],
@@ -49,7 +49,7 @@ export const refinancing: ExpertiseContent = {
     limits: {
       title: "Les limites de l'exercice",
       paragraphs: [
-        "Un refinancement n'améliore pas mécaniquement les conditions d'une dette. Il peut aboutir à une structure plus adaptée, parfois à un coût global comparable ou supérieur, une fois pris en compte les frais de sortie, les nouvelles sûretés et les honoraires. Nous ne promettons ni baisse du coût de la dette, ni dégagement de trésorerie, ni assouplissement des covenants : ces résultats dépendent de l'opération, de son historique et des prêteurs consultés.",
+        "Un refinancement n'améliore pas mécaniquement les conditions d'une dette. Il peut aboutir à une structure plus adaptée, parfois à un coût global comparable ou supérieur, une fois pris en compte les frais de sortie, les nouvelles sûretés et les honoraires. Nous ne promettons ni baisse du coût de la dette, ni dégagement de trésorerie, ni assouplissement des engagements financiers : ces résultats dépendent de l'opération, de son historique et des prêteurs consultés.",
         "Face au prêteur en place, nous agissons comme conseil de l'emprunteur : nous préparons et conduisons les échanges. Accepter un aménagement ou sortir du financement existant reste votre décision ; les aspects juridiques et fiscaux de cette sortie relèvent de vos conseils. Nous ne prêtons pas, ne reprenons aucune créance et ne nous engageons pas sur l'obtention d'un nouveau financement. Notre engagement porte sur une lecture complète de la dette en place et une comparaison honnête entre son maintien et les alternatives.",
       ],
     },

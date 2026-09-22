@@ -4,13 +4,13 @@ export const acquisition: ExpertiseContent = {
   meta: {
     title: "Acquisition et investissement immobilier en société",
     description:
-      "Recherche et structuration, côté emprunteur, du financement d'un actif immobilier détenu dans un cadre professionnel, selon le périmètre effectivement proposé.",
+      "Recherche et structuration, côté emprunteur, du financement d'un actif immobilier détenu dans un cadre professionnel, dans la limite de notre périmètre d'intervention.",
   },
   title: "Acquisition et investissement immobilier en société",
   shortTitle: "Acquisition immobilière",
   eyebrow: "Cadre professionnel",
   summary:
-    "La recherche et la structuration du financement d'un actif immobilier détenu dans un cadre professionnel : résidentiel d'investissement, commercial, hôtelier ou portefeuille d'actifs, pour une société, une holding ou un véhicule d'investissement, dans la limite du périmètre effectivement proposé.",
+    "La recherche et la structuration du financement d'un actif immobilier détenu dans un cadre professionnel : résidentiel d'investissement, commercial, hôtelier ou portefeuille d'actifs, pour une société, une holding ou un véhicule d'investissement, dans la limite de notre périmètre d'intervention.",
   lead: "Acquérir un actif immobilier dans un cadre professionnel engage une société, son bilan et un calendrier. Nous recherchons et structurons, côté emprunteur, le financement de cette acquisition, qu'elle porte sur un actif isolé ou sur un portefeuille. Le dossier doit rendre lisibles l'actif, ses revenus, la structure qui l'acquiert et la manière dont la dette sera portée puis remboursée.",
   sections: {
     needs: {
@@ -19,7 +19,7 @@ export const acquisition: ExpertiseContent = {
       items: [
         "Acquérir un immeuble résidentiel destiné à la location, détenu par une société dédiée ou une holding.",
         "Financer les murs d'un actif commercial, qu'il soit loué à des tiers ou occupé par votre propre activité.",
-        "Acquérir les murs d'un actif hôtelier au travers d'une société dédiée, selon le périmètre effectivement proposé.",
+        "Acquérir les murs d'un actif hôtelier au travers d'une société dédiée, dans la limite de notre périmètre d'intervention.",
         "Acquérir en une seule opération un portefeuille d'actifs cédé par un même vendeur.",
         "Financer l'achat des titres d'une société immobilière plutôt que de l'actif lui-même.",
         "Combiner l'acquisition et un programme de travaux avant la mise en location ou la relocation de l'actif.",
@@ -49,7 +49,7 @@ export const acquisition: ExpertiseContent = {
     limits: {
       title: "Les limites de notre intervention",
       paragraphs: [
-        "Le niveau de dette qu'un actif peut porter, la durée et les conditions ne se déduisent pas du prix d'acquisition : ils ressortent de l'étude des revenus, de la structure et des garanties, puis des réponses des prêteurs consultés. Notre intervention se limite aux actifs détenus dans un cadre professionnel et au périmètre effectivement proposé ; nous préférons le dire tôt lorsqu'une opération n'en relève pas.",
+        "Le niveau de dette qu'un actif peut porter, la durée et les conditions ne se déduisent pas du prix d'acquisition : ils ressortent de l'étude des revenus, de la structure et des garanties, puis des réponses des prêteurs consultés. Notre intervention se limite aux actifs détenus dans un cadre professionnel et à notre périmètre d'intervention ; nous préférons le dire tôt lorsqu'une opération n'en relève pas.",
         "Nous ne nous prononçons pas sur l'opportunité de l'acquisition elle-même : le prix, la qualité de l'actif et la stratégie de détention relèvent de vous et de vos conseils, comme les aspects juridiques et fiscaux de la structure choisie. Nous ne prêtons pas, ne recherchons pas d'actifs pour votre compte et ne pouvons assurer qu'un prêteur retiendra l'opération. Ce que nous vous devons est une analyse rigoureuse et un dossier que les prêteurs peuvent instruire sur des bases claires.",
       ],
     },
