@@ -4,7 +4,7 @@ import { visuals } from "@/config/images";
 import { PageIntro } from "@/components/ui/PageIntro";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
-import { Visual, VisualCaption } from "@/components/visuals/Visual";
+import { Visual } from "@/components/visuals/Visual";
 import { ContactCta } from "@/components/home/ContactCta";
 import { siteConfig } from "@/config/site";
 
@@ -21,12 +21,11 @@ export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary })
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
 
-      <section className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center lg:gap-8">
+      <section className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-start lg:gap-8">
         <div className="lg:col-span-6">
           <Reveal className="reveal-media grain relative aspect-[4/5] overflow-hidden bg-silver sm:aspect-[4/3]">
             <Visual slot={visuals.firm} locale={locale} decorative sizes="(min-width: 64rem) 50vw, 100vw" />
           </Reveal>
-          <VisualCaption slot={visuals.firm} locale={locale} className="mt-3" />
         </div>
         <div className="lg:col-span-5 lg:col-start-8">
           {t.paragraphs.map((p, i) => (

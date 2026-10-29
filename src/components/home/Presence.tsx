@@ -23,7 +23,7 @@ export function Presence({ locale, t, dict }: { locale: Locale; t: HomeContent["
           <Reveal className="lg:col-span-7">
             <SectionHeading id="presence-title" eyebrow={t.eyebrow} title={t.title} body={t.body} dark size="md" />
           </Reveal>
-          <Reveal className="lg:col-span-4 lg:col-start-9 lg:self-end" delay={1}>
+          <Reveal className="lg:col-span-4 lg:col-start-9 lg:self-start lg:pt-2" delay={1}>
             <p className="font-sans text-sm text-silver">{t.note}</p>
           </Reveal>
         </div>

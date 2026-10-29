@@ -21,7 +21,7 @@ export function PartnersPage({ locale, dict }: { locale: Locale; dict: Dictionar
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
 
-      <section className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center lg:gap-8">
+      <section className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-start lg:gap-8">
         <div className="lg:col-span-5">
           {t.paragraphs.map((p, i) => (
             <Reveal as="p" key={i} className="measure mt-6 font-sans text-[1.0625rem] leading-relaxed text-ink first:mt-0" delay={Math.min(i, 3) as 0 | 1 | 2 | 3}>
@@ -30,7 +30,7 @@ export function PartnersPage({ locale, dict }: { locale: Locale; dict: Dictionar
           ))}
         </div>
         <Reveal className="reveal-media grain relative aspect-[4/5] overflow-hidden bg-silver sm:aspect-[4/3] lg:col-span-6 lg:col-start-7 lg:aspect-[4/5]" delay={1}>
-          <Visual slot={visuals.expertises.refinancing} locale={locale} decorative sizes="(min-width: 64rem) 50vw, 100vw" />
+          <Visual slot={visuals.partners} locale={locale} decorative sizes="(min-width: 64rem) 50vw, 100vw" />
         </Reveal>
       </section>
 

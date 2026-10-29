@@ -9,8 +9,8 @@ import type { ExpertiseKey } from "@/config/routes";
  * la liste `outils/photos.txt`, ou, à défaut, par une composition
  * architecturale originale en SVG (`plate`). Voir docs/IMAGES.md.
  *
- * Une photographie d'illustration ne doit jamais être présentée comme un actif
- * financé ni comme les bureaux du cabinet : les légendes le rappellent.
+ * Les photographies sont des illustrations : les mentions légales le rappellent,
+ * sans légende sur les pages.
  */
 export type PlateKind =
   | "arcade"
@@ -60,42 +60,6 @@ export const photos = {
     },
     credit: unsplash("Alexis Bens", "_0hTRmpkT5s"),
   },
-  galerieVoutee: {
-    base: "galerie-voutee",
-    widths: [800, 1200, 1800],
-    width: 1800,
-    height: 2700,
-    focal: { x: 50, y: 50 },
-    alt: { fr: "Galerie voûtée en pierre menant vers la lumière.", en: "Vaulted stone gallery leading towards the light." },
-    credit: unsplash("Shapelined", "5kjDIw7STCw"),
-  },
-  voutePierre: {
-    base: "voute-pierre",
-    widths: [800, 1200, 1800],
-    width: 1800,
-    height: 2700,
-    focal: { x: 50, y: 40 },
-    alt: { fr: "Voûte de pierre blonde, éclairée en contre-jour.", en: "Blond stone vault, lit from behind." },
-    credit: unsplash("Essa Mhmad", "qOIP6cDKTzY"),
-  },
-  facadeMonaco: {
-    base: "facade-monaco",
-    widths: [800, 1200, 1800],
-    width: 1800,
-    height: 2700,
-    focal: { x: 40, y: 45 },
-    alt: { fr: "Façade Belle Époque, pins et grille en fer forgé à Monaco.", en: "Belle Époque façade, pines and wrought-iron railing in Monaco." },
-    credit: unsplash("Pedram Farjam", "GkCoXO22kIM"),
-  },
-  escalierMarbre: {
-    base: "escalier-marbre",
-    widths: [800, 1600, 2400],
-    width: 2400,
-    height: 3200,
-    focal: { x: 50, y: 55 },
-    alt: { fr: "Premières marches d'un escalier de marbre clair.", en: "First steps of a light marble staircase." },
-    credit: unsplash("Sebastian Schuster", "pfhVW5J2BKc"),
-  },
   corniche: {
     base: "corniche",
     widths: [800, 1600, 2400],
@@ -122,24 +86,6 @@ export const photos = {
     focal: { x: 62, y: 55 },
     alt: { fr: "Immeubles aux arcades de pierre claire ouvrant sur la Méditerranée.", en: "Light-stone buildings with arched balconies opening onto the Mediterranean." },
     credit: unsplash("Thomas K", "WuyR34c3qJA"),
-  },
-  grue: {
-    base: "grue",
-    widths: [800, 1600, 2400],
-    width: 2400,
-    height: 3600,
-    focal: { x: 50, y: 42 },
-    alt: { fr: "Ombre d'une grue de chantier sur une façade blanche.", en: "Shadow of a construction crane on a white façade." },
-    credit: unsplash("Alexander Kaufmann", "e8dE5m7Vsf8"),
-  },
-  falaisePort: {
-    base: "falaise-port",
-    widths: [800, 1600, 2400],
-    width: 2400,
-    height: 3600,
-    focal: { x: 55, y: 50 },
-    alt: { fr: "Falaise, port et horizon marin sous un ciel clair.", en: "Cliff, harbour and sea horizon under a clear sky." },
-    credit: unsplash("Eleonora Paolino", "boBaMH39P6Y"),
   },
   andorre: {
     base: "andorre",
@@ -177,32 +123,169 @@ export const photos = {
     alt: { fr: "Tours de Dubaï illuminées la nuit.", en: "Dubai towers lit up at night." },
     credit: unsplash("Nejc Soklič", "yFKBh1sC1ng"),
   },
+  hommeFenetre: {
+    base: "homme-fenetre",
+    widths: [800, 1600, 2400],
+    width: 2400,
+    height: 1600,
+    focal: { x: 50, y: 50 },
+    alt: { fr: "Homme de dos, à la fenêtre, devant une ville la nuit.", en: "Man from behind at a window, facing a city at night." },
+    credit: unsplash("avechenri", "ccsxNJmOGPw"),
+  },
+  manchetteMontre: {
+    base: "manchette-montre",
+    widths: [800, 1600, 2400],
+    width: 2400,
+    height: 1600,
+    focal: { x: 55, y: 50 },
+    alt: { fr: "Costume bleu nuit : une main ajuste la manchette, montre au poignet.", en: "Midnight-blue suit: a hand adjusts the cuff, watch on the wrist." },
+    credit: unsplash("Alvin Mahmudov", "oBT4lJvNMQg"),
+  },
+  villaCrepuscule: {
+    base: "villa-crepuscule",
+    widths: [800, 1600, 2400],
+    width: 2400,
+    height: 1867,
+    focal: { x: 50, y: 55 },
+    alt: { fr: "Villa contemporaine éclairée au crépuscule.", en: "Contemporary villa lit at dusk." },
+    credit: unsplash("Arthur Baudry", "4vioYQ9Nn9Y"),
+  },
+  maquette: {
+    base: "maquette",
+    widths: [800, 1600, 2400],
+    width: 2400,
+    height: 1565,
+    focal: { x: 50, y: 50 },
+    alt: { fr: "Maquette blanche d'un immeuble à arcades.", en: "White model of an arcaded building." },
+    credit: unsplash("Declan Sun", "ctvBcS6LLXQ"),
+  },
+  tourDoree: {
+    base: "tour-doree",
+    widths: [800, 1200, 1800],
+    width: 1800,
+    height: 3200,
+    focal: { x: 50, y: 50 },
+    alt: { fr: "Tour de verre reflétant la lumière dorée du couchant.", en: "Glass tower reflecting golden sunset light." },
+    credit: unsplash("Hoak Shen", "OLhtAXMgaaQ"),
+  },
+  hommeMarche: {
+    base: "homme-marche",
+    widths: [960, 1600, 2400],
+    width: 2400,
+    height: 1600,
+    focal: { x: 50, y: 50 },
+    alt: { fr: "Homme en costume s'éloignant le long d'une façade de pierre.", en: "Man in a suit walking away along a stone façade." },
+    credit: unsplash("Toxic Smoker", "mhlNXGEBLbU"),
+  },
+  refletsVerre: {
+    base: "reflets-verre",
+    widths: [960, 1600, 2400],
+    width: 2400,
+    height: 1600,
+    focal: { x: 50, y: 50 },
+    alt: { fr: "Façade de verre reflétant le ciel et les immeubles voisins.", en: "Glass façade reflecting the sky and neighbouring buildings." },
+    credit: unsplash("Leyla M", "Gk83RDasfe4"),
+  },
+  chantierCrepuscule: {
+    base: "chantier-crepuscule",
+    widths: [960, 1600, 2400],
+    width: 2400,
+    height: 1600,
+    focal: { x: 50, y: 55 },
+    alt: { fr: "Maison en construction au crépuscule.", en: "House under construction at twilight." },
+    credit: unsplash("Greg Rosenke", "lAyDxOCDYwI"),
+  },
+  tourCouchant: {
+    base: "tour-couchant",
+    widths: [960, 1600, 2400],
+    width: 2400,
+    height: 1600,
+    focal: { x: 50, y: 50 },
+    alt: { fr: "Gratte-ciel sous un ciel de couchant.", en: "Skyscraper under a sunset sky." },
+    credit: unsplash("LEDC", "J9zND9ieE4Q"),
+  },
+  hommeSeuil: {
+    base: "homme-seuil",
+    widths: [800, 1600, 2400],
+    width: 2400,
+    height: 1600,
+    focal: { x: 50, y: 45 },
+    alt: { fr: "Homme en costume sombre, de dos, sur un seuil éclairé.", en: "Man in a dark suit, from behind, on a lit threshold." },
+    credit: unsplash("Tom Morbey", "7L4XxWFTJVs"),
+  },
+  hommeVeste: {
+    base: "homme-veste",
+    widths: [800, 1600, 2400],
+    width: 2400,
+    height: 1600,
+    focal: { x: 50, y: 40 },
+    alt: { fr: "Homme boutonnant sa veste, en noir et blanc.", en: "Man buttoning his jacket, in black and white." },
+    credit: unsplash("Sydney Riggs", "zcs5Wk-3bB0"),
+  },
+  plumeOr: {
+    base: "plume-or",
+    widths: [960, 1600, 2400],
+    width: 2400,
+    height: 1350,
+    focal: { x: 50, y: 50 },
+    alt: { fr: "Plume dorée d'un stylo noir, en gros plan.", en: "Gold nib of a black fountain pen, close up." },
+    credit: unsplash("Thomas Griggs", "8ylzXjzqkJQ"),
+  },
+  accord: {
+    base: "accord",
+    widths: [800, 1600, 2400],
+    width: 2400,
+    height: 1600,
+    focal: { x: 50, y: 45 },
+    alt: { fr: "Poignée de main au-dessus d'une table de bois, dans la pénombre.", en: "Handshake over a wooden table, in low light." },
+    credit: unsplash("Rock Staar", "NzIV4vOBA7s"),
+  },
+  styloDossier: {
+    base: "stylo-dossier",
+    widths: [800, 1200, 1800],
+    width: 1800,
+    height: 1200,
+    focal: { x: 50, y: 50 },
+    alt: { fr: "Stylo posé sur une pile de documents, en noir et blanc.", en: "Pen resting on a pile of documents, in black and white." },
+    credit: unsplash("Andres Vera", "OJbjBsNIwjk"),
+  },
 } as const satisfies Record<string, PhotoAsset>;
 
-const illustration = {
-  fr: "Photographie d'illustration, sans lien avec une opération conseillée ni avec des locaux du cabinet.",
-  en: "Illustrative photograph, unrelated to any advised transaction or to the firm's premises.",
-};
 
 export const visuals: {
   hero: VisualSlot;
   bridgeFeature: VisualSlot;
   firm: VisualSlot;
   approach: VisualSlot;
+  partners: VisualSlot;
+  contact: VisualSlot;
+  /** Vignette de chaque expertise (liste de l'accueil, page des expertises). */
   expertises: Record<ExpertiseKey, VisualSlot>;
+  /** Bandeau de la page de chaque expertise, distinct de la vignette. */
+  expertiseBanners: Record<ExpertiseKey, VisualSlot>;
   places: Record<"andorra" | "london" | "monaco" | "uae", VisualSlot>;
 } = {
-  hero: { kind: "photo", photo: { ...photos.monacoCrepuscule, caption: illustration } },
-  bridgeFeature: { kind: "photo", photo: photos.voutePierre },
-  firm: { kind: "photo", photo: { ...photos.facadeMonaco, caption: illustration } },
-  approach: { kind: "photo", photo: photos.escalierMarbre },
+  hero: { kind: "photo", photo: photos.monacoCrepuscule },
+  bridgeFeature: { kind: "photo", photo: photos.hommeSeuil },
+  firm: { kind: "photo", photo: photos.hommeVeste },
+  approach: { kind: "photo", photo: photos.plumeOr },
+  partners: { kind: "photo", photo: photos.accord },
+  contact: { kind: "photo", photo: photos.styloDossier },
   expertises: {
-    bridge: { kind: "photo", photo: photos.galerieVoutee },
+    bridge: { kind: "photo", photo: photos.hommeFenetre },
     complex: { kind: "photo", photo: photos.corniche },
+    refinancing: { kind: "photo", photo: photos.manchetteMontre },
+    acquisition: { kind: "photo", photo: photos.villaCrepuscule },
+    development: { kind: "photo", photo: photos.maquette },
+    privateDebt: { kind: "photo", photo: photos.tourDoree },
+  },
+  expertiseBanners: {
+    bridge: { kind: "photo", photo: photos.hommeMarche },
+    complex: { kind: "photo", photo: photos.refletsVerre },
     refinancing: { kind: "photo", photo: photos.colonnade },
-    acquisition: { kind: "photo", photo: { ...photos.residencesMer, caption: illustration } },
-    development: { kind: "photo", photo: photos.grue },
-    privateDebt: { kind: "photo", photo: photos.falaisePort },
+    acquisition: { kind: "photo", photo: photos.residencesMer },
+    development: { kind: "photo", photo: photos.chantierCrepuscule },
+    privateDebt: { kind: "photo", photo: photos.tourCouchant },
   },
   places: {
     andorra: { kind: "photo", photo: photos.andorre },

@@ -6,21 +6,21 @@ Chaque emplacement visuel est servi par une **photographie d'illustration** impo
 
 | Fichier (`public/images/`) | Usage | Évocation |
 | --- | --- | --- |
-| `monaco-crepuscule` | ouverture de l'accueil | Monaco au crépuscule, ciel bleu nuit |
-| `galerie-voutee` | financement relais (liste et page) | galerie voûtée menant vers la lumière |
-| `voute-pierre` | moment fort du financement relais (accueil) | voûte de pierre blonde en contre-jour |
-| `facade-monaco` | cabinet | façade Belle Époque, pins et grille |
-| `escalier-marbre` | approche | premières marches d'un escalier de marbre |
-| `corniche` | financements complexes | corniche sculptée au soleil couchant |
-| `colonnade` | refinancement, partenaires | colonnade de pierre aux lanternes |
-| `residences-mer` | acquisition immobilière | arcades de pierre claire sur la Méditerranée |
-| `grue` | promotion immobilière | ombre d'une grue sur une façade blanche |
-| `falaise-port` | dette privée | falaise, port et horizon marin |
+| `monaco-crepuscule` (+ `-paysage`) | ouverture de l'accueil | Monaco au crépuscule, ciel bleu nuit |
+| `homme-seuil` | moment fort du financement relais (accueil) | homme en costume sur un seuil éclairé |
+| `homme-veste` | cabinet | homme boutonnant sa veste, noir et blanc |
+| `plume-or` | approche | plume dorée d'un stylo noir |
+| `accord` | partenaires | poignée de main dans la pénombre |
+| `stylo-dossier` | contact | stylo sur une pile de documents |
+| `homme-fenetre`, `corniche`, `manchette-montre`, `villa-crepuscule`, `maquette`, `tour-doree` | vignettes des expertises (accueil, page des expertises) | relais, complexes, refinancement, acquisition, promotion, dette privée |
+| `homme-marche`, `reflets-verre`, `colonnade`, `residences-mer`, `chantier-crepuscule`, `tour-couchant` | bandeaux des pages d'expertise | une seconde image par expertise, jamais la même que la vignette |
 | `andorre`, `londres`, `monaco`, `emirats` | implantations (accueil) | une vue par place |
+
+Chaque photographie n'apparaît qu'à un seul emplacement du site (les vignettes d'expertise sont reprises à l'identique entre l'accueil et la page des expertises).
 
 Les compositions architecturales originales en SVG (`src/components/visuals/ArchitecturalPlate.tsx`, `public/plates/`) restent disponibles comme solution de repli (`kind: "plate"`).
 
-Aucune photographie n'est présentée comme un actif financé ou comme les bureaux du cabinet ; les légendes de l'accueil, du cabinet et de l'acquisition le rappellent.
+Aucune photographie n'est présentée comme un actif financé ou comme les bureaux du cabinet ; les mentions légales le rappellent (aucune légende sur les pages).
 
 ## Importer ou changer une photographie
 

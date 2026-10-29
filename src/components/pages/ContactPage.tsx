@@ -8,6 +8,8 @@ import { currentProvider } from "@/lib/contact/providers";
 import { Faq } from "@/components/ui/Faq";
 import { LocalClocks } from "@/components/layout/LocalClocks";
 import { connection } from "next/server";
+import { visuals } from "@/config/images";
+import { Visual } from "@/components/visuals/Visual";
 
 export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   // Serveur Node : rendu à la demande, le jeton signé doit être frais à chaque visite.
@@ -39,6 +41,9 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
       <div className="container-x section-y-sm grid grid-cols-1 gap-14 lg:grid-cols-12 lg:gap-8">
         <aside className="order-2 lg:order-1 lg:col-span-4">
           <div className="lg:sticky lg:top-[calc(var(--header-h)+2rem)]">
+            <div className="grain relative mb-10 aspect-[4/3] overflow-hidden bg-silver">
+              <Visual slot={visuals.contact} locale={locale} decorative sizes="(min-width: 64rem) 33vw, 100vw" />
+            </div>
             <h2 className="eyebrow mb-4">{t.aside.title}</h2>
             <ul className="space-y-3 border-t border-navy pt-5">
               {t.aside.items.map((item) => (

@@ -87,10 +87,3 @@ export function Visual({
     />
   );
 }
-
-/** Légende d'illustration d'un emplacement, lorsqu'il en porte une (rappel : aucun lien avec une opération ou des locaux). */
-export function VisualCaption({ slot, locale, className = "" }: { slot: VisualSlot; locale: Locale; className?: string }) {
-  const caption = slot.kind === "photo" ? slot.photo.caption?.[locale] : undefined;
-  if (!caption) return null;
-  return <p className={`font-sans text-xs text-ink-soft ${className}`}>{caption}</p>;
-}

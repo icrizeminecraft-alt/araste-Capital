@@ -4,19 +4,13 @@
 # Format : nom | identifiant Unsplash | URL de base | largeurs (px) | [ratio l:h | point focal x | point focal y] (recadrage facultatif)
 monaco-crepuscule | _0hTRmpkT5s | https://images.unsplash.com/photo-1778328989282-c758e25c6037 | 960,1600,2400
 monaco-crepuscule-paysage | _0hTRmpkT5s | https://images.unsplash.com/photo-1778328989282-c758e25c6037 | 1600,2400 | 16:9 | 0.5 | 0.58
-galerie-voutee | 5kjDIw7STCw | https://images.unsplash.com/photo-1497282003564-004631e01464 | 800,1200,1800
-facade-monaco | GkCoXO22kIM | https://images.unsplash.com/photo-1718255632064-88289bfb5f10 | 800,1200,1800
-escalier-marbre | pfhVW5J2BKc | https://images.unsplash.com/photo-1781047884697-53a3dc4d7eee | 800,1600,2400
 corniche | uL8uhUj2gMg | https://images.unsplash.com/photo-1777138388903-685004a7ea93 | 800,1600,2400
 colonnade | L_oILD2kB3I | https://images.unsplash.com/photo-1791629956311-9c8798452aa5 | 800,1600,2400
 residences-mer | WuyR34c3qJA | https://images.unsplash.com/photo-1791719422920-e4a9c0881cec | 800,1600,2400
-grue | e8dE5m7Vsf8 | https://images.unsplash.com/photo-1783947119562-3f940999dafe | 800,1600,2400
-falaise-port | boBaMH39P6Y | https://images.unsplash.com/photo-1760783538829-a774637ee197 | 800,1600,2400
 andorre | txDX4b4n8AY | https://images.unsplash.com/photo-1611917436955-d21c1999520c | 640,1200
 londres | zjBxPUHE_ok | https://images.unsplash.com/photo-1692820338246-11cb8571f696 | 640,1200
 monaco | UCtP4syENic | https://images.unsplash.com/photo-1570003550321-14dd053a5956 | 640,1200
 emirats | yFKBh1sC1ng | https://images.unsplash.com/photo-1739900292622-a7f860175aad | 640,1200
-voute-pierre | qOIP6cDKTzY | https://images.unsplash.com/photo-1591187883190-0984cdadf553 | 800,1200,1800
 homme-fenetre | ccsxNJmOGPw | https://images.unsplash.com/photo-1672082546749-f8b3e92f21d7 | 800,1600,2400
 manchette-montre | oBT4lJvNMQg | https://images.unsplash.com/photo-1482954363933-4bed6bbea570 | 800,1600,2400
 villa-crepuscule | 4vioYQ9Nn9Y | https://images.unsplash.com/photo-1748063578185-3d68121b11ff | 800,1600,2400

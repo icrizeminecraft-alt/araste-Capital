@@ -10,22 +10,21 @@ import { ButtonLink } from "@/components/ui/ButtonLink";
 
 /**
  * Ouverture : photographie en pleine page, voilée d'un dégradé bleu nuit, et
- * texte posé en bas à gauche. C'est le seul moment spectaculaire du site ;
- * tout ce qui suit reste sobre, sur fond blanc.
+ * texte posé à gauche, à hauteur du regard. C'est le seul moment spectaculaire
+ * du site ; tout ce qui suit reste sobre, sur fond blanc.
  */
 export function Hero({ locale, t }: { locale: Locale; t: HomeContent["hero"] }) {
   const ticket = siteConfig.ticketSize;
   const slot = visuals.hero;
-  const caption = slot.kind === "photo" ? slot.photo.caption?.[locale] : t.caption;
   return (
     <section className="on-dark relative isolate overflow-hidden bg-navy text-porcelain" aria-labelledby="hero-title">
       <div className="absolute inset-0 -z-10" aria-hidden="true">
         <Visual slot={slot} locale={locale} priority decorative sizes="100vw" />
-        <div className="absolute inset-0 bg-linear-to-t from-navy via-navy/55 to-navy/15" />
-        <div className="absolute inset-0 bg-linear-to-r from-navy/70 via-navy/25 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-r from-navy/85 via-navy/45 to-navy/10" />
+        <div className="absolute inset-x-0 bottom-0 h-1/3 bg-linear-to-t from-navy/70 to-transparent" />
       </div>
 
-      <div className="container-x flex min-h-[calc(100svh-var(--header-h))] max-h-[60rem] flex-col justify-end pb-12 pt-32 md:pb-16 lg:pb-20">
+      <div className="container-x flex min-h-[calc(100svh-var(--header-h))] max-h-[56rem] flex-col justify-center py-24 md:py-28">
         <div className="max-w-3xl">
           <Eyebrow dark className="mb-6">{t.eyebrow}</Eyebrow>
           <h1 id="hero-title" className="display-xl text-porcelain">
@@ -43,7 +42,6 @@ export function Hero({ locale, t }: { locale: Locale; t: HomeContent["hero"] }) 
             </Link>
           </div>
         </div>
-        {caption ? <p className="mt-12 max-w-xl font-sans text-xs text-silver/70 md:ml-auto md:text-right">{caption}</p> : null}
       </div>
     </section>
   );
