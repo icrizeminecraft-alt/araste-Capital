@@ -16,3 +16,4 @@ andorre | txDX4b4n8AY | https://images.unsplash.com/photo-1611917436955-d21c1999
 londres | zjBxPUHE_ok | https://images.unsplash.com/photo-1692820338246-11cb8571f696 | 640,1200
 monaco | UCtP4syENic | https://images.unsplash.com/photo-1570003550321-14dd053a5956 | 640,1200
 emirats | yFKBh1sC1ng | https://images.unsplash.com/photo-1739900292622-a7f860175aad | 640,1200
+voute-pierre | qOIP6cDKTzY | https://images.unsplash.com/photo-1591187883190-0984cdadf553 | 800,1200,1800
