@@ -1,0 +1,203 @@
+{
+  "altea": {
+    "id": "i9PYRSr2uBc",
+    "widths": [
+      800,
+      1200,
+      1600,
+      2040
+    ],
+    "width": 2040,
+    "height": 1530
+  },
+  "altea-portrait": {
+    "id": "i9PYRSr2uBc",
+    "widths": [
+      960,
+      1400,
+      2040
+    ],
+    "width": 2040,
+    "height": 2550
+  },
+  "cassis": {
+    "id": "A7SIkewdTIw",
+    "widths": [
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067
+  },
+  "cassis-large": {
+    "id": "A7SIkewdTIw",
+    "widths": [
+      1600,
+      2400,
+      3200
+    ],
+    "width": 3200,
+    "height": 1371
+  },
+  "pierre-ombre": {
+    "id": "VuBzLZqAEpg",
+    "widths": [
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 2000
+  },
+  "villa-crepuscule": {
+    "id": "4vioYQ9Nn9Y",
+    "widths": [
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1244
+  },
+  "corniche": {
+    "id": "uL8uhUj2gMg",
+    "widths": [
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067
+  },
+  "paris-balcons": {
+    "id": "NmrbDuAVoDk",
+    "widths": [
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 2133
+  },
+  "villa-cassis": {
+    "id": "-chZwUizQXY",
+    "widths": [
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1200
+  },
+  "chantier-mer": {
+    "id": "o_QjE648MvM",
+    "widths": [
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1200
+  },
+  "travertin": {
+    "id": "bwu6zJHrfNs",
+    "widths": [
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 2000
+  },
+  "fontvieille": {
+    "id": "RuvW7a2R8HM",
+    "widths": [
+      960,
+      1600,
+      2400
+    ],
+    "width": 2400,
+    "height": 1600
+  },
+  "ville-fenetre": {
+    "id": "sYtp3sQkqbM",
+    "widths": [
+      960,
+      1600,
+      2400
+    ],
+    "width": 2400,
+    "height": 1800
+  },
+  "paris-angle": {
+    "id": "qgfwU8JarIg",
+    "widths": [
+      960,
+      1600,
+      2400
+    ],
+    "width": 2400,
+    "height": 1609
+  },
+  "riviera-palmiers": {
+    "id": "oSuZIcno8qc",
+    "widths": [
+      960,
+      1600,
+      2400
+    ],
+    "width": 2400,
+    "height": 1600
+  },
+  "grue": {
+    "id": "e8dE5m7Vsf8",
+    "widths": [
+      960,
+      1600,
+      2400
+    ],
+    "width": 2400,
+    "height": 3600
+  },
+  "tour-doree": {
+    "id": "OLhtAXMgaaQ",
+    "widths": [
+      800,
+      1200,
+      1800
+    ],
+    "width": 1800,
+    "height": 3200
+  },
+  "plume-or": {
+    "id": "8ylzXjzqkJQ",
+    "widths": [
+      960,
+      1600,
+      2400
+    ],
+    "width": 2400,
+    "height": 1350
+  },
+  "accord": {
+    "id": "NzIV4vOBA7s",
+    "widths": [
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067
+  },
+  "stylo-dossier": {
+    "id": "OJbjBsNIwjk",
+    "widths": [
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067
+  }
+}

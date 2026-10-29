@@ -1,64 +1,94 @@
-ok    public/images/monaco-crepuscule-960.jpg 260851 octets
-ok    public/images/monaco-crepuscule-1600.jpg 644215 octets
-ok    public/images/monaco-crepuscule-2400.jpg 1248343 octets
-ok    public/images/monaco-crepuscule-paysage-1600.jpg 352433 octets
-ok    public/images/monaco-crepuscule-paysage-2400.jpg 683046 octets
-ok    public/images/corniche-800.jpg 90048 octets
-ok    public/images/corniche-1600.jpg 313818 octets
-ok    public/images/corniche-2400.jpg 658171 octets
-ok    public/images/residences-mer-800.jpg 86075 octets
-ok    public/images/residences-mer-1600.jpg 278007 octets
-ok    public/images/residences-mer-2400.jpg 551052 octets
-ok    public/images/andorre-640.jpg 99362 octets
-ok    public/images/andorre-1200.jpg 330953 octets
-ok    public/images/londres-640.jpg 252479 octets
-ok    public/images/londres-1200.jpg 818294 octets
-ok    public/images/emirats-640.jpg 135957 octets
-ok    public/images/emirats-1200.jpg 389398 octets
-ok    public/images/villa-crepuscule-800.jpg 84949 octets
-ok    public/images/villa-crepuscule-1600.jpg 251597 octets
-ok    public/images/villa-crepuscule-2400.jpg 468524 octets
-ok    public/images/tour-doree-800.jpg 176550 octets
-ok    public/images/tour-doree-1200.jpg 343222 octets
-ok    public/images/tour-doree-1800.jpg 649270 octets
-ok    public/images/chantier-crepuscule-960.jpg 87279 octets
-ok    public/images/chantier-crepuscule-1600.jpg 214904 octets
-ok    public/images/chantier-crepuscule-2400.jpg 456987 octets
-ok    public/images/tour-couchant-960.jpg 208369 octets
-ok    public/images/tour-couchant-1600.jpg 532322 octets
-ok    public/images/tour-couchant-2400.jpg 1109456 octets
-ok    public/images/plume-or-960.jpg 56996 octets
-ok    public/images/plume-or-1600.jpg 153571 octets
-ok    public/images/plume-or-2400.jpg 390136 octets
-ok    public/images/accord-800.jpg 47781 octets
-ok    public/images/accord-1600.jpg 235687 octets
-ok    public/images/accord-2400.jpg 678523 octets
-ok    public/images/stylo-dossier-800.jpg 28295 octets
-ok    public/images/stylo-dossier-1200.jpg 50253 octets
-ok    public/images/stylo-dossier-1800.jpg 91864 octets
-ok    public/images/residences-mer-portrait-960.jpg 245012 octets
-ok    public/images/residences-mer-portrait-1400.jpg 453269 octets
-ok    public/images/paris-balcons-800.jpg 278015 octets
-ok    public/images/paris-balcons-1200.jpg 578570 octets
-ok    public/images/paris-balcons-1800.jpg 1170466 octets
-ok    public/images/paris-lumiere-800.jpg 281947 octets
-ok    public/images/paris-lumiere-1200.jpg 555313 octets
-ok    public/images/paris-lumiere-1800.jpg 1081369 octets
-ok    public/images/paris-angle-960.jpg 152275 octets
-ok    public/images/paris-angle-1600.jpg 377929 octets
-ok    public/images/paris-angle-2400.jpg 819281 octets
-ok    public/images/riviera-immeuble-800.jpg 276814 octets
-ok    public/images/riviera-immeuble-1200.jpg 584187 octets
-ok    public/images/riviera-immeuble-1800.jpg 1199165 octets
-ok    public/images/riviera-palmiers-960.jpg 183244 octets
-ok    public/images/riviera-palmiers-1600.jpg 492037 octets
-ok    public/images/riviera-palmiers-2400.jpg 1048328 octets
-ok    public/images/fontvieille-960.jpg 159335 octets
-ok    public/images/fontvieille-1600.jpg 429500 octets
-ok    public/images/fontvieille-2400.jpg 941852 octets
-ok    public/images/grue-960.jpg 140111 octets
-ok    public/images/grue-1600.jpg 409407 octets
-ok    public/images/grue-2400.jpg 1097102 octets
-ok    public/images/ville-fenetre-960.jpg 167220 octets
-ok    public/images/ville-fenetre-1600.jpg 472592 octets
-ok    public/images/ville-fenetre-2400.jpg 1135336 octets
+ok    altea-800 : 800×600, jpg 43 ko, avif 23 ko
+ok    altea-1200 : 1200×900, jpg 90 ko, avif 43 ko
+ok    altea-1600 : 1600×1200, jpg 149 ko, avif 66 ko
+ok    altea-2040 : 2040×1530, jpg 238 ko, avif 102 ko
+ok    altea-portrait-960 : 960×1200, jpg 104 ko, avif 49 ko
+ok    altea-portrait-1400 : 1400×1750, jpg 202 ko, avif 86 ko
+ok    altea-portrait-2040 : 2040×2550, jpg 414 ko, avif 174 ko
+ok    cassis-800 : 800×534, jpg 82 ko, avif 79 ko
+ok    cassis-1200 : 1200×800, jpg 183 ko, avif 171 ko
+ok    cassis-1600 : 1600×1067, jpg 329 ko, avif 314 ko
+ok    cassis-large-1600 : 1600×686, jpg 227 ko, avif 225 ko
+ok    cassis-large-2400 : 2400×1028, jpg 492 ko, avif 457 ko
+ok    cassis-large-3200 : 3200×1371, jpg 829 ko, avif 757 ko
+ok    pierre-ombre-800 : 800×1000, jpg 59 ko, avif 27 ko
+ok    pierre-ombre-1200 : 1200×1500, jpg 139 ko, avif 67 ko
+ok    pierre-ombre-1600 : 1600×2000, jpg 267 ko, avif 161 ko
+ok    villa-crepuscule-800 : 800×622, jpg 52 ko, avif 26 ko
+ok    villa-crepuscule-1200 : 1200×933, jpg 97 ko, avif 43 ko
+ok    villa-crepuscule-1600 : 1600×1244, jpg 151 ko, avif 64 ko
+ok    corniche-800 : 800×534, jpg 54 ko, avif 37 ko
+ok    corniche-1200 : 1200×800, jpg 112 ko, avif 76 ko
+ok    corniche-1600 : 1600×1067, jpg 189 ko, avif 138 ko
+ok    paris-balcons-800 : 800×1067, jpg 192 ko, avif 157 ko
+ok    paris-balcons-1200 : 1200×1600, jpg 388 ko, avif 286 ko
+ok    paris-balcons-1600 : 1600×2133, jpg 637 ko, avif 455 ko
+ok    villa-cassis-800 : 800×600, jpg 87 ko, avif 78 ko
+ok    villa-cassis-1200 : 1200×900, jpg 184 ko, avif 150 ko
+ok    villa-cassis-1600 : 1600×1200, jpg 302 ko, avif 241 ko
+ok    chantier-mer-800 : 800×600, jpg 118 ko, avif 103 ko
+ok    chantier-mer-1200 : 1200×900, jpg 232 ko, avif 173 ko
+ok    chantier-mer-1600 : 1600×1200, jpg 369 ko, avif 261 ko
+ok    travertin-800 : 800×1000, jpg 59 ko, avif 27 ko
+ok    travertin-1200 : 1200×1500, jpg 118 ko, avif 46 ko
+ok    travertin-1600 : 1600×2000, jpg 197 ko, avif 71 ko
+ok    fontvieille-960 : 960×640, jpg 97 ko, avif 86 ko
+ok    fontvieille-1600 : 1600×1067, jpg 259 ko, avif 206 ko
+ok    fontvieille-2400 : 2400×1600, jpg 561 ko, avif 424 ko
+ok    ville-fenetre-960 : 960×720, jpg 99 ko, avif 73 ko
+ok    ville-fenetre-1600 : 1600×1200, jpg 273 ko, avif 241 ko
+ok    ville-fenetre-2400 : 2400×1800, jpg 644 ko, avif 625 ko
+ok    paris-angle-960 : 960×644, jpg 95 ko, avif 63 ko
+ok    paris-angle-1600 : 1600×1073, jpg 228 ko, avif 133 ko
+ok    paris-angle-2400 : 2400×1609, jpg 480 ko, avif 280 ko
+ok    riviera-palmiers-960 : 960×640, jpg 118 ko, avif 100 ko
+ok    riviera-palmiers-1600 : 1600×1067, jpg 316 ko, avif 252 ko
+ok    riviera-palmiers-2400 : 2400×1600, jpg 667 ko, avif 508 ko
+ok    grue-960 : 960×1440, jpg 76 ko, avif 31 ko
+ok    grue-1600 : 1600×2400, jpg 182 ko, avif 55 ko
+ok    grue-2400 : 2400×3600, jpg 450 ko, avif 103 ko
+ok    tour-doree-800 : 800×1422, jpg 114 ko, avif 54 ko
+ok    tour-doree-1200 : 1200×2133, jpg 213 ko, avif 87 ko
+ok    tour-doree-1800 : 1800×3200, jpg 399 ko, avif 137 ko
+ok    plume-or-960 : 960×540, jpg 33 ko, avif 17 ko
+ok    plume-or-1600 : 1600×900, jpg 80 ko, avif 36 ko
+ok    plume-or-2400 : 2400×1350, jpg 179 ko, avif 83 ko
+ok    accord-800 : 800×534, jpg 29 ko, avif 10 ko
+ok    accord-1200 : 1200×800, jpg 65 ko, avif 18 ko
+ok    accord-1600 : 1600×1067, jpg 141 ko, avif 64 ko
+ok    stylo-dossier-800 : 800×534, jpg 16 ko, avif 5 ko
+ok    stylo-dossier-1200 : 1200×800, jpg 27 ko, avif 7 ko
+ok    stylo-dossier-1600 : 1600×1067, jpg 42 ko, avif 8 ko
+retiré accord-2400.jpg
+retiré andorre-1200.jpg
+retiré andorre-640.jpg
+retiré chantier-crepuscule-1600.jpg
+retiré chantier-crepuscule-2400.jpg
+retiré chantier-crepuscule-960.jpg
+retiré corniche-2400.jpg
+retiré emirats-1200.jpg
+retiré emirats-640.jpg
+retiré londres-1200.jpg
+retiré londres-640.jpg
+retiré monaco-crepuscule-1600.jpg
+retiré monaco-crepuscule-2400.jpg
+retiré monaco-crepuscule-960.jpg
+retiré monaco-crepuscule-paysage-1600.jpg
+retiré monaco-crepuscule-paysage-2400.jpg
+retiré paris-balcons-1800.jpg
+retiré paris-lumiere-1200.jpg
+retiré paris-lumiere-1800.jpg
+retiré paris-lumiere-800.jpg
+retiré residences-mer-1600.jpg
+retiré residences-mer-2400.jpg
+retiré residences-mer-800.jpg
+retiré residences-mer-portrait-1400.jpg
+retiré residences-mer-portrait-960.jpg
+retiré riviera-immeuble-1200.jpg
+retiré riviera-immeuble-1800.jpg
+retiré riviera-immeuble-800.jpg
+retiré stylo-dossier-1800.jpg
+retiré tour-couchant-1600.jpg
+retiré tour-couchant-2400.jpg
+retiré tour-couchant-960.jpg
+retiré villa-crepuscule-2400.jpg
