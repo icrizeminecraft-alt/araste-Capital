@@ -1,0 +1,104 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/",
+  "title": "Top Aviation Firms",
+  "h1": "Not revealed by search snippets. Search-result title of the case-study page is \"Top Aviation Firms\". A separate non-case-study page https://www.silveroakcapital.co.uk/top-aviation-firms/ carries the title \"Top Aviation Finance Law Firms in London\".",
+  "metaDescription": "Not revealed by search snippets.",
+  "summary": "Case study of an aircraft-finance enquiry routed to Silver Oak Capital through an aviation finance law firm. Deal as revealed: a law firm's private client team asked Silver Oak Capital to source financing for its client's purchase of a Bombardier G6000 business jet. Borrower: an Egyptian national (private individual, introduced by a law firm). Structure requested: an operating lease agreement, for flights between Cairo, Dubai and London. Amount: the client wanted to finance 80% of a $35 million purchase price (i.e. roughly $28m, 80% LTV; the $28m figure is arithmetic, not stated). Asset: Bombardier G6000 business jet, over 8 years old. Lender type: European lenders are referenced as the market (most would place the client in a high-risk category). Challenge: (1) the client's Egyptian nationality placed him in the high-risk category for most European lenders; (2) a high loan-to-value was challenging for an aircraft over 8 years old. Timing: not revealed. Outcome: NOT revealed by the search results (neither the lender found, the terms, nor whether the deal completed). Framing: the page sits within Silver Oak Capital's claim that it 'has partnered with some of the top aviation finance law firms in the world' so clients get 'complete and independent advice when arranging aircraft loans'. Related aviation case studies surfaced alongside: Gulfstream G650 ($40m, 80% LTV, 10-year term, European private bank) and Falcon 900 (70% LTV, 4.45% fixed, 72-month term, Dubai-based client).",
+  "verbatim": [
+    "[b] \"Silver Oak Capital has partnered with some of the top aviation finance law firms in the world to ensure our clients receive complete and independent advice when arranging aircraft loans.\"",
+    "[b] \"Their client was of Egyptian nationality and would require an operating lease agreement\"",
+    "[b] \"The clients' nationality (Egyptian) would place him in the high risk category for most European lenders. He also required a high loan to value which would prove challenging for an aircraft that was over 8 years old.\"",
+    "[b] (related case study /case-studies/g650/) \"Silver Oak Capital arranged $40m private jet finance at 80% LTV for a Gulfstream G650, with a 10-year term and tailored European private bank lending.\"",
+    "[b] (related case study /case-studies/aircraft-loan-falcon-900/) \"Silver Oak Capital arranged private jet finance at 70% LTV with a 4.45% fixed rate and 72-month term, helping a Dubai-based client source a suitable aircraft.\"",
+    "[a] (search-tool paraphrase, not page wording) \"It describes a law firm's private client team seeking help financing a Bombardier G6000 business jet for an Egyptian client, with the client wanting to finance 80% of a $35 million purchase.\"",
+    "[a] (search-tool paraphrase, not page wording) \"The client's nationality posed a lending risk, and the high loan-to-value request was hard to meet for an aircraft over eight years old.\"",
+    "[a] (search-tool paraphrase, not page wording) \"The site describes aviation finance firms as brokers who assist individuals or companies in financing or leasing private or commercial aircraft.\"",
+    "[b] (search-tool paraphrase, not page wording) \"The client, an Egyptian national, wanted an operating lease for flights between Cairo, Dubai, and London, and sought to finance 80% of the $35 million price\""
+  ],
+  "services": [
+    "Aviation finance / aircraft loans (business jet)",
+    "Operating lease arrangement for a business jet",
+    "Private jet finance sourcing via aviation finance law firm introductions",
+    "Independent advice when arranging aircraft loans (in partnership with aviation finance law firms)"
+  ],
+  "lenderTypes": [
+    "European lenders (referenced as the market; 'most' would class an Egyptian national as high risk)",
+    "European private bank (lender type in the related G650 case study, not stated for this case)"
+  ],
+  "useCases": [
+    "Financing the purchase of a pre-owned business jet (Bombardier G6000, over 8 years old) at a high loan-to-value (80% of $35m)",
+    "Operating lease for a private jet used for flights between Cairo, Dubai and London",
+    "Non-European (Egyptian) national seeking aircraft finance from European lenders",
+    "Law firm private client team outsourcing finance sourcing for a client to a broker"
+  ],
+  "terms": [
+    "operating lease agreement",
+    "loan to value (LTV)",
+    "high risk category (lender risk classification by nationality)",
+    "business jet / private jet finance",
+    "aircraft loans",
+    "aviation finance law firms",
+    "private client team",
+    "aircraft age (over 8 years old)",
+    "European lenders",
+    "fixed rate (related Falcon 900 case: 4.45% fixed)",
+    "term (related cases: 10-year; 72-month)"
+  ],
+  "eligibility": [
+    "Borrower nationality matters: Egyptian nationality 'would place him in the high risk category for most European lenders' (signal, not a stated rule)",
+    "Aircraft age limits leverage: a high LTV 'would prove challenging for an aircraft that was over 8 years old' (signal, not a stated rule)",
+    "Reference points from related aviation cases: 80% LTV achieved on a Gulfstream G650 ($40m, 10-year term); 70% LTV on a Falcon 900 (72 months, 4.45% fixed)"
+  ],
+  "processSteps": [
+    "A law firm's private client team approaches Silver Oak Capital to source financing for its client's aircraft purchase",
+    "Silver Oak Capital identifies the structure required (operating lease) and the constraints (nationality risk, high LTV, aircraft age)",
+    "Silver Oak Capital sources lenders - the remaining steps and the outcome are not revealed in the search results"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "Silver Oak Capital 'has partnered with some of the top aviation finance law firms in the world'", "kind": "positioning / partnership claim [b]"},
+    {"claim": "Clients 'receive complete and independent advice when arranging aircraft loans'", "kind": "promise [b]"},
+    {"claim": "Purchase price of the Bombardier G6000: $35 million", "kind": "number [a][b]"},
+    {"claim": "Client sought to finance 80% of the purchase price (80% LTV)", "kind": "number [a][b]"},
+    {"claim": "Aircraft was over 8 years old", "kind": "number [a][b]"},
+    {"claim": "Client of Egyptian nationality; high-risk category for most European lenders", "kind": "deal fact / risk statement [a][b]"},
+    {"claim": "Operating lease required; flights between Cairo, Dubai and London", "kind": "deal fact [b, tool paraphrase]"},
+    {"claim": "Related case: $40m private jet finance at 80% LTV, 10-year term, European private bank, Gulfstream G650", "kind": "number (related case study) [b]"},
+    {"claim": "Related case: private jet finance at 70% LTV, 4.45% fixed rate, 72-month term, Dubai-based client, Falcon 900", "kind": "number (related case study) [b]"},
+    {"claim": "Aviation finance firms described as brokers who assist individuals or companies in financing or leasing private or commercial aircraft", "kind": "definition (tool paraphrase of site) [a]"},
+    {"claim": "Outcome of the G6000 deal (lender, terms, completion)", "kind": "NOT REVEALED"}
+  ],
+  "geography": [
+    "Egypt (client nationality)",
+    "Cairo (flight route)",
+    "Dubai (flight route; Dubai-based client in related Falcon 900 case)",
+    "London (flight route; 'Top Aviation Finance Law Firms in London' companion page)",
+    "Europe (European lenders / European private bank)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/",
+    "https://www.silveroakcapital.co.uk/top-aviation-firms/ (title: Top Aviation Finance Law Firms in London - NOT in seed)",
+    "https://www.silveroakcapital.co.uk/aviation-finance/",
+    "https://www.silveroakcapital.co.uk/aviation-finance-lease-advisory/ (title: Aviation Finance & Leasing - NOT in seed)",
+    "https://www.silveroakcapital.co.uk/senior-secured-aircraft-finance-advisory/ (title: Aircraft Finance Advisory)",
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/g650/",
+    "https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/",
+    "https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/",
+    "https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/ (title: Residential Mortgage Loan - BVI Trust Refinance - Silver Oak Capital)",
+    "EXTERNAL: https://www.sharepresentation.com/silveroakcapital/top-aviation-finance-law-firms-london",
+    "EXTERNAL: https://www.slideserve.com/silveroakcapital/top-aviation-finance-law-firms-in-uk-powerpoint-ppt-presentation"
+  ],
+  "sections": [
+    {"heading": "Framing (partnership with aviation finance law firms)", "content": "\"Silver Oak Capital has partnered with some of the top aviation finance law firms in the world to ensure our clients receive complete and independent advice when arranging aircraft loans.\" [b]"},
+    {"heading": "The enquiry", "content": "A law firm's private client team sought help financing a Bombardier G6000 business jet for its client. \"Their client was of Egyptian nationality and would require an operating lease agreement\" [b]. Per tool paraphrase: operating lease for flights between Cairo, Dubai and London; client wanted to finance 80% of the $35 million price [a][b]."},
+    {"heading": "The challenge", "content": "\"The clients' nationality (Egyptian) would place him in the high risk category for most European lenders. He also required a high loan to value which would prove challenging for an aircraft that was over 8 years old.\" [b]"},
+    {"heading": "The outcome", "content": "Not revealed by search results. Tool [b] stated explicitly: \"The search results don't give the outcome of the Bombardier case, so I can't confirm how it ended.\""}
+  ],
+  "confidence": "medium",
+  "notes": "Direct fetch blocked; everything comes from two extended WebSearch calls (tagged [a] = exact-URL query, [b] = site: keyword query). Deal set-up and challenge are confirmed by near-identical verbatim snippets across both calls, so medium confidence on those facts; the outcome, lender, final terms, page H1/meta, CTAs and FAQ were not revealed, so confidence on completeness is low. Items marked 'tool paraphrase' are the search tool's own summary wording, not page text. The $35m x 80% = $28m figure is arithmetic, not stated. The slug 'top-aviation-firms' exists twice on the site: this case study and a top-level page /top-aviation-firms/ titled 'Top Aviation Finance Law Firms in London', which also circulates as a SlideServe/SharePresentation deck; tool [a] warned that some of those related pages 'read as promotional and contain garbled text' and that the firm's self-described standing is unverified marketing. Two site URLs not in the seed were surfaced: /top-aviation-firms/ and /aviation-finance-lease-advisory/. Unrelated results (DigitalDefynd, FasterCapital) ignored.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-top-aviation-firms.json"
+}

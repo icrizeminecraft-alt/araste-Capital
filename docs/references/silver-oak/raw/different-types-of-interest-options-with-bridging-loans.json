@@ -1,0 +1,95 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/different-types-of-interest-options-with-bridging-loans/",
+  "title": "Different Types of Interest Options with Bridging Loans",
+  "summary": "Blog article explaining the different ways interest can be charged and paid on a bridging loan. Per the search snippet, the page describes four options: rolled-up, retained, serviced and hybrid. Guidance revealed: rolled-up interest means no monthly payments, with interest added to the balance and cleared at the end of the term, but the final bill can be higher and may reduce sale proceeds; retained interest means the lender takes the whole term's interest at the start so the net amount advanced is smaller, and some lenders will not refund unused retained interest on early repayment; serviced interest is paid monthly like a traditional mortgage, the principal stays the same, and this suits borrowers with enough cash flow. The hybrid option is listed but not described in any snippet retrieved. The page itself could not be fetched; everything here is the search tool's summary of result snippets.",
+  "verbatim": [
+    "[a] It describes four options: rolled-up, retained, serviced, and hybrid.",
+    "[a] Rolled-up: The page says no monthly payments are made, and the interest is added to the balance and cleared at the end of the term. It notes the final bill can be higher and may reduce sale proceeds.",
+    "[a] Retained: The lender takes the full term's interest at the start, so the net amount advanced is smaller. The page cautions that some lenders won't refund unused retained interest if you repay early.",
+    "[a] Serviced: Interest is paid monthly, as with a traditional mortgage, and the principal stays the same. The page suggests this suits borrowers with enough cash flow.",
+    "[a] Hybrid: The snippet cuts off before describing this option.",
+    "[a] The search didn't fetch the Silver Oak page directly, but its result snippet covers the main interest structures.",
+    "[b] Rolled-up interest: Borrowers make no monthly payments. Interest builds into the balance and is settled at the end of the term, which eases cash flow but leaves a larger final sum. Under this structure, borrowers do not make monthly interest payments, and the interest is added to the total loan balance.",
+    "[b] Retained interest: The lender works out the interest for the whole term and deducts it at the start. The borrower therefore receives a lower net loan amount but has no monthly interest payments.",
+    "[b] Serviced interest: Interest is paid on a regular schedule throughout the term. This is the alternative to rolled-up interest described on the site's regulated/unregulated page.",
+    "[b] Hybrid interest: The first result's summary lists this as a fourth option, but the snippet I retrieved doesn't describe it.",
+    "[b] The site's \"Types of Borrowing\" page presents bridging interest as a lump sum paid at the end of the term, not monthly. It also gives an example at 0.75% per month, a 12-month term, rolled-up interest, and 75% loan to value.",
+    "[b] Rolled-up interest is where the interest payments are retained and settled at the end of the loan term, per the \"What are Bridging Loans\" page.",
+    "[b] The Silver Oak Capital site covers the main interest structures for bridging loans, though the results are from several different pages and vary in age."
+  ],
+  "services": [
+    "Bridging loans",
+    "Bridging loan interest structuring (rolled-up, retained, serviced, hybrid)"
+  ],
+  "claims": [
+    {"claim": "Bridging loans come with four interest options: rolled-up, retained, serviced and hybrid", "kind": "structure [a][b]"},
+    {"claim": "Rolled-up interest: no monthly payments; interest is added to the balance and cleared at the end of the term", "kind": "product-feature [a][b]"},
+    {"claim": "Rolled-up interest: eases cash flow but the final bill can be higher and may reduce sale proceeds", "kind": "caution [a][b]"},
+    {"claim": "Retained interest: the lender calculates the whole term's interest and deducts it at the start, so the net amount advanced is smaller", "kind": "product-feature [a][b]"},
+    {"claim": "Retained interest: some lenders will not refund unused retained interest if the loan is repaid early", "kind": "caution [a]"},
+    {"claim": "Serviced interest: paid monthly as with a traditional mortgage; the principal stays the same", "kind": "product-feature [a][b]"},
+    {"claim": "Serviced interest suits borrowers with enough cash flow", "kind": "guidance [a]"},
+    {"claim": "Hybrid interest is named as the fourth option but not described in any retrieved snippet", "kind": "gap [a][b]"},
+    {"claim": "Other Silver Oak page (/types-of-borrowing/): bridging interest presented as a lump sum paid at end of term, not monthly; example at 0.75% per month, 12-month term, rolled-up interest, 75% loan to value", "kind": "worked-example from another site page [b]"},
+    {"claim": "Other Silver Oak page (/what-are-bridging-loans-and-how-do-they-work/): rolled-up interest is where interest payments are retained and settled at the end of the loan term", "kind": "definition from another site page [b]"},
+    {"claim": "Other Silver Oak page (/difference-between-regulated-unregulated-bridging-loans/): serviced interest described as the alternative to rolled-up interest", "kind": "cross-reference from another site page [b]"}
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/different-types-of-interest-options-with-bridging-loans.json",
+  "terms": [
+    "rolled-up interest",
+    "retained interest",
+    "serviced interest",
+    "hybrid interest",
+    "net loan amount / net amount advanced",
+    "loan term",
+    "principal",
+    "loan balance",
+    "sale proceeds",
+    "early repayment",
+    "loan to value (LTV)",
+    "lump sum interest at end of term"
+  ],
+  "eligibility": [
+    "Serviced interest: suits borrowers with enough cash flow to pay interest monthly [a]",
+    "Rolled-up and retained interest: no monthly interest payments are required from the borrower [a][b]"
+  ],
+  "processSteps": [
+    "Rolled-up: no monthly payments; interest accrues onto the loan balance and the whole sum is cleared at the end of the term [a][b]",
+    "Retained: lender calculates interest for the whole term and deducts it from the advance at the start; borrower receives a lower net loan amount and makes no monthly payments [a][b]",
+    "Serviced: borrower pays interest monthly (regular schedule) throughout the term; principal remains unchanged until repayment [a][b]",
+    "Hybrid: mechanics not revealed in any snippet [a][b]"
+  ],
+  "faq": [],
+  "geography": [
+    "United Kingdom - implied by the site's bridging-loan focus (seed file); no location is stated in the snippets for this article"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/types-of-borrowing/",
+    "https://www.silveroakcapital.co.uk/what-are-bridging-loans-and-how-do-they-work/",
+    "https://www.silveroakcapital.co.uk/do-i-need-income-for-a-bridging-loan/",
+    "https://www.silveroakcapital.co.uk/difference-between-regulated-unregulated-bridging-loans/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/",
+    "https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/",
+    "https://www.silveroakcapital.co.uk/regulating-bridging-loans-through-fca-rules/amp/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/"
+  ],
+  "lenderTypes": [],
+  "useCases": [
+    "Rolled-up interest for borrowers who want to ease cash flow during the term and settle everything at exit (accepting a larger final sum) [a][b]",
+    "Retained interest for borrowers who want no monthly payments and accept a smaller net advance [a][b]",
+    "Serviced interest for borrowers with sufficient cash flow who want to keep the principal unchanged [a]"
+  ],
+  "sections": [
+    {"heading": "Overview (as revealed by snippet)", "content": "The article covers the main interest structures available with bridging loans and describes four options: rolled-up, retained, serviced and hybrid. [a]"},
+    {"heading": "Rolled-up interest", "content": "No monthly payments are made; interest is added to the loan balance and cleared at the end of the term. This eases cash flow but leaves a larger final sum; the page notes the final bill can be higher and may reduce sale proceeds. [a][b]"},
+    {"heading": "Retained interest", "content": "The lender works out the interest for the full term and takes/deducts it at the start, so the net amount advanced is smaller and the borrower has no monthly interest payments. The page cautions that some lenders will not refund unused retained interest if you repay early. [a][b]"},
+    {"heading": "Serviced interest", "content": "Interest is paid monthly (on a regular schedule), as with a traditional mortgage, and the principal stays the same. The page suggests this suits borrowers with enough cash flow. [a][b]"},
+    {"heading": "Hybrid interest", "content": "Listed as the fourth option; the snippet cuts off before describing it and no other retrieved result explains it. Content not available. [a][b]"},
+    {"heading": "Related Silver Oak pages surfaced by search [b]", "content": "Types of Borrowing (bridging interest as a lump sum at end of term; example 0.75% per month, 12-month term, rolled-up interest, 75% LTV); What are Bridging Loans and How Do They Work? (rolled-up interest = interest payments retained and settled at end of term); Difference between Regulated & Unregulated Bridging Loans (serviced interest as the alternative to rolled-up); Do I Need Income for a Bridging Loan?; How Does a Bridging Loan Work?; Importance of Bridging Loans for Property Development; FCA Bridging Loan Regulations Explained (AMP URL); How Bridging Loans Help Property Developers (URL slug how-does-a-bridge-loan-work-for-developers)."}
+  ],
+  "notes": "Direct fetch impossible; the search tool explicitly stated it did not fetch the Silver Oak page and worked from its result snippet. All verbatim items are the search tool's summary sentences describing the snippet, not confirmed page text, so exact article wording may differ. Not revealed: H1, meta description, author, publication date, word count, in-article CTAs, FAQ block, in-article internal links, any lender names, rates or numbers on this specific page, and the entire hybrid-interest section. Confidence is medium because the four-option structure and the pros/cons of three options are consistently reported across both queries, but the hybrid section is missing and the text is paraphrased. Excluded as unrelated: bridgingloan.org.uk rate range (0.44% to 2% per month, short vs long term) and the Wikipedia note about Market Financial Solutions entering administration in February 2026 - neither comes from Silver Oak. Other unrelated result domains ignored: gocardless, yahoo finance, uswitch, moneysupermarket, ukmoneyman, mortgagelane. New Silver Oak URLs not present in seed.json: /do-i-need-income-for-a-bridging-loan/ and /difference-between-regulated-unregulated-bridging-loans/; also an /amp/ variant of the FCA article. Result (b) showed the title 'How Bridging Loans Help Property Developers' for the /how-does-a-bridge-loan-work-for-developers/ URL. The 0.75%/12-month/75% LTV example belongs to /types-of-borrowing/, not to this article. Search allowance: exactly 2 WebSearch calls used, 0 refused."
+}

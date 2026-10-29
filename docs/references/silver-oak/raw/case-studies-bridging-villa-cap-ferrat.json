@@ -1,0 +1,107 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/",
+  "title": "Bridging Villa Cap Ferrat",
+  "h1": "",
+  "metaDescription": "",
+  "summary": "Case study of a EUR 5 million bridging loan arranged by Silver Oak Capital against a large villa near Monaco (Cap Ferrat per the page slug and title) with an estimated value of EUR 8 million (62.5% LTV). Purpose: refinance an existing mortgage and release funds for refurbishment. The villa had planning permission to become a boutique hotel. Borrower: a Dubai-based client with hotel-asset experience and an income able to cover monthly interest. Terms: 0.55% per month, 24-month term, interest serviced monthly, 1.50% bank fee shared with Silver Oak. Challenge: many lenders had left the hotel lending market after the Covid-19 pandemic and the remaining ones were pricier; Silver Oak says it used its niche lender relationships to structure a bespoke mortgage. Lender not named (the 'bank fee' wording implies a bank). No dates or completion timeline revealed. Outcome as stated: the loan was arranged. The search tool reported that the /bridging-loans-uk/ page lists the same villa as a featured case with consistent details.",
+  "verbatim": [
+    "[a] Silver Oak Capital arranged a €5 million bridging loan against a villa with an estimated value of €8 million, used to refinance an existing mortgage and free up funds for refurbishment.",
+    "[a] A large villa near Monaco that had planning permission to become a boutique hotel.",
+    "[a] A Dubai-based client with hotel-asset experience and an income able to cover monthly interest.",
+    "[a] 62.5% loan-to-value, 0.55% per month, 24-month term, interest serviced monthly, and a 1.50% bank fee shared with Silver Oak.",
+    "[a] Many lenders had left the hotel lending market after the Covid-19 pandemic, and the remaining ones were pricier. Silver Oak used its niche lender relationships to structure a bespoke mortgage.",
+    "[a] Other Silver Oak pages in the results describe the same villa deal in similar terms, so the details look consistent across the site.",
+    "[b] The page describes a villa near Monaco with planning permission for conversion to a boutique hotel.",
+    "[b] The borrower needed to refinance an existing mortgage and release funds for refurbishment.",
+    "[b] The loan was €5 million against an estimated €8 million value, which is a 62.5% LTV.",
+    "[b] The terms were 0.55% per month over 24 months, with interest serviced monthly and a 1.50% bank fee shared with Silver Oak.",
+    "[b] The main difficulty was finding lenders still willing to fund hotel development after the Covid-19 pandemic, and Silver Oak said it used its niche lender relationships to structure the deal.",
+    "[b] Bridging loans overview page, which lists the same villa as a featured case: https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "[a][b] Result link title for the page: \"Bridging Villa Cap Ferrat\""
+  ],
+  "services": [
+    "Bridging loan (international / Western Europe, euro-denominated)",
+    "Refinance of an existing mortgage",
+    "Release of funds for refurbishment",
+    "Hotel finance (villa with planning permission for boutique hotel conversion)",
+    "Lending to a non-UK-resident / Dubai-based borrower"
+  ],
+  "claims": [
+    {"claim": "EUR 5 million bridging loan", "kind": "number"},
+    {"claim": "Villa estimated value EUR 8 million", "kind": "number"},
+    {"claim": "62.5% loan-to-value", "kind": "number"},
+    {"claim": "0.55% per month interest rate", "kind": "number"},
+    {"claim": "24-month term", "kind": "number"},
+    {"claim": "Interest serviced monthly", "kind": "structure"},
+    {"claim": "1.50% bank fee shared with Silver Oak", "kind": "fee"},
+    {"claim": "Villa had planning permission to become a boutique hotel", "kind": "asset-fact"},
+    {"claim": "Borrower is Dubai-based, has hotel-asset experience and income able to cover monthly interest", "kind": "borrower-fact"},
+    {"claim": "Many lenders left the hotel lending market after the Covid-19 pandemic; remaining ones were pricier", "kind": "market-claim"},
+    {"claim": "Silver Oak used its niche lender relationships to structure a bespoke mortgage", "kind": "positioning"},
+    {"claim": "External press result title (not this page): 'Silver Oak Capital completes its largest ever bridging loan of £19.1m' (bridgingandcommercial.co.uk)", "kind": "external-press"}
+  ],
+  "terms": [
+    "Loan amount: EUR 5,000,000",
+    "Security: villa near Monaco, estimated value EUR 8,000,000",
+    "LTV: 62.5%",
+    "Rate: 0.55% per month",
+    "Term: 24 months",
+    "Interest: serviced monthly (not rolled up)",
+    "Bank fee: 1.50%, shared with Silver Oak",
+    "Purpose: refinance existing mortgage plus release of funds for refurbishment"
+  ],
+  "eligibility": [
+    "Borrower attributes stated (not framed as explicit criteria): Dubai-based client",
+    "Borrower attributes stated: experience with hotel assets",
+    "Borrower attributes stated: income able to cover monthly interest (interest serviced monthly)",
+    "Asset attribute stated: planning permission in place for boutique hotel conversion"
+  ],
+  "processSteps": [
+    "Not laid out as numbered steps in the results. Elements described: (1) borrower needed to refinance an existing mortgage and release refurbishment funds; (2) difficulty: few lenders still funding hotel assets post-Covid-19, remaining ones pricier; (3) Silver Oak used niche lender relationships; (4) a bespoke mortgage/bridging facility was structured on the terms listed."
+  ],
+  "faq": [],
+  "geography": [
+    "Cap Ferrat (from page slug and result title)",
+    "near Monaco (per search summary)",
+    "Dubai (borrower location)",
+    "France / Cote d'Azur (geographic inference from 'Cap Ferrat'; NOT stated in the snippets)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "https://www.silveroakcapital.co.uk/case-studies/miami-developer/",
+    "https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/mayfair-self-employed-equity-release/",
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-loan-land-with-planning/",
+    "EXTERNAL: https://bridgingandcommercial.co.uk/silver-oak-capital-completes-its-largest-ever-bridging-loan-of-pound-19-1m",
+    "EXTERNAL (background only): https://en.wikipedia.org/wiki/Cap_Ferrat",
+    "EXTERNAL (unrelated): https://en.wikipedia.org/wiki/Villa_La_Mauresque"
+  ],
+  "lenderTypes": [
+    "Lender not named",
+    "'Niche lender relationships' (Silver Oak wording per search summary)",
+    "'Bank fee' wording implies a bank lender",
+    "Lenders still active in hotel lending after Covid-19"
+  ],
+  "useCases": [
+    "Refinancing an existing mortgage on a prime Riviera villa",
+    "Releasing capital for refurbishment",
+    "Bridging a villa-to-boutique-hotel conversion with planning permission in place",
+    "Cross-border lending: Dubai-based borrower, asset near Monaco, euro loan"
+  ],
+  "sections": [
+    {"heading": "Deal (grouping by harvester, not a confirmed page heading)", "content": "EUR 5 million bridging loan against a villa with an estimated value of EUR 8 million, used to refinance an existing mortgage and free up funds for refurbishment."},
+    {"heading": "Property", "content": "A large villa near Monaco (Cap Ferrat per slug/title) that had planning permission to become a boutique hotel."},
+    {"heading": "Borrower", "content": "A Dubai-based client with hotel-asset experience and an income able to cover monthly interest."},
+    {"heading": "Terms", "content": "62.5% LTV, 0.55% per month, 24-month term, interest serviced monthly, 1.50% bank fee shared with Silver Oak."},
+    {"heading": "Challenge and solution", "content": "Many lenders had left the hotel lending market after the Covid-19 pandemic and the remaining ones were pricier. Silver Oak used its niche lender relationships to structure a bespoke mortgage."}
+  ],
+  "confidence": "medium",
+  "notes": "Direct fetch blocked; everything comes from the WebSearch tool's two result sets (a = exact-URL query, b = site: query). The 'verbatim' entries are the search tool's own summary sentences, not confirmed page text; the only confirmed page-level string is the result title 'Bridging Villa Cap Ferrat'. H1, meta description, FAQ, CTAs, dates/timeline, lender name and the borrower's identity were NOT revealed. Figures (EUR 5m, EUR 8m, 62.5%, 0.55%/month, 24 months, 1.50% fee) were identical in both searches and the tool stated the /bridging-loans-uk/ page features the same villa with consistent details, hence medium rather than low confidence. The bridgingandcommercial.co.uk GBP 19.1m article is unrelated to this page and recorded only as a seen URL. Exactly 2 WebSearch calls were made, none refused.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-bridging-villa-cap-ferrat.json"
+}

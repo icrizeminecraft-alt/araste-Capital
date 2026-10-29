@@ -1,0 +1,103 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/",
+  "title": "Purchase And Upgrade £21 Million Office In London",
+  "h1": "Not directly revealed. Two link titles were returned for the page: \"Purchase And Upgrade £21 Million Office In London\" [b] and \"£21M London Office Purchase & Upgrade\" [a]. The first matches the URL slug and is likely the H1/page title; the second may be the SEO/meta title.",
+  "metaDescription": "Not revealed in search results.",
+  "summary": "Case study of a commercial office acquisition facility. A London-based property developer called Silver Oak Capital after making an offer on a central London office building let to a single tenant, with a purchase price of £21m. The developer's plan was to hold the building until the existing lease expired (about 2.5 years away) while seeking planning permission to add a floor and carry out a high-spec upgrade/refit. Challenge: the developer needed more than 65% LTV at a time when lender appetite for offices was limited, many lenders reducing office exposure since COVID. Silver Oak approached a London-based specialist debt fund keen on value-add office deals. The lender's offer was conditional on the developer directing the remaining rental income to the loan, and the lender was expected to release refurbishment funds once the building became vacant. The borrower was experienced with a record of similar schemes. Outcome: finance secured at 68% LTV, 4.75% fixed rate, three-year interest-only term. The results did not reveal the exact loan amount (whether £21m is the purchase price or the facility is ambiguous in the summaries; one summary says 'arranged £21m' and also 'the purchase price was £21m'), the completion date, or the full 'solution' section, which the search tool said was cut off.",
+  "verbatim": [
+    "[a] \"Silver Oak Capital secured finance for a £21m Central London office at 68% LTV, with a 4.75% fixed rate and three-year interest-only term.\"",
+    "[a] \"We received a call from a London based property developer who had made an offer on a central London office building with a single tenant.\"",
+    "[a] \"Silver Oak arranged £21m for a Central London office at 68% loan-to-value. The rate was a 4.75% fixed rate, with a three-year interest-only term.\"",
+    "[a] \"A London developer had bid on a single-tenant central London office. The plan was to hold it until the lease ended, about 2.5 years away, while seeking planning permission to add a floor and upgrade the building.\"",
+    "[a] \"The developer needed more than 65% LTV. Lender appetite for offices was limited, since many lenders are reducing their exposure to these properties after COVID.\"",
+    "[a] \"The broker approached a London-based specialist debt fund that was keen on value-add office deals.\"",
+    "[a] \"The borrower was experienced and had a record of similar schemes. The lender was also expected to release refurbishment funds once the building was vacant. The purchase price was £21m.\"",
+    "[a] \"The search returned only excerpts of the page, not the full case study, so the solution section is cut off.\"",
+    "[b] \"Silver Oak Capital secured finance for a £21m Central London office at 68% LTV, with a 4.75% fixed rate and three-year interest-only term.\"",
+    "[b] \"The borrower's plan was to hold the building until its lease ended, roughly 2.5 years away, while seeking planning permission for an extra floor and a high-spec refit.\"",
+    "[b] \"The broker approached a London-based specialist debt fund that was keen on value-add office deals.\"",
+    "[b] \"That lender's offer depended on the developer directing the remaining rental income to the loan.\"",
+    "[b] \"The page also notes that many lenders are reducing their exposure to these properties since the pandemic.\"",
+    "[b] \"Other pages on the site (the property development finance and commercial mortgage broker pages) only feature a short teaser for this deal, describing a central London office building with a single tenant.\""
+  ],
+  "services": [
+    "Commercial office acquisition finance (value-add office purchase)",
+    "Commercial mortgage / specialist debt fund facility (teaser for this deal appears on /commercial-mortgage-broker/ and /property-development-finance/ per [b])",
+    "Refurbishment funding released post-vacancy (lender expected to release refurbishment funds once building vacant)"
+  ],
+  "claims": [
+    {"claim": "£21m Central London office (purchase price £21m)", "kind": "deal size / asset value"},
+    {"claim": "68% LTV (loan-to-value)", "kind": "leverage"},
+    {"claim": "4.75% fixed rate", "kind": "pricing"},
+    {"claim": "Three-year interest-only term", "kind": "term / structure"},
+    {"claim": "Developer needed more than 65% LTV", "kind": "challenge / requirement"},
+    {"claim": "Existing single tenant lease ending in about 2.5 years", "kind": "asset detail / timing"},
+    {"claim": "Many lenders are reducing their exposure to offices after COVID / since the pandemic", "kind": "market commentary"},
+    {"claim": "Lender: London-based specialist debt fund keen on value-add office deals", "kind": "lender type"},
+    {"claim": "Lender offer conditional on developer directing remaining rental income to the loan", "kind": "loan condition"},
+    {"claim": "Lender expected to release refurbishment funds once the building was vacant", "kind": "loan structure"},
+    {"claim": "Borrower experienced with a record of similar schemes", "kind": "borrower profile"},
+    {"claim": "Plan: seek planning permission to add a floor and carry out a high-spec upgrade/refit", "kind": "business plan"}
+  ],
+  "terms": [
+    "LTV / loan-to-value",
+    "fixed rate",
+    "interest-only term",
+    "specialist debt fund",
+    "value-add office",
+    "single-tenant office",
+    "lease expiry",
+    "planning permission (additional floor)",
+    "refurbishment funds",
+    "rental income directed to the loan (income sweep)",
+    "post-COVID lender appetite for offices"
+  ],
+  "eligibility": [
+    "Not stated as explicit criteria. Implied borrower profile: experienced London-based property developer with a record of similar (value-add office) schemes.",
+    "Implied asset profile: central London office, single tenant, short remaining lease (~2.5 years), value-add potential."
+  ],
+  "processSteps": [
+    "Developer makes an offer on a single-tenant central London office and calls Silver Oak Capital.",
+    "Requirement identified: more than 65% LTV, against limited post-COVID lender appetite for offices.",
+    "Silver Oak approaches a London-based specialist debt fund keen on value-add office deals.",
+    "Lender offer made, conditional on the developer directing the remaining rental income to the loan.",
+    "Finance secured: 68% LTV, 4.75% fixed, three-year interest-only.",
+    "Lender expected to release refurbishment funds once the building is vacant (after lease expiry ~2.5 years), to fund the added floor / upgrade subject to planning."
+  ],
+  "faq": [],
+  "geography": [
+    "Central London (asset)",
+    "London (borrower: London-based property developer)",
+    "London (lender: London-based specialist debt fund)",
+    "United Kingdom"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/",
+    "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/manchester-office/",
+    "https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/residential-portfolio-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/successful-refinance-3-5-million-loan/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/",
+    "https://silveroakcapital.odoo.com/"
+  ],
+  "lenderTypes": [
+    "London-based specialist debt fund (keen on value-add office deals)"
+  ],
+  "useCases": [
+    "Purchase of a single-tenant central London office building",
+    "Hold asset to lease expiry (~2.5 years) then refurbish",
+    "Value-add office: planning permission for an additional floor and high-spec refit/upgrade",
+    "Higher leverage (>65% LTV) on an office asset in a post-COVID market with reduced lender appetite"
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "notes": "Both searches returned consistent deal facts (£21m, 68% LTV, 4.75% fixed, 3-year interest-only, single-tenant central London office, ~2.5-year lease, specialist debt fund, rental income directed to loan). However the search tool explicitly stated it returned only excerpts and that the 'solution section is cut off', so the full page text, exact loan amount, dates, and any closing paragraph/CTA were not captured. Ambiguity: [a] says both 'Silver Oak arranged £21m' and 'The purchase price was £21m'; at 68% LTV the facility would be smaller than £21m (derived, not stated: ~£14.3m) - treat £21m as the asset/purchase price per the page title. Most verbatim lines are the search tool's summary wording rather than confirmed page copy; the only clearly first-person page sentence is 'We received a call from a London based property developer...'. No H1/meta description, FAQ or CTA was revealed. Two case-study URLs not in the seed file appeared: /case-studies/residential-portfolio-refinance/ and /case-studies/successful-refinance-3-5-million-loan/. Unrelated results ignored: Wikipedia pages for Delancey (company) and 15 Canada Square.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-purchase-and-upgrade-21-million-office-in-london.json"
+}

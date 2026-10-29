@@ -1,0 +1,80 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/development-finance-requirements-in-the-uk-explained/",
+  "title": "Development Finance Requirements UK Explained",
+  "summary": "Blog article by Silver Oak Capital on what UK development finance lenders require from borrowers. Per the search tool's summary of result (b), the article is a guide to eligibility factors whose first listed requirement is 'Experience and Track Record', treated as one of the most important factors because lenders see inexperienced developers as higher risk. The same summary, drawing on this page and related Silver Oak pages without always distinguishing which, lists further requirements: an equity contribution (no lender funds 100% of a development), planning (most development finance lenders will not take planning risk), close scrutiny of the contractor's experience, finances and professional team, loan sizing by LTV/LTC/LTGDV with a maximum cited at 75% loan to GDV, first-time developer limits of 60-65% LTGDV with a larger cash deposit and personal guarantees, and staged drawdown verified by an independent surveyor. Search (a) with the exact URL did not return the page; its third-party results are excluded.",
+  "verbatim": [
+    "[b] The main article is \"Development Finance Requirements in the UK Explained,\" and the other results cover related topics.",
+    "[b] The main guide treats the developer's experience as one of the most important eligibility factors, since lenders see inexperienced developers as higher risk. Experience and Track Record is its first listed requirement.",
+    "[b] The site's LTV/LTC/LTGDV guide explains that these metrics set the maximum loan, the equity the developer must contribute, and whether a project is viable. For example, one article notes that lenders may lend up to a maximum of 75% loan to GDV.",
+    "[b] One article says that it is impossible to find a lender who will fund the full development without an equity contribution from the borrower.",
+    "[b] According to the site, most development finance lenders will not take planning risk.",
+    "[b] Lenders examine the contractor's experience, finances, and professional team closely.",
+    "[b] The first-time developer page says lenders typically offer a maximum of 60% to 65% LTGDV to those applicants, and they usually expect a larger cash deposit. Personal guarantees are also expected.",
+    "[b] Funds are released in stages rather than as a lump sum. The lender verifies completed work, often through an independent surveyor, before reimbursing the developer.",
+    "[b] Caveats: the search results are excerpts and snippets, so I could not confirm the full text of each page. Some figures, such as LTV and deposit ranges, vary by lender and deal, and the site's own pages present them as typical rather than fixed.",
+    "[a] I couldn't find the Silver Oak Capital page itself in the results, so I searched the general topic of UK development finance requirements instead."
+  ],
+  "services": [
+    "Property development finance (UK)",
+    "First-time developer finance",
+    "Development finance brokerage"
+  ],
+  "claims": [
+    {"claim": "Experience and Track Record is the first listed requirement in the article; lenders see inexperienced developers as higher risk.", "kind": "eligibility"},
+    {"claim": "Lenders may lend up to a maximum of 75% loan to GDV (summary attributes this to 'one article' on the site, not confirmed as this page).", "kind": "number"},
+    {"claim": "It is impossible to find a lender who will fund the full development without an equity contribution from the borrower (summary attributes this to 'one article' on the site).", "kind": "eligibility"},
+    {"claim": "Most development finance lenders will not take planning risk (summary attributes this to 'the site').", "kind": "eligibility"},
+    {"claim": "First-time developers typically offered a maximum of 60% to 65% LTGDV, larger cash deposit expected, personal guarantees expected (from /first-time-developer-finance/, a related page).", "kind": "number"},
+    {"claim": "Funds are released in stages; lender verifies completed work, often through an independent surveyor, before reimbursing the developer (attribution within site not specified).", "kind": "process"},
+    {"claim": "Related page title: 'Why 70% of London Development Finance Deals Get Rejected' (/why-lenders-reject-70-of-london-resi-led-development-deals/).", "kind": "number"}
+  ],
+  "terms": [
+    "Gross Development Value (GDV)",
+    "Loan to GDV (LTGDV)",
+    "LTV",
+    "LTC",
+    "Equity contribution",
+    "Planning risk",
+    "Personal guarantee",
+    "Staged drawdown",
+    "Independent surveyor",
+    "Track record"
+  ],
+  "eligibility": [
+    "Experience and track record of the developer (first listed requirement in the article).",
+    "Equity contribution from the borrower; no lender funds the full development (attributed to 'one article' on the site).",
+    "Planning: most development finance lenders will not take planning risk (attributed to 'the site').",
+    "Contractor's experience, finances and professional team are examined closely (attribution within site not specified).",
+    "First-time developers: maximum 60-65% LTGDV, larger cash deposit, personal guarantees (from the related /first-time-developer-finance/ page)."
+  ],
+  "processSteps": [
+    "Funds released in stages rather than as a lump sum.",
+    "Lender verifies completed work, often through an independent surveyor, before reimbursing the developer."
+  ],
+  "faq": [],
+  "geography": [
+    "United Kingdom",
+    "London (related page title on London resi-led development deals)",
+    "Scotland (related page on development finance in Scotland)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/complete-guide-to-development-loans-for-property-projects-uk/",
+    "https://www.silveroakcapital.co.uk/why-lenders-reject-70-of-london-resi-led-development-deals/",
+    "https://www.silveroakcapital.co.uk/first-time-developer-finance/",
+    "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/how-does-property-development-finance-in-scotland/",
+    "https://www.silveroakcapital.co.uk/conversions/"
+  ],
+  "lenderTypes": [
+    "Development finance lenders (generic; no specific lender types named in results)"
+  ],
+  "useCases": [],
+  "confidence": "low",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/development-finance-requirements-in-the-uk-explained.json",
+  "notes": "Search (a) (exact URL, extended) did not return the Silver Oak page; it returned only third-party lender/broker pages (swoopfunding, thelondonreport, commercialtrust, constructioncapital, easfinance, nmfinance, abcfinance), whose content is NOT recorded here as it is not Silver Oak content. Search (b) (site: query, extended) returned the target page with SERP title 'Development Finance Requirements UK Explained' plus 8 related Silver Oak URLs. No raw snippet text from the page was exposed; all content comes from the search tool's summary, which blends the main article with related site pages. Only the 'Experience and Track Record' point is explicitly attributed to the main guide; the equity, planning-risk, contractor, 75% LTGDV and staged-drawdown points are attributed to 'one article' or 'the site', and the 60-65% LTGDV / deposit / personal guarantee points to the first-time developer page. H1, meta description, author, publication date, FAQ blocks and CTAs were not revealed. Two URLs not in seed.json were discovered: /complete-guide-to-development-loans-for-property-projects-uk/ and /why-lenders-reject-70-of-london-resi-led-development-deals/. Related page titles seen: 'Development Finance LTV, LTC & LTGDV Explained', 'Property Finance FAQs', 'Development Loans for Property Projects UK', 'Why 70% of London Development Finance Deals Get Rejected', 'First Time Developer Finance UK', 'Best Finance Options for New Build Homes', 'How Does Property Development Finance Work in Scotland?', 'Property Conversion Finance UK'."
+}

@@ -1,0 +1,105 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/",
+  "title": "High Net Worth Property Funding UK Guide",
+  "summary": "Blog article (not a case study). Per the search tool's summary of the page's opening sections only: the article defines high net worth (HNW) property funding and explains how to access it in the UK. Its thesis is that HNW borrowers often have complex needs that make them unsuitable for traditional mortgages, so tailored products exist that cover international borrowing structures and unusual income profiles. Concrete guidance surfaced: (1) the FCA's current HNW criteria are annual income above GBP 300,000 or assets above GBP 3 million; (2) HNW lenders assess the borrower's wider wealth, including multiple income streams, managed assets and alternative assets, rather than standard affordability; (3) this flexibility allows loan structures that standard mortgages cannot offer; (4) HNW loans are typically GBP 1 million and up. The excerpt cut off before the loan-size section, so the remainder of the article (structures, process, costs, CTAs) was not revealed.",
+  "h1": "",
+  "metaDescription": "",
+  "verbatim": [
+    "[a] Search-result title: \"High Net Worth Property Funding UK Guide\"",
+    "[a] \"The article defines HNW property funding and explains how to access it in the UK.\"",
+    "[a] \"HNW borrowers often have complex needs that make them unsuitable for traditional mortgages.\"",
+    "[a] \"It describes tailored products covering international borrowing structures and unusual income profiles.\"",
+    "[a] \"The article says the FCA's current criteria are annual income above £300,000 or assets above £3 million\"",
+    "[a] \"Lenders look at the borrower's wider wealth, including multiple income streams, managed assets, and alternative assets\"",
+    "[a] \"That flexibility allows structures that standard mortgages can't offer\"",
+    "[a] \"The excerpt cuts off before the loan-size section\"",
+    "[a] \"The search returned the article's opening sections, not the full text\"",
+    "[b] \"One guide describes the FCA's HNWI thresholds as £300,000 in annual earnings or £3 million in assets.\"",
+    "[b] \"That page is about 463 days old, so check the current figures.\"",
+    "[b] \"It also says HNW lending is often assessed against the client's wider wealth, and that loans are typically £1 million and up.\"",
+    "[b] (related page, bridging guide) \"HNW borrowers can often move faster under relaxed rules.\"",
+    "[b] (related page, bridging) \"bridging loans usually run 6 to 24 months and are assessed mainly on property value, exit strategy, and speed.\"",
+    "[b] (related page, private bank mortgages) \"bespoke products for clients with complex finances, large loans, or unusual ownership structures. The existing bank relationship is what allows the flexibility.\"",
+    "[b] (related case study) \"A £1.46 million, five-year interest-only refinance on a Prime Central London property was arranged with a non-standard loan purpose, combined household income, and an overseas guarantor.\"",
+    "[b] (related FAQ page) \"the firm works with over 800 lenders in the UK and internationally.\""
+  ],
+  "services": [
+    "High net worth (HNW) property funding / HNW mortgages (subject of the article)",
+    "Tailored lending for international borrowing structures (per article excerpt)",
+    "Tailored lending for unusual income profiles (per article excerpt)",
+    "Private bank mortgages (related page surfaced in [b])",
+    "Bridging loans for HNW individuals (related pages surfaced in [a]/[b])",
+    "Prime London mortgages (related page surfaced in [a]/[b])",
+    "Prime Central London refinance (related case study surfaced in [a]/[b])"
+  ],
+  "lenderTypes": [
+    "Lenders that assess the borrower's wider wealth (multiple income streams, managed assets, alternative assets) rather than standard affordability (article excerpt [a]/[b])",
+    "Private banks offering bespoke mortgages built on an existing banking relationship (related /private-bank-mortgages/ page, [b])"
+  ],
+  "useCases": [
+    "HNW borrowers with complex needs unsuitable for traditional mortgages",
+    "Borrowers using international borrowing structures",
+    "Borrowers with unusual income profiles",
+    "Refinance of Prime Central London property with non-standard loan purpose, combined household income and overseas guarantor (related case study, not this article)"
+  ],
+  "terms": [
+    "High net worth (HNW) / HNWI",
+    "FCA high net worth criteria (GBP 300,000 annual income or GBP 3 million assets)",
+    "Wider wealth assessment",
+    "Multiple income streams",
+    "Managed assets",
+    "Alternative assets",
+    "International borrowing structures",
+    "Unusual income profiles",
+    "Traditional / standard mortgage",
+    "Interest-only (related case study)",
+    "Overseas guarantor (related case study)",
+    "Exit strategy (related bridging page)"
+  ],
+  "eligibility": [
+    "FCA HNW criteria: annual income above GBP 300,000 or assets above GBP 3 million (article, [a] and [b])",
+    "Assessment based on the borrower's wider wealth: multiple income streams, managed assets, alternative assets (article, [a]/[b])",
+    "Loans typically GBP 1 million and up (article, [b])"
+  ],
+  "processSteps": [],
+  "faq": [],
+  "claims": [
+    {"claim": "FCA's current HNW criteria: annual income above £300,000 or assets above £3 million", "kind": "regulatory-threshold (article, [a] and [b])"},
+    {"claim": "HNW loans are typically £1 million and up", "kind": "loan-size (article, [b])"},
+    {"claim": "HNW lending assessed against the client's wider wealth rather than standard affordability", "kind": "lending-approach (article, [a]/[b])"},
+    {"claim": "Flexibility allows structures that standard mortgages can't offer", "kind": "positioning (article, [a])"},
+    {"claim": "Page is about 463 days old as of 2026-10-29 (implies publication around July 2025)", "kind": "page-age (search tool metadata, [b])"},
+    {"claim": "Firm works with over 800 lenders in the UK and internationally", "kind": "lender-network (related /faq/ page, [b], not this article)"},
+    {"claim": "£1.46 million five-year interest-only refinance, Prime Central London, overseas guarantor", "kind": "case-study (related page, [a]/[b], not this article)"},
+    {"claim": "Bridging loans usually run 6 to 24 months", "kind": "term (related bridging page, [b], not this article)"},
+    {"claim": "Listed under Property Week Commercial Property Awards 2026 organisation page", "kind": "award-listing (external URL surfaced in [a], content not read)"}
+  ],
+  "geography": [
+    "United Kingdom (article scope)",
+    "Prime Central London (related case study)",
+    "International / overseas borrowers (international borrowing structures, overseas guarantor)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/prime-london-mortgages/",
+    "https://www.silveroakcapital.co.uk/hmo-finance/",
+    "https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/",
+    "https://www.silveroakcapital.co.uk/superyacht-finance/",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "https://www.silveroakcapital.co.uk/conversions/",
+    "https://www.silveroakcapital.co.uk/property-bridging-finance-for-uk-high-net-worth-individuals/",
+    "https://www.silveroakcapital.co.uk/private-bank-mortgages/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/",
+    "https://www.silveroakcapital.co.uk/auction-finance/",
+    "https://awards.propertyweek.com/live/en/node/organisation-silver-oak-capital (external)",
+    "https://en.wikipedia.org/wiki/Assetz_Capital (external, unrelated company, ignored)"
+  ],
+  "confidence": "medium",
+  "notes": "Page existence and search-result title confirmed by both queries. Only the article's opening sections were summarised by the search tool; the full text, H1, meta description, loan-size section, process steps, FAQ and calls to action were NOT revealed. The 'verbatim' entries are the search tool's own summary wording (which it attributes to the page), not confirmed page text, except the title which appeared verbatim in the result listing. The '463 days old' remark is search-tool metadata; the implied publication date (circa July 2025) is my arithmetic from 2026-10-29, not a stated date. Items marked 'related page' come from other Silver Oak Capital URLs that surfaced alongside and are included for context only. Wikipedia 'Assetz Capital' result is an unrelated company and was ignored. The h1 and metaDescription fields are left empty rather than inferred from the slug.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk.json"
+}

@@ -1,0 +1,228 @@
+{
+  "pass": "gaps-residential-missing",
+  "generatedOn": "2026-10-29",
+  "method": "WebSearch only (direct fetch blocked). 8 calls: 4 extended, 4 standard. Four used site:silveroakcapital.co.uk, four used allowed_domains=[silveroakcapital.co.uk]. Only snippet text and the search tool's own summary were recorded; nothing was fetched.",
+  "queriesRun": 8,
+  "queriesRefused": 0,
+  "queries": [
+    {"n": 1, "mode": "extended", "query": "site:silveroakcapital.co.uk \"buy-to-let\" mortgages", "silverOakHits": 6},
+    {"n": 2, "mode": "standard", "query": "site:silveroakcapital.co.uk \"holiday let\"", "silverOakHits": 0},
+    {"n": 3, "mode": "standard", "query": "site:silveroakcapital.co.uk \"second charge\"", "silverOakHits": 0},
+    {"n": 4, "mode": "extended", "query": "site:silveroakcapital.co.uk \"bridge to purchase\" OR \"bridge to sell\" bridging", "silverOakHits": 3},
+    {"n": 5, "mode": "standard", "query": "Silver Oak Capital \"equity release\" mortgages (allowed_domains silveroakcapital.co.uk)", "silverOakHits": 10},
+    {"n": 6, "mode": "extended", "query": "\"Buy-to-Let Mortgages UK\" Silver Oak Capital buy to let mortgage landlord (allowed_domains silveroakcapital.co.uk)", "silverOakHits": 10},
+    {"n": 7, "mode": "standard", "query": "site:silveroakcapital.co.uk residential mortgages \"main home\" OR \"owner-occupier\" OR \"regulated mortgage\" OR \"main residence\"", "silverOakHits": 0},
+    {"n": 8, "mode": "extended", "query": "Silver Oak Capital \"holiday let\" OR \"second charge\" OR \"later life\" finance (allowed_domains silveroakcapital.co.uk)", "silverOakHits": 5}
+  ],
+  "found": [
+    {
+      "url": "https://www.silveroakcapital.co.uk/common-uses-for-property-bridging-loans-in-the-uk/",
+      "title": "Property Bridging Loans UK Guide: Purchase, Sale & Refurbishment Finance",
+      "summary": "Blog/guide page with distinct 'Bridge to Purchase' and 'Bridge to Sale' sections. Bridge to Purchase: bridging is used to buy property quickly because it can be arranged in days or weeks rather than the months a traditional mortgage can take. Bridge to Sale: a loan secured on the property being sold lets the borrower access funds before the sale completes, then the sale proceeds repay the loan. This is the closest thing surfaced to a Bridge to Purchase / Bridge to Sell page body; no standalone product page for either was returned.",
+      "verbatim": [
+        "Bridging loans are commonly used to purchase a property, due to their fast and flexible nature.",
+        "Bridging loans, on the other hand, can be arranged in a matter of days or weeks",
+        "A property bridging loan (secured against the property on sale) can enable the borrower to access funds quickly, without having to wait for the sale of the property.",
+        "Once the property eventually sells, the borrower can use the proceeds of sale to repay the bridging loan."
+      ],
+      "confidence": "high",
+      "notes": "Query 4. Snippet wording came back in the tool's summary as direct page text. Section heading on page is 'Bridge to Sale' (not 'Bridge to Sell')."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/types-of-borrowing/",
+      "title": "Wealth Management (title as returned by search in this pass; sibling pass recorded 'Types of Borrowing - Silver Oak Capital')",
+      "summary": "Overview page listing Bridge to Purchase and Bridge to Sell among its bridging finance types. States interest is paid as a lump sum at the end of the term, that bridging needs no affordability assessment, and gives a typical broker fee of 1.00% (1.50% for loans outside the UK).",
+      "verbatim": [
+        "Bridging loans are quick to arrange and do not require any affordability assessment, with the loan interest paid as a lump sum at the end of the term"
+      ],
+      "confidence": "high",
+      "notes": "Query 4. The '1.00% / 1.50% outside UK' fee figures were given in the tool summary, not as a quoted snippet. Page title returned as 'Wealth Management' in this pass, which looks like a page-section title rather than the real <title>."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/why-are-property-bridging-loans-popular-in-the-uk/",
+      "title": "Why Are Property Bridging Loans Popular in the UK?",
+      "summary": "Blog page with a short 'Bridge to Sale' section noting that properties can sit on the market for months in a slow market, which is when a bridge to sale is useful.",
+      "verbatim": [
+        "Properties can often spend months (or even years) on the market, especially in a slow market."
+      ],
+      "confidence": "high",
+      "notes": "Query 4."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/faq/",
+      "title": "Property Finance FAQs",
+      "summary": "FAQ page distinguishes Silver Oak's 'equity release' from retiree lifetime mortgages: what it offers is a short-term bridging facility, typically 12 to 24 months, which must be repaid within the term, whereas 'Equity Release' for retirees usually refers to a 'Lifetime Mortgage' with no repayments until death. Also says released funds can cover a tax bill provided there is a clear exit strategy, and that the firm helps clients with equity release for additional purchases or investment opportunities.",
+      "verbatim": [
+        "The product we offer is a Bridging Loan."
+      ],
+      "confidence": "high",
+      "notes": "Query 5 and 6. The 12-24 month term and lifetime-mortgage contrast were given in the tool summary as paraphrase; only the one sentence is certain verbatim. This is the only equity-release explanation surfaced; no dedicated Equity Release page appeared."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/mayfair-self-employed-equity-release/",
+      "title": "Mayfair Self Employed Equity Release",
+      "summary": "Case study URL surfaced for the equity-release query. The tool summary described 'one case study' with a GBP 7.5 million mortgage at 75% loan-to-value, variable rate of 2.25% plus 3-month Libor, 5-year interest-only term, used to refinance and fund a holiday home purchase; it did not state which case study URL those figures belong to.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Query 5. Attribution of the GBP 7.5m deal figures to this specific URL is not confirmed by the snippets; a sibling file case-studies-mayfair-self-employed-equity-release.json already exists and should be preferred."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/prime-london-mortgages/",
+      "title": "Prime London Mortgages",
+      "summary": "Lists typical clients including entrepreneurs and business owners with dividend-led or multi-entity income, and clients refinancing to release equity or restructure existing borrowing.",
+      "verbatim": [
+        "entrepreneurs and business owners with dividend-led or multi-entity income",
+        "clients refinancing to release equity or restructure existing borrowing"
+      ],
+      "confidence": "medium",
+      "notes": "Query 5. Phrases were embedded in the tool summary as page wording."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/",
+      "title": "Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions",
+      "summary": "Home page. The only place the residential menu scope (main home, buy-to-let, holiday let, HMO) is stated in one line. Also claims a network of over 800 lenders and lending across the UK, US, Western Europe and the Middle East; the tool summary says the site focuses on loans over GBP 500,000.",
+      "verbatim": [
+        "For residential we cover – Main home mortgages, Buy to Lets, Holiday Lets and HMO's.",
+        "through our network of over 800 lenders"
+      ],
+      "confidence": "high",
+      "notes": "Queries 6 and 8. This single sentence is the ONLY Holiday Let and Main-home-mortgage content surfaced in this pass."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/wp-content/uploads/2026/02/Ts-and-Cs.pdf",
+      "title": "Silver Oak Capital (Terms and Conditions PDF, uploaded 2026/02)",
+      "summary": "Terms of business. States buy-to-let mortgages are not normally FCA-regulated, with an exception for 'consumer buy-to-let' which the firm will flag. States the firm offers first charge and second charge facilities from across the market, though not deals only available direct from a lender, and lists second charge mortgages among its products. The tool summary also attributed to the firm's disclosures a requirement that the applicant's sole intention is to let the property out and that no family member lives there.",
+      "verbatim": [
+        "Buy-to-let mortgages are not normally regulated by the FCA.",
+        "first charge & second charge financial facilities from across the market",
+        "sole intention to let the property/properties out"
+      ],
+      "confidence": "high",
+      "notes": "Queries 1, 6, 8. The occupancy ('sole intention to let') sentence was attributed to 'its disclosures' rather than explicitly to this PDF. This PDF is the only Second Charge product statement surfaced; no Second Charge page appeared."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/prime-residential-mortgages/",
+      "title": "Residential Mortgages UK",
+      "summary": "Prime residential (GBP 1m+) mortgage page. Lists buy-to-let mortgages as a residential product alongside prime London and foreign national mortgages. Includes a case study of a buy-to-let mortgage refinanced with a second-charge bridging loan on a luxury property in Surrey. Gives typical broker fee for residential mortgages of 1.00% for UK and outside UK.",
+      "verbatim": [
+        "Typical Broker fees for Residential Mortgage 1.00%"
+      ],
+      "confidence": "medium",
+      "notes": "Queries 1 and 6. Closest surfaced page to 'main home / owner-occupier mortgages', but it is the prime (GBP 1m+) page, not a general regulated owner-occupier page. Surrey second-charge case study detail came from tool summary paraphrase."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/hmo-finance/",
+      "title": "HMO Finance UK",
+      "summary": "HMO page carrying buy-to-let criteria: most BTL products max out at 75% LTV (25% deposit), with borrower profile and property type possibly requiring more; most lenders prefer 12 months' ownership of a standard buy-to-let before an HMO, but Silver Oak works with lenders who permit first-time landlords to buy HMOs given strong personal income and a clear management strategy. Also mentions equity release on HMO properties, lending against investment value rather than bricks-and-mortar value.",
+      "verbatim": [
+        "Most BTL products will max out at 75% LTV, requiring a deposit from the borrower of 25% of the property's value.",
+        "most lenders prefer you to have owned a standard buy-to-let for at least 12 months",
+        "Silver Oak Capital works with several lenders who permit first-time landlords to buy HMOs, provided you have a strong personal income and a clear management strategy"
+      ],
+      "confidence": "medium",
+      "notes": "Queries 5 and 6. The 75% LTV sentence was not explicitly tied to this URL in the tool summary (sibling buy-to-let-mortgages.json attributes it to /faq/)."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/conversions/",
+      "title": "Property Conversion Finance UK",
+      "summary": "Mentions a bridge-to-let product where one lender funds both the conversion works and the long-term buy-to-let mortgage.",
+      "verbatim": [
+        "the same lender provides the finance for both the conversion works as well as the long-term buy-to-let mortgage"
+      ],
+      "confidence": "medium",
+      "notes": "Query 6."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/",
+      "title": "Best Finance Options for New Build Homes",
+      "summary": "Blog page covering buy-to-let on new-build purchases: typically a 25% or higher deposit, rental income that meets lender affordability tests, and possible limits on how many properties a borrower can hold.",
+      "verbatim": [
+        "Typically require a 25% deposit or higher"
+      ],
+      "confidence": "medium",
+      "notes": "Queries 1 and 6."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/commercial-mortgages/",
+      "title": "Commercial Mortgages UK",
+      "summary": "Surfaced for the buy-to-let query. The tool summary said 'one page' argues buy-to-let lending is effectively a commercial product because underwriting looks at the property's rental income rather than only the borrower's earnings.",
+      "verbatim": [
+        "buy-to-let mortgages are actually a type of commercial mortgage"
+      ],
+      "confidence": "low",
+      "notes": "Queries 1 and 6. The quoted sentence was not explicitly attributed to this URL."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/light-to-heavy-refurbishment/",
+      "title": "Refurbishment Finance UK",
+      "summary": "Describes a refurb-to-let route: use refurbishment finance, then refinance onto a long-term buy-to-let mortgage once works raise the value.",
+      "verbatim": [
+        "refinance onto a long-term buy-to-let mortgage at the new, higher value"
+      ],
+      "confidence": "medium",
+      "notes": "Query 1."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/introducers/",
+      "title": "Property Finance Introducers UK",
+      "summary": "Introducer page listing the range of finance arranged, including buy-to-let mortgages.",
+      "verbatim": [
+        "commercial mortgages, buy-to-let mortgages, bridging loans, development finance, marine finance, or aviation finance"
+      ],
+      "confidence": "high",
+      "notes": "Queries 1 and 6."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/property-portfolio-mortgages/",
+      "title": "Portfolio Mortgages UK",
+      "summary": "Surfaced for equity release: the tool summary says the firm offers equity release on landlord portfolios where individual properties do not meet standard lending criteria.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Query 5. Paraphrase only."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/mezzanine-junior-finance/",
+      "title": "Mezzanine Finance UK",
+      "summary": "Development context for 'second charge': describes a second charge as sitting behind the senior lender, who must give permission for the mezzanine lender to take a second charge.",
+      "verbatim": [],
+      "confidence": "medium",
+      "notes": "Query 8. Paraphrase only; not a residential second-charge page."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+      "title": "£3.6 Million Bridging Loan",
+      "summary": "Case study of a GBP 3.6 million first charge bridging loan on a Kensington residential property, which avoided a second charge after two specialist lenders had withdrawn at the final stage.",
+      "verbatim": [],
+      "confidence": "medium",
+      "notes": "Query 8. Paraphrase only; sibling file already exists."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/",
+      "title": "How Does a Bridging Loan Work?",
+      "summary": "URL surfaced for the holiday-let / second-charge / later-life query with no snippet content reported.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Query 8. URL only."
+    }
+  ],
+  "alsoSurfacedNoSnippet": [
+    "https://www.silveroakcapital.co.uk/superyacht-finance/ (tool summary: equity release on superyachts)",
+    "https://www.silveroakcapital.co.uk/marine-lease-finance/",
+    "https://www.silveroakcapital.co.uk/development-exit-loans/",
+    "https://www.silveroakcapital.co.uk/case-studies/residential-portfolio-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/",
+    "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/"
+  ],
+  "notFound": [
+    "Dedicated Buy-to-Let Mortgages page body (/buy-to-let-mortgages/): not surfaced by any of the 8 queries; BTL content only appears scattered across home, /hmo-finance/, /different-ways-to-finance-new-build-homes-in-the-uk/, /light-to-heavy-refurbishment/, /conversions/, /commercial-mortgages/, /introducers/, /prime-residential-mortgages/ and the Ts-and-Cs PDF.",
+    "Holiday Let finance page: no Silver Oak page surfaced; query 2 (site: 'holiday let') returned zero silveroakcapital.co.uk results; only mention is the home-page line 'Main home mortgages, Buy to Lets, Holiday Lets and HMO's'.",
+    "Main home mortgages / regulated owner-occupier mortgages page: not surfaced; query 7 returned zero silveroakcapital.co.uk results; only the home-page line and the prime (GBP 1m+) /prime-residential-mortgages/ page exist.",
+    "Second Charge page: not surfaced; query 3 (site: 'second charge') returned zero silveroakcapital.co.uk results; second charge is mentioned only in the Ts-and-Cs PDF, /mezzanine-junior-finance/, /prime-residential-mortgages/ (Surrey case study) and the Kensington case study.",
+    "Bridge to Purchase standalone page: not surfaced; covered only as a section inside /common-uses-for-property-bridging-loans-in-the-uk/ and as a list item on /types-of-borrowing/.",
+    "Bridge to Sell standalone page: not surfaced; covered only as 'Bridge to Sale' sections inside /common-uses-for-property-bridging-loans-in-the-uk/ and /why-are-property-bridging-loans-popular-in-the-uk/, and as a list item on /types-of-borrowing/.",
+    "Equity Release standalone page: not surfaced; only the /faq/ bridging-vs-lifetime-mortgage explanation and the Mayfair case study.",
+    "Later life / lifetime mortgage lending: the search tool reported nothing on 'later life' lending from Silver Oak Capital.",
+    "H1, meta description, rates or lender criteria for any of the target residential pages: none revealed by snippets."
+  ],
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/gaps-residential-missing.json"
+}

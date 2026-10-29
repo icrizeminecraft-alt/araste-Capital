@@ -1,0 +1,76 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/manchester-office/",
+  "title": "Manchester Office",
+  "h1": "Not revealed by search results (link title only: \"Manchester Office\")",
+  "metaDescription": "Not revealed by search results",
+  "summary": "Case study of a GBP 4.5m commercial mortgage arranged by Silver Oak Capital for the purchase of an office building in Manchester city centre. Borrower: a Manchester (commercial) real estate management firm that intended to complete the purchase swiftly with cash and then required immediate access to a loan post-acquisition; it wanted a long-term commercial mortgage at 65% loan-to-value. Lender: a regional lender. Structure/terms as reported: GBP 4.5m loan, 65% LTV, 7-year term, full interest-only repayment, rate of 3.00% above Bank Base Rate, 1.00% bank fee; described as tailored finance. Challenges flagged: occupancy and tenant stability as risks to rental income, and the need for thorough due diligence on compliance with modern office standards. Outcome: terms offered/arranged as above. Deal date and exact timing were not revealed by the search results.",
+  "verbatim": [
+    "[a] (search-tool summary, not confirmed page text) \"the firm secured a £4.5m commercial loan at 65% loan-to-value for a Manchester city-centre office purchase\"",
+    "[a] (search-tool summary) \"A Manchester commercial real estate management firm wanted a long-term mortgage to buy an office building in the city centre, and it planned to pay cash up front, then needed a loan right after purchase. They required a long-term commercial mortgage at 65% loan to value (LTV).\"",
+    "[a] (search-tool summary) \"The snippets flag occupancy and tenant stability as risks to rental income, plus the need for thorough due diligence on compliance with modern office standards.\"",
+    "[a] (search-tool summary) \"The offer came from a regional lender, with a 7-year interest-only term, an interest rate of 3.00% above Bank Base Rate, and a 1.00% bank fee.\"",
+    "[b] (search-tool summary) \"Silver Oak Capital arranged a £4.5m commercial mortgage at 65% LTV for a Manchester office building, with a 7-year interest-only term and tailored finance.\"",
+    "[b] (search-tool summary) \"A Manchester real estate management firm wanted to buy a city-centre office building and needed a long-term commercial mortgage. They aimed to complete the purchase swiftly with cash but required immediate access to a loan post-acquisition.\"",
+    "[b] (search-tool summary) \"Occupancy and tenant stability, plus compliance with modern office standards, which called for thorough due diligence\"",
+    "[b] (search-tool summary) \"The page lists a £4.5m loan at 65% LTV, a rate of 3.00% above Bank Base Rate, a 7-year term, full interest-only repayment, and a 1.00% bank fee. It came from a regional lender.\"",
+    "[b] (site section label reported by tool) \"Related Case-studies\""
+  ],
+  "services": [
+    "Commercial mortgage (long-term, office investment)",
+    "Post-acquisition loan following a cash purchase"
+  ],
+  "terms": [
+    "Loan amount: £4.5m",
+    "LTV: 65%",
+    "Term: 7 years",
+    "Repayment: full interest-only",
+    "Rate: 3.00% above Bank Base Rate",
+    "Bank fee: 1.00%",
+    "Lender: regional lender"
+  ],
+  "eligibility": [
+    "No explicit eligibility criteria revealed by search results",
+    "Borrower profile in this case: a Manchester (commercial) real estate management firm buying a city-centre office building as an investment"
+  ],
+  "processSteps": [
+    "Client planned to complete the office purchase swiftly with cash (per tool summary)",
+    "Client required immediate access to a loan post-acquisition (per tool summary)",
+    "Lender due diligence on occupancy / tenant stability and on compliance with modern office standards (per tool summary)",
+    "Offer obtained from a regional lender on the terms listed (per tool summary)"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "£4.5m commercial mortgage arranged", "kind": "deal-figure"},
+    {"claim": "65% loan-to-value", "kind": "deal-figure"},
+    {"claim": "7-year term, full interest-only", "kind": "deal-figure"},
+    {"claim": "Interest rate 3.00% above Bank Base Rate", "kind": "deal-figure"},
+    {"claim": "1.00% bank fee", "kind": "deal-figure"},
+    {"claim": "Lender was a regional lender", "kind": "lender-type"},
+    {"claim": "Finance described as tailored", "kind": "marketing-language"}
+  ],
+  "geography": ["Manchester", "Manchester city centre", "United Kingdom"],
+  "lenderTypes": ["Regional lender"],
+  "useCases": [
+    "Purchase of a city-centre office building by a real estate management firm",
+    "Cash purchase followed by immediate post-acquisition long-term commercial mortgage"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/miami-developer/",
+    "https://www.silveroakcapital.co.uk/case-studies/g650/",
+    "https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/",
+    "https://www.silveroakcapital.co.uk/case-studies/residential-portfolio-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/notting-hill-large-residential-mortgage/",
+    "https://www.silveroakcapital.co.uk/case-studies/cotsworlds-listed/",
+    "https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/successful-refinance-3-5-million-loan/",
+    "https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/",
+    "https://uk.linkedin.com/company/silver-oak-capital"
+  ],
+  "confidence": "medium",
+  "notes": "Both WebSearch calls returned the search tool's own summaries rather than raw page snippets, so all 'verbatim' items are the tool's paraphrase of the page and are labelled as such; the only wording likely to be literal site text is the section label 'Related Case-studies'. The two independent summaries agree on every figure (GBP 4.5m, 65% LTV, 7-year interest-only, 3.00% over Bank Base Rate, 1.00% bank fee, regional lender), which supports the figures but not the exact phrasing. Minor variance: [a] says 'commercial real estate management firm', [b] says 'real estate management firm'. Not revealed: H1, meta description, deal date/timing beyond 'swiftly' and 'immediate access post-acquisition', purchase price, named lender, CTAs, FAQ, author, publication date. Tool [a] itself cautioned the figures are 'the firm's own account' from a marketing page. Three case-study URLs surfaced that are NOT in seed.json: /case-studies/residential-portfolio-refinance/, /case-studies/cotsworlds-listed/, /case-studies/successful-refinance-3-5-million-loan/. One unrelated result (intellisourcecorp.com 'Silver Oak' case study) was ignored as a different company. Direct fetching was not attempted per instructions.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-manchester-office.json"
+}

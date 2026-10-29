@@ -1,0 +1,95 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/understanding-short-term-property-funding-for-uk-real-estate/",
+  "title": "Understanding Short-Term Property Funding for UK Real Estate (title inferred from URL slug only; neither search returned the page, so the real <title>/H1 is unconfirmed)",
+  "h1": "",
+  "metaDescription": "",
+  "summary": "TARGET PAGE NOT RETRIEVED. Search (a) on the exact URL returned no result for the article; the search tool stated: \"I couldn't find the exact page you linked (the 'understanding short-term property funding' article).\" Search (b) (site: + slug keywords) also did not list the article. Both searches instead surfaced related Silver Oak Capital pages on short-term property funding (bridging loans, auction finance, refurbishment/conversion finance, development exit loans, developer bridge loans). The article's own thesis and guidance are therefore unknown. What the related pages state, per the search tool's summaries: bridging loans are short-term secured finance of roughly 6 to 24 months with rates above conventional mortgages, assessed mainly on property value and exit strategy rather than affordability; approvals advertised in 5-14 days; loan sizes typically GBP 100,000 to GBP 25 million depending on security and exit; uses include buying before selling, renovations, land purchases before planning, auction deadlines (10% deposit on the day, 90% within 28 days, bridging then gives 6-12 months to refinance or sell); refurbishment funds released in stages/tranches overseen by a monitoring surveyor, covering purchase price and typically 100% of build costs; conversion finance typically 12-18 months; development exit loans repay an expiring construction lender; firm positions itself as a commercial mortgage broker specialising in loans over GBP 500,000 with a network of over 800 lenders, UK-wide with a strong London focus.",
+  "verbatim": [
+    "[a] (search tool summary) \"I couldn't find the exact page you linked (the 'understanding short-term property funding' article).\"",
+    "[a] (search tool summary of /bridging-loans-uk/) \"approvals take 5–14 days, and that loan sizes typically range from £100,000 to £25 million, depending on security and exit strategy.\"",
+    "[a] (search tool summary of /auction-finance/) \"a 10% deposit is typically due on the day of the auction, with the remaining 90% due within 28 days, and that bridging then provides 6 to 12 months to refinance or sell.\"",
+    "[a] (search tool summary of /how-does-a-bridge-loan-work-for-developers/) \"these loans tend to carry higher interest rates than traditional financing, and that funds are often released in stages, with later drawdowns subject to inspections.\"",
+    "[a] (search tool summary of /conversions/ and /light-to-heavy-refurbishment/) \"Conversion finance is typically arranged for 12 to 18 months. Refurbishment loans can cover the purchase price and typically 100% of the build costs.\"",
+    "[b] (search tool summary) \"Bridging loans are typically secured against property and are structured for short-term repayment, usually between 6 to 24 months.\"",
+    "[b] (search tool summary) \"Unlike conventional mortgages, bridging finance focuses more on property value, exit strategy (repayment plan), and speed of transaction.\"",
+    "[b] (search tool summary) \"short-term secured finance, typically running about 6 to 24 months, with rates usually above conventional mortgages\"",
+    "[b] (search tool summary) \"Lenders assess the property value and exit plan more than a standard mortgage would.\"",
+    "[b] (search tool summary) \"funds are released in tranches, overseen by a monitoring surveyor who visits the site to verify progress.\"",
+    "[b] (search tool summary of /development-exit-loans/) \"a bridging loan that pays off your existing construction lender.\"",
+    "[b] (search tool summary of /bridging-loans-uk/) \"approvals in 5–14 days\" ; \"provides loans UK wide, with a strong focus on bridging loans in London.\"",
+    "[b] (search tool summary of home page) \"specialises in loans over £500,000 and works through a network of over 800 lenders.\""
+  ],
+  "services": [
+    "Bridging loans (UK-wide, London focus)",
+    "Auction finance",
+    "Light to heavy refurbishment finance",
+    "Property conversion finance",
+    "Development exit loans",
+    "Bridge loans for property developers",
+    "Post planning land acquisition finance",
+    "Commercial mortgage broking"
+  ],
+  "terms": [
+    "Bridging loan term: about 6 to 24 months [b]",
+    "Bridging loan term (auction context): 6 to 12 months to refinance or sell [a]",
+    "Conversion finance term: typically 12 to 18 months [a]",
+    "Approval time: 5-14 days [a][b]",
+    "Loan sizes: typically GBP 100,000 to GBP 25 million depending on security and exit strategy [a]",
+    "Firm minimum: loans over GBP 500,000 (home page) [b]",
+    "Rates: higher than traditional/conventional mortgages [a][b]",
+    "Refurbishment: purchase price plus typically 100% of build costs [a]",
+    "Staged drawdowns subject to inspections / monitoring surveyor [a][b]"
+  ],
+  "eligibility": [
+    "Assessment based on property value and exit strategy (repayment plan) rather than a standard mortgage affordability test [b]",
+    "Security: loan secured against property [b]",
+    "Later drawdowns on developer bridge loans subject to inspections [a]"
+  ],
+  "processSteps": [
+    "Auction route: pay 10% deposit on auction day, remaining 90% due within 28 days, bridging loan used to meet that deadline, then 6-12 months to refinance or sell [a]",
+    "Refurbishment/developer route: funds released in stages/tranches; monitoring surveyor visits site to verify progress before later drawdowns [a][b]",
+    "Development exit route: bridging loan pays off the existing construction lender when the construction loan nears expiry [b]"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "Bridging approvals in 5-14 days", "kind": "timing"},
+    {"claim": "Loan sizes typically GBP 100,000 to GBP 25 million", "kind": "number"},
+    {"claim": "Specialises in loans over GBP 500,000", "kind": "number"},
+    {"claim": "Network of over 800 lenders", "kind": "number"},
+    {"claim": "Refurbishment loans cover purchase price and typically 100% of build costs", "kind": "number"},
+    {"claim": "Loans UK wide with a strong focus on bridging loans in London", "kind": "coverage"},
+    {"claim": "Auction: 10% deposit on the day, 90% within 28 days", "kind": "number"}
+  ],
+  "geography": ["United Kingdom", "London", "Prime Central London"],
+  "lenderTypes": [],
+  "useCases": [
+    "Buying a property before selling the current one",
+    "Funding renovations / refurbishment",
+    "Covering short-term cash-flow gaps",
+    "Land purchases before planning permission",
+    "Meeting auction completion deadlines",
+    "Repaying an expiring construction loan (development exit)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/auction-finance/",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/",
+    "https://www.silveroakcapital.co.uk/post-planning-land-acquisitions/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/",
+    "https://www.silveroakcapital.co.uk/light-to-heavy-refurbishment/",
+    "https://www.silveroakcapital.co.uk/conversions/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/",
+    "https://www.silveroakcapital.co.uk/development-exit-loans/",
+    "https://www.silveroakcapital.co.uk/bridging-loans-for-prime-central-london-purchases/ (NEW - not in seed.json)",
+    "https://www.silveroakcapital.co.uk/different-types-of-interest-options-with-bridging-loans/",
+    "https://www.silveroakcapital.co.uk/a-complete-guide-to-securing-quick-property-finance-in-london/ (NEW - not in seed.json; result title 'Fast Bridging Loans London')",
+    "https://www.slideshare.net/slideshow/silver-oak-capital-bridging-loans-uk-fast-track-your-property-goals/284124074 (NEW external - SlideShare deck)"
+  ],
+  "confidence": "low",
+  "notes": "The target article was not returned by either of the 2 permitted searches, so no title, H1, meta description, body text, FAQ or CTA from the page itself was captured; everything recorded here comes from the search tool's summaries of OTHER silveroakcapital.co.uk pages on the same topic (bridging, auction, refurbishment, conversion, development exit, developer bridge loans, home page). Verbatim entries are quoted from the search tool's summaries, not confirmed as the exact wording on the site pages. The result page https://en.wikipedia.org/wiki/Assetz_Capital in search (b) is unrelated and was ignored. Two new site URLs and one SlideShare deck not present in seed.json were observed and are listed in internalLinks. Search (a) summary also noted the loan-size range GBP 100k-GBP 25m, which differs from seed.json's 'over GBP 500,000' / 'GBP 500k-GBP 20m' claims; this discrepancy is recorded, not resolved.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/understanding-short-term-property-funding-for-uk-real-estate.json"
+}

@@ -10,4 +10,4 @@
 2. Ou fournir une exportation du site (WordPress : outil d'exportation XML, ou copie du dossier `wp-content/uploads` et des pages) ; le script d'assemblage pourra être adapté pour lire ces fichiers.
 3. Ou coller le texte des pages jugées prioritaires (produits et FAQ) dans la conversation.
 
-Les passes suivantes (études de cas, articles, pages manquantes) complètent `raw/` ; relancer `python3 -I docs/references/silver-oak/assemble.py` régénère ce document.
+Les quatre passes sont terminées. Toute fiche ajoutée dans `raw/` est intégrée en relançant `python3 -I docs/references/silver-oak/assemble.py`.

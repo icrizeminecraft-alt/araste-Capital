@@ -1,0 +1,80 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/impact-of-inflation-and-interest-rates-on-uk-commercial-property/",
+  "title": "Impact of Inflation on UK Property Market - Silver Oak Capital",
+  "summary": "Blog article (not a case study). Thesis, as far as the search snippets reveal: the Bank of England sets the Bank Rate and, together with quantitative easing, this drives borrowing costs, which in turn feed into inflation; inflation then affects UK commercial property, first through higher development costs (construction, labour and materials). The one near-verbatim line recovered is: 'Higher levels of inflation are likely to contribute to a significant increase in the costs associated with the development of commercial property.' Only the opening sections were visible in both searches; the article's conclusions, any concrete guidance to borrowers or investors, and any calls to action were NOT revealed. The search tool dated the page at roughly 16 months / about 496 days old (approximately June 2025, inferred from today's date 2026-10-29).",
+  "h1": "",
+  "metaDescription": "",
+  "sections": [
+    {
+      "heading": "Bank of England, Bank Rate and quantitative easing (opening section, heading wording not revealed)",
+      "content": "Search summary [a]: the article 'explains how the Bank of England's Bank Rate and quantitative easing affect borrowing costs and inflation.' Search summary [b]: 'The page explains that the Bank of England sets the Bank Rate, and that its effect on borrowing costs feeds into inflation.'"
+    },
+    {
+      "heading": "Impact of inflation on commercial property - development costs (second section, heading wording not revealed)",
+      "content": "Search summary [a]: the article 'then starts on inflation's effect on commercial property, focusing on higher development costs from construction, labour and materials.' Search summary [b]: 'It also covers how construction costs for commercial property tend to rise with inflation.' Near-verbatim line [b]: 'Higher levels of inflation are likely to contribute to a significant increase in the costs associated with the development of commercial property.'"
+    },
+    {
+      "heading": "Conclusions / guidance",
+      "content": "NOT REVEALED. Search [a] explicitly stated: 'the excerpt covers only the opening sections' and 'I couldn't see its conclusions.'"
+    }
+  ],
+  "verbatim": [
+    "[b] \"Higher levels of inflation are likely to contribute to a significant increase in the costs associated with the development of commercial property.\" (appears to be lifted from the page; the only sentence in either result that reads as article wording rather than search-tool paraphrase)",
+    "[a] Search-tool paraphrase: \"It explains how the Bank of England's Bank Rate and quantitative easing affect borrowing costs and inflation. It then starts on inflation's effect on commercial property, focusing on higher development costs from construction, labour and materials. I couldn't see its conclusions.\"",
+    "[a] Search-tool metadata: \"The search turned up the Silver Oak Capital article, but only a partial excerpt. It is about 16 months old, and the excerpt covers only the opening sections.\"",
+    "[b] Search-tool paraphrase: \"The page explains that the Bank of England sets the Bank Rate, and that its effect on borrowing costs feeds into inflation. It also covers how construction costs for commercial property tend to rise with inflation. The page is about 496 days old, so it may be outdated.\"",
+    "[a][b] SERP title: \"Impact of Inflation on UK Property Market - Silver Oak Capital\""
+  ],
+  "services": [
+    "None named in the article snippets themselves.",
+    "Adjacent (surfaced next to the article in both searches, not stated in the article): Commercial Mortgages (/commercial-mortgages/)"
+  ],
+  "terms": [
+    "Bank of England",
+    "Bank Rate",
+    "quantitative easing",
+    "inflation",
+    "borrowing costs",
+    "development costs",
+    "construction costs",
+    "labour costs",
+    "materials costs",
+    "commercial property",
+    "ADJACENT PAGES ONLY (not in this article): SONIA, Bank of England base rate, risk margin, fixed rate (2 or 5 years), LTV, loan-to-gross-development-value (LTGDV), interest-only, Bank Base Rate"
+  ],
+  "eligibility": [],
+  "processSteps": [],
+  "faq": [],
+  "claims": [
+    {"claim": "Higher levels of inflation are likely to contribute to a significant increase in the costs associated with the development of commercial property.", "kind": "article-statement [b], near-verbatim"},
+    {"claim": "The Bank of England sets the Bank Rate; its effect on borrowing costs feeds into inflation.", "kind": "article-thesis, search-tool paraphrase [b]"},
+    {"claim": "Bank Rate and quantitative easing affect borrowing costs and inflation.", "kind": "article-thesis, search-tool paraphrase [a]"},
+    {"claim": "Construction costs for commercial property tend to rise with inflation; higher development costs come from construction, labour and materials.", "kind": "article-thesis, search-tool paraphrase [a][b]"},
+    {"claim": "Article age: 'about 16 months old' [a] / 'about 496 days old' [b] as of 2026-10-29, i.e. published approximately June 2025 (inferred).", "kind": "metadata, search-tool"},
+    {"claim": "ADJACENT PAGE /commercial-mortgages/ [b]: variable rates are benchmarked to the Bank of England base rate or SONIA, plus a risk margin; fixed-rate deals typically offered for 2 or 5 years; typical LTVs run from about 65% to 75%.", "kind": "adjacent-page figure, search-tool paraphrase"},
+    {"claim": "ADJACENT CASE STUDY /case-studies/manchester-office/ [b]: £4.5m Manchester office loan at 3.00% above Bank Base Rate, 7-year interest-only term (case study dated about 37 days old by the tool).", "kind": "adjacent-page figure, search-tool paraphrase"},
+    {"claim": "ADJACENT CASE STUDY /case-studies/purchase-and-upgrade-21-million-office-in-london/ [b]: £21m London office loan at 4.75% fixed over three years, 68% LTV.", "kind": "adjacent-page figure, search-tool paraphrase"},
+    {"claim": "ADJACENT PAGE (unspecified, likely /how-much-does-a-bridging-loan-cost/) [b]: bridging loans carry much higher rates than mortgages, often averaging about 1% per month.", "kind": "adjacent-page figure, search-tool paraphrase"},
+    {"claim": "ADJACENT PAGE (unspecified) [b]: mixed-use and commercial development schemes may face tighter leverage caps, such as 65% loan-to-gross-development-value for commercial schemes.", "kind": "adjacent-page figure, search-tool paraphrase"}
+  ],
+  "geography": ["United Kingdom"],
+  "ctas": [],
+  "useCases": [],
+  "lenderTypes": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/commercial-mortgages/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/case-studies/manchester-office/",
+    "https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/",
+    "https://www.silveroakcapital.co.uk/case-studies/miami-developer/",
+    "https://www.silveroakcapital.co.uk/how-much-does-a-bridging-loan-cost/",
+    "https://www.silveroakcapital.co.uk/best-places-to-buy-property-in-the-uk-for-long-term-growth/ (NEW - not in seed.json articles list)",
+    "https://www.silveroakcapital.co.uk/bridging-loans-for-prime-central-london-purchases/ (NEW - not in seed.json articles list)",
+    "https://uk.linkedin.com/company/silver-oak-capital"
+  ],
+  "confidence": "low",
+  "notes": "Direct fetch blocked; everything comes from two WebSearch (extended) calls: [a] exact URL, [b] site:silveroakcapital.co.uk inflation interest rates commercial property. Both results paraphrased the article rather than quoting it; only one sentence (tagged [b] in verbatim) reads as the page's own wording. Only the opening two topics (BoE Bank Rate/QE -> borrowing costs -> inflation; inflation -> commercial development costs) were visible. Conclusions, concrete guidance, H1, meta description, author, publication date, CTAs, FAQ, internal links within the body and any lender/eligibility/process content were NOT revealed - h1 and metaDescription are left empty for that reason. SERP title 'Impact of Inflation on UK Property Market - Silver Oak Capital' differs from the slug wording ('impact of inflation and interest rates on uk commercial property'); the slug may reflect the H1 but this is unverified. Page age is a search-tool estimate (16 months / 496 days), giving an inferred publication of roughly June 2025. Items marked ADJACENT come from other silveroakcapital.co.uk pages that surfaced in search [b], not from this article; they are recorded because they are useful to the parent and clearly labelled. Third-party results (Carter Jonas, Capital Economics, Property Week/Savills, CCLA, constructioncapital.co.uk) were ignored per the rules. Two previously unlisted Silver Oak articles were discovered: /best-places-to-buy-property-in-the-uk-for-long-term-growth/ and /bridging-loans-for-prime-central-london-purchases/.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/impact-of-inflation-and-interest-rates-on-uk-commercial-property.json"
+}

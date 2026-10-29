@@ -1,0 +1,74 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/different-ways-to-add-value-to-the-property-before-selling/",
+  "title": "Ways to Add Value Before Selling Property - Silver Oak Capital",
+  "h1": "",
+  "metaDescription": "",
+  "summary": "Blog article (type: guidance article, not a case study) aimed at property investors, arguing that pre-sale improvements are a way to raise an investment's profitability: 'Investors should aim to enhance the value of the property prior to sale.' Concrete guidance surfaced by search snippets: (1) keep the property well maintained because upkeep protects its value, and fix small faults early (a roof leak is cheap to fix but grows into a much larger issue if left unattended); (2) make sure the cost of any renovation does not outweigh the value it adds, illustrated by an investor who spends on an expensive renovation in an area with low property values. The search tool also attributed kitchen/bathroom updates, energy-efficiency work, cosmetic updates, loft conversions and securing planning permission for extensions/conversions to 'a separate page' on the site (most likely the sibling article /different-ways-to-grow-and-develop-property-value/, which also covers releasing equity from an existing property to fund renovations or extensions and permitted development rights). Financing angle from the site FAQ (not the article): if a buyer adds value, the firm aims to lend up to 75% of the new, higher valuation so the investor can recover most of their initial capital; a refurbishment bridging loan can fund the purchase and works and is typically repaid from sale or refinance onto a longer-term mortgage. Only three points were attributed to the target page itself; its full body, H1, meta description, author, date, CTAs and internal links were not revealed.",
+  "verbatim": [
+    "[b] \"Investors should aim to enhance the value of the property prior to sale.\" (attributed by the search summary to the target page)",
+    "[b] \"a roof leak will be cheap to fix, but if left unattended it could grow to a much larger issue\" (attributed to the target page)",
+    "[b] \"an expensive renovation in an area with low property values\" (attributed to the target page, as the example of a renovation whose cost outweighs the value added)",
+    "[b] \"updating kitchens and bathrooms can significantly boost a property's appeal\" (attributed to 'a separate page' on silveroakcapital.co.uk, likely /different-ways-to-grow-and-develop-property-value/)",
+    "[b] \"converting a loft into an extra bedroom or office can substantially increase value\" (attributed to 'a separate page', likely /different-ways-to-grow-and-develop-property-value/)",
+    "[b] \"planning permission for extensions or conversions\" (attributed to 'a separate page', likely /different-ways-to-grow-and-develop-property-value/)",
+    "[b] \"these loans can be repaid from sale of the property or upon refinance onto a longer-term mortgage\" (attributed to the site FAQ, about refurbishment bridging loans)",
+    "[a] Result title for the sibling article: \"Different Ways to Grow and Develop Property Value\" (https://www.silveroakcapital.co.uk/different-ways-to-grow-and-develop-property-value/)",
+    "[b] Result title for the target page: \"Ways to Add Value Before Selling Property - Silver Oak Capital\""
+  ],
+  "sections": [
+    {"heading": "Why add value before selling (target page, per [b])", "content": "Pre-sale improvements are framed as a way to raise an investment's profitability; investors should aim to enhance the value of the property prior to sale."},
+    {"heading": "Maintenance first (target page, per [b])", "content": "Keep the property well maintained, since upkeep protects its value. Small faults such as a roof leak are cheap to fix but can become a much larger, expensive issue if ignored."},
+    {"heading": "Renovation budget discipline (target page, per [b])", "content": "The cost of a renovation should not outweigh the value it adds; the example given is an investor who spends heavily on an expensive renovation in an area with low property values."},
+    {"heading": "Common upgrades (attributed to a separate Silver Oak page, per [b])", "content": "Kitchens and bathrooms, energy-efficiency work and cosmetic updates boost appeal; structural options such as converting a loft into an extra bedroom or office can substantially increase value; securing planning permission for extensions or conversions before a sale is another listed strategy."},
+    {"heading": "Sibling article content (per [a], /different-ways-to-grow-and-develop-property-value/)", "content": "Releasing equity from an existing property to fund renovations or extensions, presented as a way to add value without high upfront costs; planning potential, i.e. securing planning permission before a sale or exploring permitted development rights; described as written by an independent mortgage broker that specialises in property development finance."},
+    {"heading": "Financing the uplift (site FAQ, per [b])", "content": "If a buyer adds value, the firm aims to lend up to 75% of the new, higher valuation so the investor can recover most of their initial capital. A refurbishment bridging loan can fund both the purchase and the works, and is typically repaid from the sale of the property or upon refinance onto a longer-term mortgage."}
+  ],
+  "services": [
+    "Refurbishment bridging loan (funds purchase and works; repaid from sale or refinance) - from site FAQ",
+    "Lending against the new, higher post-works valuation (up to 75%) - from site FAQ",
+    "Equity release from an existing property to fund renovations or extensions - from sibling article",
+    "Property development finance (the firm is described as an independent mortgage broker specialising in property development finance) - from sibling article"
+  ],
+  "useCases": [
+    "Investor improving a property before sale to raise profitability",
+    "Routine maintenance and early repair of small faults (e.g. roof leak) to protect value",
+    "Kitchen and bathroom updates, energy-efficiency work, cosmetic updates",
+    "Loft conversion into an extra bedroom or office",
+    "Securing planning permission for extensions or conversions before selling",
+    "Exploring permitted development rights",
+    "Releasing equity from an existing property to fund works"
+  ],
+  "terms": [
+    "up to 75% of the new, higher valuation (lending aim after value is added - site FAQ, not the article)",
+    "refurbishment bridging loan repaid from sale or refinance onto a longer-term mortgage (site FAQ)"
+  ],
+  "eligibility": [],
+  "processSteps": [],
+  "faq": [
+    {"q": "If I add value to a property, how much can I borrow against it? (site FAQ, surfaced by [b])", "a": "The firm aims to lend up to 75% of the new, higher valuation, so the investor can recover most of their initial capital."},
+    {"q": "How is a refurbishment bridging loan repaid? (site FAQ, surfaced by [b])", "a": "Typically from the sale of the property or upon refinance onto a longer-term mortgage; the loan can fund both the purchase and the works."}
+  ],
+  "claims": [
+    {"claim": "Aims to lend up to 75% of the new, higher valuation once value has been added (source: silveroakcapital.co.uk/faq/, not the article)", "kind": "lending-parameter"},
+    {"claim": "Site/author described as an independent mortgage broker that specialises in property development finance (source: sibling article summary [a])", "kind": "positioning"},
+    {"claim": "A roof leak left unattended could grow into a much larger issue (article guidance)", "kind": "guidance"},
+    {"claim": "Renovation cost should not outweigh the value it adds; expensive renovation in a low-value area given as the cautionary example (article guidance)", "kind": "guidance"}
+  ],
+  "lenderTypes": [],
+  "geography": ["UK (implied by the site; no specific location named in the snippets)"],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/different-ways-to-grow-and-develop-property-value/",
+    "https://www.silveroakcapital.co.uk/tips-for-first-time-commercial-property-buyers/",
+    "https://www.silveroakcapital.co.uk/re-mortgaging-in-the-uk-explained/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/",
+    "https://www.silveroakcapital.co.uk/why-are-property-bridging-loans-popular-in-the-uk/"
+  ],
+  "confidence": "low",
+  "notes": "Search (a), the exact URL in extended mode, did NOT return the target page; it returned the sibling article /different-ways-to-grow-and-develop-property-value/ plus unrelated US/UK real-estate pages (ignored). Search (b), 'site:silveroakcapital.co.uk add value property before selling', returned the target page as the first result with title 'Ways to Add Value Before Selling Property - Silver Oak Capital' and the tool's summary attributed three points to it (investors should enhance value before sale; maintenance/roof-leak example; renovation cost vs. value in a low-value area). The tool explicitly said snippets were truncated. The kitchen/bathroom, energy-efficiency, cosmetic, loft-conversion and planning-permission points were attributed to 'a separate page' (not named; most likely the sibling article) and the 75% LTV / refurbishment-bridging points to the /faq/ page, so they are labelled by source and should not be presented as the article's own text. Quoted phrases are as rendered in the search tool's summary (parenthetical snippet quotes) and may be lightly paraphrased. Not revealed: H1, meta description, author, publication date, full body, headings structure, CTAs, images, internal links within the article. Two URLs not in the seed were discovered: /tips-for-first-time-commercial-property-buyers/ and /re-mortgaging-in-the-uk-explained/. Confidence is low because the page's own content was only partially surfaced via one query and the exact-URL query missed it entirely.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/different-ways-to-add-value-to-the-property-before-selling.json"
+}

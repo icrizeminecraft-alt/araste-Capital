@@ -1,0 +1,72 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/stamp-duty-changes-in-the-uk-from-april-2025/",
+  "title": "UK Stamp Duty Update Starting April 2025 - Silver Oak Capital",
+  "summary": "Blog article (not a case study). Thesis per the search tool's summary [b]: a forward-looking piece, written before 1 April 2025, explaining the upcoming Stamp Duty Land Tax (SDLT) changes in the UK. It describes SDLT as a tax levied on property purchases in England and Northern Ireland that applies to residential, buy-to-let and commercial property transactions. Concrete guidance it gives: the temporary SDLT relief was expected to end in April 2025; the standard residential nil-rate threshold would revert to £125,000 from £250,000; the first-time buyer relief cap would fall from £425,000 to £300,000; and the additional-property surcharge was described as 'currently an additional 3% surcharge' with speculation of a rise to '4% or higher'. The search tool flagged that this surcharge figure is outdated: the Finance Act 2025 raised the additional-dwellings rate for transactions from 31 October 2024 (5% on the first £250,000). No H1, meta description, section headings, FAQ, process steps or calls to action were revealed by the results.",
+  "verbatim": [
+    "[b] Search-result title for the page: \"UK Stamp Duty Update Starting April 2025 - Silver Oak Capital\"",
+    "[b] Search summary: \"The Silver Oak Capital article on April 2025 stamp duty changes is a forward-looking piece written before the changes took effect, and parts of it are now outdated.\"",
+    "[b] Search summary: \"It describes SDLT as a tax levied on property purchases in England and Northern Ireland, applying to residential, buy-to-let, and commercial property transactions.\"",
+    "[b] Fragments the search summary quotes from the article: \"the temporary relief expected to end\"; \"the threshold reverting to £125,000 from £250,000\"; \"first-time buyer relief cap reduced from £425,000 to £300,000\"",
+    "[b] Fragment the search summary quotes from the article: \"the additional surcharge is currently an additional 3% surcharge, but speculation suggests a possible rise to 4% or higher\"",
+    "[b] Search summary's correction (third-party, not the article): \"Legislation from the Finance Act 2025 shows the additional dwellings rate was raised for transactions from 31 October 2024, with the table setting 5% on the first £250,000 (Table A sets 5% up to £250,000, 10% to £925,000, 15% to £1,500,000 and 17% on the remainder).\"",
+    "[a] No Silver Oak Capital result returned for the exact-URL query; search summary: \"I couldn't find the Silver Oak Capital page in the results, so this summary draws on other sources covering the same April 2025 change in England and Northern Ireland.\""
+  ],
+  "services": [
+    "Stamp Duty Land Tax (SDLT) explainer / property tax guidance (editorial content, not a brokered product)",
+    "Residential property purchase finance context",
+    "Buy-to-let property purchase context",
+    "Commercial property transaction context"
+  ],
+  "claims": [
+    {"claim": "SDLT is a tax levied on property purchases in England and Northern Ireland, applying to residential, buy-to-let and commercial property transactions", "kind": "statement"},
+    {"claim": "The temporary SDLT relief was expected to end (from April 2025)", "kind": "statement"},
+    {"claim": "Standard residential nil-rate threshold reverting to £125,000 from £250,000", "kind": "number"},
+    {"claim": "First-time buyer relief cap reduced from £425,000 to £300,000", "kind": "number"},
+    {"claim": "Additional-property surcharge is 'currently an additional 3% surcharge' (as written; outdated - enacted rate became 5% for transactions from 31 October 2024 per Finance Act 2025, flagged by the search tool)", "kind": "number"},
+    {"claim": "Speculation suggests a possible rise of the surcharge to 4% or higher (did not match the enacted 5%)", "kind": "speculation"}
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/stamp-duty-changes-in-the-uk-from-april-2025.json",
+  "terms": [
+    "Stamp Duty Land Tax (SDLT)",
+    "nil-rate threshold",
+    "temporary relief",
+    "first-time buyer relief",
+    "first-time buyer relief cap",
+    "additional property surcharge",
+    "buy-to-let",
+    "commercial property transactions",
+    "residential property purchases"
+  ],
+  "eligibility": [
+    "Standard residential purchases: nil-rate threshold reverts to £125,000 (from £250,000) from April 2025 (per the article, as summarised in [b])",
+    "First-time buyers: relief cap reduced from £425,000 to £300,000 from April 2025 (per the article, as summarised in [b])",
+    "Additional-property purchasers (buy-to-let / second homes): pay a surcharge on top of standard rates; article cites 3% at time of writing (outdated)",
+    "Scope: SDLT applies in England and Northern Ireland only (Scotland and Wales have separate regimes - stated by the search tool, not by the article)"
+  ],
+  "processSteps": [],
+  "faq": [],
+  "geography": [
+    "United Kingdom",
+    "England",
+    "Northern Ireland"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/how-london-property-investment-advisors-help-maximise-roi/ (title: London Property Advisors Maximise ROI)",
+    "https://www.silveroakcapital.co.uk/paying-your-mortgage-with-a-credit-card-is-it-feasible/ (title: Can You Pay Mortgage by Credit Card? - NOT in seed.json)",
+    "https://www.silveroakcapital.co.uk/why-lenders-reject-70-of-london-resi-led-development-deals/ (title: Why 70% of London Development Finance Deals Get Rejected - NOT in seed.json)",
+    "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/ (title: Best Finance Options for New Build Homes)",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/ (title: How Does a Bridging Loan Work?)"
+  ],
+  "lenderTypes": [],
+  "useCases": [
+    "Buyers of residential property in England/Northern Ireland assessing SDLT cost before vs after 1 April 2025",
+    "First-time buyers affected by the relief cap falling from £425,000 to £300,000",
+    "Buy-to-let and additional-property investors facing the surcharge",
+    "Commercial property transactions subject to SDLT"
+  ],
+  "notes": "Source channel: WebSearch only (direct fetch blocked). Exactly 2 calls run, 0 refused. Query (a) (exact URL, extended) returned ten third-party pages (Connells, Tembo, NRLA, The Nottingham, Hawes & Co, My Home Move, UK Construction Blog, homecost.uk, calculatemystampduty.co.uk, Davistate) and no Silver Oak result; its content was NOT attributed to the article and is excluded except as context. Query (b) (site: + keywords, extended) returned the target page as the first result with the SERP title 'UK Stamp Duty Update Starting April 2025 - Silver Oak Capital' (likely the SEO/meta title; H1 not confirmed) plus a summary of its content. All article content recorded here comes from that single search-tool summary, not from a raw page snippet, so coverage of the article is partial: section headings, meta description, publication date, author, worked examples, FAQ, process steps, internal links within the article body, and calls to action were not revealed. Nothing about Silver Oak's own services, lender network, fees or contact details appeared in these results. Accuracy caveat for reuse: the article's surcharge figure (3%, with speculation of 4%+) is outdated - the search tool cites Finance Act 2025 s.50 showing the additional-dwellings rate rose to 5% (first £250,000), 10%, 15% and 17% for transactions from 31 October 2024; third-party results also state the 1 April 2025 main-residence bands as 0% to £125,000, 2% to £250,000, 5% to £925,000, 10% to £1.5m, 12% above, and that no further SDLT changes were announced for 2026 (all third-party, not the article). Two previously unknown Silver Oak blog URLs surfaced in query (b) and are listed in internalLinks. Confidence 'medium': title is confirmed by the SERP listing and the content points are specific, but they rest on one synthesised summary rather than verbatim page snippets."
+}

@@ -1,0 +1,91 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/how-london-property-investment-advisors-help-maximise-roi/",
+  "title": "London Property Advisors Maximise ROI",
+  "h1": "Not revealed by search results. Slug implies: How London Property Investment Advisors Help Maximise ROI",
+  "metaDescription": "Not revealed by search results.",
+  "summary": "Blog article (not a case study) from Silver Oak Capital, described by the search tool as a London debt advisory and mortgage brokerage firm. Thesis: the UK property market, and London's in particular, changes often, with rentals and values moving by area; navigating this is tricky, so a property investment advisor helps investors make informed choices and improve returns (ROI). Concrete guidance revealed: (1) Asset selection - the first step is choosing the right property using market research that judges infrastructure, supply and demand (trends), demographics and transport links; (2) Off-market deals - some of the best deals are found off-market, which depends on maintaining a network of agents, brokers and developers; (3) Tax and financial efficiency - this is the third section heading, but the indexed excerpt ends before its content. No figures, fees, eligibility rules, FAQ or calls to action from this article were revealed. The search index showed the page as about 225 days old at 2026-10-29 (implying publication around March 2026).",
+  "sections": [
+    {"heading": "Introduction / role of the advisor", "content": "[a] The article presents an advisor as someone who helps investors make informed choices, which it says is valuable in a market where rents and values shift by area. The UK property market, and London's in particular, changes often, with rentals and values moving depending on the area. Navigating that can be tricky, so an investment advisor's help can be invaluable."},
+    {"heading": "Asset selection / identifying the right assets", "content": "[a] The first step is choosing the right property, using market research to judge infrastructure, supply and demand, demographics and transport links. [b] identifying the right assets through market research ... It stresses analysing infrastructure, supply and demand trends, demographics and transport links."},
+    {"heading": "Off-market deals", "content": "[a] The article argues that some of the best deals are found off-market, which depends on maintaining a network of agents, brokers and developers. [b] sourcing off-market deals through a network of agents and developers."},
+    {"heading": "Tax and financial efficiency", "content": "[a] This is the third section, and the excerpt ends before its content. [b] ... and financial and tax efficiency. Body content not revealed."}
+  ],
+  "verbatim": [
+    "[a] \"London Property Advisors Maximise ROI\" (result title)",
+    "[a] \"The search didn't return the full text of the page, but the indexed excerpt shows it's an article from Silver Oak Capital, a London debt advisory and mortgage brokerage firm, on how property investment advisors can improve returns.\"",
+    "[a] \"The excerpt is cut off partway through the third section, so I can't confirm its later content.\"",
+    "[a] \"The article presents an advisor as someone who helps investors make informed choices, which it says is valuable in a market where rents and values shift by area.\"",
+    "[a] \"The UK property market, and London's in particular, changes often, with rentals and values moving depending on the area. Navigating that can be tricky, so an investment advisor's help can be invaluable.\"",
+    "[a] \"The first step is choosing the right property, using market research to judge infrastructure, supply and demand, demographics and transport links.\"",
+    "[a] \"The article argues that some of the best deals are found off-market, which depends on maintaining a network of agents, brokers and developers.\"",
+    "[a] \"Tax and financial efficiency: This is the third section, and the excerpt ends before its content.\"",
+    "[a] \"the search index shows it as about 225 days old\"",
+    "[b] \"The page covers identifying the right assets through market research, sourcing off-market deals through a network of agents and developers, and financial and tax efficiency. It stresses analysing infrastructure, supply and demand trends, demographics and transport links.\"",
+    "[b] \"The pages are promotional and their dates vary; some were listed roughly 200+ days ago and one about 580 days ago.\""
+  ],
+  "services": [
+    "Property investment advisory (helping investors make informed choices to maximise ROI)",
+    "Asset selection via market research (infrastructure, supply and demand, demographics, transport links)",
+    "Off-market deal sourcing via a network of agents, brokers and developers",
+    "Tax and financial efficiency (section heading only; content not revealed)",
+    "Firm positioning per search tool: London debt advisory and mortgage brokerage"
+  ],
+  "terms": [
+    "ROI (return on investment)",
+    "property investment advisor",
+    "market research",
+    "infrastructure",
+    "supply and demand (trends)",
+    "demographics",
+    "transport links",
+    "off-market deals",
+    "network of agents, brokers and developers",
+    "tax efficiency",
+    "financial efficiency",
+    "rents / rental values",
+    "property values"
+  ],
+  "eligibility": [],
+  "processSteps": [
+    "Step 1 (per article): choose the right property / identify the right assets using market research on infrastructure, supply and demand, demographics and transport links",
+    "Step 2 (per article order): source off-market deals through a maintained network of agents, brokers and developers",
+    "Step 3 (per article order): tax and financial efficiency - heading revealed, guidance not revealed"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "The UK property market, and London's in particular, changes often, with rentals and values moving depending on the area.", "kind": "market assertion (this article, [a])"},
+    {"claim": "An investment advisor's help can be invaluable when navigating the market.", "kind": "positioning / promise (this article, [a])"},
+    {"claim": "Some of the best deals are found off-market, which depends on maintaining a network of agents, brokers and developers.", "kind": "assertion (this article, [a][b])"},
+    {"claim": "Page indexed as about 225 days old at 2026-10-29 (approx. publication March 2026).", "kind": "metadata (search tool, [a])"},
+    {"claim": "Reducing the initial capital investment will result in an improved ROI, which the page links to using debt, while noting that higher debt levels will require disciplined cash flow management; also recommends negotiating price, buying below market value, regular inspections and forecasting energy, insurance and council tax costs.", "kind": "sibling-page content, NOT this article - likely /property-investment-strategies-to-get-maximum-roi/ ([b])"},
+    {"claim": "The firm says it can lend up to 70-75% of the open market value immediately; bridging lenders, unlike many mortgage lenders, don't impose a six-month refinancing restriction.", "kind": "sibling-page content, NOT this article - /below-market-purchases/ ([b])"},
+    {"claim": "London house price growth of about 18% over ten years, but rental yields are generally lower, between 2% and 5%.", "kind": "sibling-page content, NOT this article - likely /best-places-to-buy-property-in-the-uk-for-long-term-growth/ ([b])"}
+  ],
+  "geography": ["London", "United Kingdom"],
+  "lenderTypes": [],
+  "useCases": [
+    "Property investors seeking to maximise ROI on London / UK property",
+    "Investors wanting access to off-market deals",
+    "Investors wanting structured asset selection based on market research"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/property-investment-strategies-to-get-maximum-roi/ (NEW - not in seed; title 'Property investment strategies to get maximum ROI')",
+    "https://www.silveroakcapital.co.uk/best-places-to-buy-property-in-the-uk-for-long-term-growth/ (NEW - not in seed; title 'Best Places to Buy Property in the UK for Long-Term Growth')",
+    "https://www.silveroakcapital.co.uk/secure-the-best-business-loan-with-expert-brokerage-services/",
+    "https://www.silveroakcapital.co.uk/different-ways-to-grow-and-develop-property-value/",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/",
+    "https://www.silveroakcapital.co.uk/find-the-perfect-mortgage-with-a-specialist-broker/ (title 'Why Use a Mortgage Broker for the Right Fit')",
+    "https://www.silveroakcapital.co.uk/below-market-purchases/ (title 'Below Market Value Property Finance UK')",
+    "https://www.silveroakcapital.co.uk/blogs/",
+    "https://www.silveroakcapital.co.uk/mezzanine-junior-finance/ (title 'Mezzanine Finance UK')",
+    "https://silveroakcapital.odoo.com/ (external, in seed)",
+    "https://silveroakcapital.weebly.com/ (external, in seed)",
+    "https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital (NEW external directory listing titled 'Silver Oak Capital, Hackney' - not verified; firm's office per seed is Wimpole Street W1)"
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "notes": "Direct fetching blocked; everything comes from two WebSearch (extended) calls: [a] exact-URL query, [b] site:silveroakcapital.co.uk London property investment advisors maximise ROI. The search tool returned a summary of an indexed excerpt, not raw page text, and it stated the excerpt is cut off partway through the third section ('Tax and financial efficiency'). Therefore: title confirmed from result title ('London Property Advisors Maximise ROI', probably the SEO title); H1 and meta description not revealed; three section topics confirmed (asset selection via market research; off-market deals via network; tax and financial efficiency); any further sections, conclusion, figures, fees, FAQ or CTAs are unknown. Items in 'verbatim' are the search tool's wording - some sentences read like page text (notably the 'UK property market, and London's in particular, changes often...' and 'first step is choosing the right property...' lines) but exact page wording is not guaranteed. The [b] summary also described three sibling pages of the same firm; those facts are recorded in 'claims' with explicit 'sibling-page content, NOT this article' labels so they are not attributed to this article: the ROI/below-market/costs guidance most likely belongs to /property-investment-strategies-to-get-maximum-roi/, the 70-75% OMV lending and no six-month refinancing restriction to /below-market-purchases/, and the ~18% ten-year London price growth with 2-5% yields to /best-places-to-buy-property-in-the-uk-for-long-term-growth/ (attribution to slugs is inferred from result titles, not stated). Two new article URLs not present in seed.json were discovered: /property-investment-strategies-to-get-maximum-roi/ and /best-places-to-buy-property-in-the-uk-for-long-term-growth/. Unrelated results ignored: londoncentralportfolio.com guide, Wikipedia 'London & Associated Properties'. Age inference: 225 days before 2026-10-29 is approximately 2026-03-18, so the article was likely published around March 2026 (inference, not stated by the tool). Search allowance: exactly 2 calls run, 0 refused.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/how-london-property-investment-advisors-help-maximise-roi.json"
+}

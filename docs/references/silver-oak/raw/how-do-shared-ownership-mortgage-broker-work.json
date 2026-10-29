@@ -1,0 +1,127 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/how-do-shared-ownership-mortgage-broker-work/",
+  "title": "How Do Shared Ownership Mortgage Brokers Work?",
+  "h1": "Not revealed by search results. Title tag confirmed identically in [a] and [b] as 'How Do Shared Ownership Mortgage Brokers Work?'; the H1 is presumably the same but was not shown.",
+  "metaDescription": "Not revealed by search results.",
+  "summary": "Page type: blog article (not a case study). Thesis as revealed by snippets: shared ownership lets a home-buyer purchase a share in a property while paying rent on the remaining unowned share (the search tool's summary [a] attributes a 'usually 25% to 75%' share range to the page); because shared ownership mortgages 'differ from traditional mortgages in a number of ways' and not all lenders offer them, borrowers should understand the product first and an independent mortgage broker is useful. Concrete guidance revealed, i.e. what the broker does: (1) checks whether the buyer meets the criteria set by housing associations and lenders; (2) finds lenders that actually offer shared ownership products, since 'not all mortgage lenders offer shared ownership products, but a broker has access to a broad range of options'; (3) ensures all financial documentation is prepared correctly to improve approval chances; (4) explains how to increase ownership later (staircasing). NOT revealed: fees, rates, deposit figures, named lenders or housing associations, eligibility thresholds, FAQ, author, publication date, calls to action, meta description.",
+  "verbatim": [
+    "[a][b] \"Shared ownership allows home-buyers to purchase a share in a property while paying rent on the remaining unowned share.\"",
+    "[a][b] \"Not all mortgage lenders offer shared ownership products, but a broker has access to a broad range of options.\"",
+    "[b] \"Brokers help determine if buyers meet the criteria set by housing associations and lenders.\"",
+    "[b] \"Ensuring all financial documentation is prepared correctly to improve approval chances.\"",
+    "[a] (search-tool summary attributed to the page; wording not confirmed verbatim) \"Shared ownership lets buyers acquire a portion of a property, usually 25% to 75%, and pay rent on the rest.\"",
+    "[a] (search-tool paraphrase of the page's argument) \"shared ownership mortgages differ from traditional mortgages in a number of ways, so borrowers should understand them first, and an independent mortgage broker can be useful\"",
+    "[a] (search-tool paraphrase of the broker duties the page lists) \"Checking whether buyers meet housing association and lender criteria, finding lenders that offer these products, preparing financial documents for the application, and explaining how to increase ownership later (staircasing).\"",
+    "[b] (search-tool summary of related page /different-ways-to-finance-new-build-homes-in-the-uk/) \"lists shared ownership among government-backed schemes, describing it as a way to buy part of a property and rent the remainder\"",
+    "[b] (search-tool summary of the site's 'independent mortgage broker' pages) \"a broker can source from a wide range of lenders, which is the core pitch for using one\"",
+    "[b] (result-list title of a site page absent from seed.json) \"Top 7 Reasons to Use an Independent Mortgage Broker for Your Next Loan\"",
+    "[b] (result-list title of a site page absent from seed.json) \"Switch to an Interest-Only Mortgage Option\"",
+    "[b] (result-list title of a site page absent from seed.json) \"Unlock Flexible Mortgage Bridging Loans Without Penalties\""
+  ],
+  "services": [
+    "Shared ownership mortgage brokerage by an independent mortgage broker",
+    "Eligibility check against the criteria set by housing associations and lenders",
+    "Lender sourcing for shared ownership products (access to 'a broad range of options')",
+    "Preparation of financial documentation for the mortgage application",
+    "Guidance on staircasing (increasing the owned share later)"
+  ],
+  "terms": [
+    "shared ownership",
+    "shared ownership mortgage",
+    "share in a property",
+    "unowned share",
+    "rent on the remaining share",
+    "housing association",
+    "staircasing",
+    "independent mortgage broker",
+    "lender criteria",
+    "financial documentation",
+    "approval chances",
+    "traditional mortgage"
+  ],
+  "eligibility": [
+    "Buyers must meet 'the criteria set by housing associations and lenders' [b]; the snippets show no specific thresholds (income caps, deposit size, residency, first-time-buyer status, share percentage limits)."
+  ],
+  "processSteps": [
+    "1. Check whether the buyer meets housing association and lender criteria [a][b]",
+    "2. Find lenders that offer shared ownership products, since not all do [a][b]",
+    "3. Prepare all financial documentation correctly for the application to improve approval chances [a][b]",
+    "4. Explain how to increase ownership later (staircasing) [a]"
+  ],
+  "faq": [],
+  "claims": [
+    {
+      "claim": "Shared ownership share range 'usually 25% to 75%'",
+      "kind": "figure - search-tool summary [a] attributed to the Silver Oak page; wording not confirmed verbatim"
+    },
+    {
+      "claim": "Not all mortgage lenders offer shared ownership products, but a broker has access to a broad range of options.",
+      "kind": "capability claim - verbatim [a][b]"
+    },
+    {
+      "claim": "Ensuring all financial documentation is prepared correctly to improve approval chances.",
+      "kind": "benefit / promise - verbatim-style fragment [b]"
+    },
+    {
+      "claim": "Shared ownership mortgages differ from traditional mortgages in a number of ways",
+      "kind": "thesis - search-tool paraphrase [a]"
+    },
+    {
+      "claim": "No awards, lender counts, loan-size ranges, fees, interest rates or timings from this page appeared in the snippets",
+      "kind": "absence"
+    }
+  ],
+  "geography": [
+    "UK (implied by the site and by 'housing association' terminology; not explicitly stated in the snippets seen)"
+  ],
+  "lenderTypes": [
+    "'mortgage lenders' that offer shared ownership products, unnamed [a][b]",
+    "housing associations - the scheme counterparty whose criteria must be met; not a lender [b]"
+  ],
+  "useCases": [
+    "Buying a share of a home while paying rent on the unowned remainder [a][b]",
+    "Increasing the owned share later via staircasing [a]"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/commercial-Mortgage-Broker/ (capitalised variant of /commercial-mortgage-broker/ already in seed)",
+    "https://www.silveroakcapital.co.uk/can-i-change-my-mortgage-to-interest-only/ (NOT in seed.json)",
+    "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/unlock-financial-freedom-mortgages-without-early-redemption-charges/ (NOT in seed.json)",
+    "https://www.silveroakcapital.co.uk/which-mortgage-company-is-right-for-you/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/",
+    "https://www.silveroakcapital.co.uk/top-7-reasons-to-use-an-independent-mortgage-broker-for-your-next-loan/ (NOT in seed.json)",
+    "https://www.silveroakcapital.co.uk/hmo-finance/"
+  ],
+  "sections": [
+    {
+      "heading": "[inferred structure, not a confirmed heading] What shared ownership is",
+      "content": "\"Shared ownership allows home-buyers to purchase a share in a property while paying rent on the remaining unowned share.\" [a][b]. The search tool's summary [a] adds that the share is 'usually 25% to 75%' (attributed to the page, not confirmed verbatim)."
+    },
+    {
+      "heading": "[inferred structure] Why use an independent broker",
+      "content": "Per the search tool's paraphrase [a], the page argues that shared ownership mortgages differ from traditional mortgages in a number of ways, so borrowers should understand them first, and an independent mortgage broker can be useful."
+    },
+    {
+      "heading": "[inferred structure] Broker duty: eligibility",
+      "content": "\"Brokers help determine if buyers meet the criteria set by housing associations and lenders.\" [b]"
+    },
+    {
+      "heading": "[inferred structure] Broker duty: lender access",
+      "content": "\"Not all mortgage lenders offer shared ownership products, but a broker has access to a broad range of options.\" [a][b]"
+    },
+    {
+      "heading": "[inferred structure] Broker duty: application paperwork",
+      "content": "\"Ensuring all financial documentation is prepared correctly to improve approval chances.\" [b]"
+    },
+    {
+      "heading": "[inferred structure] Broker duty: staircasing",
+      "content": "The page explains how to increase ownership later (staircasing), per the search tool's paraphrase [a]. No percentages or mechanics of staircasing were visible."
+    }
+  ],
+  "confidence": "medium",
+  "notes": "Page existence and title confirmed by both searches. The thesis and four broker duties are consistently reported across [a] and [b], and four sentences appear verbatim-style in both tool summaries. However the body was only visible as fragments: H1, meta description, author, date, fees, rates, deposit/share figures (beyond the tool-summarised '25% to 75%'), named lenders, FAQ and calls to action were not revealed. Section headings above are reconstructed from the order of points in the snippets, not confirmed. Search [a] (the exact URL) was treated by the engine as a topic search and returned 8 unrelated third-party pages (mojomortgages, moneysupermarket, alexanderhall, sharetobuy, themortgagecentres, bettermove, pauzible, as-mortgages); their content was ignored per the rules. Search [b] confirmed the page and surfaced three Silver Oak blog URLs absent from seed.json (listed in internalLinks); these are co-listed search results, not confirmed in-article links. The tool flagged one [b] result as '225 days old' without naming which page. Exactly 2 WebSearch calls were made, none refused.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/how-do-shared-ownership-mortgage-broker-work.json"
+}

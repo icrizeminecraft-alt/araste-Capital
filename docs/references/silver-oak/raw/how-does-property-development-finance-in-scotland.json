@@ -1,0 +1,106 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/how-does-property-development-finance-in-scotland/",
+  "title": "How Does Property Development Finance Work in Scotland?",
+  "h1": "How Does Property Development Finance Work in Scotland? (search-result title; H1 not separately confirmed)",
+  "summary": "Blog article (not a case study) presenting property development finance as a common funding route for developers in Scotland, while noting that Scotland's unique market conditions and planning regulations should be considered. The visible content is a typology of the main finance types available: senior development loans (covering a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value), mezzanine finance (a secondary loan that sits behind senior debt, reducing the developer's equity requirement), bridging loans, stretched senior loans and joint venture finance. The concrete guidance revealed on applying is that the lender will want a clear business case including cost estimates, projected timelines and an exit strategy. The full article body (introduction, section headings, rates, worked examples, Scottish legal specifics such as Standard Security, FAQ, calls to action) was not exposed by the search snippets.",
+  "verbatim": [
+    "[a] (search-tool summary of the page excerpt) \"lists the main finance types: senior development loans that cover a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value (GDV), mezzanine finance, a secondary loan that sits behind senior debt, bridging loans, stretched senior loans, and joint venture finance.\"",
+    "[a] (search-tool summary of the page excerpt) \"It also describes how to apply: the lender will want a clear business case, including cost estimates, projected timelines, and exit strategy.\"",
+    "[b] (search-tool summary) \"Silver Oak's guide on property development finance in Scotland says it is a common funding route there. It notes that unique market conditions and planning regulations should be considered.\"",
+    "[b] (search-tool summary) \"The snippet lists senior loans, mezzanine finance, bridging loans, stretched senior loans, and joint venture finance. It also describes senior loans as typically up to 65-75% of Gross Development Value (GDV).\"",
+    "[seed] (quoted snippet recorded in seed.json first pass) \"Senior development loans cover a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value.\"",
+    "[seed] (quoted snippet recorded in seed.json first pass) mezzanine finance is \"a secondary loan that sits behind senior debt, reducing the developer's equity requirement\"",
+    "[b] (other Silver Oak page, /property-development-finance/, search-tool summary) \"loans are secured against the available land and are drawn in line with the business plan and construction schedule. Interest is rolled up on top of the principal amount, and the loan is repaid at completion from sales or refinance.\"",
+    "[b] (other Silver Oak page, /senior-development-finance/, search-tool summary) \"says the firm can help secure up to 90% with certain lenders loan-to-cost.\"",
+    "[b] (other Silver Oak page, /case-studies/, search-tool summary) \"an entry about a property developer specializing in refurbishing historic residential buildings in Edinburgh. The snippet doesn't show the outcome.\""
+  ],
+  "services": [
+    "Senior development loans",
+    "Mezzanine finance",
+    "Bridging loans",
+    "Stretched senior loans",
+    "Joint venture finance"
+  ],
+  "sections": [
+    {
+      "heading": "Introduction / context (heading wording not confirmed)",
+      "content": "Property development finance is described as a common funding route in Scotland; unique market conditions and planning regulations in Scotland should be considered."
+    },
+    {
+      "heading": "Types of property development finance (heading wording not confirmed)",
+      "content": "Senior development loans: cover a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value (GDV). Mezzanine finance: a secondary loan that sits behind senior debt, reducing the developer's equity requirement. Bridging loans, stretched senior loans and joint venture finance are also listed; no detail on these three was revealed."
+    },
+    {
+      "heading": "How to apply (heading wording not confirmed)",
+      "content": "The lender will want a clear business case, including cost estimates, projected timelines, and exit strategy."
+    }
+  ],
+  "terms": [
+    "Property development finance",
+    "Senior development loan / senior debt",
+    "Mezzanine finance (secondary loan behind senior debt)",
+    "Bridging loan",
+    "Stretched senior loan",
+    "Joint venture finance",
+    "Gross Development Value (GDV)",
+    "Equity requirement",
+    "Business case",
+    "Cost estimates",
+    "Projected timelines",
+    "Exit strategy",
+    "Loan-to-cost (from /senior-development-finance/, not this article)",
+    "Rolled-up interest (from /property-development-finance/, not this article)"
+  ],
+  "eligibility": [
+    "Lender will want a clear business case",
+    "Cost estimates required",
+    "Projected timelines required",
+    "Exit strategy required",
+    "Senior loans sized typically up to 65-75% of GDV (implies developer equity / mezzanine covers the balance)"
+  ],
+  "processSteps": [
+    "Prepare a clear business case for the lender",
+    "Include cost estimates",
+    "Include projected timelines",
+    "Define the exit strategy",
+    "(Sequence and further steps such as valuation, drawdown in tranches, completion were not revealed for this article; the sibling article /how-does-property-development-finance-work-a-step-by-step-guide/ covers tranches per seed.json)"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "Senior development loans typically cover up to 65-75% of Gross Development Value (GDV)", "kind": "lending parameter (this article; corroborated by searches a, b and seed)"},
+    {"claim": "Mezzanine finance sits behind senior debt and reduces the developer's equity requirement", "kind": "product description (this article; seed + search a)"},
+    {"claim": "Property development finance is a common funding route in Scotland", "kind": "market statement (this article; search b)"},
+    {"claim": "Scotland has unique market conditions and planning regulations to consider", "kind": "market statement (this article; search b)"},
+    {"claim": "Firm can help secure up to 90% loan-to-cost with certain lenders", "kind": "lending parameter (other page /senior-development-finance/; search b)"},
+    {"claim": "Development loans secured against the land, drawn in line with business plan and construction schedule, interest rolled up, repaid at completion from sales or refinance", "kind": "product mechanics (other page /property-development-finance/; search b)"}
+  ],
+  "geography": [
+    "Scotland",
+    "Edinburgh (mentioned on /case-studies/ page, historic residential refurbishment developer; not confirmed as part of this article)"
+  ],
+  "lenderTypes": [
+    "Senior development lenders",
+    "Mezzanine lenders",
+    "Bridging lenders",
+    "Stretched senior lenders",
+    "Joint venture finance partners"
+  ],
+  "useCases": [
+    "Funding land purchase and construction costs for a development in Scotland",
+    "Reducing developer equity requirement via mezzanine behind senior debt"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/development-finance-brokers/",
+    "https://www.silveroakcapital.co.uk/conversions/",
+    "https://www.silveroakcapital.co.uk/case-studies/"
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/how-does-property-development-finance-in-scotland.json",
+  "notes": "Search (a) with the literal URL and search (b) with site:silveroakcapital.co.uk + slug keywords both returned the target page with title 'How Does Property Development Finance Work in Scotland?' (consistent across both and with seed.json). The WebSearch tool returns paraphrased summaries of snippets rather than raw snippet text, so the 'verbatim' entries tagged [a]/[b] are the tool's wording of the excerpt, not guaranteed page wording; the two [seed] entries are the quoted sentences recorded in the first harvest pass and are consistent with the new results. Meta description, H1 (as distinct from title), section headings, FAQ, calls to action, author, publication date and any rates/worked examples were NOT revealed; metaDescription is therefore omitted and faq/ctas are empty. Search (a) also surfaced unrelated third-party pages (Scottish Business News, Greenwood Capital, Anglo Scottish Finance, Evolve Finance, FD Commercial, Fox Davidson, Together Money, RBS) carrying Scottish-specific points (Standard Security registration, 6-24 or 12-30 month terms, ~0.80%-1.30%/month rates); these are NOT Silver Oak content and are deliberately excluded from the fields above. Search (b) also returned unrelated Wikipedia pages (The KLIN Group, Silverburn Shopping Centre, Simply UK), ignored. Other Silver Oak page titles observed: 'Property Development Finance', 'Silver Oak Capital Case Studies', 'Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions' (home), 'Property Conversion Finance UK', 'Senior Development Finance UK', 'Development Finance Brokers - Get a Instant Quote Now' (the last shows a 'Get a Instant Quote Now' CTA on a different page, not confirmed on this article). Confidence is medium because the typology and the 65-75% GDV figure are triple-corroborated, but the bulk of the article body remains unseen."
+}

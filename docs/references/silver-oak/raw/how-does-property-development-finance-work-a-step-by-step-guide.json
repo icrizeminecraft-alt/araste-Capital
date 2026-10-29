@@ -1,0 +1,101 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/how-does-property-development-finance-work-a-step-by-step-guide/",
+  "title": "How Does Property Development Finance Work? A Step-by-Step Guide",
+  "summary": "Blog explainer on how UK property development finance is structured and released. Thesis (per the search tool's summary of result [b]): development finance is not advanced as one lump sum but released in stages over the life of a scheme. Concrete guidance recovered: (1) the land loan typically will not exceed 75% of the purchase price, subject to loan-to-cost and loan-to-GDV ratios; (2) once the land is bought and works start, the construction loan is drawn down in tranches; (3) under 'arrears funding' the developer pays for the first stage of works and the lender reimburses after an independent surveyor verifies the work; (4) for larger phased schemes a 'peak-debt facility' operates like a revolving credit line, with sale proceeds from completed units repaying the lender before the next tranche is drawn; (5) lenders expect a clear business case covering cost estimates, projected timelines and an exit strategy; (6) a broker adds value by giving access to a wide range of lenders, from high street banks to specialist funders. The seed's first-pass snippet adds the sentence 'One of the most common ways in which development finance is structured is a series of tranches.' and the sequence: buy land or an existing property, obtain planning approval, fund in tranches. The search tool stated that the guide's full step list was not in the results and that the page was cut off before its later sections, so the complete step sequence, any FAQ, calls to action, rate figures and worked examples remain unconfirmed.",
+  "verbatim": [
+    "[b] (search-tool summary wording, not confirmed page text) \"Development finance is usually released in stages. The land loan typically won't exceed 75% of the purchase price, though this depends on loan-to-cost and loan-to-GDV ratios.\"",
+    "[b] (search-tool summary wording) \"Once the land is bought and works start, the construction loan is usually drawn down in tranches. Under arrears funding, the developer covers the first stage, and the lender verifies the work through an independent surveyor before reimbursing the costs.\"",
+    "[b] (search-tool summary wording) \"For larger phased schemes, a peak-debt facility works like a revolving credit line. Sale proceeds from completed units repay the lender before the developer draws the next tranche.\"",
+    "[b] (search-tool summary wording) \"Lenders expect a clear business case, including cost estimates, projected timelines, and an exit strategy. A broker can help by giving access to a wide range of lenders, from high street banks to specialist funders.\"",
+    "[b] (search-tool summary wording; attribution to this page uncertain, may derive from sibling bridging-loan pages in the same result set) \"A related product, typically secured against property and structured for short-term repayment, usually between 6 to 24 months.\"",
+    "[b] (search-tool meta remark) \"The guide's full step list wasn't in the results, so I can only confirm the points above. Only the first result is the step-by-step guide itself, and it was cut off before its later sections.\"",
+    "[a] (search-tool meta remark) \"The search didn't return the Silver Oak Capital page itself, so I can't confirm what it says.\"",
+    "[seed] (first-pass snippet recorded 18 Oct 2026) \"One of the most common ways in which development finance is structured is a series of tranches.\""
+  ],
+  "services": [
+    "Property development finance (staged: land loan, then construction loan drawn in tranches)",
+    "Peak-debt / revolving development facility for larger phased schemes",
+    "Development finance broker service (access to high street banks through to specialist funders)",
+    "Bridging loans (mentioned as a related short-term product; attribution to this page uncertain)"
+  ],
+  "claims": [
+    {"claim": "The land loan typically won't exceed 75% of the purchase price, though this depends on loan-to-cost and loan-to-GDV ratios", "kind": "number - LTV cap on land element [b]"},
+    {"claim": "Development finance is usually released in stages", "kind": "structure [b]"},
+    {"claim": "Once the land is bought and works start, the construction loan is usually drawn down in tranches", "kind": "structure [b]"},
+    {"claim": "Under arrears funding, the developer covers the first stage and the lender verifies the work through an independent surveyor before reimbursing the costs", "kind": "process [b]"},
+    {"claim": "For larger phased schemes, a peak-debt facility works like a revolving credit line; sale proceeds from completed units repay the lender before the developer draws the next tranche", "kind": "structure [b]"},
+    {"claim": "Lenders expect a clear business case, including cost estimates, projected timelines, and an exit strategy", "kind": "eligibility [b]"},
+    {"claim": "A broker can help by giving access to a wide range of lenders, from high street banks to specialist funders", "kind": "positioning / promise [b]"},
+    {"claim": "Bridging loans are typically secured against property and structured for short-term repayment, usually between 6 to 24 months", "kind": "number - term; attribution to this page uncertain [b]"},
+    {"claim": "One of the most common ways in which development finance is structured is a series of tranches", "kind": "structure [seed first-pass snippet]"}
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/how-does-property-development-finance-work-a-step-by-step-guide.json",
+  "notes": "Search (a), the exact URL in extended mode, did NOT return the Silver Oak page: it returned only third-party UK guides (capitalise.com, harperjames.co.uk, iwoca.co.uk, brickflow.com, fundingoptions.com, tls-live.com, mu-mortgages.com), two of which carry the identical title 'How Does Property Development Finance Work? A Step-by-Step Guide'. Their content was NOT recorded here (unrelated companies). Search (b), 'site:silveroakcapital.co.uk property development finance work step by step guide', returned the target page as result 1 (title confirmed as above) plus eight sibling Silver Oak pages. The search tool returned no raw snippets, only an aggregated summary that it said drew on 'several Silver Oak Capital pages'; the 'Structure', 'Construction stage' and 'Peak debt' bullets read as a sequential guide and are consistent with the seed's first-pass snippet for this URL (tranche structure), so they are attributed to this page with reasonable confidence; the 'Application basics' bullet may come from this page or the development-finance-broker page; the 'Bridging loans' bullet most likely comes from the sibling bridging pages. The tool explicitly said the guide was cut off before its later sections and its full step list was not in the results. Not revealed by either search: H1 (only the result title is known), meta description, FAQ, calls to action, author, publication date, rate or fee figures, geography statements for this page, worked examples. Two sibling URLs seen in (b) are NOT in the seed page list and are new discoveries: /complete-guide-to-development-loans-for-property-projects-uk/ and /development-finance-broker-find-the-best-funding-partner-for-your-project/. Confidence is 'medium' because the core structural content is corroborated by the seed, but all wording is tool paraphrase, attribution is partly ambiguous, and the later part of the article is missing.",
+  "sections": [
+    {"heading": "Staged release and the land loan [b]", "content": "Development finance is usually released in stages rather than as a single advance. The first element is the land loan, which typically will not exceed 75% of the purchase price; the actual figure depends on the loan-to-cost and loan-to-GDV ratios of the scheme."},
+    {"heading": "Construction stage: drawdown in tranches [b]", "content": "Once the land has been bought and works begin, the construction loan is usually drawn down in tranches. Under arrears funding, the developer pays for the first stage of works out of its own funds; the lender then verifies the completed work through an independent surveyor before reimbursing the costs."},
+    {"heading": "Peak-debt facility for larger phased schemes [b]", "content": "For larger, phased developments a peak-debt facility operates like a revolving credit line: sale proceeds from completed units repay the lender before the developer draws the next tranche, keeping the outstanding debt within an agreed peak."},
+    {"heading": "What lenders expect from the application [b]", "content": "Lenders expect a clear business case including cost estimates, projected timelines and an exit strategy."},
+    {"heading": "Role of a broker [b]", "content": "A broker can help by giving access to a wide range of lenders, from high street banks to specialist funders. (Attribution to this page versus the sibling development-finance-broker page is uncertain.)"},
+    {"heading": "Related product: bridging loans [b, attribution uncertain]", "content": "Bridging loans are described as a related product, typically secured against property and structured for short-term repayment, usually between 6 to 24 months. This bullet most likely derives from the sibling bridging pages returned in the same search."},
+    {"heading": "Sequence recorded in seed first pass [seed]", "content": "Buy land or an existing property; obtain planning approval; fund in tranches. Quote: 'One of the most common ways in which development finance is structured is a series of tranches.'"}
+  ],
+  "processSteps": [
+    "Acquire the site: land loan, typically not exceeding 75% of the purchase price, subject to loan-to-cost and loan-to-GDV ratios [b]",
+    "Obtain planning approval before development funding (seed first-pass sequence) [seed]",
+    "Start works: construction loan drawn down in tranches [b]",
+    "Arrears funding: developer pays for the first stage; independent surveyor verifies the work; lender reimburses the costs [b]",
+    "Larger phased schemes: peak-debt facility works like a revolving credit line; sale proceeds from completed units repay the lender before the next tranche is drawn [b]",
+    "Later steps (exit, repayment mechanics, timings) not revealed: the tool stated the page was cut off before its later sections"
+  ],
+  "terms": [
+    "development finance",
+    "land loan",
+    "construction loan",
+    "tranches / drawdown in tranches",
+    "staged release",
+    "arrears funding",
+    "independent surveyor",
+    "peak-debt facility",
+    "revolving credit line",
+    "phased scheme",
+    "loan-to-cost (LTC)",
+    "loan-to-GDV (LTGDV)",
+    "gross development value (GDV)",
+    "business case",
+    "exit strategy",
+    "high street banks",
+    "specialist funders",
+    "bridging loan",
+    "planning approval"
+  ],
+  "eligibility": [
+    "A clear business case, including cost estimates, projected timelines and an exit strategy [b]",
+    "Land element limited to typically 75% of purchase price, dependent on loan-to-cost and loan-to-GDV ratios [b]"
+  ],
+  "faq": [],
+  "geography": [],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/ (title: Commercial vs. Home Loan Rates Compared) [b]",
+    "https://www.silveroakcapital.co.uk/complete-guide-to-development-loans-for-property-projects-uk/ (title: Development Loans for Property Projects UK; NEW, not in seed) [b]",
+    "https://www.silveroakcapital.co.uk/how-does-property-development-finance-in-scotland/ (title: How Does Property Development Finance Work in Scotland?) [b]",
+    "https://www.silveroakcapital.co.uk/development-finance-broker-find-the-best-funding-partner-for-your-project/ (title: Expert Development Finance Broker; NEW, not in seed) [b]",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/ (title: How Does a Bridging Loan Work?) [b]",
+    "https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/ (title: Importance of Bridging Loans for Property Development) [b]",
+    "https://www.silveroakcapital.co.uk/first-time-developer-finance/ (title: First Time Developer Finance UK) [b]",
+    "https://www.silveroakcapital.co.uk/how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/ (title: Stuck in a Chain? How Bridging Loans Work) [b]"
+  ],
+  "lenderTypes": [
+    "high street banks [b]",
+    "specialist funders [b]"
+  ],
+  "useCases": [
+    "Funding land acquisition for a development scheme [b]",
+    "Funding construction works in stages via tranches [b]",
+    "Larger phased schemes financed through a peak-debt (revolving) facility [b]"
+  ]
+}

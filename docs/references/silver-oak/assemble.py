@@ -11,7 +11,7 @@ NARR = os.path.join(HERE, "narrative")
 OUT = os.path.join(HERE, "REFERENCE.md")
 
 seed = json.load(open(os.path.join(HERE, "seed.json"), encoding="utf-8"))
-pages, third = {}, []
+pages, third, gaps = {}, [], []
 for name in sorted(os.listdir(RAW)) if os.path.isdir(RAW) else []:
     if not name.endswith(".json"):
         continue
@@ -22,6 +22,8 @@ for name in sorted(os.listdir(RAW)) if os.path.isdir(RAW) else []:
         continue
     if name.startswith("third-"):
         third.append(data)
+    elif name.startswith("gaps-"):
+        gaps.append(data)
     elif isinstance(data, dict) and data.get("url"):
         pages[data["url"].rstrip("/").lower()] = data
 
@@ -183,6 +185,25 @@ for t in third:
 A("")
 A("## 9. Ce que Silver Oak couvre et que le site ARASTE ne couvre pas encore"); A(""); A(narrative("09-mapping.md")); A("")
 A("## 10. Ce qui reste à récupérer"); A(""); A(narrative("10-reste.md")); A("")
+found = {}
+for g in gaps:
+    for f in g.get("found") or []:
+        k = (f.get("url") or "").rstrip("/").lower()
+        if k and "silveroakcapital" in k and k not in pages and k not in found:
+            found[k] = f
+if found:
+    A("### Pages repérées par la passe de complément (non inventoriées auparavant)"); A("")
+    for k, f in sorted(found.items()):
+        A(f"- **{esc(f.get('title'), 120)}** — {esc(f.get('summary'), 500)} (<{f.get('url')}>)")
+        for v in (f.get("verbatim") or [])[:3]:
+            A(f"  > {esc(v, 300)}")
+    A("")
+not_found = sorted({esc(x, 200) for g in gaps for x in (g.get("notFound") or [])})
+if not_found:
+    A("### Cherché sans résultat"); A("")
+    for x in not_found[:40]:
+        A(f"- {x}")
+    A("")
 missing = [u for u in all_urls if u.rstrip("/").lower() not in pages]
 if missing:
     A("Pages recensées mais non extraites (aucune recherche dédiée n'a encore pu être effectuée) :"); A("")

@@ -1,0 +1,127 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/blogs/",
+  "title": "Blogs",
+  "h1": "not revealed in search results (search result title for the page is \"Blogs\")",
+  "metaDescription": "not revealed in search results",
+  "summary": "This URL is the blog index page of silveroakcapital.co.uk, not a single article or case study. Search results reveal only post titles and dates listed on it, not the index page's own copy. Search (a) describes a cached copy of the page listing three posts under a Dec 2, 2024 date: \"The Difference between Regulated & Unregulated Bridging Loans\", \"Property investment strategies to get maximum ROI\" and \"Tips for first time commercial property buyers\". Search (b) describes the index as listing dated posts from January 2025 on development finance broker selection, how bridge loans work for developers, and the cost of bridging loans, with \"Choosing the Right Development Finance Broker for Your Property Goals\" named as one listed title. Search (a) also surfaced a third-party mirror of the firm's blog at silveroakcapital.odoo.com/blog/finance-1 (\"Financial Blogs - Silver Oak Capital\") whose description says the blogs cover property finance, mortgage loans and property development, and which lists 2024-2025 posts including one on improving your credit score before applying for a mortgage (11 Mar 2025) and one on bridging loans versus traditional mortgages (20 Nov 2024). Search (b) additionally surfaced snippets from individual articles on the firm's site: adding value before selling (March 2025), inflation and interest rates on UK commercial property (February 2025), and high-net-worth property funding (May 2025). No index-page body text, intro paragraph, category list, pagination, author bylines or calls to action were revealed by either search.",
+  "sections": [
+    {
+      "heading": "Posts listed on the index, Dec 2, 2024 batch [a]",
+      "content": "Search (a) reports the cached blogs page lists \"The Difference between Regulated & Unregulated Bridging Loans\", \"Property investment strategies to get maximum ROI\" and \"Tips for first time commercial property buyers\", all under a Dec 2, 2024 date. Slugs for these three posts were not shown."
+    },
+    {
+      "heading": "Posts listed on the index, January 2025 batch [b]",
+      "content": "Search (b) reports the index lists dated posts from January 2025 on development finance broker selection, how bridge loans work for developers, and the cost of bridging loans; \"Choosing the Right Development Finance Broker for Your Property Goals\" is named as one of the listed titles. Slugs were not shown."
+    },
+    {
+      "heading": "Third-party mirror of the blog [a]",
+      "content": "silveroakcapital.odoo.com/blog/finance-1, titled \"Financial Blogs - Silver Oak Capital\", lists 2024-2025 posts including one on improving your credit score before applying for a mortgage dated 11 Mar 2025 and one on bridging loans versus traditional mortgages dated 20 Nov 2024. The mirror's description says the blogs cover property finance, mortgage loans and property development. The search tool notes this mirror is not the firm's own site."
+    },
+    {
+      "heading": "Individual article snippets surfaced alongside the index [b]",
+      "content": "Ways to Add Value Before Selling Property (March 2025): \"Perhaps the most important factor to consider is the overall profitability of the investment.\" Impact of Inflation and Interest Rates on UK Commercial Property (February 2025): \"A decrease in interest rates can stimulate economic growth, enabling borrowers cheaper access to capital.\" High Net Worth Property Funding UK Guide (May 2025): states the FCA's high-net-worth threshold is \"earn over £300,000 annually or ownership of assets exceeding £3 million\". Spear's 500 case-study item: \"Jimmy Baillie included in the prestigious Spear's 500 list for 2022/2023\" and \"Silver Oak Capital was established in 2019\"."
+    },
+    {
+      "heading": "Homepage positioning seen in results [a][b]",
+      "content": "Homepage result title: \"Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions\". Search (b) summarises the homepage as offering \"expert commercial mortgage brokerage services, property development finance, bridging loans, and development finance solutions\"."
+    }
+  ],
+  "verbatim": [
+    "[a] \"Blogs\" (search result title of https://www.silveroakcapital.co.uk/blogs/)",
+    "[a] \"The Difference between Regulated & Unregulated Bridging Loans\"",
+    "[a] \"Property investment strategies to get maximum ROI\"",
+    "[a] \"Tips for first time commercial property buyers\"",
+    "[a] \"Financial Blogs - Silver Oak Capital\" (title of https://silveroakcapital.odoo.com/blog/finance-1)",
+    "[a] \"Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions\" (homepage result title)",
+    "[a] \"Aviation Finance & Leasing\" (result title of /aviation-finance-lease-advisory/)",
+    "[a] \"About Us - Jimmy Baillie\" (result title of /about-us/)",
+    "[a] \"Silver Oak Capital Case Studies\" (result title of /case-studies/)",
+    "[b] \"Choosing the Right Development Finance Broker for Your Property Goals\"",
+    "[b] \"Perhaps the most important factor to consider is the overall profitability of the investment.\" (from /different-ways-to-add-value-to-the-property-before-selling/)",
+    "[b] \"A decrease in interest rates can stimulate economic growth, enabling borrowers cheaper access to capital.\" (from /impact-of-inflation-and-interest-rates-on-uk-commercial-property/)",
+    "[b] \"earn over £300,000 annually or ownership of assets exceeding £3 million\" (FCA high-net-worth threshold, from /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/)",
+    "[b] \"Jimmy Baillie included in the prestigious Spear's 500 list for 2022/2023\" (from /case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)",
+    "[b] \"Silver Oak Capital was established in 2019\" (from the Spear's 500 case-study item)",
+    "[b] \"expert commercial mortgage brokerage services, property development finance, bridging loans, and development finance solutions\" (homepage description)",
+    "[b] \"Ways to Add Value Before Selling Property - Silver Oak Capital\" (result title)",
+    "[b] \"High Net Worth Property Funding UK Guide\" (result title)",
+    "[b] \"Impact of Inflation on UK Property Market - Silver Oak Capital\" (result title)"
+  ],
+  "services": [
+    "Bridging loans (regulated and unregulated)",
+    "Development finance brokerage / choosing a development finance broker",
+    "Bridge loans for developers",
+    "Commercial property purchase finance (first-time commercial property buyers)",
+    "Property investment finance (ROI strategies)",
+    "Mortgages (credit score before applying; bridging loans versus traditional mortgages)",
+    "High-net-worth property funding",
+    "Commercial mortgage brokerage",
+    "Property development finance",
+    "Aviation finance and leasing (seen only as a site page title in results)"
+  ],
+  "claims": [
+    {"claim": "[a] Blog posts \"The Difference between Regulated & Unregulated Bridging Loans\", \"Property investment strategies to get maximum ROI\" and \"Tips for first time commercial property buyers\" are listed under a Dec 2, 2024 date on the cached blogs page", "kind": "publication-date"},
+    {"claim": "[b] Blogs index lists dated posts from January 2025 on development finance broker selection, how bridge loans work for developers, and the cost of bridging loans", "kind": "publication-date"},
+    {"claim": "[a] Odoo mirror lists a post on improving your credit score before applying for a mortgage dated 11 Mar 2025 and one on bridging loans versus traditional mortgages dated 20 Nov 2024", "kind": "publication-date"},
+    {"claim": "[b] Ways to Add Value Before Selling Property article dated March 2025; Impact of Inflation article dated February 2025; High Net Worth Property Funding guide dated May 2025 (dates from search metadata, may not be exact per the tool)", "kind": "publication-date"},
+    {"claim": "[b] FCA's high-net-worth threshold: \"earn over £300,000 annually or ownership of assets exceeding £3 million\"", "kind": "number"},
+    {"claim": "[b] \"Jimmy Baillie included in the prestigious Spear's 500 list for 2022/2023\"", "kind": "award"},
+    {"claim": "[b] \"Silver Oak Capital was established in 2019\"", "kind": "firm-fact"},
+    {"claim": "[b] Homepage offers \"expert commercial mortgage brokerage services, property development finance, bridging loans, and development finance solutions\"", "kind": "positioning"},
+    {"claim": "[a] The mirror's description says the firm's blogs cover property finance, mortgage loans, and property development", "kind": "topic-scope"}
+  ],
+  "terms": [
+    "regulated bridging loan",
+    "unregulated bridging loan",
+    "ROI (return on investment)",
+    "development finance broker",
+    "bridge loan",
+    "cost of bridging loans",
+    "high-net-worth (FCA threshold: income over £300,000 a year or assets exceeding £3 million)",
+    "commercial property",
+    "inflation and interest rates",
+    "credit score",
+    "traditional mortgage"
+  ],
+  "eligibility": [
+    "[b] FCA high-net-worth definition cited in the HNW funding guide: earn over £300,000 annually or own assets exceeding £3 million (no other eligibility content revealed for the blogs index)"
+  ],
+  "processSteps": [],
+  "faq": [],
+  "geography": [
+    "United Kingdom (article titles reference UK commercial property and UK high-net-worth property funding)"
+  ],
+  "ctas": [],
+  "lenderTypes": [],
+  "useCases": [
+    "Choosing between regulated and unregulated bridging loans",
+    "Maximising ROI on property investment",
+    "First-time commercial property purchase",
+    "Selecting a development finance broker",
+    "Bridge loans for developers",
+    "Estimating the cost of a bridging loan",
+    "Improving a credit score before a mortgage application",
+    "Comparing bridging loans with traditional mortgages",
+    "Adding value to a property before selling",
+    "Assessing inflation and interest-rate impact on UK commercial property"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/blogs/",
+    "https://www.silveroakcapital.co.uk/about-us/",
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/",
+    "https://www.silveroakcapital.co.uk/aviation-finance-lease-advisory/",
+    "https://www.silveroakcapital.co.uk/different-ways-to-add-value-to-the-property-before-selling/",
+    "https://www.silveroakcapital.co.uk/what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/impact-of-inflation-and-interest-rates-on-uk-commercial-property/",
+    "EXTERNAL: https://silveroakcapital.odoo.com/blog/finance-1 (third-party mirror of the blog)",
+    "EXTERNAL: https://www.lettingagenttoday.co.uk/trades-directory/silver-oak-capital/",
+    "EXTERNAL: https://www.buzzbii.com/silveroakcapitalUK?lang=english"
+  ],
+  "confidence": "low",
+  "notes": "The target is the blog index, so there is no single article thesis to extract. Neither search returned the index page's own body text; only post titles and dates were revealed, and the tool itself flagged that (a) the cached copy of the page looks dated, (b) the blog dates come from search metadata and may not be exact, and (c) it did not open the pages and could not confirm posts after December 2024 on the official index. All quotations above are as returned by the search tool's summaries, not from a direct page fetch. Slugs for the Dec 2024 and Jan 2025 posts were not shown; the seed's article list contains /how-does-a-bridge-loan-work-for-developers/, /how-much-does-a-bridging-loan-cost/ and /selecting-the-ideal-property-finance-specialist-for-successful-developments/, which may correspond to the January 2025 topics, but this correspondence is not confirmed by the results. /aviation-finance-lease-advisory/ is a site URL not present in the seed. Three Dec 2024 titles (regulated vs unregulated bridging, ROI strategies, first-time commercial buyers) have no matching slug in the seed article list. Unrelated results (Silver Point Capital, SilverDoor, Silverfleet Capital, Assetz Capital) were ignored. Searches run: 2 (both mode extended); refused: 0.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/blogs.json"
+}

@@ -11,7 +11,7 @@
 1. inventaire de toutes les adresses du site par familles de mots-clés (environ 190 recherches) ;
 2. extraction page par page des 51 pages de services et du cabinet, trois recherches ciblées par page (153 recherches) ;
 3. sources tierces (registre, presse, annuaires, profils) : 28 recherches, 145 faits relevés ;
-4. études de cas, articles et pages jamais remontées (en cours au moment de l'assemblage ; les fiches sont ajoutées à mesure dans `raw/`).
+4. études de cas (23), articles (34) et pages jamais remontées : deux recherches par page et quatre agents de complément (146 recherches), soit 108 fiches au total.
 
 **Ce que cela implique.** Une fiche courte signifie que peu de texte de la page a été indexé, pas que la page est vide. Les phrases « verbatim » sont celles que les extraits reproduisent ; lorsque l'outil résume, la fiche le signale. Les titres de pages et la liste des produits sont fiables (confirmés par plusieurs recherches) ; les conditions chiffrées (ratios, durées, frais) proviennent parfois de pages voisines ou d'une copie ancienne de la page, et sont marquées comme telles. Les contradictions entre pages (nombre de prêteurs, fourchette de montants, code postal) sont relevées sans être tranchées.
 
@@ -110,8 +110,8 @@ Navigation principale (relevée dans les extraits) : Home · About · Services �
 - [Property Finance FAQs](https://www.silveroakcapital.co.uk/faq/)
 - [Types of Borrowing - Silver Oak Capital](https://www.silveroakcapital.co.uk/types-of-borrowing/)
 - [Property Finance Western Europe](https://www.silveroakcapital.co.uk/western-europe/)
-- [/blogs/](https://www.silveroakcapital.co.uk/blogs/) _(non extraite : voir section 10)_
-- [/development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/](https://www.silveroakcapital.co.uk/development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/) _(non extraite : voir section 10)_
+- [Blogs](https://www.silveroakcapital.co.uk/blogs/)
+- [Development Finance LTV, LTC & LTGDV Explained](https://www.silveroakcapital.co.uk/development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)
 
 ### Études de cas (23)
 
@@ -119,60 +119,60 @@ Navigation principale (relevée dans les extraits) : Home · About · Services �
 - [NW London Bridging Loan](https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/)
 - [£3.6 Million Bridging Loan](https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/)
 - [Bridging Loan for Land with Planning](https://www.silveroakcapital.co.uk/case-studies/bridging-loan-land-with-planning/)
-- [/case-studies/800k-bridging-loan-refinance/](https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/) _(non extraite : voir section 10)_
-- [/case-studies/bridging-for-a-retail-purchase-in-liverpool/](https://www.silveroakcapital.co.uk/case-studies/bridging-for-a-retail-purchase-in-liverpool/) _(non extraite : voir section 10)_
-- [/case-studies/bridging-villa-cap-ferrat/](https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/) _(non extraite : voir section 10)_
-- [/case-studies/finance-for-100-senior-housing-development-in-kent/](https://www.silveroakcapital.co.uk/case-studies/finance-for-100-senior-housing-development-in-kent/) _(non extraite : voir section 10)_
-- [/case-studies/manchester-office/](https://www.silveroakcapital.co.uk/case-studies/manchester-office/) _(non extraite : voir section 10)_
-- [/case-studies/pbsa/](https://www.silveroakcapital.co.uk/case-studies/pbsa/) _(non extraite : voir section 10)_
-- [/case-studies/g650/](https://www.silveroakcapital.co.uk/case-studies/g650/) _(non extraite : voir section 10)_
-- [/case-studies/heesen-yacht-finance/](https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/) _(non extraite : voir section 10)_
-- [/case-studies/aircraft-loan-falcon-900/](https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/) _(non extraite : voir section 10)_
-- [/case-studies/yacht-finance-calculator/](https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/) _(non extraite : voir section 10)_
-- [/case-studies/top-aviation-firms/](https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/) _(non extraite : voir section 10)_
-- [/case-studies/bvi-trust-refinance/](https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/) _(non extraite : voir section 10)_
-- [/case-studies/1-46-million-refinance-prime-central-london-property/](https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/) _(non extraite : voir section 10)_
-- [/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/](https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/) _(non extraite : voir section 10)_
-- [/case-studies/miami-developer/](https://www.silveroakcapital.co.uk/case-studies/miami-developer/) _(non extraite : voir section 10)_
-- [/case-studies/purchase-and-upgrade-21-million-office-in-london/](https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/) _(non extraite : voir section 10)_
-- [/case-studies/notting-hill-large-residential-mortgage/](https://www.silveroakcapital.co.uk/case-studies/notting-hill-large-residential-mortgage/) _(non extraite : voir section 10)_
-- [/case-studies/mayfair-self-employed-equity-release/](https://www.silveroakcapital.co.uk/case-studies/mayfair-self-employed-equity-release/) _(non extraite : voir section 10)_
-- [/case-studies/country-estate-refinance/](https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/) _(non extraite : voir section 10)_
+- [£800,000 Bridging Loan Refinance](https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/)
+- [Bridging for a Retail Store Purchase in Liverpool](https://www.silveroakcapital.co.uk/case-studies/bridging-for-a-retail-purchase-in-liverpool/)
+- [Bridging Villa Cap Ferrat](https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/)
+- [Finance for 100 senior housing development in Kent, UK](https://www.silveroakcapital.co.uk/case-studies/finance-for-100-senior-housing-development-in-kent/)
+- [Manchester Office](https://www.silveroakcapital.co.uk/case-studies/manchester-office/)
+- [PBSA](https://www.silveroakcapital.co.uk/case-studies/pbsa/)
+- [G650](https://www.silveroakcapital.co.uk/case-studies/g650/)
+- [Heesen Yacht Finance](https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/)
+- [Aircraft Loan Falcon 900](https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/)
+- [Yacht Finance Calculator](https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/)
+- [Top Aviation Firms](https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/)
+- [Residential Mortgage Loan - BVI Trust Refinance - Silver Oak Capital](https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/)
+- [£1.46 Million Refinance](https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/)
+- [Silver Oak Capital added to Spear’s 500 list for 2022](https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)
+- [Miami Developer](https://www.silveroakcapital.co.uk/case-studies/miami-developer/)
+- [Purchase And Upgrade £21 Million Office In London](https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/)
+- [Notting Hill Large Residential Mortgage](https://www.silveroakcapital.co.uk/case-studies/notting-hill-large-residential-mortgage/)
+- [Mayfair Self Employed Equity Release](https://www.silveroakcapital.co.uk/case-studies/mayfair-self-employed-equity-release/)
+- [Country Estate Refinance Case Study - Silver Oak Capital](https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/)
 
 ### Articles (blog) (32)
 
-- [/common-uses-for-property-bridging-loans-in-the-uk/](https://www.silveroakcapital.co.uk/common-uses-for-property-bridging-loans-in-the-uk/) _(non extraite : voir section 10)_
-- [/how-does-a-bridge-loan-work-for-developers/](https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/) _(non extraite : voir section 10)_
-- [/regulating-bridging-loans-through-fca-rules/](https://www.silveroakcapital.co.uk/regulating-bridging-loans-through-fca-rules/) _(non extraite : voir section 10)_
-- [/what-are-bridging-loans-and-how-do-they-work/](https://www.silveroakcapital.co.uk/what-are-bridging-loans-and-how-do-they-work/) _(non extraite : voir section 10)_
-- [/how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/](https://www.silveroakcapital.co.uk/how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/) _(non extraite : voir section 10)_
-- [/property-bridging-finance-for-uk-high-net-worth-individuals/](https://www.silveroakcapital.co.uk/property-bridging-finance-for-uk-high-net-worth-individuals/) _(non extraite : voir section 10)_
-- [/how-does-a-bridging-loan-work/](https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/) _(non extraite : voir section 10)_
-- [/why-are-property-bridging-loans-popular-in-the-uk/](https://www.silveroakcapital.co.uk/why-are-property-bridging-loans-popular-in-the-uk/) _(non extraite : voir section 10)_
-- [/importance-of-bridging-loans-for-property-development/](https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/) _(non extraite : voir section 10)_
-- [/different-types-of-interest-options-with-bridging-loans/](https://www.silveroakcapital.co.uk/different-types-of-interest-options-with-bridging-loans/) _(non extraite : voir section 10)_
-- [/what-is-smart-financing-innovative-funding-options-for-todays-investors/](https://www.silveroakcapital.co.uk/what-is-smart-financing-innovative-funding-options-for-todays-investors/) _(non extraite : voir section 10)_
-- [/how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/](https://www.silveroakcapital.co.uk/how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/) _(non extraite : voir section 10)_
-- [/your-trusted-local-finance-brokers-for-smart-lending-solutions/](https://www.silveroakcapital.co.uk/your-trusted-local-finance-brokers-for-smart-lending-solutions/) _(non extraite : voir section 10)_
-- [/different-ways-to-add-value-to-the-property-before-selling/](https://www.silveroakcapital.co.uk/different-ways-to-add-value-to-the-property-before-selling/) _(non extraite : voir section 10)_
-- [/development-finance-requirements-in-the-uk-explained/](https://www.silveroakcapital.co.uk/development-finance-requirements-in-the-uk-explained/) _(non extraite : voir section 10)_
-- [/top-mistakes-to-avoid-when-applying-for-property-development-lending/](https://www.silveroakcapital.co.uk/top-mistakes-to-avoid-when-applying-for-property-development-lending/) _(non extraite : voir section 10)_
-- [/how-does-property-development-finance-in-scotland/](https://www.silveroakcapital.co.uk/how-does-property-development-finance-in-scotland/) _(non extraite : voir section 10)_
-- [/how-does-property-development-finance-work-a-step-by-step-guide/](https://www.silveroakcapital.co.uk/how-does-property-development-finance-work-a-step-by-step-guide/) _(non extraite : voir section 10)_
-- [/different-ways-to-finance-new-build-homes-in-the-uk/](https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/) _(non extraite : voir section 10)_
-- [/understanding-short-term-property-funding-for-uk-real-estate/](https://www.silveroakcapital.co.uk/understanding-short-term-property-funding-for-uk-real-estate/) _(non extraite : voir section 10)_
-- [/what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/](https://www.silveroakcapital.co.uk/what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/) _(non extraite : voir section 10)_
-- [/impact-of-inflation-and-interest-rates-on-uk-commercial-property/](https://www.silveroakcapital.co.uk/impact-of-inflation-and-interest-rates-on-uk-commercial-property/) _(non extraite : voir section 10)_
-- [/find-the-perfect-mortgage-with-a-specialist-broker/](https://www.silveroakcapital.co.uk/find-the-perfect-mortgage-with-a-specialist-broker/) _(non extraite : voir section 10)_
-- [/secure-the-best-business-loan-with-expert-brokerage-services/](https://www.silveroakcapital.co.uk/secure-the-best-business-loan-with-expert-brokerage-services/) _(non extraite : voir section 10)_
-- [/how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/](https://www.silveroakcapital.co.uk/how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/) _(non extraite : voir section 10)_
-- [/different-ways-to-grow-and-develop-property-value/](https://www.silveroakcapital.co.uk/different-ways-to-grow-and-develop-property-value/) _(non extraite : voir section 10)_
-- [/which-mortgage-company-is-right-for-you/](https://www.silveroakcapital.co.uk/which-mortgage-company-is-right-for-you/) _(non extraite : voir section 10)_
-- [/how-do-shared-ownership-mortgage-broker-work/](https://www.silveroakcapital.co.uk/how-do-shared-ownership-mortgage-broker-work/) _(non extraite : voir section 10)_
-- [/how-much-does-a-bridging-loan-cost/](https://www.silveroakcapital.co.uk/how-much-does-a-bridging-loan-cost/) _(non extraite : voir section 10)_
-- [/selecting-the-ideal-property-finance-specialist-for-successful-developments/](https://www.silveroakcapital.co.uk/selecting-the-ideal-property-finance-specialist-for-successful-developments/) _(non extraite : voir section 10)_
-- [/stamp-duty-changes-in-the-uk-from-april-2025/](https://www.silveroakcapital.co.uk/stamp-duty-changes-in-the-uk-from-april-2025/) _(non extraite : voir section 10)_
-- [/how-london-property-investment-advisors-help-maximise-roi/](https://www.silveroakcapital.co.uk/how-london-property-investment-advisors-help-maximise-roi/) _(non extraite : voir section 10)_
+- [Common Uses for Property Bridging Loans in the UK (title inferred from the URL slug only; the page itself did…](https://www.silveroakcapital.co.uk/common-uses-for-property-bridging-loans-in-the-uk/)
+- [How Bridging Loans Help Property Developers](https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/)
+- [Regulating bridging loans through FCA rules](https://www.silveroakcapital.co.uk/regulating-bridging-loans-through-fca-rules/)
+- [What are Bridging Loans and How Do They Work?](https://www.silveroakcapital.co.uk/what-are-bridging-loans-and-how-do-they-work/)
+- [Stuck in a Chain? How Bridging Loans Work](https://www.silveroakcapital.co.uk/how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/)
+- [Property Bridging Finance: A Guide for UK HNWIs](https://www.silveroakcapital.co.uk/property-bridging-finance-for-uk-high-net-worth-individuals/)
+- [How Does a Bridging Loan Work?](https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/)
+- [Why Are Property Bridging Loans Popular in the UK?](https://www.silveroakcapital.co.uk/why-are-property-bridging-loans-popular-in-the-uk/)
+- [Importance of Bridging Loans for Property Development](https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/)
+- [Different Types of Interest Options with Bridging Loans](https://www.silveroakcapital.co.uk/different-types-of-interest-options-with-bridging-loans/)
+- [Smart Financing Options for Investors in the UK](https://www.silveroakcapital.co.uk/what-is-smart-financing-innovative-funding-options-for-todays-investors/)
+- [How Can Offshore Borrowers Secure Fast UK Property Development Finance and Bridging Loans?](https://www.silveroakcapital.co.uk/how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/)
+- [Your Trusted Local Finance Brokers for Smart Lending Solutions](https://www.silveroakcapital.co.uk/your-trusted-local-finance-brokers-for-smart-lending-solutions/)
+- [Ways to Add Value Before Selling Property - Silver Oak Capital](https://www.silveroakcapital.co.uk/different-ways-to-add-value-to-the-property-before-selling/)
+- [Development Finance Requirements UK Explained](https://www.silveroakcapital.co.uk/development-finance-requirements-in-the-uk-explained/)
+- [Top Mistakes to Avoid in Property Development Finance](https://www.silveroakcapital.co.uk/top-mistakes-to-avoid-when-applying-for-property-development-lending/)
+- [How Does Property Development Finance Work in Scotland?](https://www.silveroakcapital.co.uk/how-does-property-development-finance-in-scotland/)
+- [How Does Property Development Finance Work? A Step-by-Step Guide](https://www.silveroakcapital.co.uk/how-does-property-development-finance-work-a-step-by-step-guide/)
+- [Best Finance Options for New Build Homes](https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/)
+- [Understanding Short-Term Property Funding for UK Real Estate (title inferred from URL slug only; neither sear…](https://www.silveroakcapital.co.uk/understanding-short-term-property-funding-for-uk-real-estate/)
+- [High Net Worth Property Funding UK Guide](https://www.silveroakcapital.co.uk/what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/)
+- [Impact of Inflation on UK Property Market - Silver Oak Capital](https://www.silveroakcapital.co.uk/impact-of-inflation-and-interest-rates-on-uk-commercial-property/)
+- [Why Use a Mortgage Broker for the Right Fit (SERP/SEO title shown by both searches); article title per [b]: "…](https://www.silveroakcapital.co.uk/find-the-perfect-mortgage-with-a-specialist-broker/)
+- [Secure the Best Business Loan with Expert Brokerage Services](https://www.silveroakcapital.co.uk/secure-the-best-business-loan-with-expert-brokerage-services/)
+- [Commercial vs. Home Loan Rates Compared](https://www.silveroakcapital.co.uk/how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/)
+- [Different Ways to Grow and Develop Property Value](https://www.silveroakcapital.co.uk/different-ways-to-grow-and-develop-property-value/)
+- [Choosing the Best Mortgage Company Guide](https://www.silveroakcapital.co.uk/which-mortgage-company-is-right-for-you/)
+- [How Do Shared Ownership Mortgage Brokers Work?](https://www.silveroakcapital.co.uk/how-do-shared-ownership-mortgage-broker-work/)
+- [How much does a bridging loan cost?](https://www.silveroakcapital.co.uk/how-much-does-a-bridging-loan-cost/)
+- [Choosing the Right Development Finance Broker for Your Property](https://www.silveroakcapital.co.uk/selecting-the-ideal-property-finance-specialist-for-successful-developments/)
+- [UK Stamp Duty Update Starting April 2025 - Silver Oak Capital](https://www.silveroakcapital.co.uk/stamp-duty-changes-in-the-uk-from-april-2025/)
+- [London Property Advisors Maximise ROI](https://www.silveroakcapital.co.uk/how-london-property-investment-advisors-help-maximise-roi/)
 
 ## 4. Fiche par page
 
@@ -6968,6 +6968,248 @@ Confiance : low-medium · Recherches effectuées : 3
 
 _Notes d'extraction : Query (a) (exact URL, extended) did not return the page; it returned the homepage and third-party listings (plus unrelated Silverfleet Capital, ignored). Query (b) (site: search, extended) returned the page with title 'Property Finance Western Europe' and a one-sentence summary consistent with the seed snippet, plus related offshore/trust pages. Query (c) (standard) returned Spear's and LinkedIn …_
 
+#### Blogs
+
+URL : <https://www.silveroakcapital.co.uk/blogs/>  
+Confiance : low · Recherches effectuées : 2
+
+**H1 :** not revealed in search results (search result title for the page is "Blogs")  
+**Meta description :** not revealed in search results
+
+**Résumé.** This URL is the blog index page of silveroakcapital.co.uk, not a single article or case study. Search results reveal only post titles and dates listed on it, not the index page's own copy. Search (a) describes a cached copy of the page listing three posts under a Dec 2, 2024 date: "The Difference between Regulated & Unregulated Bridging Loans", "Property investment strategies to get maximum ROI" and "Tips for first time commercial property buyers". Search (b) describes the index as listing dated posts from January 2025 on development finance broker selection, how bridge loans work for developers, and the cost of bridging loans, with "Choosing the Right Development Finance Broker for Your Property Goals" named as one listed title. Search (a) also surfaced a third-party mirror of the firm's blog at silveroakcapital.odoo.com/blog/finance-1 ("Financial Blogs - Silver Oak Capital") whose description says the blogs cover property finance, mortgage loans and property development, and which lists 2024-2025 posts including one on improving your credit score before applying for a mortgage (11 Mar 2025) and one on bridging loans versus traditional mortgages (20 Nov 2024). Search (b) additionally surfaced snippets from individual articles on the firm's site: adding value before selling (March 2025), inflation and interest rates on UK commercial property (February 2025), and high-net-worth property funding (May 2025). No index-page body text, intro paragraph, category list, pagination, author bylines or calls to action were revealed by either search.
+
+**Sections repérées**
+
+- **Posts listed on the index, Dec 2, 2024 batch [a]** — Search (a) reports the cached blogs page lists "The Difference between Regulated & Unregulated Bridging Loans", "Property investment strategies to get maximum ROI" and "Tips for first time commercial property buyers", all under a Dec 2, 2024 date. Slugs for these three posts were not shown.
+- **Posts listed on the index, January 2025 batch [b]** — Search (b) reports the index lists dated posts from January 2025 on development finance broker selection, how bridge loans work for developers, and the cost of bridging loans; "Choosing the Right Development Finance Broker for Your Property Goals" is named as one of the listed titles. Slugs were not shown.
+- **Third-party mirror of the blog [a]** — silveroakcapital.odoo.com/blog/finance-1, titled "Financial Blogs - Silver Oak Capital", lists 2024-2025 posts including one on improving your credit score before applying for a mortgage dated 11 Mar 2025 and one on bridging loans versus traditional mortgages dated 20 Nov 2024. The mirror's description says the blogs cover property finance, mortgage loans and property development. The search tool notes this mirror is not the firm's own site.
+- **Individual article snippets surfaced alongside the index [b]** — Ways to Add Value Before Selling Property (March 2025): "Perhaps the most important factor to consider is the overall profitability of the investment." Impact of Inflation and Interest Rates on UK Commercial Property (February 2025): "A decrease in interest rates can stimulate economic growth, enabling borrowers cheaper access to capital." High Net Worth Property Funding UK Guide (May 2025): states the FCA's high-net-worth threshold is "earn over £300,000 annually or ownership of assets exceeding £3 million". Spear's 500 case-study item: "Jimmy Baillie included in the prestigious Spear's 500 …
+- **Homepage positioning seen in results [a][b]** — Homepage result title: "Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions". Search (b) summarises the homepage as offering "expert commercial mortgage brokerage services, property development finance, bridging loans, and development finance solutions".
+
+**Phrases verbatim (anglais)**
+
+> [a] "Blogs" (search result title of https://www.silveroakcapital.co.uk/blogs/)
+>
+> [a] "The Difference between Regulated & Unregulated Bridging Loans"
+>
+> [a] "Property investment strategies to get maximum ROI"
+>
+> [a] "Tips for first time commercial property buyers"
+>
+> [a] "Financial Blogs - Silver Oak Capital" (title of https://silveroakcapital.odoo.com/blog/finance-1)
+>
+> [a] "Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions" (homepage result title)
+>
+> [a] "Aviation Finance & Leasing" (result title of /aviation-finance-lease-advisory/)
+>
+> [a] "About Us - Jimmy Baillie" (result title of /about-us/)
+>
+> [a] "Silver Oak Capital Case Studies" (result title of /case-studies/)
+>
+> [b] "Choosing the Right Development Finance Broker for Your Property Goals"
+>
+> [b] "Perhaps the most important factor to consider is the overall profitability of the investment." (from /different-ways-to-add-value-to-the-property-before-selling/)
+>
+> [b] "A decrease in interest rates can stimulate economic growth, enabling borrowers cheaper access to capital." (from /impact-of-inflation-and-interest-rates-on-uk-commercial-property/)
+>
+> [b] "earn over £300,000 annually or ownership of assets exceeding £3 million" (FCA high-net-worth threshold, from /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/)
+>
+> [b] "Jimmy Baillie included in the prestigious Spear's 500 list for 2022/2023" (from /case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)
+>
+> [b] "Silver Oak Capital was established in 2019" (from the Spear's 500 case-study item)
+>
+> [b] "expert commercial mortgage brokerage services, property development finance, bridging loans, and development finance solutions" (homepage description)
+>
+> [b] "Ways to Add Value Before Selling Property - Silver Oak Capital" (result title)
+>
+> [b] "High Net Worth Property Funding UK Guide" (result title)
+>
+> [b] "Impact of Inflation on UK Property Market - Silver Oak Capital" (result title)
+
+**Produits et services cités**
+
+- Bridging loans (regulated and unregulated)
+- Development finance brokerage / choosing a development finance broker
+- Bridge loans for developers
+- Commercial property purchase finance (first-time commercial property buyers)
+- Property investment finance (ROI strategies)
+- Mortgages (credit score before applying; bridging loans versus traditional mortgages)
+- High-net-worth property funding
+- Commercial mortgage brokerage
+- Property development finance
+- Aviation finance and leasing (seen only as a site page title in results)
+
+**Cas d'usage**
+
+- Choosing between regulated and unregulated bridging loans
+- Maximising ROI on property investment
+- First-time commercial property purchase
+- Selecting a development finance broker
+- Bridge loans for developers
+- Estimating the cost of a bridging loan
+- Improving a credit score before a mortgage application
+- Comparing bridging loans with traditional mortgages
+- Adding value to a property before selling
+- Assessing inflation and interest-rate impact on UK commercial property
+
+**Conditions, montants, délais, frais**
+
+- regulated bridging loan
+- unregulated bridging loan
+- ROI (return on investment)
+- development finance broker
+- bridge loan
+- cost of bridging loans
+- high-net-worth (FCA threshold: income over £300,000 a year or assets exceeding £3 million)
+- commercial property
+- inflation and interest rates
+- credit score
+- traditional mortgage
+
+**Critères d'éligibilité**
+
+- [b] FCA high-net-worth definition cited in the HNW funding guide: earn over £300,000 annually or own assets exceeding £3 million (no other eligibility content revealed for the blogs index)
+
+**Géographie**
+
+- United Kingdom (article titles reference UK commercial property and UK high-net-worth property funding)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (publication-date) [a] Blog posts "The Difference between Regulated & Unregulated Bridging Loans", "Property investment strategies to get maximum ROI" and "Tips for first time commercial property buyers" are listed under a Dec 2, 2024 date on the cached blogs page
+- (publication-date) [b] Blogs index lists dated posts from January 2025 on development finance broker selection, how bridge loans work for developers, and the cost of bridging loans
+- (publication-date) [a] Odoo mirror lists a post on improving your credit score before applying for a mortgage dated 11 Mar 2025 and one on bridging loans versus traditional mortgages dated 20 Nov 2024
+- (publication-date) [b] Ways to Add Value Before Selling Property article dated March 2025; Impact of Inflation article dated February 2025; High Net Worth Property Funding guide dated May 2025 (dates from search metadata, may not be exact per the tool)
+- (number) [b] FCA's high-net-worth threshold: "earn over £300,000 annually or ownership of assets exceeding £3 million"
+- (award) [b] "Jimmy Baillie included in the prestigious Spear's 500 list for 2022/2023"
+- (firm-fact) [b] "Silver Oak Capital was established in 2019"
+- (positioning) [b] Homepage offers "expert commercial mortgage brokerage services, property development finance, bridging loans, and development finance solutions"
+- (topic-scope) [a] The mirror's description says the firm's blogs cover property finance, mortgage loans, and property development
+
+_Notes d'extraction : The target is the blog index, so there is no single article thesis to extract. Neither search returned the index page's own body text; only post titles and dates were revealed, and the tool itself flagged that (a) the cached copy of the page looks dated, (b) the blog dates come from search metadata and may not be exact, and (c) it did not open the pages and could not confirm posts after December …_
+
+#### Development Finance LTV, LTC & LTGDV Explained
+
+URL : <https://www.silveroakcapital.co.uk/development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/>  
+Confiance : medium · Recherches effectuées : 2
+
+
+**Résumé.** Blog article (not a case study). Thesis: three lending metrics set how much a developer can borrow on a development loan - loan-to-value (LTV, the loan against the site's current value), loan-to-cost (LTC, the loan against total project cost including land, build and fees) and loan-to-gross-development-value (LTGDV, the loan against the projected completed value). The article says these metrics directly affect the maximum loan available, the equity the developer must contribute and whether the project is financially viable. Concrete guidance revealed: two worked examples - a GBP 5m site with a GBP 3m day-one advance = 60% LTV, and a GBP 4m completed scheme with a GBP 2.8m facility = 70% LTGDV; LTV is said to be most relevant when the developer plans to purchase the site first or refinance an existing facility secured on the site; LTC is described as typically up to 85%-90%. Sibling Silver Oak pages surfaced by the same search add market caps (senior lenders usually cap at 65%-70% of GDV; 75% LTGDV / 90% LTC usually applies to residential schemes with commercial capped lower; lenders generally not above 90%-95% LTC; land without planning unlikely to secure over 50% LTV; stretch senior up to 75% GDV or 90% LTC at a blended 8%-10% p.a. plus execution fees) and note that lenders heavily scrutinise the borrower's equity contribution. The full article text, H1, meta description, author, publication date, section headings, FAQ and calls to action were NOT revealed by the search results.
+
+**Sections repérées**
+
+- **LTV - loan to value (thematic grouping; actual heading not revealed)** — The loan measured against the site's current value. Example: £5m site, £3m day-one advance = 60% LTV. Most relevant when the developer plans to purchase the site first or refinance an existing facility secured on the site. Sibling page: land without planning unlikely to secure over 50% LTV.
+- **LTC - loan to cost (thematic grouping; actual heading not revealed)** — The loan measured against total project cost including land, build and fees. Typically up to 85%-90% per Silver Oak pages; the requirements article says lenders generally will not exceed 90%-95% LTC; FAQ says 90% LTC usually applies to residential schemes.
+- **LTGDV - loan to gross development value (thematic grouping; actual heading not revealed)** — The loan measured against the projected completed value. Example: £4m completed scheme, £2.8m facility = 70% LTGDV. Senior development page: lenders usually cap out at 65%-70% of GDV; FAQ: 75% LTGDV usually applies to residential, commercial capped lower; stretch senior can reach 75% of GDV.
+- **How the metrics drive borrowing (thematic grouping; actual heading not revealed)** — The three metrics directly affect the maximum loan available, the equity the developer must contribute and whether the project is financially viable. Lenders heavily scrutinise the borrower equity contribution.
+
+**Phrases verbatim (anglais)**
+
+> [a] Search-result title: "Development Finance LTV, LTC & LTGDV Explained"
+>
+> [a] "It explains the three lending metrics that set how much a developer can borrow: loan-to-value (LTV), loan-to-cost (LTC), and loan-to-gross-development-value (LTGDV)."
+>
+> [a] "Those metrics directly affect the maximum loan available, the equity the developer must contribute, and whether the project is financially viable."
+>
+> [a] "Its worked examples include a £5m site with a £3m day-one advance, which gives a 60% LTV, and a £4m completed scheme with a £2.8m facility, which gives a 70% LTGDV."
+>
+> [a] "The search didn't return the full Silver Oak article, only excerpts"
+>
+> [b] "LTV (loan to value) is the loan against the site's current value. The article's example is a £5m site with a £3m day-one advance, giving 60%."
+>
+> [b] "LTV is usually most relevant when the developer plans to purchase the site first or refinance an existing facility secured on the site."
+>
+> [b] "LTC (loan to cost) is the loan against total project cost, including land, build, and fees. Typically up to 85% – 90%."
+>
+> [b] "A separate requirements article says lenders will generally not go above 90%-95%LTC on a development." (attributed to /development-finance-requirements-in-the-uk-explained/)
+>
+> [b] "LTGDV (loan to gross development value) is the loan against the projected completed value."
+>
+> [b] "The senior development page puts lender's usually cap out at 65% – 70% of GDV for development loans." (attributed to /senior-development-finance/)
+>
+> [b] "The FAQ says the 75% LTGDV / 90% LTC figures usually apply to residential schemes, and commercial schemes may be capped lower." (attributed to /faq/)
+>
+> [b] "Land without planning is harder to finance. Typically, land without planning is unlikely to secure financing over 50% LTV." (Silver Oak page, most likely /post-planning-land-acquisitions/)
+>
+> [b] "Stretch senior finance combines senior and mezzanine debt in one facility. Silver Oak Capital helps secure up to 75% of GDV or 90% of LTC in a single transaction." (attributed to /stretch-senior-development-finance/)
+>
+> [b] "The page also notes it is a \"blended\" cost, typically between 8% and 10% per annum (plus execution fees)." (attributed to /stretch-senior-development-finance/)
+>
+> [b] "Lenders also look at the developer's equity. Lenders will heavily scrutinise the borrower equity contribution to the development." (Silver Oak page, not identified)
+>
+> [b] "The most recent pages are about 114 to 213 days old." (search tool dating of Silver Oak pages, relative to 2026-10-29)
+
+**Produits et services cités**
+
+- Property development finance (brokerage)
+- Senior development finance
+- Stretch senior development finance (senior + mezzanine in one facility)
+- Mezzanine / junior development debt (implied by stretch senior description)
+- Post-planning land acquisition finance
+- Development finance requirements / borrowing advice (blog content)
+
+**Cas d'usage**
+
+- Sizing a development loan against site value, total cost and end value
+- Purchasing a development site first (LTV test)
+- Refinancing an existing facility secured on the site (LTV test)
+- Funding land, build and fees (LTC test)
+- Financing land without planning (capped around 50% LTV)
+- Residential vs commercial development schemes (different LTGDV/LTC caps)
+
+**Conditions, montants, délais, frais**
+
+- LTV (loan to value)
+- LTC (loan to cost)
+- LTGDV (loan to gross development value)
+- GDV (gross development value)
+- day-one advance
+- total project cost (land, build, fees)
+- projected completed value
+- senior debt
+- mezzanine debt
+- stretch senior finance
+- blended cost
+- execution fees
+- borrower equity contribution
+- land with / without planning
+
+**Critères d'éligibilité**
+
+- Lenders heavily scrutinise the borrower equity contribution to the development [b]
+- Land without planning is unlikely to secure financing over 50% LTV [b]
+- 75% LTGDV / 90% LTC usually applies to residential schemes; commercial schemes may be capped lower [b, FAQ]
+- Development loans usually capped at 65%-70% of GDV by lenders [b, senior development page]
+- Lenders generally will not go above 90%-95% LTC [b, requirements article]
+
+**Types de prêteurs**
+
+- senior development lenders
+- mezzanine / junior lenders
+- stretch senior lenders (single facility combining senior and mezzanine debt)
+
+**Géographie**
+
+- United Kingdom (implied by site context and sibling page titles such as 'Senior Development Finance UK' and 'Development Finance Requirements UK Explained'; not explicitly stated in the article excerpts)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (worked-example [a][b]) Worked example: £5m site with a £3m day-one advance = 60% LTV
+- (worked-example [a]) Worked example: £4m completed scheme (GDV) with a £2.8m facility = 70% LTGDV
+- (thesis [a]) LTV, LTC and LTGDV directly affect the maximum loan available, the equity the developer must contribute, and whether the project is financially viable
+- (guidance [b]) LTV is usually most relevant when the developer plans to purchase the site first or refinance an existing facility secured on the site
+- (market-range [b] (Silver Oak …) LTC typically up to 85% – 90%
+- (market-range [b] (/developmen…) Lenders will generally not go above 90%-95% LTC on a development
+- (market-range [b] (/senior-dev…) Lenders usually cap out at 65% – 70% of GDV for development loans
+- (market-range [b] (/faq/)) 75% LTGDV / 90% LTC figures usually apply to residential schemes; commercial schemes may be capped lower
+- (market-range [b] (likely /pos…) Land without planning is unlikely to secure financing over 50% LTV
+- (service-promise [b] (/stretch…) Silver Oak Capital helps secure up to 75% of GDV or 90% of LTC in a single stretch senior transaction
+- (pricing [b] (/stretch-senior-…) Stretch senior is a blended cost typically between 8% and 10% per annum plus execution fees
+- (guidance [b]) Lenders heavily scrutinise the borrower equity contribution to the development
+- (dating [b] (search-tool estim…) Most recent Silver Oak pages were about 114 to 213 days old at search time (2026-10-29), i.e. roughly late March to early July 2026
+
+_Notes d'extraction : Direct fetching was blocked; everything above comes from two WebSearch 'extended' calls on 2026-10-29: [a] the exact URL, [b] 'site:silveroakcapital.co.uk development finance LTV LTC LTGDV lenders borrow'. Neither returned the full article; the search tool itself said it had only excerpts. Confirmed as the article's own content by both searches: the thesis (three metrics set borrowing capacity; t…_
+
 ### Études de cas
 
 #### Silver Oak Capital Case Studies
@@ -7438,6 +7680,4953 @@ Confiance : medium · Recherches effectuées : 2
 
 _Notes d'extraction : Direct fetch blocked; everything comes from two WebSearch 'extended' summaries, tagged [a] (exact-URL query) and [b] (site: query). Core deal facts (£1.2m, 60% LTV, 0.9% pm, 18 months, interest rolled up, Glasgow, £2m Knight Frank valuation without planning, offshore trust borrower, 220 units + ground-floor commercial, no personal guarantee, track record/experienced team) were reported consistent…_
 
+#### £800,000 Bridging Loan Refinance
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Not revealed by search results (search result title is "£800,000 Bridging Loan Refinance"; H1 not confirmed)  
+**Meta description :** Not revealed by search results
+
+**Résumé.** Case study of an £800,000 like-for-like refinance of an existing bridging loan on a rented residential property in central London valued at £1.2 million. The borrower was a Kenyan national (long-standing client of an Isle of Man based trust company, which approached Silver Oak Capital on the client's behalf). The property had been bought at auction 12 months earlier using a bridging loan. Challenge: the borrower had no UK credit profile/history, making most lenders hesitant, plus standard KYC and anti-money-laundering checks; the firm had to source a Nairobi law firm to certify identity documents and notarise evidence of income covering rental void periods. Reported terms: £800,000 loan at 75% LTV, 5-year fixed rate of 4.19%, interest-only over a 5-year term, 1.50% bank fee. Lender not named (the phrase 'bank fee' implies a bank). Timing of completion and any further outcome statement were not present in the results.
+
+**Sections repérées**
+
+- **Client and background** — An Isle of Man based trust company approached Silver Oak Capital on behalf of a long-standing client based in Kenya (described as a Kenyan national). The client owned a rented residential property in central London, bought at auction 12 months earlier with a bridging loan. [a][b]
+- **The request** — A straightforward like-for-like refinance of the existing bridging loan. Property value £1.2 million; loan request £800,000. [a][b]
+- **Challenges** — The borrower had no UK credit profile/history, which made most lenders hesitant. Standard KYC and anti-money-laundering checks were required. The firm had to find a Nairobi law firm to certify identity documents and notarise evidence of income for rental void periods. [a][b]
+- **Solution / terms** — £800,000 loan at 75% LTV; 5-year fixed rate of 4.19%; interest-only repayments over a 5-year term; 1.50% bank fee. Lender not named in results. [a][b]
+- **Outcome** — Not reported in the results beyond the terms above ([b]: "I didn't find the case study's own reporting on how the deal finished, beyond the terms above.").
+- **Related content on the site** — [b] states the site's bridging loans guide (/bridging-loans-uk/) has a separate "Kenyan National Bridging Loan Refinance" entry that appears to describe the same deal.
+
+**Phrases verbatim (anglais)**
+
+> [a] An Isle of Man based trust company approached the firm on behalf of a long-standing client based in Kenya.
+>
+> [a] The client owned a rented residential property in central London, bought at auction 12 months earlier with a bridging loan.
+>
+> [a] A straightforward like-for-like refinance on a property value of £1.2 million with a loan request of £800,000.
+>
+> [a] The borrower had no UK credit profile, which made most lenders hesitant, and standard KYC and anti-money-laundering checks were required.
+>
+> [a] The firm also had to find a Nairobi law firm to certify identity documents and notarise evidence of income for rental void periods.
+>
+> [a] The excerpt lists a £800,000 loan at 75% LTV on a 5-year fixed rate of 4.19%, interest-only over a 5-year term, with a 1.50% bank fee.
+>
+> [a] The excerpt is fragmented and its page-age metadata is inconsistent, so check the live page for the full details and exact wording.
+>
+> [b] It describes a Kenyan national's London rental property, valued at £1.2 million, that was bought at auction on a bridging loan a year earlier.
+>
+> [b] The firm was approached through an Isle of Man trust company and arranged a like-for-like refinance of that bridging loan.
+>
+> [b] The main obstacle was that the borrower had no UK credit history, which made lenders reluctant, along with the usual KYC and anti-money-laundering checks.
+>
+> [b] The firm sourced a Nairobi law firm to certify identity documents and notarise income evidence.
+>
+> [b] The reported terms were a £800,000 loan at 75% loan-to-value, a 5-year fixed rate of 4.19%, interest-only repayments over a 5-year term, and a 1.50% bank fee.
+>
+> [b] I didn't find the case study's own reporting on how the deal finished, beyond the terms above.
+>
+> [b] The site also has a separate "Kenyan National Bridging Loan Refinance" entry in its bridging loans guide, which appears to describe the same deal.
+>
+> [b] Other Silver Oak case studies with a refinance element came up too, such as a £3.6 million Kensington bridging loan priced at 0.78% per month, and a £19 million North West London bridging loan at 0.75% per month.
+
+**Produits et services cités**
+
+- Bridging loan refinance (like-for-like)
+- Refinance of an auction-purchase bridging loan onto a 5-year fixed interest-only facility
+- Finance for non-UK-resident / foreign national borrowers without a UK credit profile
+- Lending via offshore trust company structure (Isle of Man trust company acting for client)
+
+**Cas d'usage**
+
+- Refinancing an expiring auction-purchase bridging loan onto longer-term finance
+- Securing UK property finance for a foreign national with no UK credit profile
+- Lending to a client held via an Isle of Man trust company structure
+- Satisfying KYC/AML for an overseas borrower through certified and notarised documents
+
+**Conditions, montants, délais, frais**
+
+- Loan amount: £800,000
+- Property value: £1.2 million
+- LTV: 75%
+- Rate: 5-year fixed at 4.19%
+- Repayment: interest-only
+- Term: 5 years
+- Bank fee: 1.50%
+- Structure: like-for-like refinance of an existing bridging loan
+- Lender: not named ('bank fee' wording implies a bank)
+
+**Critères d'éligibilité**
+
+- Borrower based in Kenya (Kenyan national) with no UK credit profile/history
+- Approached via an Isle of Man based trust company acting for a long-standing client
+- Security: rented residential property in central London, bought at auction 12 months earlier with a bridging loan
+- Standard KYC and anti-money-laundering checks required
+- Identity documents certified and income evidence (rental void periods) notarised by a Nairobi law firm
+
+**Types de prêteurs**
+
+- Not named; '1.50% bank fee' implies a bank lender offering a 5-year fixed interest-only product
+
+**Étapes du processus**
+
+- Isle of Man trust company approaches Silver Oak Capital on behalf of the Kenya-based client
+- Request framed as a like-for-like refinance: £1.2m value, £800k loan
+- Lender sourcing hampered by the borrower's lack of a UK credit profile
+- Standard KYC and anti-money-laundering checks carried out
+- Firm sources a Nairobi law firm to certify identity documents and notarise evidence of income for rental void periods
+- Terms agreed: £800k at 75% LTV, 5-year fixed 4.19%, interest-only, 1.50% bank fee
+
+**Géographie**
+
+- Central London (security property)
+- Isle of Man (trust company / introducing party)
+- Kenya / Nairobi (borrower location; law firm used for certification and notarisation)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (number) Loan of £800,000
+- (number) Property value £1.2 million
+- (number) 75% LTV
+- (number) 5-year fixed rate of 4.19%
+- (term) Interest-only over a 5-year term
+- (number) 1.50% bank fee
+- (timing) Property bought at auction 12 months earlier with a bridging loan
+- (challenge) Borrower had no UK credit profile, which made most lenders hesitant
+- (process) Firm found a Nairobi law firm to certify identity documents and notarise evidence of income for rental void periods
+- (number-other-case) [b] Separate '£3.6 million Kensington bridging loan priced at 0.78% per month' (different case study)
+- (number-other-case) [b] Separate '£19 million North West London bridging loan at 0.75% per month' (different case study)
+- (press-other-case) [a] External headline: 'Silver Oak Capital completes its largest ever bridging loan of £19.1m' (bridgingandcommercial.co.uk)
+
+_Notes d'extraction : Direct fetch blocked; everything comes from two WebSearch extended calls. The 'verbatim' items are the search tool's own summary sentences of the page excerpt, tagged [a] (exact-URL query) and [b] (site: keyword query); they are not confirmed page text, although both calls agree on every figure (£800k, £1.2m, 75% LTV, 4.19% 5-yr fixed, interest-only, 5-yr term, 1.50% bank fee, Isle of Man trust c…_
+
+#### Bridging for a Retail Store Purchase in Liverpool
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/bridging-for-a-retail-purchase-in-liverpool/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Bridging for a Retail Store Purchase in Liverpool (search-result title; not confirmed as the on-page H1 element)  
+
+**Résumé.** Case study of a wealthy father seeking to finance two retail investment units in Liverpool as an investment for his daughters. The enquiry concerned two brand new Tesco Convenience stores, each with a fresh 15-year lease, priced at GBP 2.75 million per unit (GBP 5.5 million in total). The family are described as experienced commercial landlords who could have paid cash; the brief to Silver Oak Capital was therefore to source a UK high-street bank with a very low cost of funds, i.e. the cheapest rate available. Challenge: retail property lending has been difficult since Covid and high-street lenders have offered only conservative loan-to-value ratios on retail assets. Proposed structure: 55% LTV, 3.00% five-year fixed rate, 10-year interest-only term, 1.25% arrangement fee. The search results do not state the loan amount explicitly, the lender's name, the timeline, or whether the facility completed; they describe the structure as 'proposed'. Although titled 'Bridging', the terms described (5-year fix, 10-year interest-only) are those of a long-term commercial mortgage, an observation made by the search tool's summary rather than by the page itself. The firm's commercial-mortgage-broker page lists this case study among its examples.
+
+**Sections repérées**
+
+- **The client and the enquiry** — A wealthy father wanted to finance two Liverpool retail units as an investment for his daughters. The enquiry concerned two retail assets: two brand new Tesco Convenience stores located in Liverpool. Each unit had a fresh 15-year lease and a price of GBP 2.75 million per unit. The family are described as experienced commercial landlords.
+- **The brief** — The clients could pay cash; the firm's brief was to find a UK high-street bank with a very low cost of funds. Because the buyers had the funds, the broker aimed for the cheapest rate available.
+- **The challenge** — Retail property lending has been hard since Covid. High-street lenders were cautious about retail assets and offered loans only at conservative loan-to-value levels.
+- **The proposed structure** — 55% LTV; 3.00% five-year fixed rate; 10-year interest-only term; 1.25% arrangement fee. The search results describe this as the 'proposed' structure/solution and do not confirm completion, the lender's identity or the timeline.
+- **Product-type observation (not from the page)** — The search tool's summary notes that although the page is titled 'Bridging', the terms described (five-year fix, ten-year interest-only) correspond to a long-term commercial mortgage rather than a short-term bridging loan. Silver Oak's commercial-mortgage-broker page lists this case study among its examples and states the firm arranges both short-term bridging and long-term commercial mortgages.
+
+**Phrases verbatim (anglais)**
+
+> [a] Result title: "Bridging for a Retail Store Purchase in Liverpool"
+>
+> [a] "The case study is about a wealthy father who wanted to finance two Liverpool retail units as an investment for his daughters."
+>
+> [a] "The enquiry was for two retail assets, two brand new Tesco Convenience stores located in Liverpool."
+>
+> [a] "Each unit had a fresh 15-year lease, and the price per unit was £2.75 million."
+>
+> [a] "The clients could pay cash, but the firm's brief was to find a UK high-street bank with a very low cost of funds."
+>
+> [a] "The firm notes that retail property lending has been hard since Covid, and that lenders have offered only conservative loan-to-value ratios."
+>
+> [a] "The proposed structure was a 55% LTV, 3.00% five-year fixed rate, 10-year interest-only term, and a 1.25% arrangement fee."
+>
+> [a] (search-tool observation, not page text) "The title says 'bridging,' but the terms described are a long-term commercial mortgage rather than a short-term bridging loan."
+>
+> [b] Result title: "Bridging for a Retail Store Purchase in Liverpool"
+>
+> [b] "It covers a father financing two new supermarket convenience units in Liverpool as an investment for his daughters."
+>
+> [b] "Each unit was priced at £2.75 million, with a 15-year lease."
+>
+> [b] "The page describes the family as experienced commercial landlords who could pay in cash."
+>
+> [b] "Because the buyers had the funds, the broker aimed for the cheapest rate available."
+>
+> [b] "The case notes that high-street lenders were cautious about retail assets after Covid and offered loans only at conservative loan-to-value levels."
+>
+> [b] "The proposed solution was a 55% LTV loan at 3.00% on a 5-year fix, with a 10-year interest-only term and a 1.25% arrangement fee."
+>
+> [b] "The firm's commercial mortgage broker page lists the same Liverpool case study among its examples and says the firm arranges both short-term bridging and long-term commercial mortgages."
+>
+> [b] "The homepage says the firm arranges debt through a network of over 800 lenders, mainly for loans above £500,000."
+
+**Produits et services cités**
+
+- Bridging loans (page title / case-study category)
+- Commercial mortgages (structure described: 5-year fixed, 10-year interest-only; case study listed on /commercial-mortgage-broker/)
+- Commercial investment property finance (retail units with long leases)
+
+**Cas d'usage**
+
+- Purchase of income-producing retail investment property (two new Tesco Convenience stores with fresh 15-year leases)
+- Family wealth / investment for children (father acquiring assets as an investment for his daughters)
+- Cheap leverage for cash-rich, experienced commercial landlords who want a very low cost of funds rather than maximum gearing
+
+**Conditions, montants, délais, frais**
+
+- 55% loan-to-value (LTV)
+- 3.00% five-year fixed rate
+- 10-year interest-only term
+- 1.25% arrangement fee
+- Asset: two units each priced at GBP 2.75 million, each with a fresh 15-year lease
+
+**Critères d'éligibilité**
+
+- Borrower profile stated: experienced commercial landlords, able to pay cash (strong liquidity)
+- Asset profile stated: brand new retail units (Tesco Convenience stores) with fresh 15-year leases
+- Lender appetite stated: retail lending hard since Covid; only conservative LTVs offered on retail assets (55% achieved/proposed here)
+
+**Types de prêteurs**
+
+- UK high-street bank (the brief); high-street lenders generally described as cautious on retail post-Covid
+
+**Étapes du processus**
+
+- Enquiry received for two Liverpool retail assets (two new Tesco Convenience stores, GBP 2.75m each, 15-year leases)
+- Brief defined: clients could pay cash; objective was a UK high-street bank with a very low cost of funds / cheapest rate available
+- Market constraint identified: high-street lenders cautious on retail post-Covid, conservative LTVs only
+- Structure proposed: 55% LTV, 3.00% 5-year fixed, 10-year interest-only, 1.25% arrangement fee
+- Completion/outcome and timing: not stated in the search results
+
+**Géographie**
+
+- Liverpool
+- United Kingdom
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (asset) Two brand new Tesco Convenience stores located in Liverpool
+- (number) Price per unit GBP 2.75 million (two units)
+- (number) Each unit had a fresh 15-year lease
+- (number) Proposed 55% LTV
+- (rate) Proposed 3.00% five-year fixed rate
+- (term) Proposed 10-year interest-only term
+- (fee) Proposed 1.25% arrangement fee
+- (market-statement) Retail property lending has been hard since Covid; lenders offered only conservative LTVs
+- (borrower-profile) Clients were experienced commercial landlords who could pay cash
+- (firm-claim) Homepage: network of over 800 lenders, mainly for loans above GBP 500,000 [b]
+- (firm-claim) Commercial-mortgage-broker page: firm arranges both short-term bridging and long-term commercial mortgages [b]
+- (external-press-headline) External press result title [a]: 'Silver Oak Capital completes its largest ever bridging loan of £19.1m' (bridgingandcommercial.co.uk; not opened, headline only)
+
+_Notes d'extraction : Sources: [a] = extended WebSearch on the exact URL; [b] = extended WebSearch 'site:silveroakcapital.co.uk bridging retail purchase Liverpool case study'. Both calls returned the search tool's prose summary of the page rather than raw snippet text, so the 'verbatim' entries quote the tool's summary wording; the two summaries agree on every figure (2 units, GBP 2.75m each, 15-year leases, 55% LTV, …_
+
+#### Bridging Villa Cap Ferrat
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/>  
+Confiance : medium · Recherches effectuées : 2
+
+
+**Résumé.** Case study of a EUR 5 million bridging loan arranged by Silver Oak Capital against a large villa near Monaco (Cap Ferrat per the page slug and title) with an estimated value of EUR 8 million (62.5% LTV). Purpose: refinance an existing mortgage and release funds for refurbishment. The villa had planning permission to become a boutique hotel. Borrower: a Dubai-based client with hotel-asset experience and an income able to cover monthly interest. Terms: 0.55% per month, 24-month term, interest serviced monthly, 1.50% bank fee shared with Silver Oak. Challenge: many lenders had left the hotel lending market after the Covid-19 pandemic and the remaining ones were pricier; Silver Oak says it used its niche lender relationships to structure a bespoke mortgage. Lender not named (the 'bank fee' wording implies a bank). No dates or completion timeline revealed. Outcome as stated: the loan was arranged. The search tool reported that the /bridging-loans-uk/ page lists the same villa as a featured case with consistent details.
+
+**Sections repérées**
+
+- **Deal (grouping by harvester, not a confirmed page heading)** — EUR 5 million bridging loan against a villa with an estimated value of EUR 8 million, used to refinance an existing mortgage and free up funds for refurbishment.
+- **Property** — A large villa near Monaco (Cap Ferrat per slug/title) that had planning permission to become a boutique hotel.
+- **Borrower** — A Dubai-based client with hotel-asset experience and an income able to cover monthly interest.
+- **Terms** — 62.5% LTV, 0.55% per month, 24-month term, interest serviced monthly, 1.50% bank fee shared with Silver Oak.
+- **Challenge and solution** — Many lenders had left the hotel lending market after the Covid-19 pandemic and the remaining ones were pricier. Silver Oak used its niche lender relationships to structure a bespoke mortgage.
+
+**Phrases verbatim (anglais)**
+
+> [a] Silver Oak Capital arranged a €5 million bridging loan against a villa with an estimated value of €8 million, used to refinance an existing mortgage and free up funds for refurbishment.
+>
+> [a] A large villa near Monaco that had planning permission to become a boutique hotel.
+>
+> [a] A Dubai-based client with hotel-asset experience and an income able to cover monthly interest.
+>
+> [a] 62.5% loan-to-value, 0.55% per month, 24-month term, interest serviced monthly, and a 1.50% bank fee shared with Silver Oak.
+>
+> [a] Many lenders had left the hotel lending market after the Covid-19 pandemic, and the remaining ones were pricier. Silver Oak used its niche lender relationships to structure a bespoke mortgage.
+>
+> [a] Other Silver Oak pages in the results describe the same villa deal in similar terms, so the details look consistent across the site.
+>
+> [b] The page describes a villa near Monaco with planning permission for conversion to a boutique hotel.
+>
+> [b] The borrower needed to refinance an existing mortgage and release funds for refurbishment.
+>
+> [b] The loan was €5 million against an estimated €8 million value, which is a 62.5% LTV.
+>
+> [b] The terms were 0.55% per month over 24 months, with interest serviced monthly and a 1.50% bank fee shared with Silver Oak.
+>
+> [b] The main difficulty was finding lenders still willing to fund hotel development after the Covid-19 pandemic, and Silver Oak said it used its niche lender relationships to structure the deal.
+>
+> [b] Bridging loans overview page, which lists the same villa as a featured case: https://www.silveroakcapital.co.uk/bridging-loans-uk/
+>
+> [a][b] Result link title for the page: "Bridging Villa Cap Ferrat"
+
+**Produits et services cités**
+
+- Bridging loan (international / Western Europe, euro-denominated)
+- Refinance of an existing mortgage
+- Release of funds for refurbishment
+- Hotel finance (villa with planning permission for boutique hotel conversion)
+- Lending to a non-UK-resident / Dubai-based borrower
+
+**Cas d'usage**
+
+- Refinancing an existing mortgage on a prime Riviera villa
+- Releasing capital for refurbishment
+- Bridging a villa-to-boutique-hotel conversion with planning permission in place
+- Cross-border lending: Dubai-based borrower, asset near Monaco, euro loan
+
+**Conditions, montants, délais, frais**
+
+- Loan amount: EUR 5,000,000
+- Security: villa near Monaco, estimated value EUR 8,000,000
+- LTV: 62.5%
+- Rate: 0.55% per month
+- Term: 24 months
+- Interest: serviced monthly (not rolled up)
+- Bank fee: 1.50%, shared with Silver Oak
+- Purpose: refinance existing mortgage plus release of funds for refurbishment
+
+**Critères d'éligibilité**
+
+- Borrower attributes stated (not framed as explicit criteria): Dubai-based client
+- Borrower attributes stated: experience with hotel assets
+- Borrower attributes stated: income able to cover monthly interest (interest serviced monthly)
+- Asset attribute stated: planning permission in place for boutique hotel conversion
+
+**Types de prêteurs**
+
+- Lender not named
+- 'Niche lender relationships' (Silver Oak wording per search summary)
+- 'Bank fee' wording implies a bank lender
+- Lenders still active in hotel lending after Covid-19
+
+**Étapes du processus**
+
+- Not laid out as numbered steps in the results. Elements described: (1) borrower needed to refinance an existing mortgage and release refurbishment funds; (2) difficulty: few lenders still funding hotel assets post-Covid-19, remaining ones pricier; (3) Silver Oak used niche lender relationships; (4)…
+
+**Géographie**
+
+- Cap Ferrat (from page slug and result title)
+- near Monaco (per search summary)
+- Dubai (borrower location)
+- France / Cote d'Azur (geographic inference from 'Cap Ferrat'; NOT stated in the snippets)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (number) EUR 5 million bridging loan
+- (number) Villa estimated value EUR 8 million
+- (number) 62.5% loan-to-value
+- (number) 0.55% per month interest rate
+- (number) 24-month term
+- (structure) Interest serviced monthly
+- (fee) 1.50% bank fee shared with Silver Oak
+- (asset-fact) Villa had planning permission to become a boutique hotel
+- (borrower-fact) Borrower is Dubai-based, has hotel-asset experience and income able to cover monthly interest
+- (market-claim) Many lenders left the hotel lending market after the Covid-19 pandemic; remaining ones were pricier
+- (positioning) Silver Oak used its niche lender relationships to structure a bespoke mortgage
+- (external-press) External press result title (not this page): 'Silver Oak Capital completes its largest ever bridging loan of £19.1m' (bridgingandcommercial.co.uk)
+
+_Notes d'extraction : Direct fetch blocked; everything comes from the WebSearch tool's two result sets (a = exact-URL query, b = site: query). The 'verbatim' entries are the search tool's own summary sentences, not confirmed page text; the only confirmed page-level string is the result title 'Bridging Villa Cap Ferrat'. H1, meta description, FAQ, CTAs, dates/timeline, lender name and the borrower's identity were NOT r…_
+
+#### Finance for 100 senior housing development in Kent, UK
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/finance-for-100-senior-housing-development-in-kent/>  
+Confiance : medium · Recherches effectuées : 2
+
+
+**Résumé.** Case study of a development loan arranged by Silver Oak Capital for a 100-unit senior (affordable) housing scheme in Kent, UK, with a gross development value (GDV) of GBP 45 million. Borrower: a developer who had owned the site for almost 20 years and spent almost 5 years securing planning, with strong local-council backing. Need: fully fund construction and, at the same time, refinance an existing bridging loan secured on the site. Challenges reported: the borrower did not want to start building with any pre-sales in place, and the lender had to accept the borrower acting as his own builder rather than appointing a design-and-build contractor. Lender: a London-based senior debt fund. Structure: 65% loan-to-GDV, 78% loan-to-cost, margin 7.25% over base rate, 36-month term, interest and fees rolled up, fees of 1% on entry and 2% on exit; drawn in two tranches, the first used to refinance the existing bridging loan. Outcome as stated: the terms were 'positively received by our clients'. Loan amount in GBP, lender name, exact dates and completion status are NOT stated in the search results. Search metadata suggests the page is roughly 1,851 days old (about 5 years, i.e. circa 2021), but another listing shows it as recent, so the date is uncertain.
+
+**Sections repérées**
+
+- **Background (as reported by search-tool summary [a])** — The developer had owned the site for almost 20 years; planning took almost 5 years to secure, with strong backing from the local council. The scheme is a 100-unit senior affordable housing development in Kent, UK.
+- **Borrower's needs ([a] summary; [b] snippet)** — The borrower needed to fully fund the build and at the same time refinance an existing bridging loan on the site. The GDV of the scheme is GBP 45 million.
+- **Challenges (as reported by search-tool summary [a])** — The borrower did not want to start building with any pre-sales in place. The lender also had to accept the borrower's plan to act as his own builder rather than use a design-and-build contractor. The loan was drawn down in two tranches, with the first used to refinance the existing bridging loan.
+- **Solution ([b] snippet; [a] summary)** — A London-based senior debt fund offered the following solution which was positively received by the clients: 65% Loan to GDV; 78% Loan to Cost; Margin 7.25% over Base Rate; 36-month term; interest and fees rolled up; fees of 1% on entry and 2% on exit.
+
+**Phrases verbatim (anglais)**
+
+> [b] "The borrower needed to fully fund the build and at the same time refinance an existing bridging loan on the site."
+>
+> [b] "The GDV of the scheme is £45 million."
+>
+> [b] "A London based senior debt fund offered the following solution which was positively received by our clients."
+>
+> [b] "65% Loan to GDV 78% Loan to Cost Margin 7.25% over Base Rate 36 month term."
+>
+> [b] (from /senior-development-finance/, not the case-study page) "Senior lenders are risk-averse. They want to see that you (or your main contractor) have successfully completed a similar scheme before."
+>
+> [a] (search-tool summary wording, not confirmed page text) "The case study is about a 100-unit senior affordable housing scheme in Kent, UK."
+>
+> [a] (search-tool summary wording) "The developer had owned the site for almost 20 years, and planning took almost 5 years to secure, with strong backing from the local council."
+>
+> [a] (search-tool summary wording) "The borrower had to fund construction and refinance an existing bridging loan on the site at the same time. The gross development value (GDV) of the scheme is £45 million."
+>
+> [a] (search-tool summary wording) "The borrower did not want to start building with any pre-sales in place. The lender also had to accept the borrower's plan to act as his own builder rather than use a design-and-build contractor. The loan was drawn down in two tranches, with the first used to refinance the existing bridging loan."
+>
+> [a] (search-tool summary wording) "A London-based senior debt fund offered terms that the clients received positively. The terms were a 65% loan-to-GDV, a 78% loan-to-cost, a 7.25% margin over base rate, a 36-month term with interest and fees rolled up, and fees of 1% on entry and 2% on exit."
+>
+> [a] (search-tool summary wording) "one result lists it as about 1,851 days old, while another listing shows it as recent."
+>
+> [b] (search-tool summary wording, /senior-development-finance/) "senior debt is the first-charge loan that funds much of the land purchase and most construction costs"
+
+**Produits et services cités**
+
+- Senior development finance (ground-up residential / senior living scheme)
+- Property development finance
+- Refinance of an existing bridging loan as part of a development facility
+- Debt advisory / brokerage sourcing a senior debt fund
+
+**Cas d'usage**
+
+- Funding construction of a 100-unit senior affordable housing scheme
+- Simultaneously refinancing an existing bridging loan secured on the development site
+- Development without pre-sales in place
+- Developer acting as own builder rather than using a design-and-build contractor
+- Long-held site (almost 20 years) brought through a lengthy (almost 5 years) planning process with local-council backing
+
+**Conditions, montants, délais, frais**
+
+- 65% Loan to GDV
+- 78% Loan to Cost
+- Margin 7.25% over Base Rate
+- 36 month term
+- Interest and fees rolled up (per [a] summary; [b] snippet confirms interest rolled up)
+- Fees: 1% on entry, 2% on exit (per [a] summary only)
+- Drawn down in two tranches, first tranche used to refinance the existing bridging loan (per [a] summary only)
+
+**Critères d'éligibilité**
+
+- Not stated on the case-study page per results. Contextual only, from /senior-development-finance/ [b]: 'Senior lenders are risk-averse. They want to see that you (or your main contractor) have successfully completed a similar scheme before.'
+
+**Types de prêteurs**
+
+- London-based senior debt fund (lender name not stated)
+
+**Étapes du processus**
+
+- Borrower presents need: fund full build plus refinance existing bridge on site (GDV GBP 45m)
+- Silver Oak Capital sources terms from a London-based senior debt fund
+- Lender accepts no-pre-sales position and borrower acting as own builder (per [a] summary)
+- Facility drawn in two tranches: tranche 1 refinances the existing bridging loan; purpose of tranche 2 not stated in results (per [a] summary)
+- Interest and fees rolled up over the 36-month term; 1% entry fee and 2% exit fee (per [a] summary)
+
+**Géographie**
+
+- Kent, UK (asset)
+- London (lender base)
+- United Kingdom
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (deal-fact) 100-unit senior affordable housing scheme in Kent, UK
+- (number) GDV of the scheme is GBP 45 million
+- (number) 65% Loan to GDV
+- (number) 78% Loan to Cost
+- (number) Margin 7.25% over Base Rate
+- (number) 36 month term
+- (structure) Interest and fees rolled up
+- (number) Fees of 1% on entry and 2% on exit
+- (structure) Loan drawn down in two tranches, first used to refinance existing bridging loan
+- (lender) Lender was a London-based senior debt fund
+- (outcome) Terms were positively received by the clients
+- (background) Developer had owned the site for almost 20 years
+- (background) Planning took almost 5 years to secure, with strong backing from the local council
+- (challenge) Borrower did not want to start building with any pre-sales in place
+
+_Notes d'extraction : Two WebSearch calls run (a: exact URL; b: site:silveroakcapital.co.uk finance senior housing development Kent), none refused. Core deal terms (GBP 45m GDV, 65% LTGDV, 78% LTC, 7.25% over base, 36 months, London-based senior debt fund, simultaneous build funding + bridge refinance) appear in both results and are backed by a direct page snippet in (b), so they are reliable. Background and challenge…_
+
+#### Manchester Office
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/manchester-office/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Not revealed by search results (link title only: "Manchester Office")  
+**Meta description :** Not revealed by search results
+
+**Résumé.** Case study of a GBP 4.5m commercial mortgage arranged by Silver Oak Capital for the purchase of an office building in Manchester city centre. Borrower: a Manchester (commercial) real estate management firm that intended to complete the purchase swiftly with cash and then required immediate access to a loan post-acquisition; it wanted a long-term commercial mortgage at 65% loan-to-value. Lender: a regional lender. Structure/terms as reported: GBP 4.5m loan, 65% LTV, 7-year term, full interest-only repayment, rate of 3.00% above Bank Base Rate, 1.00% bank fee; described as tailored finance. Challenges flagged: occupancy and tenant stability as risks to rental income, and the need for thorough due diligence on compliance with modern office standards. Outcome: terms offered/arranged as above. Deal date and exact timing were not revealed by the search results.
+
+**Phrases verbatim (anglais)**
+
+> [a] (search-tool summary, not confirmed page text) "the firm secured a £4.5m commercial loan at 65% loan-to-value for a Manchester city-centre office purchase"
+>
+> [a] (search-tool summary) "A Manchester commercial real estate management firm wanted a long-term mortgage to buy an office building in the city centre, and it planned to pay cash up front, then needed a loan right after purchase. They required a long-term commercial mortgage at 65% loan to value (LTV)."
+>
+> [a] (search-tool summary) "The snippets flag occupancy and tenant stability as risks to rental income, plus the need for thorough due diligence on compliance with modern office standards."
+>
+> [a] (search-tool summary) "The offer came from a regional lender, with a 7-year interest-only term, an interest rate of 3.00% above Bank Base Rate, and a 1.00% bank fee."
+>
+> [b] (search-tool summary) "Silver Oak Capital arranged a £4.5m commercial mortgage at 65% LTV for a Manchester office building, with a 7-year interest-only term and tailored finance."
+>
+> [b] (search-tool summary) "A Manchester real estate management firm wanted to buy a city-centre office building and needed a long-term commercial mortgage. They aimed to complete the purchase swiftly with cash but required immediate access to a loan post-acquisition."
+>
+> [b] (search-tool summary) "Occupancy and tenant stability, plus compliance with modern office standards, which called for thorough due diligence"
+>
+> [b] (search-tool summary) "The page lists a £4.5m loan at 65% LTV, a rate of 3.00% above Bank Base Rate, a 7-year term, full interest-only repayment, and a 1.00% bank fee. It came from a regional lender."
+>
+> [b] (site section label reported by tool) "Related Case-studies"
+
+**Produits et services cités**
+
+- Commercial mortgage (long-term, office investment)
+- Post-acquisition loan following a cash purchase
+
+**Cas d'usage**
+
+- Purchase of a city-centre office building by a real estate management firm
+- Cash purchase followed by immediate post-acquisition long-term commercial mortgage
+
+**Conditions, montants, délais, frais**
+
+- Loan amount: £4.5m
+- LTV: 65%
+- Term: 7 years
+- Repayment: full interest-only
+- Rate: 3.00% above Bank Base Rate
+- Bank fee: 1.00%
+- Lender: regional lender
+
+**Critères d'éligibilité**
+
+- No explicit eligibility criteria revealed by search results
+- Borrower profile in this case: a Manchester (commercial) real estate management firm buying a city-centre office building as an investment
+
+**Types de prêteurs**
+
+- Regional lender
+
+**Étapes du processus**
+
+- Client planned to complete the office purchase swiftly with cash (per tool summary)
+- Client required immediate access to a loan post-acquisition (per tool summary)
+- Lender due diligence on occupancy / tenant stability and on compliance with modern office standards (per tool summary)
+- Offer obtained from a regional lender on the terms listed (per tool summary)
+
+**Géographie**
+
+- Manchester
+- Manchester city centre
+- United Kingdom
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (deal-figure) £4.5m commercial mortgage arranged
+- (deal-figure) 65% loan-to-value
+- (deal-figure) 7-year term, full interest-only
+- (deal-figure) Interest rate 3.00% above Bank Base Rate
+- (deal-figure) 1.00% bank fee
+- (lender-type) Lender was a regional lender
+- (marketing-language) Finance described as tailored
+
+_Notes d'extraction : Both WebSearch calls returned the search tool's own summaries rather than raw page snippets, so all 'verbatim' items are the tool's paraphrase of the page and are labelled as such; the only wording likely to be literal site text is the section label 'Related Case-studies'. The two independent summaries agree on every figure (GBP 4.5m, 65% LTV, 7-year interest-only, 3.00% over Bank Base Rate, 1.00…_
+
+#### PBSA
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/pbsa/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** PBSA (search-result link title; actual H1 not confirmed)  
+
+**Résumé.** Case study of a long-term commercial mortgage arranged for a UK student accommodation operator buying a new purpose-built student accommodation (PBSA) building in Birmingham. The borrower required a long-term commercial mortgage at 70% loan-to-value; it intended to complete the purchase with cash and then needed immediate access to a loan post-acquisition. Silver Oak Capital proposed a GBP 12 million facility from a Birmingham-based lender at 70% LTV, priced at 2.50% above the Bank Base Rate, over a 10-year term, interest-only, with a 1.75% bank fee. Challenges named in the case study: optimising the building's space and amenities for changing student needs, and meeting student housing regulations and safety standards. The search results did not reveal the final outcome/completion statement, timing (dates or speed of completion), the lender's name, or any client quote. Only a partial text of the page was returned.
+
+**Phrases verbatim (anglais)**
+
+> [a] "A UK student accommodation operator sought help buying a new PBSA building in Birmingham, and needed a long-term commercial mortgage at 70% loan-to-value."
+>
+> [a] "the client wanted to pay cash for the purchase and then needed a loan right after acquisition."
+>
+> [a] "Silver Oak offered a £12 million facility from a Birmingham-based lender."
+>
+> [a] "The listed terms were a rate of 2.50% plus the Bank Base Rate, a 10-year term, interest-only repayments, and a 1.75% bank fee."
+>
+> [a] "The case flagged how to optimise the building's space and amenities for changing student needs, and how to meet student housing regulations and safety standards."
+>
+> [a] "The search returned only a partial text of it, so some details may be cut off."
+>
+> [b] "a finance deal for a UK student accommodation operator buying a new building in Birmingham. They required a long-term commercial mortgage at 70% loan to value (LTV)."
+>
+> [b] "The proposed terms were a £12 million loan at 70% LTV, priced at 2.50% above the Bank Base Rate, over a 10-year term, interest-only, with a 1.75% bank fee."
+>
+> [b] "the borrower aimed to complete the purchase with cash but required immediate access to a loan post-acquisition."
+>
+> [b] (from /faq/, not this page) "lenders will fund PBSA when the economics are sound. Whole-loan providers are comfortable funding student accommodation (PBSA), hotels, Build-to-Rent (BTR), and industrial schemes, provided the exit yields and demand are proven."
+>
+> [b] (from /senior-development-finance/, not this page) "PBSA developers are among the large, well-capitalised sponsors who use senior development finance."
+>
+> [b] (other case study mentioned, URL not given) "a Development Loan for Student Conversion Cardiff, which involved a development loan to convert a vacant office block."
+
+**Produits et services cités**
+
+- Commercial mortgage (investor / operator, long-term)
+- PBSA / student accommodation finance
+- Post-acquisition refinance of a cash purchase
+
+**Cas d'usage**
+
+- Acquisition of a new PBSA building by an operator
+- Immediate post-acquisition long-term mortgage against a cash purchase (70% LTV release)
+
+**Conditions, montants, délais, frais**
+
+- GBP 12 million facility
+- 70% LTV
+- 2.50% plus Bank Base Rate (variable)
+- 10-year term
+- Interest-only
+- 1.75% bank fee
+- Long-term commercial mortgage
+
+**Critères d'éligibilité**
+
+- Not stated as criteria. Borrower profile revealed: UK student accommodation operator (experienced operator) acquiring a new PBSA building.
+
+**Types de prêteurs**
+
+- Birmingham-based lender, unnamed; terms include a 'bank fee', suggesting a bank
+
+**Étapes du processus**
+
+- Client approached Silver Oak Capital for help buying a new PBSA building in Birmingham, requiring a long-term commercial mortgage at 70% LTV.
+- Client planned to complete the purchase with cash, then draw a loan immediately after acquisition.
+- Silver Oak Capital proposed a GBP 12m facility from a Birmingham-based lender (2.50% + BBR, 10 years, interest-only, 1.75% bank fee).
+- Completion / outcome step not revealed by the search results.
+
+**Géographie**
+
+- Birmingham, United Kingdom (asset location)
+- Birmingham (lender location)
+- United Kingdom (borrower: UK student accommodation operator)
+
+**Questions fréquentes**
+
+- **(From /faq/, not this page) Will lenders fund PBSA?** Search summary: lenders will fund PBSA when the economics are sound; whole-loan providers are comfortable funding student accommodation (PBSA), hotels, Build-to-Rent (BTR) and industrial schemes, provided the exit yields and demand are proven.
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (loan amount) GBP 12 million facility proposed
+- (LTV) 70% loan-to-value
+- (pricing) Rate of 2.50% plus Bank Base Rate
+- (term) 10-year term
+- (repayment structure) Interest-only repayments
+- (fee) 1.75% bank fee
+- (lender) Lender was Birmingham-based
+- (borrower / asset) Borrower: UK student accommodation operator buying a new PBSA building in Birmingham
+- (structure / timing) Borrower intended to pay cash for the purchase and needed a loan immediately after acquisition
+- (challenge) Challenges: optimising space and amenities for changing student needs; meeting student housing regulations and safety standards
+
+_Notes d'extraction : Source channel: WebSearch only (direct fetch blocked). Both results came from the search tool's own summary of the page rather than raw page HTML, so the 'verbatim' quotes are the tool's summary wording, which closely paraphrases the page; exact page sentences are not confirmed. Result [a] explicitly stated only partial page text was returned. Not revealed: page H1 (only link title 'PBSA' seen), …_
+
+#### G650
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/g650/>  
+Confiance : medium · Recherches effectuées : 2
+
+
+**Résumé.** Case study of a private-jet acquisition loan arranged by Silver Oak Capital. Amount: $40 million. Asset: Gulfstream G650 private jet. Borrower: a wealthy Emirati (UAE) individual described as having 'a penchant for luxury and business travel', who wanted long-term funding to buy the jet and needed access to financing soon after purchase ('fast post-purchase financing'). Lender type: a European private bank ('tailored European private bank lending'). Structure per search summaries: 80% loan-to-value, 10-year term, rate 3.5% plus Euribor, 1.5% lender fee, repayment amortised over 10 years with a 30% balloon, and $5 million in assets under management (listed among the key terms; appears to be a private-bank AUM condition, but the page wording was not seen). Timing: no completion timescale stated beyond the client's need for financing soon after purchase. Challenges flagged by the page: aircraft valuation, maintenance costs, regulatory compliance, and whether the jet suited the client's travel needs. Outcome: the $40m facility was arranged. One search summary noted the terms 'are presented as a sample deal'. No H1, meta description, FAQ, process steps or calls to action were revealed in the snippets.
+
+**Sections repérées**
+
+- **Deal overview** — $40m private jet finance at 80% LTV for a Gulfstream G650, 10-year term, 'tailored European private bank lending'. [a][b]
+- **Client** — A wealthy Emirati individual 'with a penchant for luxury and business travel' seeking assistance in acquiring a Gulfstream G650 private jet; wanted long-term funding and needed access to financing soon after purchase. [a][b]
+- **Key terms** — Rate 3.5% plus Euribor; 1.5% lender fee; repayment amortised over 10 years with a 30% balloon; $5 million in assets under management (the AUM item appears only in [a]). [a][b]
+- **Challenges** — Aircraft valuation, maintenance costs, regulatory compliance, and whether the jet suited the client's travel needs ([a]; [b] lists the first three). No detail on how each was resolved was revealed.
+- **Outcome** — The facility was arranged (both searches state Silver Oak Capital 'arranged' the $40m loan). One tool summary says the terms 'are presented as a sample deal'. [a][b]
+- **Related aviation pages surfaced** — /aviation-finance/ (sample terms up to 90% LTV, 5–12 year terms, links to a Falcon 900 case study); /case-studies/top-aviation-firms/ (separate case, high LTV, 'over 8 years old' — likely refers to aircraft age but the summary says 'client'); /senior-secured-aircraft-finance-advisory/ (senior secured aircraft finance described as the lowest-risk form); /aviation-finance-lease-advisory/ (titled 'Aviation Finance & Leasing', new URL not in seed). [b]
+- **Unrelated results excluded** — code7700.com case study of Gulfstream G650 N652GD (2011 test accident), Wikipedia 'Gulfstream Aerospace Flight 153', Wikipedia 'Gulfstream G650/G700/G800' — not connected to Silver Oak Capital.
+
+**Phrases verbatim (anglais)**
+
+> [a] page snippet: "A wealthy Emirati individual, with a penchant for luxury and business travel, approached Silver Oak Capital seeking assistance in acquiring a Gulfstream G650 private jet."
+>
+> [a] page snippet: "Silver Oak Capital arranged $40m private jet finance at 80% LTV for a Gulfstream G650, with a 10-year term and tailored European private bank lending."
+>
+> [a] link title: "G650"
+>
+> [a] tool summary: "The firm's arrangement was a $40 million loan against a Gulfstream G650 jet, at 80% loan-to-value over a 10-year term."
+>
+> [a] tool summary: "A wealthy individual from the UAE wanted long-term funding to buy the jet and needed access to financing soon after purchase."
+>
+> [a] tool summary: "The snippet lists a rate of 3.5% plus Euribor, a 1.5% lender fee, repayment amortised over 10 years with a 30% balloon, and $5 million in assets under management."
+>
+> [a] tool summary: "The write-up flags aircraft valuation, maintenance costs, regulatory compliance, and whether the jet suited the client's travel needs as the main issues."
+>
+> [b] link title: "G650"
+>
+> [b] tool summary: "Silver Oak Capital arranged a $40m loan at 80% loan-to-value for a Gulfstream G650 over a 10-year term, using a European private bank."
+>
+> [b] tool summary: "The borrower was an Emirati individual who needed fast post-purchase financing."
+>
+> [b] tool summary: "The listed terms are a 3.5% margin over Euribor, amortization over 10 years with a 30% balloon, and a 1.5% lender fee."
+>
+> [b] tool summary: "The page also flags aircraft valuation, maintenance costs, and regulatory compliance as the main issues to resolve."
+>
+> [b] tool summary: "It appeared in results as 37 days old."
+>
+> [b] tool summary: "The case study's terms are presented as a sample deal, so verify them with Silver Oak before relying on them."
+>
+> [b] tool summary (related page /aviation-finance/): "The Aviation Finance page lists a sample of terms, including up to 90% LTV and 5–12 year terms, and links to a Falcon 900 case study."
+>
+> [b] tool summary (related page /case-studies/top-aviation-firms/): "A 'Top Aviation Firms' page describes a separate case involving a client over 8 years old, which needed high LTV."
+>
+> [b] tool summary (related page /senior-secured-aircraft-finance-advisory/): "The Aircraft Finance Advisory page describes senior secured aircraft finance as the lowest-risk form of aircraft finance."
+
+**Produits et services cités**
+
+- Aviation Finance / private jet finance (loan secured on aircraft)
+- Private bank lending arranged for a UHNW non-UK (UAE) borrower
+- Related: Senior Secured Aircraft Finance Advisory
+- Related: Aviation Finance & Leasing (/aviation-finance-lease-advisory/)
+
+**Cas d'usage**
+
+- Acquisition of a Gulfstream G650 private jet by a UHNW individual
+- Long-term funding needed soon after purchase of an aircraft (post-purchase financing)
+
+**Conditions, montants, délais, frais**
+
+- LTV (loan-to-value) — 80%
+- Euribor — margin of 3.5% over Euribor
+- Lender fee — 1.5%
+- Amortisation over 10 years
+- Balloon — 30%
+- Assets under management (AUM) — $5 million
+- Private jet finance
+- European private bank lending
+- Term — 10 years
+
+**Critères d'éligibilité**
+
+- Not stated explicitly. Implied by the deal as summarised: UHNW individual borrower (UAE resident), lender a European private bank, and '$5 million in assets under management' listed among the key terms ([a] only; page wording not seen).
+
+**Types de prêteurs**
+
+- European private bank
+
+**Géographie**
+
+- United Arab Emirates (borrower: Emirati individual)
+- Europe (lender: European private bank)
+- United Kingdom (Silver Oak Capital, London-based broker)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (number) $40m / $40 million loan arranged
+- (number) 80% LTV (loan-to-value)
+- (number) 10-year term
+- (number) Rate 3.5% plus Euribor (3.5% margin over Euribor)
+- (number) 1.5% lender fee
+- (number) Amortised over 10 years with a 30% balloon
+- (number) $5 million in assets under management ([a] only)
+- (deal-structure) Lender: European private bank ('tailored European private bank lending')
+- (borrower) Borrower: wealthy Emirati (UAE) individual
+- (challenge) Challenges: aircraft valuation, maintenance costs, regulatory compliance, suitability of jet to client's travel needs
+- (freshness) Page appeared in results as 37 days old (approx. late September 2026 relative to 2026-10-29)
+- (number-related-page) Related /aviation-finance/ page: sample terms up to 90% LTV and 5–12 year terms
+- (positioning-related-page) Related /senior-secured-aircraft-finance-advisory/ page: senior secured aircraft finance described as the lowest-risk form of aircraft finance
+
+_Notes d'extraction : Direct fetch blocked; everything comes from two WebSearch (extended) calls on 2026-10-29. Headline figures ($40m, 80% LTV, 10-year term, 3.5% + Euribor, 1.5% lender fee, 30% balloon, Emirati borrower, European private bank, valuation/maintenance/regulatory challenges) are consistent across both searches, hence medium rather than low. Items appearing in only one search: '$5 million in assets under…_
+
+#### Heesen Yacht Finance
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/>  
+Confiance : medium · Recherches effectuées : 2
+
+**Meta description :** Silver Oak Capital arranged $14m yacht finance at 60% LTV for a 50m Heesen yacht, with a 10-year term and tailored lending for a luxury acquisition.
+
+**Résumé.** Case study of a yacht acquisition loan. Amount: $14 million (US dollars). Asset: a 50-metre Heesen yacht. Leverage: 60% loan-to-value. Borrower: described as a wealthy individual (result [a]) / a wealthy Chinese national (result [b]) who wanted long-term financing and needed to buy the boat quickly. Structure: 4.25% margin over SONIA, 10-year term, repayments amortised over a 20-year profile, 2.75% lender fee. Challenge: the team had to address the yacht's valuation, its maintenance costs, regulatory compliance for maritime operations, and whether the yacht suited the buyer's preferences. Outcome: the $14m facility was arranged on the terms above. Lender identity/type, yacht location or flag, exact dates and timing to completion were not revealed by the search results.
+
+**Phrases verbatim (anglais)**
+
+> [a] "The broker describes arranging a $14 million loan for a 50-metre Heesen yacht, sized at 60% loan-to-value."
+>
+> [a] "The borrower was a wealthy individual who wanted long-term financing to buy the boat quickly."
+>
+> [a] "The stated terms were a 4.25% margin over SONIA, a 10-year term, repayments amortised over 20 years, and a 2.75% lender fee."
+>
+> [a] "The page also says the team had to address valuation, maintenance costs, regulatory compliance for maritime operations, and whether the yacht suited the buyer's preferences."
+>
+> [a] (marine-finance page) "Silver Oak's marine finance page says it typically finances yachts over 20 metres, and that its lenders can use export credit support for newly built yachts."
+>
+> [a] (case-studies index) "Another Silver Oak yacht case study, a Fleming 78 purchase, is listed on the case studies index."
+>
+> [b] "Silver Oak arranged a $14 million loan covering 60% of the value of a 50-metre Heesen yacht. The term was 10 years."
+>
+> [b] (parenthetical snippet, probable meta description) "Silver Oak Capital arranged $14m yacht finance at 60% LTV for a 50m Heesen yacht, with a 10-year term and tailored lending for a luxury acquisition."
+>
+> [b] "The listed interest rate was 4.25% plus SONIA, with repayments amortised over 20 years and a 2.75% lender fee."
+>
+> [b] "The main issues were the yacht's valuation, maintenance costs, and regulatory compliance for maritime use, along with fitting the yacht to the borrower's preferences."
+>
+> [b] "The borrower was a wealthy Chinese national seeking long-term finance quickly. The case study describes this profile in general terms only."
+>
+> [b] (yacht-finance-calculator page) "It says standard yacht mortgages typically run 5 to 7 years with a balloon payment of around 25% of the loan, and that leasing is the other common option."
+
+**Produits et services cités**
+
+- Yacht finance / superyacht finance (acquisition loan on a 50-metre Heesen)
+- Marine / boat finance (related page /marine-finance/, titled 'Boat Finance UK')
+
+**Cas d'usage**
+
+- Acquisition of a 50-metre Heesen yacht by a wealthy individual wanting long-term financing and a quick purchase
+- Long-term (10-year) amortising yacht mortgage as an alternative to the 5-7 year balloon structure described on the yacht-finance-calculator page
+
+**Conditions, montants, délais, frais**
+
+- SONIA (Sterling Overnight Index Average) - floating reference rate; margin 4.25% over SONIA
+- Loan-to-value (LTV) - 60%
+- Amortisation - repayments amortised over 20 years on a 10-year term
+- Lender fee - 2.75%
+- Balloon payment - around 25% of the loan on standard 5-7 year yacht mortgages (calculator page)
+- Export credit support - available to lenders for newly built yachts (marine-finance page)
+- Leasing - 'the other common option' for yacht finance (calculator page)
+
+**Critères d'éligibilité**
+
+- Borrower profile in this deal: wealthy individual [a] / wealthy Chinese national [b], seeking long-term finance quickly
+- Marine-finance page: Silver Oak 'typically finances yachts over 20 metres' [a]
+- No explicit eligibility criteria (minimum net worth, residency, deposit) were revealed by the search results
+
+**Types de prêteurs**
+
+- Not stated in results: the lender is described only via a '2.75% lender fee'; its type (private bank, specialist marine lender, etc.) is not named
+- Related marine-finance page: Silver Oak's lenders 'can use export credit support for newly built yachts' [a]
+
+**Étapes du processus**
+
+- Addressed the yacht's valuation
+- Addressed maintenance costs
+- Addressed regulatory compliance for maritime operations / maritime use
+- Assessed whether the yacht suited the buyer's preferences
+- Note: no step-by-step process (enquiry, terms, valuation, legal, drawdown) or timeline was revealed by the search results
+
+**Géographie**
+
+- Borrower: Chinese national (per result [b] only; result [a] says 'wealthy individual')
+- Loan currency: US dollars ($14m)
+- Yacht location, flag state and lender jurisdiction: not stated in results
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (deal-amount) $14 million loan arranged
+- (leverage) 60% loan-to-value
+- (asset) 50-metre Heesen yacht
+- (pricing) 4.25% margin over SONIA
+- (term) 10-year term
+- (structure) Repayments amortised over 20 years
+- (fee) 2.75% lender fee
+- (borrower) Borrower: wealthy individual [a] / wealthy Chinese national [b] seeking long-term finance quickly
+- (related-page) Silver Oak typically finances yachts over 20 metres (marine-finance page)
+- (related-page) Lenders can use export credit support for newly built yachts (marine-finance page)
+- (related-page) Standard yacht mortgages typically run 5 to 7 years with a balloon payment of around 25% of the loan; leasing is the other common option (yacht-finance-calculator page)
+- (related-page) A Fleming 78 yacht purchase is another case study listed on the case studies index
+
+_Notes d'extraction : Sources: two WebSearch extended calls, [a] = exact URL query, [b] = site:silveroakcapital.co.uk Heesen yacht finance case study. The page itself could not be opened (direct fetching blocked); all content comes from the search tool's result summaries, which are paraphrases rather than confirmed page copy, except the parenthetical in [b] that reads like the page's meta description (recorded in meta…_
+
+#### Aircraft Loan Falcon 900
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Aircraft Loan Falcon 900 (search-result title only; actual H1 not revealed)  
+
+**Résumé.** Case study of a private jet loan arranged by Silver Oak Capital. Borrower: a Dubai-based client introduced by a Swiss family office, buying a used Falcon-class private jet for personal use with a budget capped at about USD 25m; the client wanted a mid-range jet, ideally registered in Dubai, for flights between European and Middle Eastern cities. Challenge: finding the aircraft was harder than arranging the loan because used-aircraft prices had risen and stock at aviation brokers was very thin; Silver Oak says it sourced the aircraft through its own contacts. Lender: a private bank in the Middle East. Structure: 70% loan-to-value, 4.45% fixed rate, 72-month term, quarterly repayments, 1% arrangement fee, 25% balloon. Not revealed by the search results: the absolute loan amount or purchase price, the exact aircraft (beyond 'Falcon 900' in the URL/title and 'Falcon-class' in the snippet), the registration outcome, completion timing or date, the lender's name, and the page's calls to action.
+
+**Sections repérées**
+
+- **Deal terms (as shown in snippet)** — 70% Loan to Value; 4.45% Fixed Rate; 72 month term; Quarterly Repayments; Fees 1% Arrangement; 25% Balloon.
+- **Client brief** — Dubai-based client introduced by a Swiss family office; wanted a used Falcon-class private jet capped at about $25m USD for personal use; mid-range jet, ideally registered in Dubai, for flights between European and Middle Eastern cities.
+- **Challenge** — Finding an aircraft was harder than arranging the loan. 'Prices have increased and there is remarkably little stock available at many of the aviation brokers.'
+- **Solution / outcome** — Silver Oak sourced the aircraft through its own contacts and secured the loan from a Middle East private bank on the terms above.
+
+**Phrases verbatim (anglais)**
+
+> [a] "70% Loan to Value 4.45% Fixed Rate 72 month term Quarterly Repayments Fees 1% Arrangement 25% Balloon" (snippet, appears to be the page's deal-terms block)
+>
+> [a] "Prices have increased and there is remarkably little stock available at many of the aviation brokers." (appears verbatim from the page, present tense)
+>
+> [a] "Finding an aircraft was harder than arranging the loan." (also reported in [b]; may be the search tool's paraphrase rather than page wording)
+>
+> [a] Search-tool summary: "a private jet loan arranged by Silver Oak Capital for a Dubai-based client, with a Swiss family office making the introduction."
+>
+> [a] Search-tool summary: "The buyer wanted a used Falcon-class jet capped at about $25m USD for personal use, and needed a mid-range jet, ideally registered in Dubai."
+>
+> [a] Search-tool summary: "The firm says it sourced the aircraft through its own contacts and then secured the loan from a Middle East private bank"
+>
+> [b] Search-tool summary: "A Swiss family office referred a Dubai-based client looking for a used private jet, with a budget capped at $25m. The client needed a mid-range jet registered in Dubai for flights between European and Middle Eastern cities."
+>
+> [b] Search-tool summary: "Used-aircraft stock was thin and prices had risen, according to the case study."
+>
+> [b] Search-tool summary: "Silver Oak's solution was a 70% loan-to-value facility at a 4.45% fixed rate over 72 months, with quarterly repayments, a 1% arrangement fee and a 25% balloon payment. The loan came from a private bank in the Middle East."
+>
+> [b] Search-tool summary (about the separate /aviation-finance/ page, not this case study): "a representative indicative example of up to 90% LTV, a 30% balloon, and a 1.50% lender fee"
+
+**Produits et services cités**
+
+- Aviation finance / private jet loan (secured aircraft loan)
+- Aircraft sourcing through the broker's own contacts (as described in the case study)
+- Private bank lending (Middle East private bank)
+
+**Cas d'usage**
+
+- Purchase of a used private jet (Falcon 900 / Falcon-class) for personal use, Dubai registration, European and Middle Eastern routes
+
+**Conditions, montants, délais, frais**
+
+- Loan to Value (LTV) 70%
+- Fixed Rate 4.45%
+- Term 72 months
+- Quarterly Repayments
+- Arrangement fee 1%
+- Balloon 25%
+
+**Types de prêteurs**
+
+- Private bank (Middle East)
+
+**Étapes du processus**
+
+- Introduction of the Dubai-based client by a Swiss family office
+- Client brief: used mid-range Falcon-class jet, budget capped at about $25m USD, personal use, ideally Dubai-registered
+- Aircraft sourced by Silver Oak Capital through its own contacts (given thin broker stock)
+- Loan secured from a Middle East private bank at 70% LTV, 4.45% fixed, 72 months, quarterly repayments, 1% arrangement fee, 25% balloon
+
+**Géographie**
+
+- Dubai (client base and intended aircraft registration)
+- Switzerland (introducing family office)
+- Middle East (lender)
+- Europe and Middle East (flight routes)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (deal-term) 70% Loan to Value
+- (deal-term) 4.45% Fixed Rate
+- (deal-term) 72 month term
+- (deal-term) Quarterly Repayments
+- (deal-term) Fees 1% Arrangement
+- (deal-term) 25% Balloon
+- (deal-fact) Client budget capped at about $25m USD for a used Falcon-class jet
+- (deal-fact) Client is Dubai-based; introduction made by a Swiss family office
+- (deal-fact) Jet intended for personal use, mid-range, ideally registered in Dubai, for flights between European and Middle Eastern cities
+- (challenge) Finding an aircraft was harder than arranging the loan; prices have increased and there is remarkably little stock available at many of the aviation brokers
+- (outcome) Silver Oak sourced the aircraft through its own contacts
+- (lender) Loan secured from a Middle East private bank
+- (related-page) Related page /aviation-finance/ shows an indicative example of up to 90% LTV, 30% balloon, 1.50% lender fee (different deal, not this case study)
+
+_Notes d'extraction : Both searches returned the page in their link lists under the title 'Aircraft Loan Falcon 900', and the two independent summaries agree on every deal term (70% LTV, 4.45% fixed, 72 months, quarterly repayments, 1% arrangement fee, 25% balloon), the Dubai-based client, the Swiss family office introduction, the ~$25m budget cap, the aircraft-sourcing challenge and the Middle East private bank lende…_
+
+#### Yacht Finance Calculator
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Yacht Finance Calculator (title as shown in search result listing; H1 not separately revealed)  
+
+**Résumé.** Despite sitting under /case-studies/, the page is primarily a guide to yacht finance rather than a single-deal write-up. Per search [a], it 'describes the kind of calculator it's meant to host rather than showing working numbers': the calculator is meant to help a buyer see whether their monthly budget fits the monthly payments required to purchase a yacht of a particular size or price. It describes two loan structures: a standard yacht mortgage (roughly 5 to 7 years with a balloon payment of about 25% of the loan) and a lease (works more like car finance or hire purchase). It says the tools can also be used for purchases in France, Italy and Spain or anywhere in the Mediterranean, and that Silver Oak Capital has financed a number of yachts for French and Italian high net worth individuals who spend most of their time on their yachts in places like Monaco, St Tropez and Portofino. Search [b] attributes to the page one worked deal: a GBP 6 million facility at 70% loan-to-value, 3.5% fixed rate, 60-month term, quarterly repayments with a 20% balloon, and six months of interest held on deposit; the borrower had irregular income and Eastern European commodities wealth, and the firm 'arranged 6 months interest cover to be placed on account with the yacht finance lender' to reassure the lender. Asset make/model, yacht size, lender identity, timing to completion and exit are NOT revealed in the results. Neither search confirmed whether a working calculator widget is present on the live page.
+
+**Sections repérées**
+
+- **Purpose of the calculator** — [a] The calculator is meant to help you see where your monthly budget fits online with the monthly payments required to purchase a yacht of a particular size or price. [b] It describes using an online yacht finance calculator to check whether monthly payments for a given yacht price fit a budget.
+- **Standard yacht mortgage** — [a] 'Yacht finance calculator UK focuses on standard yacht mortgages'; the page puts a standard yacht mortgage at roughly 5 to 7 years with a balloon payment of about 25% of the loan.
+- **Lease** — [a] 'The other type of loan is a lease', which works more like car finance or hire purchase.
+- **Mediterranean scope** — [a] The tools can also be used for purchases in France, Italy, and Spain or anywhere in the Mediterranean. [b] Silver Oak Capital has financed a number of yachts for French and Italian high net worth individuals who spend most of their time on their yachts in places like Monaco, St Tropez, and Portofino.
+- **Worked deal (attributed to this page by search [b])** — GBP 6 million facility; 70% LTV; 3.5% fixed rate; 60-month term; quarterly repayments; 20% balloon; six months of interest held on deposit. Borrower: client with irregular income and Eastern European commodities wealth. Mechanism: the firm arranged 6 months interest cover to be placed on account with the yacht finance lender, used to reassure the lender.
+
+**Phrases verbatim (anglais)**
+
+> [a] "help you see where your monthly budget fits online with the monthly payments required to purchase a yacht of a particular size or price"
+>
+> [a] "Yacht finance calculator UK focuses on standard yacht mortgages... The other type of loan is a lease"
+>
+> [a] "the tools can also be used for purchases in France, Italy, and Spain or anywhere in the Mediterranean"
+>
+> [a] (search tool paraphrase of the page) "describes the kind of calculator it's meant to host rather than showing working numbers"
+>
+> [a] (from related page /yacht-mortgages/) "typical LTVs for yacht mortgages range from 50% to 70% of the vessel's market value"
+>
+> [a] (from related page /marine-finance/) "broker fee of 1.00% of the loan amount"
+>
+> [b] "Silver Oak Capital has financed a number of yachts for French and Italian high net worth individuals who spend most of their time on their yachts in places like Monaco, St Tropez, and Portofino."
+>
+> [b] "The firm arranged 6 months interest cover to be placed on account with the yacht finance lender."
+>
+> [b] (search tool summary of the deal) "a £6 million facility at 70% loan-to-value, a 3.5% fixed rate, a 60-month term, quarterly repayments with a 20% balloon, and six months of interest held on deposit"
+>
+> [b] (search tool summary of the borrower) "a client with irregular income and Eastern European commodities wealth"
+>
+> [b] (from related page /case-studies/heesen-yacht-finance/) "Silver Oak Capital arranged $14m yacht finance at 60% LTV for a 50m Heesen yacht, with a 10-year term."
+>
+> [b] (from related page /marine-finance/, search tool summary) "representative example is an £11 million loan at up to 70% LTV, interest-only over 48 months, with a 1.00% lender fee"
+>
+> [b] (from related page /marine-finance/, search tool summary) "The firm says it typically finances yachts over 20 metres."
+
+**Produits et services cités**
+
+- Yacht finance / yacht mortgages
+- Marine lease finance (lease described as working like car finance or hire purchase)
+- Online yacht finance calculator (budget vs monthly payment)
+- Mediterranean yacht purchase finance (France, Italy, Spain)
+
+**Cas d'usage**
+
+- Purchase of a yacht of a particular size or price, checking monthly affordability [a]
+- Yacht purchase in France, Italy, Spain or elsewhere in the Mediterranean [a]
+- Financing for HNW individuals with irregular income using an interest reserve [b]
+
+**Conditions, montants, délais, frais**
+
+- Standard yacht mortgage: roughly 5 to 7 years term [a]
+- Standard yacht mortgage: balloon payment of about 25% of the loan [a]
+- Lease: works more like car finance or hire purchase [a]
+- Worked deal: GBP 6,000,000 facility [b]
+- Worked deal: 70% loan-to-value [b]
+- Worked deal: 3.5% fixed rate [b]
+- Worked deal: 60-month term [b]
+- Worked deal: quarterly repayments [b]
+- Worked deal: 20% balloon [b]
+- Worked deal: six months of interest held on deposit / 6 months interest cover placed on account with the lender [b]
+- Related page /yacht-mortgages/: typical LTVs 50% to 70% of the vessel's market value [a]
+- Related page /marine-finance/: broker fee 1.00% of the loan amount [a]; representative example GBP 11m, up to 70% LTV, interest-only 48 months, 1.00% lender fee [b]
+
+**Critères d'éligibilité**
+
+- Client with irregular income was accommodated by placing 6 months interest cover on account with the lender [b]
+- Wealth sourced from Eastern European commodities was accepted in the worked deal [b]
+- Related page /marine-finance/: the firm typically finances yachts over 20 metres [b]
+
+**Types de prêteurs**
+
+- yacht finance lender (unnamed) [b]
+
+**Étapes du processus**
+
+- Use the online calculator to compare monthly budget against monthly payments for a yacht of a given size or price [a]
+- Choose between a standard yacht mortgage (5-7 years, ~25% balloon) and a lease (like car finance / hire purchase) [a]
+- Where income is irregular, arrange an interest reserve (6 months interest cover) on account with the lender to secure approval [b]
+
+**Géographie**
+
+- United Kingdom (page framed as 'Yacht finance calculator UK')
+- France
+- Italy
+- Spain
+- Mediterranean (anywhere)
+- Monaco
+- St Tropez
+- Portofino
+- Eastern Europe (source of borrower wealth in worked deal)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (number) Standard yacht mortgage runs roughly 5 to 7 years with a balloon payment of about 25% of the loan
+- (number) GBP 6 million yacht facility at 70% LTV, 3.5% fixed, 60 months, quarterly repayments, 20% balloon, 6 months interest on deposit
+- (track-record) Silver Oak Capital has financed a number of yachts for French and Italian high net worth individuals who spend most of their time on their yachts in places like Monaco, St Tropez, and Portofino
+- (scope) The calculator/tools can also be used for purchases in France, Italy, and Spain or anywhere in the Mediterranean
+- (number) Related page /yacht-mortgages/: typical LTVs for yacht mortgages range from 50% to 70% of the vessel's market value
+- (fee) Related page /marine-finance/: broker fee of 1.00% of the loan amount
+- (number) Related page /marine-finance/: representative example GBP 11 million loan, up to 70% LTV, interest-only over 48 months, 1.00% lender fee; firm typically finances yachts over 20 metres
+- (number) Related page /case-studies/heesen-yacht-finance/: $14m at 60% LTV for a 50m Heesen yacht, 4.25% plus SONIA, 10-year term, amortisation over 20 years, 2.75% lender fee
+
+_Notes d'extraction : Searches: (a) extended, exact URL; (b) extended, 'site:silveroakcapital.co.uk yacht finance calculator case study'. 2 run, 0 refused. The page is classified under /case-studies/ but both searches describe it as mainly a guide/explainer about yacht finance calculators. Attribution caveat: the GBP 6m / 70% LTV / 3.5% fixed / 60-month / 20% balloon / 6-months-interest deal appears only in search [b]…_
+
+#### Top Aviation Firms
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Not revealed by search snippets. Search-result title of the case-study page is "Top Aviation Firms". A separate non-case-study page https://www.silveroakcapital.co.uk/top-aviation-firms/ carries the …  
+**Meta description :** Not revealed by search snippets.
+
+**Résumé.** Case study of an aircraft-finance enquiry routed to Silver Oak Capital through an aviation finance law firm. Deal as revealed: a law firm's private client team asked Silver Oak Capital to source financing for its client's purchase of a Bombardier G6000 business jet. Borrower: an Egyptian national (private individual, introduced by a law firm). Structure requested: an operating lease agreement, for flights between Cairo, Dubai and London. Amount: the client wanted to finance 80% of a $35 million purchase price (i.e. roughly $28m, 80% LTV; the $28m figure is arithmetic, not stated). Asset: Bombardier G6000 business jet, over 8 years old. Lender type: European lenders are referenced as the market (most would place the client in a high-risk category). Challenge: (1) the client's Egyptian nationality placed him in the high-risk category for most European lenders; (2) a high loan-to-value was challenging for an aircraft over 8 years old. Timing: not revealed. Outcome: NOT revealed by the search results (neither the lender found, the terms, nor whether the deal completed). Framing: the page sits within Silver Oak Capital's claim that it 'has partnered with some of the top aviation finance law firms in the world' so clients get 'complete and independent advice when arranging aircraft loans'. Related aviation case studies surfaced alongside: Gulfstream G650 ($40m, 80% LTV, 10-year term, European private bank) and Falcon 900 (70% LTV, 4.45% fixed, 72-month term, Dubai-based client).
+
+**Sections repérées**
+
+- **Framing (partnership with aviation finance law firms)** — "Silver Oak Capital has partnered with some of the top aviation finance law firms in the world to ensure our clients receive complete and independent advice when arranging aircraft loans." [b]
+- **The enquiry** — A law firm's private client team sought help financing a Bombardier G6000 business jet for its client. "Their client was of Egyptian nationality and would require an operating lease agreement" [b]. Per tool paraphrase: operating lease for flights between Cairo, Dubai and London; client wanted to finance 80% of the $35 million price [a][b].
+- **The challenge** — "The clients' nationality (Egyptian) would place him in the high risk category for most European lenders. He also required a high loan to value which would prove challenging for an aircraft that was over 8 years old." [b]
+- **The outcome** — Not revealed by search results. Tool [b] stated explicitly: "The search results don't give the outcome of the Bombardier case, so I can't confirm how it ended."
+
+**Phrases verbatim (anglais)**
+
+> [b] "Silver Oak Capital has partnered with some of the top aviation finance law firms in the world to ensure our clients receive complete and independent advice when arranging aircraft loans."
+>
+> [b] "Their client was of Egyptian nationality and would require an operating lease agreement"
+>
+> [b] "The clients' nationality (Egyptian) would place him in the high risk category for most European lenders. He also required a high loan to value which would prove challenging for an aircraft that was over 8 years old."
+>
+> [b] (related case study /case-studies/g650/) "Silver Oak Capital arranged $40m private jet finance at 80% LTV for a Gulfstream G650, with a 10-year term and tailored European private bank lending."
+>
+> [b] (related case study /case-studies/aircraft-loan-falcon-900/) "Silver Oak Capital arranged private jet finance at 70% LTV with a 4.45% fixed rate and 72-month term, helping a Dubai-based client source a suitable aircraft."
+>
+> [a] (search-tool paraphrase, not page wording) "It describes a law firm's private client team seeking help financing a Bombardier G6000 business jet for an Egyptian client, with the client wanting to finance 80% of a $35 million purchase."
+>
+> [a] (search-tool paraphrase, not page wording) "The client's nationality posed a lending risk, and the high loan-to-value request was hard to meet for an aircraft over eight years old."
+>
+> [a] (search-tool paraphrase, not page wording) "The site describes aviation finance firms as brokers who assist individuals or companies in financing or leasing private or commercial aircraft."
+>
+> [b] (search-tool paraphrase, not page wording) "The client, an Egyptian national, wanted an operating lease for flights between Cairo, Dubai, and London, and sought to finance 80% of the $35 million price"
+
+**Produits et services cités**
+
+- Aviation finance / aircraft loans (business jet)
+- Operating lease arrangement for a business jet
+- Private jet finance sourcing via aviation finance law firm introductions
+- Independent advice when arranging aircraft loans (in partnership with aviation finance law firms)
+
+**Cas d'usage**
+
+- Financing the purchase of a pre-owned business jet (Bombardier G6000, over 8 years old) at a high loan-to-value (80% of $35m)
+- Operating lease for a private jet used for flights between Cairo, Dubai and London
+- Non-European (Egyptian) national seeking aircraft finance from European lenders
+- Law firm private client team outsourcing finance sourcing for a client to a broker
+
+**Conditions, montants, délais, frais**
+
+- operating lease agreement
+- loan to value (LTV)
+- high risk category (lender risk classification by nationality)
+- business jet / private jet finance
+- aircraft loans
+- aviation finance law firms
+- private client team
+- aircraft age (over 8 years old)
+- European lenders
+- fixed rate (related Falcon 900 case: 4.45% fixed)
+- term (related cases: 10-year; 72-month)
+
+**Critères d'éligibilité**
+
+- Borrower nationality matters: Egyptian nationality 'would place him in the high risk category for most European lenders' (signal, not a stated rule)
+- Aircraft age limits leverage: a high LTV 'would prove challenging for an aircraft that was over 8 years old' (signal, not a stated rule)
+- Reference points from related aviation cases: 80% LTV achieved on a Gulfstream G650 ($40m, 10-year term); 70% LTV on a Falcon 900 (72 months, 4.45% fixed)
+
+**Types de prêteurs**
+
+- European lenders (referenced as the market; 'most' would class an Egyptian national as high risk)
+- European private bank (lender type in the related G650 case study, not stated for this case)
+
+**Étapes du processus**
+
+- A law firm's private client team approaches Silver Oak Capital to source financing for its client's aircraft purchase
+- Silver Oak Capital identifies the structure required (operating lease) and the constraints (nationality risk, high LTV, aircraft age)
+- Silver Oak Capital sources lenders - the remaining steps and the outcome are not revealed in the search results
+
+**Géographie**
+
+- Egypt (client nationality)
+- Cairo (flight route)
+- Dubai (flight route; Dubai-based client in related Falcon 900 case)
+- London (flight route; 'Top Aviation Finance Law Firms in London' companion page)
+- Europe (European lenders / European private bank)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (positioning / partnership cla…) Silver Oak Capital 'has partnered with some of the top aviation finance law firms in the world'
+- (promise [b]) Clients 'receive complete and independent advice when arranging aircraft loans'
+- (number [a][b]) Purchase price of the Bombardier G6000: $35 million
+- (number [a][b]) Client sought to finance 80% of the purchase price (80% LTV)
+- (number [a][b]) Aircraft was over 8 years old
+- (deal fact / risk statement [a…) Client of Egyptian nationality; high-risk category for most European lenders
+- (deal fact [b, tool paraphrase]) Operating lease required; flights between Cairo, Dubai and London
+- (number (related case study) […) Related case: $40m private jet finance at 80% LTV, 10-year term, European private bank, Gulfstream G650
+- (number (related case study) […) Related case: private jet finance at 70% LTV, 4.45% fixed rate, 72-month term, Dubai-based client, Falcon 900
+- (definition (tool paraphrase o…) Aviation finance firms described as brokers who assist individuals or companies in financing or leasing private or commercial aircraft
+- (NOT REVEALED) Outcome of the G6000 deal (lender, terms, completion)
+
+_Notes d'extraction : Direct fetch blocked; everything comes from two extended WebSearch calls (tagged [a] = exact-URL query, [b] = site: keyword query). Deal set-up and challenge are confirmed by near-identical verbatim snippets across both calls, so medium confidence on those facts; the outcome, lender, final terms, page H1/meta, CTAs and FAQ were not revealed, so confidence on completeness is low. Items marked 'too…_
+
+#### Residential Mortgage Loan - BVI Trust Refinance - Silver Oak Capital
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Not revealed by search results. The page title tag is 'Residential Mortgage Loan - BVI Trust Refinance - Silver Oak Capital'; the H1 is probably 'BVI Trust Refinance' or 'Residential Mortgage Loan - …  
+**Meta description :** Not revealed by search results.
+
+**Résumé.** Case study of a residential mortgage refinance on a property held in a British Virgin Islands (BVI) trust. Deal: a UK landlord had built a large five-bedroom house on a plot in Richmond, South West London, and wanted to replace an expensive development loan with a cheaper residential mortgage. Loan required: GBP 5 million; property valued at GBP 12 million (implied LTV approx. 41.7%, derived, not stated). Structure sought: interest-only facility over 10 years. Rate listed in the terms: 2.7%. Borrower type: UK landlord whose income came from a farming business and a property portfolio, with the property held in an offshore (BVI) trust administered with trustees based in Guernsey. Lender type: a private bank that had a BVI office where the trust was administered. Challenges: (1) finding a lender that would accept the mixed farming/property-portfolio income; (2) the lender needed a working relationship with the Guernsey-based trustees because the property sat in an offshore trust. Outcome: Silver Oak connected the client with the private bank; the listed terms show a GBP 5 million residential mortgage at 2.7%. Timing/completion date: not revealed. Only the opening portion of the page was returned by search; the full write-up may contain more detail.
+
+**Phrases verbatim (anglais)**
+
+> [a] Page title as listed: "Residential Mortgage Loan - BVI Trust Refinance - Silver Oak Capital"
+>
+> [a] "The page is a Silver Oak Capital case study about refinancing a property held in a British Virgin Islands trust. The search returned only the opening portion of it, so the full write-up may contain more detail." (search tool summary)
+>
+> [a] "A UK landlord had built a large five-bedroom house on a plot in Richmond, South West London, and wanted to replace an expensive development loan with a cheaper residential mortgage. The client required a loan of £5 million GBP and the property was valued at £12 million GBP." (search tool summary)
+>
+> [a] "The borrower's income came from a farming business and a property portfolio, which made it hard to find a lender that would accept that income mix. Because the property sat in an offshore trust, the lender also needed a working relationship with the trustees, who were based in Guernsey." (search tool summary)
+>
+> [a] "The adviser sought an interest-only facility over 10 years and connected the client with a private bank that had a BVI office where the trust was administered. The listed terms show a £5 million residential mortgage at a 2.7% rate." (search tool summary)
+>
+> [b] "A UK landlord had built a large house on a Richmond plot and needed to replace an expensive development loan with a cheaper residential mortgage. The loan was £5 million against a £12 million valuation." (search tool summary)
+>
+> [b] "Because the property sat in a British Virgin Islands trust, the lender also had to work well with the Guernsey-based trustees. The brief was a 10-year interest-only facility. Silver Oak connected the client with a private bank that had a BVI office where the trust was administered. The snippet lists the rate as 2.7%." (search tool summary)
+>
+> [b] "The 'Read full case study' link on item 1 would give the complete details." (search tool summary, indicating a 'Read full case study' link on the case-studies listing)
+>
+> [b] "The page dates are relative ('230 days ago,' '8 days ago'), so I can't confirm when these cases were published." (search tool summary)
+
+**Produits et services cités**
+
+- Residential mortgage (large loan) refinance
+- Refinancing a development loan into a residential mortgage (development exit)
+- Private bank mortgage placement
+- Lending to properties held in complex offshore structures (BVI trust, Guernsey trustees)
+- Interest-only term mortgage
+
+**Cas d'usage**
+
+- Refinancing an expensive development loan on a completed self-build/new-build house into a long-term residential mortgage
+- Mortgage on a UK residential property owned through a BVI offshore trust
+- Large residential mortgage (GBP 5m) for a borrower with non-standard income (farming business plus property portfolio)
+
+**Conditions, montants, délais, frais**
+
+- GBP 5,000,000 loan
+- GBP 12,000,000 valuation
+- 2.7% rate
+- 10-year term
+- Interest-only
+- Residential mortgage (refinance of development loan)
+- Lender: private bank with BVI office
+
+**Critères d'éligibilité**
+
+- UK landlord borrower (UK-based client)
+- Income from a farming business plus a property portfolio (non-standard income mix accepted by the chosen private bank)
+- Property held in a BVI offshore trust with Guernsey-based trustees (lender needed to work with the trustees)
+- Existing development loan being refinanced on a newly built house
+
+**Types de prêteurs**
+
+- Private bank (with a BVI office where the trust was administered)
+
+**Étapes du processus**
+
+- Client identified the need to replace an expensive development loan on the completed Richmond house with a cheaper residential mortgage (GBP 5m required against GBP 12m value).
+- Silver Oak identified the two obstacles: the farming/property-portfolio income mix and the BVI trust ownership with Guernsey trustees.
+- Silver Oak sought an interest-only facility over 10 years.
+- Silver Oak connected the client with a private bank that had a BVI office where the trust was administered.
+- Terms listed: GBP 5 million residential mortgage at 2.7%. (Completion timing not revealed.)
+
+**Géographie**
+
+- Richmond, South West London, United Kingdom (property)
+- British Virgin Islands (trust jurisdiction; lender's BVI office)
+- Guernsey (trustees' location)
+
+**Appels à l'action**
+
+- "Read full case study" (link text seen on the case-studies listing pointing to this page, per [b]); no on-page CTA wording revealed by search results.
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (number) Loan amount: GBP 5 million
+- (number) Property valuation: GBP 12 million
+- (number) Rate: 2.7% (listed in the terms box of the case study)
+- (term) Term: 10 years, interest-only
+- (derived) Implied LTV approx. 41.7% (5m / 12m) - derived by this agent, not stated on the page
+- (asset) Property: large five-bedroom house built by the client on a plot in Richmond, South West London
+- (purpose) Purpose: replace an expensive development loan with a cheaper residential mortgage
+- (borrower) Borrower: UK landlord; income from a farming business and a property portfolio
+- (structure) Ownership structure: property held in a British Virgin Islands (BVI) offshore trust; trustees based in Guernsey
+- (lender) Lender: a private bank with a BVI office where the trust was administered
+- (challenge) Challenge: difficulty finding a lender accepting the farming + property-portfolio income mix
+- (challenge) Challenge: lender needed a working relationship with the Guernsey-based trustees
+- (outcome) Outcome: Silver Oak connected the client with the private bank; GBP 5m residential mortgage at 2.7% listed
+
+_Notes d'extraction : Both searches ([a] exact URL, [b] site: query) surfaced the page as the top result with consistent facts (GBP 5m loan, GBP 12m valuation, 2.7%, 10-year interest-only, Richmond SW London, BVI trust, Guernsey trustees, private bank with BVI office, farming + property portfolio income). Confidence is medium rather than high because the search tool returned its own summaries rather than raw page text…_
+
+#### £1.46 Million Refinance
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Not revealed by search snippets. The result link title is "£1.46 Million Refinance"; the slug implies a longer heading such as "£1.46 Million Refinance – Prime Central London Property" but this was n…  
+**Meta description :** Not revealed by search snippets.
+
+**Résumé.** Case study of a £1.46 million refinance of an unencumbered residential property in Prime Central London, arranged by Silver Oak Capital. Purpose: the client needed funds to reimburse family members who had privately contributed to the purchase and refurbishment of the property, a loan purpose the write-up says fell outside typical lending criteria. Borrower: a single-name owner whose affordability relied on multiple household incomes, supported by a personal guarantee from an overseas high-net-worth individual with no UK footprint; documentation spanned several jurisdictions. Outcome: a £1.46 million, 5-year interest-only facility at a conservative loan-to-value, with a lender who accepted the non-standard purpose, the combined household income and an international guarantor with verified offshore income. The transaction also included onboarding the client into a new private banking relationship (lender type therefore appears to be a private bank, though no lender is named). Exact LTV, rate, fees, timing/completion date, lender name and borrower nationality are not revealed in the snippets.
+
+**Sections repérées**
+
+- **Purpose / Background (as reported)** — Client required funding to reimburse family members who had privately contributed to the purchase and refurbishment of an unencumbered Prime Central London residential property.
+- **Challenges / Obstacles (as reported)** — Loan purpose outside typical lending criteria; affordability based on multiple household incomes despite single-name ownership; personal guarantee from an overseas HNW individual with no UK footprint; documents spanning several jurisdictions.
+- **Outcome / Solution (as reported)** — £1.46 million, 5-year interest-only facility at a conservative LTV with a lender who accepted the non-standard purpose, combined household income and an international guarantor with verified offshore income; client onboarded into a new private banking relationship.
+
+**Phrases verbatim (anglais)**
+
+> [b] The client required funding to reimburse family members who had privately contributed to the purchase and refurbishment of the property.
+>
+> [b] Affordability was based on multiple household incomes, despite single-name ownership. A personal guarantee came from an overseas high-net-worth individual with no UK footprint.
+>
+> [b] We secured a £1.46 million, 5-year interest-only facility at a conservative LTV, with a lender who accepted (snippet truncated here)
+>
+> [b] The transaction also included onboarding the client into a new private banking relationship.
+>
+> [a] (search-tool paraphrase, not page text) a £1.46 million refinance of an unencumbered residential property in Prime Central London
+>
+> [a] (search-tool paraphrase, not page text) several non-standard features, including a loan purpose outside typical lending criteria, affordability based on multiple household incomes despite single-name ownership, a personal guarantee from an overseas high-net-worth individual with no UK footprint, and documents spanning several jurisdictions
+>
+> [a] (search-tool paraphrase, not page text) The lender accepted the non-standard purpose, combined household income, and an international guarantor with verified offshore income.
+
+**Produits et services cités**
+
+- Refinance of an unencumbered residential property (equity release / capital raise)
+- Prime Central London residential mortgage
+- Private bank mortgage arrangement (onboarding into a new private banking relationship)
+- Interest-only term facility (5-year)
+- Lending with an international / offshore personal guarantor
+
+**Cas d'usage**
+
+- Refinancing an unencumbered home to release capital
+- Repaying family members who privately contributed to a property purchase and refurbishment
+- Mortgage affordability on combined household income where the property is in a single name
+- Using an overseas HNW family member as personal guarantor with no UK footprint
+- Establishing a new private banking relationship for a Prime Central London property owner
+
+**Conditions, montants, délais, frais**
+
+- Loan amount: £1.46 million
+- Term: 5 years
+- Repayment type: interest-only
+- LTV: described only as "a conservative LTV" (no percentage given)
+- Security: unencumbered residential property in Prime Central London (first charge implied by "unencumbered", not stated)
+- Guarantee: personal guarantee from an overseas high-net-worth individual with verified offshore income
+- Rate, fees and completion timing: not revealed
+
+**Critères d'éligibilité**
+
+- Unencumbered Prime Central London residential property as security
+- Single-name ownership with affordability assessed on multiple household incomes
+- Loan purpose outside typical lending criteria (reimbursing family members for private contributions to purchase and refurbishment) accepted by the lender
+- Overseas HNW personal guarantor with no UK footprint accepted on the basis of verified offshore income
+- Documents spanning several jurisdictions accepted
+
+**Types de prêteurs**
+
+- Private bank (inferred from "onboarding the client into a new private banking relationship"; lender not named)
+
+**Étapes du processus**
+
+- Not revealed in detail. Implied sequence from snippets: identify a lender able to accept a non-standard loan purpose and combined household income; verify the overseas guarantor's offshore income; gather documents across several jurisdictions; secure the 5-year interest-only facility; onboard the c…
+
+**Géographie**
+
+- Prime Central London, UK (property location)
+- Overseas / offshore (guarantor's residence and income; several jurisdictions for documents; countries not named)
+
+**Appels à l'action**
+
+- Not revealed by search snippets.
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (deal-outcome) Secured a £1.46 million, 5-year interest-only facility at a conservative LTV
+- (deal-outcome) Lender accepted a non-standard loan purpose (reimbursing family members who privately funded purchase and refurbishment)
+- (deal-outcome) Lender accepted affordability based on multiple household incomes despite single-name ownership
+- (deal-outcome) Lender accepted an international guarantor (overseas HNW individual with no UK footprint) with verified offshore income
+- (deal-outcome) Transaction included onboarding the client into a new private banking relationship
+- (deal-complexity) Documents spanned several jurisdictions
+- (asset-fact) Property was unencumbered residential in Prime Central London
+
+_Notes d'extraction : Direct fetch blocked; everything comes from two WebSearch calls (a: exact URL, extended; b: site: query, extended). Both searches returned the target page as a top link titled "£1.46 Million Refinance" and the search tool's summaries agree with each other. Four sentences in result (b) were given in parentheses as apparent page quotes and are recorded verbatim with tag [b]; one is truncated ("...w…_
+
+#### Silver Oak Capital added to Spear’s 500 list for 2022
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/>  
+Confiance : medium · Recherches effectuées : 2
+
+
+**Résumé.** Not a deal case study: a news/award item filed under /case-studies/. Per the search tool's summaries, the page announces that Silver Oak Capital and its founder Jimmy Baillie were included in the Spear's 500 list (stated on the page as 2022/2023; the title says 2022) and links to Baillie's full adviser profile on spears500.com. The page is reported to say the firm was set up in 2019 after Baillie saw a gap in specialist advice for loans of £2 million and above. The linked Spear's 500 profile (spears500.com/adviser/22953/jimmy-baillie) describes the firm as advising high-net-worth clients on secured loans of roughly £2m to £20m, arranging real estate debt in the UK, Western Europe, Southern Africa and the Middle East, with a network of more than 800 lenders worldwide. No deal amount, asset, borrower, lender, structure, timing, challenge or outcome applies; no publication date, author, H1 or meta description was revealed by the search results.
+
+**Sections repérées**
+
+- **Announcement** — The page announces that Silver Oak Capital and its founder Jimmy Baillie were included in the Spear's 500 list. The title says 2022; the page text is reported to say 2022/2023. The page links to Baillie's full adviser profile on spears500.com (Debt Advisory Index, adviser id 22953). Sources: [a], [b].
+- **Founder and firm origin** — The firm was set up in 2019 after Jimmy Baillie saw a gap in specialist advice for loans of £2 million and above. Source: [a]. (Seed file: Baillie is Founder & Managing Director; one page mentions 2018.)
+- **Spear's 500 profile content (linked, not on the page itself)** — Advises high-net-worth clients on secured loans of roughly £2 million to £20 million; arranges real estate debt in the UK, Western Europe, Southern Africa and the Middle East; cites more than 800 lenders worldwide. Source: [a].
+- **About the Spear's 500 (third-party context)** — Spear's describes the Spear's 500 as a guide to top private client advisers, wealth managers, lawyers and service providers for high-net-worth individuals. The 2022 edition was one of the first released in print alongside a growing online database. Source: [a], from spearswms.com and spears500.com results.
+- **Related firm positioning seen in [b]** — The company describes itself as a commercial mortgage broker focused on large loans; the Spear's 500 logo appears on its homepage; the about-us page says it has focused on advising on loans between £500K and £20m since 2019.
+- **Deal fields** — Not applicable: this is an award/news item, not a transaction. No amount, asset, location, borrower type, lender type, structure, timing, challenge or outcome is present in the results.
+
+**Phrases verbatim (anglais)**
+
+> [a] result title: "Silver Oak Capital added to Spear’s 500 list for 2022"
+>
+> [a] "The page is a Silver Oak Capital case study announcing that the firm and its founder, Jimmy Baillie, were included in the Spear's 500 list."
+>
+> [a] "The case study says Jimmy Baillie is in the Spear's 500 for 2022/2023 and links to his full adviser profile on spears500.com."
+>
+> [a] "The firm was set up in 2019 after Baillie saw a gap in specialist advice for loans of £2 million and above."
+>
+> [a] "Baillie's Spear's 500 profile describes the firm as advising high-net-worth clients on secured loans of roughly £2 million to £20 million, arranging real estate debt in the UK, Western Europe, Southern Africa and the Middle East."
+>
+> [a] "The Spear's profile cites more than 800 lenders worldwide. The firm's LinkedIn page cites 500+ private banks, investment banks, specialist lenders and debt funds across more than 100 countries."
+>
+> [a] "Spear's describes the Spear's 500 as a guide to top private client advisers, wealth managers, lawyers and service providers for high-net-worth individuals. The 2022 edition was one of the first to be released in print alongside a growing online database."
+>
+> [b] "The company's page says Jimmy Baillie was included in the Spear's 500 list for 2022/2023. The full profile is hosted on the Spear's 500 site, and the company's case study page links to it."
+>
+> [b] "The company describes itself as a commercial mortgage broker focused on large loans. Its site notes that the Spear's 500 logo appears on its homepage, and its about page says it has focused on advising on loans between £500K and £20m since 2019."
+>
+> [b] "The search results don't include the 2022 Spear's 500 list itself, so the company's page is the only source for the listing."
+
+**Produits et services cités**
+
+- Debt advisory for high-net-worth clients on secured loans of roughly £2m to £20m (per Spear's 500 profile, [a])
+- Arranging real estate debt in the UK, Western Europe, Southern Africa and the Middle East (per Spear's 500 profile, [a])
+- Specialist advice for loans of £2 million and above (the gap the firm was founded to fill, [a])
+- Commercial mortgage broker focused on large loans (firm self-description, [b])
+- Advising on loans between £500K and £20m (about-us page, [b])
+
+**Cas d'usage**
+
+- Secured lending of roughly £2m to £20m for high-net-worth clients (Spear's profile, [a])
+- Real estate debt in the UK, Western Europe, Southern Africa and the Middle East (Spear's profile, [a])
+
+**Conditions, montants, délais, frais**
+
+- Spear's 500
+- Debt Advisory Index
+- high-net-worth clients
+- secured loans
+- real estate debt
+- commercial mortgage broker
+- large loans
+- private banks
+- investment banks
+- specialist lenders
+- debt funds
+
+**Critères d'éligibilité**
+
+- High-net-worth clients (Spear's profile wording, [a])
+- Secured loans of roughly £2 million to £20 million (Spear's profile, [a])
+- Loans of £2 million and above (stated as the specialist-advice gap the firm was founded to address, [a])
+- Loans between £500K and £20m (about-us page, [b]; broader than the Spear's figure)
+
+**Types de prêteurs**
+
+- private banks (LinkedIn, per [a])
+- investment banks (LinkedIn, per [a])
+- specialist lenders (LinkedIn, per [a])
+- debt funds (LinkedIn, per [a])
+
+**Géographie**
+
+- United Kingdom
+- Western Europe
+- Southern Africa
+- Middle East
+
+**Appels à l'action**
+
+- Link to Jimmy Baillie's full adviser profile on spears500.com (the only outbound action the search summaries attribute to the page, [a][b])
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (award) Silver Oak Capital / Jimmy Baillie added to the Spear's 500 list for 2022 (page title); page text says 2022/2023
+- (award) Jimmy Baillie has an adviser profile on spears500.com in the Debt Advisory Index (spears500.com/adviser/22953/jimmy-baillie)
+- (firm-fact) Firm set up in 2019 after Baillie saw a gap in specialist advice for loans of £2 million and above
+- (number) Advises high-net-worth clients on secured loans of roughly £2 million to £20 million (Spear's profile)
+- (geography) Arranges real estate debt in the UK, Western Europe, Southern Africa and the Middle East (Spear's profile)
+- (number) More than 800 lenders worldwide (Spear's profile, per [a])
+- (number) 500+ private banks, investment banks, specialist lenders and debt funds across more than 100 countries (firm's LinkedIn page, per [a]; not the case-study page)
+- (award) Spear's 500 logo appears on the Silver Oak Capital homepage (per [b])
+- (number) Has focused on advising on loans between £500K and £20m since 2019 (about-us page, per [b])
+- (third-party-context) Spear's 500 is a guide to top private client advisers, wealth managers, lawyers and service providers for high-net-worth individuals; the 2022 edition was one of the first released in print alongside an online database (Spear's own description, per [a])
+
+_Notes d'extraction : Direct fetch blocked; all content comes from the WebSearch tool's own summaries of search snippets, not from the page's raw text, so quotes tagged [a]/[b] are the tool's paraphrase rather than confirmed page sentences (the only confirmed page-level string is the result title, which renders with a typographic apostrophe: Spear’s). H1, meta description, publication date and author were not revealed…_
+
+#### Miami Developer
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/miami-developer/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Miami Developer  
+
+**Résumé.** Case study: Silver Oak Capital arranged a USD 10 million long-term commercial mortgage at 70% loan-to-value for a property development company specialising in waterfront properties in Miami, Florida. The borrower approached the firm for help purchasing a new residential building in the Brickell neighbourhood of Miami. Reported terms: interest rate of 4.25% above Bank Prime Rate, 7-year term, interest-only for the first five years then amortised over 20 years, and a 1.5% bank fee. The lender's package is described as accounting for coastal and hurricane risks (sea-level rise mitigation measures, adherence to strict coastal development regulations, hurricane stability). The lender is not named and no completion date is given in the search results; the search engine reported the page as about 37 days old (roughly late September 2026), which may be a last-modified date rather than the deal date. No independent coverage of the deal was found.
+
+**Phrases verbatim (anglais)**
+
+> [a] "Silver Oak Capital arranged $10m commercial mortgage at 70% LTV for a Miami waterfront property, with a 7-year term and tailored financing for the purchase."
+>
+> [a] "The client is a developer of waterfront properties in Miami, seeking financing for a new residential building in Brickell"
+>
+> [a] "The listed rate is 4.25% above Bank Prime, with a 1.5% bank fee. Repayment is interest-only for five years, then amortized over 20 years"
+>
+> [a] "The lender's package accounted for coastal and hurricane risks, including compliance with regulations and provisions for property resilience"
+>
+> [a] "The search didn't turn up any independent coverage of this specific deal, so the details come from the firm's own marketing page. The page is also dated, with the search engine reporting it as about 37 days old."
+>
+> [b] "A property development company specializing in waterfront properties in Miami, Florida, approached Silver Oak Capital seeking assistance in purchasing a new residential building in the Brickell neighborhood. They required a long-term commercial mortgage at 70% loan to value (LTV)."
+>
+> [b] "Loan Amount: $10 million USD, Loan to Value: 70%, Interest Rate: 4.25% + Bank Prime Rate, Term: 7 years, with interest-only for five years and a 1.5% bank fee"
+>
+> [b] "sea-level rise mitigation measures or adherence to strict coastal development regulations, and hurricane stability"
+>
+> [b] (attributed to the Silver Oak business profile, not the case-study page) "through our network of 500+ private banks, challenger banks, debt funds, specialist lenders and family offices"
+>
+> [b] "The Miami page's snippet is partly garbled, and the search did not confirm the completion date or the lender's name"
+
+**Produits et services cités**
+
+- Commercial mortgage (long-term, 70% LTV)
+- International property finance - United States (Miami, Florida)
+- Finance for property developers (purchase of a residential building)
+
+**Cas d'usage**
+
+- Purchase of a new residential building by a property developer
+- Long-term commercial mortgage for a waterfront asset
+- Cross-border / US property finance arranged by a UK broker
+
+**Conditions, montants, délais, frais**
+
+- Loan Amount: $10 million USD
+- Loan to Value: 70%
+- Interest Rate: 4.25% + Bank Prime Rate
+- Term: 7 years
+- Repayment: interest-only for five years, then amortized over 20 years
+- Bank fee: 1.5%
+- Currency: USD
+
+**Types de prêteurs**
+
+- Bank (implied by 'Bank Prime Rate' reference and '1.5% bank fee'; lender not named in results)
+
+**Étapes du processus**
+
+- Property development company specialising in Miami waterfront properties approached Silver Oak Capital for help purchasing a new residential building in Brickell
+- Requirement defined: long-term commercial mortgage at 70% loan to value
+- Silver Oak Capital arranged a $10m commercial mortgage at 70% LTV with a 7-year term described as tailored financing for the purchase
+- Lender's package accounted for coastal and hurricane risks (compliance with coastal development regulations, provisions for property resilience)
+
+**Géographie**
+
+- Miami, Florida, United States
+- Brickell neighborhood, Miami
+- Waterfront / coastal property
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (number) Loan amount $10 million USD
+- (number) 70% loan to value
+- (number) Interest rate 4.25% + Bank Prime Rate
+- (number) Term 7 years
+- (number) Interest-only for five years, then amortized over 20 years
+- (number) 1.5% bank fee
+- (deal-feature) Lender's package accounted for coastal and hurricane risks, including sea-level rise mitigation and adherence to strict coastal development regulations
+- (number) Network of 500+ private banks, challenger banks, debt funds, specialist lenders and family offices (business profile, not the case-study page)
+
+_Notes d'extraction : Core deal terms ($10m, 70% LTV, 4.25% + Bank Prime, 7 years, IO 5 years then 20-year amortisation, 1.5% bank fee) were consistent across both searches. Not revealed: lender name, completion/deal date, meta description, H1 (the 'Miami Developer' value is the indexed page title; the H1 was not separately confirmed), any FAQ, eligibility criteria or calls to action on the page. Search (a) reported t…_
+
+#### Purchase And Upgrade £21 Million Office In London
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Not directly revealed. Two link titles were returned for the page: "Purchase And Upgrade £21 Million Office In London" [b] and "£21M London Office Purchase & Upgrade" [a]. The first matches the URL s…  
+**Meta description :** Not revealed in search results.
+
+**Résumé.** Case study of a commercial office acquisition facility. A London-based property developer called Silver Oak Capital after making an offer on a central London office building let to a single tenant, with a purchase price of £21m. The developer's plan was to hold the building until the existing lease expired (about 2.5 years away) while seeking planning permission to add a floor and carry out a high-spec upgrade/refit. Challenge: the developer needed more than 65% LTV at a time when lender appetite for offices was limited, many lenders reducing office exposure since COVID. Silver Oak approached a London-based specialist debt fund keen on value-add office deals. The lender's offer was conditional on the developer directing the remaining rental income to the loan, and the lender was expected to release refurbishment funds once the building became vacant. The borrower was experienced with a record of similar schemes. Outcome: finance secured at 68% LTV, 4.75% fixed rate, three-year interest-only term. The results did not reveal the exact loan amount (whether £21m is the purchase price or the facility is ambiguous in the summaries; one summary says 'arranged £21m' and also 'the purchase price was £21m'), the completion date, or the full 'solution' section, which the search tool said was cut off.
+
+**Phrases verbatim (anglais)**
+
+> [a] "Silver Oak Capital secured finance for a £21m Central London office at 68% LTV, with a 4.75% fixed rate and three-year interest-only term."
+>
+> [a] "We received a call from a London based property developer who had made an offer on a central London office building with a single tenant."
+>
+> [a] "Silver Oak arranged £21m for a Central London office at 68% loan-to-value. The rate was a 4.75% fixed rate, with a three-year interest-only term."
+>
+> [a] "A London developer had bid on a single-tenant central London office. The plan was to hold it until the lease ended, about 2.5 years away, while seeking planning permission to add a floor and upgrade the building."
+>
+> [a] "The developer needed more than 65% LTV. Lender appetite for offices was limited, since many lenders are reducing their exposure to these properties after COVID."
+>
+> [a] "The broker approached a London-based specialist debt fund that was keen on value-add office deals."
+>
+> [a] "The borrower was experienced and had a record of similar schemes. The lender was also expected to release refurbishment funds once the building was vacant. The purchase price was £21m."
+>
+> [a] "The search returned only excerpts of the page, not the full case study, so the solution section is cut off."
+>
+> [b] "Silver Oak Capital secured finance for a £21m Central London office at 68% LTV, with a 4.75% fixed rate and three-year interest-only term."
+>
+> [b] "The borrower's plan was to hold the building until its lease ended, roughly 2.5 years away, while seeking planning permission for an extra floor and a high-spec refit."
+>
+> [b] "The broker approached a London-based specialist debt fund that was keen on value-add office deals."
+>
+> [b] "That lender's offer depended on the developer directing the remaining rental income to the loan."
+>
+> [b] "The page also notes that many lenders are reducing their exposure to these properties since the pandemic."
+>
+> [b] "Other pages on the site (the property development finance and commercial mortgage broker pages) only feature a short teaser for this deal, describing a central London office building with a single tenant."
+
+**Produits et services cités**
+
+- Commercial office acquisition finance (value-add office purchase)
+- Commercial mortgage / specialist debt fund facility (teaser for this deal appears on /commercial-mortgage-broker/ and /property-development-finance/ per [b])
+- Refurbishment funding released post-vacancy (lender expected to release refurbishment funds once building vacant)
+
+**Cas d'usage**
+
+- Purchase of a single-tenant central London office building
+- Hold asset to lease expiry (~2.5 years) then refurbish
+- Value-add office: planning permission for an additional floor and high-spec refit/upgrade
+- Higher leverage (>65% LTV) on an office asset in a post-COVID market with reduced lender appetite
+
+**Conditions, montants, délais, frais**
+
+- LTV / loan-to-value
+- fixed rate
+- interest-only term
+- specialist debt fund
+- value-add office
+- single-tenant office
+- lease expiry
+- planning permission (additional floor)
+- refurbishment funds
+- rental income directed to the loan (income sweep)
+- post-COVID lender appetite for offices
+
+**Critères d'éligibilité**
+
+- Not stated as explicit criteria. Implied borrower profile: experienced London-based property developer with a record of similar (value-add office) schemes.
+- Implied asset profile: central London office, single tenant, short remaining lease (~2.5 years), value-add potential.
+
+**Types de prêteurs**
+
+- London-based specialist debt fund (keen on value-add office deals)
+
+**Étapes du processus**
+
+- Developer makes an offer on a single-tenant central London office and calls Silver Oak Capital.
+- Requirement identified: more than 65% LTV, against limited post-COVID lender appetite for offices.
+- Silver Oak approaches a London-based specialist debt fund keen on value-add office deals.
+- Lender offer made, conditional on the developer directing the remaining rental income to the loan.
+- Finance secured: 68% LTV, 4.75% fixed, three-year interest-only.
+- Lender expected to release refurbishment funds once the building is vacant (after lease expiry ~2.5 years), to fund the added floor / upgrade subject to planning.
+
+**Géographie**
+
+- Central London (asset)
+- London (borrower: London-based property developer)
+- London (lender: London-based specialist debt fund)
+- United Kingdom
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (deal size / asset value) £21m Central London office (purchase price £21m)
+- (leverage) 68% LTV (loan-to-value)
+- (pricing) 4.75% fixed rate
+- (term / structure) Three-year interest-only term
+- (challenge / requirement) Developer needed more than 65% LTV
+- (asset detail / timing) Existing single tenant lease ending in about 2.5 years
+- (market commentary) Many lenders are reducing their exposure to offices after COVID / since the pandemic
+- (lender type) Lender: London-based specialist debt fund keen on value-add office deals
+- (loan condition) Lender offer conditional on developer directing remaining rental income to the loan
+- (loan structure) Lender expected to release refurbishment funds once the building was vacant
+- (borrower profile) Borrower experienced with a record of similar schemes
+- (business plan) Plan: seek planning permission to add a floor and carry out a high-spec upgrade/refit
+
+_Notes d'extraction : Both searches returned consistent deal facts (£21m, 68% LTV, 4.75% fixed, 3-year interest-only, single-tenant central London office, ~2.5-year lease, specialist debt fund, rental income directed to loan). However the search tool explicitly stated it returned only excerpts and that the 'solution section is cut off', so the full page text, exact loan amount, dates, and any closing paragraph/CTA wer…_
+
+#### Notting Hill Large Residential Mortgage
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/notting-hill-large-residential-mortgage/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Not revealed by search results (result link title is 'Notting Hill Large Residential Mortgage'; H1 not independently confirmed)  
+**Meta description :** Not revealed by search results
+
+**Résumé.** Case study of a large residential mortgage refinance on a property in Notting Hill, London. Borrower: an Egyptian client whose income came from the oil and gas sector (a sector most European private banks treat as high risk), who lived in a high-risk country and had little cash on hand. The property was held in an offshore trust. Silver Oak Capital placed the loan with a Middle East-based private bank experienced with offshore trust structures. Terms: £6.35 million loan, 60% loan-to-value, interest-only, five-year term, priced at base rate plus 1.50% margin, with a 0.50% fee. Timing: the search tool reported the page metadata as posted about 231 days before 2026-10-29 (approximately March 2026). Challenge: sector/country risk profile rejected or priced as high risk by European private banks, plus low liquidity and an offshore trust ownership structure. Outcome: five-year interest-only private bank facility agreed at 60% LTV.
+
+**Sections repérées**
+
+- **Deal snapshot (as reported by search results)** — Refinance of a Notting Hill (London) residential property. Loan £6.35 million at 60% LTV, interest-only, five-year term, base rate + 1.50%, 0.50% fee. Lender: Middle East-based private bank. Ownership: offshore trust.
+- **Borrower profile / challenge** — Egyptian client; income derived from oil and gas (treated as high risk by most European private banks); resident in a high-risk country; little cash on hand; property held in an offshore trust.
+- **Solution** — Silver Oak Capital approached a Middle East-based private bank experienced with offshore trust structures, which agreed the facility.
+- **Related case studies surfaced alongside this page** — BVI Trust Refinance (Richmond, £5m vs £12m value, private bank with BVI presence); Mayfair Self-Employed Equity Release (£7.5m at 75% LTV on £10m home, London lender); Country Estate Refinance (£4.55m, 65% LTV, interest-only); Residential Portfolio Refinance (£5.3m across 10 central London flats at 70% LTV, UK branch of an Indian bank). These figures come from search-tool summaries of other pages, not from the Notting Hill page.
+
+**Phrases verbatim (anglais)**
+
+> [a] "The Notting Hill case covers a refinance for an Egyptian client whose income came from oil and gas, which most European private banks treat as high risk."
+>
+> [a] "The client also lived in a high-risk country and had little cash on hand."
+>
+> [a] "The broker went to a Middle East-based private bank, which agreed to a £6.35 million loan at 60% loan-to-value, interest-only over five years, priced at base rate plus 1.50%, with a 0.50% fee."
+>
+> [a] "The property sat in an offshore trust, which the bank was experienced with."
+>
+> [a] "The page's metadata says it was posted about 231 days before today, so the terms may have changed or the offer may have closed."
+>
+> [b] "It describes a refinance for an Egyptian client whose income came from the oil and gas sector, which most European private banks treat as high risk."
+>
+> [b] "The firm placed the loan with a Middle East-based private bank, and the property sat in an offshore trust structure."
+>
+> [b] "The terms were a £6.35 million loan at 60% loan-to-value, interest only, on a five-year term, with a 1.50% margin over base rate and a 0.50% fee."
+>
+> [b] "BVI Trust Refinance (Richmond): a £5 million loan against a £12 million property, placed with a private bank that had a presence in the BVI where the trust was administered."
+>
+> [b] "Mayfair Self-Employed Equity Release: a £7.5 million mortgage at 75% loan-to-value on a £10 million Mayfair home, placed with a London lender."
+>
+> [b] "Country Estate Refinance: a £4.55 million, 65% loan-to-value interest-only facility on a large English country estate."
+>
+> [b] "Residential Portfolio Refinance: a £5.3 million refinance across 10 central London flats at 70% loan-to-value, placed with the UK branch of an Indian bank."
+
+**Produits et services cités**
+
+- Large residential mortgage refinance (prime London)
+- Private bank mortgages
+- Foreign national mortgages
+- Complex offshore structures (property held in offshore trust)
+
+**Cas d'usage**
+
+- Refinance of a large Notting Hill residential property held in an offshore trust
+- Lending to a foreign national whose income sector and country of residence are classed as high risk by mainstream European private banks
+- Borrower with limited liquid cash requiring an interest-only, LTV-led private bank facility
+
+**Conditions, montants, délais, frais**
+
+- Loan amount: £6.35 million
+- Loan-to-value: 60%
+- Repayment type: interest-only
+- Term: five years
+- Pricing: base rate plus 1.50% margin
+- Fee: 0.50% (nature of fee - lender arrangement vs broker - not specified in results)
+
+**Critères d'éligibilité**
+
+- Borrower profile accepted by the lender (as described): Egyptian national; income from the oil and gas sector; resident in a country described as high risk; little cash on hand; property owned via an offshore trust
+- Lender needed to be experienced with offshore trust ownership structures
+- No formal eligibility criteria stated in the search results
+
+**Types de prêteurs**
+
+- Middle East-based private bank (lender that agreed the facility)
+- European private banks (described as treating oil and gas income as high risk; did not provide the loan)
+
+**Étapes du processus**
+
+- Client sought a refinance of a Notting Hill residential property; most European private banks treated the oil and gas income source and country of residence as high risk
+- Silver Oak Capital approached a Middle East-based private bank experienced with offshore trusts
+- Bank agreed a £6.35 million, 60% LTV, five-year interest-only facility at base rate + 1.50% with a 0.50% fee
+- No further process detail (timeline, valuation, legal steps) revealed by the search results
+
+**Géographie**
+
+- Notting Hill, London, UK (property location)
+- Egypt (client nationality)
+- Unnamed high-risk country (client residence)
+- Middle East (lender base)
+- Europe (private banks that regard the income sector as high risk)
+- Offshore trust jurisdiction not specified
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (number) £6.35 million loan arranged
+- (number) 60% loan-to-value
+- (term) Interest-only over five years
+- (number) Priced at base rate plus 1.50%
+- (number) 0.50% fee
+- (market-statement) Most European private banks treat oil and gas income as high risk
+- (lender) Lender was a Middle East-based private bank experienced with offshore trusts
+- (timing) Page posted approximately 231 days before 2026-10-29 (about March 2026), per search tool reading of page metadata
+
+_Notes d'extraction : Both WebSearch calls (a: exact URL, b: site:silveroakcapital.co.uk keyword query) returned the target page as the top result and the search tool's own summary of its content; the deal figures (£6.35m, 60% LTV, interest-only, 5 years, base + 1.50%, 0.50% fee, Egyptian client, oil and gas income, offshore trust, Middle East-based private bank) were identical across both calls. No raw page snippet t…_
+
+#### Mayfair Self Employed Equity Release
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/mayfair-self-employed-equity-release/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Mayfair Self Employed Equity Release (search-result title; H1 not independently confirmed)  
+
+**Résumé.** Case study of a prime residential refinance with equity release in Mayfair, Central London. The borrower was a Mayfair homeowner and business owner with high earnings who wanted to refinance his existing mortgage and release equity to buy a holiday home in Cannes, France. The security property was valued at £10 million and the client required a 75% loan-to-value. His income came mostly from his UK company, drawn as director's loans; earnings were described as high enough to meet typical bank affordability tests. The complication was an ongoing divorce, meaning any lender needed assurance about his asset base and income after separation. Silver Oak Capital placed the deal with a London-based lender that favours UK nationals and high-value Central London homes. Terms stated: £7.5 million mortgage, 75% LTV, variable rate of 2.25% over 3-month LIBOR, 5-year term, interest-only repayments. Challenge: self-employed/director's-loan income plus divorce. Outcome: £7.5m interest-only facility secured. Timing/publication date not confirmed by the search results.
+
+**Phrases verbatim (anglais)**
+
+> [a] Result title: "Mayfair Self Employed Equity Release"
+>
+> [a] Search-tool summary: "It describes a Mayfair homeowner, a business owner with high earnings, who wanted to refinance his mortgage and release equity to buy a holiday home in Cannes. The property value was £10 million and the client required a Loan to Value of 75%."
+>
+> [a] Search-tool summary (income): "The borrower drew most of his pay from his UK company as director's loans, and his earnings were high enough to meet typical bank affordability tests."
+>
+> [a] Search-tool summary (complication): "He was going through a divorce, so any lender would need assurance about his asset base and income after separation."
+>
+> [a] Search-tool summary (solution): "The broker placed the deal with a London-based lender that favours UK nationals and high-value Central London homes. The listed terms were a £7.5 million mortgage at 75% LTV, a variable rate of 2.25% over 3-month LIBOR, a 5-year term, and interest-only repayments."
+>
+> [a] Search-tool caveat: "The excerpt is incomplete and includes some text from other pages on the site, so I could not confirm the full narrative or the publication date. The '230 days ago' age tag suggests it was posted around early 2026."
+>
+> [b] Search-tool summary: "It describes a business owner in Mayfair who refinanced his mortgage and released equity to buy a holiday home in France. The property was valued at £10 million, and the case study says the deal was placed with a London-based lender at a £7.5 million mortgage, 75% loan-to-value, on interest-only terms."
+>
+> [b] Search-tool summary of related /prime-london-mortgages/ result: "a page on refinancing to release equity, aimed at high-net-worth buyers and business owners with dividend-led income."
+>
+> [b] Search-tool summary of related /faq/ result: "an FAQ says the firm's equity release product is a short-term bridging loan of up to 12 to 24 months, which is different from a retiree lifetime mortgage."
+>
+> [b] Search-tool caveat: "The search didn't return any page on self-employed applicants specifically. The Mayfair case study is the closest match, and the search tool showed its date inconsistently"
+
+**Produits et services cités**
+
+- Equity release via refinance of a prime Central London residential mortgage
+- Prime London / prime residential mortgages
+- Interest-only mortgage for a self-employed business owner
+- Large-loan mortgage brokerage (£7.5m facility)
+
+**Cas d'usage**
+
+- Refinance an existing prime Central London mortgage and release equity to fund the purchase of a holiday home abroad (Cannes, France)
+- Mortgage for a self-employed business owner whose income is drawn as director's loans
+- Lending to a borrower mid-divorce where the lender needs assurance on post-separation asset base and income
+
+**Conditions, montants, délais, frais**
+
+- Loan amount: £7.5 million
+- Property value: £10 million
+- LTV: 75%
+- Rate: variable, 2.25% over 3-month LIBOR
+- Term: 5 years
+- Repayment: interest-only
+- Lender: London-based lender favouring UK nationals and high-value Central London homes
+
+**Critères d'éligibilité**
+
+- Self-employed business owner / company director (income drawn mostly as director's loans from a UK company)
+- High earnings sufficient to meet typical bank affordability tests
+- UK national (lender described as favouring UK nationals)
+- High-value Central London (Mayfair) home as security
+- Borrower going through a divorce: lender required assurance on asset base and income after separation
+
+**Types de prêteurs**
+
+- London-based lender that favours UK nationals and high-value Central London homes
+
+**Étapes du processus**
+
+- Client sought to refinance existing Mayfair mortgage and release equity (purpose: holiday home purchase in Cannes)
+- Income assessed: director's loans from UK company; earnings met typical bank affordability tests
+- Divorce complication addressed: lender needed assurance about post-separation asset base and income
+- Broker placed the deal with a London-based lender favouring UK nationals and high-value Central London homes
+- Facility agreed: £7.5m, 75% LTV, 2.25% over 3-month LIBOR variable, 5-year term, interest-only
+
+**Géographie**
+
+- Mayfair, Central London, United Kingdom (security property)
+- Cannes, France (holiday home bought with released equity)
+
+**Questions fréquentes**
+
+- **Is Silver Oak Capital's equity release the same as a lifetime mortgage? (from site /faq/, surfaced in search b, not from this case study page)** Per the search-tool summary of the FAQ page: the firm's equity release product is a short-term bridging loan of up to 12 to 24 months, which is different from a retiree lifetime mortgage.
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (number) Security property valued at £10 million (Mayfair)
+- (number) Client required 75% loan-to-value
+- (number) £7.5 million mortgage arranged
+- (number) Variable rate of 2.25% over 3-month LIBOR
+- (number) 5-year term
+- (term) Interest-only repayments
+- (statement) Borrower's earnings were high enough to meet typical bank affordability tests
+- (statement) Deal placed with a London-based lender that favours UK nationals and high-value Central London homes
+- (statement) Released equity used to buy a holiday home in Cannes, France
+- (statement-from-related-page) Site FAQ (not this page): the firm's equity release product is a short-term bridging loan of up to 12 to 24 months, different from a retiree lifetime mortgage
+
+_Notes d'extraction : Direct fetch blocked; all content comes from two WebSearch (extended) calls. Core deal facts (£10m Mayfair property, £7.5m loan, 75% LTV, interest-only, London-based lender, holiday home in France/Cannes, self-employed business owner) are corroborated by both searches [a] and [b]. Rate (2.25% over 3-month LIBOR), 5-year term, director's-loan income, affordability remark and divorce complication c…_
+
+#### Country Estate Refinance Case Study - Silver Oak Capital
+
+URL : <https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/>  
+Confiance : medium · Recherches effectuées : 2
+
+
+**Résumé.** Case study of a refinance of a large English countryside estate. A Monaco-based introducer approached Silver Oak Capital for help refinancing a borrower's costly/expensive short-term debt, which had been used to fund a high-spec refurbishment of the property; the property was vacant at the time of enquiry. Result (a) frames the request as 'help with a private bank'; result (b) describes the need as 'a refinance on a standard Buy to Let mortgage, on a full interest only basis'. The deal was sized at 65% loan-to-value on a £7 million valuation. The borrower's income was irregular, so several income sources, including capital disposals, were documented/evidenced through a detailed accountant's letter. Outcome, described by the page as a 'dry lending' solution: £4.55 million GBP loan, 65% LTV, 2.89% variable rate, 5-year term, full interest only, 0.50% bank fee, no AUM (assets under management / wealth management) requirement. Neither result states when the deal completed; search metadata dates the page listing at roughly 230 days before the search (i.e. around March 2026).
+
+**Phrases verbatim (anglais)**
+
+> [a] "The page describes a refinance of a large English countryside estate."
+>
+> [a] "A Monaco-based introducer approached the firm for help with a private bank, after a borrower's costly short-term debt on the vacant property was used to fund a high-spec refurbishment."
+>
+> [a] "The 'dry lending' solution offered the following terms: £4.55 million GBP loan, 65% loan to value, 2.89% variable rate, 5-year term, full interest only, 0.50% bank fee, and no AUM requirement."
+>
+> [a] "The valuation was £7 million."
+>
+> [a] "The borrower's income was irregular, so several income sources, including capital disposals, were documented through a detailed accountant's letter."
+>
+> [a] "The search metadata dates the page at about 230 days old, so the terms may no longer be current."
+>
+> [b] "A Monaco-based introducer asked for help refinancing expensive short-term debt on a large English countryside estate."
+>
+> [b] "The property was vacant at the time of enquiry."
+>
+> [b] "The borrower had used that debt to refurbish it, so a refinance on a standard Buy to Let mortgage, on a full interest only basis was needed."
+>
+> [b] "The deal was sized at 65% loan-to-value on a £7 million valuation."
+>
+> [b] "The borrower's income was irregular, so the accountant's letter had to evidence several sources, including capital disposals."
+>
+> [b] "The reported outcome was a £4.55 million loan at 65% LTV, at a 2.89% variable rate on a five-year term, with no wealth management requirement."
+>
+> [b] "The page describes this as a \"dry lending\" solution."
+>
+> [b] "The results also do not say when the country estate case was completed."
+
+**Produits et services cités**
+
+- Refinance of short-term (bridging-type) debt onto a longer-term facility
+- Private bank mortgage / 'dry lending' (no AUM requirement) [a]
+- Buy to Let mortgage, full interest only basis [b]
+- Large residential mortgage secured on a country estate (England)
+- Introducer-sourced transaction (Monaco-based introducer)
+
+**Cas d'usage**
+
+- Refinancing expensive short-term / bridging debt after completing a high-spec refurbishment
+- Long-term (5-year) interest-only refinance of a large English country estate
+- Securing lending for a borrower with irregular income (capital disposals evidenced by accountant's letter)
+- Private bank lending without an AUM / wealth management tie-in ('dry lending')
+- Refinancing a property that is vacant at the time of enquiry
+- Introducer-originated transaction (Monaco-based introducer)
+
+**Conditions, montants, délais, frais**
+
+- dry lending (lending with no AUM / wealth management requirement)
+- AUM requirement (assets under management)
+- wealth management requirement
+- loan to value (LTV)
+- variable rate
+- full interest only
+- bank fee
+- short-term debt
+- high-spec refurbishment
+- refinance
+- Buy to Let mortgage
+- private bank
+- accountant's letter
+- capital disposals
+
+**Critères d'éligibilité**
+
+- Borrower with irregular income was accommodated: income evidenced through a detailed accountant's letter covering several sources, including capital disposals [a][b]
+- Property vacant at the time of enquiry did not prevent the refinance [b]
+- No AUM / wealth management requirement imposed by the lender [a][b]
+- Lending at 65% LTV against a £7 million valuation on a large English countryside estate [a][b]
+
+**Types de prêteurs**
+
+- Private bank [a]
+- Standard Buy to Let mortgage lender [b]
+- 'Dry lending' lender (no AUM / wealth management requirement) [a][b]
+
+**Étapes du processus**
+
+- A Monaco-based introducer approached Silver Oak Capital on behalf of the borrower [a][b]
+- Need identified: refinance costly/expensive short-term debt that had funded a high-spec refurbishment of a vacant large English countryside estate [a][b]
+- Target solution: private bank 'dry lending' [a] / standard Buy to Let mortgage on a full interest only basis [b]
+- Deal sized at 65% LTV on a £7 million valuation [a][b]
+- Irregular income documented via a detailed accountant's letter evidencing several income sources including capital disposals [a][b]
+- Outcome: £4.55m loan, 65% LTV, 2.89% variable, 5-year term, full interest only, 0.50% bank fee, no AUM requirement [a][b]
+
+**Géographie**
+
+- England (large English countryside estate - exact county/region not stated)
+- Monaco (location of the introducer)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (deal-figure) Loan amount: £4.55 million GBP
+- (deal-figure) Loan to value: 65%
+- (deal-figure) Property valuation: £7 million
+- (deal-figure) Interest rate: 2.89% variable
+- (deal-figure) Term: 5 years
+- (deal-structure) Repayment basis: full interest only
+- (deal-figure) Bank fee: 0.50% [a only]
+- (deal-structure) No AUM requirement [a] / no wealth management requirement [b]
+- (positioning) Described by the page as a 'dry lending' solution
+- (underwriting-outcome) Borrower's irregular income accepted on the strength of a detailed accountant's letter evidencing several income sources including capital disposals
+- (deal-context) Property was vacant at the time of enquiry
+- (deal-context) Existing debt was costly/expensive short-term debt used to fund a high-spec refurbishment
+- (deal-context) Introducer was Monaco-based
+- (metadata) Page listing dated about 230 days before the search (search run 2026-10-29)
+
+_Notes d'extraction : SOURCES: two WebSearch (extended) calls, run 2026-10-29. (a) query = exact URL; (b) query = 'site:silveroakcapital.co.uk country estate refinance case study'. Both returned the target page as top result; the deal figures (£4.55m, 65% LTV, £7m valuation, 2.89% variable, 5 years, full interest only, no AUM/wealth-management requirement, 'dry lending', Monaco introducer, vacant estate, irregular inc…_
+
+### Articles (blog)
+
+#### Common Uses for Property Bridging Loans in the UK (title inferred from the URL slug only; the page itself did…
+
+URL : <https://www.silveroakcapital.co.uk/common-uses-for-property-bridging-loans-in-the-uk/>  
+Confiance : low · Recherches effectuées : 2
+
+
+**Résumé.** The target article was NOT surfaced by either search. Search (a) on the exact URL returned only third-party UK bridging guides (KIS Bridging, HOA, Enness, L&C, Clifton PF, Westminster Finance, Bridge Loan Direct, FD Commercial, Momenta) and the tool stated: "I couldn't find the Silver Oak Capital page itself in the results". Search (b) (site:silveroakcapital.co.uk) returned nine other Silver Oak Capital pages on bridging but not the target slug. What can be recorded is therefore limited to the search tool's summary of those SIBLING Silver Oak pages: the most frequently cited use is buying before selling, with the borrower's existing property securing the loan and the sale proceeds repaying it; investors use bridging when they need funds quickly for a time-sensitive opportunity; developers use bridging to cover refurbishment or construction and repay through a sale or by refinancing onto a longer-term facility; the main /bridging-loans-uk/ page lists purchases, renovations and covering a short-term cash flow gap as typical reasons. Terms are described as short (1 to 36 months on one page, 6 to 24 months on another), rates are higher than standard mortgages, fees named are arrangement, valuation and exit fees, and interest can be serviced or rolled up. No sentence of the target article itself, no FAQ, no process steps, no eligibility criteria and no calls to action were revealed.
+
+**Phrases verbatim (anglais)**
+
+> [a] "I couldn't find the Silver Oak Capital page itself in the results, so this summarises general UK sources on common bridging loan uses instead." (search tool statement; the rest of result (a) concerns third-party firms and is not recorded as Silver Oak content)
+>
+> [b] "The search returned several Silver Oak Capital pages, all written by the lender itself" (search tool summary; note: Silver Oak is a broker, the tool's word 'lender' is its own)
+>
+> [b] "Buying before selling: This appears to be the most frequently cited use. One page says the borrower's existing property secures the loan, and the proceeds from its sale repay it" (search tool summary, attributed to /understanding-short-term-property-funding-for-uk-real-estate/)
+>
+> [b] "Another describes the same arrangement for investors who need funds quickly for a time-sensitive opportunity" (search tool summary, attributed to /what-are-bridging-loans-and-how-do-they-work/)
+>
+> [b] "Development and renovation: Developers use these loans to cover refurbishment or construction, then repay through a sale or by refinancing onto a longer-term facility" (search tool summary, attributed to /importance-of-bridging-loans-for-property-development/)
+>
+> [b] "Auction purchases and short-term cash gaps: The lender's main bridging loans page lists purchases, renovations, and covering a short-term cash flow gap among typical reasons" (search tool summary, attributed to /bridging-loans-uk/)
+>
+> [b] "Terms are generally short. One page gives a range of 1 to 36 months" (attributed to /understanding-short-term-property-funding-for-uk-real-estate/) "while another says 6 to 24 months" (attributed to /how-does-a-bridging-loan-work/)
+>
+> [b] "Rates are higher than standard mortgages, and the pages warn about fees such as arrangement, valuation, and exit fees" (attributed to /how-does-a-bridging-loan-work/)
+>
+> [b] "Interest can be serviced or rolled up" (attributed to /difference-between-regulated-unregulated-bridging-loans/)
+>
+> [b] Page title seen in results: "Bridging Loans in the UK for Prime Central London Purchases"
+>
+> [b] Page title seen in results: "Fast & Flexible Bridging Loans UK" (for /understanding-short-term-property-funding-for-uk-real-estate/)
+>
+> [b] Page title seen in results: "Importance of Bridging Loans for Property Development"
+>
+> [b] Page title seen in results: "What are Bridging Loans and How Do They Work?"
+>
+> [b] Page title seen in results: "Bridging Loans UK"
+>
+> [b] Page title seen in results: "Why Smart Investors Choose Property Bridging Loans in 2025?"
+>
+> [b] Page title seen in results: "Fast Bridging Loans London" (for /a-complete-guide-to-securing-quick-property-finance-in-london/)
+>
+> [b] Page title seen in results: "Difference between Regulated & Unregulated Bridging Loans"
+>
+> [b] Page title seen in results: "How Does a Bridging Loan Work?"
+
+**Produits et services cités**
+
+- Bridging loans (property bridging finance, UK)
+
+**Cas d'usage**
+
+- Buying a property before selling the existing one (existing property secures the loan; sale proceeds repay it) [b, sibling pages]
+- Investors needing funds quickly for a time-sensitive opportunity [b, /what-are-bridging-loans-and-how-do-they-work/]
+- Developers covering refurbishment or construction, repaid via sale or refinance onto a longer-term facility [b, /importance-of-bridging-loans-for-property-development/]
+- Purchases, renovations and covering a short-term cash flow gap [b, /bridging-loans-uk/]
+- Auction purchases [b, search tool heading; not quoted from a specific page]
+- Prime Central London purchases [b, page title only]
+
+**Conditions, montants, délais, frais**
+
+- Term length 1 to 36 months [b, /understanding-short-term-property-funding-for-uk-real-estate/]
+- Term length 6 to 24 months [b, /how-does-a-bridging-loan-work/]
+- Rates higher than standard mortgages [b, /how-does-a-bridging-loan-work/]
+- Fees named: arrangement, valuation, exit [b, /how-does-a-bridging-loan-work/]
+- Interest can be serviced or rolled up [b, /difference-between-regulated-unregulated-bridging-loans/]
+- Repayment via sale of the secured property or refinancing onto a longer-term facility [b]
+
+**Géographie**
+
+- United Kingdom
+- London / Prime Central London (from sibling page titles only)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (term) Bridging terms range from 1 to 36 months (sibling page /understanding-short-term-property-funding-for-uk-real-estate/, per search summary)
+- (term) Bridging terms range from 6 to 24 months (sibling page /how-does-a-bridging-loan-work/, per search summary)
+- (cost) Bridging rates are higher than standard mortgages; fees include arrangement, valuation and exit fees (sibling page /how-does-a-bridging-loan-work/)
+- (structure) Interest can be serviced or rolled up (sibling page /difference-between-regulated-unregulated-bridging-loans/)
+- (use) Buying before selling is the most frequently cited use across the Silver Oak bridging pages returned (search tool assessment, not a Silver Oak statement)
+- (absence) No numbers, promises, awards or lender counts were revealed for the target article itself
+
+_Notes d'extraction : The target URL did not appear in either of the two permitted searches, so nothing here is drawn from the article itself; the title is inferred from the slug and flagged as such. All substantive content comes from the search tool's summary of nine SIBLING Silver Oak Capital bridging pages returned by query (b); each item is tagged with the page the tool attributed it to. Result (a) consisted solel…_
+
+#### How Bridging Loans Help Property Developers
+
+URL : <https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/>  
+Confiance : medium · Recherches effectuées : 2
+
+
+**Résumé.** Blog article (page title shown in both search results as 'How Bridging Loans Help Property Developers'; slug 'how-does-a-bridge-loan-work-for-developers'). Thesis per the search tool's summaries: bridge loans are short-term financing for property developers, typically running 6 to 24 months, used to cover funding gaps so developers can acquire, refurbish, or complete a scheme before arranging long-term finance or selling. Underwriting point: lenders weigh the property's value and the borrower's exit plan more than income or credit history (framed as a comparison with traditional mortgages). Listed benefits: quicker access to capital, flexible terms, securing a site before long-term finance is arranged, refinancing near completion, and covering construction costs in some cases. Application guidance: applicants typically submit site details, a business plan, projected Gross Development Value, an exit strategy, and their track record. No direct snippet text, H1, meta description, author, date, FAQ or CTA was revealed; all content is the search tool's paraphrase.
+
+**Sections repérées**
+
+- **What a bridge loan is for developers (inferred)** — Short-term financing for property developers that covers funding gaps, typically 6 to 24 months, so a developer can acquire, refurbish, or complete a scheme before arranging long-term finance or selling. [a][b]
+- **How lenders assess a developer bridge loan vs a traditional mortgage (inferred)** — Lenders weigh the property's value and the borrower's exit plan more than income or credit history; the search summary describes this as a comparison with traditional mortgages. [a][b]
+- **Benefits for developers (inferred)** — Quicker access to capital; flexible terms; securing a site before long-term finance is arranged; refinancing near completion; covering construction costs in some cases. [a]
+- **What applicants submit (inferred)** — Site details, a business plan, projected Gross Development Value (GDV), an exit strategy, and the developer's track record. [b]
+- **Cost (inferred, weak)** — Search summary [b] only notes that Silver Oak's pages 'say similar things about higher rates' relative to conventional finance; no rate figures from the target page were revealed.
+
+**Phrases verbatim (anglais)**
+
+> [a] "bridge loans are short-term financing for property developers, typically running 6 to 24 months, and lenders weigh the property's value and the borrower's exit plan more than income or credit history."
+>
+> [a] "Its listed benefits include quicker access to capital, flexible terms, securing a site before long-term finance is arranged, refinancing near completion, and covering construction costs in some cases."
+>
+> [b] "Silver Oak's developer guide says these loans cover funding gaps, typically lasting between 6 to 24 months, so developers can acquire, refurbish, or complete a scheme before arranging long-term finance or selling."
+>
+> [b] "Lenders weigh the property's value and the borrower's exit plan more than income or credit history, per the comparison with traditional mortgages."
+>
+> [b] "Applicants typically submit site details, a business plan, projected Gross Development Value, an exit strategy, and their track record."
+>
+> [b] (attributed to related page /post-planning-land-acquisitions/, not confirmed as target page) "A post-planning land bridge is a single lump sum to buy the site. Development finance is released in stages for construction, and Silver Oak notes it is slower because it needs cost plans and contractor appointments (the land loan is a single lump sum used purely to complete the purchase of the site)."
+>
+> [b] (attribution ambiguous between target page and /post-planning-land-acquisitions/) "Silver Oak says the exit is usually refinancing onto a development loan or selling the plot."
+>
+> [b] (attributed to related page /development-exit-loans/, not confirmed as target page) "A development exit loan repays the construction lender and gives a longer window, 12 to 18 months, to sell units. Its rates are lower than construction finance because the build risk has passed."
+>
+> [b] "Silver Oak's own pages say similar things about higher rates."
+
+**Produits et services cités**
+
+- Bridging loans for property developers (subject of the article)
+- Post planning land acquisition bridging (related page surfaced in [b])
+- Development exit loans (related page surfaced in [b])
+- Development finance released in stages (contrasted with a bridge in [b])
+
+**Cas d'usage**
+
+- Acquire a site / scheme before long-term finance is arranged [a][b]
+- Refurbish a property [b]
+- Complete a scheme before selling or refinancing [b]
+- Refinance near completion [a]
+- Cover construction costs in some cases [a]
+- Buy a post-planning plot with a single lump sum, then exit by refinancing onto a development loan or selling the plot [b] (related page content)
+
+**Conditions, montants, délais, frais**
+
+- Typical term: 6 to 24 months [a][b]
+- Development exit loans: 12 to 18 months window to sell units; lower rates than construction finance (related page /development-exit-loans/, [b])
+- Bridging rates described as higher than conventional finance (general remark in [b], no figures)
+
+**Critères d'éligibilité**
+
+- Assessment centred on the property's value and the borrower's exit plan rather than income or credit history [a][b]
+- Expected submissions: site details, business plan, projected GDV, exit strategy, track record [b]
+
+**Étapes du processus**
+
+- Submit site details, a business plan, projected Gross Development Value, an exit strategy and track record [b]
+- Lender assesses primarily on property value and exit plan [a][b]
+- Draw the bridge to acquire, refurbish or complete the scheme [b]
+- Exit via refinancing onto a development / long-term loan, or by sale [b]
+
+**Géographie**
+
+- United Kingdom (implied by the site; not stated explicitly in the snippets for this page)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (term) Bridge loans for developers typically run 6 to 24 months
+- (underwriting) Lenders weigh the property's value and the borrower's exit plan more than income or credit history
+- (benefit) Benefits: quicker access to capital, flexible terms, securing a site before long-term finance is arranged, refinancing near completion, covering construction costs in some cases
+- (process) Applicants typically submit site details, business plan, projected GDV, exit strategy and track record
+- (term) Development exit loan gives a 12 to 18 month window to sell units and carries lower rates than construction finance (related page)
+- (timing) Development finance is slower to arrange than a land bridge because it needs cost plans and contractor appointments (related page)
+
+_Notes d'extraction : Page existence and title ('How Bridging Loans Help Property Developers', differing from the slug) confirmed by both searches. Core thesis (6-24 month term; value + exit plan outweigh income/credit; benefit list; documents to submit) is corroborated by two independent search summaries that both explicitly attribute it to this article. Limits: the search tool returned paraphrased summaries, not raw…_
+
+#### Regulating bridging loans through FCA rules
+
+URL : <https://www.silveroakcapital.co.uk/regulating-bridging-loans-through-fca-rules/>  
+Confiance : low · Recherches effectuées : 2
+
+**H1 :** Regulating bridging loans through FCA rules  
+
+**Résumé.** Blog article on how UK bridging loans fall under Financial Conduct Authority (FCA) regulation. As far as the search results reveal, the thesis is the regulated/unregulated split: a bridging loan is regulated when the property is inhabited, or will be inhabited, by the borrower or a family member, with the stated aim of making lenders and brokers act transparently and fairly. Concrete guidance surfaced: regulated bridging loans are restricted to a maximum term of 12 months and can only be used for a handful of reasons, renovation or refurbishment being one of the most common; regulated lenders are required to conduct an in-depth analysis of the property and the borrower; by contrast unregulated loans have no restraints on term length and can run from 1 month to 36 months; and on mixed-use property, if the borrower or a family member intends to live in the residential part, the loan becomes FCA-regulated, which severely restricts the number of lenders available. Caveat: the direct-URL search returned no content from this page, and the site: search summary pooled 'several Silver Oak Capital pages on this topic' (including /difference-between-regulated-unregulated-bridging-loans/ and /mixed-use-property-finance/), so point-level attribution to this specific article is not confirmed. No case-study deal data applies (this is an article, not a case study).
+
+**Sections repérées**
+
+- **What makes a bridging loan regulated** — Regulated bridging loans apply to properties which are inhabited (or will be inhabited) by the borrower or their family member. Stated aim: make lenders and brokers act transparently and fairly. [b]
+- **Restrictions on regulated bridging loans** — Restricted to a maximum term of 12 months; can only be used for a handful of reasons, renovation or refurbishment being one of the most common. Regulated lenders are required to conduct an in-depth analysis of the property and the borrower. [b]
+- **Contrast with unregulated bridging loans** — Unregulated loans have no restraints on the length of their term and can run from anywhere between 1 month and 36 months. [b] (attribution to this exact article vs. /difference-between-regulated-unregulated-bridging-loans/ not confirmed)
+- **Mixed-use property** — If the borrower or a family member intends to live in the residential part of the property, the loan becomes regulated by the FCA, which severely restricts the number of lenders available. [b] (likely from /mixed-use-property-finance/)
+
+**Phrases verbatim (anglais)**
+
+> [a] "I couldn't retrieve the Silver Oak Capital page itself, so this summary covers the general FCA bridging-loan results from one search. The search returned no content from that specific article." (search tool statement; third-party results only, not attributed to Silver Oak)
+>
+> [b] Result link title for canonical URL: "Regulating bridging loans through FCA rules"
+>
+> [b] Result link title for AMP URL (/regulating-bridging-loans-through-fca-rules/amp/): "FCA Bridging Loan Regulations Explained - Silver Oak Capital"
+>
+> [b] "regulated bridging loans apply to properties which are inhabited (or will be inhabited) by the borrower or their family member. The stated aim is to make lenders and brokers act transparently and fairly." (search tool summary of Silver Oak pages)
+>
+> [b] "One page says regulated bridging loans are restricted to a maximum term of 12 months and can only be used for a handful of reasons. Renovation or refurbishment is one of the most common reasons." (search tool summary)
+>
+> [b] "Regulated lenders are required to conduct an in-depth analysis of the property and the borrower." (search tool summary)
+>
+> [b] "One page says unregulated loans have no restraints on the length of their term and can run from anywhere between 1 month and 36 months." (search tool summary)
+>
+> [b] "Silver Oak says that if you (or a family member) intend to live in the residential part of the property, the loan becomes regulated by the FCA, which severely restricts the number of lenders available." (search tool summary; probably from /mixed-use-property-finance/)
+>
+> [b] "The search returned several Silver Oak Capital pages on this topic." / "these are Silver Oak's marketing explanations, not the FCA's rulebook. The pages are of mixed age" (search tool caveat)
+
+**Produits et services cités**
+
+- Bridging loans (regulated and unregulated)
+- Bridging loan brokerage / advisory
+
+**Cas d'usage**
+
+- Renovation or refurbishment of a property the borrower or family will live in (cited as one of the most common regulated reasons) [b]
+
+**Conditions, montants, délais, frais**
+
+- regulated bridging loan
+- unregulated bridging loan
+- FCA (Financial Conduct Authority)
+- maximum term of 12 months (regulated)
+- 1 month to 36 months (unregulated)
+- in-depth analysis of the property and the borrower
+- inhabited (or will be inhabited) by the borrower or their family member
+- residential part of a mixed-use property
+- renovation or refurbishment
+
+**Critères d'éligibilité**
+
+- Regulated route applies when the secured property is inhabited, or will be inhabited, by the borrower or a family member [b]
+- Regulated bridging loans: maximum term 12 months; usable only for a handful of reasons (renovation/refurbishment among the most common) [b]
+- Unregulated bridging loans: no restraint on term; 1 to 36 months [b]
+- Mixed-use property where borrower/family will live in the residential part: loan becomes FCA-regulated, fewer lenders available [b]
+
+**Types de prêteurs**
+
+- FCA-regulated bridging lenders
+- Unregulated bridging lenders
+
+**Étapes du processus**
+
+- Regulated lenders conduct an in-depth analysis of the property and the borrower [b]
+
+**Géographie**
+
+- United Kingdom (FCA jurisdiction)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (number/regulatory [b]) Regulated bridging loans are restricted to a maximum term of 12 months
+- (regulatory/use-case [b]) Regulated bridging loans can only be used for a handful of reasons; renovation or refurbishment is one of the most common
+- (process [b]) Regulated lenders are required to conduct an in-depth analysis of the property and the borrower
+- (number [b]) Unregulated loans have no restraints on the length of their term and can run from anywhere between 1 month and 36 months
+- (regulatory [b]) Regulated bridging loans apply to properties inhabited (or to be inhabited) by the borrower or a family member
+- (regulatory purpose [b]) The stated aim of regulation is to make lenders and brokers act transparently and fairly
+- (regulatory/market [b] (likely…) If the borrower or a family member intends to live in the residential part of a mixed-use property, the loan becomes FCA-regulated, which severely restricts the number of lenders available
+
+_Notes d'extraction : Search (a), the exact URL in extended mode, returned nine third-party results (kisbridgingloans, farleys, respectcapital, FCA handbook MCOB 11.6, lockwellfinance, bridgingloandirectory, nicheadvice, fdcommercial) and the tool explicitly stated it could not retrieve the Silver Oak page; none of that third-party content is recorded here as Silver Oak content. Search (b), 'site:silveroakcapital.co.u…_
+
+#### What are Bridging Loans and How Do They Work?
+
+URL : <https://www.silveroakcapital.co.uk/what-are-bridging-loans-and-how-do-they-work/>  
+Confiance : low · Recherches effectuées : 2
+
+
+**Résumé.** Blog article (not a case study). Its SEO/result title is confirmed as "What are Bridging Loans and How Do They Work?". The exact-URL search [a] returned no Silver Oak result at all (only third-party guides, ignored). The site: search [b] returned the page plus eight sibling Silver Oak bridging pages, and the search tool's summary blended them, attributing points to "one article" / "another" without naming which. Thesis as summarised: a bridging loan is a short-term loan used to "bridge the gap" between a future cash flow and a current expense; the most common use is buying a new home before selling the current one, with the existing property serving as security and the loan repaid from the proceeds of sale once the old property is sold; terms quoted as between 1 and 36 months (one article) or usually 6 to 24 months (another); lenders focus mainly on the property's value and the borrower's exit plan and set a loan-to-value (LTV) ratio; interest is either rolled up and settled at the end of the term or serviced (paid regularly); rates are higher than a standard mortgage ("double, if not triple"), and arrangement and valuation fees add to the total. No lender names, current rates, eligibility criteria, FAQ blocks, calls to action, H1 or meta description were revealed for this page.
+
+**Sections repérées**
+
+- **Definition (search-tool grouping, not a confirmed page heading)** — [b] "One article describes a bridging loan as a short term loan used to 'bridge the gap' between a future cash flow and a current expense."
+- **Typical use (search-tool grouping)** — [b] "The most common case is buying a new home before selling the current one. The existing property serves as security, the loan pays for the purchase, and once the new property is purchased and the old property is sold, the borrower will repay the bridging loan with the proceeds of sale."
+- **Term (search-tool grouping)** — [b] "Estimates vary by article. One gives between 1 and 36 months, another says usually between 6 to 24 months."
+- **What lenders focus on (search-tool grouping)** — [b] "Lenders care mainly about the property's value and the borrower's exit plan. The lender assesses the property's value and determines the loan-to-value (LTV) ratio."
+- **Interest (search-tool grouping)** — [b] "Interest is usually charged either as rolled-up interest, settled at the end of the term, or serviced, meaning paid regularly to the lender."
+- **Cost (search-tool grouping)** — [b] "Rates are higher than a standard mortgage. One article notes that bridging loans have interest rates that are double, if not triple those of traditional mortgages. Fees such as arrangement and valuation charges can add to the total."
+
+**Phrases verbatim (anglais)**
+
+> [a] No Silver Oak Capital result was returned for the exact-URL query; the search tool stated: "I couldn't find the Silver Oak Capital page itself in the results, so I can't say what it specifically covers."
+>
+> [b] Result title for the target URL: "What are Bridging Loans and How Do They Work?"
+>
+> [b] "The search returned several Silver Oak Capital articles on bridging loans. In short, they describe a bridging loan as a short-term loan that covers a timing gap, usually secured against property, and repaid when a sale or refinance comes through."
+>
+> [b] "One article describes a bridging loan as a short term loan used to \"bridge the gap\" between a future cash flow and a current expense."
+>
+> [b] "The most common case is buying a new home before selling the current one."
+>
+> [b] "The existing property serves as security, the loan pays for the purchase, and once the new property is purchased and the old property is sold, the borrower will repay the bridging loan with the proceeds of sale."
+>
+> [b] "Estimates vary by article. One gives between 1 and 36 months, another says usually between 6 to 24 months."
+>
+> [b] "Lenders care mainly about the property's value and the borrower's exit plan. The lender assesses the property's value and determines the loan-to-value (LTV) ratio."
+>
+> [b] "Interest is usually charged either as rolled-up interest, settled at the end of the term, or serviced, meaning paid regularly to the lender."
+>
+> [b] "Rates are higher than a standard mortgage. One article notes that bridging loans have interest rates that are double, if not triple those of traditional mortgages. Fees such as arrangement and valuation charges can add to the total."
+>
+> [b] "I did not find details on specific lenders, current rates, or eligibility criteria in these results."
+
+**Produits et services cités**
+
+- Bridging loans (short-term, property-secured finance)
+- Bridge-to-purchase: buying a new home before selling the current one (described as the most common case)
+- Related site service seen in results: Crypto Bridging Advisory - Bitcoin Loans (/crypto-bridging-advisory/)
+
+**Cas d'usage**
+
+- [b] bridging the gap between a future cash flow and a current expense
+- [b] buying a new home before selling the current one (most common case)
+- [b] repayment via sale of the old property or via refinance
+
+**Conditions, montants, délais, frais**
+
+- bridging loan
+- bridge the gap
+- future cash flow / current expense
+- security (existing property)
+- proceeds of sale
+- exit plan
+- loan-to-value (LTV) ratio
+- rolled-up interest
+- serviced interest
+- arrangement fee
+- valuation fee
+- refinance
+
+**Critères d'éligibilité**
+
+- [b] Lenders care mainly about the property's value and the borrower's exit plan (no explicit eligibility criteria revealed)
+- [b] Loan is usually secured against property; the existing property serves as security in the buy-before-sell case
+- [b] Search tool: "I did not find details on specific lenders, current rates, or eligibility criteria in these results."
+
+**Étapes du processus**
+
+- [b] Existing property is put up as security
+- [b] Lender assesses the property's value and determines the loan-to-value (LTV) ratio
+- [b] Bridging loan pays for the new purchase
+- [b] Interest accrues either rolled up (settled at end of term) or serviced (paid regularly)
+- [b] Old property is sold (or a refinance completes)
+- [b] Borrower repays the bridging loan with the proceeds of sale
+
+**Géographie**
+
+- United Kingdom (implied by sibling result titles 'Fast & Flexible Bridging Loans UK', 'A Guide for UK HNWIs' and the FCA regulation article; not stated in a snippet for this page itself)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (cost comparison [b]; attribut…) bridging loans have interest rates that are double, if not triple those of traditional mortgages
+- (term range [b]; attributed to…) term between 1 and 36 months
+- (term range [b]; attributed to…) term usually between 6 to 24 months
+- (interest structure [b]) Interest is usually charged either as rolled-up interest, settled at the end of the term, or serviced, meaning paid regularly to the lender
+- (underwriting [b]) The lender assesses the property's value and determines the loan-to-value (LTV) ratio
+- (fees [b]) Fees such as arrangement and valuation charges can add to the total
+- (absence note) No lender-count, award, speed or guarantee claims surfaced for this page in either search
+
+_Notes d'extraction : Title confidence is high (the exact URL appeared in search [b] with the title 'What are Bridging Loans and How Do They Work?'). Content confidence is low: search [a] on the exact URL returned no Silver Oak result (only third-party guides from Medium, Enness, Experian, Together, Defacto, GoCardless, Wikipedia, Casaplorer, FirstBank, all ignored), and the [b] summary explicitly blends 'several Silv…_
+
+#### Stuck in a Chain? How Bridging Loans Work
+
+URL : <https://www.silveroakcapital.co.uk/how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/>  
+Confiance : medium · Recherches effectuées : 2
+
+
+**Résumé.** Educational blog article (not a case study). Thesis as revealed by the search excerpt: a bridging loan is a fast, short-term facility secured against property, typically 3 to 24 months, used to bridge the liquidity shortage that arises when a property chain breaks, i.e. when there is a lag between the cash flow from selling one property and the money needed to buy another. Concrete guidance surfaced: before borrowing, (1) pin down the timing gap, (2) choose the security, (3) set an exit strategy, which the article says is often the part of the deal the lender is most concerned about. Search (b) summarised the article together with eight other Silver Oak bridging pages and attributed to the site as a whole: bridging finance keeps a purchase moving while another sale is delayed; rates are higher than a standard mortgage; most products are interest-only with interest paid monthly or rolled up; repayment is usually via sale of the property or refinancing into a long-term mortgage; approvals advertised in 5-14 days with funds usually released within days or weeks; lenders look at property value, exit plan and speed. These [b] points cannot be reliably attributed to this specific article. The full article body, its H1, meta description, FAQ, fees, calls to action and any worked example were NOT returned by either search.
+
+**Phrases verbatim (anglais)**
+
+> [a] A bridging loan is a fast, short-term facility (typically between 3 and 24 months) secured against property.
+>
+> [a][b] This gap is often referred to as a "broken chain" where there exists a liquidity shortage due to a lag in the timeline of cash flow between selling and buying property.
+>
+> [a] (search-tool paraphrase of the article, not a quoted sentence) It recommends pinning down the timing gap, choosing the security, and setting an exit strategy. It notes the exit strategy is often the part of a deal the lender is most concerned about.
+>
+> [b] (search-tool paraphrase, attributed to 'the same guide' i.e. this article) bridging finance is pitched as a way to keep a purchase moving while another sale is delayed.
+>
+> [b] (site-wide summary, page not identified) typical term of between 3 and 24 months, secured against property. Another gives usually between 6 to 24 months.
+>
+> [b] (site-wide summary, page not identified) The firm advertises approvals in 5–14 days, and says funds are usually released within days or weeks.
+>
+> [b] (explicitly 'a related page', not this article) lenders may ask for the income/wealth is verified by a UK solicitor or accountant before completing.
+
+**Produits et services cités**
+
+- Bridging loans (chain-break / bridge-to-purchase use case)
+
+**Cas d'usage**
+
+- Buying a new property before the sale of the existing one completes (broken / stuck property chain)
+- Keeping a purchase moving while another sale is delayed [b]
+
+**Conditions, montants, délais, frais**
+
+- bridging loan
+- short-term facility
+- secured against property
+- broken chain
+- property chain
+- liquidity shortage
+- timing gap
+- security
+- exit strategy
+- interest-only
+- rolled up interest
+- refinancing into a long-term mortgage
+
+**Critères d'éligibilité**
+
+- [b] (site-wide, page not identified) lenders look at the property's value, the borrower's exit plan, and speed
+- [b] (related page, not this article) lenders may ask that income/wealth is verified by a UK solicitor or accountant before completing
+
+**Étapes du processus**
+
+- [a] Pin down the timing gap (how long the shortfall between sale and purchase will last)
+- [a] Choose the security (the property the loan will be secured against)
+- [a] Set an exit strategy (described as the part of the deal the lender is most concerned about)
+- [b] (site-wide) Repay the loan via sale of the property or refinance onto a long-term mortgage
+
+**Géographie**
+
+- United Kingdom (implied by site; the article's own geographic wording was not revealed in the snippets)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (number [a]) Bridging loan term typically between 3 and 24 months
+- (structure [a]) A bridging loan is secured against property
+- (definition [a][b]) A broken chain is a liquidity shortage caused by a lag between the cash flow from selling and buying property
+- (assertion [a] (paraphrased by…) The exit strategy is often the part of a deal the lender is most concerned about
+- (use case [b] (attributed to t…) Bridging finance keeps a purchase moving while another sale is delayed
+- (number [b] (site-wide, page n…) Term usually between 6 to 24 months
+- (pricing/structure [b] (site-w…) Rate is higher than a standard mortgage; most products are interest-only, interest paid monthly or rolled up
+- (exit [b] (site-wide, page not…) Loan usually cleared through sale of the property or refinancing into a long-term mortgage
+- (speed promise [b] (site-wide,…) Approvals in 5-14 days; funds usually released within days or weeks
+- (eligibility [b] (site-wide, p…) Lenders look at the property's value, the borrower's exit plan, and speed
+- (absence noted by search tool …) Site does not give fees for broken-chain loans specifically
+
+_Notes d'extraction : Search (a) with the exact URL returned the page title 'Stuck in a Chain? How Bridging Loans Work' and only a short excerpt (two verbatim sentences plus a paraphrase of three pre-borrowing steps); the search tool explicitly said it could not return the full article. Search (b) (site:silveroakcapital.co.uk bridging loan stuck property chain) returned nine Silver Oak pages and a blended summary; onl…_
+
+#### Property Bridging Finance: A Guide for UK HNWIs
+
+URL : <https://www.silveroakcapital.co.uk/property-bridging-finance-for-uk-high-net-worth-individuals/>  
+Confiance : low · Recherches effectuées : 2
+
+
+**Résumé.** Blog article / guide on property bridging finance for UK high-net-worth individuals. Neither search retrieved the article body: search [a] (exact URL) explicitly reported it could not retrieve the page and fell back to other Silver Oak pages and third-party listings; search [b] (site: query) returned the page as its first result with the title 'Property Bridging Finance: A Guide for UK HNWIs' and attributed two statements to 'the firm's guide': lenders are 'especially flexible for borrowers borrowing over £2,000,000', and bridging is 'short-term funding tied to a property sale, refinance, or other expected cash flow'. That is the full extent of what the results reveal about the article's thesis and guidance. The search summaries additionally surfaced context from other pages: the FAQ (bridge = short-term facility up to 12-24 months for active investors and business owners, repaid within the term), the £3.6m Kensington bridging case study (completed within four weeks, 0.78% per month, BBR-linked), the £1.46m 5-year interest-only Prime Central London refinance (personal guarantee from an overseas HNWI with no UK footprint), and a client-type statement (HNW and UHNW individuals, property developers, family offices and trustees, international clients with UK assets) whose source page is not specified. Article headings, sections, H1, meta description, CTAs, process steps and any article-level FAQ were not revealed.
+
+**Phrases verbatim (anglais)**
+
+> [b] Result title for the target URL: "Property Bridging Finance: A Guide for UK HNWIs"
+>
+> [b] "The firm's guide says lenders are especially flexible for borrowers borrowing over £2,000,000, and it describes bridging as short-term funding tied to a property sale, refinance, or other expected cash flow."
+>
+> [b] "Its FAQ describes a bridge as a short-term facility (up to 12-24 months) designed for active investors and business owners. It must be repaid within the term."
+>
+> [b] "One example is a £3.6 million bridge on a Kensington property, which was completed within four weeks, priced at 0.78% per month, BBR-linked. Another is a £1.46 million, 5-year interest-only refinance on a Prime Central London property, arranged despite complexities such as a personal guarantee from an overseas high-net-worth individual with no UK footprint."
+>
+> [b] "The firm says it typically acts for HNW and UHNW individuals, property developers, family offices and trustees, and international clients with UK assets."
+>
+> [b] "The results didn't include pricing or fee schedules beyond the single case-study rate."
+>
+> [a] "I couldn't retrieve the exact page you linked, so this summary draws on other pages from Silver Oak Capital and third-party listings."
+>
+> [a] "Silver Oak Capital is described as a debt advisory firm located in London, UK. Its homepage says it specialises in loans over £500,000."
+>
+> [a] "Its site describes tailored property bridging loans designed to meet the unique needs of our clients. It also says it arranges short term bridging finance and claims this can secure the lowest achievable cost of funding in the open market."
+>
+> [a] "Third-party listings say the firm has access to an extensive network of over 800 lenders, though older listings cite 300+ and 500+ lenders."
+>
+> [a] "A Property Week awards listing describes the firm as providing tailored funding solutions for property investors, developers, and high net worth individuals."
+>
+> [a] "One published example is a £3.6 million bridging facility secured against a high-value residential property in Kensington. The loan was reportedly completed within four weeks, priced at 0.78% per month, BBR-linked."
+
+**Produits et services cités**
+
+- Property bridging finance / tailored property bridging loans [a][b]
+- Short term bridging finance [a]
+- Refinance of prime residential property (5-year interest-only, case study) [b]
+- Debt advisory [a]
+- Other site pages surfaced by result titles only: Mortgage Bridging Loans UK & London, Crypto Bridging Advisory, Bitcoin Loans, Complex Offshore Structures & International Finance Solution [b]
+
+**Cas d'usage**
+
+- Bridging tied to a property sale, refinance, or other expected cash flow [b]
+- Bridge secured against a high-value residential property in Kensington (£3.6m) [a][b]
+- Refinance of a Prime Central London property (£1.46m, 5-year interest-only) [b]
+
+**Conditions, montants, délais, frais**
+
+- Loan term: short-term facility, up to 12-24 months, repaid within the term (from /faq/ per [b])
+- Pricing example: 0.78% per month, BBR-linked (Kensington £3.6m case study) [a][b]
+- Timing example: completed within four weeks (Kensington case study) [a][b]
+- Refinance example: 5-year interest-only (£1.46m Prime Central London case study) [b]
+- No fee schedule or general pricing revealed: 'The results didn't include pricing or fee schedules beyond the single case-study rate.' [b]
+
+**Critères d'éligibilité**
+
+- Borrowers borrowing over £2,000,000: lenders 'especially flexible' [b]
+- Firm specialises in loans over £500,000 (homepage, [a])
+- Bridge aimed at 'active investors and business owners' (/faq/, [b])
+- Client types: HNW and UHNW individuals, property developers, family offices and trustees, international clients with UK assets [b]
+- Overseas HNWI with no UK footprint accommodated via personal guarantee in the £1.46m refinance case study [b]
+
+**Géographie**
+
+- United Kingdom (article title: 'UK HNWIs')
+- London (firm location per [a])
+- Kensington (case study) [a][b]
+- Prime Central London (case study) [b]
+- Overseas / international clients with UK assets [b]
+
+**Questions fréquentes**
+
+- **What is a bridge / bridging loan? (statement from the /faq/ page surfaced by search [b], not confirmed as part of this article)** "a short-term facility (up to 12-24 months) designed for active investors and business owners. It must be repaid within the term."
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (threshold / lender-appetite c…) lenders are especially flexible for borrowers borrowing over £2,000,000
+- (product definition, attribute…) bridging is short-term funding tied to a property sale, refinance, or other expected cash flow
+- (product term, from /faq/ per …) a bridge is a short-term facility (up to 12-24 months) designed for active investors and business owners; it must be repaid within the term
+- (case study figures [a][b]) £3.6 million bridging facility secured against a high-value residential property in Kensington, completed within four weeks, priced at 0.78% per month, BBR-linked
+- (case study figures [b]) £1.46 million, 5-year interest-only refinance on a Prime Central London property, with a personal guarantee from an overseas high-net-worth individual with no UK footprint
+- (loan size, homepage per searc…) specialises in loans over £500,000
+- (lender count, third-party lis…) access to an extensive network of over 800 lenders (older listings cite 300+ and 500+)
+- (promise, site per search [a]) arranges short term bridging finance that can secure the lowest achievable cost of funding in the open market
+- (positioning, Property Week aw…) tailored funding solutions for property investors, developers, and high net worth individuals
+- (client types, source page not…) typically acts for HNW and UHNW individuals, property developers, family offices and trustees, and international clients with UK assets
+
+_Notes d'extraction : Article body NOT retrieved. Search [a] (exact URL, extended) did not return the target page at all and stated so; its content concerns other Silver Oak pages and third-party listings. Search [b] (site: + slug keywords, extended) returned the target page as result #1, revealing only its SERP title 'Property Bridging Finance: A Guide for UK HNWIs' and two statements attributed to 'the firm's guide'…_
+
+#### How Does a Bridging Loan Work?
+
+URL : <https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Not revealed by search results (SERP title is "How Does a Bridging Loan Work?")  
+**Meta description :** Not revealed by search results
+
+**Résumé.** Explainer article (blog) on the mechanics of a bridging loan. Only the opening portion of the page was surfaced by search [a]. Thesis as summarised by the search tool: a bridging loan is short-term financing that covers the gap between an immediate funding need and a longer-term solution, giving property buyers or investors fast access to capital so they can proceed with a transaction without waiting for a traditional mortgage or a property sale to complete. Concrete guidance revealed: the loan is secured against property and typically repaid over 6 to 24 months; lenders underwrite on the property's value and the borrower's exit plan rather than on income; the first step is an application and valuation at which the lender sets the loan-to-value ratio; the borrower must demonstrate a clear repayment route such as a sale or refinance; rates are generally higher than conventional mortgages and fees can include arrangement, valuation and exit fees. Search [b] (site-wide keyword query) returned a synthesis across several Silver Oak bridging pages, not attributable to this article alone: interest can be paid monthly or retained and settled at the end of the term; exit strategy is often the most scrutinised detail; bridging loans can be granted in a matter of days or weeks; a common use is buying a new home before selling the current one and repaying from the sale proceeds. H1, meta description, headings, FAQ block and calls to action were NOT revealed.
+
+**Sections repérées**
+
+- **Purpose (grouping used by the search-tool summary [a]; not a confirmed page heading)** — [a] A bridging loan is described as short-term financing meant to cover the gap between an immediate funding need and a longer-term solution. It provides fast access to capital, allowing property buyers or investors to proceed with transactions without waiting for a traditional mortgage or property sale to complete.
+- **Security and term (grouping used by the search-tool summary [a])** — [a] The loans are secured against property, with repayment typically over 6 to 24 months.
+- **Underwriting / how the loan is assessed (grouping used by the search-tool summary [a])** — [a] Lenders focus on the property's value and the borrower's exit plan rather than income. The first step is an application and valuation, where the lender sets the loan-to-value ratio. The borrower must also show a clear way to repay, such as a sale or refinance.
+- **Cost (grouping used by the search-tool summary [a])** — [a] Rates are generally higher than conventional mortgages, and fees can include arrangement, valuation, and exit fees.
+- **Context from other Silver Oak bridging pages (NOT this article)** — [a] One other page says most bridging loans are structured as interest-only products, with interest either serviced monthly or rolled-up and repaid at the end of the loan term; another describes the typical term as between 3 and 24 months. [b] Across several site pages: term usually 6 to 24 months, with another page giving 1 to 36 months and some lenders offering longer; exit strategy is often the most scrutinised detail by lenders; interest can be paid monthly or retained and settled at the end of the term; common costs are arrangement, valuation and exit fees; common use is buying a new hom…
+
+**Phrases verbatim (anglais)**
+
+> [a] SEARCH-TOOL SUMMARY WORDING (not confirmed page prose): "The target page is indexed, but the search only returned its opening portion."
+>
+> [a] SEARCH-TOOL SUMMARY WORDING: "It describes a bridging loan as short-term financing meant to cover the gap between an immediate funding need and a longer-term solution."
+>
+> [a] SEARCH-TOOL SUMMARY WORDING: "It provides fast access to capital, allowing property buyers or investors to proceed with transactions without waiting for a traditional mortgage or property sale to complete."
+>
+> [a] SEARCH-TOOL SUMMARY WORDING: "The loans are secured against property, with repayment typically over 6 to 24 months."
+>
+> [a] SEARCH-TOOL SUMMARY WORDING: "Lenders focus on the property's value and the borrower's exit plan rather than income."
+>
+> [a] SEARCH-TOOL SUMMARY WORDING: "The first step is an application and valuation, where the lender sets the loan-to-value ratio."
+>
+> [a] SEARCH-TOOL SUMMARY WORDING: "The borrower must also show a clear way to repay, such as a sale or refinance."
+>
+> [a] SEARCH-TOOL SUMMARY WORDING: "Rates are generally higher than conventional mortgages, and fees can include arrangement, valuation, and exit fees."
+>
+> [a] SEARCH-TOOL SUMMARY WORDING, about OTHER Silver Oak pages: "One says most bridging loans are structured as interest-only products, with interest either serviced monthly or rolled-up and repaid at the end of the loan term. Another describes the typical term as between 3 and 24 months, so the stated range varies slightly between pages."
+>
+> [b] SEARCH-TOOL SUMMARY WORDING, synthesis across several site pages: "A bridging loan is a short-term financing solution designed to \"bridge\" the gap between an immediate funding requirement and a longer-term financial solution." (the word bridge was itself in quotation marks in the tool output, suggesting page wording)
+>
+> [b] SEARCH-TOOL SUMMARY WORDING: "The loans are typically secured against property and are structured for short-term repayment, usually between 6 to 24 months. Another page gives a wider range, anywhere between 1 and 36 months, with some lenders offering longer terms."
+>
+> [b] SEARCH-TOOL SUMMARY WORDING: "Lenders focus on the property and the plan for repayment rather than the borrower's income. One page notes that the exit strategy is often the most scrutinized detail by lenders."
+>
+> [b] SEARCH-TOOL SUMMARY WORDING: "Rates run higher than standard mortgages. Interest can be paid monthly or retained and settled at the end of the loan term."
+>
+> [b] SEARCH-TOOL SUMMARY WORDING: "Common costs may include arrangement fees, valuation fees, and exit fees."
+>
+> [b] SEARCH-TOOL SUMMARY WORDING: "Buying a new home before selling the current one. In that case, the borrower will repay the bridging loan with the proceeds of sale from the previous property."
+>
+> [b] SEARCH-TOOL SUMMARY WORDING: "Bridging loans can be granted in a matter of days or weeks."
+
+**Produits et services cités**
+
+- Bridging loans (short-term, property-secured finance) - the article's subject
+- Contrasted products mentioned: traditional / conventional mortgage; property sale or refinance as exit routes
+
+**Cas d'usage**
+
+- [a] Property buyers or investors proceeding with a transaction without waiting for a traditional mortgage or a property sale to complete
+- [b] (site-wide, not attributed to this article) Buying a new home before selling the current one, repaying the bridge from the sale proceeds of the previous property
+
+**Conditions, montants, délais, frais**
+
+- bridging loan [a][b]
+- short-term financing / gap between immediate funding need and longer-term solution [a][b]
+- secured against property [a][b]
+- exit plan / exit strategy [a][b]
+- loan-to-value ratio (LTV) [a]
+- application and valuation [a]
+- arrangement fee [a][b]
+- valuation fee [a][b]
+- exit fee [a][b]
+- refinance [a]
+- interest-only; interest serviced monthly or rolled-up (other Silver Oak pages, per [a])
+- retained interest settled at end of term (other site pages, per [b])
+
+**Critères d'éligibilité**
+
+- [a] Lenders focus on the property's value and the borrower's exit plan rather than income
+- [a] Borrower must show a clear way to repay, such as a sale or refinance
+- [a] Loan is secured against property; the lender sets the loan-to-value ratio at application and valuation
+- [b] (site-wide, not attributed to this article) Exit strategy is often the most scrutinised detail by lenders
+
+**Types de prêteurs**
+
+- Bridging lenders (unspecified) [a][b]
+- Traditional / conventional mortgage lenders mentioned only as the contrast [a][b]
+
+**Étapes du processus**
+
+- [a] Step 1: application and valuation - the lender sets the loan-to-value ratio
+- [a] Borrower demonstrates a clear repayment route (sale or refinance)
+- [a] Loan is drawn as short-term capital secured on property and repaid typically over 6 to 24 months
+- [b] (site-wide, not attributed to this article) Bridging loans can be granted in a matter of days or weeks
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (term-range [a] target page) Repayment typically over 6 to 24 months
+- (pricing-comparison [a] target…) Rates are generally higher than conventional mortgages
+- (fees [a] target page) Fees can include arrangement, valuation, and exit fees
+- (underwriting [a] target page) Lenders focus on the property's value and the borrower's exit plan rather than income
+- (process [a] target page) First step is an application and valuation, where the lender sets the loan-to-value ratio
+- (interest-structure [a] OTHER …) Most bridging loans are structured as interest-only, with interest serviced monthly or rolled-up and repaid at the end
+- (term-range [a] OTHER Silver O…) Typical term between 3 and 24 months
+- (term-range [b] OTHER Silver O…) Term anywhere between 1 and 36 months, with some lenders offering longer terms
+- (speed [b] site-wide synthesis…) Bridging loans can be granted in a matter of days or weeks
+- (underwriting [b] site-wide sy…) Exit strategy is often the most scrutinized detail by lenders
+- (absence-note) No lender-count, loan-size, award, fee-percentage or firm-specific promise surfaced for this article
+
+_Notes d'extraction : Target page confirmed indexed under SERP title "How Does a Bridging Loan Work?" in both searches. Search [a] (exact URL, extended) stated it only returned the page's opening portion and provided a paraphrased summary with index references; no raw snippet text was exposed, so every 'verbatim' entry is the search tool's own summary wording, not confirmed page prose - the only word the tool itself q…_
+
+#### Why Are Property Bridging Loans Popular in the UK?
+
+URL : <https://www.silveroakcapital.co.uk/why-are-property-bridging-loans-popular-in-the-uk/>  
+Confiance : low · Recherches effectuées : 2
+
+
+**Résumé.** Blog article (not a case study). Only a fragment of the page surfaced in search results; the full argument was not visible. According to the search tool's summary of the visible portion, the article's thesis is that bridging loans are a long-established UK finance option used by both first-time buyers and experienced investors, and that they are popular because bridging lenders apply more flexible underwriting than mortgage providers, which shortens approval to a few weeks. The concrete guidance revealed is a trade-off: bridging loans carry higher interest rates than mortgages, so they suit short-term rather than long-term use. No eligibility criteria, process steps, FAQ, pricing, lender names, calls to action or author/date were revealed for this specific page.
+
+**Phrases verbatim (anglais)**
+
+> [a] Search tool summary of the page fragment: "The Silver Oak Capital article itself only surfaced as a fragment, so I can't summarize its full argument."
+>
+> [a] Search tool summary of the page fragment: "Its visible portion says bridging loans are a long-established UK finance option used by both first-time buyers and experienced investors, and that lenders apply more flexible underwriting than mortgage providers, which shortens approval to a few weeks."
+>
+> [a] Search tool summary of the page fragment: "It also notes higher interest rates, so the loans suit short-term rather than long-term use."
+>
+> [b] Search tool summary attributed to this URL: "Another says lenders can approve these loans in a few weeks, since they have more room to assess applications than they do with traditional mortgages"
+>
+> [b] Result title for this URL: "Why Are Property Bridging Loans Popular in the UK?"
+>
+> [b] Search tool caveat on the Silver Oak pages as a group: "These pages are marketing content from a lender and broker, so they emphasise the benefits. The results also contain no independent data on market size or usage."
+>
+> [b] Attributed to /a-complete-guide-to-securing-quick-property-finance-in-london/ (sibling page, not the target): "the London market moves so fast that buyers often can't wait for a conventional mortgage approval"
+>
+> [b] Attributed to /a-complete-guide-to-securing-quick-property-finance-in-london/ (sibling page, not the target): "Specialist lenders and private individuals offer these loans, which the site suggests makes them more widely available than high street bank products"
+>
+> [b] Attributed to /property-bridging-finance-for-uk-high-net-worth-individuals/ (sibling page, not the target): "Because the loans are secured against real estate, which the site describes as strong collateral for lenders, they are considered quick to arrange"
+>
+> [b] Attributed to /property-bridging-finance-for-uk-high-net-worth-individuals/ (sibling page, not the target): "Fees and early repayment charges can make the total cost high"
+>
+> [b] Attributed to /importance-of-bridging-loans-for-property-development/ (sibling page, not the target): "Bridging finance can cover purchases, refurbishments and development, and the site says it can serve as a stopgap while an existing property is sold. It also says many lenders let interest be rolled up or paid as it accrues"
+>
+> [b] Attributed to /bridging-loans-for-prime-central-london-purchases/ (sibling page, not the target): "higher interest rates than mortgages, often double or triple, and terms that usually run from a few months to about two years"
+
+**Produits et services cités**
+
+- Property bridging loans (UK)
+
+**Cas d'usage**
+
+- Short-term rather than long-term borrowing [a] (target page)
+- Finance for first-time buyers and experienced investors [a] (target page)
+- Sibling pages only [b]: acting on time-limited opportunities when a conventional mortgage approval is too slow; purchases, refurbishments and development; stopgap while an existing property is sold
+
+**Conditions, montants, délais, frais**
+
+- bridging loans
+- property bridging loans
+- underwriting
+- mortgage providers / traditional mortgages
+- approval (a few weeks)
+- interest rates
+- short-term finance
+- first-time buyers
+- experienced investors
+
+**Types de prêteurs**
+
+- Bridging lenders contrasted with mortgage providers / traditional mortgage lenders [a][b] (target page)
+- Specialist lenders and private individuals [b] (attributed to sibling page /a-complete-guide-to-securing-quick-property-finance-in-london/, not the target)
+
+**Géographie**
+
+- United Kingdom (from title and content)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (positioning) Bridging loans are a long-established UK finance option [a, tool summary of page fragment]
+- (audience) Used by both first-time buyers and experienced investors [a]
+- (product-feature) Lenders apply more flexible underwriting than mortgage providers [a]; lenders have more room to assess applications than with traditional mortgages [b]
+- (timing) Approval shortened to a few weeks [a]; lenders can approve these loans in a few weeks [b]
+- (trade-off) Higher interest rates than mortgages, so the loans suit short-term rather than long-term use [a]
+- (absence) No numbers, awards, lender counts, loan sizes or fee figures were revealed for this specific page
+
+_Notes d'extraction : Confidence is low because the target page only surfaced as a fragment and the WebSearch tool returned paraphrased summaries rather than raw snippets; the 'verbatim' entries quote the tool's summary wording exactly, not confirmed page text. H1 and meta description were not revealed (only the search result title). No author, publication date, section headings, CTAs, FAQ, eligibility, process steps,…_
+
+#### Importance of Bridging Loans for Property Development
+
+URL : <https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/>  
+Confiance : low · Recherches effectuées : 2
+
+
+**Résumé.** Blog article (not a case study). Thesis as revealed by search snippets only: property bridging loans play a role in the UK market by giving borrowers fast, flexible funds; developers use them to cover funding gaps so a project stays on schedule; bridging loans are described as tools that cover a funding need until future income arrives, used by both investors and developers; the article notes they usually carry higher interest than conventional mortgages, reflecting their short-term nature and higher risk. No full text, no headings, no worked examples, no figures were returned for this page. A mirror of the same article exists on the firm's Wix blog (https://silveroakcapitaluk.wixsite.com/blogs/post/bridging-loan-for-property-development, titled 'Importance Of Bridging Loan For Property Development'). Related Silver Oak pages surfaced in search (b) add context from sibling pages, not from this article: developers use bridging to buy a site before long-term finance is in place and to refinance a near-complete project; usual duration roughly 6 to 24 months (/how-does-a-bridge-loan-work-for-developers/); a bridge lets a developer secure a site quickly while full development finance is still being arranged, land-backed bridges often cap at around 50-60% LTV, and Silver Oak can add mezzanine or equity to reduce the deposit needed (/post-planning-land-acquisitions/).
+
+**Phrases verbatim (anglais)**
+
+> [a] (search-tool summary of the page snippet) "property bridging loans play a role in the UK market by giving borrowers fast, flexible funds, and that developers use them to cover funding gaps while a project stays on schedule."
+>
+> [a] (search-tool note) "The search didn't return the full text of the Silver Oak Capital article, which you linked. The only excerpt from that page is a short snippet."
+>
+> [b] (search-tool summary, attributed to the main article) "The main article describes bridging loans as tools that cover a funding need until future income arrives. It also says they are used by both investors and developers."
+>
+> [b] (search-tool summary, attributed to the main article) "Silver Oak notes that these loans usually carry higher interest than conventional mortgages, reflecting their short-term nature and higher risk."
+>
+> [b] (search-tool summary of /how-does-a-bridge-loan-work-for-developers/) "developers use these loans to buy a site before long-term finance is in place, and to refinance a near-complete project."
+>
+> [b] (search-tool summary of /how-does-a-bridge-loan-work-for-developers/) "That same guide puts the usual duration at roughly 6 to 24 months."
+>
+> [b] (search-tool summary of /post-planning-land-acquisitions/) "a bridge can let a developer secure a site quickly, while full development finance is still being arranged. It also says land-backed bridges often cap at around 50–60% LTV, and that Silver Oak can add mezzanine or equity to reduce the deposit needed."
+>
+> [a] Result title listed for the target URL: "Importance of Bridging Loans for Property Development"
+>
+> [a] Result title listed for the Wix mirror: "Importance Of Bridging Loan For Property Development"
+
+**Produits et services cités**
+
+- Bridging loans (property bridging, UK)
+- Property development finance (context of the article)
+- Mezzanine / equity top-up alongside land bridges (from sibling page /post-planning-land-acquisitions/, [b])
+
+**Cas d'usage**
+
+- Cover funding gaps while a development project stays on schedule [a]
+- Cover a funding need until future income arrives [b]
+- Used by both investors and developers [b]
+- Buy a site before long-term finance is in place (sibling page) [b]
+- Refinance a near-complete project (sibling page) [b]
+- Secure a site quickly while full development finance is still being arranged (sibling page) [b]
+
+**Conditions, montants, délais, frais**
+
+- bridging loan / property bridging loan
+- property development
+- funding gap
+- future income (repayment source)
+- conventional mortgage (comparison point for interest)
+- LTV (loan-to-value) [b, sibling page]
+- mezzanine [b, sibling page]
+- equity [b, sibling page]
+- development finance [b, sibling page]
+- regulated vs unregulated bridging (title of sibling page only) [b]
+
+**Critères d'éligibilité**
+
+- No eligibility criteria revealed for this article.
+- Sibling page /post-planning-land-acquisitions/ [b]: land-backed bridges often cap at around 50-60% LTV.
+
+**Étapes du processus**
+
+- No process steps revealed for this article. Implied sequence from sibling pages [b]: secure the site quickly with a bridge while full development finance is arranged; later refinance (including near-complete projects).
+
+**Géographie**
+
+- United Kingdom ("UK market") [a]
+- London (title of sibling page 'Fast Bridging Loans London' at /a-complete-guide-to-securing-quick-property-finance-in-london/) [b]
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (positioning) Bridging loans give borrowers fast, flexible funds [a]
+- (use-case) Developers use bridging loans to cover funding gaps while a project stays on schedule [a]
+- (positioning) Bridging loans cover a funding need until future income arrives; used by both investors and developers [b]
+- (cost-statement) Bridging loans usually carry higher interest than conventional mortgages, reflecting their short-term nature and higher risk [b]
+- (number) Usual bridging duration roughly 6 to 24 months (sibling page /how-does-a-bridge-loan-work-for-developers/) [b]
+- (number) Land-backed bridges often cap at around 50-60% LTV (sibling page /post-planning-land-acquisitions/) [b]
+- (promise) Silver Oak can add mezzanine or equity to reduce the deposit needed (sibling page /post-planning-land-acquisitions/) [b]
+
+_Notes d'extraction : Direct fetching blocked; only two WebSearch calls were allowed and both were run (queriesRun=2, queriesRefused=0). The target page appeared in both result lists under the title 'Importance of Bridging Loans for Property Development', but the search tool explicitly said it did not return the full text and that only a short snippet was available. All 'verbatim' entries are the search tool's own sum…_
+
+#### Different Types of Interest Options with Bridging Loans
+
+URL : <https://www.silveroakcapital.co.uk/different-types-of-interest-options-with-bridging-loans/>  
+Confiance : medium · Recherches effectuées : 2
+
+
+**Résumé.** Blog article explaining the different ways interest can be charged and paid on a bridging loan. Per the search snippet, the page describes four options: rolled-up, retained, serviced and hybrid. Guidance revealed: rolled-up interest means no monthly payments, with interest added to the balance and cleared at the end of the term, but the final bill can be higher and may reduce sale proceeds; retained interest means the lender takes the whole term's interest at the start so the net amount advanced is smaller, and some lenders will not refund unused retained interest on early repayment; serviced interest is paid monthly like a traditional mortgage, the principal stays the same, and this suits borrowers with enough cash flow. The hybrid option is listed but not described in any snippet retrieved. The page itself could not be fetched; everything here is the search tool's summary of result snippets.
+
+**Sections repérées**
+
+- **Overview (as revealed by snippet)** — The article covers the main interest structures available with bridging loans and describes four options: rolled-up, retained, serviced and hybrid. [a]
+- **Rolled-up interest** — No monthly payments are made; interest is added to the loan balance and cleared at the end of the term. This eases cash flow but leaves a larger final sum; the page notes the final bill can be higher and may reduce sale proceeds. [a][b]
+- **Retained interest** — The lender works out the interest for the full term and takes/deducts it at the start, so the net amount advanced is smaller and the borrower has no monthly interest payments. The page cautions that some lenders will not refund unused retained interest if you repay early. [a][b]
+- **Serviced interest** — Interest is paid monthly (on a regular schedule), as with a traditional mortgage, and the principal stays the same. The page suggests this suits borrowers with enough cash flow. [a][b]
+- **Hybrid interest** — Listed as the fourth option; the snippet cuts off before describing it and no other retrieved result explains it. Content not available. [a][b]
+- **Related Silver Oak pages surfaced by search [b]** — Types of Borrowing (bridging interest as a lump sum at end of term; example 0.75% per month, 12-month term, rolled-up interest, 75% LTV); What are Bridging Loans and How Do They Work? (rolled-up interest = interest payments retained and settled at end of term); Difference between Regulated & Unregulated Bridging Loans (serviced interest as the alternative to rolled-up); Do I Need Income for a Bridging Loan?; How Does a Bridging Loan Work?; Importance of Bridging Loans for Property Development; FCA Bridging Loan Regulations Explained (AMP URL); How Bridging Loans Help Property Developers (URL …
+
+**Phrases verbatim (anglais)**
+
+> [a] It describes four options: rolled-up, retained, serviced, and hybrid.
+>
+> [a] Rolled-up: The page says no monthly payments are made, and the interest is added to the balance and cleared at the end of the term. It notes the final bill can be higher and may reduce sale proceeds.
+>
+> [a] Retained: The lender takes the full term's interest at the start, so the net amount advanced is smaller. The page cautions that some lenders won't refund unused retained interest if you repay early.
+>
+> [a] Serviced: Interest is paid monthly, as with a traditional mortgage, and the principal stays the same. The page suggests this suits borrowers with enough cash flow.
+>
+> [a] Hybrid: The snippet cuts off before describing this option.
+>
+> [a] The search didn't fetch the Silver Oak page directly, but its result snippet covers the main interest structures.
+>
+> [b] Rolled-up interest: Borrowers make no monthly payments. Interest builds into the balance and is settled at the end of the term, which eases cash flow but leaves a larger final sum. Under this structure, borrowers do not make monthly interest payments, and the interest is added to the total loan balance.
+>
+> [b] Retained interest: The lender works out the interest for the whole term and deducts it at the start. The borrower therefore receives a lower net loan amount but has no monthly interest payments.
+>
+> [b] Serviced interest: Interest is paid on a regular schedule throughout the term. This is the alternative to rolled-up interest described on the site's regulated/unregulated page.
+>
+> [b] Hybrid interest: The first result's summary lists this as a fourth option, but the snippet I retrieved doesn't describe it.
+>
+> [b] The site's "Types of Borrowing" page presents bridging interest as a lump sum paid at the end of the term, not monthly. It also gives an example at 0.75% per month, a 12-month term, rolled-up interest, and 75% loan to value.
+>
+> [b] Rolled-up interest is where the interest payments are retained and settled at the end of the loan term, per the "What are Bridging Loans" page.
+>
+> [b] The Silver Oak Capital site covers the main interest structures for bridging loans, though the results are from several different pages and vary in age.
+
+**Produits et services cités**
+
+- Bridging loans
+- Bridging loan interest structuring (rolled-up, retained, serviced, hybrid)
+
+**Cas d'usage**
+
+- Rolled-up interest for borrowers who want to ease cash flow during the term and settle everything at exit (accepting a larger final sum) [a][b]
+- Retained interest for borrowers who want no monthly payments and accept a smaller net advance [a][b]
+- Serviced interest for borrowers with sufficient cash flow who want to keep the principal unchanged [a]
+
+**Conditions, montants, délais, frais**
+
+- rolled-up interest
+- retained interest
+- serviced interest
+- hybrid interest
+- net loan amount / net amount advanced
+- loan term
+- principal
+- loan balance
+- sale proceeds
+- early repayment
+- loan to value (LTV)
+- lump sum interest at end of term
+
+**Critères d'éligibilité**
+
+- Serviced interest: suits borrowers with enough cash flow to pay interest monthly [a]
+- Rolled-up and retained interest: no monthly interest payments are required from the borrower [a][b]
+
+**Étapes du processus**
+
+- Rolled-up: no monthly payments; interest accrues onto the loan balance and the whole sum is cleared at the end of the term [a][b]
+- Retained: lender calculates interest for the whole term and deducts it from the advance at the start; borrower receives a lower net loan amount and makes no monthly payments [a][b]
+- Serviced: borrower pays interest monthly (regular schedule) throughout the term; principal remains unchanged until repayment [a][b]
+- Hybrid: mechanics not revealed in any snippet [a][b]
+
+**Géographie**
+
+- United Kingdom - implied by the site's bridging-loan focus (seed file); no location is stated in the snippets for this article
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (structure [a][b]) Bridging loans come with four interest options: rolled-up, retained, serviced and hybrid
+- (product-feature [a][b]) Rolled-up interest: no monthly payments; interest is added to the balance and cleared at the end of the term
+- (caution [a][b]) Rolled-up interest: eases cash flow but the final bill can be higher and may reduce sale proceeds
+- (product-feature [a][b]) Retained interest: the lender calculates the whole term's interest and deducts it at the start, so the net amount advanced is smaller
+- (caution [a]) Retained interest: some lenders will not refund unused retained interest if the loan is repaid early
+- (product-feature [a][b]) Serviced interest: paid monthly as with a traditional mortgage; the principal stays the same
+- (guidance [a]) Serviced interest suits borrowers with enough cash flow
+- (gap [a][b]) Hybrid interest is named as the fourth option but not described in any retrieved snippet
+- (worked-example from another s…) Other Silver Oak page (/types-of-borrowing/): bridging interest presented as a lump sum paid at end of term, not monthly; example at 0.75% per month, 12-month term, rolled-up interest, 75% loan to value
+- (definition from another site …) Other Silver Oak page (/what-are-bridging-loans-and-how-do-they-work/): rolled-up interest is where interest payments are retained and settled at the end of the loan term
+- (cross-reference from another …) Other Silver Oak page (/difference-between-regulated-unregulated-bridging-loans/): serviced interest described as the alternative to rolled-up interest
+
+_Notes d'extraction : Direct fetch impossible; the search tool explicitly stated it did not fetch the Silver Oak page and worked from its result snippet. All verbatim items are the search tool's summary sentences describing the snippet, not confirmed page text, so exact article wording may differ. Not revealed: H1, meta description, author, publication date, word count, in-article CTAs, FAQ block, in-article internal …_
+
+#### Smart Financing Options for Investors in the UK
+
+URL : <https://www.silveroakcapital.co.uk/what-is-smart-financing-innovative-funding-options-for-todays-investors/>  
+Confiance : low · Recherches effectuées : 2
+
+
+**Résumé.** Blog article (not a case study). Thesis: 'smart financing' is not a single product but an approach borrowers use to pick the best funding tools for their requirements, with the aims of maximising returns while limiting unnecessary risk and not depending on a single lender. Concrete guidance retrieved: (1) diversify funding sources so you are not overly reliant on one lender; (2) use leverage to boost returns; (3) consider tax, cash flow and exit strategy when choosing funding. The article then walks through 'innovative funding options'. Option 1 is bridging finance, described as short-term borrowing that covers the gap between an expense and future income, most often used to buy a property before selling another; it is presented as fast to arrange and more flexible than traditional finance (the retrieved text cuts off before any caveats). Mezzanine finance is mentioned as another popular option, especially in property deals. The remainder of the article (further options, conclusion, any CTA) was NOT retrieved. Search-engine metadata placed the page at roughly 463 days old when indexed.
+
+**Sections repérées**
+
+- **What is smart financing? (opening / definition)** — Smart financing is framed as an approach rather than a product: 'Smart financing cannot be illustrated through the use of a single product as it is an approach used by borrowers to ensure that they are accessing the best tools for their requirements.' [a] Aims: maximise returns while limiting unnecessary risk; keep risk exposure low; avoid reliance on one lender. [a][b]
+- **Smart financing practices (guidance list)** — Retrieved guidance: 'Ensure funding sources are sufficiently diversified so as not to be overly reliant on one lender.' [a]; use leverage to boost returns [a]; consider tax, cash flow and exit strategies [a]. The article may list further practices that were not retrieved.
+- **Funding option: Bridging finance** — Described as short-term borrowing covering the gap between an expense and future income, most often used to buy a property before selling another. Presented as fast to arrange and more flexible than traditional finance. [a][b] The retrieved text cuts off before the caveats/drawbacks section that the tool summary indicates follows.
+- **Funding option: Mezzanine finance** — Mentioned as another popular option, especially in property deals. [a] No further detail retrieved from this article.
+- **Remaining content (not retrieved)** — Any further funding options, worked examples, conclusion, FAQ or call to action were not present in the search snippets. Nothing beyond the above should be attributed to this page.
+
+**Phrases verbatim (anglais)**
+
+> [a] "Smart financing cannot be illustrated through the use of a single product as it is an approach used by borrowers to ensure that they are accessing the best tools for their requirements."
+>
+> [a] "Ensure funding sources are sufficiently diversified so as not to be overly reliant on one lender."
+>
+> [a] (search tool paraphrase of page) smart financing is 'a borrower's method for matching tools to needs, aimed at maximising returns while limiting unnecessary risk'
+>
+> [a] (search tool paraphrase of page) practices recommended: 'diversifying funders so they don't depend on one lender, using leverage to boost returns, and considering tax, cash flow and exit strategies'
+>
+> [a] (search tool paraphrase of page) bridging finance: 'short-term borrowing that covers a gap between an expense and future income, most often used to buy a property before selling another. It is fast to arrange and more flexible than traditional finance'
+>
+> [a] (search tool paraphrase of page) mezzanine finance: 'Mentioned as another popular option, especially in property deals'
+>
+> [b] (search tool paraphrase of page) 'smart financing as a way of working out which tools suit a borrower, rather than a single product. Its aims include keeping exposure to risk low and not relying on one lender.'
+>
+> [b] (search tool paraphrase of page) bridging finance: 'short-term funding that closes a timing gap, most often used to buy before selling an existing property'
+
+**Produits et services cités**
+
+- Bridging finance (first funding option discussed in the article)
+- Mezzanine finance (mentioned as another popular option, especially in property deals)
+
+**Cas d'usage**
+
+- Buying a property before selling another (bridging finance)
+- Covering a short-term gap between an expense and future income (bridging finance)
+- Property deals needing funding beyond a primary loan (mezzanine finance, per article mention)
+
+**Conditions, montants, délais, frais**
+
+- smart financing
+- bridging finance
+- mezzanine finance
+- leverage
+- exit strategy
+- cash flow
+- tax (as a financing consideration)
+- diversified funding sources / lender diversification
+- traditional finance (contrasted with bridging)
+
+**Géographie**
+
+- United Kingdom (title: 'Smart Financing Options for Investors in the UK')
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (positioning) Smart financing is an approach, not a single product: borrowers use it to access 'the best tools for their requirements' [a]
+- (promise) Smart financing aims to maximise returns while limiting unnecessary risk [a]; keep exposure to risk low and avoid reliance on one lender [b]
+- (product-claim) Bridging finance is 'fast to arrange and more flexible than traditional finance' (tool paraphrase) [a]
+- (product-claim) Bridging finance is most often used to buy a property before selling another [a][b]
+- (product-claim) Mezzanine finance is a popular option, especially in property deals [a]
+- (metadata) Page was approximately 463 days old at indexing (implies publication around mid-2025) [a]
+- (other-page-claim) OTHER PAGE, not this article: /light-to-heavy-refurbishment/ says funding is released in stages as works progress and the firm can cover up to 100% of build costs; targets flippers and refurb-to-let investors [b]
+- (other-page-claim) OTHER PAGE, not this article: /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/ says lenders may assess wider wealth such as investment portfolios and company shares rather than only earned income [b]
+- (other-page-claim) OTHER PAGE, not this article: /why-smart-investors-choose-property-bridging-loans-in-2025/ says bridging loans typically last only a few months [b]
+- (other-page-claim) OTHER PAGE, not this article: /your-trusted-local-finance-brokers-for-smart-lending-solutions/ describes development finance as covering site purchase, construction and completion funding, and mezzanine finance as extra funding used when senior debt alone is not enough [b]
+
+_Notes d'extraction : Sources: [a] = extended WebSearch on the exact URL; [b] = extended WebSearch 'site:silveroakcapital.co.uk smart financing innovative funding options investors'. Both returned the target page as the first result with title 'Smart Financing Options for Investors in the UK' (this is the search-result title, probably the SEO/meta title; the on-page H1 and meta description were not revealed, so h1/met…_
+
+#### How Can Offshore Borrowers Secure Fast UK Property Development Finance and Bridging Loans?
+
+URL : <https://www.silveroakcapital.co.uk/how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/>  
+Confiance : low · Recherches effectuées : 2
+
+
+**Résumé.** Blog article (not a case study). Only a thin summary of the page surfaced. Per the search tool's summary of search (b), the article ('the main offshore guide') defines an offshore bridging loan as a loan secured on UK property where the borrower is an overseas resident, national, or foreign-registered company; notes that lenders find some borrower home countries harder to source finance for, particularly those under UK government sanctions; lists the USA, South Africa, the EU and many Middle Eastern countries as easy to arrange finance for; and states that offshore bridging loans typically take a few weeks to arrange. The article's guidance on the 'development finance' and 'fast' aspects of its title, its structure, headings, FAQs and calls to action were NOT revealed by either search. Search (a) (exact URL) returned zero Silver Oak results, only third-party lender/broker pages.
+
+**Phrases verbatim (anglais)**
+
+> [b] (search-result title of the target page) "How Can Offshore Borrowers Secure Fast UK Property Development Finance and Bridging Loans?"
+>
+> [b] (homepage snippet, ellipsis in source) "Real Estate Finance professionals, specialising in loans over £500,000 ... through our network of over 800 lenders"
+>
+> [b] (case study /case-studies/bridging-loan-land-with-planning/) "the borrowers were not willing to provide a personal guarantee"
+>
+> [b] (other page titles seen) "Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions"; "Bridging Loan for Land with Planning"; "Crypto Bridging Advisory - Bitcoin Loans"; "Stuck in a Chain? How Bridging Loans Work"; "Property Finance FAQs"; "Your Trusted Local Finance Brokers for Smart Lending Solutions"; "Complex Offshore Structures & International Finance Solution"
+>
+> NOTE: all other article content below is the search tool's paraphrase of the page, not verbatim page text.
+
+**Produits et services cités**
+
+- Offshore bridging loans secured on UK property (borrower an overseas resident, national, or foreign-registered company) [b, target article per summary]
+- UK property development finance for offshore borrowers [b, from the page title only; no detail revealed]
+- Lending to offshore companies via a network of hundreds of lenders [b, /complex-offshore-structures/]
+- Bridging finance for an offshore trust company on a Glasgow site [b, case study]
+- Loans over £500,000 across UK, US, Western Europe and Middle East [b, homepage]
+
+**Cas d'usage**
+
+- Overseas resident, foreign national or foreign-registered company borrowing against UK property via a bridging loan [b, paraphrase]
+- Offshore trust company bridging finance for a Glasgow site without planning, with no personal guarantee [b, case study]
+
+**Conditions, montants, délais, frais**
+
+- offshore bridging loan
+- overseas resident
+- foreign-registered company
+- UK government sanctions
+- personal guarantee
+- offshore trust company
+- site without planning
+- high street lenders
+- atypical transactions
+
+**Critères d'éligibilité**
+
+- Borrower is an overseas resident, a foreign national, or a foreign-registered company, with the loan secured on UK property [b, paraphrase]
+- Borrowers from countries under UK government sanctions are harder for lenders to source finance for [b, paraphrase]
+- Borrowers from the USA, South Africa, the EU and many Middle Eastern countries are easy to arrange finance for [b, paraphrase]
+
+**Types de prêteurs**
+
+- Network of hundreds of lenders who lend to offshore companies [b, /complex-offshore-structures/]
+- Bridging lender network (used for the offshore trust Glasgow case) [b, case study]
+- Traditional high street lenders - generally prefer not to lend on atypical transactions [b, /faq/]
+- Network of over 800 lenders [b, homepage]
+
+**Étapes du processus**
+
+- Only timing was revealed: offshore bridging loans typically take a few weeks to arrange [b, paraphrase]. No step-by-step process from the article surfaced in the results.
+
+**Géographie**
+
+- United Kingdom (property securing the loan)
+- USA (borrower source country, easy)
+- South Africa (borrower source country, easy)
+- EU (borrower source country, easy)
+- Middle East (many countries, easy)
+- Countries under UK government sanctions (harder)
+- Glasgow (case study site)
+- UK, US, Western Europe, Middle East (firm footprint per homepage)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (definition) An offshore bridging loan is a loan secured on UK property where the borrower is an overseas resident, national, or foreign-registered company (search-summary paraphrase of the target article) [b]
+- (eligibility) Lenders find some home countries harder to source finance for, particularly those under UK government sanctions (paraphrase, target article) [b]
+- (geography) The USA, South Africa, the EU and many Middle Eastern countries are listed as easy to arrange finance for (paraphrase, target article) [b]
+- (timing) Offshore bridging loans typically take a few weeks to arrange (paraphrase, target article) [b]
+- (geography) Firm works across the UK, US, Western Europe and the Middle East (homepage) [b]
+- (number) Specialising in loans over £500,000 (homepage, verbatim) [b]
+- (number) Network of over 800 lenders (homepage, verbatim) [b]
+- (number) Access to a network of hundreds of lenders who lend to offshore companies (/complex-offshore-structures/, paraphrase) [b]
+- (market) Traditional high street lenders generally prefer not to lend on atypical transactions (/faq/, paraphrase) [b]
+- (case-study) Case study: offshore trust company sought bridging finance for a Glasgow site without planning; borrowers unwilling to give a personal guarantee; solved through the firm's bridging lender network (/case-studies/bridging-loan-land-with-planning/, paraphrase; note the page title says 'Land with Plann…
+
+_Notes d'extraction : Search (a) with the exact URL returned no silveroakcapital.co.uk result; all nine links were third-party lenders/brokers (kandoo, alternativebridging, boxxfinance, skybridgelending, berkeleycredit, tenn.capital, fdcommercial, Wikipedia) and their content was NOT recorded as it concerns unrelated companies. Search (b) returned the target page as the first result (title confirmed) and the search to…_
+
+#### Your Trusted Local Finance Brokers for Smart Lending Solutions
+
+URL : <https://www.silveroakcapital.co.uk/your-trusted-local-finance-brokers-for-smart-lending-solutions/>  
+Confiance : low · Recherches effectuées : 2
+
+
+**Résumé.** Blog article (not a case study) on Silver Oak Capital's site arguing why borrowers should use a local finance broker. Per the search tool's reading of the page [a], it is 'a general article about finance brokers, not specific company details', organised around three themes: (1) the broker's role: sourcing competitive finance options, identifying the best lenders for development finance, structuring deals around project timelines, handling applications, and advising on risk and repayment; (2) the lending products involved: bridging loans and mezzanine finance, the latter described as a hybrid option that adds funding for developers when senior debt alone is not enough; (3) the benefits of using a local broker: a broad lender network, better negotiating power, wide lender relationships, deals structured around the client's needs, and less time spent on the lending process, with local brokers said to have strong relationships with high-street banks, specialist lenders and private financiers [b]. No deal figures, rates, LTVs, eligibility criteria, FAQ or named calls to action were revealed. The page was dated about 617 days before the search (roughly February 2025). The full article text was not readable: result [b] states the snippet was cut off, so all content recorded here is the search tool's paraphrase rather than the page's own prose.
+
+**Sections repérées**
+
+- **The role of a finance broker (named 'role section' in [a])** — Sourcing competitive finance options; identifying the best lenders for development finance; structuring deals around project timelines; handling applications; advising on risk and repayment. [a]
+- **Lending products involved** — Bridging loans and mezzanine finance are listed among the products offered. Mezzanine finance is described as a hybrid option that adds funding for developers when senior debt alone isn't enough. [a]
+- **Benefits of using a local broker (named 'benefits section' in [a])** — Broad lender network and better negotiating power [a]; wide lender relationships, deals structured around a client's needs, less time spent on the lending process; local brokers have strong relationships with high-street banks, specialist lenders, and private financiers [b].
+
+**Phrases verbatim (anglais)**
+
+> [a] "The page itself is a general article about finance brokers, not specific company details. It covers the broker's role, the lending products involved, and the benefits of using a local broker."
+>
+> [a] "It describes a broker's job as sourcing finance options, structuring deals around project timelines, handling applications, and advising on risk and repayment."
+>
+> [a] "Its role section lists sourcing competitive finance options and identifying the best lenders for development finance."
+>
+> [a] "It lists bridging loans and mezzanine finance among the products offered. Mezzanine finance is described as a hybrid option that adds funding for developers when senior debt alone isn't enough."
+>
+> [a] "Its benefits section claims a broad lender network and better negotiating power. The page is dated about 617 days ago, so it may be out of date."
+>
+> [b] "Silver Oak Capital's page titled 'Your Trusted Local Finance Brokers for Smart Lending Solutions' describes why borrowers might use a local broker."
+>
+> [b] "It lists benefits such as wide lender relationships, deals structured around a client's needs, and less time spent on the lending process."
+>
+> [b] "Local brokers have strong relationships with high-street banks, specialist lenders, and private financiers."
+>
+> [b] "The snippet I saw is cut off, so I couldn't read the full text."
+>
+> [a] (site-level, homepage) "The firm's homepage describes it as a commercial mortgage broker and development finance provider, and says it works with over 800 lenders."
+>
+> [b] (site-level, homepage) "It arranges debt on real estate and luxury asset transactions across the UK, US, Western Europe and the Middle East through a network of over 800 lenders."
+>
+> [b] (site-level, /lenders/) "The lenders page says the firm generally focuses on transactions upwards of £500,000."
+>
+> [b] (site-level, /bridging-loans-uk/) "The bridging loans page says its access to many lenders allows it to provide independent whole-of-market advice."
+
+**Produits et services cités**
+
+- Finance brokerage: sourcing competitive finance options [a]
+- Identifying the best lenders for development finance [a]
+- Structuring deals around project timelines [a]
+- Handling loan applications [a]
+- Advising on risk and repayment [a]
+- Bridging loans (listed among products offered) [a]
+- Mezzanine finance (hybrid option adding funding when senior debt alone is not enough) [a]
+- Site-level (homepage, not the article): commercial mortgage brokerage, property development finance, bridging loans [b]
+
+**Cas d'usage**
+
+- Developers needing funding beyond what senior debt alone provides (mezzanine finance) [a]
+- Borrowers seeking the best lenders for development finance [a]
+- Borrowers who want to spend less time on the lending process and have deals structured around their needs [b]
+
+**Conditions, montants, délais, frais**
+
+- local finance broker
+- bridging loans
+- mezzanine finance
+- senior debt
+- development finance
+- lender network
+- negotiating power
+- high-street banks
+- specialist lenders
+- private financiers
+- whole-of-market advice (site-level, /bridging-loans-uk/) [b]
+
+**Types de prêteurs**
+
+- High-street banks [b]
+- Specialist lenders [b]
+- Private financiers [b]
+- Senior debt providers (implied: mezzanine 'adds funding for developers when senior debt alone isn't enough') [a]
+
+**Étapes du processus**
+
+- Broker role as described (reads as a sequence, not explicitly numbered on the page): 1. Source competitive finance options and identify the best lenders for development finance [a]
+- 2. Structure the deal around the project timeline [a]
+- 3. Handle the application [a]
+- 4. Advise on risk and repayment [a]
+
+**Géographie**
+
+- Article: 'local' brokers; no specific town, region or country named in the results
+- Site-level (homepage) [b]: UK, US, Western Europe, Middle East
+
+**Appels à l'action**
+
+- Article-level: none revealed in results
+- Site-level page title seen [b]: 'Development Finance Brokers - Get a Instant Quote Now' (https://www.silveroakcapital.co.uk/development-finance-brokers/)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (promise) Broad lender network (article benefits section) [a]
+- (promise) Better negotiating power (article benefits section) [a]
+- (promise) Wide lender relationships [b]
+- (promise) Deals structured around a client's needs [b]
+- (promise) Less time spent on the lending process [b]
+- (assertion) Local brokers have strong relationships with high-street banks, specialist lenders, and private financiers [b]
+- (definition) Mezzanine finance is a hybrid option that adds funding for developers when senior debt alone isn't enough [a]
+- (date-approximate) Page dated about 617 days before 2026-10-29, i.e. approximately February 2025 (derived from search tool freshness note) [a]
+- (number-site-level) Site-level (homepage): works with over 800 lenders [a][b]
+- (number-site-level) Site-level (/bridging-loans-uk/): 700+ lenders [b]
+- (number-site-level) Site-level (/property-development-finance/): 300+ lenders [b]
+- (number-site-level) Site-level (/lenders/): generally focuses on transactions upwards of £500,000 [b]; homepage: specialises in loans over £500,000 [a]
+- (number-external) External listing: advice for loans between £2m and £20m (figure conflicts with homepage per [a])
+- (promise-site-level) Site-level (/bridging-loans-uk/): independent whole-of-market advice [b]
+
+_Notes d'extraction : Source channel: WebSearch only (2 extended calls, [a] = exact URL query, [b] = site: query with slug keywords); direct fetch blocked; 0 calls refused. The 'verbatim' entries are quotations of the search tool's summaries, not confirmed page prose: no sentence was returned that is identifiably copied from the article body, and [b] states the page snippet was cut off. H1 and meta description were no…_
+
+#### Ways to Add Value Before Selling Property - Silver Oak Capital
+
+URL : <https://www.silveroakcapital.co.uk/different-ways-to-add-value-to-the-property-before-selling/>  
+Confiance : low · Recherches effectuées : 2
+
+
+**Résumé.** Blog article (type: guidance article, not a case study) aimed at property investors, arguing that pre-sale improvements are a way to raise an investment's profitability: 'Investors should aim to enhance the value of the property prior to sale.' Concrete guidance surfaced by search snippets: (1) keep the property well maintained because upkeep protects its value, and fix small faults early (a roof leak is cheap to fix but grows into a much larger issue if left unattended); (2) make sure the cost of any renovation does not outweigh the value it adds, illustrated by an investor who spends on an expensive renovation in an area with low property values. The search tool also attributed kitchen/bathroom updates, energy-efficiency work, cosmetic updates, loft conversions and securing planning permission for extensions/conversions to 'a separate page' on the site (most likely the sibling article /different-ways-to-grow-and-develop-property-value/, which also covers releasing equity from an existing property to fund renovations or extensions and permitted development rights). Financing angle from the site FAQ (not the article): if a buyer adds value, the firm aims to lend up to 75% of the new, higher valuation so the investor can recover most of their initial capital; a refurbishment bridging loan can fund the purchase and works and is typically repaid from sale or refinance onto a longer-term mortgage. Only three points were attributed to the target page itself; its full body, H1, meta description, author, date, CTAs and internal links were not revealed.
+
+**Sections repérées**
+
+- **Why add value before selling (target page, per [b])** — Pre-sale improvements are framed as a way to raise an investment's profitability; investors should aim to enhance the value of the property prior to sale.
+- **Maintenance first (target page, per [b])** — Keep the property well maintained, since upkeep protects its value. Small faults such as a roof leak are cheap to fix but can become a much larger, expensive issue if ignored.
+- **Renovation budget discipline (target page, per [b])** — The cost of a renovation should not outweigh the value it adds; the example given is an investor who spends heavily on an expensive renovation in an area with low property values.
+- **Common upgrades (attributed to a separate Silver Oak page, per [b])** — Kitchens and bathrooms, energy-efficiency work and cosmetic updates boost appeal; structural options such as converting a loft into an extra bedroom or office can substantially increase value; securing planning permission for extensions or conversions before a sale is another listed strategy.
+- **Sibling article content (per [a], /different-ways-to-grow-and-develop-property-value/)** — Releasing equity from an existing property to fund renovations or extensions, presented as a way to add value without high upfront costs; planning potential, i.e. securing planning permission before a sale or exploring permitted development rights; described as written by an independent mortgage broker that specialises in property development finance.
+- **Financing the uplift (site FAQ, per [b])** — If a buyer adds value, the firm aims to lend up to 75% of the new, higher valuation so the investor can recover most of their initial capital. A refurbishment bridging loan can fund both the purchase and the works, and is typically repaid from the sale of the property or upon refinance onto a longer-term mortgage.
+
+**Phrases verbatim (anglais)**
+
+> [b] "Investors should aim to enhance the value of the property prior to sale." (attributed by the search summary to the target page)
+>
+> [b] "a roof leak will be cheap to fix, but if left unattended it could grow to a much larger issue" (attributed to the target page)
+>
+> [b] "an expensive renovation in an area with low property values" (attributed to the target page, as the example of a renovation whose cost outweighs the value added)
+>
+> [b] "updating kitchens and bathrooms can significantly boost a property's appeal" (attributed to 'a separate page' on silveroakcapital.co.uk, likely /different-ways-to-grow-and-develop-property-value/)
+>
+> [b] "converting a loft into an extra bedroom or office can substantially increase value" (attributed to 'a separate page', likely /different-ways-to-grow-and-develop-property-value/)
+>
+> [b] "planning permission for extensions or conversions" (attributed to 'a separate page', likely /different-ways-to-grow-and-develop-property-value/)
+>
+> [b] "these loans can be repaid from sale of the property or upon refinance onto a longer-term mortgage" (attributed to the site FAQ, about refurbishment bridging loans)
+>
+> [a] Result title for the sibling article: "Different Ways to Grow and Develop Property Value" (https://www.silveroakcapital.co.uk/different-ways-to-grow-and-develop-property-value/)
+>
+> [b] Result title for the target page: "Ways to Add Value Before Selling Property - Silver Oak Capital"
+
+**Produits et services cités**
+
+- Refurbishment bridging loan (funds purchase and works; repaid from sale or refinance) - from site FAQ
+- Lending against the new, higher post-works valuation (up to 75%) - from site FAQ
+- Equity release from an existing property to fund renovations or extensions - from sibling article
+- Property development finance (the firm is described as an independent mortgage broker specialising in property development finance) - from sibling article
+
+**Cas d'usage**
+
+- Investor improving a property before sale to raise profitability
+- Routine maintenance and early repair of small faults (e.g. roof leak) to protect value
+- Kitchen and bathroom updates, energy-efficiency work, cosmetic updates
+- Loft conversion into an extra bedroom or office
+- Securing planning permission for extensions or conversions before selling
+- Exploring permitted development rights
+- Releasing equity from an existing property to fund works
+
+**Conditions, montants, délais, frais**
+
+- up to 75% of the new, higher valuation (lending aim after value is added - site FAQ, not the article)
+- refurbishment bridging loan repaid from sale or refinance onto a longer-term mortgage (site FAQ)
+
+**Géographie**
+
+- UK (implied by the site; no specific location named in the snippets)
+
+**Questions fréquentes**
+
+- **If I add value to a property, how much can I borrow against it? (site FAQ, surfaced by [b])** The firm aims to lend up to 75% of the new, higher valuation, so the investor can recover most of their initial capital.
+- **How is a refurbishment bridging loan repaid? (site FAQ, surfaced by [b])** Typically from the sale of the property or upon refinance onto a longer-term mortgage; the loan can fund both the purchase and the works.
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (lending-parameter) Aims to lend up to 75% of the new, higher valuation once value has been added (source: silveroakcapital.co.uk/faq/, not the article)
+- (positioning) Site/author described as an independent mortgage broker that specialises in property development finance (source: sibling article summary [a])
+- (guidance) A roof leak left unattended could grow into a much larger issue (article guidance)
+- (guidance) Renovation cost should not outweigh the value it adds; expensive renovation in a low-value area given as the cautionary example (article guidance)
+
+_Notes d'extraction : Search (a), the exact URL in extended mode, did NOT return the target page; it returned the sibling article /different-ways-to-grow-and-develop-property-value/ plus unrelated US/UK real-estate pages (ignored). Search (b), 'site:silveroakcapital.co.uk add value property before selling', returned the target page as the first result with title 'Ways to Add Value Before Selling Property - Silver Oak …_
+
+#### Development Finance Requirements UK Explained
+
+URL : <https://www.silveroakcapital.co.uk/development-finance-requirements-in-the-uk-explained/>  
+Confiance : low · Recherches effectuées : 2
+
+
+**Résumé.** Blog article by Silver Oak Capital on what UK development finance lenders require from borrowers. Per the search tool's summary of result (b), the article is a guide to eligibility factors whose first listed requirement is 'Experience and Track Record', treated as one of the most important factors because lenders see inexperienced developers as higher risk. The same summary, drawing on this page and related Silver Oak pages without always distinguishing which, lists further requirements: an equity contribution (no lender funds 100% of a development), planning (most development finance lenders will not take planning risk), close scrutiny of the contractor's experience, finances and professional team, loan sizing by LTV/LTC/LTGDV with a maximum cited at 75% loan to GDV, first-time developer limits of 60-65% LTGDV with a larger cash deposit and personal guarantees, and staged drawdown verified by an independent surveyor. Search (a) with the exact URL did not return the page; its third-party results are excluded.
+
+**Phrases verbatim (anglais)**
+
+> [b] The main article is "Development Finance Requirements in the UK Explained," and the other results cover related topics.
+>
+> [b] The main guide treats the developer's experience as one of the most important eligibility factors, since lenders see inexperienced developers as higher risk. Experience and Track Record is its first listed requirement.
+>
+> [b] The site's LTV/LTC/LTGDV guide explains that these metrics set the maximum loan, the equity the developer must contribute, and whether a project is viable. For example, one article notes that lenders may lend up to a maximum of 75% loan to GDV.
+>
+> [b] One article says that it is impossible to find a lender who will fund the full development without an equity contribution from the borrower.
+>
+> [b] According to the site, most development finance lenders will not take planning risk.
+>
+> [b] Lenders examine the contractor's experience, finances, and professional team closely.
+>
+> [b] The first-time developer page says lenders typically offer a maximum of 60% to 65% LTGDV to those applicants, and they usually expect a larger cash deposit. Personal guarantees are also expected.
+>
+> [b] Funds are released in stages rather than as a lump sum. The lender verifies completed work, often through an independent surveyor, before reimbursing the developer.
+>
+> [b] Caveats: the search results are excerpts and snippets, so I could not confirm the full text of each page. Some figures, such as LTV and deposit ranges, vary by lender and deal, and the site's own pages present them as typical rather than fixed.
+>
+> [a] I couldn't find the Silver Oak Capital page itself in the results, so I searched the general topic of UK development finance requirements instead.
+
+**Produits et services cités**
+
+- Property development finance (UK)
+- First-time developer finance
+- Development finance brokerage
+
+**Conditions, montants, délais, frais**
+
+- Gross Development Value (GDV)
+- Loan to GDV (LTGDV)
+- LTV
+- LTC
+- Equity contribution
+- Planning risk
+- Personal guarantee
+- Staged drawdown
+- Independent surveyor
+- Track record
+
+**Critères d'éligibilité**
+
+- Experience and track record of the developer (first listed requirement in the article).
+- Equity contribution from the borrower; no lender funds the full development (attributed to 'one article' on the site).
+- Planning: most development finance lenders will not take planning risk (attributed to 'the site').
+- Contractor's experience, finances and professional team are examined closely (attribution within site not specified).
+- First-time developers: maximum 60-65% LTGDV, larger cash deposit, personal guarantees (from the related /first-time-developer-finance/ page).
+
+**Types de prêteurs**
+
+- Development finance lenders (generic; no specific lender types named in results)
+
+**Étapes du processus**
+
+- Funds released in stages rather than as a lump sum.
+- Lender verifies completed work, often through an independent surveyor, before reimbursing the developer.
+
+**Géographie**
+
+- United Kingdom
+- London (related page title on London resi-led development deals)
+- Scotland (related page on development finance in Scotland)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (eligibility) Experience and Track Record is the first listed requirement in the article; lenders see inexperienced developers as higher risk.
+- (number) Lenders may lend up to a maximum of 75% loan to GDV (summary attributes this to 'one article' on the site, not confirmed as this page).
+- (eligibility) It is impossible to find a lender who will fund the full development without an equity contribution from the borrower (summary attributes this to 'one article' on the site).
+- (eligibility) Most development finance lenders will not take planning risk (summary attributes this to 'the site').
+- (number) First-time developers typically offered a maximum of 60% to 65% LTGDV, larger cash deposit expected, personal guarantees expected (from /first-time-developer-finance/, a related page).
+- (process) Funds are released in stages; lender verifies completed work, often through an independent surveyor, before reimbursing the developer (attribution within site not specified).
+- (number) Related page title: 'Why 70% of London Development Finance Deals Get Rejected' (/why-lenders-reject-70-of-london-resi-led-development-deals/).
+
+_Notes d'extraction : Search (a) (exact URL, extended) did not return the Silver Oak page; it returned only third-party lender/broker pages (swoopfunding, thelondonreport, commercialtrust, constructioncapital, easfinance, nmfinance, abcfinance), whose content is NOT recorded here as it is not Silver Oak content. Search (b) (site: query, extended) returned the target page with SERP title 'Development Finance Requiremen…_
+
+#### Top Mistakes to Avoid in Property Development Finance
+
+URL : <https://www.silveroakcapital.co.uk/top-mistakes-to-avoid-when-applying-for-property-development-lending/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Not revealed in search results. The SERP title 'Top Mistakes to Avoid in Property Development Finance' is most likely the HTML title tag; the on-page H1 could not be confirmed.  
+**Meta description :** Not revealed in search results.
+
+**Résumé.** Blog article from Silver Oak Capital titled 'Top Mistakes to Avoid in Property Development Finance' (slug: top-mistakes-to-avoid-when-applying-for-property-development-lending). Thesis: developers applying for property development lending make avoidable errors that weaken their application with lenders. Confirmed content: Mistake 1 - 'Underestimating Total Project Costs' (section heading confirmed in search b): described as 'perhaps one of the most common errors that developers make'; the cost estimate is both crucial to the success of the development and 'an important factor on which lenders base their lending decisions'; inaccurate figures make a developer look inexperienced; guidance is to factor in 'a healthy contingency (generally 5-15%)' to cover overruns, and for less experienced developers to consult architects and quantity surveyors. Mistake 2 (search a only, tool summary wording) - not having a clear exit strategy: lenders place great importance on the borrower's exit strategy because it determines when and how they are repaid. Search (b)'s tool summary added further Silver Oak points whose page attribution is uncertain (they may come from this article or from sibling Silver Oak articles returned alongside it): a weak exit - lenders want to see repayment via a sale with proven demand or a refinance onto a mortgage ('Borrowers generally rely on the sale or refinance of the development.'); inexperience - lenders prefer a strong track record and see first-time developers as higher risk ('Borrowers with limited experience or failed past projects are less likely to secure financing than experienced borrowers'); valuation and LTV - lenders commission a valuation of the current state of the site and apply a maximum day-one LTV, usually around 75% ('Lenders are constrained to a maximum day one loan to value (usually 75%)'); overstating GDV - explicitly attributed by the tool to the separate Silver Oak article 'Why 70% of London Development Finance Deals Get Rejec…
+
+**Sections repérées**
+
+- **Underestimating Total Project Costs** — Heading confirmed verbatim [b]. Failing to accurately estimate project costs is 'perhaps one of the most common errors that developers make' [a]. Cost estimation is 'crucial to the success of their development' and 'an important factor on which lenders base their lending decisions' [b]; lenders weigh it heavily [a]. Inaccurate figures make a developer look inexperienced [b]. Guidance: factor in 'a healthy contingency (generally 5-15%)' to cover overruns [a][b]; less experienced developers should consult architects and quantity surveyors [b].
+- **Not having a clear exit strategy** — Heading wording taken from the search (a) tool summary; exact on-page heading not confirmed. Lenders place great importance on the borrower's exit strategy, as this will determine when and how they are repaid [a]. Search (b) adds (attribution uncertain): lenders want to see how the loan will be repaid, either through a sale with proven demand or a refinance onto a mortgage; 'Borrowers generally rely on the sale or refinance of the development.'
+- **Further points surfaced in search (b) - page attribution uncertain** — Overstating gross development value (GDV): lenders base their terms on GDV; the tool attributed this point to the sibling article 'Why 70% of London Development Finance Deals Get Rejected'. Inexperience: lenders prefer developers with a strong track record and see first-time developers as higher risk; 'Borrowers with limited experience or failed past projects are less likely to secure financing than experienced borrowers'. Valuation and loan-to-value: lenders commission a valuation of the current state of the site and a maximum day-one LTV applies, 'usually 75%'. These may belong to this arti…
+
+**Phrases verbatim (anglais)**
+
+> [a][b] SERP title: "Top Mistakes to Avoid in Property Development Finance"
+>
+> [b] Section heading: "Underestimating Total Project Costs"
+>
+> [a] "Perhaps one of the most common errors that developers make is failing to accurately estimate their project costs."
+>
+> [b] "Apart from the fact that their cost estimation is crucial to the success of their development, it is also an important factor on which lenders base their lending decisions."
+>
+> [a][b] "a healthy contingency (generally 5-15%)"
+>
+> [a] (tool summary wording, possibly paraphrased) "lenders place great importance on the borrower's exit strategy, as this will determine when and how they are repaid"
+>
+> [b] (tool summary wording) "inaccurate figures make a developer look inexperienced"; "recommends that less experienced developers consult architects and quantity surveyors"
+>
+> [b] (Silver Oak content, page attribution uncertain) "Borrowers generally rely on the sale or refinance of the development."
+>
+> [b] (Silver Oak content, page attribution uncertain) "Borrowers with limited experience or failed past projects are less likely to secure financing than experienced borrowers"
+>
+> [b] (Silver Oak content, page attribution uncertain) "Lenders are constrained to a maximum day one loan to value (usually 75%)"
+>
+> [b] (tool summary, attributed to the sibling Silver Oak article 'Why 70% of London Development Finance Deals Get Rejected') "GDV errors are listed among the avoidable mistakes in that piece."
+
+**Produits et services cités**
+
+- Property development finance / property development lending (article topic)
+
+**Conditions, montants, délais, frais**
+
+- project costs / cost estimation
+- contingency (generally 5-15%)
+- cost overruns
+- exit strategy
+- sale or refinance of the development
+- refinance onto a mortgage
+- proven demand (for sale exit)
+- gross development value (GDV)
+- valuation of the current state of the site
+- day one loan to value (LTV), usually 75%
+- track record / developer experience / first-time developer
+- architects and quantity surveyors
+
+**Critères d'éligibilité**
+
+- Lenders base lending decisions partly on the accuracy of the developer's cost estimate; inaccurate figures make a developer look inexperienced [a][b]
+- Lenders place great importance on a clear exit strategy showing when and how they will be repaid [a]
+- (attribution uncertain) Lenders prefer developers with a strong track record; borrowers with limited experience or failed past projects are less likely to secure financing; first-time developers seen as higher risk [b]
+- (attribution uncertain) Lenders commission a valuation of the site's current state and are constrained to a maximum day-one LTV, usually 75% [b]
+
+**Types de prêteurs**
+
+- Not specified in the snippets; the article refers generically to 'lenders'
+
+**Étapes du processus**
+
+- Estimate total project costs accurately before applying [a][b]
+- Build in a healthy contingency of generally 5-15% to cover overruns [a][b]
+- Less experienced developers: consult architects and quantity surveyors on costings [b]
+- Define a clear exit strategy showing when and how the lender will be repaid - sale (with proven demand) or refinance onto a mortgage [a][b]
+- (attribution uncertain) Expect the lender to commission a valuation of the site's current state and to cap the day-one LTV at around 75% [b]
+
+**Géographie**
+
+- Not stated in the snippets for this article
+- UK implied by the site and by sibling results in the same search ('Development Finance Requirements UK Explained', 'Why 70% of London Development Finance Deals Get Rejected')
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (guidance figure [a][b]) A healthy contingency is generally 5-15% of project costs
+- (assertion [a]) Underestimating project costs is 'perhaps one of the most common errors that developers make'
+- (assertion [b]) Cost estimation is 'an important factor on which lenders base their lending decisions'
+- (lending parameter [b] - Silve…) Lenders are constrained to a maximum day one loan to value (usually 75%)
+- (statistic in the title of a s…) 70% of London resi-led development finance deals get rejected by lenders
+
+_Notes d'extraction : Exactly 2 WebSearch calls run (both mode extended), 0 refused; no direct fetch attempted. Search (a) (exact URL) returned the Silver Oak page as result #3 among unrelated competitor articles on the same topic (x2mortgage.com, purepropertyfinance.co.uk, metacommercialfinance.co.uk, littlefishproperties.com.au, anchorloans.com, lateralpartners.co.nz, bluehomesinteriors.com, insulacapitalgroup.com) …_
+
+#### How Does Property Development Finance Work in Scotland?
+
+URL : <https://www.silveroakcapital.co.uk/how-does-property-development-finance-in-scotland/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** How Does Property Development Finance Work in Scotland? (search-result title; H1 not separately confirmed)  
+
+**Résumé.** Blog article (not a case study) presenting property development finance as a common funding route for developers in Scotland, while noting that Scotland's unique market conditions and planning regulations should be considered. The visible content is a typology of the main finance types available: senior development loans (covering a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value), mezzanine finance (a secondary loan that sits behind senior debt, reducing the developer's equity requirement), bridging loans, stretched senior loans and joint venture finance. The concrete guidance revealed on applying is that the lender will want a clear business case including cost estimates, projected timelines and an exit strategy. The full article body (introduction, section headings, rates, worked examples, Scottish legal specifics such as Standard Security, FAQ, calls to action) was not exposed by the search snippets.
+
+**Sections repérées**
+
+- **Introduction / context (heading wording not confirmed)** — Property development finance is described as a common funding route in Scotland; unique market conditions and planning regulations in Scotland should be considered.
+- **Types of property development finance (heading wording not confirmed)** — Senior development loans: cover a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value (GDV). Mezzanine finance: a secondary loan that sits behind senior debt, reducing the developer's equity requirement. Bridging loans, stretched senior loans and joint venture finance are also listed; no detail on these three was revealed.
+- **How to apply (heading wording not confirmed)** — The lender will want a clear business case, including cost estimates, projected timelines, and exit strategy.
+
+**Phrases verbatim (anglais)**
+
+> [a] (search-tool summary of the page excerpt) "lists the main finance types: senior development loans that cover a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value (GDV), mezzanine finance, a secondary loan that sits behind senior debt, bridging loans, stretched senior loans, and joint venture finance."
+>
+> [a] (search-tool summary of the page excerpt) "It also describes how to apply: the lender will want a clear business case, including cost estimates, projected timelines, and exit strategy."
+>
+> [b] (search-tool summary) "Silver Oak's guide on property development finance in Scotland says it is a common funding route there. It notes that unique market conditions and planning regulations should be considered."
+>
+> [b] (search-tool summary) "The snippet lists senior loans, mezzanine finance, bridging loans, stretched senior loans, and joint venture finance. It also describes senior loans as typically up to 65-75% of Gross Development Value (GDV)."
+>
+> [seed] (quoted snippet recorded in seed.json first pass) "Senior development loans cover a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value."
+>
+> [seed] (quoted snippet recorded in seed.json first pass) mezzanine finance is "a secondary loan that sits behind senior debt, reducing the developer's equity requirement"
+>
+> [b] (other Silver Oak page, /property-development-finance/, search-tool summary) "loans are secured against the available land and are drawn in line with the business plan and construction schedule. Interest is rolled up on top of the principal amount, and the loan is repaid at completion from sales or refinance."
+>
+> [b] (other Silver Oak page, /senior-development-finance/, search-tool summary) "says the firm can help secure up to 90% with certain lenders loan-to-cost."
+>
+> [b] (other Silver Oak page, /case-studies/, search-tool summary) "an entry about a property developer specializing in refurbishing historic residential buildings in Edinburgh. The snippet doesn't show the outcome."
+
+**Produits et services cités**
+
+- Senior development loans
+- Mezzanine finance
+- Bridging loans
+- Stretched senior loans
+- Joint venture finance
+
+**Cas d'usage**
+
+- Funding land purchase and construction costs for a development in Scotland
+- Reducing developer equity requirement via mezzanine behind senior debt
+
+**Conditions, montants, délais, frais**
+
+- Property development finance
+- Senior development loan / senior debt
+- Mezzanine finance (secondary loan behind senior debt)
+- Bridging loan
+- Stretched senior loan
+- Joint venture finance
+- Gross Development Value (GDV)
+- Equity requirement
+- Business case
+- Cost estimates
+- Projected timelines
+- Exit strategy
+- Loan-to-cost (from /senior-development-finance/, not this article)
+- Rolled-up interest (from /property-development-finance/, not this article)
+
+**Critères d'éligibilité**
+
+- Lender will want a clear business case
+- Cost estimates required
+- Projected timelines required
+- Exit strategy required
+- Senior loans sized typically up to 65-75% of GDV (implies developer equity / mezzanine covers the balance)
+
+**Types de prêteurs**
+
+- Senior development lenders
+- Mezzanine lenders
+- Bridging lenders
+- Stretched senior lenders
+- Joint venture finance partners
+
+**Étapes du processus**
+
+- Prepare a clear business case for the lender
+- Include cost estimates
+- Include projected timelines
+- Define the exit strategy
+- (Sequence and further steps such as valuation, drawdown in tranches, completion were not revealed for this article; the sibling article /how-does-property-development-finance-work-a-step-by-step-guide/ covers tranches per seed.json)
+
+**Géographie**
+
+- Scotland
+- Edinburgh (mentioned on /case-studies/ page, historic residential refurbishment developer; not confirmed as part of this article)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (lending parameter (this artic…) Senior development loans typically cover up to 65-75% of Gross Development Value (GDV)
+- (product description (this art…) Mezzanine finance sits behind senior debt and reduces the developer's equity requirement
+- (market statement (this articl…) Property development finance is a common funding route in Scotland
+- (market statement (this articl…) Scotland has unique market conditions and planning regulations to consider
+- (lending parameter (other page…) Firm can help secure up to 90% loan-to-cost with certain lenders
+- (product mechanics (other page…) Development loans secured against the land, drawn in line with business plan and construction schedule, interest rolled up, repaid at completion from sales or refinance
+
+_Notes d'extraction : Search (a) with the literal URL and search (b) with site:silveroakcapital.co.uk + slug keywords both returned the target page with title 'How Does Property Development Finance Work in Scotland?' (consistent across both and with seed.json). The WebSearch tool returns paraphrased summaries of snippets rather than raw snippet text, so the 'verbatim' entries tagged [a]/[b] are the tool's wording of t…_
+
+#### How Does Property Development Finance Work? A Step-by-Step Guide
+
+URL : <https://www.silveroakcapital.co.uk/how-does-property-development-finance-work-a-step-by-step-guide/>  
+Confiance : medium · Recherches effectuées : 2
+
+
+**Résumé.** Blog explainer on how UK property development finance is structured and released. Thesis (per the search tool's summary of result [b]): development finance is not advanced as one lump sum but released in stages over the life of a scheme. Concrete guidance recovered: (1) the land loan typically will not exceed 75% of the purchase price, subject to loan-to-cost and loan-to-GDV ratios; (2) once the land is bought and works start, the construction loan is drawn down in tranches; (3) under 'arrears funding' the developer pays for the first stage of works and the lender reimburses after an independent surveyor verifies the work; (4) for larger phased schemes a 'peak-debt facility' operates like a revolving credit line, with sale proceeds from completed units repaying the lender before the next tranche is drawn; (5) lenders expect a clear business case covering cost estimates, projected timelines and an exit strategy; (6) a broker adds value by giving access to a wide range of lenders, from high street banks to specialist funders. The seed's first-pass snippet adds the sentence 'One of the most common ways in which development finance is structured is a series of tranches.' and the sequence: buy land or an existing property, obtain planning approval, fund in tranches. The search tool stated that the guide's full step list was not in the results and that the page was cut off before its later sections, so the complete step sequence, any FAQ, calls to action, rate figures and worked examples remain unconfirmed.
+
+**Sections repérées**
+
+- **Staged release and the land loan [b]** — Development finance is usually released in stages rather than as a single advance. The first element is the land loan, which typically will not exceed 75% of the purchase price; the actual figure depends on the loan-to-cost and loan-to-GDV ratios of the scheme.
+- **Construction stage: drawdown in tranches [b]** — Once the land has been bought and works begin, the construction loan is usually drawn down in tranches. Under arrears funding, the developer pays for the first stage of works out of its own funds; the lender then verifies the completed work through an independent surveyor before reimbursing the costs.
+- **Peak-debt facility for larger phased schemes [b]** — For larger, phased developments a peak-debt facility operates like a revolving credit line: sale proceeds from completed units repay the lender before the developer draws the next tranche, keeping the outstanding debt within an agreed peak.
+- **What lenders expect from the application [b]** — Lenders expect a clear business case including cost estimates, projected timelines and an exit strategy.
+- **Role of a broker [b]** — A broker can help by giving access to a wide range of lenders, from high street banks to specialist funders. (Attribution to this page versus the sibling development-finance-broker page is uncertain.)
+- **Related product: bridging loans [b, attribution uncertain]** — Bridging loans are described as a related product, typically secured against property and structured for short-term repayment, usually between 6 to 24 months. This bullet most likely derives from the sibling bridging pages returned in the same search.
+- **Sequence recorded in seed first pass [seed]** — Buy land or an existing property; obtain planning approval; fund in tranches. Quote: 'One of the most common ways in which development finance is structured is a series of tranches.'
+
+**Phrases verbatim (anglais)**
+
+> [b] (search-tool summary wording, not confirmed page text) "Development finance is usually released in stages. The land loan typically won't exceed 75% of the purchase price, though this depends on loan-to-cost and loan-to-GDV ratios."
+>
+> [b] (search-tool summary wording) "Once the land is bought and works start, the construction loan is usually drawn down in tranches. Under arrears funding, the developer covers the first stage, and the lender verifies the work through an independent surveyor before reimbursing the costs."
+>
+> [b] (search-tool summary wording) "For larger phased schemes, a peak-debt facility works like a revolving credit line. Sale proceeds from completed units repay the lender before the developer draws the next tranche."
+>
+> [b] (search-tool summary wording) "Lenders expect a clear business case, including cost estimates, projected timelines, and an exit strategy. A broker can help by giving access to a wide range of lenders, from high street banks to specialist funders."
+>
+> [b] (search-tool summary wording; attribution to this page uncertain, may derive from sibling bridging-loan pages in the same result set) "A related product, typically secured against property and structured for short-term repayment, usually between 6 to 24 months."
+>
+> [b] (search-tool meta remark) "The guide's full step list wasn't in the results, so I can only confirm the points above. Only the first result is the step-by-step guide itself, and it was cut off before its later sections."
+>
+> [a] (search-tool meta remark) "The search didn't return the Silver Oak Capital page itself, so I can't confirm what it says."
+>
+> [seed] (first-pass snippet recorded 18 Oct 2026) "One of the most common ways in which development finance is structured is a series of tranches."
+
+**Produits et services cités**
+
+- Property development finance (staged: land loan, then construction loan drawn in tranches)
+- Peak-debt / revolving development facility for larger phased schemes
+- Development finance broker service (access to high street banks through to specialist funders)
+- Bridging loans (mentioned as a related short-term product; attribution to this page uncertain)
+
+**Cas d'usage**
+
+- Funding land acquisition for a development scheme [b]
+- Funding construction works in stages via tranches [b]
+- Larger phased schemes financed through a peak-debt (revolving) facility [b]
+
+**Conditions, montants, délais, frais**
+
+- development finance
+- land loan
+- construction loan
+- tranches / drawdown in tranches
+- staged release
+- arrears funding
+- independent surveyor
+- peak-debt facility
+- revolving credit line
+- phased scheme
+- loan-to-cost (LTC)
+- loan-to-GDV (LTGDV)
+- gross development value (GDV)
+- business case
+
+**Critères d'éligibilité**
+
+- A clear business case, including cost estimates, projected timelines and an exit strategy [b]
+- Land element limited to typically 75% of purchase price, dependent on loan-to-cost and loan-to-GDV ratios [b]
+
+**Types de prêteurs**
+
+- high street banks [b]
+- specialist funders [b]
+
+**Étapes du processus**
+
+- Acquire the site: land loan, typically not exceeding 75% of the purchase price, subject to loan-to-cost and loan-to-GDV ratios [b]
+- Obtain planning approval before development funding (seed first-pass sequence) [seed]
+- Start works: construction loan drawn down in tranches [b]
+- Arrears funding: developer pays for the first stage; independent surveyor verifies the work; lender reimburses the costs [b]
+- Larger phased schemes: peak-debt facility works like a revolving credit line; sale proceeds from completed units repay the lender before the next tranche is drawn [b]
+- Later steps (exit, repayment mechanics, timings) not revealed: the tool stated the page was cut off before its later sections
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (number - LTV cap on land elem…) The land loan typically won't exceed 75% of the purchase price, though this depends on loan-to-cost and loan-to-GDV ratios
+- (structure [b]) Development finance is usually released in stages
+- (structure [b]) Once the land is bought and works start, the construction loan is usually drawn down in tranches
+- (process [b]) Under arrears funding, the developer covers the first stage and the lender verifies the work through an independent surveyor before reimbursing the costs
+- (structure [b]) For larger phased schemes, a peak-debt facility works like a revolving credit line; sale proceeds from completed units repay the lender before the developer draws the next tranche
+- (eligibility [b]) Lenders expect a clear business case, including cost estimates, projected timelines, and an exit strategy
+- (positioning / promise [b]) A broker can help by giving access to a wide range of lenders, from high street banks to specialist funders
+- (number - term; attribution to…) Bridging loans are typically secured against property and structured for short-term repayment, usually between 6 to 24 months
+- (structure [seed first-pass sn…) One of the most common ways in which development finance is structured is a series of tranches
+
+_Notes d'extraction : Search (a), the exact URL in extended mode, did NOT return the Silver Oak page: it returned only third-party UK guides (capitalise.com, harperjames.co.uk, iwoca.co.uk, brickflow.com, fundingoptions.com, tls-live.com, mu-mortgages.com), two of which carry the identical title 'How Does Property Development Finance Work? A Step-by-Step Guide'. Their content was NOT recorded here (unrelated companies…_
+
+#### Best Finance Options for New Build Homes
+
+URL : <https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Not revealed by snippets. Both searches list the page under the SERP/meta title 'Best Finance Options for New Build Homes'; the slug reads 'different-ways-to-finance-new-build-homes-in-the-uk'.  
+**Meta description :** Not revealed verbatim. Search (a)'s excerpt says the page covers more options 'from self-build mortgages to government schemes', which reads like meta-description wording but is unconfirmed.
+
+**Résumé.** Blog article (type: guide/listicle, not a case study) giving an overview of the main ways to fund a new-build home in the UK. Content actually revealed by snippets: (1) New build mortgages, described as 'generally standard mortgage products designed to fund properties that have recently been constructed or are currently being constructed'; lenders apply stricter criteria and lower loan-to-value ratios, with typical LTVs of 75% to 85%, and some lenders set deadlines for completion; the page appears to have a 'Key Features' subsection. (2) Self-build mortgages, for people building from scratch: 'Unlike a traditional mortgage, funds are released in stages' at construction milestones, either in arrears or in advance. (3) Buy-to-let mortgages for new builds, for investors buying a new-build property to rent out. The excerpt says the article covers further options 'from self-build mortgages to government schemes', so a government-schemes section exists but its content was not surfaced. Search (b)'s tool summary also described development finance (loan secured against land, released in tranches tied to the build schedule, interest rolled up and repaid on completion from sales or refinance, first tranche usually covering the land and generally not exceeding 75% of the purchase price), mezzanine finance and bridging loans, and exit routes (sell the units, rent and refinance, or repay from other developments), but it explicitly attributed the mezzanine/bridging points to the Scotland guide and drew on /property-development-finance/ and other sibling pages, so attribution of those points to this article is uncertain. The full article body (introduction, government schemes section, any conclusion or CTA) was not retrieved.
+
+**Phrases verbatim (anglais)**
+
+> [a] "New build mortgages are generally standard mortgage products designed to fund properties that have recently been constructed or are currently being constructed."
+>
+> [a] "from self-build mortgages to government schemes" (fragment the tool reported as the excerpt saying the page covers more options)
+>
+> [a] (tool summary wording) "Lenders often apply stricter criteria and lower loan-to-value ratios, and the page lists typical LTVs of 75% to 85%."
+>
+> [a] (tool summary wording) "These suit people building from scratch. Funds are paid out at construction milestones, either in arrears or in advance."
+>
+> [a] (tool summary wording) "These serve investors who buy a new-build property to rent out."
+>
+> [b] "New build mortgages are generally standard mortgage products"
+>
+> [b] "key features are in Key Features" (fragment; suggests a 'Key Features' subsection on the page)
+>
+> [b] "Unlike a traditional mortgage, funds are released in stages."
+>
+> [b] (tool summary wording) "Lenders apply tighter criteria and lower loan-to-value limits, and the site cites typical LTVs of 75% to 85%. Some lenders also set deadlines for completion."
+>
+> [b] "multiple tranches released in line with project stages" (development finance; page attribution uncertain)
+>
+> [b] "loans secured against the land, with interest rolled up" (development finance; page attribution uncertain)
+>
+> [b] (tool summary wording) "The first tranche usually covers the land, and the site notes it generally won't exceed 75% of the purchase price." (page attribution uncertain)
+>
+> [b] "senior development loans, mezzanine finance and bridging loans" (tool attributes this to the Scotland guide, not this article)
+>
+> [b] "sell the units, rent and refinance, or repay from other developments" (exit routes; page attribution uncertain)
+>
+> [b] (tool summary wording, sibling page /light-to-heavy-refurbishment/) "refurbishment finance (bridging-based, often covering up to 100% of build costs)"
+
+**Produits et services cités**
+
+- New build mortgages
+- Self-build mortgages
+- Buy-to-let mortgages for new builds
+- Government schemes (section named in excerpt, content not surfaced)
+- Development finance (tranche-based; attribution to this article uncertain, may come from sibling pages)
+- Mezzanine finance (attributed by tool to the Scotland guide)
+- Bridging loans (attributed by tool to the Scotland guide)
+
+**Cas d'usage**
+
+- Buying a recently constructed or under-construction home with a new build mortgage
+- Building a home from scratch with a self-build mortgage
+- Investor buying a new-build property to rent out with a buy-to-let mortgage
+- Ground-up or conversion development funded in tranches (attribution uncertain)
+
+**Conditions, montants, délais, frais**
+
+- new build mortgage
+- self-build mortgage
+- buy-to-let mortgage
+- loan-to-value (LTV)
+- stage payments in arrears / in advance
+- construction milestones
+- completion deadline
+- government schemes
+- development finance
+- tranches
+- rolled-up interest
+- senior development loan
+- mezzanine finance
+- bridging loan
+
+**Critères d'éligibilité**
+
+- New build mortgages: lenders apply stricter criteria and lower LTV ratios than on standard homes; typical LTV 75% to 85%
+- New build mortgages: some lenders set deadlines for completion
+- Self-build mortgages: suited to people building a home from scratch
+- Buy-to-let new build mortgages: for investors purchasing a new-build property to rent out
+- Development finance (attribution uncertain): first tranche generally capped at 75% of the land purchase price
+
+**Types de prêteurs**
+
+- Mortgage lenders (new build / self-build / buy-to-let products) - generic 'lenders' only, no names given
+- Development finance lenders releasing funds in tranches (attribution uncertain)
+- Senior debt and mezzanine lenders (from Scotland guide per tool attribution)
+
+**Étapes du processus**
+
+- Self-build mortgage: funds released in stages as construction reaches set milestones, paid either in arrears or in advance (not as one lump sum)
+- Development finance (attribution uncertain): loan secured against the land; first tranche usually covers the land; further tranches released in line with the build schedule; interest rolled up; repaid on completion from sales or refinancing
+- Exit routes (attribution uncertain): sell the units, rent them out and refinance onto a longer-term mortgage, or repay from cash flow on other developments
+
+**Géographie**
+
+- United Kingdom
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (number) Typical new build mortgage LTVs of 75% to 85%
+- (statement) Lenders apply stricter criteria and lower loan-to-value ratios to new build mortgages
+- (statement) Some lenders set deadlines for completion on new build mortgages
+- (process) Self-build mortgage funds are released in stages at construction milestones, either in arrears or in advance
+- (statement) Buy-to-let mortgages for new builds serve investors who buy a new-build property to rent out
+- (number) Development finance first tranche usually covers the land and generally will not exceed 75% of the purchase price (attribution to this article uncertain)
+- (process) Development finance is secured against the land, released in tranches tied to the build schedule, with interest rolled up and repaid on completion from sales or refinancing (attribution to this article uncertain)
+- (number) Refurbishment finance often covers up to 100% of build costs (sibling page /light-to-heavy-refurbishment/, not this article)
+
+_Notes d'extraction : Article type: guide, not a case study, so no deal data (amount, asset, borrower, lender, timing) applies. Direct fetching blocked; everything comes from two extended WebSearch calls [a]=URL query, [b]=site: query. Confirmed by both searches: SERP title 'Best Finance Options for New Build Homes', the three mortgage routes (new build, self-build, buy-to-let new build) and the 75%-85% typical LTV fi…_
+
+#### Understanding Short-Term Property Funding for UK Real Estate (title inferred from URL slug only; neither sear…
+
+URL : <https://www.silveroakcapital.co.uk/understanding-short-term-property-funding-for-uk-real-estate/>  
+Confiance : low · Recherches effectuées : 2
+
+
+**Résumé.** TARGET PAGE NOT RETRIEVED. Search (a) on the exact URL returned no result for the article; the search tool stated: "I couldn't find the exact page you linked (the 'understanding short-term property funding' article)." Search (b) (site: + slug keywords) also did not list the article. Both searches instead surfaced related Silver Oak Capital pages on short-term property funding (bridging loans, auction finance, refurbishment/conversion finance, development exit loans, developer bridge loans). The article's own thesis and guidance are therefore unknown. What the related pages state, per the search tool's summaries: bridging loans are short-term secured finance of roughly 6 to 24 months with rates above conventional mortgages, assessed mainly on property value and exit strategy rather than affordability; approvals advertised in 5-14 days; loan sizes typically GBP 100,000 to GBP 25 million depending on security and exit; uses include buying before selling, renovations, land purchases before planning, auction deadlines (10% deposit on the day, 90% within 28 days, bridging then gives 6-12 months to refinance or sell); refurbishment funds released in stages/tranches overseen by a monitoring surveyor, covering purchase price and typically 100% of build costs; conversion finance typically 12-18 months; development exit loans repay an expiring construction lender; firm positions itself as a commercial mortgage broker specialising in loans over GBP 500,000 with a network of over 800 lenders, UK-wide with a strong London focus.
+
+**Phrases verbatim (anglais)**
+
+> [a] (search tool summary) "I couldn't find the exact page you linked (the 'understanding short-term property funding' article)."
+>
+> [a] (search tool summary of /bridging-loans-uk/) "approvals take 5–14 days, and that loan sizes typically range from £100,000 to £25 million, depending on security and exit strategy."
+>
+> [a] (search tool summary of /auction-finance/) "a 10% deposit is typically due on the day of the auction, with the remaining 90% due within 28 days, and that bridging then provides 6 to 12 months to refinance or sell."
+>
+> [a] (search tool summary of /how-does-a-bridge-loan-work-for-developers/) "these loans tend to carry higher interest rates than traditional financing, and that funds are often released in stages, with later drawdowns subject to inspections."
+>
+> [a] (search tool summary of /conversions/ and /light-to-heavy-refurbishment/) "Conversion finance is typically arranged for 12 to 18 months. Refurbishment loans can cover the purchase price and typically 100% of the build costs."
+>
+> [b] (search tool summary) "Bridging loans are typically secured against property and are structured for short-term repayment, usually between 6 to 24 months."
+>
+> [b] (search tool summary) "Unlike conventional mortgages, bridging finance focuses more on property value, exit strategy (repayment plan), and speed of transaction."
+>
+> [b] (search tool summary) "short-term secured finance, typically running about 6 to 24 months, with rates usually above conventional mortgages"
+>
+> [b] (search tool summary) "Lenders assess the property value and exit plan more than a standard mortgage would."
+>
+> [b] (search tool summary) "funds are released in tranches, overseen by a monitoring surveyor who visits the site to verify progress."
+>
+> [b] (search tool summary of /development-exit-loans/) "a bridging loan that pays off your existing construction lender."
+>
+> [b] (search tool summary of /bridging-loans-uk/) "approvals in 5–14 days" ; "provides loans UK wide, with a strong focus on bridging loans in London."
+>
+> [b] (search tool summary of home page) "specialises in loans over £500,000 and works through a network of over 800 lenders."
+
+**Produits et services cités**
+
+- Bridging loans (UK-wide, London focus)
+- Auction finance
+- Light to heavy refurbishment finance
+- Property conversion finance
+- Development exit loans
+- Bridge loans for property developers
+- Post planning land acquisition finance
+- Commercial mortgage broking
+
+**Cas d'usage**
+
+- Buying a property before selling the current one
+- Funding renovations / refurbishment
+- Covering short-term cash-flow gaps
+- Land purchases before planning permission
+- Meeting auction completion deadlines
+- Repaying an expiring construction loan (development exit)
+
+**Conditions, montants, délais, frais**
+
+- Bridging loan term: about 6 to 24 months [b]
+- Bridging loan term (auction context): 6 to 12 months to refinance or sell [a]
+- Conversion finance term: typically 12 to 18 months [a]
+- Approval time: 5-14 days [a][b]
+- Loan sizes: typically GBP 100,000 to GBP 25 million depending on security and exit strategy [a]
+- Firm minimum: loans over GBP 500,000 (home page) [b]
+- Rates: higher than traditional/conventional mortgages [a][b]
+- Refurbishment: purchase price plus typically 100% of build costs [a]
+- Staged drawdowns subject to inspections / monitoring surveyor [a][b]
+
+**Critères d'éligibilité**
+
+- Assessment based on property value and exit strategy (repayment plan) rather than a standard mortgage affordability test [b]
+- Security: loan secured against property [b]
+- Later drawdowns on developer bridge loans subject to inspections [a]
+
+**Étapes du processus**
+
+- Auction route: pay 10% deposit on auction day, remaining 90% due within 28 days, bridging loan used to meet that deadline, then 6-12 months to refinance or sell [a]
+- Refurbishment/developer route: funds released in stages/tranches; monitoring surveyor visits site to verify progress before later drawdowns [a][b]
+- Development exit route: bridging loan pays off the existing construction lender when the construction loan nears expiry [b]
+
+**Géographie**
+
+- United Kingdom
+- London
+- Prime Central London
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (timing) Bridging approvals in 5-14 days
+- (number) Loan sizes typically GBP 100,000 to GBP 25 million
+- (number) Specialises in loans over GBP 500,000
+- (number) Network of over 800 lenders
+- (number) Refurbishment loans cover purchase price and typically 100% of build costs
+- (coverage) Loans UK wide with a strong focus on bridging loans in London
+- (number) Auction: 10% deposit on the day, 90% within 28 days
+
+_Notes d'extraction : The target article was not returned by either of the 2 permitted searches, so no title, H1, meta description, body text, FAQ or CTA from the page itself was captured; everything recorded here comes from the search tool's summaries of OTHER silveroakcapital.co.uk pages on the same topic (bridging, auction, refurbishment, conversion, development exit, developer bridge loans, home page). Verbatim en…_
+
+#### High Net Worth Property Funding UK Guide
+
+URL : <https://www.silveroakcapital.co.uk/what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/>  
+Confiance : medium · Recherches effectuées : 2
+
+
+**Résumé.** Blog article (not a case study). Per the search tool's summary of the page's opening sections only: the article defines high net worth (HNW) property funding and explains how to access it in the UK. Its thesis is that HNW borrowers often have complex needs that make them unsuitable for traditional mortgages, so tailored products exist that cover international borrowing structures and unusual income profiles. Concrete guidance surfaced: (1) the FCA's current HNW criteria are annual income above GBP 300,000 or assets above GBP 3 million; (2) HNW lenders assess the borrower's wider wealth, including multiple income streams, managed assets and alternative assets, rather than standard affordability; (3) this flexibility allows loan structures that standard mortgages cannot offer; (4) HNW loans are typically GBP 1 million and up. The excerpt cut off before the loan-size section, so the remainder of the article (structures, process, costs, CTAs) was not revealed.
+
+**Phrases verbatim (anglais)**
+
+> [a] Search-result title: "High Net Worth Property Funding UK Guide"
+>
+> [a] "The article defines HNW property funding and explains how to access it in the UK."
+>
+> [a] "HNW borrowers often have complex needs that make them unsuitable for traditional mortgages."
+>
+> [a] "It describes tailored products covering international borrowing structures and unusual income profiles."
+>
+> [a] "The article says the FCA's current criteria are annual income above £300,000 or assets above £3 million"
+>
+> [a] "Lenders look at the borrower's wider wealth, including multiple income streams, managed assets, and alternative assets"
+>
+> [a] "That flexibility allows structures that standard mortgages can't offer"
+>
+> [a] "The excerpt cuts off before the loan-size section"
+>
+> [a] "The search returned the article's opening sections, not the full text"
+>
+> [b] "One guide describes the FCA's HNWI thresholds as £300,000 in annual earnings or £3 million in assets."
+>
+> [b] "That page is about 463 days old, so check the current figures."
+>
+> [b] "It also says HNW lending is often assessed against the client's wider wealth, and that loans are typically £1 million and up."
+>
+> [b] (related page, bridging guide) "HNW borrowers can often move faster under relaxed rules."
+>
+> [b] (related page, bridging) "bridging loans usually run 6 to 24 months and are assessed mainly on property value, exit strategy, and speed."
+>
+> [b] (related page, private bank mortgages) "bespoke products for clients with complex finances, large loans, or unusual ownership structures. The existing bank relationship is what allows the flexibility."
+>
+> [b] (related case study) "A £1.46 million, five-year interest-only refinance on a Prime Central London property was arranged with a non-standard loan purpose, combined household income, and an overseas guarantor."
+>
+> [b] (related FAQ page) "the firm works with over 800 lenders in the UK and internationally."
+
+**Produits et services cités**
+
+- High net worth (HNW) property funding / HNW mortgages (subject of the article)
+- Tailored lending for international borrowing structures (per article excerpt)
+- Tailored lending for unusual income profiles (per article excerpt)
+- Private bank mortgages (related page surfaced in [b])
+- Bridging loans for HNW individuals (related pages surfaced in [a]/[b])
+- Prime London mortgages (related page surfaced in [a]/[b])
+- Prime Central London refinance (related case study surfaced in [a]/[b])
+
+**Cas d'usage**
+
+- HNW borrowers with complex needs unsuitable for traditional mortgages
+- Borrowers using international borrowing structures
+- Borrowers with unusual income profiles
+- Refinance of Prime Central London property with non-standard loan purpose, combined household income and overseas guarantor (related case study, not this article)
+
+**Conditions, montants, délais, frais**
+
+- High net worth (HNW) / HNWI
+- FCA high net worth criteria (GBP 300,000 annual income or GBP 3 million assets)
+- Wider wealth assessment
+- Multiple income streams
+- Managed assets
+- Alternative assets
+- International borrowing structures
+- Unusual income profiles
+- Traditional / standard mortgage
+- Interest-only (related case study)
+- Overseas guarantor (related case study)
+- Exit strategy (related bridging page)
+
+**Critères d'éligibilité**
+
+- FCA HNW criteria: annual income above GBP 300,000 or assets above GBP 3 million (article, [a] and [b])
+- Assessment based on the borrower's wider wealth: multiple income streams, managed assets, alternative assets (article, [a]/[b])
+- Loans typically GBP 1 million and up (article, [b])
+
+**Types de prêteurs**
+
+- Lenders that assess the borrower's wider wealth (multiple income streams, managed assets, alternative assets) rather than standard affordability (article excerpt [a]/[b])
+- Private banks offering bespoke mortgages built on an existing banking relationship (related /private-bank-mortgages/ page, [b])
+
+**Géographie**
+
+- United Kingdom (article scope)
+- Prime Central London (related case study)
+- International / overseas borrowers (international borrowing structures, overseas guarantor)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (regulatory-threshold (article…) FCA's current HNW criteria: annual income above £300,000 or assets above £3 million
+- (loan-size (article, [b])) HNW loans are typically £1 million and up
+- (lending-approach (article, [a…) HNW lending assessed against the client's wider wealth rather than standard affordability
+- (positioning (article, [a])) Flexibility allows structures that standard mortgages can't offer
+- (page-age (search tool metadat…) Page is about 463 days old as of 2026-10-29 (implies publication around July 2025)
+- (lender-network (related /faq/…) Firm works with over 800 lenders in the UK and internationally
+- (case-study (related page, [a]…) £1.46 million five-year interest-only refinance, Prime Central London, overseas guarantor
+- (term (related bridging page, …) Bridging loans usually run 6 to 24 months
+- (award-listing (external URL s…) Listed under Property Week Commercial Property Awards 2026 organisation page
+
+_Notes d'extraction : Page existence and search-result title confirmed by both queries. Only the article's opening sections were summarised by the search tool; the full text, H1, meta description, loan-size section, process steps, FAQ and calls to action were NOT revealed. The 'verbatim' entries are the search tool's own summary wording (which it attributes to the page), not confirmed page text, except the title which…_
+
+#### Impact of Inflation on UK Property Market - Silver Oak Capital
+
+URL : <https://www.silveroakcapital.co.uk/impact-of-inflation-and-interest-rates-on-uk-commercial-property/>  
+Confiance : low · Recherches effectuées : 2
+
+
+**Résumé.** Blog article (not a case study). Thesis, as far as the search snippets reveal: the Bank of England sets the Bank Rate and, together with quantitative easing, this drives borrowing costs, which in turn feed into inflation; inflation then affects UK commercial property, first through higher development costs (construction, labour and materials). The one near-verbatim line recovered is: 'Higher levels of inflation are likely to contribute to a significant increase in the costs associated with the development of commercial property.' Only the opening sections were visible in both searches; the article's conclusions, any concrete guidance to borrowers or investors, and any calls to action were NOT revealed. The search tool dated the page at roughly 16 months / about 496 days old (approximately June 2025, inferred from today's date 2026-10-29).
+
+**Sections repérées**
+
+- **Bank of England, Bank Rate and quantitative easing (opening section, heading wording not revealed)** — Search summary [a]: the article 'explains how the Bank of England's Bank Rate and quantitative easing affect borrowing costs and inflation.' Search summary [b]: 'The page explains that the Bank of England sets the Bank Rate, and that its effect on borrowing costs feeds into inflation.'
+- **Impact of inflation on commercial property - development costs (second section, heading wording not revealed)** — Search summary [a]: the article 'then starts on inflation's effect on commercial property, focusing on higher development costs from construction, labour and materials.' Search summary [b]: 'It also covers how construction costs for commercial property tend to rise with inflation.' Near-verbatim line [b]: 'Higher levels of inflation are likely to contribute to a significant increase in the costs associated with the development of commercial property.'
+- **Conclusions / guidance** — NOT REVEALED. Search [a] explicitly stated: 'the excerpt covers only the opening sections' and 'I couldn't see its conclusions.'
+
+**Phrases verbatim (anglais)**
+
+> [b] "Higher levels of inflation are likely to contribute to a significant increase in the costs associated with the development of commercial property." (appears to be lifted from the page; the only sentence in either result that reads as article wording rather than search-tool paraphrase)
+>
+> [a] Search-tool paraphrase: "It explains how the Bank of England's Bank Rate and quantitative easing affect borrowing costs and inflation. It then starts on inflation's effect on commercial property, focusing on higher development costs from construction, labour and materials. I couldn't see its conclusions."
+>
+> [a] Search-tool metadata: "The search turned up the Silver Oak Capital article, but only a partial excerpt. It is about 16 months old, and the excerpt covers only the opening sections."
+>
+> [b] Search-tool paraphrase: "The page explains that the Bank of England sets the Bank Rate, and that its effect on borrowing costs feeds into inflation. It also covers how construction costs for commercial property tend to rise with inflation. The page is about 496 days old, so it may be outdated."
+>
+> [a][b] SERP title: "Impact of Inflation on UK Property Market - Silver Oak Capital"
+
+**Produits et services cités**
+
+- Adjacent (surfaced next to the article in both searches, not stated in the article): Commercial Mortgages (/commercial-mortgages/)
+
+**Conditions, montants, délais, frais**
+
+- Bank of England
+- Bank Rate
+- quantitative easing
+- inflation
+- borrowing costs
+- development costs
+- construction costs
+- labour costs
+- materials costs
+- commercial property
+- ADJACENT PAGES ONLY (not in this article): SONIA, Bank of England base rate, risk margin, fixed rate (2 or 5 years), LTV, loan-to-gross-development-value (LTGDV), interest-only, Bank Base Rate
+
+**Géographie**
+
+- United Kingdom
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (article-statement [b], near-v…) Higher levels of inflation are likely to contribute to a significant increase in the costs associated with the development of commercial property.
+- (article-thesis, search-tool p…) The Bank of England sets the Bank Rate; its effect on borrowing costs feeds into inflation.
+- (article-thesis, search-tool p…) Bank Rate and quantitative easing affect borrowing costs and inflation.
+- (article-thesis, search-tool p…) Construction costs for commercial property tend to rise with inflation; higher development costs come from construction, labour and materials.
+- (metadata, search-tool) Article age: 'about 16 months old' [a] / 'about 496 days old' [b] as of 2026-10-29, i.e. published approximately June 2025 (inferred).
+- (adjacent-page figure, search-…) ADJACENT PAGE /commercial-mortgages/ [b]: variable rates are benchmarked to the Bank of England base rate or SONIA, plus a risk margin; fixed-rate deals typically offered for 2 or 5 years; typical LTVs run from about 65% to 75%.
+- (adjacent-page figure, search-…) ADJACENT CASE STUDY /case-studies/manchester-office/ [b]: £4.5m Manchester office loan at 3.00% above Bank Base Rate, 7-year interest-only term (case study dated about 37 days old by the tool).
+- (adjacent-page figure, search-…) ADJACENT CASE STUDY /case-studies/purchase-and-upgrade-21-million-office-in-london/ [b]: £21m London office loan at 4.75% fixed over three years, 68% LTV.
+- (adjacent-page figure, search-…) ADJACENT PAGE (unspecified, likely /how-much-does-a-bridging-loan-cost/) [b]: bridging loans carry much higher rates than mortgages, often averaging about 1% per month.
+- (adjacent-page figure, search-…) ADJACENT PAGE (unspecified) [b]: mixed-use and commercial development schemes may face tighter leverage caps, such as 65% loan-to-gross-development-value for commercial schemes.
+
+_Notes d'extraction : Direct fetch blocked; everything comes from two WebSearch (extended) calls: [a] exact URL, [b] site:silveroakcapital.co.uk inflation interest rates commercial property. Both results paraphrased the article rather than quoting it; only one sentence (tagged [b] in verbatim) reads as the page's own wording. Only the opening two topics (BoE Bank Rate/QE -> borrowing costs -> inflation; inflation -> c…_
+
+#### Why Use a Mortgage Broker for the Right Fit (SERP/SEO title shown by both searches); article title per [b]: "…
+
+URL : <https://www.silveroakcapital.co.uk/find-the-perfect-mortgage-with-a-specialist-broker/>  
+Confiance : low · Recherches effectuées : 2
+
+**H1 :** Find the Perfect Mortgage with a Specialist Broker (probable H1: search [b] calls it "an article titled 'Find the Perfect Mortgage with a Specialist Broker'" and it matches the URL slug; not seen as …  
+**Meta description :** Not revealed by the search results. The <title>-tag style SERP title is "Why Use a Mortgage Broker for the Right Fit".
+
+**Résumé.** Blog article (not a case study) by Silver Oak Capital, described by the search tool as "a Silver Oak Capital guide, from a UK commercial and development finance broker, on using a specialist mortgage broker". Thesis: the mortgage market is "crowded with lenders" / "large and complex", so a specialist broker helps borrowers find a product that fits their goals; securing the right mortgage is "a daunting and time-consuming task for experienced and first time buyers". Concrete guidance visible in snippets: (1) a specialist broker "covers ground beyond standard lending, such as niche lenders for unusual property types, complex income, or commercial borrowing"; (2) specialist brokers "can build solutions for commercial, residential, or mixed-use mortgages". Only snippets were returned, not the full text; no fees, process steps, FAQ, CTA or lender names from this article were revealed. Search [b] states the article is "about 225 days old" (approximately mid-March 2026 relative to 2026-10-29).
+
+**Phrases verbatim (anglais)**
+
+> [a] "The page is a Silver Oak Capital guide, from a UK commercial and development finance broker, on using a specialist mortgage broker. The search returned only snippets of it, not the full text, so this summary covers the main points visible in those snippets."
+>
+> [a] "The page says the mortgage market is crowded with lenders, so a specialist broker can help borrowers find a product that fits their goals."
+>
+> [a] "Securing the right mortgage can be a daunting and time-consuming task for experienced and first time buyers."
+>
+> [a] "A specialist broker covers ground beyond standard lending, such as niche lenders for unusual property types, complex income, or commercial borrowing"
+>
+> [a] "The page says specialist brokers can build solutions for commercial, residential, or mixed-use mortgages"
+>
+> [a] (attributed to the companion guide /which-mortgage-company-is-right-for-you/, not this article) "The companion guide suggests reading reviews and testimonials to judge customer service and expertise"
+>
+> [a] "Silver Oak's own pages describe its scope differently. One says it works with over 300 lenders, while the homepage cites over 800 lenders. Its homepage also says it specialises in loans over £500,000."
+>
+> [b] "the most relevant is an article titled 'Find the Perfect Mortgage with a Specialist Broker.' It explains that the mortgage market is large and complex, and that specialist brokers can offer products from niche lenders for unusual property types, complex income situations, or commercial loans. It also covers commercial, residential and mixed-use financing."
+>
+> [b] (from /prime-residential-mortgages/) "Its prime residential page says it has arranged mortgages for properties priced at £1m and above since 2019, and that it works with more than 300 lenders."
+>
+> [b] (from /prime-london-mortgages/) "Its prime London page covers lender selection for high-value properties, preparing a case summary for underwriters, and handling pricing negotiation and coordination with valuers and solicitors."
+>
+> [b] (from homepage) "The homepage describes real estate finance focused on loans over £500,000, and says it works through a network of more than 800 lenders."
+>
+> [b] "The specialist-broker article is about 225 days old, so its details may also have changed."
+>
+> [a][b] SERP link title for the target URL: "Why Use a Mortgage Broker for the Right Fit"
+
+**Produits et services cités**
+
+- Specialist mortgage brokerage (article subject)
+- Commercial mortgages
+- Residential mortgages
+- Mixed-use mortgages
+- Access to niche lenders for unusual property types
+- Access to niche lenders for complex income situations
+- Access to niche lenders for commercial borrowing / commercial loans
+
+**Cas d'usage**
+
+- Unusual property types
+- Complex income situations
+- Commercial borrowing / commercial loans
+- Commercial, residential and mixed-use mortgage financing
+- First-time buyers and experienced buyers seeking the right mortgage product
+
+**Conditions, montants, délais, frais**
+
+- specialist broker
+- specialist mortgage broker
+- niche lenders
+- standard lending
+- unusual property types
+- complex income / complex income situations
+- commercial borrowing / commercial loans
+- mixed-use mortgages
+- first time buyers
+- experienced buyers
+
+**Critères d'éligibilité**
+
+- Not stated as criteria in the results. Implied audience: "experienced and first time buyers" [a]; borrowers with "unusual property types, complex income, or commercial borrowing" needs [a]; commercial, residential or mixed-use borrowers [a][b].
+
+**Types de prêteurs**
+
+- niche lenders (for unusual property types, complex income, commercial borrowing) [a][b]
+- standard lending (contrasted with specialist/niche) [a]
+- firm-level: network of 300+ / 800+ lenders (other pages) [a][b]
+
+**Étapes du processus**
+
+- No process steps for this article were revealed by the results.
+- (Context only, from /prime-london-mortgages/ per [b], not this article): lender selection for high-value properties; preparing a case summary for underwriters; pricing negotiation; coordination with valuers and solicitors.
+
+**Géographie**
+
+- United Kingdom (firm described as "a UK commercial and development finance broker" [a]; no geography stated for the article itself)
+- London (only via other pages: /prime-london-mortgages/ in [b])
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (market-statement (this articl…) "the mortgage market is crowded with lenders" / "large and complex" [a][b]
+- (audience-statement (this arti…) "Securing the right mortgage can be a daunting and time-consuming task for experienced and first time buyers." [a]
+- (value-proposition (this artic…) A specialist broker "covers ground beyond standard lending" [a]
+- (scope (this article)) Specialist brokers "can build solutions for commercial, residential, or mixed-use mortgages" [a]
+- (date (search-tool estimate)) Article is "about 225 days old" as of 2026-10-29, i.e. published approximately March 2026 [b]
+- (lender-count (other Silver Oa…) Firm works with "over 300 lenders" / "more than 300 lenders" [a][b]
+- (lender-count (homepage, not t…) Homepage cites "over 800 lenders" / "a network of more than 800 lenders" [a][b]
+- (loan-size (homepage, not this…) Homepage says the firm "specialises in loans over £500,000" [a][b]
+- (track-record (other page, not…) Prime residential page: "arranged mortgages for properties priced at £1m and above since 2019" [b]
+- (inconsistency-flag) Search tool notes the 300+ vs 800+ lender figures conflict and advises checking with the firm [a][b]
+
+_Notes d'extraction : Direct fetch blocked; everything comes from two WebSearch calls ([a] exact URL, extended; [b] site: query, extended). Both searches confirmed the URL exists, its SERP title ("Why Use a Mortgage Broker for the Right Fit") and its article title ("Find the Perfect Mortgage with a Specialist Broker"), and gave a consistent thesis, so the thesis itself is reasonably solid. Confidence is low for comple…_
+
+#### Secure the Best Business Loan with Expert Brokerage Services
+
+URL : <https://www.silveroakcapital.co.uk/secure-the-best-business-loan-with-expert-brokerage-services/>  
+Confiance : low · Recherches effectuées : 2
+
+**H1 :** Not revealed by search results (title tag only: "Secure the Best Business Loan with Expert Brokerage Services")  
+**Meta description :** Not revealed by search results
+
+**Résumé.** Promotional blog article presenting Silver Oak Capital's business-loan brokerage service. Thesis (per search summaries): a broker sits between borrowers and lenders and helps a business obtain a loan that fits its growth plans. Concrete guidance described: the broker assesses the business's needs, compares lenders, handles the application paperwork and approvals, and advises on alternatives/short-term options such as bridging loans. The firm claims brokers can reach high-street banks, specialist lenders and private funders, and that they aim to secure competitive rates. The page highlights commercial mortgages for buying or refinancing business property. The article contains no pricing, fees or regulatory details according to the search summary. No verbatim page text was returned; only the title and the search tool's paraphrased summaries.
+
+**Sections repérées**
+
+- **Role of a business loan broker** — Sits between borrowers and lenders; assesses the business's needs, compares lenders, handles paperwork and approvals (per [a] and [b]).
+- **Lender access** — Brokers can reach high-street banks, specialist lenders and private funders; aim to secure competitive rates (per [a]).
+- **Loan types highlighted** — Commercial mortgages for buying or refinancing business property; bridging loans as a short-term option/alternative (per [a] and [b]).
+- **Not revealed** — Section headings, H1, meta description, CTAs, FAQ, eligibility criteria, pricing/fees and regulatory wording were not surfaced by either search; summary [a] explicitly states the article has no pricing, fees or regulatory details.
+
+**Phrases verbatim (anglais)**
+
+> [a] Title: "Secure the Best Business Loan with Expert Brokerage Services"
+>
+> [a] "It's a promotional piece for the firm's broker service."
+>
+> [a] "The article lists the broker's job as assessing a business's needs, comparing lenders, and handling paperwork and approvals. It also covers advising on short-term options such as bridging loans."
+>
+> [a] "The firm says brokers can reach high-street banks, specialist lenders, and private funders, and that they aim to secure competitive rates."
+>
+> [a] "The page highlights commercial mortgages for buying or refinancing business property."
+>
+> [a] "The article itself contains no pricing, fees, or regulatory details, so check those directly with the firm."
+>
+> [a] (homepage context) "Its own homepage describes commercial mortgage brokerage, development finance, and bridging loans, and says it works with over 800 lenders. A separate commercial-mortgage page cites a network of 700+ lenders."
+>
+> [b] "It frames the firm as a broker that helps clients get business loans that fit their growth plans. It describes a broker's job as sitting between borrowers and lenders, covering needs assessment, lender comparison, application handling, and advice on alternatives such as bridging loans."
+>
+> [b] (homepage context) "Its homepage says it is a Real Estate Finance professional, specialising in loans over £500,000."
+>
+> [b] (commercial mortgage page context) "A page on the firm's commercial mortgage service says it works with 700+ Lenders, while its homepage gives a different figure of over 800 lenders."
+>
+> [b] "The search results contain no independent reviews or regulatory details"
+
+**Produits et services cités**
+
+- Business loan brokerage (intermediary between borrowers and lenders)
+- Needs assessment for the business
+- Lender comparison
+- Application / paperwork and approvals handling
+- Advice on short-term alternatives such as bridging loans
+- Commercial mortgages for buying or refinancing business property
+- Access to high-street banks, specialist lenders and private funders
+
+**Cas d'usage**
+
+- Securing a business loan aligned with growth plans
+- Buying business property (commercial mortgage)
+- Refinancing business property (commercial mortgage)
+- Short-term funding via bridging loans
+
+**Conditions, montants, délais, frais**
+
+- business loan
+- broker / brokerage services
+- borrowers and lenders
+- needs assessment
+- lender comparison
+- application handling / paperwork and approvals
+- bridging loans (short-term option)
+- commercial mortgages
+- refinancing business property
+- high-street banks
+- specialist lenders
+- private funders
+- competitive rates
+- growth plans
+
+**Types de prêteurs**
+
+- high-street banks
+- specialist lenders
+- private funders
+
+**Étapes du processus**
+
+- Assess the business's needs
+- Compare lenders (high-street banks, specialist lenders, private funders)
+- Handle the application paperwork and approvals
+- Advise on alternatives / short-term options such as bridging loans
+
+**Géographie**
+
+- United Kingdom (firm is UK-based; 'high-street banks' wording; no specific location named in results for this article)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (capability) Brokers can reach high-street banks, specialist lenders, and private funders
+- (promise) They aim to secure competitive rates
+- (promise) Helps clients get business loans that fit their growth plans
+- (absence) Article contains no pricing, fees, or regulatory details (per search summary [a])
+- (number) Homepage: works with over 800 lenders (context, not from this article)
+- (number) Commercial mortgage page: 700+ lenders (context, not from this article)
+- (number) Homepage: specialising in loans over £500,000 (context, not from this article)
+- (absence) No awards or recognitions mentioned in results for this article
+
+_Notes d'extraction : Direct fetch blocked; both WebSearch calls returned only the page title plus the search tool's paraphrased summaries, no raw snippet text from the page body. All 'verbatim' entries are therefore quotations of the search tool's summary wording, not confirmed page copy, except the title which appeared as the result title in both searches. Two independent summaries ([a] and [b]) agree on the thesis …_
+
+#### Commercial vs. Home Loan Rates Compared
+
+URL : <https://www.silveroakcapital.co.uk/how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/>  
+Confiance : low · Recherches effectuées : 2
+
+
+**Résumé.** Blog article comparing commercial mortgage rates with residential mortgage rates. According to the search tool's summary of the article [b], its thesis is that commercial rates tend to sit above residential ones and vary more from deal to deal; the credit spread is set case by case, and the gap is attributed to differences in risk, funding costs and exit routes. The search results attribute related guidance to sibling Silver Oak pages rather than to this article: lenders weigh the sponsor's track record, the loan-to-value ratio, the strength of the lease and the business's financials, whereas residential lending relies mainly on the borrower's income (attributed to /commercial-mortgages/); typical commercial LTV of 65% to 75% (attributed to /commercial-mortgages/); mixed-use rates usually slightly above standard buy-to-let rates but below pure commercial rates, with mixed-use LTVs typically capped at 70-75% (attributed to /faq/ and /mixed-use-property-finance/). No numeric rate figures, no H1, meta description, author, date, CTA or FAQ text from the article itself were revealed. Search (a) with the exact URL failed to retrieve the page and returned only unrelated third-party results, which are ignored.
+
+**Sections repérées**
+
+- **Pricing levels (search tool summary of the article, not a page heading)** — Commercial rates tend to sit above residential ones and vary more from deal to deal. The credit spread is set case by case, and the article attributes the gap to differences in risk, funding costs and exit routes. [b]
+- **What drives commercial pricing (attributed to /commercial-mortgages/)** — Lenders weigh the sponsor's track record, the loan-to-value ratio, the strength of the lease and the business's financials; residential lending relies mainly on the borrower's income. [b]
+- **Typical LTVs (attributed to /commercial-mortgages/)** — Typical commercial LTV range of 65% to 75%, lower than many residential products. [b]
+- **Mixed-use and HMO (attributed to /faq/ and /mixed-use-property-finance/)** — Mixed-use rates usually slightly above standard buy-to-let rates but below pure commercial rates; mixed-use LTVs typically capped at 70-75%. [b]
+
+**Phrases verbatim (anglais)**
+
+> [b] SERP title for the target URL: "Commercial vs. Home Loan Rates Compared"
+>
+> [b] (search tool summary of the article, not a page snippet) "Silver Oak's main comparison article says commercial rates tend to sit above residential ones and vary more from deal to deal. The credit spread is set case by case, and the article attributes the gap to differences in risk, funding costs and exit routes."
+>
+> [b] (search tool summary, attributed to the commercial mortgage page) "Lenders weigh the sponsor's track record, the loan-to-value ratio, the strength of the lease and the business's financials. The commercial mortgage page contrasts this with residential lending, which relies mainly on the borrower's income."
+>
+> [b] (search tool summary, attributed to the commercial mortgage page) "The commercial mortgage page gives a typical range of 65% to 75%, which is lower than many residential products."
+>
+> [b] (search tool summary, attributed to the FAQ and mixed-use pages) "The FAQ and mixed-use pages say mixed-use rates are usually slightly above standard buy-to-let rates but below pure commercial rates. Mixed-use LTVs are typically capped at 70–75%."
+>
+> [b] (search tool caveat) "These are Silver Oak's own marketing pages. The \"types of borrowing\" page is about 1,600 days old and cites LIBOR-based example terms, so its figures are out of date. Its fee and rate examples should not be treated as current."
+>
+> [b] (search tool caveat) "No current rate figures were found, so for live pricing you would need to check with a lender or broker."
+>
+> [a] (search tool statement) "I couldn't retrieve the Silver Oak Capital page itself, so this is a summary of general results on the same topic."
+
+**Produits et services cités**
+
+- Commercial mortgages
+- Residential mortgages (used as the comparison baseline)
+- Mixed use property finance (sibling page surfaced in results)
+- Buy-to-let (referenced as a pricing benchmark for mixed-use)
+
+**Conditions, montants, délais, frais**
+
+- credit spread
+- loan-to-value (LTV)
+- sponsor track record
+- lease strength
+- exit routes
+- funding costs
+- mixed-use
+- buy-to-let
+- pure commercial rate
+- LIBOR (cited as outdated on a sibling page)
+
+**Critères d'éligibilité**
+
+- Commercial: lenders weigh the sponsor's track record, the loan-to-value ratio, the strength of the lease and the business's financials [b, attributed to /commercial-mortgages/]
+- Residential: lending relies mainly on the borrower's income [b, attributed to /commercial-mortgages/]
+- Commercial LTV typically 65% to 75% [b, attributed to /commercial-mortgages/]
+- Mixed-use LTV typically capped at 70-75% [b, attributed to /faq/ and /mixed-use-property-finance/]
+
+**Géographie**
+
+- United Kingdom - not stated in the article extract itself; inferred only from sibling page SERP titles 'Commercial Mortgages UK' and 'Mixed Use Property Finance UK' [b]
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (pricing statement - search to…) Commercial mortgage rates tend to sit above residential rates and vary more from deal to deal
+- (pricing statement - search to…) The credit spread on a commercial mortgage is set case by case
+- (explanation - search tool sum…) The rate gap between commercial and residential is attributed to differences in risk, funding costs and exit routes
+- (underwriting criteria - attri…) Lenders weigh the sponsor's track record, the loan-to-value ratio, the strength of the lease and the business's financials
+- (underwriting criteria - attri…) Residential lending relies mainly on the borrower's income
+- (number - attributed to /comme…) Typical commercial mortgage LTV range of 65% to 75%, lower than many residential products
+- (pricing statement - attribute…) Mixed-use rates are usually slightly above standard buy-to-let rates but below pure commercial rates
+- (number - attributed to /faq/ …) Mixed-use LTVs are typically capped at 70-75%
+- (search tool caveat about a si…) The /types-of-borrowing/ page is about 1,600 days old and cites LIBOR-based example terms
+
+_Notes d'extraction : Search (a) (exact URL, extended) did not retrieve the page: the tool stated it could not retrieve the Silver Oak Capital page and returned only unrelated third-party results (linkedin.com, c-loans.com, mortgagecalculator.org, wikipedia, gta-homes.com, commercialrealestate.loans, fidelityca.com, oakreinvestment.com, 1steaglemortgage.com), all ignored per the rules. Search (b) (site: query, extende…_
+
+#### Different Ways to Grow and Develop Property Value
+
+URL : <https://www.silveroakcapital.co.uk/different-ways-to-grow-and-develop-property-value/>  
+Confiance : medium · Recherches effectuées : 2
+
+
+**Résumé.** Blog article by Silver Oak Capital, described in the search summary as a London-based independent mortgage broker specialising in property development finance. Thesis (as visible): the firm 'explores the most effective ways to maximise property value', framed from a broker's/financing perspective. The article is organised in sections. Section 1, Renovations and Upgrades: presented as 'one of the quickest and most effective ways to increase property value'; focus areas are kitchens, bathrooms, energy-efficiency work and cosmetic updates; adding insulation, double-glazed windows and energy-efficient heating systems is said to reduce running costs and increase EPC ratings. Section 2, Structural Improvements and Extensions: loft conversions and rear or side extensions; loft conversions are said to often not need full planning permission; 'expanding or altering a property can add significant value, particularly in high-demand areas where space is at a premium'. Only these opening sections were visible in both searches; any later sections (the tool speculated about rental yields or capital appreciation, but did not see them) are NOT confirmed. Search (b) also surfaced related Silver Oak pages (not this article) on change of use conversions, pre-sale maintenance, and location/demographics for long-term growth.
+
+**Sections repérées**
+
+- **Introduction (opening paragraph)** — [a] 'As an independent mortgage broker specialising in property development finance, we explore the most effective ways to maximise property value.' Tool summary (a): the page is from Silver Oak Capital, 'a London-based mortgage broker that specialises in property development finance' and 'groups its advice into sections'. Tool summary (b): 'It's a broker's guide, so the strategies are framed around financing.'
+- **Renovations and Upgrades** — [b] 'One of the quickest and most effective ways to increase property value is through renovations and modernisation.' Focus areas per (a) and (b): kitchens and bathrooms, energy-efficiency work, cosmetic changes/updates. Per (a): 'adding insulation, double-glazed windows, and energy-efficient heating systems can reduce running costs and increase EPC ratings.'
+- **Structural Improvements and Extensions** — Per (a): structural work such as loft conversions and extensions. Per (b): loft conversions and rear or side extensions are covered, 'with loft conversions often not needing full planning permission'. [b] 'Expanding or altering a property can add significant value, particularly in high-demand areas where space is at a premium.'
+- **Later sections (NOT visible)** — Search (a) stated 'only the opening sections were visible'. Search (b) stated 'The search results cover only parts of the article, so I can't confirm the full list of strategies it contains.' Search (b) also said 'The page also has a separate section on refurbishment finance, which I didn't look into further' - it is ambiguous whether 'the page' refers to this article or to the /light-to-heavy-refurbishment/ result listed alongside it. No further section headings were revealed.
+
+**Phrases verbatim (anglais)**
+
+> [a] "As an independent mortgage broker specialising in property development finance, we explore the most effective ways to maximise property value."
+>
+> [a] "adding insulation, double-glazed windows, and energy-efficient heating systems can reduce running costs and increase EPC ratings" (renovation section, as rendered by the search summary)
+>
+> [a] bridging loans described as "a useful tool for property owners who wish to renovate their property" (related page /common-uses-for-property-bridging-loans-in-the-uk/, not this article)
+>
+> [a] "selling the property as one possible exit strategy for developers" (related page /different-ways-to-add-value-to-the-property-before-selling/, not this article)
+>
+> [b] "One of the quickest and most effective ways to increase property value is through renovations and modernisation."
+>
+> [b] "Expanding or altering a property can add significant value, particularly in high-demand areas where space is at a premium."
+>
+> [b] "The most significant uplifts in property value often come not from refurbishment, but from \"Change of Use.\"" (related page /conversions/, not this article)
+>
+> [b] "A roof leak will be cheap to fix, but if left unattended, it could grow into a much larger, more expensive issue." (related page /different-ways-to-add-value-to-the-property-before-selling/, not this article)
+>
+> [b] "Demographics such as population growth and density will have an important impact on the house price growth of a specific area." (related page /best-places-to-buy-property-in-the-uk-for-long-term-growth/, not this article)
+
+**Produits et services cités**
+
+- Independent mortgage broking (self-description in article) [a]
+- Property development finance (specialism stated in article) [a]
+- Bridging loans for renovation (related page /common-uses-for-property-bridging-loans-in-the-uk/) [a]
+- Refurbishment finance / light to heavy refurbishment (related page /light-to-heavy-refurbishment/, title 'Refurbishment Finance UK') [b]
+- Property conversion / change-of-use finance (related page /conversions/, title 'Property Conversion Finance UK') [b]
+
+**Cas d'usage**
+
+- Increasing property value through renovations and upgrades (kitchens, bathrooms, energy-efficiency, cosmetic work)
+- Increasing property value through structural improvements and extensions (loft conversions, rear or side extensions)
+- Related: financing renovation with a bridging loan (/common-uses-for-property-bridging-loans-in-the-uk/)
+- Related: change of use conversions such as offices into flats (/conversions/)
+- Related: pre-sale maintenance and value-add (/different-ways-to-add-value-to-the-property-before-selling/)
+
+**Conditions, montants, délais, frais**
+
+- renovation / modernisation
+- cosmetic updates
+- energy efficiency
+- EPC rating
+- insulation
+- double-glazed windows
+- energy-efficient heating systems
+- structural improvements
+- loft conversion
+- rear or side extension
+- planning permission
+- high-demand areas
+- change of use (related page)
+- exit strategy (related page)
+
+**Géographie**
+
+- United Kingdom (site context; related page titles 'Refurbishment Finance UK', 'Property Conversion Finance UK')
+- London (broker described as London-based in search summary a)
+- 'high-demand areas where space is at a premium' (generic, not a named place) [b]
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (positioning) Silver Oak Capital is 'an independent mortgage broker specialising in property development finance' [a]
+- (positioning) London-based mortgage broker that specialises in property development finance (search tool summary a)
+- (guidance) Renovations and modernisation are 'one of the quickest and most effective ways to increase property value' [b]
+- (guidance) Insulation, double-glazed windows and energy-efficient heating systems 'can reduce running costs and increase EPC ratings' [a]
+- (guidance) Loft conversions often do not need full planning permission [b]
+- (guidance) Expanding or altering a property adds significant value, particularly in high-demand areas where space is at a premium [b]
+- (related-page guidance) Related page /conversions/: the most significant value uplifts often come from change of use (e.g. offices into flats) rather than refurbishment alone [b]
+- (related-page guidance) Related page /different-ways-to-add-value-to-the-property-before-selling/: small defects left alone become costly (roof leak example) [b]
+- (related-page guidance) Related page /best-places-to-buy-property-in-the-uk-for-long-term-growth/: demographics, transport links and regional trends affect house price growth [b]
+
+_Notes d'extraction : Direct fetch blocked; everything comes from two WebSearch (extended) calls. (a) = exact-URL query; (b) = site: query with slug keywords. Both searches confirmed the page title and the first two sections (Renovations and Upgrades; Structural Improvements and Extensions) with consistent wording, hence medium confidence for those; the remainder of the article was not visible in either search, so the…_
+
+#### Choosing the Best Mortgage Company Guide
+
+URL : <https://www.silveroakcapital.co.uk/which-mortgage-company-is-right-for-you/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Which Mortgage Company Is Right for You?  
+
+**Résumé.** Advice article (not a case study) on how to choose a mortgage company / broker. Per search [b], the guide 'advises checking reviews and focusing on a few factors': (1) customer service - reviews that describe how reachable and responsive a firm was are a good signal of its service; (2) expertise in your mortgage type - commercial and residential lending are quite different, so a firm's track record with your type of loan matters, and the guide also points to how a firm handled complex or non-standard cases; (3) reputation and success rate - this section was cut off in the search results, so its details are unknown. Search [a] (the exact URL) did not return the page at all and only surfaced other Silver Oak Capital pages (home, /commercial-mortgage-broker/, /faq/, Ts&Cs PDF) plus unrelated US firms. No author, publication date, meta description, FAQ, CTA or lender names were revealed for this article.
+
+**Sections repérées**
+
+- **Customer service** — [b] The guide suggests reviews that describe how reachable and responsive a firm was are a good signal of its service.
+- **Expertise in your mortgage type** — [b] Commercial and residential lending are quite different, so a firm's track record with your type of loan matters. The guide also points to how a firm handled complex or non-standard cases.
+- **Reputation and success rate** — [b] Section heading visible but body cut off in the search results; details unknown.
+
+**Phrases verbatim (anglais)**
+
+> [b] SERP result title for the target URL: "Choosing the Best Mortgage Company Guide"
+>
+> [b] Search summary states the guide is titled "Which Mortgage Company Is Right for You?"
+>
+> [b] Search summary: the guide "advises checking reviews and focusing on a few factors"
+>
+> [b] Customer service (tool paraphrase): "The guide suggests reviews that describe how reachable and responsive a firm was are a good signal of its service."
+>
+> [b] Expertise in your mortgage type (tool paraphrase): "Commercial and residential lending are quite different, so a firm's track record with your type of loan matters. The guide also points to how a firm handled complex or non-standard cases."
+>
+> [b] Reputation and success rate: "This section is cut off in the results, so I couldn't see its details."
+>
+> [b] From /find-the-perfect-mortgage-with-a-specialist-broker/ (sibling article, SERP title "Why Use a Mortgage Broker for the Right Fit"): "Whether you're self-employed, have a complex credit history, or are interested in a commercial mortgage for your business, a specialist broker can ensure you get the right advice and the most competitive rates."
+>
+> [b] From home page: "Real Estate Finance professionals, specialising in loans over £500,000"
+>
+> [b] From /prime-residential-mortgages/ (SERP title "Residential Mortgages UK"): "300+ Lenders", which the summary says the page "presents as independent whole-of-market advice"
+>
+> [a] From /commercial-mortgage-broker/: "independent commercial mortgage broker that offers extraordinary rates and terms for financing commercial real estate in the UK"
+>
+> [a] From home page: "network of over 800 lenders"
+>
+> [a] From home page: "Main home mortgages, Buy to Lets, Holiday Lets and HMO's"
+>
+> [a] From Letting Agent Today trades directory listing (older figure of over 300 lenders): "We arrange debt on a wide range of real estate transactions across the UK, Western Europe, the Middle East and Southern Africa"
+>
+> [a] From Ts&Cs PDF (/wp-content/uploads/2026/02/Ts-and-Cs.pdf): "SOC does not provide regulated mortgage and insurance advice"
+>
+> [a] From Ts&Cs PDF: "Residential mortgages are regulated by the FCA, while buy-to-let mortgages are not normally regulated by the FCA"
+
+**Produits et services cités**
+
+- Mortgage brokerage / choosing a mortgage company (article topic)
+- Commercial mortgages (article distinguishes commercial vs residential lending) [b]
+- Residential mortgages [b]
+- Context from home page [a]: Main home mortgages, Buy to Lets, Holiday Lets and HMO's
+- Context from sibling article [b]: specialist broker for self-employed, complex credit history, or commercial mortgage for a business
+
+**Cas d'usage**
+
+- Selecting a mortgage company for a commercial or residential mortgage [b]
+- Complex or non-standard mortgage cases (judge a firm by how it handled them) [b]
+- Context [b] sibling article: self-employed borrowers, complex credit history, business commercial mortgage
+
+**Conditions, montants, délais, frais**
+
+- mortgage company
+- mortgage broker / specialist broker / independent broker
+- customer service (reachable, responsive)
+- commercial lending vs residential lending
+- track record
+- complex or non-standard cases
+- reputation and success rate
+- reviews
+- whole-of-market advice (context, prime residential page) [b]
+- FCA regulated residential mortgages; buy-to-let not normally FCA regulated (context, Ts&Cs) [a]
+
+**Critères d'éligibilité**
+
+- Nothing eligibility-specific revealed for this article. Context only [b] (sibling article /find-the-perfect-mortgage-with-a-specialist-broker/): self-employed, complex credit history, or commercial mortgage for your business are cases where a specialist broker is recommended.
+
+**Types de prêteurs**
+
+- Not stated in the article results. Context [b] (tool summary of sibling pages): specialist brokers can reach 'niche lenders' for complex cases; home page cites a network of over 800 lenders [a]; prime residential page cites 300+ Lenders [b]
+
+**Étapes du processus**
+
+- [b] Check reviews of the mortgage company
+- [b] Assess customer service: look for reviews describing how reachable and responsive the firm was
+- [b] Check expertise in your mortgage type: commercial and residential lending differ; look at the firm's track record with your type of loan and how it handled complex or non-standard cases
+- [b] Check reputation and success rate (details cut off in results)
+
+**Géographie**
+
+- United Kingdom (article context: UK mortgage market; FCA references in Ts&Cs) [a][b]
+- Context [a] directory listing: UK, Western Europe, the Middle East and Southern Africa
+- No geography stated in the visible article content
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (number) network of over 800 lenders (home page) [a]
+- (number) 300+ Lenders (prime residential page) [b]
+- (number) over 300 lenders (Letting Agent Today directory listing, described by the search tool as an older figure) [a]
+- (number) specialising in loans over £500,000 (home page) [a][b]
+- (promise) offers extraordinary rates and terms for financing commercial real estate in the UK (/commercial-mortgage-broker/) [a]
+- (promise) a specialist broker can ensure you get the right advice and the most competitive rates (sibling article) [b]
+- (positioning) independent whole-of-market advice (prime residential page, per tool summary) [b]
+- (positioning) independent commercial mortgage broker (/commercial-mortgage-broker/) [a]
+- (regulatory) SOC does not provide regulated mortgage and insurance advice (Ts&Cs PDF) [a]
+- (absence) No awards, dates or figures were revealed for the article itself
+
+_Notes d'extraction : Exactly 2 WebSearch calls run, 0 refused. Search [a] (exact URL, extended) did NOT return the target page; it returned other Silver Oak Capital pages plus unrelated firms that were ignored (Silver Oak Mortgage, Farmington NM on MapQuest; sofunding.net 'Silver Oak Funding'; silveroaklenders.com 'Silver Oak Lending'). Search [b] (site: + keywords, extended) returned the target page as top result wi…_
+
+#### How Do Shared Ownership Mortgage Brokers Work?
+
+URL : <https://www.silveroakcapital.co.uk/how-do-shared-ownership-mortgage-broker-work/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Not revealed by search results. Title tag confirmed identically in [a] and [b] as 'How Do Shared Ownership Mortgage Brokers Work?'; the H1 is presumably the same but was not shown.  
+**Meta description :** Not revealed by search results.
+
+**Résumé.** Page type: blog article (not a case study). Thesis as revealed by snippets: shared ownership lets a home-buyer purchase a share in a property while paying rent on the remaining unowned share (the search tool's summary [a] attributes a 'usually 25% to 75%' share range to the page); because shared ownership mortgages 'differ from traditional mortgages in a number of ways' and not all lenders offer them, borrowers should understand the product first and an independent mortgage broker is useful. Concrete guidance revealed, i.e. what the broker does: (1) checks whether the buyer meets the criteria set by housing associations and lenders; (2) finds lenders that actually offer shared ownership products, since 'not all mortgage lenders offer shared ownership products, but a broker has access to a broad range of options'; (3) ensures all financial documentation is prepared correctly to improve approval chances; (4) explains how to increase ownership later (staircasing). NOT revealed: fees, rates, deposit figures, named lenders or housing associations, eligibility thresholds, FAQ, author, publication date, calls to action, meta description.
+
+**Phrases verbatim (anglais)**
+
+> [a][b] "Shared ownership allows home-buyers to purchase a share in a property while paying rent on the remaining unowned share."
+>
+> [a][b] "Not all mortgage lenders offer shared ownership products, but a broker has access to a broad range of options."
+>
+> [b] "Brokers help determine if buyers meet the criteria set by housing associations and lenders."
+>
+> [b] "Ensuring all financial documentation is prepared correctly to improve approval chances."
+>
+> [a] (search-tool summary attributed to the page; wording not confirmed verbatim) "Shared ownership lets buyers acquire a portion of a property, usually 25% to 75%, and pay rent on the rest."
+>
+> [a] (search-tool paraphrase of the page's argument) "shared ownership mortgages differ from traditional mortgages in a number of ways, so borrowers should understand them first, and an independent mortgage broker can be useful"
+>
+> [a] (search-tool paraphrase of the broker duties the page lists) "Checking whether buyers meet housing association and lender criteria, finding lenders that offer these products, preparing financial documents for the application, and explaining how to increase ownership later (staircasing)."
+>
+> [b] (search-tool summary of related page /different-ways-to-finance-new-build-homes-in-the-uk/) "lists shared ownership among government-backed schemes, describing it as a way to buy part of a property and rent the remainder"
+>
+> [b] (search-tool summary of the site's 'independent mortgage broker' pages) "a broker can source from a wide range of lenders, which is the core pitch for using one"
+>
+> [b] (result-list title of a site page absent from seed.json) "Top 7 Reasons to Use an Independent Mortgage Broker for Your Next Loan"
+>
+> [b] (result-list title of a site page absent from seed.json) "Switch to an Interest-Only Mortgage Option"
+>
+> [b] (result-list title of a site page absent from seed.json) "Unlock Flexible Mortgage Bridging Loans Without Penalties"
+
+**Produits et services cités**
+
+- Shared ownership mortgage brokerage by an independent mortgage broker
+- Eligibility check against the criteria set by housing associations and lenders
+- Lender sourcing for shared ownership products (access to 'a broad range of options')
+- Preparation of financial documentation for the mortgage application
+- Guidance on staircasing (increasing the owned share later)
+
+**Cas d'usage**
+
+- Buying a share of a home while paying rent on the unowned remainder [a][b]
+- Increasing the owned share later via staircasing [a]
+
+**Conditions, montants, délais, frais**
+
+- shared ownership
+- shared ownership mortgage
+- share in a property
+- unowned share
+- rent on the remaining share
+- housing association
+- staircasing
+- independent mortgage broker
+- lender criteria
+- financial documentation
+- approval chances
+- traditional mortgage
+
+**Critères d'éligibilité**
+
+- Buyers must meet 'the criteria set by housing associations and lenders' [b]; the snippets show no specific thresholds (income caps, deposit size, residency, first-time-buyer status, share percentage limits).
+
+**Types de prêteurs**
+
+- 'mortgage lenders' that offer shared ownership products, unnamed [a][b]
+- housing associations - the scheme counterparty whose criteria must be met; not a lender [b]
+
+**Étapes du processus**
+
+- 1. Check whether the buyer meets housing association and lender criteria [a][b]
+- 2. Find lenders that offer shared ownership products, since not all do [a][b]
+- 3. Prepare all financial documentation correctly for the application to improve approval chances [a][b]
+- 4. Explain how to increase ownership later (staircasing) [a]
+
+**Géographie**
+
+- UK (implied by the site and by 'housing association' terminology; not explicitly stated in the snippets seen)
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (figure - search-tool summary …) Shared ownership share range 'usually 25% to 75%'
+- (capability claim - verbatim […) Not all mortgage lenders offer shared ownership products, but a broker has access to a broad range of options.
+- (benefit / promise - verbatim-…) Ensuring all financial documentation is prepared correctly to improve approval chances.
+- (thesis - search-tool paraphra…) Shared ownership mortgages differ from traditional mortgages in a number of ways
+- (absence) No awards, lender counts, loan-size ranges, fees, interest rates or timings from this page appeared in the snippets
+
+_Notes d'extraction : Page existence and title confirmed by both searches. The thesis and four broker duties are consistently reported across [a] and [b], and four sentences appear verbatim-style in both tool summaries. However the body was only visible as fragments: H1, meta description, author, date, fees, rates, deposit/share figures (beyond the tool-summarised '25% to 75%'), named lenders, FAQ and calls to action …_
+
+#### How much does a bridging loan cost?
+
+URL : <https://www.silveroakcapital.co.uk/how-much-does-a-bridging-loan-cost/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** How much does a bridging loan cost? (search-result title; H1 not independently confirmed)  
+
+**Résumé.** Blog article / guide explaining the components that make up the total cost of a UK bridging loan. Thesis: the headline monthly interest rate is only one part of the cost; the full picture is interest + lender arrangement fee + broker fees + legal fees + valuation fees (+ possible exit fee). Concrete guidance revealed by the search tool: monthly interest starts around 0.44%, with a common average near 1% per month (roughly 12% a year), depending on loan-to-value, location and credit profile; lender arrangement fee usually 1% to 2% of the loan (i.e. £5,000 to £10,000 on a £500,000 loan), sometimes waived on large loans; broker fee of about £1,500 on application plus 0.5% at offer and 0.5% at completion, worked example totalling £6,500 on a £500,000 loan; exit fees often around 1% can apply on repayment; valuation fees are covered but the figure was cut off in the snippet. The page states it offers a general overview rather than specific products or lender comparisons.
+
+**Sections repérées**
+
+- **Cost components** — [a] 'It breaks bridging costs into interest, lender arrangement fees, broker fees, and legal fees.' [b] 'It breaks costs into interest, arrangement, broker, and valuation fees.'
+- **Interest** — [a] 'It gives a monthly interest range starting around 0.44%, with an average near 1% a month, which it says works out to about 12% a year.' [b] 'The guide puts monthly rates from about 0.44%, with a common average near 1% a month, or roughly 12% a year. Rates depend on loan-to-value, location, and credit profile.'
+- **Lender arrangement fee** — [a] 'It says the arrangement fee is usually 1% to 2% of the loan, and that large loans may sometimes have it waived.' [b] 'The guide cites 1% to 2% of the loan, so £5,000 to £10,000 on a £500,000 loan.'
+- **Broker fees** — [b] 'The guide describes about £1,500 on application, plus 0.5% on offer and 0.5% on completion.' [a] 'Its broker-fee example comes to £6,500 on a £500,000 loan.'
+- **Exit fees** — [b] 'Exit fees, often around 1%, can apply on repayment.'
+- **Valuation fees** — [b] 'The guide also covers valuation fees, which the search snippet cut off before stating.' No figure revealed.
+- **Legal fees** — [a] lists legal fees as a cost component; no figure revealed.
+- **Scope disclaimer** — [a] 'The page also says it offers a general overview rather than specific products or lender comparisons.'
+
+**Phrases verbatim (anglais)**
+
+> [a] It breaks bridging costs into interest, lender arrangement fees, broker fees, and legal fees.
+>
+> [a] It gives a monthly interest range starting around 0.44%, with an average near 1% a month, which it says works out to about 12% a year.
+>
+> [a] It says the arrangement fee is usually 1% to 2% of the loan, and that large loans may sometimes have it waived.
+>
+> [a] Its broker-fee example comes to £6,500 on a £500,000 loan.
+>
+> [a] The page also says it offers a general overview rather than specific products or lender comparisons.
+>
+> [b] It breaks costs into interest, arrangement, broker, and valuation fees.
+>
+> [b] The guide puts monthly rates from about 0.44%, with a common average near 1% a month, or roughly 12% a year. Rates depend on loan-to-value, location, and credit profile.
+>
+> [b] The guide cites 1% to 2% of the loan, so £5,000 to £10,000 on a £500,000 loan.
+>
+> [b] The guide describes about £1,500 on application, plus 0.5% on offer and 0.5% on completion.
+>
+> [b] Exit fees, often around 1%, can apply on repayment.
+>
+> [b] The guide also covers valuation fees, which the search snippet cut off before stating.
+>
+> [b] Other Silver Oak pages give 0.6% to 1.5% a month for developers, and a 0.75% monthly example for a £12 million loan.
+>
+> [b] Its developer page says lender fees are typically around 2%, with a wider range of 1% to 10%.
+>
+> [b] A different page on the site gives a flat typical broker fee of 1%, or 1.5% for loans outside the UK.
+>
+> [b] The site's pages are of varying age, some as old as about 1,600 days, so the figures may be out of date.
+
+**Produits et services cités**
+
+- Bridging loans (UK)
+- Bridging finance brokerage (broker fee structure: application fee + fee at offer + fee at completion)
+
+**Conditions, montants, délais, frais**
+
+- Monthly interest from about 0.44%; average near 1% per month (~12% per year) [a][b]
+- Rates depend on loan-to-value, location and credit profile [b]
+- Lender arrangement fee usually 1% to 2% of the loan; may be waived on large loans [a][b]
+- Arrangement fee worked example: £5,000 to £10,000 on a £500,000 loan [b]
+- Broker fee: about £1,500 on application + 0.5% on offer + 0.5% on completion [b]
+- Broker fee worked example: £6,500 on a £500,000 loan [a]
+- Exit fee often around 1%, can apply on repayment [b]
+- Legal fees and valuation fees listed as cost components; figures not revealed [a][b]
+
+**Étapes du processus**
+
+- Fee timeline implied by the broker fee structure: application (about £1,500) -> offer (0.5%) -> completion (0.5%) [b]
+
+**Géographie**
+
+- United Kingdom (GBP figures; 'location' cited as a rate factor [b])
+
+**Questions fréquentes**
+
+- **How much does a bridging loan cost?** Interest from about 0.44% per month, average near 1% per month (~12% a year), plus a lender arrangement fee of usually 1% to 2%, broker fees (about £1,500 + 0.5% at offer + 0.5% at completion), legal fees, valuation fees and possibly an exit fee of around 1% [a][b].
+- **What is the lender arrangement fee on a bridging loan?** Usually 1% to 2% of the loan (£5,000 to £10,000 on £500,000); large loans may sometimes have it waived [a][b].
+- **What does a bridging loan broker charge?** About £1,500 on application, plus 0.5% on offer and 0.5% on completion; example of £6,500 on a £500,000 loan [a][b].
+- **Is there an exit fee?** Exit fees, often around 1%, can apply on repayment [b].
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (rate) Monthly bridging interest rates start around 0.44%
+- (rate) Average bridging interest near 1% per month, about 12% a year
+- (fee) Lender arrangement fee usually 1% to 2% of the loan
+- (promise) Arrangement fee may sometimes be waived on large loans
+- (number) Arrangement fee of £5,000 to £10,000 on a £500,000 loan
+- (fee) Broker fee about £1,500 on application + 0.5% on offer + 0.5% on completion
+- (number) Broker fee worked example £6,500 on a £500,000 loan
+- (fee) Exit fee often around 1%
+- (disclaimer) Page offers a general overview rather than specific products or lender comparisons
+- (external-number) External (bridgingandcommercial.co.uk headline, not from this page): 'Silver Oak Capital completes its largest ever bridging loan of £19.1m'
+
+_Notes d'extraction : Both searches surfaced the page as a result but returned the search tool's paraphrased summary, not raw page text; the 'verbatim' entries are therefore the tool's sentences describing the page, tagged [a] (URL query) and [b] (site: query), not confirmed page wording. The two summaries agree on all overlapping figures (0.44% floor, ~1%/month avg, ~12%/yr, 1-2% arrangement fee, £500k worked example…_
+
+#### Choosing the Right Development Finance Broker for Your Property
+
+URL : <https://www.silveroakcapital.co.uk/selecting-the-ideal-property-finance-specialist-for-successful-developments/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Selecting the Ideal Property Finance Specialist for Successful Developments (inferred from slug and the listing title reported by search [b]; the SERP <title> differs: 'Choosing the Right Development…  
+**Meta description :** Not revealed by the search results. The closest framing sentence from the excerpt [b]: the choice matters because 'navigating the world of property development finance can be complex'.
+
+**Résumé.** Blog article (not a case study) from Silver Oak Capital on how a property developer should choose a development finance broker / property finance specialist. Thesis [b]: property development finance is complex, so picking the right intermediary matters; a broker assesses the project and connects the developer with lenders offering competitive terms, including lenders the developer could not approach directly. Concrete guidance [a]: (1) Lender network - the broker should have connections with a diverse range of lenders, including specialist funding such as bridging loans and structured development finance, so the developer has multiple funding options to compare. (2) Fees - scrutinise the fee structure; typical figures cited: application fee around GBP 1,500, success fee of 0.5% at offer and 0.5% at completion, lender fees generally around 2%, with exit, valuation and legal costs possibly applying on top; a trustworthy broker is upfront about all costs. (3) Reputation - check client testimonials, reviews and case studies to gauge credibility. (4) Communication - approvals can take a long time, so clear and prompt communication is a key criterion. The search tool noted the piece is broker marketing favouring brokers in general and Silver Oak specifically, and that its figures are typical ranges, not quoted terms. Page age per search metadata: about 212 days / roughly seven months before 2026-10-29 (i.e. approximately late March 2026).
+
+**Sections repérées**
+
+- **Introduction / why the choice matters** — [b] Navigating the world of property development finance can be complex, hence the importance of selecting the right specialist.
+- **What a development finance broker does** — [b] An intermediary who assesses your project and connects you with lenders offering competitive terms; advantages include relationships with lenders you may not be able to approach directly.
+- **Criterion: lender network** — [a] Diverse range of lenders including specialist funding such as bridging loans and structured development finance, giving multiple funding options to compare and choose from.
+- **Criterion: fee structure / transparency** — [a] Typical application fee around £1,500; success fee 0.5% at offer and 0.5% at completion; lender fees generally around 2%; exit, valuation and legal costs may apply on top. A trustworthy broker is upfront about all costs.
+- **Criterion: reputation** — [a] Check client testimonials, reviews and case studies to gauge credibility.
+- **Criterion: communication** — [a] Approvals can take a long time, so clear and prompt communication is key.
+
+**Phrases verbatim (anglais)**
+
+> [a] A reputable broker should have connections with a diverse range of lenders, including those offering specialist funding such as bridging loans and structured development finance. This ensures you have multiple funding options to compare and choose from.
+>
+> [a] A trustworthy broker will be upfront about all costs involved in securing property development finance.
+>
+> [a] Check client testimonials, reviews, and case studies to gauge a broker's credibility.
+>
+> [a] (search summary paraphrase, not confirmed as page text) The excerpt lists typical application fees of around £1,500, success fees of 0.5% at offer and at completion, and lender fees generally around 2%, with exit, valuation and legal costs possibly applying on top.
+>
+> [a] (search summary paraphrase) Because approvals can take a long time, clear and prompt communication is listed as a key criterion.
+>
+> [b] navigating the world of property development finance can be complex
+>
+> [b] (search summary paraphrase) The excerpt describes a broker as an intermediary who assesses a project and connects you with lenders offering competitive terms. It also lists advantages such as relationships with lenders you may not be able to approach directly.
+>
+> [b] (from a RELATED site page, not this article) developers who do not have an established relationship with a bank or have difficulty sourcing finance through traditional routes should approach a development finance broker.
+>
+> [b] (from a RELATED site page, not this article) high street banks will offer the lowest rates but will also have the most stringent lending criteria, while first time developers or speculative projects often need a specialist lender.
+>
+> [b] (from /faq/, not this article) Stretch Senior often comes out as the more cost-effective option compared with senior plus mezzanine, because it avoids costs such as a second valuation fee.
+
+**Produits et services cités**
+
+- property development finance brokerage
+- bridging loans
+- structured development finance
+
+**Cas d'usage**
+
+- Developer choosing a broker / finance specialist for a development project
+- (related page) developers without an established bank relationship or struggling via traditional routes
+- (related page) first-time developers or speculative projects
+
+**Conditions, montants, délais, frais**
+
+- property development finance
+- development finance broker
+- property finance specialist
+- bridging loans
+- structured development finance
+- application fee
+- success fee (at offer / at completion)
+- lender fees
+- exit fee
+- valuation fee
+- legal costs
+- intermediary
+- competitive terms
+- stretch senior (mentioned only on related /faq/ page)
+
+**Critères d'éligibilité**
+
+- Not stated in this article's excerpts. Related site page [b]: a development finance broker suits developers without an established bank relationship or who have difficulty sourcing finance through traditional routes; first-time developers or speculative projects often need a specialist lender rathe…
+
+**Types de prêteurs**
+
+- diverse range of lenders [a]
+- specialist lenders offering bridging loans and structured development finance [a]
+- lenders the developer may not be able to approach directly [b]
+- (related page, not this article) high street banks - lowest rates, most stringent criteria [b]
+- (related page, not this article) specialist lenders for first-time developers or speculative projects [b]
+
+**Étapes du processus**
+
+- No explicit numbered process revealed. Implied sequence from excerpts: (1) assess the project with the broker [b]; (2) broker connects you with lenders offering competitive terms, including lenders you cannot approach directly [b]; (3) compare multiple funding options across a diverse lender panel …
+
+**Géographie**
+
+- UK (implied by site and GBP fee figures; no specific location named in the excerpts)
+
+**Questions fréquentes**
+
+- **Why does selecting the right property finance specialist matter?** [b] Because navigating the world of property development finance can be complex.
+- **What does a development finance broker do?** [b] Acts as an intermediary who assesses your project and connects you with lenders offering competitive terms, including lenders you may not be able to approach directly.
+- **What should I look for in a broker's lender network?** [a] A diverse range of lenders, including specialist funding such as bridging loans and structured development finance, so there are multiple funding options to compare.
+- **What fees are typical?** [a] Application fee around £1,500; success fees of 0.5% at offer and 0.5% at completion; lender fees generally around 2%; exit, valuation and legal costs may apply on top.
+- **How can I judge a broker's credibility?** [a] Check client testimonials, reviews and case studies.
+- **Why is communication important?** [a] Approvals can take a long time, so clear and prompt communication is a key criterion.
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (fee-figure (typical range, no…) Typical broker application fee around £1,500
+- (fee-figure (typical range) [a]) Success fee of 0.5% at offer and 0.5% at completion
+- (fee-figure (typical range) [a]) Lender fees generally around 2%
+- (cost-disclosure [a]) Exit, valuation and legal costs may apply on top
+- (promise / positioning [a]) A trustworthy broker will be upfront about all costs
+- (value proposition [b]) Brokers have relationships with lenders you may not be able to approach directly
+- (process statement [a]) Approvals can take a long time
+- (search metadata, not page con…) Page age approximately 212 days / roughly seven months as of 2026-10-29
+
+_Notes d'extraction : Both searches found the page but returned only partial excerpts; the full article text, exact H1, meta description, author, publication date, images and CTAs were not revealed. Two titles were observed: the SERP/HTML title 'Choosing the Right Development Finance Broker for Your Property' and the listing/slug title 'Selecting the Ideal Property Finance Specialist for Successful Developments' (like…_
+
+#### UK Stamp Duty Update Starting April 2025 - Silver Oak Capital
+
+URL : <https://www.silveroakcapital.co.uk/stamp-duty-changes-in-the-uk-from-april-2025/>  
+Confiance : medium · Recherches effectuées : 2
+
+
+**Résumé.** Blog article (not a case study). Thesis per the search tool's summary [b]: a forward-looking piece, written before 1 April 2025, explaining the upcoming Stamp Duty Land Tax (SDLT) changes in the UK. It describes SDLT as a tax levied on property purchases in England and Northern Ireland that applies to residential, buy-to-let and commercial property transactions. Concrete guidance it gives: the temporary SDLT relief was expected to end in April 2025; the standard residential nil-rate threshold would revert to £125,000 from £250,000; the first-time buyer relief cap would fall from £425,000 to £300,000; and the additional-property surcharge was described as 'currently an additional 3% surcharge' with speculation of a rise to '4% or higher'. The search tool flagged that this surcharge figure is outdated: the Finance Act 2025 raised the additional-dwellings rate for transactions from 31 October 2024 (5% on the first £250,000). No H1, meta description, section headings, FAQ, process steps or calls to action were revealed by the results.
+
+**Phrases verbatim (anglais)**
+
+> [b] Search-result title for the page: "UK Stamp Duty Update Starting April 2025 - Silver Oak Capital"
+>
+> [b] Search summary: "The Silver Oak Capital article on April 2025 stamp duty changes is a forward-looking piece written before the changes took effect, and parts of it are now outdated."
+>
+> [b] Search summary: "It describes SDLT as a tax levied on property purchases in England and Northern Ireland, applying to residential, buy-to-let, and commercial property transactions."
+>
+> [b] Fragments the search summary quotes from the article: "the temporary relief expected to end"; "the threshold reverting to £125,000 from £250,000"; "first-time buyer relief cap reduced from £425,000 to £300,000"
+>
+> [b] Fragment the search summary quotes from the article: "the additional surcharge is currently an additional 3% surcharge, but speculation suggests a possible rise to 4% or higher"
+>
+> [b] Search summary's correction (third-party, not the article): "Legislation from the Finance Act 2025 shows the additional dwellings rate was raised for transactions from 31 October 2024, with the table setting 5% on the first £250,000 (Table A sets 5% up to £250,000, 10% to £925,000, 15% to £1,500,000 and 17% on the remainder)."
+>
+> [a] No Silver Oak Capital result returned for the exact-URL query; search summary: "I couldn't find the Silver Oak Capital page in the results, so this summary draws on other sources covering the same April 2025 change in England and Northern Ireland."
+
+**Produits et services cités**
+
+- Stamp Duty Land Tax (SDLT) explainer / property tax guidance (editorial content, not a brokered product)
+- Residential property purchase finance context
+- Buy-to-let property purchase context
+- Commercial property transaction context
+
+**Cas d'usage**
+
+- Buyers of residential property in England/Northern Ireland assessing SDLT cost before vs after 1 April 2025
+- First-time buyers affected by the relief cap falling from £425,000 to £300,000
+- Buy-to-let and additional-property investors facing the surcharge
+- Commercial property transactions subject to SDLT
+
+**Conditions, montants, délais, frais**
+
+- Stamp Duty Land Tax (SDLT)
+- nil-rate threshold
+- temporary relief
+- first-time buyer relief
+- first-time buyer relief cap
+- additional property surcharge
+- buy-to-let
+- commercial property transactions
+- residential property purchases
+
+**Critères d'éligibilité**
+
+- Standard residential purchases: nil-rate threshold reverts to £125,000 (from £250,000) from April 2025 (per the article, as summarised in [b])
+- First-time buyers: relief cap reduced from £425,000 to £300,000 from April 2025 (per the article, as summarised in [b])
+- Additional-property purchasers (buy-to-let / second homes): pay a surcharge on top of standard rates; article cites 3% at time of writing (outdated)
+- Scope: SDLT applies in England and Northern Ireland only (Scotland and Wales have separate regimes - stated by the search tool, not by the article)
+
+**Géographie**
+
+- United Kingdom
+- England
+- Northern Ireland
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (statement) SDLT is a tax levied on property purchases in England and Northern Ireland, applying to residential, buy-to-let and commercial property transactions
+- (statement) The temporary SDLT relief was expected to end (from April 2025)
+- (number) Standard residential nil-rate threshold reverting to £125,000 from £250,000
+- (number) First-time buyer relief cap reduced from £425,000 to £300,000
+- (number) Additional-property surcharge is 'currently an additional 3% surcharge' (as written; outdated - enacted rate became 5% for transactions from 31 October 2024 per Finance Act 2025, flagged by the search tool)
+- (speculation) Speculation suggests a possible rise of the surcharge to 4% or higher (did not match the enacted 5%)
+
+_Notes d'extraction : Source channel: WebSearch only (direct fetch blocked). Exactly 2 calls run, 0 refused. Query (a) (exact URL, extended) returned ten third-party pages (Connells, Tembo, NRLA, The Nottingham, Hawes & Co, My Home Move, UK Construction Blog, homecost.uk, calculatemystampduty.co.uk, Davistate) and no Silver Oak result; its content was NOT attributed to the article and is excluded except as context. Qu…_
+
+#### London Property Advisors Maximise ROI
+
+URL : <https://www.silveroakcapital.co.uk/how-london-property-investment-advisors-help-maximise-roi/>  
+Confiance : medium · Recherches effectuées : 2
+
+**H1 :** Not revealed by search results. Slug implies: How London Property Investment Advisors Help Maximise ROI  
+**Meta description :** Not revealed by search results.
+
+**Résumé.** Blog article (not a case study) from Silver Oak Capital, described by the search tool as a London debt advisory and mortgage brokerage firm. Thesis: the UK property market, and London's in particular, changes often, with rentals and values moving by area; navigating this is tricky, so a property investment advisor helps investors make informed choices and improve returns (ROI). Concrete guidance revealed: (1) Asset selection - the first step is choosing the right property using market research that judges infrastructure, supply and demand (trends), demographics and transport links; (2) Off-market deals - some of the best deals are found off-market, which depends on maintaining a network of agents, brokers and developers; (3) Tax and financial efficiency - this is the third section heading, but the indexed excerpt ends before its content. No figures, fees, eligibility rules, FAQ or calls to action from this article were revealed. The search index showed the page as about 225 days old at 2026-10-29 (implying publication around March 2026).
+
+**Sections repérées**
+
+- **Introduction / role of the advisor** — [a] The article presents an advisor as someone who helps investors make informed choices, which it says is valuable in a market where rents and values shift by area. The UK property market, and London's in particular, changes often, with rentals and values moving depending on the area. Navigating that can be tricky, so an investment advisor's help can be invaluable.
+- **Asset selection / identifying the right assets** — [a] The first step is choosing the right property, using market research to judge infrastructure, supply and demand, demographics and transport links. [b] identifying the right assets through market research ... It stresses analysing infrastructure, supply and demand trends, demographics and transport links.
+- **Off-market deals** — [a] The article argues that some of the best deals are found off-market, which depends on maintaining a network of agents, brokers and developers. [b] sourcing off-market deals through a network of agents and developers.
+- **Tax and financial efficiency** — [a] This is the third section, and the excerpt ends before its content. [b] ... and financial and tax efficiency. Body content not revealed.
+
+**Phrases verbatim (anglais)**
+
+> [a] "London Property Advisors Maximise ROI" (result title)
+>
+> [a] "The search didn't return the full text of the page, but the indexed excerpt shows it's an article from Silver Oak Capital, a London debt advisory and mortgage brokerage firm, on how property investment advisors can improve returns."
+>
+> [a] "The excerpt is cut off partway through the third section, so I can't confirm its later content."
+>
+> [a] "The article presents an advisor as someone who helps investors make informed choices, which it says is valuable in a market where rents and values shift by area."
+>
+> [a] "The UK property market, and London's in particular, changes often, with rentals and values moving depending on the area. Navigating that can be tricky, so an investment advisor's help can be invaluable."
+>
+> [a] "The first step is choosing the right property, using market research to judge infrastructure, supply and demand, demographics and transport links."
+>
+> [a] "The article argues that some of the best deals are found off-market, which depends on maintaining a network of agents, brokers and developers."
+>
+> [a] "Tax and financial efficiency: This is the third section, and the excerpt ends before its content."
+>
+> [a] "the search index shows it as about 225 days old"
+>
+> [b] "The page covers identifying the right assets through market research, sourcing off-market deals through a network of agents and developers, and financial and tax efficiency. It stresses analysing infrastructure, supply and demand trends, demographics and transport links."
+>
+> [b] "The pages are promotional and their dates vary; some were listed roughly 200+ days ago and one about 580 days ago."
+
+**Produits et services cités**
+
+- Property investment advisory (helping investors make informed choices to maximise ROI)
+- Asset selection via market research (infrastructure, supply and demand, demographics, transport links)
+- Off-market deal sourcing via a network of agents, brokers and developers
+- Tax and financial efficiency (section heading only; content not revealed)
+- Firm positioning per search tool: London debt advisory and mortgage brokerage
+
+**Cas d'usage**
+
+- Property investors seeking to maximise ROI on London / UK property
+- Investors wanting access to off-market deals
+- Investors wanting structured asset selection based on market research
+
+**Conditions, montants, délais, frais**
+
+- ROI (return on investment)
+- property investment advisor
+- market research
+- infrastructure
+- supply and demand (trends)
+- demographics
+- transport links
+- off-market deals
+- network of agents, brokers and developers
+- tax efficiency
+- financial efficiency
+- rents / rental values
+- property values
+
+**Étapes du processus**
+
+- Step 1 (per article): choose the right property / identify the right assets using market research on infrastructure, supply and demand, demographics and transport links
+- Step 2 (per article order): source off-market deals through a maintained network of agents, brokers and developers
+- Step 3 (per article order): tax and financial efficiency - heading revealed, guidance not revealed
+
+**Géographie**
+
+- London
+- United Kingdom
+
+**Chiffres, promesses, références (à ne pas reprendre sans validation)**
+
+- (market assertion (this articl…) The UK property market, and London's in particular, changes often, with rentals and values moving depending on the area.
+- (positioning / promise (this a…) An investment advisor's help can be invaluable when navigating the market.
+- (assertion (this article, [a][…) Some of the best deals are found off-market, which depends on maintaining a network of agents, brokers and developers.
+- (metadata (search tool, [a])) Page indexed as about 225 days old at 2026-10-29 (approx. publication March 2026).
+- (sibling-page content, NOT thi…) Reducing the initial capital investment will result in an improved ROI, which the page links to using debt, while noting that higher debt levels will require disciplined cash flow management; also recommends negotiating price, buying below market value, regular inspections and forecasting energy, i…
+- (sibling-page content, NOT thi…) The firm says it can lend up to 70-75% of the open market value immediately; bridging lenders, unlike many mortgage lenders, don't impose a six-month refinancing restriction.
+- (sibling-page content, NOT thi…) London house price growth of about 18% over ten years, but rental yields are generally lower, between 2% and 5%.
+
+_Notes d'extraction : Direct fetching blocked; everything comes from two WebSearch (extended) calls: [a] exact-URL query, [b] site:silveroakcapital.co.uk London property investment advisors maximise ROI. The search tool returned a summary of an indexed excerpt, not raw page text, and it stated the excerpt is cut off partway through the third section ('Tax and financial efficiency'). Therefore: title confirmed from res…_
+
 ## 5. Matrice de l'offre
 
 Chaque ligne résume ce que la page produit dit du besoin couvert, de la clientèle et de la mécanique. Les conditions chiffrées (ratios, durées, frais) sont des repères britanniques relevés dans les extraits, parfois issus de pages voisines ou anciennes : elles servent à comprendre le produit, pas à être reprises.
@@ -7542,25 +12731,25 @@ Les sources ne décrivent pas un parcours client formalisé étape par étape su
 - **NW London Bridging Loan** — Case study of a GBP 19 million gross bridging loan (development-exit style refinance) arranged by Silver Oak Capital for a developer completing a 25-apartment luxury residential scheme in North West London. The developer had run over on the build schedule, so the scheme was only about 80% complete when the outstanding development and mezzanine (Mezz) facilities needed refinancing; the bridge was used to allow more time to market and sell the remaining units. Challenge: finding a lender willing to fund a partly finished residential scheme, which required presenting a clear exit and marketing p… (https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/)
 - **£3.6 Million Bridging Loan** — Case study of a £3.6 million bridging facility arranged by Silver Oak Capital on a high-value (prime) residential property in Kensington, London. Purpose: refinance an existing debt/loan and raise additional capital for future acquisitions/purchases. Challenge: two specialist lenders had withdrawn at the final stage over intercreditor disagreements about first and second charges, leaving the borrower under time pressure. Structure/solution: Silver Oak worked with one lender to secure a single first-charge bridging loan that repaid the existing debt and covered the full capital raise, so no se… (https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/)
 - **Bridging Loan for Land with Planning** — Case study of a GBP 1.2 million bridging loan arranged by Silver Oak Capital on a development site in Glasgow. The site was valued at GBP 2 million WITHOUT planning consent (valuation by Knight Frank). The borrower was an offshore trust company that wanted to release value from its assets to fund the entire planning application for a proposed 220-unit residential scheme with ground-floor commercial space. Structure: GBP 1.2m loan, 60% LTV, 0.9% per month, 18-month term, interest rolled up. Challenges: unconsented land is hard to lend on (fewer lenders take 'planning risk') and the borrowers r… (https://www.silveroakcapital.co.uk/case-studies/bridging-loan-land-with-planning/)
-- **/case-studies/800k-bridging-loan-refinance/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/)
-- **/case-studies/bridging-for-a-retail-purchase-in-liverpool/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/bridging-for-a-retail-purchase-in-liverpool/)
-- **/case-studies/bridging-villa-cap-ferrat/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/)
-- **/case-studies/finance-for-100-senior-housing-development-in-kent/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/finance-for-100-senior-housing-development-in-kent/)
-- **/case-studies/manchester-office/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/manchester-office/)
-- **/case-studies/pbsa/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/pbsa/)
-- **/case-studies/g650/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/g650/)
-- **/case-studies/heesen-yacht-finance/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/)
-- **/case-studies/aircraft-loan-falcon-900/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/)
-- **/case-studies/yacht-finance-calculator/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/)
-- **/case-studies/top-aviation-firms/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/)
-- **/case-studies/bvi-trust-refinance/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/)
-- **/case-studies/1-46-million-refinance-prime-central-london-property/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/)
-- **/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)
-- **/case-studies/miami-developer/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/miami-developer/)
-- **/case-studies/purchase-and-upgrade-21-million-office-in-london/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/)
-- **/case-studies/notting-hill-large-residential-mortgage/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/notting-hill-large-residential-mortgage/)
-- **/case-studies/mayfair-self-employed-equity-release/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/mayfair-self-employed-equity-release/)
-- **/case-studies/country-estate-refinance/** — non extraite (https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/)
+- **£800,000 Bridging Loan Refinance** — Case study of an £800,000 like-for-like refinance of an existing bridging loan on a rented residential property in central London valued at £1.2 million. The borrower was a Kenyan national (long-standing client of an Isle of Man based trust company, which approached Silver Oak Capital on the client's behalf). The property had been bought at auction 12 months earlier using a bridging loan. Challenge: the borrower had no UK credit profile/history, making most lenders hesitant, plus standard KYC and anti-money-laundering checks; the firm had to source a Nairobi law firm to certify identity docum… (https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/)
+- **Bridging for a Retail Store Purchase in Liverpool** — Case study of a wealthy father seeking to finance two retail investment units in Liverpool as an investment for his daughters. The enquiry concerned two brand new Tesco Convenience stores, each with a fresh 15-year lease, priced at GBP 2.75 million per unit (GBP 5.5 million in total). The family are described as experienced commercial landlords who could have paid cash; the brief to Silver Oak Capital was therefore to source a UK high-street bank with a very low cost of funds, i.e. the cheapest rate available. Challenge: retail property lending has been difficult since Covid and high-street l… (https://www.silveroakcapital.co.uk/case-studies/bridging-for-a-retail-purchase-in-liverpool/)
+- **Bridging Villa Cap Ferrat** — Case study of a EUR 5 million bridging loan arranged by Silver Oak Capital against a large villa near Monaco (Cap Ferrat per the page slug and title) with an estimated value of EUR 8 million (62.5% LTV). Purpose: refinance an existing mortgage and release funds for refurbishment. The villa had planning permission to become a boutique hotel. Borrower: a Dubai-based client with hotel-asset experience and an income able to cover monthly interest. Terms: 0.55% per month, 24-month term, interest serviced monthly, 1.50% bank fee shared with Silver Oak. Challenge: many lenders had left the hotel len… (https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/)
+- **Finance for 100 senior housing development in Kent, UK** — Case study of a development loan arranged by Silver Oak Capital for a 100-unit senior (affordable) housing scheme in Kent, UK, with a gross development value (GDV) of GBP 45 million. Borrower: a developer who had owned the site for almost 20 years and spent almost 5 years securing planning, with strong local-council backing. Need: fully fund construction and, at the same time, refinance an existing bridging loan secured on the site. Challenges reported: the borrower did not want to start building with any pre-sales in place, and the lender had to accept the borrower acting as his own builder … (https://www.silveroakcapital.co.uk/case-studies/finance-for-100-senior-housing-development-in-kent/)
+- **Manchester Office** — Case study of a GBP 4.5m commercial mortgage arranged by Silver Oak Capital for the purchase of an office building in Manchester city centre. Borrower: a Manchester (commercial) real estate management firm that intended to complete the purchase swiftly with cash and then required immediate access to a loan post-acquisition; it wanted a long-term commercial mortgage at 65% loan-to-value. Lender: a regional lender. Structure/terms as reported: GBP 4.5m loan, 65% LTV, 7-year term, full interest-only repayment, rate of 3.00% above Bank Base Rate, 1.00% bank fee; described as tailored finance. Cha… (https://www.silveroakcapital.co.uk/case-studies/manchester-office/)
+- **PBSA** — Case study of a long-term commercial mortgage arranged for a UK student accommodation operator buying a new purpose-built student accommodation (PBSA) building in Birmingham. The borrower required a long-term commercial mortgage at 70% loan-to-value; it intended to complete the purchase with cash and then needed immediate access to a loan post-acquisition. Silver Oak Capital proposed a GBP 12 million facility from a Birmingham-based lender at 70% LTV, priced at 2.50% above the Bank Base Rate, over a 10-year term, interest-only, with a 1.75% bank fee. Challenges named in the case study: optimi… (https://www.silveroakcapital.co.uk/case-studies/pbsa/)
+- **G650** — Case study of a private-jet acquisition loan arranged by Silver Oak Capital. Amount: $40 million. Asset: Gulfstream G650 private jet. Borrower: a wealthy Emirati (UAE) individual described as having 'a penchant for luxury and business travel', who wanted long-term funding to buy the jet and needed access to financing soon after purchase ('fast post-purchase financing'). Lender type: a European private bank ('tailored European private bank lending'). Structure per search summaries: 80% loan-to-value, 10-year term, rate 3.5% plus Euribor, 1.5% lender fee, repayment amortised over 10 years with … (https://www.silveroakcapital.co.uk/case-studies/g650/)
+- **Heesen Yacht Finance** — Case study of a yacht acquisition loan. Amount: $14 million (US dollars). Asset: a 50-metre Heesen yacht. Leverage: 60% loan-to-value. Borrower: described as a wealthy individual (result [a]) / a wealthy Chinese national (result [b]) who wanted long-term financing and needed to buy the boat quickly. Structure: 4.25% margin over SONIA, 10-year term, repayments amortised over a 20-year profile, 2.75% lender fee. Challenge: the team had to address the yacht's valuation, its maintenance costs, regulatory compliance for maritime operations, and whether the yacht suited the buyer's preferences. Out… (https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/)
+- **Aircraft Loan Falcon 900** — Case study of a private jet loan arranged by Silver Oak Capital. Borrower: a Dubai-based client introduced by a Swiss family office, buying a used Falcon-class private jet for personal use with a budget capped at about USD 25m; the client wanted a mid-range jet, ideally registered in Dubai, for flights between European and Middle Eastern cities. Challenge: finding the aircraft was harder than arranging the loan because used-aircraft prices had risen and stock at aviation brokers was very thin; Silver Oak says it sourced the aircraft through its own contacts. Lender: a private bank in the Midd… (https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/)
+- **Yacht Finance Calculator** — Despite sitting under /case-studies/, the page is primarily a guide to yacht finance rather than a single-deal write-up. Per search [a], it 'describes the kind of calculator it's meant to host rather than showing working numbers': the calculator is meant to help a buyer see whether their monthly budget fits the monthly payments required to purchase a yacht of a particular size or price. It describes two loan structures: a standard yacht mortgage (roughly 5 to 7 years with a balloon payment of about 25% of the loan) and a lease (works more like car finance or hire purchase). It says the tools … (https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/)
+- **Top Aviation Firms** — Case study of an aircraft-finance enquiry routed to Silver Oak Capital through an aviation finance law firm. Deal as revealed: a law firm's private client team asked Silver Oak Capital to source financing for its client's purchase of a Bombardier G6000 business jet. Borrower: an Egyptian national (private individual, introduced by a law firm). Structure requested: an operating lease agreement, for flights between Cairo, Dubai and London. Amount: the client wanted to finance 80% of a $35 million purchase price (i.e. roughly $28m, 80% LTV; the $28m figure is arithmetic, not stated). Asset: Bomb… (https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/)
+- **Residential Mortgage Loan - BVI Trust Refinance - Silver Oak Capital** — Case study of a residential mortgage refinance on a property held in a British Virgin Islands (BVI) trust. Deal: a UK landlord had built a large five-bedroom house on a plot in Richmond, South West London, and wanted to replace an expensive development loan with a cheaper residential mortgage. Loan required: GBP 5 million; property valued at GBP 12 million (implied LTV approx. 41.7%, derived, not stated). Structure sought: interest-only facility over 10 years. Rate listed in the terms: 2.7%. Borrower type: UK landlord whose income came from a farming business and a property portfolio, with th… (https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/)
+- **£1.46 Million Refinance** — Case study of a £1.46 million refinance of an unencumbered residential property in Prime Central London, arranged by Silver Oak Capital. Purpose: the client needed funds to reimburse family members who had privately contributed to the purchase and refurbishment of the property, a loan purpose the write-up says fell outside typical lending criteria. Borrower: a single-name owner whose affordability relied on multiple household incomes, supported by a personal guarantee from an overseas high-net-worth individual with no UK footprint; documentation spanned several jurisdictions. Outcome: a £1.46… (https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/)
+- **Silver Oak Capital added to Spear’s 500 list for 2022** — Not a deal case study: a news/award item filed under /case-studies/. Per the search tool's summaries, the page announces that Silver Oak Capital and its founder Jimmy Baillie were included in the Spear's 500 list (stated on the page as 2022/2023; the title says 2022) and links to Baillie's full adviser profile on spears500.com. The page is reported to say the firm was set up in 2019 after Baillie saw a gap in specialist advice for loans of £2 million and above. The linked Spear's 500 profile (spears500.com/adviser/22953/jimmy-baillie) describes the firm as advising high-net-worth clients on s… (https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)
+- **Miami Developer** — Case study: Silver Oak Capital arranged a USD 10 million long-term commercial mortgage at 70% loan-to-value for a property development company specialising in waterfront properties in Miami, Florida. The borrower approached the firm for help purchasing a new residential building in the Brickell neighbourhood of Miami. Reported terms: interest rate of 4.25% above Bank Prime Rate, 7-year term, interest-only for the first five years then amortised over 20 years, and a 1.5% bank fee. The lender's package is described as accounting for coastal and hurricane risks (sea-level rise mitigation measure… (https://www.silveroakcapital.co.uk/case-studies/miami-developer/)
+- **Purchase And Upgrade £21 Million Office In London** — Case study of a commercial office acquisition facility. A London-based property developer called Silver Oak Capital after making an offer on a central London office building let to a single tenant, with a purchase price of £21m. The developer's plan was to hold the building until the existing lease expired (about 2.5 years away) while seeking planning permission to add a floor and carry out a high-spec upgrade/refit. Challenge: the developer needed more than 65% LTV at a time when lender appetite for offices was limited, many lenders reducing office exposure since COVID. Silver Oak approached… (https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/)
+- **Notting Hill Large Residential Mortgage** — Case study of a large residential mortgage refinance on a property in Notting Hill, London. Borrower: an Egyptian client whose income came from the oil and gas sector (a sector most European private banks treat as high risk), who lived in a high-risk country and had little cash on hand. The property was held in an offshore trust. Silver Oak Capital placed the loan with a Middle East-based private bank experienced with offshore trust structures. Terms: £6.35 million loan, 60% loan-to-value, interest-only, five-year term, priced at base rate plus 1.50% margin, with a 0.50% fee. Timing: the sear… (https://www.silveroakcapital.co.uk/case-studies/notting-hill-large-residential-mortgage/)
+- **Mayfair Self Employed Equity Release** — Case study of a prime residential refinance with equity release in Mayfair, Central London. The borrower was a Mayfair homeowner and business owner with high earnings who wanted to refinance his existing mortgage and release equity to buy a holiday home in Cannes, France. The security property was valued at £10 million and the client required a 75% loan-to-value. His income came mostly from his UK company, drawn as director's loans; earnings were described as high enough to meet typical bank affordability tests. The complication was an ongoing divorce, meaning any lender needed assurance abou… (https://www.silveroakcapital.co.uk/case-studies/mayfair-self-employed-equity-release/)
+- **Country Estate Refinance Case Study - Silver Oak Capital** — Case study of a refinance of a large English countryside estate. A Monaco-based introducer approached Silver Oak Capital for help refinancing a borrower's costly/expensive short-term debt, which had been used to fund a high-spec refurbishment of the property; the property was vacant at the time of enquiry. Result (a) frames the request as 'help with a private bank'; result (b) describes the need as 'a refinance on a standard Buy to Let mortgage, on a full interest only basis'. The deal was sized at 65% loan-to-value on a £7 million valuation. The borrower's income was irregular, so several in… (https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/)
 
 ## 8. Chiffres, promesses et éléments à ne pas reprendre tels quels
 
@@ -7597,6 +12786,14 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 ### Relevé des affirmations (toutes pages)
 
+**LTV**
+
+- 70% loan-to-value _(source : /case-studies/pbsa/)_
+
+**NOT REVEALED**
+
+- Outcome of the G6000 deal (lender, terms, completion) _(source : /case-studies/top-aviation-firms/)_
+
 **NOT recovered for this page**
 
 - Testimonials, named BTL lenders, BTL rates, BTL case studies _(source : /buy-to-let-mortgages/)_
@@ -7607,6 +12804,7 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - No testimonials, awards, credentials, fees, rates or minimum loan sizes revealed for this page [a][b][c] _(source : /auction-finance/)_
 - No testimonials, awards, credentials, lender-count figures, rates or fees surfaced for this page _(source : /below-market-purchases/)_
 - No testimonials, awards, or regulatory statements surfaced for this page _(source : /bitcoin-loans-advisory/)_
+- No numbers, promises, awards or lender counts were revealed for the target article itself _(source : /common-uses-for-property-bridging-loans-in-the-uk/)_
 - No testimonials, awards or credentials surfaced for this page _(source : /conversions/)_
 - No testimonials, awards, credentials, lender counts or numeric promises surfaced for this page [a][b][c] _(source : /crypto-bridging-advisory/)_
 - No testimonials, awards, fees, rates or timescales revealed for this page by any of the three searches _(source : /development-finance-brokers/)_
@@ -7615,6 +12813,7 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - No testimonials, awards, credentials or case studies specific to this page were surfaced in the results _(source : /foreign-national-mortgages/)_
 - No testimonials, awards, case studies or regulatory credentials were revealed for this page by any result _(source : /hmo-finance/)_
 - No testimonials, awards, credentials, fees, rates or timescales specific to the hotel-finance page were revealed by any search _(source : /hotel-finance/)_
+- No awards, lender counts, loan-size ranges, fees, interest rates or timings from this page appeared in the snippets _(source : /how-do-shared-ownership-mortgage-broker-work/)_
 - No testimonials, awards or fee details for this page appeared in any of the three results [a][b][c] _(source : /international-property-mortgages/)_
 - No testimonials, awards or credentials were surfaced for the /lenders/ page _(source : /lenders/)_
 - No testimonials, awards, credentials, rates, fees or LTV figures revealed in the excerpts for this page [a][b][c] _(source : /light-to-heavy-refurbishment/)_
@@ -7627,20 +12826,38 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - Testimonials, awards or credentials specific to the target page: none revealed _(source : /private-bank-mortgages/)_
 - No testimonials, timescales, rate figures, fee figures or LTV figures were revealed for this page _(source : /probate-lending/)_
 - No testimonials, awards, credentials or named case studies were surfaced for this page by the searches _(source : /property-development-finance/)_
+- Article contains no pricing, fees, or regulatory details (per search summary [a]) _(source : /secure-the-best-business-loan-with-expert-brokerage-services/)_
+- No awards or recognitions mentioned in results for this article _(source : /secure-the-best-business-loan-with-expert-brokerage-services/)_
 - No lender-count figure, testimonial, award, credential or guarantee was revealed for this page _(source : /senior-secured-aircraft-finance-advisory/)_
 - No testimonials, case studies, numeric figures, timescales or credentials were revealed for this specific page _(source : /single-stock-lending-advisory/)_
 - No testimonials, awards, credentials or case-study references for this specific page were surfaced _(source : /stretch-senior-development-finance/)_
 - No testimonials, awards or credentials specific to the superyacht page appeared in the results _(source : /superyacht-finance/)_
+- No awards, dates or figures were revealed for the article itself _(source : /which-mortgage-company-is-right-for-you/)_
 - No testimonials, awards, credentials, numbers or promises specific to /whole-loans/ were revealed _(source : /whole-loans/)_
+- No numbers, awards, lender counts, loan sizes or fee figures were revealed for this specific page _(source : /why-are-property-bridging-loans-popular-in-the-uk/)_
 
 **absence note**
 
+- No lender-count, award, speed or guarantee claims surfaced for this page in either search _(source : /what-are-bridging-loans-and-how-do-they-work/)_
 - No testimonials, awards, lender counts or completion-volume figures specific to the yacht mortgages page were surfaced by any search. _(source : /yacht-mortgages/)_
+
+**absence noted by search tool [b]**
+
+- Site does not give fees for broken-chain loans specifically _(source : /how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/)_
 
 **absence-note**
 
 - No testimonials, awards, lender-count or loan-size figures were revealed for this page _(source : /development-exit-loans/)_
+- No lender-count, loan-size, award, fee-percentage or firm-specific promise surfaced for this article _(source : /how-does-a-bridging-loan-work/)_
 - No testimonials, awards, credentials, lender counts or loan-size figures were revealed for this specific page _(source : /post-planning-land-acquisitions/)_
+
+**adjacent-page figure, search-tool paraphrase**
+
+- ADJACENT PAGE /commercial-mortgages/ [b]: variable rates are benchmarked to the Bank of England base rate or SONIA, plus a risk margin; fixed-rate deals typically offered for 2 or 5 years; typical LTVs run from about 65% to 75%. _(source : /impact-of-inflation-and-interest-rates-on-uk-commercial-property/)_
+- ADJACENT CASE STUDY /case-studies/manchester-office/ [b]: £4.5m Manchester office loan at 3.00% above Bank Base Rate, 7-year interest-only term (case study dated about 37 days old by the tool). _(source : /impact-of-inflation-and-interest-rates-on-uk-commercial-property/)_
+- ADJACENT CASE STUDY /case-studies/purchase-and-upgrade-21-million-office-in-london/ [b]: £21m London office loan at 4.75% fixed over three years, 68% LTV. _(source : /impact-of-inflation-and-interest-rates-on-uk-commercial-property/)_
+- ADJACENT PAGE (unspecified, likely /how-much-does-a-bridging-loan-cost/) [b]: bridging loans carry much higher rates than mortgages, often averaging about 1% per month. _(source : /impact-of-inflation-and-interest-rates-on-uk-commercial-property/)_
+- ADJACENT PAGE (unspecified) [b]: mixed-use and commercial development schemes may face tighter leverage caps, such as 65% loan-to-gross-development-value for commercial schemes. _(source : /impact-of-inflation-and-interest-rates-on-uk-commercial-property/)_
 
 **advice / criteria [b]**
 
@@ -7650,21 +12867,78 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Why 70% of London Development Finance Deals Get Rejected _(source : /lender-calculator/)_
 
+**article-statement [b], near-verbatim**
+
+- Higher levels of inflation are likely to contribute to a significant increase in the costs associated with the development of commercial property. _(source : /impact-of-inflation-and-interest-rates-on-uk-commercial-property/)_
+
+**article-thesis, search-tool paraphrase [a]**
+
+- Bank Rate and quantitative easing affect borrowing costs and inflation. _(source : /impact-of-inflation-and-interest-rates-on-uk-commercial-property/)_
+
+**article-thesis, search-tool paraphrase [a][b]**
+
+- Construction costs for commercial property tend to rise with inflation; higher development costs come from construction, labour and materials. _(source : /impact-of-inflation-and-interest-rates-on-uk-commercial-property/)_
+
+**article-thesis, search-tool paraphrase [b]**
+
+- The Bank of England sets the Bank Rate; its effect on borrowing costs feeds into inflation. _(source : /impact-of-inflation-and-interest-rates-on-uk-commercial-property/)_
+
+**assertion**
+
+- Local brokers have strong relationships with high-street banks, specialist lenders, and private financiers [b] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
+
+**assertion (this article, [a][b])**
+
+- Some of the best deals are found off-market, which depends on maintaining a network of agents, brokers and developers. _(source : /how-london-property-investment-advisors-help-maximise-roi/)_
+
+**assertion [a]**
+
+- Underestimating project costs is 'perhaps one of the most common errors that developers make' _(source : /top-mistakes-to-avoid-when-applying-for-property-development-lending/)_
+
+**assertion [a] (paraphrased by search tool)**
+
+- The exit strategy is often the part of a deal the lender is most concerned about _(source : /how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/)_
+
+**assertion [b]**
+
+- Cost estimation is 'an important factor on which lenders base their lending decisions' _(source : /top-mistakes-to-avoid-when-applying-for-property-development-lending/)_
+
 **asset**
 
 - Secured on a high-value / prime residential property (home / house) in Kensington _(source : /case-studies/3-6-million-bridging-loan-prime-kensington-property/)_
+- Two brand new Tesco Convenience stores located in Liverpool _(source : /case-studies/bridging-for-a-retail-purchase-in-liverpool/)_
+- Property: large five-bedroom house built by the client on a plot in Richmond, South West London _(source : /case-studies/bvi-trust-refinance/)_
+- 50-metre Heesen yacht _(source : /case-studies/heesen-yacht-finance/)_
 
 **asset [a][b]**
 
 - 25-apartment luxury residential scheme in North West London _(source : /case-studies/nw-london-bridge/)_
 
+**asset detail / timing**
+
+- Existing single tenant lease ending in about 2.5 years _(source : /case-studies/purchase-and-upgrade-21-million-office-in-london/)_
+
+**asset-fact**
+
+- Property was unencumbered residential in Prime Central London _(source : /case-studies/1-46-million-refinance-prime-central-london-property/)_
+- Villa had planning permission to become a boutique hotel _(source : /case-studies/bridging-villa-cap-ferrat/)_
+
 **audience**
 
 - Suited to high-net-worth individuals, crypto investors and businesses holding digital assets who need short-term funding [a][b] _(source : /crypto-bridging-advisory/)_
 - Target groups include international executives relocating to the UK and UK expatriates returning from abroad [a] _(source : /foreign-national-mortgages/)_
+- Used by both first-time buyers and experienced investors [a] _(source : /why-are-property-bridging-loans-popular-in-the-uk/)_
+
+**audience-statement (this article)**
+
+- "Securing the right mortgage can be a daunting and time-consuming task for experienced and first time buyers." [a] _(source : /find-the-perfect-mortgage-with-a-specialist-broker/)_
 
 **award**
 
+- [b] "Jimmy Baillie included in the prestigious Spear's 500 list for 2022/2023" _(source : /blogs/)_
+- Silver Oak Capital / Jimmy Baillie added to the Spear's 500 list for 2022 (page title); page text says 2022/2023 _(source : /case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)_
+- Jimmy Baillie has an adviser profile on spears500.com in the Debt Advisory Index (spears500.com/adviser/22953/jimmy-baillie) _(source : /case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)_
+- Spear's 500 logo appears on the Silver Oak Capital homepage (per [b]) _(source : /case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)_
 - Listed in Property Week Commercial Property Awards 2026 (organisation page) [a] _(source : /complex-offshore-structures/)_
 - Spear's 500 adviser profile exists for Jimmy Baillie (spears500.com/adviser/22953 and /6519) [c]; seed records Spear's 500 list 2022 [seed] _(source : /prime-residential-mortgages/)_
 
@@ -7675,6 +12949,10 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **award-listing**
 
 - Organisation page on Property Week Commercial Property Awards 2026 (awards.propertyweek.com/live/en/node/organisation-silver-oak-capital), cited by [a] as a 2026 award listing stating 800+ lenders _(source : /property-portfolio-mortgages/)_
+
+**award-listing (external URL surfaced in [a], content not read)**
+
+- Listed under Property Week Commercial Property Awards 2026 organisation page _(source : /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/)_
 
 **award-listing (external)**
 
@@ -7701,9 +12979,15 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Silver Oak Capital listed in Commercial Property Awards 2026 (awards.propertyweek.com organisation node) _(source : /aviation-bridging-loans/)_
 
+**background**
+
+- Developer had owned the site for almost 20 years _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+- Planning took almost 5 years to secure, with strong backing from the local council _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+
 **benefit**
 
 - Borrowers keep their holdings and their upside [b] _(source : /crypto-bridging-advisory/)_
+- Benefits: quicker access to capital, flexible terms, securing a site before long-term finance is arranged, refinancing near completion, covering construction costs in some cases _(source : /how-does-a-bridge-loan-work-for-developers/)_
 - Leasing has historically offered significant VAT advantages and flexibility for owners navigating EU waters [b] _(source : /marine-lease-finance/)_
 - Commercial-use leases can allow VAT reclaim on running costs (FAQ page) [a][b] _(source : /marine-lease-finance/)_
 - Avoiding a second lender eliminates the Intercreditor Deed [b] _(source : /stretch-senior-development-finance/)_
@@ -7712,20 +12996,55 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Arranges lenders using investment valuations, letting investors recycle cash and pull out most of their deposit [b] _(source : /hmo-finance/)_
 
+**benefit / promise - verbatim-style fragment [b]**
+
+- Ensuring all financial documentation is prepared correctly to improve approval chances. _(source : /how-do-shared-ownership-mortgage-broker-work/)_
+
+**borrower**
+
+- Borrower: UK landlord; income from a farming business and a property portfolio _(source : /case-studies/bvi-trust-refinance/)_
+- Borrower: wealthy Emirati (UAE) individual _(source : /case-studies/g650/)_
+- Borrower: wealthy individual [a] / wealthy Chinese national [b] seeking long-term finance quickly _(source : /case-studies/heesen-yacht-finance/)_
+
+**borrower / asset**
+
+- Borrower: UK student accommodation operator buying a new PBSA building in Birmingham _(source : /case-studies/pbsa/)_
+
+**borrower profile**
+
+- Borrower experienced with a record of similar schemes _(source : /case-studies/purchase-and-upgrade-21-million-office-in-london/)_
+
+**borrower-fact**
+
+- Borrower is Dubai-based, has hotel-asset experience and income able to cover monthly interest _(source : /case-studies/bridging-villa-cap-ferrat/)_
+
+**borrower-profile**
+
+- Clients were experienced commercial landlords who could pay cash _(source : /case-studies/bridging-for-a-retail-purchase-in-liverpool/)_
+
 **borrower-type**
 
 - Borrower: offshore trust company _(source : /case-studies/bridging-loan-land-with-planning/)_
+
+**business plan**
+
+- Plan: seek planning permission to add a floor and carry out a high-spec upgrade/refit _(source : /case-studies/purchase-and-upgrade-21-million-office-in-london/)_
 
 **capability**
 
 - Provides the liquidity to fund the shipyard stage payments during the build [b] _(source : /pre-construction-marine-finance/)_
 - Can also use the export credit market to help fund a brand-new yacht build [b, /marine-finance/] _(source : /pre-construction-marine-finance/)_
+- Brokers can reach high-street banks, specialist lenders, and private funders _(source : /secure-the-best-business-loan-with-expert-brokerage-services/)_
 - The firm's network of specialist lenders gives clients access to single stock financing [a] _(source : /single-stock-lending-advisory/)_
 - Export credit market can be used for new builds (marine finance page) [b] _(source : /superyacht-finance/)_
 
 **capability (/prime-london-mortgages/)**
 
 - Silver Oak sources options from specialist high-value residential lenders and private banks [b] _(source : /private-bank-mortgages/)_
+
+**capability claim - verbatim [a][b]**
+
+- Not all mortgage lenders offer shared ownership products, but a broker has access to a broad range of options. _(source : /how-do-shared-ownership-mortgage-broker-work/)_
 
 **case study**
 
@@ -7750,17 +13069,30 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - G650 financing: $40m at 80% LTV over 10 years (not bridging) _(source : /aviation-bridging-loans/)_
 
+**case study figures [a][b]**
+
+- £3.6 million bridging facility secured against a high-value residential property in Kensington, completed within four weeks, priced at 0.78% per month, BBR-linked _(source : /property-bridging-finance-for-uk-high-net-worth-individuals/)_
+
+**case study figures [b]**
+
+- £1.46 million, 5-year interest-only refinance on a Prime Central London property, with a personal guarantee from an overseas high-net-worth individual with no UK footprint _(source : /property-bridging-finance-for-uk-high-net-worth-individuals/)_
+
 **case-study**
 
 - £3.6 million bridging loan completed on a prime Kensington property after two specialist lenders withdrew at the final stage _(source : /bridging-loans-uk/)_
 - £19 million bridging loan at 0.75% per month over 12 months for a North West London development _(source : /bridging-loans-uk/)_
 - Case study: £4.5m commercial mortgage, 65% LTV, 7-year interest-only, Manchester office _(source : /commercial-mortgage-broker/)_
 - €5 million bridging loan at 62.5% LTV on a Côte d'Azur villa to be converted into a boutique hotel (/case-studies/bridging-villa-cap-ferrat/) [a] _(source : /hotel-finance/)_
+- Case study: offshore trust company sought bridging finance for a Glasgow site without planning; borrowers unwilling to give a personal guarantee; solved through the firm's bridging lender network (/case-studies/bridging-loan-land-with-planning/, paraphrase; note the page title says 'Land with Plann… _(source : /how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/)_
 - Related case study: $14m at 60% LTV for a 50m Heesen yacht, 10-year term (/case-studies/heesen-yacht-finance/) _(source : /marine-finance/)_
 - Case study: GBP 1.46m, 5-year interest-only refinance, Prime Central London, lender accepted non-standard loan purpose and combined household income [a][b] _(source : /prime-residential-mortgages/)_
 - Case study: Notting Hill Large Residential Mortgage, private bank, client with oil and gas income [a][b] _(source : /prime-residential-mortgages/)_
 - Deal listed: buy-to-let mortgage with second-charge bridging loan on a Surrey property [a] _(source : /prime-residential-mortgages/)_
 - Case study: GBP 5.3m refinance of 10 London flats at 70% LTV, 2.50% five-year fixed, individual interest-only mortgages; client asked for ten separate mortgages rather than one loan [a][b] _(source : /property-portfolio-mortgages/)_
+
+**case-study (related page, [a]/[b], not this article)**
+
+- £1.46 million five-year interest-only refinance, Prime Central London, overseas guarantor _(source : /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/)_
 
 **case-study figure (Mayfair, other page) [b]**
 
@@ -7782,6 +13114,14 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Falcon 900 case study (separate page): 70% LTV, 4.45% fixed rate, 72-month term, Dubai-based client [a][b] _(source : /senior-secured-aircraft-finance-advisory/)_
 
+**caution [a]**
+
+- Retained interest: some lenders will not refund unused retained interest if the loan is repaid early _(source : /different-types-of-interest-options-with-bridging-loans/)_
+
+**caution [a][b]**
+
+- Rolled-up interest: eases cash flow but the final bill can be higher and may reduce sale proceeds _(source : /different-types-of-interest-options-with-bridging-loans/)_
+
 **caveat**
 
 - Page title says 'land with planning' while body describes a site valued without planning (internal inconsistency flagged by both search summaries) _(source : /case-studies/bridging-loan-land-with-planning/)_
@@ -7794,10 +13134,26 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **challenge**
 
 - Two specialist lenders had withdrawn at the final stage over intercreditor terms (first and second charges) _(source : /case-studies/3-6-million-bridging-loan-prime-kensington-property/)_
+- Borrower had no UK credit profile, which made most lenders hesitant _(source : /case-studies/800k-bridging-loan-refinance/)_
+- Finding an aircraft was harder than arranging the loan; prices have increased and there is remarkably little stock available at many of the aviation brokers _(source : /case-studies/aircraft-loan-falcon-900/)_
+- Challenge: difficulty finding a lender accepting the farming + property-portfolio income mix _(source : /case-studies/bvi-trust-refinance/)_
+- Challenge: lender needed a working relationship with the Guernsey-based trustees _(source : /case-studies/bvi-trust-refinance/)_
+- Borrower did not want to start building with any pre-sales in place _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+- Borrower acted as own builder rather than using a design-and-build contractor _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+- Challenges: aircraft valuation, maintenance costs, regulatory compliance, suitability of jet to client's travel needs _(source : /case-studies/g650/)_
+- Challenges: optimising space and amenities for changing student needs; meeting student housing regulations and safety standards _(source : /case-studies/pbsa/)_
+
+**challenge / requirement**
+
+- Developer needed more than 65% LTV _(source : /case-studies/purchase-and-upgrade-21-million-office-in-london/)_
 
 **challenge/outcome [b]**
 
 - £3.6m Kensington facility arranged after two specialist lenders withdrew over intercreditor disagreements _(source : /case-studies/)_
+
+**client types, source page not specified by search [b]**
+
+- typically acts for HNW and UHNW individuals, property developers, family offices and trustees, and international clients with UK assets _(source : /property-bridging-finance-for-uk-high-net-worth-individuals/)_
 
 **collateral**
 
@@ -7846,10 +13202,27 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - CONTRADICTION: lender count stated as 300+, 500+, 700+ and 800+ depending on page/source _(source : /lenders/)_
 
+**cost**
+
+- Bridging rates are higher than standard mortgages; fees include arrangement, valuation and exit fees (sibling page /how-does-a-bridging-loan-work/) _(source : /common-uses-for-property-bridging-loans-in-the-uk/)_
+
+**cost comparison [b]; attributed to 'one article', not confirmed as this page**
+
+- bridging loans have interest rates that are double, if not triple those of traditional mortgages _(source : /what-are-bridging-loans-and-how-do-they-work/)_
+
+**cost-disclosure [a]**
+
+- Exit, valuation and legal costs may apply on top _(source : /selecting-the-ideal-property-finance-specialist-for-successful-developments/)_
+
+**cost-statement**
+
+- Bridging loans usually carry higher interest than conventional mortgages, reflecting their short-term nature and higher risk [b] _(source : /importance-of-bridging-loans-for-property-development/)_
+
 **coverage**
 
 - Hotels listed among commercial sectors covered alongside Retail, Office, Logistics, Care Homes, Student Accommodation (homepage) [a][seed] _(source : /hotel-finance/)_
 - Whole-loan providers comfortable funding hotels, PBSA, BTR and industrial provided exit yields and demand are proven (/whole-loans/) [b] _(source : /hotel-finance/)_
+- Loans UK wide with a strong focus on bridging loans in London _(source : /understanding-short-term-property-funding-for-uk-real-estate/)_
 
 **coverage [a]**
 
@@ -7919,6 +13292,10 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Most lenders prefer 12 months' ownership of a standard BTL before HMO _(source : /buy-to-let-mortgages/)_
 
+**cross-reference from another site page [b]**
+
+- Other Silver Oak page (/difference-between-regulated-unregulated-bridging-loans/): serviced interest described as the alternative to rolled-up interest _(source : /different-types-of-interest-options-with-bridging-loans/)_
+
 **cross-reference-other-case-study [b]**
 
 - Cross-reference: £3.6 million Kensington bridge priced at 0.78% per month _(source : /case-studies/nw-london-bridge/)_
@@ -7929,13 +13306,25 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - 'WhatsApp Us Now' option on the page [a][b] _(source : /contact/)_
 - SERP title variant 'Get a Instant Quote Now' implies an instant-quote CTA on the page [b]; not otherwise confirmed _(source : /development-finance-brokers/)_
 
+**date (search-tool estimate)**
+
+- Article is "about 225 days old" as of 2026-10-29, i.e. published approximately March 2026 [b] _(source : /find-the-perfect-mortgage-with-a-specialist-broker/)_
+
 **date [a] (Bridging & Commercial)**
 
 - Trade press: issued on 2 March 2020 _(source : /case-studies/nw-london-bridge/)_
 
+**date-approximate**
+
+- Page dated about 617 days before 2026-10-29, i.e. approximately February 2025 (derived from search tool freshness note) [a] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
+
 **date/freshness**
 
 - Page is about 230 days old relative to 2026-10-29 (search tool note), i.e. published/updated around spring 2026, while trade press dates the deal to October 2024 _(source : /case-studies/3-6-million-bridging-loan-prime-kensington-property/)_
+
+**dating [b] (search-tool estimate, not page-stated)**
+
+- Most recent Silver Oak pages were about 114 to 213 days old at search time (2026-10-29), i.e. roughly late March to early July 2026 _(source : /development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)_
 
 **deal claim, property not aviation [c]**
 
@@ -7949,9 +13338,25 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - 'time-sensitive £4m refinance secured against a prime residential asset in Kensington' [c, LinkedIn post] _(source : /distressed-asset-finance/)_
 
+**deal fact / risk statement [a][b]**
+
+- Client of Egyptian nationality; high-risk category for most European lenders _(source : /case-studies/top-aviation-firms/)_
+
+**deal fact [b, tool paraphrase]**
+
+- Operating lease required; flights between Cairo, Dubai and London _(source : /case-studies/top-aviation-firms/)_
+
 **deal size**
 
 - GBP 19.1m bridging loan arranged in 2020 (Spear's, self-reported) _(source : /about-us/)_
+
+**deal size / asset value**
+
+- £21m Central London office (purchase price £21m) _(source : /case-studies/purchase-and-upgrade-21-million-office-in-london/)_
+
+**deal-amount**
+
+- $14 million loan arranged _(source : /case-studies/heesen-yacht-finance/)_
 
 **deal-amount [a]**
 
@@ -7964,9 +13369,67 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - £3.6m bridging loan on a Kensington property _(source : /case-studies/)_
 - £1.46m refinance on an unencumbered residential property in Prime Central London _(source : /case-studies/)_
 
+**deal-complexity**
+
+- Documents spanned several jurisdictions _(source : /case-studies/1-46-million-refinance-prime-central-london-property/)_
+
+**deal-context**
+
+- Property was vacant at the time of enquiry _(source : /case-studies/country-estate-refinance/)_
+- Existing debt was costly/expensive short-term debt used to fund a high-spec refurbishment _(source : /case-studies/country-estate-refinance/)_
+- Introducer was Monaco-based _(source : /case-studies/country-estate-refinance/)_
+
 **deal-context [b]**
 
 - £19m NW London deal: 25-apartment scheme about 80% complete at time of refinance _(source : /case-studies/)_
+
+**deal-fact**
+
+- Client budget capped at about $25m USD for a used Falcon-class jet _(source : /case-studies/aircraft-loan-falcon-900/)_
+- Client is Dubai-based; introduction made by a Swiss family office _(source : /case-studies/aircraft-loan-falcon-900/)_
+- Jet intended for personal use, mid-range, ideally registered in Dubai, for flights between European and Middle Eastern cities _(source : /case-studies/aircraft-loan-falcon-900/)_
+- 100-unit senior affordable housing scheme in Kent, UK _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+
+**deal-feature**
+
+- Lender's package accounted for coastal and hurricane risks, including sea-level rise mitigation and adherence to strict coastal development regulations _(source : /case-studies/miami-developer/)_
+
+**deal-figure**
+
+- Loan amount: £4.55 million GBP _(source : /case-studies/country-estate-refinance/)_
+- Loan to value: 65% _(source : /case-studies/country-estate-refinance/)_
+- Property valuation: £7 million _(source : /case-studies/country-estate-refinance/)_
+- Interest rate: 2.89% variable _(source : /case-studies/country-estate-refinance/)_
+- Term: 5 years _(source : /case-studies/country-estate-refinance/)_
+- Bank fee: 0.50% [a only] _(source : /case-studies/country-estate-refinance/)_
+- £4.5m commercial mortgage arranged _(source : /case-studies/manchester-office/)_
+- 65% loan-to-value _(source : /case-studies/manchester-office/)_
+- 7-year term, full interest-only _(source : /case-studies/manchester-office/)_
+- Interest rate 3.00% above Bank Base Rate _(source : /case-studies/manchester-office/)_
+- 1.00% bank fee _(source : /case-studies/manchester-office/)_
+
+**deal-outcome**
+
+- Secured a £1.46 million, 5-year interest-only facility at a conservative LTV _(source : /case-studies/1-46-million-refinance-prime-central-london-property/)_
+- Lender accepted a non-standard loan purpose (reimbursing family members who privately funded purchase and refurbishment) _(source : /case-studies/1-46-million-refinance-prime-central-london-property/)_
+- Lender accepted affordability based on multiple household incomes despite single-name ownership _(source : /case-studies/1-46-million-refinance-prime-central-london-property/)_
+- Lender accepted an international guarantor (overseas HNW individual with no UK footprint) with verified offshore income _(source : /case-studies/1-46-million-refinance-prime-central-london-property/)_
+- Transaction included onboarding the client into a new private banking relationship _(source : /case-studies/1-46-million-refinance-prime-central-london-property/)_
+
+**deal-structure**
+
+- Repayment basis: full interest only _(source : /case-studies/country-estate-refinance/)_
+- No AUM requirement [a] / no wealth management requirement [b] _(source : /case-studies/country-estate-refinance/)_
+- Lender: European private bank ('tailored European private bank lending') _(source : /case-studies/g650/)_
+
+**deal-term**
+
+- 70% Loan to Value _(source : /case-studies/aircraft-loan-falcon-900/, /case-studies/miami-developer/)_
+- 4.45% Fixed Rate _(source : /case-studies/aircraft-loan-falcon-900/)_
+- 72 month term _(source : /case-studies/aircraft-loan-falcon-900/)_
+- Quarterly Repayments _(source : /case-studies/aircraft-loan-falcon-900/)_
+- Fees 1% Arrangement _(source : /case-studies/aircraft-loan-falcon-900/)_
+- 25% Balloon _(source : /case-studies/aircraft-loan-falcon-900/)_
 
 **deal-terms [a]**
 
@@ -7985,18 +13448,40 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **definition**
 
 - Foreign national mortgage supports non-UK citizens purchasing or refinancing UK property [a][b] _(source : /foreign-national-mortgages/)_
+- An offshore bridging loan is a loan secured on UK property where the borrower is an overseas resident, national, or foreign-registered company (search-summary paraphrase of the target article) [b] _(source : /how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/)_
 - Light works need no building regulations or planning permission; medium works usually rely on Permitted Development Rights [a][b] _(source : /light-to-heavy-refurbishment/)_
 - Probate lending is a lender providing finance to the heirs, secured against their future inheritance (page, per [a][b]) _(source : /probate-lending/)_
 - Superyachts are vessels over 30 metres [a] _(source : /superyacht-finance/)_
 - Yacht mortgage defined as a secured loan where the vessel itself is collateral. [b] _(source : /yacht-mortgages/)_
+- Mezzanine finance is a hybrid option that adds funding for developers when senior debt alone isn't enough [a] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
+
+**definition (tool paraphrase of site) [a]**
+
+- Aviation finance firms described as brokers who assist individuals or companies in financing or leasing private or commercial aircraft _(source : /case-studies/top-aviation-firms/)_
 
 **definition / contradiction with 30m**
 
 - Yachts financed are typically over 20m in length (marine finance page) [a][b] _(source : /superyacht-finance/)_
 
+**definition [a][b]**
+
+- A broken chain is a liquidity shortage caused by a lag between the cash flow from selling and buying property _(source : /how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/)_
+
+**definition from another site page [b]**
+
+- Other Silver Oak page (/what-are-bridging-loans-and-how-do-they-work/): rolled-up interest is where interest payments are retained and settled at the end of the loan term _(source : /different-types-of-interest-options-with-bridging-loans/)_
+
+**derived**
+
+- Implied LTV approx. 41.7% (5m / 12m) - derived by this agent, not stated on the page _(source : /case-studies/bvi-trust-refinance/)_
+
 **directory listing (third-party) [a]; note possible contradiction with seed office at 91 Wimpole Street W1G**
 
 - Listed on mortgage118.com broker directory under Hackney, London _(source : /buy-to-let-mortgages/)_
+
+**disclaimer**
+
+- Page offers a general overview rather than specific products or lender comparisons _(source : /how-much-does-a-bridging-loan-cost/)_
 
 **disclosure (seed /lenders/)**
 
@@ -8021,6 +13506,10 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **eligibility**
 
 - Loans available to private collectors, family offices and galleries [b] _(source : /art-finance-advisory/)_
+- Experience and Track Record is the first listed requirement in the article; lenders see inexperienced developers as higher risk. _(source : /development-finance-requirements-in-the-uk-explained/)_
+- It is impossible to find a lender who will fund the full development without an equity contribution from the borrower (summary attributes this to 'one article' on the site). _(source : /development-finance-requirements-in-the-uk-explained/)_
+- Most development finance lenders will not take planning risk (summary attributes this to 'the site'). _(source : /development-finance-requirements-in-the-uk-explained/)_
+- Lenders find some home countries harder to source finance for, particularly those under UK government sanctions (paraphrase, target article) [b] _(source : /how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/)_
 - Boat finance typically for yachts over 20m in length [b, /marine-finance/] _(source : /pre-construction-marine-finance/)_
 - Yachts financed typically registered on the British, Cayman, BVI and Maltese registers [b, /marine-finance/] _(source : /pre-construction-marine-finance/)_
 - Founders and insiders can use the product subject to insider-trading rules, pre-clearance and covenants [b] _(source : /single-stock-lending-advisory/)_
@@ -8034,6 +13523,14 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - For a pure land bridge, experience is less critical than for development finance _(source : /post-planning-land-acquisitions/)_
 - Lenders will still want to know your exit strategy _(source : /post-planning-land-acquisitions/)_
 
+**eligibility [b]**
+
+- Lenders expect a clear business case, including cost estimates, projected timelines, and an exit strategy _(source : /how-does-property-development-finance-work-a-step-by-step-guide/)_
+
+**eligibility [b] (site-wide, page not identified)**
+
+- Lenders look at the property's value, the borrower's exit plan, and speed _(source : /how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/)_
+
 **evidence/testimonial-like**
 
 - Case studies describe deals sourced through overseas introducers in Monaco and Geneva [b] _(source : /introducers/)_
@@ -8041,6 +13538,10 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **example**
 
 - Representative example: GBP 25m loan, up to 90% LTV, 30% balloon, 3.00% plus margin _(source : /aviation-finance/)_
+
+**exit [b] (site-wide, page not identified)**
+
+- Loan usually cleared through sale of the property or refinancing into a long-term mortgage _(source : /how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/)_
 
 **experience**
 
@@ -8055,6 +13556,10 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Silver Oak has worked on a number of aircraft bridging loans over the years _(source : /aviation-bridging-loans/)_
 
+**explanation - search tool summary of the article [b]**
+
+- The rate gap between commercial and residential is attributed to differences in risk, funding costs and exit routes _(source : /how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/)_
+
 **external corroboration**
 
 - Trade press (Bridging & Commercial) reported the deal in October 2024 as completed by Octane Capital, originated by BDM Lee Warne, introduced by broker Jimmy Baillie from Silver Oak Capital _(source : /case-studies/3-6-million-bridging-loan-prime-kensington-property/)_
@@ -8067,10 +13572,19 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Related external headline seen in results (different deal): 'Silver Oak Capital completes its largest ever bridging loan of £19.1m' (bridgingandcommercial.co.uk) _(source : /case-studies/bridging-loan-land-with-planning/)_
 
+**external-number**
+
+- External (bridgingandcommercial.co.uk headline, not from this page): 'Silver Oak Capital completes its largest ever bridging loan of £19.1m' _(source : /how-much-does-a-bridging-loan-cost/)_
+
 **external-press**
 
+- External press result title (not this page): 'Silver Oak Capital completes its largest ever bridging loan of £19.1m' (bridgingandcommercial.co.uk) _(source : /case-studies/bridging-villa-cap-ferrat/)_
 - External (not this page): bridgingandcommercial.co.uk headline 'Silver Oak Capital completes its largest ever bridging loan of £19.1m' [a] _(source : /crypto-bridging-advisory/)_
 - External (not this page): bridgingandcommercial.co.uk headline 'Silver Oak Capital to grow team following increased volume in £2m-20m space' [a] _(source : /crypto-bridging-advisory/)_
+
+**external-press-headline**
+
+- External press result title [a]: 'Silver Oak Capital completes its largest ever bridging loan of £19.1m' (bridgingandcommercial.co.uk; not opened, headline only) _(source : /case-studies/bridging-for-a-retail-purchase-in-liverpool/)_
 
 **external-press-headline [a]**
 
@@ -8088,7 +13602,15 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **fee**
 
 - Typical broker fee for aviation finance is 1.50% of the loan amount _(source : /aviation-finance/)_
+- Proposed 1.25% arrangement fee _(source : /case-studies/bridging-for-a-retail-purchase-in-liverpool/)_
+- 1.50% bank fee shared with Silver Oak _(source : /case-studies/bridging-villa-cap-ferrat/)_
+- 2.75% lender fee _(source : /case-studies/heesen-yacht-finance/)_
+- 1.75% bank fee _(source : /case-studies/pbsa/)_
+- Related page /marine-finance/: broker fee of 1.00% of the loan amount _(source : /case-studies/yacht-finance-calculator/)_
 - Broker fee 1.00% UK / 1.50% outside UK for commercial mortgage (older page, ~4 years old) _(source : /commercial-mortgage-broker/)_
+- Lender arrangement fee usually 1% to 2% of the loan _(source : /how-much-does-a-bridging-loan-cost/)_
+- Broker fee about £1,500 on application + 0.5% on offer + 0.5% on completion _(source : /how-much-does-a-bridging-loan-cost/)_
+- Exit fee often around 1% _(source : /how-much-does-a-bridging-loan-cost/)_
 - Typical broker fee 1.00% of the loan amount (attribution ambiguous between this page and /types-of-borrowing/) _(source : /marine-finance/)_
 - Typical marine finance broker fee 1.00% of loan amount (unspecified marine finance page, not target page) [b] _(source : /marine-lease-finance/)_
 - Typical broker fee for marine finance of 1.00% of the loan amount [a][b, older pages] _(source : /pre-construction-marine-finance/)_
@@ -8097,6 +13619,27 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - [a] Bridging broker fee typically 1%, or 1.5% for loans outside the UK _(source : /types-of-borrowing/)_
 - [seed] 1.00% prime residential _(source : /types-of-borrowing/)_
 - Typical broker fee of 1.00% of the loan amount (marine finance page). [b] _(source : /yacht-mortgages/)_
+
+**fee-figure (typical range) [a]**
+
+- Success fee of 0.5% at offer and 0.5% at completion _(source : /selecting-the-ideal-property-finance-specialist-for-successful-developments/)_
+- Lender fees generally around 2% _(source : /selecting-the-ideal-property-finance-specialist-for-successful-developments/)_
+
+**fee-figure (typical range, not a quoted term) [a]**
+
+- Typical broker application fee around £1,500 _(source : /selecting-the-ideal-property-finance-specialist-for-successful-developments/)_
+
+**fees [a] target page**
+
+- Fees can include arrangement, valuation, and exit fees _(source : /how-does-a-bridging-loan-work/)_
+
+**fees [b]**
+
+- Fees such as arrangement and valuation charges can add to the total _(source : /what-are-bridging-loans-and-how-do-they-work/)_
+
+**figure - search-tool summary [a] attributed to the Silver Oak page; wording not confirmed verbatim**
+
+- Shared ownership share range 'usually 25% to 75%' _(source : /how-do-shared-ownership-mortgage-broker-work/)_
 
 **firm claim (external)**
 
@@ -8114,6 +13657,16 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Debt advisory firm located in London, UK _(source : /bitcoin-loans-advisory/)_
 
+**firm-claim**
+
+- Homepage: network of over 800 lenders, mainly for loans above GBP 500,000 [b] _(source : /case-studies/bridging-for-a-retail-purchase-in-liverpool/)_
+- Commercial-mortgage-broker page: firm arranges both short-term bridging and long-term commercial mortgages [b] _(source : /case-studies/bridging-for-a-retail-purchase-in-liverpool/)_
+
+**firm-fact**
+
+- [b] "Silver Oak Capital was established in 2019" _(source : /blogs/)_
+- Firm set up in 2019 after Baillie saw a gap in specialist advice for loans of £2 million and above _(source : /case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)_
+
 **firm-fact [a]**
 
 - Firm founded in 2019 and based in London (LinkedIn) _(source : /development-exit-loans/)_
@@ -8125,6 +13678,10 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **founding date**
 
 - Founded in 2019 by Jimmy Baillie (seed notes one page says 2018) _(source : /about-us/)_
+
+**freshness**
+
+- Page appeared in results as 37 days old (approx. late September 2026 relative to 2026-10-29) _(source : /case-studies/g650/)_
 
 **freshness metadata from search tool [b]**
 
@@ -8139,10 +13696,17 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - FCA authorisation status not shown in any result (search tool flagged as unverified) _(source : /commercial-mortgage-broker/)_
 - No testimonials revealed for this page _(source : /commercial-mortgage-broker/)_
 
+**gap [a][b]**
+
+- Hybrid interest is named as the fourth option but not described in any retrieved snippet _(source : /different-types-of-interest-options-with-bridging-loans/)_
+
 **geography**
 
+- Arranges real estate debt in the UK, Western Europe, Southern Africa and the Middle East (Spear's profile) _(source : /case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)_
 - Offices listed: London, Monaco, Dubai, Cape Town [a] _(source : /contact/)_
 - Arranges real estate debt in the UK, Western Europe, Southern Africa and the Middle East [c, Spear's] _(source : /development-finance-brokers/)_
+- The USA, South Africa, the EU and many Middle Eastern countries are listed as easy to arrange finance for (paraphrase, target article) [b] _(source : /how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/)_
+- Firm works across the UK, US, Western Europe and the Middle East (homepage) [b] _(source : /how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/)_
 - Arranges real estate debt for deals in the UK, Western Europe, Southern Africa and the Middle East (Spear's) [c] _(source : /international-property-mortgages/)_
 - Arranges debt across the UK, US, Western Europe and the Middle East [b homepage] _(source : /mezzanine-junior-finance/)_
 - Arranges real estate debt for transactions in the UK, Western Europe, Southern Africa and the Middle East [c, Spear's] _(source : /western-europe/)_
@@ -8153,13 +13717,51 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - arranges debt across the UK, US, Western Europe and the Middle East (homepage) [b] _(source : /whole-loans/)_
 - Work placed across Western European hubs: Monaco, Cote d'Azur, Italy, the Netherlands. [b] _(source : /yacht-mortgages/)_
 
+**geography-site-level**
+
+- Site-level (homepage): arranges debt on real estate and luxury asset transactions across the UK, US, Western Europe and the Middle East [b] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
+
 **guarantee [a][b]**
 
 - 15% personal guarantee _(source : /case-studies/nw-london-bridge/)_
 
+**guidance**
+
+- A roof leak left unattended could grow into a much larger issue (article guidance) _(source : /different-ways-to-add-value-to-the-property-before-selling/)_
+- Renovation cost should not outweigh the value it adds; expensive renovation in a low-value area given as the cautionary example (article guidance) _(source : /different-ways-to-add-value-to-the-property-before-selling/)_
+- Renovations and modernisation are 'one of the quickest and most effective ways to increase property value' [b] _(source : /different-ways-to-grow-and-develop-property-value/)_
+- Insulation, double-glazed windows and energy-efficient heating systems 'can reduce running costs and increase EPC ratings' [a] _(source : /different-ways-to-grow-and-develop-property-value/)_
+- Loft conversions often do not need full planning permission [b] _(source : /different-ways-to-grow-and-develop-property-value/)_
+- Expanding or altering a property adds significant value, particularly in high-demand areas where space is at a premium [b] _(source : /different-ways-to-grow-and-develop-property-value/)_
+
+**guidance [a]**
+
+- Serviced interest suits borrowers with enough cash flow _(source : /different-types-of-interest-options-with-bridging-loans/)_
+
+**guidance [b]**
+
+- LTV is usually most relevant when the developer plans to purchase the site first or refinance an existing facility secured on the site _(source : /development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)_
+- Lenders heavily scrutinise the borrower equity contribution to the development _(source : /development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)_
+
+**guidance figure [a][b]**
+
+- A healthy contingency is generally 5-15% of project costs _(source : /top-mistakes-to-avoid-when-applying-for-property-development-lending/)_
+
+**inconsistency-flag**
+
+- Search tool notes the 300+ vs 800+ lender figures conflict and advises checking with the firm [a][b] _(source : /find-the-perfect-mortgage-with-a-specialist-broker/)_
+
 **indicative terms (attributed to another site page, likely /prime-residential-mortgages/) [a]**
 
 - Representative example: GBP 7m, 1.25% + Libor, 65% LTV, 5 years renewable, interest only, 20% AUM pledge, lender fees 0.50% _(source : /prime-london-mortgages/)_
+
+**interest structure [b]**
+
+- Interest is usually charged either as rolled-up interest, settled at the end of the term, or serviced, meaning paid regularly to the lender _(source : /what-are-bridging-loans-and-how-do-they-work/)_
+
+**interest-structure [a] OTHER Silver Oak page, not this article**
+
+- Most bridging loans are structured as interest-only, with interest serviced monthly or rolled-up and repaid at the end _(source : /how-does-a-bridging-loan-work/)_
 
 **legal caveat (from /faq/) [b]**
 
@@ -8168,6 +13770,14 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **legal entity**
 
 - Silver Oak Capital Limited, company number 08551479, England and Wales _(source : /about-us/)_
+
+**lender**
+
+- Loan secured from a Middle East private bank _(source : /case-studies/aircraft-loan-falcon-900/)_
+- Lender: a private bank with a BVI office where the trust was administered _(source : /case-studies/bvi-trust-refinance/)_
+- Lender was a London-based senior debt fund _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+- Lender was a Middle East-based private bank experienced with offshore trusts _(source : /case-studies/notting-hill-large-residential-mortgage/)_
+- Lender was Birmingham-based _(source : /case-studies/pbsa/)_
 
 **lender [a] (Bridging & Commercial, not the case-study page)**
 
@@ -8185,6 +13795,14 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Over 800 lenders (home page, Spear's); 700+ (commercial-mortgage-broker page) _(source : /about-us/)_
 
+**lender count, third-party listings per search [a]**
+
+- access to an extensive network of over 800 lenders (older listings cite 300+ and 500+) _(source : /property-bridging-finance-for-uk-high-net-worth-individuals/)_
+
+**lender type**
+
+- Lender: London-based specialist debt fund keen on value-add office deals _(source : /case-studies/purchase-and-upgrade-21-million-office-in-london/)_
+
 **lender-access [a]**
 
 - Access to niche pre-planning bridge lenders who will consider unconsented land if the location is strong and the planning logic is sound _(source : /post-planning-land-acquisitions/)_
@@ -8198,9 +13816,21 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - 800+ Lenders (about-us page per [a]; homepage 'over 800 lenders' per [b]) _(source : /whole-loans/)_
 - more than 300 lenders (property-development-finance page) [b]; contradicts 800+ _(source : /whole-loans/)_
 
+**lender-count (homepage, not this article)**
+
+- Homepage cites "over 800 lenders" / "a network of more than 800 lenders" [a][b] _(source : /find-the-perfect-mortgage-with-a-specialist-broker/)_
+
+**lender-count (other Silver Oak page: prime residential per [b])**
+
+- Firm works with "over 300 lenders" / "more than 300 lenders" [a][b] _(source : /find-the-perfect-mortgage-with-a-specialist-broker/)_
+
 **lender-network**
 
 - Lenders include commercial banks, specialist aviation lenders, institutional lenders, and private credit funds [a][b] _(source : /senior-secured-aircraft-finance-advisory/)_
+
+**lender-network (related /faq/ page, [b], not this article)**
+
+- Firm works with over 800 lenders in the UK and internationally _(source : /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/)_
 
 **lender-panel**
 
@@ -8210,9 +13840,46 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Silver Oak works with major French and Italian leasing banks [a][b] _(source : /marine-lease-finance/)_
 
+**lender-type**
+
+- Lender was a regional lender _(source : /case-studies/manchester-office/)_
+
 **lending mechanic**
 
 - Lenders base the loan on the post-conversion value _(source : /conversions/)_
+
+**lending parameter (other page /senior-development-finance/; search b)**
+
+- Firm can help secure up to 90% loan-to-cost with certain lenders _(source : /how-does-property-development-finance-in-scotland/)_
+
+**lending parameter (this article; corroborated by searches a, b and seed)**
+
+- Senior development loans typically cover up to 65-75% of Gross Development Value (GDV) _(source : /how-does-property-development-finance-in-scotland/)_
+
+**lending parameter [b] - Silver Oak content, page attribution uncertain**
+
+- Lenders are constrained to a maximum day one loan to value (usually 75%) _(source : /top-mistakes-to-avoid-when-applying-for-property-development-lending/)_
+
+**lending-approach (article, [a]/[b])**
+
+- HNW lending assessed against the client's wider wealth rather than standard affordability _(source : /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/)_
+
+**lending-parameter**
+
+- Aims to lend up to 75% of the new, higher valuation once value has been added (source: silveroakcapital.co.uk/faq/, not the article) _(source : /different-ways-to-add-value-to-the-property-before-selling/)_
+
+**leverage**
+
+- 60% loan-to-value _(source : /case-studies/heesen-yacht-finance/, /case-studies/notting-hill-large-residential-mortgage/)_
+- 68% LTV (loan-to-value) _(source : /case-studies/purchase-and-upgrade-21-million-office-in-london/)_
+
+**loan amount**
+
+- GBP 12 million facility proposed _(source : /case-studies/pbsa/)_
+
+**loan condition**
+
+- Lender offer conditional on developer directing remaining rental income to the loan _(source : /case-studies/purchase-and-upgrade-21-million-office-in-london/)_
 
 **loan size**
 
@@ -8221,6 +13888,14 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **loan size (contradiction)**
 
 - Secured loans GBP 2m-20m for UHNW clients (Spear's) _(source : /about-us/)_
+
+**loan size, homepage per search [a]**
+
+- specialises in loans over £500,000 _(source : /property-bridging-finance-for-uk-high-net-worth-individuals/)_
+
+**loan structure**
+
+- Lender expected to release refurbishment funds once the building was vacant _(source : /case-studies/purchase-and-upgrade-21-million-office-in-london/)_
 
 **loan-amount [a] (Bridging & Commercial)**
 
@@ -8235,6 +13910,14 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - Focus on larger deals, loan sizes £2-£20 million [b, firm-level]; seed also records 'over £500,000' (home, /lenders/) and '£500k to £20m' (/about-us/) _(source : /development-finance-brokers/)_
 - focuses on loans of £500K to £20m (about-us page) [a] _(source : /whole-loans/)_
 - focuses on loans of £2 million to £20 million (commercial-mortgage-broker page) [b]; third-party directory: large loans of £2-£20m [a]; contradicts £500K floor _(source : /whole-loans/)_
+
+**loan-size (article, [b])**
+
+- HNW loans are typically £1 million and up _(source : /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/)_
+
+**loan-size (homepage, not this article)**
+
+- Homepage says the firm "specialises in loans over £500,000" [a][b] _(source : /find-the-perfect-mortgage-with-a-specialist-broker/)_
 
 **locations**
 
@@ -8263,6 +13946,11 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - The premium on portfolio products has narrowed [seed] _(source : /faq/)_
 - Whole-loan providers are often sector-agnostic (PBSA, hotels, BTR, industrial) [seed] _(source : /faq/)_
+- Traditional high street lenders generally prefer not to lend on atypical transactions (/faq/, paraphrase) [b] _(source : /how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/)_
+
+**market assertion (this article, [a])**
+
+- The UK property market, and London's in particular, changes often, with rentals and values moving depending on the area. _(source : /how-london-property-investment-advisors-help-maximise-roi/)_
 
 **market assertion [a]**
 
@@ -8280,11 +13968,24 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Specialist lenders fill the gap left by high-street banks _(source : /senior-development-finance/)_
 
+**market commentary**
+
+- Many lenders are reducing their exposure to offices after COVID / since the pandemic _(source : /case-studies/purchase-and-upgrade-21-million-office-in-london/)_
+
 **market statement**
 
 - Standard buy-to-let lenders will not touch HMO properties [a][b] _(source : /hmo-finance/)_
 - Lenders view Article 4 HMOs as more secure because supply is capped [b] _(source : /hmo-finance/)_
 - Superyachts are almost exclusively owned through SPVs, typically limited companies in tax-neutral jurisdictions like the Isle of Man, Malta, or the Cayman Islands [a] _(source : /superyacht-finance/)_
+
+**market statement (this article; search b)**
+
+- Property development finance is a common funding route in Scotland _(source : /how-does-property-development-finance-in-scotland/)_
+- Scotland has unique market conditions and planning regulations to consider _(source : /how-does-property-development-finance-in-scotland/)_
+
+**market-claim**
+
+- Many lenders left the hotel lending market after the Covid-19 pandemic; remaining ones were pricier _(source : /case-studies/bridging-villa-cap-ferrat/)_
 
 **market-claim [b]**
 
@@ -8294,35 +13995,79 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - 10% deposit on auction day, remaining 90% within 28 days [b] _(source : /auction-finance/)_
 
+**market-range [b] (/development-finance-requirements-in-the-uk-explained/)**
+
+- Lenders will generally not go above 90%-95% LTC on a development _(source : /development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)_
+
+**market-range [b] (/faq/)**
+
+- 75% LTGDV / 90% LTC figures usually apply to residential schemes; commercial schemes may be capped lower _(source : /development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)_
+
+**market-range [b] (/senior-development-finance/)**
+
+- Lenders usually cap out at 65% – 70% of GDV for development loans _(source : /development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)_
+
+**market-range [b] (Silver Oak pages; exact page not pinned)**
+
+- LTC typically up to 85% – 90% _(source : /development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)_
+
+**market-range [b] (likely /post-planning-land-acquisitions/)**
+
+- Land without planning is unlikely to secure financing over 50% LTV _(source : /development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)_
+
 **market-statement**
 
+- Retail property lending has been hard since Covid; lenders offered only conservative LTVs _(source : /case-studies/bridging-for-a-retail-purchase-in-liverpool/)_
 - Land without planning has fewer lenders because most do not take 'planning risk' _(source : /case-studies/bridging-loan-land-with-planning/)_
+- Most European private banks treat oil and gas income as high risk _(source : /case-studies/notting-hill-large-residential-mortgage/)_
 - Traditional high street lenders generally prefer not to lend on these transactions [a] _(source : /complex-offshore-structures/)_
 - Many lenders have pulled out of the hotel lending market since the pandemic; the firm has a number of relationships with the remaining niche lenders (/case-studies/bridging-villa-cap-ferrat/) [a][b] _(source : /hotel-finance/)_
 - Leasing is a common way to finance yachts in continental Europe, mainly France, Italy and Malta [a][b] _(source : /marine-lease-finance/)_
 - Older aircraft, roughly 20 to 25 years old, are harder and more expensive to finance [a] _(source : /senior-secured-aircraft-finance-advisory/)_
 
+**market-statement (this article)**
+
+- "the mortgage market is crowded with lenders" / "large and complex" [a][b] _(source : /find-the-perfect-mortgage-with-a-specialist-broker/)_
+
 **marketing promise**
 
 - 'Fast, flexible finance solutions for turnaround and recovery situations' [a] _(source : /distressed-asset-finance/)_
+
+**marketing-language**
+
+- Finance described as tailored _(source : /case-studies/manchester-office/)_
 
 **mechanism [a][b]**
 
 - Two-part structure: day-one release plus staged drawdowns certified by a monitoring surveyor _(source : /senior-development-finance/)_
 
+**meta**
+
+- Page age reported as about 1,851 days in one listing (circa 2021), but shown as recent in another _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+
 **metadata**
 
+- Page listing dated about 230 days before the search (search run 2026-10-29) _(source : /case-studies/country-estate-refinance/)_
 - Page last indexed/dated about 213 days before 2026-10-29 (approx. late March 2026) [b] _(source : /international-property-mortgages/)_
 - Target page indexed about 213 days before 2026-10-29; search tool warns site date/age metadata is inconsistent [a][b] _(source : /senior-secured-aircraft-finance-advisory/)_
 - Page is about 1,600 days old per search metadata [a] _(source : /superyacht-finance/)_
+- Page was approximately 463 days old at indexing (implies publication around mid-2025) [a] _(source : /what-is-smart-financing-innovative-funding-options-for-todays-investors/)_
 
 **metadata ([b])**
 
 - SERP title: Mortgage & Development Finance Calculator UK _(source : /lender-calculator/)_
 
+**metadata (search tool, [a])**
+
+- Page indexed as about 225 days old at 2026-10-29 (approx. publication March 2026). _(source : /how-london-property-investment-advisors-help-maximise-roi/)_
+
 **metadata [b]**
 
 - Page is about 213 days old (search tool metadata; [a] flags the page age metadata as unreliable) _(source : /case-studies/nw-london-bridge/)_
+
+**metadata, search-tool**
+
+- Article age: 'about 16 months old' [a] / 'about 496 days old' [b] as of 2026-10-29, i.e. published approximately June 2025 (inferred). _(source : /impact-of-inflation-and-interest-rates-on-uk-commercial-property/)_
 
 **misc**
 
@@ -8344,65 +14089,65 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - LTVs typically between 30% and 60%, varying by collection quality, value and liquidity [b] _(source : /art-finance-advisory/)_
 - Network of over 800 lenders, both in the UK and internationally [a, /faq/] _(source : /auction-finance/)_
+- [b] FCA's high-net-worth threshold: "earn over £300,000 annually or ownership of assets exceeding £3 million" _(source : /blogs/)_
 - 700+ Lenders (this page, per seed; other pages say 300+, 500+, 800+) _(source : /bridging-loans-uk/)_
 - Transactions generally upwards of £500,000 (/lenders/) _(source : /bridging-loans-uk/)_
 - Focus on larger loan sizes of £2-£20 million (/commercial-mortgage-broker/) _(source : /bridging-loans-uk/)_
 - Lenders offer loans from as little as £10,000, especially flexible over £2,000,000 (HNW guide) _(source : /bridging-loans-uk/)_
+- Loan of £800,000 _(source : /case-studies/800k-bridging-loan-refinance/)_
+- Property value £1.2 million _(source : /case-studies/800k-bridging-loan-refinance/)_
+- 75% LTV _(source : /case-studies/800k-bridging-loan-refinance/)_
+- 5-year fixed rate of 4.19% _(source : /case-studies/800k-bridging-loan-refinance/)_
+- 1.50% bank fee _(source : /case-studies/800k-bridging-loan-refinance/)_
+- Price per unit GBP 2.75 million (two units) _(source : /case-studies/bridging-for-a-retail-purchase-in-liverpool/)_
+- Each unit had a fresh 15-year lease _(source : /case-studies/bridging-for-a-retail-purchase-in-liverpool/)_
+- Proposed 55% LTV _(source : /case-studies/bridging-for-a-retail-purchase-in-liverpool/)_
 - £1.2 million bridging loan arranged _(source : /case-studies/bridging-loan-land-with-planning/)_
 - Site valued at £2 million without planning _(source : /case-studies/bridging-loan-land-with-planning/)_
 - 60% Loan to Value _(source : /case-studies/bridging-loan-land-with-planning/)_
 - 0.9% per month interest rate _(source : /case-studies/bridging-loan-land-with-planning/)_
 - 18-month term _(source : /case-studies/bridging-loan-land-with-planning/)_
 - Planning application for 220 residential units with ground-floor commercial space _(source : /case-studies/bridging-loan-land-with-planning/)_
-- 700+ Lenders (main selling point on this page) _(source : /commercial-mortgage-broker/)_
-- larger loan sizes of £2-£20 million _(source : /commercial-mortgage-broker/)_
-- loans over £500,000, no upper limit (/lenders/, home) _(source : /commercial-mortgage-broker/)_
-- specialism in loans exceeding the £2 million mark _(source : /commercial-mortgage-broker/)_
-- Network of 'hundreds of offshore lenders who specialise in this type of lending' [a, this page] _(source : /complex-offshore-structures/)_
-- Network of over 800 lenders, UK and international [b FAQ; c Spear's; a Property Week 2026 listing] _(source : /complex-offshore-structures/)_
-- 500+ private banks, investment banks, specialist lenders & private debt funds in over 100 countries [a, LinkedIn] _(source : /complex-offshore-structures/)_
-- Hours Monday-Friday 9:00-17:00 per structured data [a] _(source : /contact/)_
-- Advises UHNW clients on secured loans £2m-£20m (Spear's 500, third party) [c] _(source : /contact/)_
-- Focuses on loans over £500,000 (homepage) _(source : /conversions/)_
-- Arranges debt through a network of over 800 lenders (homepage) _(source : /conversions/)_
-- Network of over 800 lenders [seed /faq/]; contradiction: 300+ on /property-development-finance/, 500+ on LinkedIn, 700+ on /commercial-mortgage-broker/ and /bridging-loans-uk/ (seed) _(source : /faq/)_
-- Maximum LTV typically 75%, up to 80% in exceptional circumstances with significantly higher rates [b][seed] _(source : /hmo-finance/)_
-- Network of over 800 lenders (homepage) [b]; 'lender panel is reported at over 800 lenders' [c] _(source : /)_
-- Loans between £500k and £20m [a][b]; £2m-£20m for UHNW clients per Spear's [c] _(source : /)_
-- Typical hotel LTVs between 60% and 70% (/hotel-finance/) [b] _(source : /hotel-finance/)_
-- LTV around 50-60% for closed hotels / changed business model financed on projections (/faq/) [a][b] _(source : /hotel-finance/)_
-- At least 50-60 years remaining lease after mortgage term for leasehold hotels (/faq/) [a][b] _(source : /hotel-finance/)_
-- Last 2-3 years of accounts reviewed for trading hotels (/faq/) [a][b] _(source : /hotel-finance/)_
-- Network of over 800 lenders (homepage) [b][seed] _(source : /hotel-finance/)_
-- Loans between £500K to £20m since 2019 (/about-us/) [a][seed] _(source : /hotel-finance/)_
-- Network of over 800 lenders across several regions [a]; 'more than 800 lenders worldwide' (Spear's profile, LinkedIn) [c] _(source : /international-property-mortgages/)_
-- Largest bridging loan £19.1 million 'for a range of international real estate developments in 2020' (Spear's profile of Jimmy Baillie) [c] _(source : /international-property-mortgages/)_
-- Western Europe page: deal sizes from €500,000 upward [b] _(source : /international-property-mortgages/)_
-- Lenders generally offer an LTV of between 70–90% on bonds _(source : /lombard-loan-advisory/)_
-- Equity-backed loan LTVs roughly between 50–70% _(source : /lombard-loan-advisory/)_
-- Cash-backed loan LTVs typically between 90–100% _(source : /lombard-loan-advisory/)_
-- LinkedIn [c]: recently arranged a £1,139,000 revolving credit facility for a private client (not Lombard-specific) _(source : /lombard-loan-advisory/)_
-- 300+ Lenders (stated advantage on this page) _(source : /marine-finance/)_
-- Up to 70% LTV based on an independent valuation (sample terms) _(source : /marine-finance/)_
-- 48-month term, interest-only payments (sample terms) _(source : /marine-finance/)_
-- Option to Purchase at end of term for a nominal fee, often 1% of the value [a][b] _(source : /marine-lease-finance/)_
-- Indicative example up to 70% LTV on an independent valuation (unspecified marine finance page, not target page) [b] _(source : /marine-lease-finance/)_
-- Standard yacht mortgages typically 5 to 7 years with balloon of around 25% of original loan (yacht-finance-calculator case study) [a] _(source : /marine-lease-finance/)_
-- Standard loans for vessels over about 20m (yacht-mortgages page) [b] _(source : /marine-lease-finance/)_
-- Network of over 800 lenders [b homepage][c LinkedIn]; seed shows 300+ (/property-development-finance/), 500+ (LinkedIn), 700+ (/bridging-loans-uk/) on other pages _(source : /mezzanine-junior-finance/)_
-- Example capital stack ~65% senior / 10-20% mezzanine / small developer equity [b] _(source : /mezzanine-junior-finance/)_
-- Stretch senior blended cost typically 8%-10% p.a. plus execution fees [b, related page] _(source : /mezzanine-junior-finance/)_
-- Generally focuses on transactions above GBP 500,000 (/lenders/) [b] _(source : /prime-residential-mortgages/)_
-- 800+ lenders (About Us page, per [a]) _(source : /probate-lending/)_
-- 500+ lenders (LinkedIn profile, per [a]) _(source : /probate-lending/)_
-- 300+ lenders (older directory listing, per [a]) _(source : /probate-lending/)_
-- Focuses on advice for loans between £500K – £20m, secured on assets throughout the UK and abroad (About Us, per [b]) _(source : /probate-lending/)_
-- 300+ Lenders (this page) [a][seed] _(source : /property-development-finance/)_
-- generally focus on transactions upwards of £500,000 (/lenders/) [a]; specialising in loans over £500,000 (home) [b] _(source : /property-development-finance/)_
-- Network of over 800 lenders [a][b][seed] - contradicted by 500+ (LinkedIn, older profile), 700+ (/commercial-mortgage-broker/, /bridging-loans-uk/), 300+ (/property-development-finance/, Spear's) _(source : /property-portfolio-mortgages/)_
-- Generally focuses on deals above GBP 500,000 / 'specialising in loans over £500,000' [a][b] _(source : /property-portfolio-mortgages/)_
-- The true benefits of portfolio finance are usually realised by those with four or more properties [a][b] _(source : /property-portfolio-mortgages/)_
-- … et 9 autres (voir les fiches).
+- EUR 5 million bridging loan _(source : /case-studies/bridging-villa-cap-ferrat/)_
+- Villa estimated value EUR 8 million _(source : /case-studies/bridging-villa-cap-ferrat/)_
+- 62.5% loan-to-value _(source : /case-studies/bridging-villa-cap-ferrat/)_
+- 0.55% per month interest rate _(source : /case-studies/bridging-villa-cap-ferrat/)_
+- 24-month term _(source : /case-studies/bridging-villa-cap-ferrat/)_
+- Loan amount: GBP 5 million _(source : /case-studies/bvi-trust-refinance/)_
+- Property valuation: GBP 12 million _(source : /case-studies/bvi-trust-refinance/)_
+- Rate: 2.7% (listed in the terms box of the case study) _(source : /case-studies/bvi-trust-refinance/)_
+- GDV of the scheme is GBP 45 million _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+- 65% Loan to GDV _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+- 78% Loan to Cost _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+- Margin 7.25% over Base Rate _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+- 36 month term _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+- Fees of 1% on entry and 2% on exit _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+- $40m / $40 million loan arranged _(source : /case-studies/g650/)_
+- 80% LTV (loan-to-value) _(source : /case-studies/g650/)_
+- 10-year term _(source : /case-studies/g650/, /case-studies/heesen-yacht-finance/, /case-studies/pbsa/)_
+- Rate 3.5% plus Euribor (3.5% margin over Euribor) _(source : /case-studies/g650/)_
+- 1.5% lender fee _(source : /case-studies/g650/)_
+- Amortised over 10 years with a 30% balloon _(source : /case-studies/g650/)_
+- $5 million in assets under management ([a] only) _(source : /case-studies/g650/)_
+- Security property valued at £10 million (Mayfair) _(source : /case-studies/mayfair-self-employed-equity-release/)_
+- Client required 75% loan-to-value _(source : /case-studies/mayfair-self-employed-equity-release/)_
+- £7.5 million mortgage arranged _(source : /case-studies/mayfair-self-employed-equity-release/)_
+- Variable rate of 2.25% over 3-month LIBOR _(source : /case-studies/mayfair-self-employed-equity-release/)_
+- 5-year term _(source : /case-studies/mayfair-self-employed-equity-release/)_
+- Loan amount $10 million USD _(source : /case-studies/miami-developer/)_
+- Interest rate 4.25% + Bank Prime Rate _(source : /case-studies/miami-developer/)_
+- Term 7 years _(source : /case-studies/miami-developer/)_
+- Interest-only for five years, then amortized over 20 years _(source : /case-studies/miami-developer/)_
+- 1.5% bank fee _(source : /case-studies/miami-developer/)_
+- Network of 500+ private banks, challenger banks, debt funds, specialist lenders and family offices (business profile, not the case-study page) _(source : /case-studies/miami-developer/)_
+- £6.35 million loan arranged _(source : /case-studies/notting-hill-large-residential-mortgage/)_
+- Priced at base rate plus 1.50% _(source : /case-studies/notting-hill-large-residential-mortgage/)_
+- 0.50% fee _(source : /case-studies/notting-hill-large-residential-mortgage/)_
+- Advises high-net-worth clients on secured loans of roughly £2 million to £20 million (Spear's profile) _(source : /case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)_
+- More than 800 lenders worldwide (Spear's profile, per [a]) _(source : /case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)_
+- 500+ private banks, investment banks, specialist lenders and debt funds across more than 100 countries (firm's LinkedIn page, per [a]; not the case-study page) _(source : /case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)_
+- Has focused on advising on loans between £500K and £20m since 2019 (about-us page, per [b]) _(source : /case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)_
+- … et 89 autres (voir les fiches).
 
 **number (/faq/) [a][b][seed]**
 
@@ -8426,7 +14171,7 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 **number (home page, /faq/, Property Week 2026 listing) [a][b][seed]**
 
-- Network of over 800 lenders _(source : /buy-to-let-mortgages/, /lenders/)_
+- Network of over 800 lenders _(source : /buy-to-let-mortgages/, /lenders/, /understanding-short-term-property-funding-for-uk-real-estate/)_
 
 **number (homepage, not this page) [a]**
 
@@ -8440,6 +14185,11 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Typical broker fee for residential mortgages 1.00% (from /prime-residential-mortgages/, context only) [a] _(source : /foreign-national-mortgages/)_
 - Sibling Lombard page: equity-backed LTVs roughly 50-70% [b] _(source : /single-stock-lending-advisory/)_
+
+**number (related case study) [b]**
+
+- Related case: $40m private jet finance at 80% LTV, 10-year term, European private bank, Gulfstream G650 _(source : /case-studies/top-aviation-firms/)_
+- Related case: private jet finance at 70% LTV, 4.45% fixed rate, 72-month term, Dubai-based client, Falcon 900 _(source : /case-studies/top-aviation-firms/)_
 
 **number (seed /lenders/)**
 
@@ -8457,6 +14207,18 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Stretch senior up to 75% GDV or 90% LTC with tighter covenants _(source : /senior-development-finance/)_
 
+**number - LTV cap on land element [b]**
+
+- The land loan typically won't exceed 75% of the purchase price, though this depends on loan-to-cost and loan-to-GDV ratios _(source : /how-does-property-development-finance-work-a-step-by-step-guide/)_
+
+**number - attributed to /commercial-mortgages/ [b]**
+
+- Typical commercial mortgage LTV range of 65% to 75%, lower than many residential products _(source : /how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/)_
+
+**number - attributed to /faq/ and /mixed-use-property-finance/ [b]**
+
+- Mixed-use LTVs are typically capped at 70-75% _(source : /how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/)_
+
 **number - lender count (external, contradicts 300+)**
 
 - Network of over 800 lenders covering bridging and development finance, commercial and buy-to-let mortgages (LinkedIn post by Joe Berk) [c] _(source : /mixed-use-property-finance/)_
@@ -8464,6 +14226,10 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **number - lender count (other page)**
 
 - Access to 300+ lenders (/property-development-finance/) [a][b][seed] _(source : /mixed-use-property-finance/)_
+
+**number - term; attribution to this page uncertain [b]**
+
+- Bridging loans are typically secured against property and structured for short-term repayment, usually between 6 to 24 months _(source : /how-does-property-development-finance-work-a-step-by-step-guide/)_
 
 **number / LTGDV**
 
@@ -8540,6 +14306,10 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - 500+ different private banks, investment banks, specialist lenders & private debt funds _(source : /lenders/)_
 
+**number [a]**
+
+- Bridging loan term typically between 3 and 24 months _(source : /how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/)_
+
 **number [a] third-party directory; contradicts homepage 'over £500,000'**
 
 - Specializing in large loans of £2-£20m _(source : /commercial-mortgages/)_
@@ -8547,6 +14317,17 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **number [a][b]**
 
 - LTV typically conservative at 30-50% due to Bitcoin's volatility _(source : /bitcoin-loans-advisory/)_
+- Purchase price of the Bombardier G6000: $35 million _(source : /case-studies/top-aviation-firms/)_
+- Client sought to finance 80% of the purchase price (80% LTV) _(source : /case-studies/top-aviation-firms/)_
+- Aircraft was over 8 years old _(source : /case-studies/top-aviation-firms/)_
+
+**number [b]**
+
+- Unregulated loans have no restraints on the length of their term and can run from anywhere between 1 month and 36 months _(source : /regulating-bridging-loans-through-fca-rules/)_
+
+**number [b] (site-wide, page not identified; conflicts with 3-24 months)**
+
+- Term usually between 6 to 24 months _(source : /how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/, /what-are-bridging-loans-and-how-do-they-work/)_
 
 **number — contradiction with £500,000 minimum; minimum may have changed**
 
@@ -8569,6 +14350,26 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - Over 300 lenders per Letting Agent Today trades directory listing (older, inconsistent with 800+) [a] _(source : /auction-finance/)_
 - 700+ lenders (/commercial-mortgage-broker/) [a]; 500+ lenders (Instagram) [a]; 300+ lenders (another listing) [a] - contradicts 800+ _(source : /)_
 - Network of over 800 lenders (homepage, /lenders/, Spear's, LinkedIn) vs 300+ lenders in 100 countries (older Spear's profile) [b][c] _(source : /prime-residential-mortgages/)_
+
+**number-external**
+
+- External listing: advice for loans between £2m and £20m (figure conflicts with homepage per [a]) _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
+
+**number-other-case**
+
+- [b] Separate '£3.6 million Kensington bridging loan priced at 0.78% per month' (different case study) _(source : /case-studies/800k-bridging-loan-refinance/)_
+- [b] Separate '£19 million North West London bridging loan at 0.75% per month' (different case study) _(source : /case-studies/800k-bridging-loan-refinance/)_
+
+**number-related-page**
+
+- Related /aviation-finance/ page: sample terms up to 90% LTV and 5–12 year terms _(source : /case-studies/g650/)_
+
+**number-site-level**
+
+- Site-level (homepage): works with over 800 lenders [a][b] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
+- Site-level (/bridging-loans-uk/): 700+ lenders [b] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
+- Site-level (/property-development-finance/): 300+ lenders [b] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
+- Site-level (/lenders/): generally focuses on transactions upwards of £500,000 [b]; homepage: specialises in loans over £500,000 [a] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
 
 **number/contradiction**
 
@@ -8604,27 +14405,56 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Typical broker fee for aviation finance 1.50% of the loan amount [b, /aviation-finance/, not this page] _(source : /introducers/)_
 
+**number/regulatory [b]**
+
+- Regulated bridging loans are restricted to a maximum term of 12 months _(source : /regulating-bridging-loans-through-fca-rules/)_
+
 **number/term [b] this page**
 
 - LTVs for commercial mortgages are usually between 65% and 75% depending on the property and circumstances _(source : /commercial-mortgages/)_
+
+**other-page-claim**
+
+- OTHER PAGE, not this article: /light-to-heavy-refurbishment/ says funding is released in stages as works progress and the firm can cover up to 100% of build costs; targets flippers and refurb-to-let investors [b] _(source : /what-is-smart-financing-innovative-funding-options-for-todays-investors/)_
+- OTHER PAGE, not this article: /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/ says lenders may assess wider wealth such as investment portfolios and company shares rather than only earned income [b] _(source : /what-is-smart-financing-innovative-funding-options-for-todays-investors/)_
+- OTHER PAGE, not this article: /why-smart-investors-choose-property-bridging-loans-in-2025/ says bridging loans typically last only a few months [b] _(source : /what-is-smart-financing-innovative-funding-options-for-todays-investors/)_
+- OTHER PAGE, not this article: /your-trusted-local-finance-brokers-for-smart-lending-solutions/ describes development finance as covering site purchase, construction and completion funding, and mezzanine finance as extra funding used when senior debt alone is not enough [b] _(source : /what-is-smart-financing-innovative-funding-options-for-todays-investors/)_
+
+**outcome**
+
+- Silver Oak sourced the aircraft through its own contacts _(source : /case-studies/aircraft-loan-falcon-900/)_
+- Outcome: Silver Oak connected the client with the private bank; GBP 5m residential mortgage at 2.7% listed _(source : /case-studies/bvi-trust-refinance/)_
+- Terms were positively received by the clients _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
 
 **page-age**
 
 - [a][b] Search tool states the cached copy of this page is about 1,600 days old (circa 2022); figures may be out of date _(source : /types-of-borrowing/)_
 
+**page-age (search tool metadata, [b])**
+
+- Page is about 463 days old as of 2026-10-29 (implies publication around July 2025) _(source : /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/)_
+
 **positioning**
 
+- [b] Homepage offers "expert commercial mortgage brokerage services, property development finance, bridging loans, and development finance solutions" _(source : /blogs/)_
 - Sources rates from specialist UK bridging lenders _(source : /bridging-loans-uk/)_
 - London property market is a particular strength _(source : /bridging-loans-uk/)_
+- Silver Oak used its niche lender relationships to structure a bespoke mortgage _(source : /case-studies/bridging-villa-cap-ferrat/)_
+- Described by the page as a 'dry lending' solution _(source : /case-studies/country-estate-refinance/)_
 - independent commercial mortgage broker _(source : /commercial-mortgage-broker/)_
 - 'The firm is a London debt advisory business' [a] _(source : /contact/)_
 - London-based real estate debt firm _(source : /conversions/)_
 - 'As a leading development finance broker' - self-described leadership positioning [c] _(source : /development-finance-brokers/)_
 - Specialist in development finance and commercial mortgage services, based in London; also covers bridging loans [a] _(source : /development-finance-brokers/)_
+- Site/author described as an independent mortgage broker that specialises in property development finance (source: sibling article summary [a]) _(source : /different-ways-to-add-value-to-the-property-before-selling/)_
+- Silver Oak Capital is 'an independent mortgage broker specialising in property development finance' [a] _(source : /different-ways-to-grow-and-develop-property-value/)_
+- London-based mortgage broker that specialises in property development finance (search tool summary a) _(source : /different-ways-to-grow-and-develop-property-value/)_
 - 'independent, whole-of-market advice' [c, LinkedIn] _(source : /distressed-asset-finance/)_
 - Secondhand [a], not from FAQ page: 'does not operate as a high street mortgage broker but offers a bespoke solution for larger, more complex real estate transactions' _(source : /faq/)_
 - Silver Oak Capital is 'a leading advisor in HMO Finance' [a] _(source : /hmo-finance/)_
 - Helps landlords work through the tiers of HMO lenders [b] _(source : /hmo-finance/)_
+- Bridging loans give borrowers fast, flexible funds [a] _(source : /importance-of-bridging-loans-for-property-development/)_
+- Bridging loans cover a funding need until future income arrives; used by both investors and developers [b] _(source : /importance-of-bridging-loans-for-property-development/)_
 - 'We specialise in structuring bespoke debt solutions across the UK and Western Europe' [a] _(source : /introducers/)_
 - Specialises in securing bespoke refurbishment finance solutions across the entire spectrum – light, medium, and heavy [a][b] _(source : /light-to-heavy-refurbishment/)_
 - Firm specialises in real estate debt solutions; not a high street mortgage broker; bespoke solution for larger, more complex real estate transactions [a] _(source : /marine-lease-finance/)_
@@ -8634,6 +14464,10 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - Probate lending is listed as one of the firm's 'special situations' services (About Us, per [b]); the seed navigation files it under 'Residential / Wealth' _(source : /probate-lending/)_
 - Senior secured aircraft finance is presented as the lowest-risk form of aircraft finance, sitting at the top of the capital stack [a][b] _(source : /senior-secured-aircraft-finance-advisory/)_
 - International Debt Advisory l Expert Finance Solutions [seed] _(source : /superyacht-finance/)_
+- Smart financing is an approach, not a single product: borrowers use it to access 'the best tools for their requirements' [a] _(source : /what-is-smart-financing-innovative-funding-options-for-todays-investors/)_
+- independent whole-of-market advice (prime residential page, per tool summary) [b] _(source : /which-mortgage-company-is-right-for-you/)_
+- independent commercial mortgage broker (/commercial-mortgage-broker/) [a] _(source : /which-mortgage-company-is-right-for-you/)_
+- Bridging loans are a long-established UK finance option [a, tool summary of page fragment] _(source : /why-are-property-bridging-loans-popular-in-the-uk/)_
 
 **positioning (Commercial Property Awards 2026 listing) [a]**
 
@@ -8646,6 +14480,10 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **positioning (Property Week Commercial Property Awards 2026 listing) [a]**
 
 - Independent, whole-of-market advice across buy-to-let and other lending _(source : /buy-to-let-mortgages/)_
+
+**positioning (article, [a])**
+
+- Flexibility allows structures that standard mortgages can't offer _(source : /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/)_
 
 **positioning (home page, [a])**
 
@@ -8663,9 +14501,21 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - 'one of Europe's leading large loan brokers' _(source : /about-us/)_
 
+**positioning / partnership claim [b]**
+
+- Silver Oak Capital 'has partnered with some of the top aviation finance law firms in the world' _(source : /case-studies/top-aviation-firms/)_
+
+**positioning / promise (this article, [a])**
+
+- An investment advisor's help can be invaluable when navigating the market. _(source : /how-london-property-investment-advisors-help-maximise-roi/)_
+
 **positioning / promise [a]**
 
 - The firm focuses on leverage, cash flow and control rather than the interest rate alone _(source : /senior-development-finance/)_
+
+**positioning / promise [b]**
+
+- A broker can help by giving access to a wide range of lenders, from high street banks to specialist funders _(source : /how-does-property-development-finance-work-a-step-by-step-guide/)_
 
 **positioning [a]**
 
@@ -8684,21 +14534,49 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Investors often seek commercial finance that maximises leverage to amplify their Return on Equity (ROE) _(source : /commercial-mortgages/)_
 
+**positioning, Property Week awards listing per search [a]**
+
+- tailored funding solutions for property investors, developers, and high net worth individuals _(source : /property-bridging-finance-for-uk-high-net-worth-individuals/)_
+
+**positioning-related-page**
+
+- Related /senior-secured-aircraft-finance-advisory/ page: senior secured aircraft finance described as the lowest-risk form of aircraft finance _(source : /case-studies/g650/)_
+
 **press**
 
 - Largest ever bridging loan of £19.1m (trade press, 2020) _(source : /bridging-loans-uk/)_
 
+**press-other-case**
+
+- [a] External headline: 'Silver Oak Capital completes its largest ever bridging loan of £19.1m' (bridgingandcommercial.co.uk) _(source : /case-studies/800k-bridging-loan-refinance/)_
+
 **pricing**
 
 - Priced at 0.78% per month, BBR-linked _(source : /case-studies/3-6-million-bridging-loan-prime-kensington-property/)_
+- 4.25% margin over SONIA _(source : /case-studies/heesen-yacht-finance/)_
+- Rate of 2.50% plus Bank Base Rate _(source : /case-studies/pbsa/)_
+- 4.75% fixed rate _(source : /case-studies/purchase-and-upgrade-21-million-office-in-london/)_
 
 **pricing [b]**
 
 - £3.6m Kensington facility priced at 0.78% per month, BBR-linked _(source : /case-studies/)_
 
+**pricing [b] (/stretch-senior-development-finance/)**
+
+- Stretch senior is a blended cost typically between 8% and 10% per annum plus execution fees _(source : /development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)_
+
 **pricing statement (other page)**
 
 - Mixed-use loans typically slightly higher rates than standard BTL but lower than pure commercial (/faq/) [b] _(source : /mixed-use-property-finance/)_
+
+**pricing statement - attributed to /faq/ and /mixed-use-property-finance/ [b]**
+
+- Mixed-use rates are usually slightly above standard buy-to-let rates but below pure commercial rates _(source : /how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/)_
+
+**pricing statement - search tool summary of the article [b]**
+
+- Commercial mortgage rates tend to sit above residential rates and vary more from deal to deal _(source : /how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/)_
+- The credit spread on a commercial mortgage is set case by case _(source : /how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/)_
 
 **pricing statement [a][b]**
 
@@ -8712,25 +14590,51 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Development exit loan is cheaper than construction finance because construction risk has already fallen away _(source : /development-exit-loans/)_
 
+**pricing-comparison [a] target page**
+
+- Rates are generally higher than conventional mortgages _(source : /how-does-a-bridging-loan-work/)_
+
 **pricing-factor**
 
 - Cost depends on aircraft age and type, borrower financial standing, and how the aircraft is used [a] _(source : /senior-secured-aircraft-finance-advisory/)_
 
+**pricing/structure [b] (site-wide, page not identified)**
+
+- Rate is higher than a standard mortgage; most products are interest-only, interest paid monthly or rolled up _(source : /how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/)_
+
 **process**
 
+- Firm found a Nairobi law firm to certify identity documents and notarise evidence of income for rental void periods _(source : /case-studies/800k-bridging-loan-refinance/)_
 - narrows lenders to as many as 3 or 4 potential partners _(source : /commercial-mortgage-broker/)_
 - Written complaints go to the Managing Director (Ts&Cs PDF) [b] _(source : /contact/)_
 - Process: initial consultation, shortlist of lenders, market review, formal heads of terms [a] _(source : /development-finance-brokers/)_
 - Typically narrows lenders to as many as 3 or 4 potential partners per deal [seed, sibling pages] _(source : /development-finance-brokers/)_
+- Funds are released in stages; lender verifies completed work, often through an independent surveyor, before reimbursing the developer (attribution within site not specified). _(source : /development-finance-requirements-in-the-uk-explained/)_
+- Self-build mortgage funds are released in stages at construction milestones, either in arrears or in advance _(source : /different-ways-to-finance-new-build-homes-in-the-uk/)_
+- Development finance is secured against the land, released in tranches tied to the build schedule, with interest rolled up and repaid on completion from sales or refinancing (attribution to this article uncertain) _(source : /different-ways-to-finance-new-build-homes-in-the-uk/)_
+- Applicants typically submit site details, business plan, projected GDV, exit strategy and track record _(source : /how-does-a-bridge-loan-work-for-developers/)_
 - aims to narrow options to three or four suitable partners for each project (property-development-finance page) [b] _(source : /whole-loans/)_
 
 **process (development finance page) [a][b][seed]**
 
 - Lender shortlist of around three or four per deal _(source : /senior-development-finance/)_
 
+**process [a] target page**
+
+- First step is an application and valuation, where the lender sets the loan-to-value ratio _(source : /how-does-a-bridging-loan-work/)_
+
 **process [a][b]**
 
 - Silver Oak had to present a clear exit and marketing plan, backed by a strong valuation report _(source : /case-studies/nw-london-bridge/)_
+
+**process [b]**
+
+- Under arrears funding, the developer covers the first stage and the lender verifies the work through an independent surveyor before reimbursing the costs _(source : /how-does-property-development-finance-work-a-step-by-step-guide/)_
+- Regulated lenders are required to conduct an in-depth analysis of the property and the borrower _(source : /regulating-bridging-loans-through-fca-rules/)_
+
+**process statement [a]**
+
+- Approvals can take a long time _(source : /selecting-the-ideal-property-finance-specialist-for-successful-developments/)_
 
 **process/promise**
 
@@ -8739,6 +14643,14 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **product**
 
 - Lists fixed and variable products [b] _(source : /prime-residential-mortgages/)_
+
+**product definition, attributed by search [b] to 'the firm's guide' (presumed this article)**
+
+- bridging is short-term funding tied to a property sale, refinance, or other expected cash flow _(source : /property-bridging-finance-for-uk-high-net-worth-individuals/)_
+
+**product description (this article; seed + search a)**
+
+- Mezzanine finance sits behind senior debt and reduces the developer's equity requirement _(source : /how-does-property-development-finance-in-scotland/)_
 
 **product feature**
 
@@ -8752,6 +14664,10 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **product feature [a]**
 
 - Funds may come in USD, EUR, GBP or occasionally stablecoins _(source : /bitcoin-loans-advisory/)_
+
+**product mechanics (other page /property-development-finance/; search b)**
+
+- Development loans secured against the land, drawn in line with business plan and construction schedule, interest rolled up, repaid at completion from sales or refinance _(source : /how-does-property-development-finance-in-scotland/)_
 
 **product mechanism [a]**
 
@@ -8769,10 +14685,20 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Borrower keeps ownership of the coins _(source : /bitcoin-loans-advisory/)_
 
+**product term, from /faq/ per search [b]**
+
+- a bridge is a short-term facility (up to 12-24 months) designed for active investors and business owners; it must be repaid within the term _(source : /property-bridging-finance-for-uk-high-net-worth-individuals/)_
+
 **product-benefit**
 
 - whole loan avoids an intercreditor deed and a separate credit committee for each tranche [a]; avoids the need for an intercreditor deed [b] _(source : /whole-loans/)_
 - whole loan often reaches leverage that would otherwise need senior and mezzanine debt combined [b] _(source : /whole-loans/)_
+
+**product-claim**
+
+- Bridging finance is 'fast to arrange and more flexible than traditional finance' (tool paraphrase) [a] _(source : /what-is-smart-financing-innovative-funding-options-for-todays-investors/)_
+- Bridging finance is most often used to buy a property before selling another [a][b] _(source : /what-is-smart-financing-innovative-funding-options-for-todays-investors/)_
+- Mezzanine finance is a popular option, especially in property deals [a] _(source : /what-is-smart-financing-innovative-funding-options-for-todays-investors/)_
 
 **product-definition**
 
@@ -8786,6 +14712,13 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **product-feature**
 
 - Borrower keeps ownership of the shares and generally keeps voting rights (and upside) if covenants are met [a][b] _(source : /single-stock-lending-advisory/)_
+- Lenders apply more flexible underwriting than mortgage providers [a]; lenders have more room to assess applications than with traditional mortgages [b] _(source : /why-are-property-bridging-loans-popular-in-the-uk/)_
+
+**product-feature [a][b]**
+
+- Rolled-up interest: no monthly payments; interest is added to the balance and cleared at the end of the term _(source : /different-types-of-interest-options-with-bridging-loans/)_
+- Retained interest: the lender calculates the whole term's interest and deducts it at the start, so the net amount advanced is smaller _(source : /different-types-of-interest-options-with-bridging-loans/)_
+- Serviced interest: paid monthly as with a traditional mortgage; the principal stays the same _(source : /different-types-of-interest-options-with-bridging-loans/)_
 
 **product-feature [b]**
 
@@ -8820,6 +14753,8 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - 'extraordinary rates and terms' for financing commercial real estate in the UK (search-tool paraphrase) _(source : /commercial-mortgage-broker/)_
 - Loan can cover most construction costs _(source : /conversions/)_
 - Independent, whole-of-market advice; 'access to the largest network of lenders in the market' [a] _(source : /)_
+- Arrangement fee may sometimes be waived on large loans _(source : /how-much-does-a-bridging-loan-cost/)_
+- Silver Oak can add mezzanine or equity to reduce the deposit needed (sibling page /post-planning-land-acquisitions/) [b] _(source : /importance-of-bridging-loans-for-property-development/)_
 - Some private banks can lend across borders, particularly for strong HNW profiles [b] _(source : /international-property-mortgages/)_
 - Fee-share details agreed upfront / terms set in advance [a][b][seed] _(source : /introducers/)_
 - Discretion, transparency and strict non-circumvention [a][b] _(source : /introducers/)_
@@ -8832,10 +14767,20 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - The firm offers to help a borrower check whether their case is FCA-regulated before engaging a lender (FAQ, per [a][b]) _(source : /probate-lending/)_
 - independent, whole-of-market advice (LinkedIn post) [c]; whole-of-market advice via a large lender panel (this page per [b]) _(source : /property-development-finance/)_
 - Can negotiate portfolio substitution terms upfront [b] _(source : /property-portfolio-mortgages/)_
+- They aim to secure competitive rates _(source : /secure-the-best-business-loan-with-expert-brokerage-services/)_
+- Helps clients get business loans that fit their growth plans _(source : /secure-the-best-business-loan-with-expert-brokerage-services/)_
 - Stretches higher than a standard senior development loan [a] _(source : /stretch-senior-development-finance/)_
 - [a][b][seed] Bridging loans are quick to arrange and do not require any affordability assessment _(source : /types-of-borrowing/)_
 - [seed] "We can help with your wealth management." _(source : /types-of-borrowing/)_
 - Independent, whole-of-market advice [c, LinkedIn] _(source : /western-europe/)_
+- Smart financing aims to maximise returns while limiting unnecessary risk [a]; keep exposure to risk low and avoid reliance on one lender [b] _(source : /what-is-smart-financing-innovative-funding-options-for-todays-investors/)_
+- offers extraordinary rates and terms for financing commercial real estate in the UK (/commercial-mortgage-broker/) [a] _(source : /which-mortgage-company-is-right-for-you/)_
+- a specialist broker can ensure you get the right advice and the most competitive rates (sibling article) [b] _(source : /which-mortgage-company-is-right-for-you/)_
+- Broad lender network (article benefits section) [a] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
+- Better negotiating power (article benefits section) [a] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
+- Wide lender relationships [b] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
+- Deals structured around a client's needs [b] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
+- Less time spent on the lending process [b] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
 
 **promise (Ts&Cs) [a][b]**
 
@@ -8853,6 +14798,10 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Works with challenger banks and bridging lenders who may lend on projected income or allow a 12-month period to find a tenant with interest-only servicing (/faq/) [a][b] _(source : /mixed-use-property-finance/)_
 
+**promise / positioning [a]**
+
+- A trustworthy broker will be upfront about all costs _(source : /selecting-the-ideal-property-finance-specialist-for-successful-developments/)_
+
 **promise [a] 'its commercial page' (attribution uncertain)**
 
 - Aims for speed and transparency _(source : /commercial-mortgages/)_
@@ -8864,6 +14813,18 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **promise [b /introducers/]**
 
 - introducers earn commissions through trusted referrals; discretion, transparency, and strict non-circumvention _(source : /lenders/)_
+
+**promise [b]**
+
+- Clients 'receive complete and independent advice when arranging aircraft loans' _(source : /case-studies/top-aviation-firms/)_
+
+**promise, site per search [a]**
+
+- arranges short term bridging finance that can secure the lowest achievable cost of funding in the open market _(source : /property-bridging-finance-for-uk-high-net-worth-individuals/)_
+
+**promise-site-level**
+
+- Site-level (/bridging-loans-uk/): independent whole-of-market advice [b] _(source : /your-trusted-local-finance-brokers-for-smart-lending-solutions/)_
 
 **promise-timescale**
 
@@ -8916,9 +14877,23 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - we have access to the largest network of lenders in the market (this page) [a] _(source : /property-development-finance/)_
 
+**publication-date**
+
+- [a] Blog posts "The Difference between Regulated & Unregulated Bridging Loans", "Property investment strategies to get maximum ROI" and "Tips for first time commercial property buyers" are listed under a Dec 2, 2024 date on the cached blogs page _(source : /blogs/)_
+- [b] Blogs index lists dated posts from January 2025 on development finance broker selection, how bridge loans work for developers, and the cost of bridging loans _(source : /blogs/)_
+- [a] Odoo mirror lists a post on improving your credit score before applying for a mortgage dated 11 Mar 2025 and one on bridging loans versus traditional mortgages dated 20 Nov 2024 _(source : /blogs/)_
+- [b] Ways to Add Value Before Selling Property article dated March 2025; Impact of Inflation article dated February 2025; High Net Worth Property Funding guide dated May 2025 (dates from search metadata, may not be exact per the tool) _(source : /blogs/)_
+
 **purpose**
 
 - Purpose: refinance existing debt and provide extra capital for future acquisitions _(source : /case-studies/3-6-million-bridging-loan-prime-kensington-property/)_
+- Purpose: replace an expensive development loan with a cheaper residential mortgage _(source : /case-studies/bvi-trust-refinance/)_
+
+**rate**
+
+- Proposed 3.00% five-year fixed rate _(source : /case-studies/bridging-for-a-retail-purchase-in-liverpool/)_
+- Monthly bridging interest rates start around 0.44% _(source : /how-much-does-a-bridging-loan-cost/)_
+- Average bridging interest near 1% per month, about 12% a year _(source : /how-much-does-a-bridging-loan-cost/)_
 
 **rate [a][b]**
 
@@ -8936,14 +14911,49 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Occupation of more than 40% of the property by the borrower or a family member makes the loan regulated [seed] _(source : /faq/)_
 - Consumer Buy-to-Let can fall under FCA rules [seed] _(source : /faq/)_
+- SOC does not provide regulated mortgage and insurance advice (Ts&Cs PDF) [a] _(source : /which-mortgage-company-is-right-for-you/)_
+
+**regulatory [b]**
+
+- Regulated bridging loans apply to properties inhabited (or to be inhabited) by the borrower or a family member _(source : /regulating-bridging-loans-through-fca-rules/)_
 
 **regulatory disclaimer**
 
 - Does not provide regulated mortgage and insurance advice; does not handle client money (Ts&Cs) _(source : /about-us/)_
 
+**regulatory purpose [b]**
+
+- The stated aim of regulation is to make lenders and brokers act transparently and fairly _(source : /regulating-bridging-loans-through-fca-rules/)_
+
+**regulatory-threshold (article, [a] and [b])**
+
+- FCA's current HNW criteria: annual income above £300,000 or assets above £3 million _(source : /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/)_
+
+**regulatory/market [b] (likely /mixed-use-property-finance/)**
+
+- If the borrower or a family member intends to live in the residential part of a mixed-use property, the loan becomes FCA-regulated, which severely restricts the number of lenders available _(source : /regulating-bridging-loans-through-fca-rules/)_
+
+**regulatory/use-case [b]**
+
+- Regulated bridging loans can only be used for a handful of reasons; renovation or refurbishment is one of the most common _(source : /regulating-bridging-loans-through-fca-rules/)_
+
 **related content**
 
 - Case studies index lists a separate £4 million Kensington bridging case study _(source : /case-studies/3-6-million-bridging-loan-prime-kensington-property/)_
+
+**related-page**
+
+- Related page /aviation-finance/ shows an indicative example of up to 90% LTV, 30% balloon, 1.50% lender fee (different deal, not this case study) _(source : /case-studies/aircraft-loan-falcon-900/)_
+- Silver Oak typically finances yachts over 20 metres (marine-finance page) _(source : /case-studies/heesen-yacht-finance/)_
+- Lenders can use export credit support for newly built yachts (marine-finance page) _(source : /case-studies/heesen-yacht-finance/)_
+- Standard yacht mortgages typically run 5 to 7 years with a balloon payment of around 25% of the loan; leasing is the other common option (yacht-finance-calculator page) _(source : /case-studies/heesen-yacht-finance/)_
+- A Fleming 78 yacht purchase is another case study listed on the case studies index _(source : /case-studies/heesen-yacht-finance/)_
+
+**related-page guidance**
+
+- Related page /conversions/: the most significant value uplifts often come from change of use (e.g. offices into flats) rather than refurbishment alone [b] _(source : /different-ways-to-grow-and-develop-property-value/)_
+- Related page /different-ways-to-add-value-to-the-property-before-selling/: small defects left alone become costly (roof leak example) [b] _(source : /different-ways-to-grow-and-develop-property-value/)_
+- Related page /best-places-to-buy-property-in-the-uk-for-long-term-growth/: demographics, transport links and regional trends affect house price growth [b] _(source : /different-ways-to-grow-and-develop-property-value/)_
 
 **repeat-business [b]**
 
@@ -8961,11 +14971,16 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **scope**
 
 - Loans secured on UK and overseas assets _(source : /about-us/)_
+- The calculator/tools can also be used for purchases in France, Italy, and Spain or anywhere in the Mediterranean _(source : /case-studies/yacht-finance-calculator/)_
 - Sectors: Retail, Office, Logistics, Care Homes, Student Accommodation, Hotels _(source : /commercial-mortgage-broker/)_
 - Covers both property and businesses [a] _(source : /distressed-asset-finance/)_
 - 'comprehensive range of first charge & second charge financial facilities from across the market' [a, Ts&Cs] _(source : /distressed-asset-finance/)_
 - Arranges debt across the UK, US, Western Europe and the Middle East [b] _(source : /)_
 - Clients from UK, France, Spain, Dubai and South Africa [c]; debt arranged in France, Spain, Dubai and South Africa [b] _(source : /)_
+
+**scope (this article)**
+
+- Specialist brokers "can build solutions for commercial, residential, or mixed-use mortgages" [a] _(source : /find-the-perfect-mortgage-with-a-specialist-broker/)_
 
 **scope [a] home page**
 
@@ -8974,6 +14989,14 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **scope disclosure [b Ts&Cs]**
 
 - offers products from across the market, but not deals that you can only obtain by going direct to a lender _(source : /lenders/)_
+
+**search metadata, not page content [a][b]**
+
+- Page age approximately 212 days / roughly seven months as of 2026-10-29 _(source : /selecting-the-ideal-property-finance-specialist-for-successful-developments/)_
+
+**search tool caveat about a sibling page, not a site claim [b]**
+
+- The /types-of-borrowing/ page is about 1,600 days old and cites LIBOR-based example terms _(source : /how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/)_
 
 **security [a][b]**
 
@@ -9003,6 +15026,22 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Advises on luxury asset financing, short-term bridging loans, marine and aviation finance beyond prime residential and commercial mortgages [c] _(source : /international-property-mortgages/)_
 
+**service-promise [b] (/stretch-senior-development-finance/)**
+
+- Silver Oak Capital helps secure up to 75% of GDV or 90% of LTC in a single stretch senior transaction _(source : /development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)_
+
+**sibling-page content, NOT this article - /below-market-purchases/ ([b])**
+
+- The firm says it can lend up to 70-75% of the open market value immediately; bridging lenders, unlike many mortgage lenders, don't impose a six-month refinancing restriction. _(source : /how-london-property-investment-advisors-help-maximise-roi/)_
+
+**sibling-page content, NOT this article - likely /best-places-to-buy-property-in-the-uk-for-long-term-growth/ ([b])**
+
+- London house price growth of about 18% over ten years, but rental yields are generally lower, between 2% and 5%. _(source : /how-london-property-investment-advisors-help-maximise-roi/)_
+
+**sibling-page content, NOT this article - likely /property-investment-strategies-to-get-maximum-roi/ ([b])**
+
+- Reducing the initial capital investment will result in an improved ROI, which the page links to using debt, while noting that higher debt levels will require disciplined cash flow management; also recommends negotiating price, buying below market value, regular inspections and forecasting energy, i… _(source : /how-london-property-investment-advisors-help-maximise-roi/)_
+
 **sibling-page-terms**
 
 - Sibling page: facilities generally short term, often not exceeding 12 months; USD/EUR/GBP; bullet repayment at maturity; sourced from specialist lenders [b] _(source : /crypto-bridging-advisory/)_
@@ -9016,15 +15055,33 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - Site-wide [b]: bridging loans typically issued for 12 to 24 months; assessed on property value, exit strategy and deal viability rather than income (/bridging-loans-uk/) _(source : /case-studies/3-6-million-bridging-loan-prime-kensington-property/)_
 - Site-wide [b]: illustrative example on /types-of-borrowing/ of a £12 million loan at 0.75% per month over 12 months, 2.00% lender fees, no exit fee _(source : /case-studies/3-6-million-bridging-loan-prime-kensington-property/)_
 
+**speculation**
+
+- Speculation suggests a possible rise of the surcharge to 4% or higher (did not match the enacted 5%) _(source : /stamp-duty-changes-in-the-uk-from-april-2025/)_
+
+**speed [b] site-wide synthesis, not attributed**
+
+- Bridging loans can be granted in a matter of days or weeks _(source : /how-does-a-bridging-loan-work/)_
+
 **speed promise (search summary attributes to Silver Oak pages generally) [b]**
 
 - Lending on open market value, with bridging funds arranged in days _(source : /below-market-purchases/)_
+
+**speed promise [b] (site-wide, page not identified)**
+
+- Approvals in 5-14 days; funds usually released within days or weeks _(source : /how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/)_
 
 **statement**
 
 - Art usually supports lower loan-to-value ratios than other asset-backed lending [a] _(source : /art-finance-advisory/)_
 - Single high-value pieces are generally preferred over portfolios of smaller items [b] _(source : /art-finance-advisory/)_
 - Lenders monitor artwork value and may request additional security if values fall [b] _(source : /art-finance-advisory/)_
+- Borrower's earnings were high enough to meet typical bank affordability tests _(source : /case-studies/mayfair-self-employed-equity-release/)_
+- Deal placed with a London-based lender that favours UK nationals and high-value Central London homes _(source : /case-studies/mayfair-self-employed-equity-release/)_
+- Released equity used to buy a holiday home in Cannes, France _(source : /case-studies/mayfair-self-employed-equity-release/)_
+- Lenders apply stricter criteria and lower loan-to-value ratios to new build mortgages _(source : /different-ways-to-finance-new-build-homes-in-the-uk/)_
+- Some lenders set deadlines for completion on new build mortgages _(source : /different-ways-to-finance-new-build-homes-in-the-uk/)_
+- Buy-to-let mortgages for new builds serve investors who buy a new-build property to rent out _(source : /different-ways-to-finance-new-build-homes-in-the-uk/)_
 - An Article 4 direction can help HMO valuations [seed] _(source : /faq/)_
 - AML/KYC checks can be heavier for international / overseas clients [a][b] _(source : /foreign-national-mortgages/)_
 - Lombard loans suit short- to medium-term needs more than long-term ones _(source : /lombard-loan-advisory/)_
@@ -9032,16 +15089,32 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - Inheritance tax bridging loans are the most common type of probate loan (page, per [a]) _(source : /probate-lending/)_
 - Post-probate lending is more common and will likely be cheaper (FAQ, per [a]) _(source : /probate-lending/)_
 - Lenders are generally happy to fund Corporation Tax, VAT or Inheritance Tax bills payable before probate is granted, provided there is a clear exit strategy (FAQ, per [b]) _(source : /probate-lending/)_
+- SDLT is a tax levied on property purchases in England and Northern Ireland, applying to residential, buy-to-let and commercial property transactions _(source : /stamp-duty-changes-in-the-uk-from-april-2025/)_
+- The temporary SDLT relief was expected to end (from April 2025) _(source : /stamp-duty-changes-in-the-uk-from-april-2025/)_
+
+**statement-from-related-page**
+
+- Site FAQ (not this page): the firm's equity release product is a short-term bridging loan of up to 12 to 24 months, different from a retiree lifetime mortgage _(source : /case-studies/mayfair-self-employed-equity-release/)_
 
 **statistic**
 
 - Sibling blog title: 'Why 70% of London Development Finance Deals Get Rejected' (URL /why-lenders-reject-70-of-london-resi-led-development-deals/) [b] - headline figure only, body not seen _(source : /development-finance-brokers/)_
+
+**statistic in the title of a sibling Silver Oak article seen in results [b] - not this page**
+
+- 70% of London resi-led development finance deals get rejected by lenders _(source : /top-mistakes-to-avoid-when-applying-for-property-development-lending/)_
 
 **structure**
 
 - Structured as a single first-charge bridging loan, without a second charge, repaying existing debt and covering the full capital raise _(source : /case-studies/3-6-million-bridging-loan-prime-kensington-property/)_
 - Interest rolled up _(source : /case-studies/bridging-loan-land-with-planning/)_
 - No personal guarantee given by borrowers _(source : /case-studies/bridging-loan-land-with-planning/)_
+- Interest serviced monthly _(source : /case-studies/bridging-villa-cap-ferrat/)_
+- Ownership structure: property held in a British Virgin Islands (BVI) offshore trust; trustees based in Guernsey _(source : /case-studies/bvi-trust-refinance/)_
+- Interest and fees rolled up _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+- Loan drawn down in two tranches, first used to refinance existing bridging loan _(source : /case-studies/finance-for-100-senior-housing-development-in-kent/)_
+- Repayments amortised over 20 years _(source : /case-studies/heesen-yacht-finance/)_
+- Interest can be serviced or rolled up (sibling page /difference-between-regulated-unregulated-bridging-loans/) _(source : /common-uses-for-property-bridging-loans-in-the-uk/)_
 - Combines senior debt and mezzanine finance into one single facility from one lender [a][b] _(source : /stretch-senior-development-finance/)_
 - Loan structured as a corporate loan to a holding company, secured by a vessel mortgage and a personal guarantee from the UBO [a][b] _(source : /superyacht-finance/)_
 
@@ -9049,9 +15122,28 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Superyachts usually held via SPVs in Isle of Man, Malta or Cayman Islands; loan is a corporate loan to the SPV, secured on the boat, backed by personal guarantee from the beneficial owner. [b] _(source : /yacht-mortgages/)_
 
+**structure / timing**
+
+- Borrower intended to pay cash for the purchase and needed a loan immediately after acquisition _(source : /case-studies/pbsa/)_
+
+**structure [a]**
+
+- A bridging loan is secured against property _(source : /how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/)_
+
 **structure [a][b]**
 
+- Bridging loans come with four interest options: rolled-up, retained, serviced and hybrid _(source : /different-types-of-interest-options-with-bridging-loans/)_
 - Loan is a single lump sum used purely to complete the purchase, unlike development finance _(source : /post-planning-land-acquisitions/)_
+
+**structure [b]**
+
+- Development finance is usually released in stages _(source : /how-does-property-development-finance-work-a-step-by-step-guide/)_
+- Once the land is bought and works start, the construction loan is usually drawn down in tranches _(source : /how-does-property-development-finance-work-a-step-by-step-guide/)_
+- For larger phased schemes, a peak-debt facility works like a revolving credit line; sale proceeds from completed units repay the lender before the developer draws the next tranche _(source : /how-does-property-development-finance-work-a-step-by-step-guide/)_
+
+**structure [seed first-pass snippet]**
+
+- One of the most common ways in which development finance is structured is a series of tranches _(source : /how-does-property-development-finance-work-a-step-by-step-guide/)_
 
 **structure-purpose [b]**
 
@@ -9070,12 +15162,45 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 - Up to 90% LTV available _(source : /aviation-finance/)_
 - 5-12 year loan terms _(source : /aviation-finance/)_
 - Quarterly amortising payments _(source : /aviation-finance/)_
+- Interest-only over a 5-year term _(source : /case-studies/800k-bridging-loan-refinance/)_
+- Proposed 10-year interest-only term _(source : /case-studies/bridging-for-a-retail-purchase-in-liverpool/)_
+- Term: 10 years, interest-only _(source : /case-studies/bvi-trust-refinance/)_
+- Interest-only repayments _(source : /case-studies/mayfair-self-employed-equity-release/, /case-studies/pbsa/)_
+- Interest-only over five years _(source : /case-studies/notting-hill-large-residential-mortgage/)_
+- Bridging terms range from 1 to 36 months (sibling page /understanding-short-term-property-funding-for-uk-real-estate/, per search summary) _(source : /common-uses-for-property-bridging-loans-in-the-uk/)_
+- Bridging terms range from 6 to 24 months (sibling page /how-does-a-bridging-loan-work/, per search summary) _(source : /common-uses-for-property-bridging-loans-in-the-uk/)_
 - Most BTL products max out at 75% LTV (25% deposit) [b] _(source : /faq/)_
 - HMO LTV typically 75%, some lenders 80% in exceptional circumstances [seed] _(source : /faq/)_
+- Bridge loans for developers typically run 6 to 24 months _(source : /how-does-a-bridge-loan-work-for-developers/)_
+- Development exit loan gives a 12 to 18 month window to sell units and carries lower rates than construction finance (related page) _(source : /how-does-a-bridge-loan-work-for-developers/)_
+
+**term (related bridging page, [b], not this article)**
+
+- Bridging loans usually run 6 to 24 months _(source : /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/)_
+
+**term / structure**
+
+- Three-year interest-only term _(source : /case-studies/purchase-and-upgrade-21-million-office-in-london/)_
 
 **term [a][b]**
 
 - 12-month term _(source : /case-studies/nw-london-bridge/)_
+
+**term range [b]; attributed to 'one' article, not confirmed as this page**
+
+- term between 1 and 36 months _(source : /what-are-bridging-loans-and-how-do-they-work/)_
+
+**term-range [a] OTHER Silver Oak page, not this article**
+
+- Typical term between 3 and 24 months _(source : /how-does-a-bridging-loan-work/)_
+
+**term-range [a] target page**
+
+- Repayment typically over 6 to 24 months _(source : /how-does-a-bridging-loan-work/)_
+
+**term-range [b] OTHER Silver Oak page, not this article**
+
+- Term anywhere between 1 and 36 months, with some lenders offering longer terms _(source : /how-does-a-bridging-loan-work/)_
 
 **terms**
 
@@ -9093,6 +15218,14 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Case study: £5m BVI-trust refinance at 2.75% fixed 5 years, interest-only over 10 years [b] _(source : /complex-offshore-structures/)_
 
+**thesis - search-tool paraphrase [a]**
+
+- Shared ownership mortgages differ from traditional mortgages in a number of ways _(source : /how-do-shared-ownership-mortgage-broker-work/)_
+
+**thesis [a]**
+
+- LTV, LTC and LTGDV directly affect the maximum loan available, the equity the developer must contribute, and whether the project is financially viable _(source : /development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)_
+
 **third-party**
 
 - Valuation confirmed by a Knight Frank valuation report _(source : /case-studies/bridging-loan-land-with-planning/)_
@@ -9106,9 +15239,17 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 
 - Spear's adviser profile (Jimmy Baillie) describes a London debt advisory firm advising on prime residential and commercial mortgages, luxury-asset debt, bridging, marine and aviation finance _(source : /prime-london-mortgages/)_
 
+**third-party-context**
+
+- Spear's 500 is a guide to top private client advisers, wealth managers, lawyers and service providers for high-net-worth individuals; the 2022 edition was one of the first released in print alongside an online database (Spear's own description, per [a]) _(source : /case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/)_
+
 **third-party/number**
 
 - Introducer Today directory: arranges large loans of £2-£20m [a] _(source : /introducers/)_
+
+**threshold / lender-appetite claim, attributed by search [b] to 'the firm's guide' (presumed this article)**
+
+- lenders are especially flexible for borrowers borrowing over £2,000,000 _(source : /property-bridging-finance-for-uk-high-net-worth-individuals/)_
 
 **timescale**
 
@@ -9135,19 +15276,80 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **timing**
 
 - Completed within four weeks _(source : /case-studies/3-6-million-bridging-loan-prime-kensington-property/)_
+- Property bought at auction 12 months earlier with a bridging loan _(source : /case-studies/800k-bridging-loan-refinance/)_
+- Page posted approximately 231 days before 2026-10-29 (about March 2026), per search tool reading of page metadata _(source : /case-studies/notting-hill-large-residential-mortgage/)_
+- Offshore bridging loans typically take a few weeks to arrange (paraphrase, target article) [b] _(source : /how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/)_
+- Development finance is slower to arrange than a land bridge because it needs cost plans and contractor appointments (related page) _(source : /how-does-a-bridge-loan-work-for-developers/)_
+- Bridging approvals in 5-14 days _(source : /understanding-short-term-property-funding-for-uk-real-estate/)_
+- Approval shortened to a few weeks [a]; lenders can approve these loans in a few weeks [b] _(source : /why-are-property-bridging-loans-popular-in-the-uk/)_
 
 **timing [b]**
 
 - £3.6m Kensington facility completed within four weeks _(source : /case-studies/)_
 
+**topic-scope**
+
+- [a] The mirror's description says the firm's blogs cover property finance, mortgage loans, and property development _(source : /blogs/)_
+
 **track-record**
 
+- Silver Oak Capital has financed a number of yachts for French and Italian high net worth individuals who spend most of their time on their yachts in places like Monaco, St Tropez, and Portofino _(source : /case-studies/yacht-finance-calculator/)_
 - £4 million bridging loan arranged on a Kensington residential property [c, LinkedIn post by Joe Berk]; seed case-study URL says '3-6-million-bridging-loan-prime-kensington-property' (£3.6m) - possible contradiction or different deal _(source : /mezzanine-junior-finance/)_
 - Has found/arranged mortgages for prime residential properties of GBP 1m+ since 2019 [a][b] _(source : /prime-residential-mortgages/)_
 
+**track-record (other page, not this article)**
+
+- Prime residential page: "arranged mortgages for properties priced at £1m and above since 2019" [b] _(source : /find-the-perfect-mortgage-with-a-specialist-broker/)_
+
+**trade-off**
+
+- Higher interest rates than mortgages, so the loans suit short-term rather than long-term use [a] _(source : /why-are-property-bridging-loans-popular-in-the-uk/)_
+
+**underwriting**
+
+- Lenders weigh the property's value and the borrower's exit plan more than income or credit history _(source : /how-does-a-bridge-loan-work-for-developers/)_
+
+**underwriting [a] target page**
+
+- Lenders focus on the property's value and the borrower's exit plan rather than income _(source : /how-does-a-bridging-loan-work/)_
+
+**underwriting [b]**
+
+- The lender assesses the property's value and determines the loan-to-value (LTV) ratio _(source : /what-are-bridging-loans-and-how-do-they-work/)_
+
+**underwriting [b] site-wide synthesis, not attributed**
+
+- Exit strategy is often the most scrutinized detail by lenders _(source : /how-does-a-bridging-loan-work/)_
+
+**underwriting criteria - attributed to /commercial-mortgages/ [b]**
+
+- Lenders weigh the sponsor's track record, the loan-to-value ratio, the strength of the lease and the business's financials _(source : /how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/)_
+- Residential lending relies mainly on the borrower's income _(source : /how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/)_
+
+**underwriting-outcome**
+
+- Borrower's irregular income accepted on the strength of a detailed accountant's letter evidencing several income sources including capital disposals _(source : /case-studies/country-estate-refinance/)_
+
+**use**
+
+- Buying before selling is the most frequently cited use across the Silver Oak bridging pages returned (search tool assessment, not a Silver Oak statement) _(source : /common-uses-for-property-bridging-loans-in-the-uk/)_
+
+**use case [b] (attributed to this guide by the search tool)**
+
+- Bridging finance keeps a purchase moving while another sale is delayed _(source : /how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/)_
+
 **use-case**
 
+- Developers use bridging loans to cover funding gaps while a project stays on schedule [a] _(source : /importance-of-bridging-loans-for-property-development/)_
 - Uses include acquisitions, refinancing, and debt restructuring [a] _(source : /senior-secured-aircraft-finance-advisory/)_
+
+**value proposition [b]**
+
+- Brokers have relationships with lenders you may not be able to approach directly _(source : /selecting-the-ideal-property-finance-specialist-for-successful-developments/)_
+
+**value-proposition (this article)**
+
+- A specialist broker "covers ground beyond standard lending" [a] _(source : /find-the-perfect-mortgage-with-a-specialist-broker/)_
 
 **wording**
 
@@ -9156,6 +15358,18 @@ Les éléments ci-dessous appartiennent à Silver Oak Capital ou sont contradict
 **worked-example**
 
 - Indicative example: GBP 7 million, five-year, interest-only loan [b] _(source : /prime-residential-mortgages/)_
+
+**worked-example [a]**
+
+- Worked example: £4m completed scheme (GDV) with a £2.8m facility = 70% LTGDV _(source : /development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)_
+
+**worked-example [a][b]**
+
+- Worked example: £5m site with a £3m day-one advance = 60% LTV _(source : /development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/)_
+
+**worked-example from another site page [b]**
+
+- Other Silver Oak page (/types-of-borrowing/): bridging interest presented as a lump sum paid at end of term, not monthly; example at 0.75% per month, 12-month term, rolled-up interest, 75% loan to value _(source : /different-types-of-interest-options-with-bridging-loans/)_
 
 ### Faits relevés dans les sources tierces
 
@@ -9348,60 +15562,65 @@ Soit huit familles et vingt-six expertises nouvelles (26 pages françaises et 26
 2. Ou fournir une exportation du site (WordPress : outil d'exportation XML, ou copie du dossier `wp-content/uploads` et des pages) ; le script d'assemblage pourra être adapté pour lire ces fichiers.
 3. Ou coller le texte des pages jugées prioritaires (produits et FAQ) dans la conversation.
 
-Les passes suivantes (études de cas, articles, pages manquantes) complètent `raw/` ; relancer `python3 -I docs/references/silver-oak/assemble.py` régénère ce document.
+Les quatre passes sont terminées. Toute fiche ajoutée dans `raw/` est intégrée en relançant `python3 -I docs/references/silver-oak/assemble.py`.
 
-Pages recensées mais non extraites (aucune recherche dédiée n'a encore pu être effectuée) :
+### Pages repérées par la passe de complément (non inventoriées auparavant)
 
-- <https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/>
-- <https://www.silveroakcapital.co.uk/case-studies/bridging-for-a-retail-purchase-in-liverpool/>
-- <https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/>
-- <https://www.silveroakcapital.co.uk/case-studies/finance-for-100-senior-housing-development-in-kent/>
-- <https://www.silveroakcapital.co.uk/case-studies/manchester-office/>
-- <https://www.silveroakcapital.co.uk/case-studies/pbsa/>
-- <https://www.silveroakcapital.co.uk/case-studies/g650/>
-- <https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/>
-- <https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/>
-- <https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/>
-- <https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/>
-- <https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/>
-- <https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/>
-- <https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/>
-- <https://www.silveroakcapital.co.uk/case-studies/miami-developer/>
-- <https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/>
-- <https://www.silveroakcapital.co.uk/case-studies/notting-hill-large-residential-mortgage/>
-- <https://www.silveroakcapital.co.uk/case-studies/mayfair-self-employed-equity-release/>
-- <https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/>
-- <https://www.silveroakcapital.co.uk/blogs/>
-- <https://www.silveroakcapital.co.uk/common-uses-for-property-bridging-loans-in-the-uk/>
-- <https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/>
-- <https://www.silveroakcapital.co.uk/regulating-bridging-loans-through-fca-rules/>
-- <https://www.silveroakcapital.co.uk/what-are-bridging-loans-and-how-do-they-work/>
-- <https://www.silveroakcapital.co.uk/how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/>
-- <https://www.silveroakcapital.co.uk/property-bridging-finance-for-uk-high-net-worth-individuals/>
-- <https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/>
-- <https://www.silveroakcapital.co.uk/why-are-property-bridging-loans-popular-in-the-uk/>
-- <https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/>
-- <https://www.silveroakcapital.co.uk/different-types-of-interest-options-with-bridging-loans/>
-- <https://www.silveroakcapital.co.uk/what-is-smart-financing-innovative-funding-options-for-todays-investors/>
-- <https://www.silveroakcapital.co.uk/how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/>
-- <https://www.silveroakcapital.co.uk/your-trusted-local-finance-brokers-for-smart-lending-solutions/>
-- <https://www.silveroakcapital.co.uk/different-ways-to-add-value-to-the-property-before-selling/>
-- <https://www.silveroakcapital.co.uk/development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/>
-- <https://www.silveroakcapital.co.uk/development-finance-requirements-in-the-uk-explained/>
-- <https://www.silveroakcapital.co.uk/top-mistakes-to-avoid-when-applying-for-property-development-lending/>
-- <https://www.silveroakcapital.co.uk/how-does-property-development-finance-in-scotland/>
-- <https://www.silveroakcapital.co.uk/how-does-property-development-finance-work-a-step-by-step-guide/>
-- <https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/>
-- <https://www.silveroakcapital.co.uk/understanding-short-term-property-funding-for-uk-real-estate/>
-- <https://www.silveroakcapital.co.uk/what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/>
-- <https://www.silveroakcapital.co.uk/impact-of-inflation-and-interest-rates-on-uk-commercial-property/>
-- <https://www.silveroakcapital.co.uk/find-the-perfect-mortgage-with-a-specialist-broker/>
-- <https://www.silveroakcapital.co.uk/secure-the-best-business-loan-with-expert-brokerage-services/>
-- <https://www.silveroakcapital.co.uk/how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/>
-- <https://www.silveroakcapital.co.uk/different-ways-to-grow-and-develop-property-value/>
-- <https://www.silveroakcapital.co.uk/which-mortgage-company-is-right-for-you/>
-- <https://www.silveroakcapital.co.uk/how-do-shared-ownership-mortgage-broker-work/>
-- <https://www.silveroakcapital.co.uk/how-much-does-a-bridging-loan-cost/>
-- <https://www.silveroakcapital.co.uk/selecting-the-ideal-property-finance-specialist-for-successful-developments/>
-- <https://www.silveroakcapital.co.uk/stamp-duty-changes-in-the-uk-from-april-2025/>
-- <https://www.silveroakcapital.co.uk/how-london-property-investment-advisors-help-maximise-roi/>
+- **Silver Oak Capital (Development Finance Scorecard)** — Developer scorecard tool on a subdomain. Per the search tool's summary: a 'Development Finance Scorecard' that benchmarks a project against five categories and produces an overall score, pitched as a way to gauge how ready a developer is to raise finance; a short questionnaire; the report is then emailed, after which the user can request a free consultation to talk through the results. Query 8's summary described the subdomain home page as a property-finance pitch aimed at developers offering a… (<https://developerscorecard.silveroakcapital.co.uk/>)
+  > Development Finance Scorecard
+  > funding ready
+- **Services (developer scorecard subdomain)** — Services page on the scorecard subdomain. Per the search tool's summary it carries a generic cookie-consent banner and a cookie table. The tool explicitly stated this is not the company's actual cookie policy. (<https://developerscorecard.silveroakcapital.co.uk/services/>)
+- **Residential Portfolio Refinance** — Case study page. Only URL and title surfaced. (<https://www.silveroakcapital.co.uk/case-studies/residential-portfolio-refinance/>)
+- **Successful Refinance** — Case study page (GBP 3.5 million refinance, per slug). Only URL and title surfaced. (<https://www.silveroakcapital.co.uk/case-studies/successful-refinance-3-5-million-loan/>)
+- **Expert Development Finance Broker** — Development finance broker guide. The tool reported that it says brokers can generate a number of different options from a number of different lenders, giving clients access to the whole of market. (<https://www.silveroakcapital.co.uk/development-finance-broker-find-the-best-funding-partner-for-your-project/>)
+  > a number of different options from a number of different lenders
+  > whole of market
+- **Tips for first time commercial property buyers** — Blog post. Only URL and title surfaced. (<https://www.silveroakcapital.co.uk/tips-for-first-time-commercial-property-buyers/>)
+- **Ts and Cs (Silver Oak Capital terms of business PDF)** — Terms of business PDF for arranging services in respect of financial facilities. Per the search tool's summary: dated May 2024, version 2; company is Silver Oak Capital Ltd, London, company number 08551479; parties defined as SOC ('We') and the client, connected entity or attorney ('You'); written for consumers considering certain financial products. Fee agreement: SOC provides a brokerage service (independent recommendations and arranging financial facilities) in consideration of an Arrangemen… (<https://www.silveroakcapital.co.uk/wp-content/uploads/2026/02/Ts-and-Cs.pdf>)
+  > Please contact The Data Protection Officer at Connor.dooley@silveroakcapital.co.uk.
+  > SOC will provide to the Client in consideration of the Arrangement Fee, a brokerage service
+  > all details surrounding fees and charges will be highlighted in the Client specific Fee Agreement
+- **Yacht Finance Calculator UK** — Standalone yacht finance calculator page exists on the domain. Only the URL and title surfaced (query 1); no inputs, outputs or page copy were returned by any search. (<https://www.silveroakcapital.co.uk/yacht-finance-calculator/>)
+
+### Cherché sans résultat
+
+- A standalone complaints procedure page (complaints wording was found only inside the Ts-and-Cs PDF)
+- Any Property Week award mention on silveroakcapital.co.uk
+- Any blog post originally published in 2026 (all dated posts surfaced were 2025 originals with March 2026 update dates)
+- Any statement of whether Monaco, Dubai and Cape Town are physical offices versus served markets (search results do not say)
+- Blog index page URL and blog category names
+- Bridge to Purchase standalone page: not surfaced; covered only as a section inside /common-uses-for-property-bridging-loans-in-the-uk/ and as a list item on /types-of-borrowing/.
+- Bridge to Sell standalone page: not surfaced; covered only as 'Bridge to Sale' sections inside /common-uses-for-property-bridging-loans-in-the-uk/ and /why-are-property-bridging-loans-popular-in-the-…
+- Cape Town office page or Cape Town address on silveroakcapital.co.uk (same navigation label; the About Us page mentions the founder graduated from the University of Cape Town)
+- Careers / jobs / vacancies / 'work with us' page on silveroakcapital.co.uk (queries 3 and 8 returned no such page)
+- Case-study index category/tag taxonomy (no filter or category names surfaced; only child-page slugs)
+- Commission disclosure wording in the terms of business (snippets from the Ts-and-Cs PDF did not state whether commission is received; queries 5 and 7)
+- Dedicated Buy-to-Let Mortgages page body (/buy-to-let-mortgages/): not surfaced by any of the 8 queries; BTL content only appears scattered across home, /hmo-finance/, /different-ways-to-finance-new-…
+- Dedicated Middle East page on silveroakcapital.co.uk (no /middle-east/ or similar URL surfaced; only homepage market list, lender-calculator region filter and two case studies mention the Middle East)
+- Dedicated United Kingdom page on silveroakcapital.co.uk (query 3 returned zero on-domain results; UK coverage appears only via service pages such as 'Commercial Mortgage Broker UK')
+- Dedicated United States page on silveroakcapital.co.uk (query 2 returned zero on-domain results; only the 'Miami Developer' case study and the homepage market list reference the US)
+- Dedicated awards page on silveroakcapital.co.uk (Spear's 500 surfaced only as an image caption on the case-study index referencing 2022)
+- Dubai office page or Dubai address on silveroakcapital.co.uk (Dubai appears only as a navigation/location label 'London. Monaco. Dubai. Cape Town.')
+- Equity Release standalone page: not surfaced; only the /faq/ bridging-vs-lifetime-mortgage explanation and the Mayfair case study.
+- France property finance page on silveroakcapital.co.uk (query 7 returned zero on-domain results; only the 'Bridging Villa Cap Ferrat' case study is France-related)
+- H1, meta description, rates or lender criteria for any of the target residential pages: none revealed by snippets.
+- Holiday Let finance page: no Silver Oak page surfaced; query 2 (site: 'holiday let') returned zero silveroakcapital.co.uk results; only mention is the home-page line 'Main home mortgages, Buy to Lets…
+- Jimmy Baillie bio text (only the page title 'About Us - Jimmy Baillie' surfaced; query 1 returned zero on-domain results; no snippet contained his bio)
+- Later life / lifetime mortgage lending: the search tool reported nothing on 'later life' lending from Silver Oak Capital.
+- Lender calculator exact input fields (beyond 'project type' and 'loan type'), exact outputs, and the actual number of lenders displayed
+- Main home mortgages / regulated owner-occupier mortgages page: not surfaced; query 7 returned zero silveroakcapital.co.uk results; only the home-page line and the prime (GBP 1m+) /prime-residential-m…
+- Monaco office page or Monaco address on silveroakcapital.co.uk (same navigation label only)
+- Named Data Protection Officer beyond the email address Connor.dooley@silveroakcapital.co.uk (no role statement for the DPO beyond this contact line)
+- Newsletter page or newsletter sign-up page on silveroakcapital.co.uk
+- Press / 'in the press' / news page on silveroakcapital.co.uk
+- Reviews or testimonials page on silveroakcapital.co.uk
+- Second Charge page: not surfaced; query 3 (site: 'second charge') returned zero silveroakcapital.co.uk results; second charge is mentioned only in the Ts-and-Cs PDF, /mezzanine-junior-finance/, /prim…
+- South Africa clients page or any on-domain mention of South African clients (query 5 returned zero on-domain results; only the third-party thelandsite.co.uk article states the African/South African c…
+- Spain property finance page on silveroakcapital.co.uk (query 6 returned zero on-domain results and no Spain case study)
+- Standalone cookie policy page (queries 4 and 8; only a generic cookie-consent banner and cookie table on developerscorecard.silveroakcapital.co.uk/services/ was reported, which the tool said is not t…
+- Standalone privacy notice / privacy policy page (queries 4 and 8 returned no on-domain privacy page; only the data-protection section inside the Ts-and-Cs PDF was found)
+- The client-specific Fee Agreement document itself (referenced in the Ts-and-Cs PDF but not surfaced as a page or file)
+- Trustpilot (or other third-party) review page for silveroakcapital.co.uk (a Trustpilot page exists for the different domain silver-oak.co.uk, 4.0 TrustScore from 3 reviews; not confirmed to be the sa…
+- URL for blog post 'How Does a Bridge Loan Work for Developers?' (tool reported title and dates '30 January 2025 31 March 2026' but no URL)
+- URL for blog post 'How Property Investment Supports Long-Term Financial Resilience' (tool reported title and dates '1 April 2025 18 March 2026' but no URL)
+- Yacht finance calculator (/yacht-finance-calculator/) inputs, outputs and page copy

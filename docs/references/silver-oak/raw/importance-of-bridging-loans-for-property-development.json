@@ -1,0 +1,82 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/",
+  "title": "Importance of Bridging Loans for Property Development",
+  "summary": "Blog article (not a case study). Thesis as revealed by search snippets only: property bridging loans play a role in the UK market by giving borrowers fast, flexible funds; developers use them to cover funding gaps so a project stays on schedule; bridging loans are described as tools that cover a funding need until future income arrives, used by both investors and developers; the article notes they usually carry higher interest than conventional mortgages, reflecting their short-term nature and higher risk. No full text, no headings, no worked examples, no figures were returned for this page. A mirror of the same article exists on the firm's Wix blog (https://silveroakcapitaluk.wixsite.com/blogs/post/bridging-loan-for-property-development, titled 'Importance Of Bridging Loan For Property Development'). Related Silver Oak pages surfaced in search (b) add context from sibling pages, not from this article: developers use bridging to buy a site before long-term finance is in place and to refinance a near-complete project; usual duration roughly 6 to 24 months (/how-does-a-bridge-loan-work-for-developers/); a bridge lets a developer secure a site quickly while full development finance is still being arranged, land-backed bridges often cap at around 50-60% LTV, and Silver Oak can add mezzanine or equity to reduce the deposit needed (/post-planning-land-acquisitions/).",
+  "verbatim": [
+    "[a] (search-tool summary of the page snippet) \"property bridging loans play a role in the UK market by giving borrowers fast, flexible funds, and that developers use them to cover funding gaps while a project stays on schedule.\"",
+    "[a] (search-tool note) \"The search didn't return the full text of the Silver Oak Capital article, which you linked. The only excerpt from that page is a short snippet.\"",
+    "[b] (search-tool summary, attributed to the main article) \"The main article describes bridging loans as tools that cover a funding need until future income arrives. It also says they are used by both investors and developers.\"",
+    "[b] (search-tool summary, attributed to the main article) \"Silver Oak notes that these loans usually carry higher interest than conventional mortgages, reflecting their short-term nature and higher risk.\"",
+    "[b] (search-tool summary of /how-does-a-bridge-loan-work-for-developers/) \"developers use these loans to buy a site before long-term finance is in place, and to refinance a near-complete project.\"",
+    "[b] (search-tool summary of /how-does-a-bridge-loan-work-for-developers/) \"That same guide puts the usual duration at roughly 6 to 24 months.\"",
+    "[b] (search-tool summary of /post-planning-land-acquisitions/) \"a bridge can let a developer secure a site quickly, while full development finance is still being arranged. It also says land-backed bridges often cap at around 50–60% LTV, and that Silver Oak can add mezzanine or equity to reduce the deposit needed.\"",
+    "[a] Result title listed for the target URL: \"Importance of Bridging Loans for Property Development\"",
+    "[a] Result title listed for the Wix mirror: \"Importance Of Bridging Loan For Property Development\""
+  ],
+  "services": [
+    "Bridging loans (property bridging, UK)",
+    "Property development finance (context of the article)",
+    "Mezzanine / equity top-up alongside land bridges (from sibling page /post-planning-land-acquisitions/, [b])"
+  ],
+  "claims": [
+    {"claim": "Bridging loans give borrowers fast, flexible funds [a]", "kind": "positioning"},
+    {"claim": "Developers use bridging loans to cover funding gaps while a project stays on schedule [a]", "kind": "use-case"},
+    {"claim": "Bridging loans cover a funding need until future income arrives; used by both investors and developers [b]", "kind": "positioning"},
+    {"claim": "Bridging loans usually carry higher interest than conventional mortgages, reflecting their short-term nature and higher risk [b]", "kind": "cost-statement"},
+    {"claim": "Usual bridging duration roughly 6 to 24 months (sibling page /how-does-a-bridge-loan-work-for-developers/) [b]", "kind": "number"},
+    {"claim": "Land-backed bridges often cap at around 50-60% LTV (sibling page /post-planning-land-acquisitions/) [b]", "kind": "number"},
+    {"claim": "Silver Oak can add mezzanine or equity to reduce the deposit needed (sibling page /post-planning-land-acquisitions/) [b]", "kind": "promise"}
+  ],
+  "confidence": "low",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/importance-of-bridging-loans-for-property-development.json",
+  "terms": [
+    "bridging loan / property bridging loan",
+    "property development",
+    "funding gap",
+    "future income (repayment source)",
+    "conventional mortgage (comparison point for interest)",
+    "LTV (loan-to-value) [b, sibling page]",
+    "mezzanine [b, sibling page]",
+    "equity [b, sibling page]",
+    "development finance [b, sibling page]",
+    "regulated vs unregulated bridging (title of sibling page only) [b]"
+  ],
+  "eligibility": [
+    "No eligibility criteria revealed for this article.",
+    "Sibling page /post-planning-land-acquisitions/ [b]: land-backed bridges often cap at around 50-60% LTV."
+  ],
+  "processSteps": [
+    "No process steps revealed for this article. Implied sequence from sibling pages [b]: secure the site quickly with a bridge while full development finance is arranged; later refinance (including near-complete projects)."
+  ],
+  "faq": [],
+  "geography": [
+    "United Kingdom (\"UK market\") [a]",
+    "London (title of sibling page 'Fast Bridging Loans London' at /a-complete-guide-to-securing-quick-property-finance-in-london/) [b]"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/",
+    "https://www.silveroakcapital.co.uk/a-complete-guide-to-securing-quick-property-finance-in-london/",
+    "https://www.silveroakcapital.co.uk/how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/",
+    "https://www.silveroakcapital.co.uk/what-are-bridging-loans-and-how-do-they-work/",
+    "https://www.silveroakcapital.co.uk/post-planning-land-acquisitions/",
+    "https://www.silveroakcapital.co.uk/difference-between-regulated-unregulated-bridging-loans/",
+    "https://www.silveroakcapital.co.uk/how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/",
+    "https://silveroakcapitaluk.wixsite.com/blogs/post/bridging-loan-for-property-development"
+  ],
+  "lenderTypes": [
+    "None named in the article snippets. Sibling page [b]: mezzanine or equity providers alongside senior/land bridge lenders."
+  ],
+  "useCases": [
+    "Cover funding gaps while a development project stays on schedule [a]",
+    "Cover a funding need until future income arrives [b]",
+    "Used by both investors and developers [b]",
+    "Buy a site before long-term finance is in place (sibling page) [b]",
+    "Refinance a near-complete project (sibling page) [b]",
+    "Secure a site quickly while full development finance is still being arranged (sibling page) [b]"
+  ],
+  "notes": "Direct fetching blocked; only two WebSearch calls were allowed and both were run (queriesRun=2, queriesRefused=0). The target page appeared in both result lists under the title 'Importance of Bridging Loans for Property Development', but the search tool explicitly said it did not return the full text and that only a short snippet was available. All 'verbatim' entries are the search tool's own summary sentences (paraphrases of snippets), not confirmed page copy; they are quoted exactly as the tool wrote them and tagged [a]/[b]. H1 and meta description were not revealed, so those fields are omitted. No FAQ, calls to action, author, publication date, word count, lender names, loan amounts or awards were visible for this page. Search (a) also listed third-party pages on the same topic (Clifton Private Finance, eFinancialModels, Enness Global, Alternative Bridging, Hilton Smythe, Prospect Capital, Brickflow) and search (b) listed a Wikipedia page on LandlordInvest; all were ignored as unrelated companies and nothing from them is recorded here. Two Silver Oak URLs not present in seed.json were discovered: /a-complete-guide-to-securing-quick-property-finance-in-london/ (title 'Fast Bridging Loans London') and /difference-between-regulated-unregulated-bridging-loans/ (title 'Difference between Regulated & Unregulated Bridging Loans'). The Wix mirror URL may hold the same article text if a future pass can reach it."
+}

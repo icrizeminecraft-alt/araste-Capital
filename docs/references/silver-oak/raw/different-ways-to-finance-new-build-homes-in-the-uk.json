@@ -1,0 +1,103 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/",
+  "title": "Best Finance Options for New Build Homes",
+  "h1": "Not revealed by snippets. Both searches list the page under the SERP/meta title 'Best Finance Options for New Build Homes'; the slug reads 'different-ways-to-finance-new-build-homes-in-the-uk'.",
+  "metaDescription": "Not revealed verbatim. Search (a)'s excerpt says the page covers more options 'from self-build mortgages to government schemes', which reads like meta-description wording but is unconfirmed.",
+  "summary": "Blog article (type: guide/listicle, not a case study) giving an overview of the main ways to fund a new-build home in the UK. Content actually revealed by snippets: (1) New build mortgages, described as 'generally standard mortgage products designed to fund properties that have recently been constructed or are currently being constructed'; lenders apply stricter criteria and lower loan-to-value ratios, with typical LTVs of 75% to 85%, and some lenders set deadlines for completion; the page appears to have a 'Key Features' subsection. (2) Self-build mortgages, for people building from scratch: 'Unlike a traditional mortgage, funds are released in stages' at construction milestones, either in arrears or in advance. (3) Buy-to-let mortgages for new builds, for investors buying a new-build property to rent out. The excerpt says the article covers further options 'from self-build mortgages to government schemes', so a government-schemes section exists but its content was not surfaced. Search (b)'s tool summary also described development finance (loan secured against land, released in tranches tied to the build schedule, interest rolled up and repaid on completion from sales or refinance, first tranche usually covering the land and generally not exceeding 75% of the purchase price), mezzanine finance and bridging loans, and exit routes (sell the units, rent and refinance, or repay from other developments), but it explicitly attributed the mezzanine/bridging points to the Scotland guide and drew on /property-development-finance/ and other sibling pages, so attribution of those points to this article is uncertain. The full article body (introduction, government schemes section, any conclusion or CTA) was not retrieved.",
+  "verbatim": [
+    "[a] \"New build mortgages are generally standard mortgage products designed to fund properties that have recently been constructed or are currently being constructed.\"",
+    "[a] \"from self-build mortgages to government schemes\" (fragment the tool reported as the excerpt saying the page covers more options)",
+    "[a] (tool summary wording) \"Lenders often apply stricter criteria and lower loan-to-value ratios, and the page lists typical LTVs of 75% to 85%.\"",
+    "[a] (tool summary wording) \"These suit people building from scratch. Funds are paid out at construction milestones, either in arrears or in advance.\"",
+    "[a] (tool summary wording) \"These serve investors who buy a new-build property to rent out.\"",
+    "[b] \"New build mortgages are generally standard mortgage products\"",
+    "[b] \"key features are in Key Features\" (fragment; suggests a 'Key Features' subsection on the page)",
+    "[b] \"Unlike a traditional mortgage, funds are released in stages.\"",
+    "[b] (tool summary wording) \"Lenders apply tighter criteria and lower loan-to-value limits, and the site cites typical LTVs of 75% to 85%. Some lenders also set deadlines for completion.\"",
+    "[b] \"multiple tranches released in line with project stages\" (development finance; page attribution uncertain)",
+    "[b] \"loans secured against the land, with interest rolled up\" (development finance; page attribution uncertain)",
+    "[b] (tool summary wording) \"The first tranche usually covers the land, and the site notes it generally won't exceed 75% of the purchase price.\" (page attribution uncertain)",
+    "[b] \"senior development loans, mezzanine finance and bridging loans\" (tool attributes this to the Scotland guide, not this article)",
+    "[b] \"sell the units, rent and refinance, or repay from other developments\" (exit routes; page attribution uncertain)",
+    "[b] (tool summary wording, sibling page /light-to-heavy-refurbishment/) \"refurbishment finance (bridging-based, often covering up to 100% of build costs)\""
+  ],
+  "services": [
+    "New build mortgages",
+    "Self-build mortgages",
+    "Buy-to-let mortgages for new builds",
+    "Government schemes (section named in excerpt, content not surfaced)",
+    "Development finance (tranche-based; attribution to this article uncertain, may come from sibling pages)",
+    "Mezzanine finance (attributed by tool to the Scotland guide)",
+    "Bridging loans (attributed by tool to the Scotland guide)"
+  ],
+  "claims": [
+    {"claim": "Typical new build mortgage LTVs of 75% to 85%", "kind": "number"},
+    {"claim": "Lenders apply stricter criteria and lower loan-to-value ratios to new build mortgages", "kind": "statement"},
+    {"claim": "Some lenders set deadlines for completion on new build mortgages", "kind": "statement"},
+    {"claim": "Self-build mortgage funds are released in stages at construction milestones, either in arrears or in advance", "kind": "process"},
+    {"claim": "Buy-to-let mortgages for new builds serve investors who buy a new-build property to rent out", "kind": "statement"},
+    {"claim": "Development finance first tranche usually covers the land and generally will not exceed 75% of the purchase price (attribution to this article uncertain)", "kind": "number"},
+    {"claim": "Development finance is secured against the land, released in tranches tied to the build schedule, with interest rolled up and repaid on completion from sales or refinancing (attribution to this article uncertain)", "kind": "process"},
+    {"claim": "Refurbishment finance often covers up to 100% of build costs (sibling page /light-to-heavy-refurbishment/, not this article)", "kind": "number"}
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/different-ways-to-finance-new-build-homes-in-the-uk.json",
+  "terms": [
+    "new build mortgage",
+    "self-build mortgage",
+    "buy-to-let mortgage",
+    "loan-to-value (LTV)",
+    "stage payments in arrears / in advance",
+    "construction milestones",
+    "completion deadline",
+    "government schemes",
+    "development finance",
+    "tranches",
+    "rolled-up interest",
+    "senior development loan",
+    "mezzanine finance",
+    "bridging loan",
+    "exit route (sale / rent and refinance)",
+    "Key Features (subsection label)"
+  ],
+  "eligibility": [
+    "New build mortgages: lenders apply stricter criteria and lower LTV ratios than on standard homes; typical LTV 75% to 85%",
+    "New build mortgages: some lenders set deadlines for completion",
+    "Self-build mortgages: suited to people building a home from scratch",
+    "Buy-to-let new build mortgages: for investors purchasing a new-build property to rent out",
+    "Development finance (attribution uncertain): first tranche generally capped at 75% of the land purchase price"
+  ],
+  "processSteps": [
+    "Self-build mortgage: funds released in stages as construction reaches set milestones, paid either in arrears or in advance (not as one lump sum)",
+    "Development finance (attribution uncertain): loan secured against the land; first tranche usually covers the land; further tranches released in line with the build schedule; interest rolled up; repaid on completion from sales or refinancing",
+    "Exit routes (attribution uncertain): sell the units, rent them out and refinance onto a longer-term mortgage, or repay from cash flow on other developments"
+  ],
+  "faq": [],
+  "geography": ["United Kingdom"],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/light-to-heavy-refurbishment/",
+    "https://www.silveroakcapital.co.uk/complete-guide-to-development-loans-for-property-projects-uk/",
+    "https://www.silveroakcapital.co.uk/development-finance-broker-find-the-best-funding-partner-for-your-project/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/what-is-smart-financing-innovative-funding-options-for-todays-investors/",
+    "https://www.silveroakcapital.co.uk/how-does-property-development-finance-in-scotland/",
+    "https://www.silveroakcapital.co.uk/why-are-property-bridging-loans-popular-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/"
+  ],
+  "lenderTypes": [
+    "Mortgage lenders (new build / self-build / buy-to-let products) - generic 'lenders' only, no names given",
+    "Development finance lenders releasing funds in tranches (attribution uncertain)",
+    "Senior debt and mezzanine lenders (from Scotland guide per tool attribution)"
+  ],
+  "useCases": [
+    "Buying a recently constructed or under-construction home with a new build mortgage",
+    "Building a home from scratch with a self-build mortgage",
+    "Investor buying a new-build property to rent out with a buy-to-let mortgage",
+    "Ground-up or conversion development funded in tranches (attribution uncertain)"
+  ],
+  "notes": "Article type: guide, not a case study, so no deal data (amount, asset, borrower, lender, timing) applies. Direct fetching blocked; everything comes from two extended WebSearch calls [a]=URL query, [b]=site: query. Confirmed by both searches: SERP title 'Best Finance Options for New Build Homes', the three mortgage routes (new build, self-build, buy-to-let new build) and the 75%-85% typical LTV figure. The 'Key Features' subsection label and 'Unlike a traditional mortgage, funds are released in stages.' come from [b]. The excerpt in [a] says the page covers more options 'from self-build mortgages to government schemes', so a government-schemes section exists but nothing of its content was surfaced. Search [b]'s synthesis mixed in sibling pages (it cited the Scotland guide for senior/mezzanine/bridging and described development-finance tranches and the 75%-of-land-price cap and exit routes without naming the source page); those items are recorded with 'attribution uncertain' and should be cross-checked against the raw files for /property-development-finance/, /how-does-property-development-finance-in-scotland/ and /complete-guide-to-development-loans-for-property-projects-uk/. Third-party results in [a] (Finbri, Planning Portal, NSBRC, Mortgage Lane, Zoopla, Resi, Right to Build Task Force) mentioned Help to Buy closing 31 Oct 2022, Deposit Unlock closing April 2026, shared ownership, 95% mortgages and the Homes England Home Building Fund; these are NOT from Silver Oak and were excluded from the fields above. No H1, meta description, author, date, FAQ, CTA, contact details, lender count or fee claims were revealed for this page. Two site URLs not present in seed.json surfaced: /complete-guide-to-development-loans-for-property-projects-uk/ and /development-finance-broker-find-the-best-funding-partner-for-your-project/. Confidence 'medium': what is recorded is well supported by two searches, but the article's full body remains unretrieved."
+}

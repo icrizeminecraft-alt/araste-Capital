@@ -1,0 +1,102 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/g650/",
+  "title": "G650",
+  "summary": "Case study of a private-jet acquisition loan arranged by Silver Oak Capital. Amount: $40 million. Asset: Gulfstream G650 private jet. Borrower: a wealthy Emirati (UAE) individual described as having 'a penchant for luxury and business travel', who wanted long-term funding to buy the jet and needed access to financing soon after purchase ('fast post-purchase financing'). Lender type: a European private bank ('tailored European private bank lending'). Structure per search summaries: 80% loan-to-value, 10-year term, rate 3.5% plus Euribor, 1.5% lender fee, repayment amortised over 10 years with a 30% balloon, and $5 million in assets under management (listed among the key terms; appears to be a private-bank AUM condition, but the page wording was not seen). Timing: no completion timescale stated beyond the client's need for financing soon after purchase. Challenges flagged by the page: aircraft valuation, maintenance costs, regulatory compliance, and whether the jet suited the client's travel needs. Outcome: the $40m facility was arranged. One search summary noted the terms 'are presented as a sample deal'. No H1, meta description, FAQ, process steps or calls to action were revealed in the snippets.",
+  "h1": null,
+  "metaDescription": null,
+  "verbatim": [
+    "[a] page snippet: \"A wealthy Emirati individual, with a penchant for luxury and business travel, approached Silver Oak Capital seeking assistance in acquiring a Gulfstream G650 private jet.\"",
+    "[a] page snippet: \"Silver Oak Capital arranged $40m private jet finance at 80% LTV for a Gulfstream G650, with a 10-year term and tailored European private bank lending.\"",
+    "[a] link title: \"G650\"",
+    "[a] tool summary: \"The firm's arrangement was a $40 million loan against a Gulfstream G650 jet, at 80% loan-to-value over a 10-year term.\"",
+    "[a] tool summary: \"A wealthy individual from the UAE wanted long-term funding to buy the jet and needed access to financing soon after purchase.\"",
+    "[a] tool summary: \"The snippet lists a rate of 3.5% plus Euribor, a 1.5% lender fee, repayment amortised over 10 years with a 30% balloon, and $5 million in assets under management.\"",
+    "[a] tool summary: \"The write-up flags aircraft valuation, maintenance costs, regulatory compliance, and whether the jet suited the client's travel needs as the main issues.\"",
+    "[b] link title: \"G650\"",
+    "[b] tool summary: \"Silver Oak Capital arranged a $40m loan at 80% loan-to-value for a Gulfstream G650 over a 10-year term, using a European private bank.\"",
+    "[b] tool summary: \"The borrower was an Emirati individual who needed fast post-purchase financing.\"",
+    "[b] tool summary: \"The listed terms are a 3.5% margin over Euribor, amortization over 10 years with a 30% balloon, and a 1.5% lender fee.\"",
+    "[b] tool summary: \"The page also flags aircraft valuation, maintenance costs, and regulatory compliance as the main issues to resolve.\"",
+    "[b] tool summary: \"It appeared in results as 37 days old.\"",
+    "[b] tool summary: \"The case study's terms are presented as a sample deal, so verify them with Silver Oak before relying on them.\"",
+    "[b] tool summary (related page /aviation-finance/): \"The Aviation Finance page lists a sample of terms, including up to 90% LTV and 5–12 year terms, and links to a Falcon 900 case study.\"",
+    "[b] tool summary (related page /case-studies/top-aviation-firms/): \"A 'Top Aviation Firms' page describes a separate case involving a client over 8 years old, which needed high LTV.\"",
+    "[b] tool summary (related page /senior-secured-aircraft-finance-advisory/): \"The Aircraft Finance Advisory page describes senior secured aircraft finance as the lowest-risk form of aircraft finance.\""
+  ],
+  "sections": [
+    {"heading": "Deal overview", "content": "$40m private jet finance at 80% LTV for a Gulfstream G650, 10-year term, 'tailored European private bank lending'. [a][b]"},
+    {"heading": "Client", "content": "A wealthy Emirati individual 'with a penchant for luxury and business travel' seeking assistance in acquiring a Gulfstream G650 private jet; wanted long-term funding and needed access to financing soon after purchase. [a][b]"},
+    {"heading": "Key terms", "content": "Rate 3.5% plus Euribor; 1.5% lender fee; repayment amortised over 10 years with a 30% balloon; $5 million in assets under management (the AUM item appears only in [a]). [a][b]"},
+    {"heading": "Challenges", "content": "Aircraft valuation, maintenance costs, regulatory compliance, and whether the jet suited the client's travel needs ([a]; [b] lists the first three). No detail on how each was resolved was revealed."},
+    {"heading": "Outcome", "content": "The facility was arranged (both searches state Silver Oak Capital 'arranged' the $40m loan). One tool summary says the terms 'are presented as a sample deal'. [a][b]"},
+    {"heading": "Related aviation pages surfaced", "content": "/aviation-finance/ (sample terms up to 90% LTV, 5–12 year terms, links to a Falcon 900 case study); /case-studies/top-aviation-firms/ (separate case, high LTV, 'over 8 years old' — likely refers to aircraft age but the summary says 'client'); /senior-secured-aircraft-finance-advisory/ (senior secured aircraft finance described as the lowest-risk form); /aviation-finance-lease-advisory/ (titled 'Aviation Finance & Leasing', new URL not in seed). [b]"},
+    {"heading": "Unrelated results excluded", "content": "code7700.com case study of Gulfstream G650 N652GD (2011 test accident), Wikipedia 'Gulfstream Aerospace Flight 153', Wikipedia 'Gulfstream G650/G700/G800' — not connected to Silver Oak Capital."}
+  ],
+  "services": [
+    "Aviation Finance / private jet finance (loan secured on aircraft)",
+    "Private bank lending arranged for a UHNW non-UK (UAE) borrower",
+    "Related: Senior Secured Aircraft Finance Advisory",
+    "Related: Aviation Finance & Leasing (/aviation-finance-lease-advisory/)"
+  ],
+  "lenderTypes": ["European private bank"],
+  "useCases": [
+    "Acquisition of a Gulfstream G650 private jet by a UHNW individual",
+    "Long-term funding needed soon after purchase of an aircraft (post-purchase financing)"
+  ],
+  "terms": [
+    "LTV (loan-to-value) — 80%",
+    "Euribor — margin of 3.5% over Euribor",
+    "Lender fee — 1.5%",
+    "Amortisation over 10 years",
+    "Balloon — 30%",
+    "Assets under management (AUM) — $5 million",
+    "Private jet finance",
+    "European private bank lending",
+    "Term — 10 years"
+  ],
+  "eligibility": [
+    "Not stated explicitly. Implied by the deal as summarised: UHNW individual borrower (UAE resident), lender a European private bank, and '$5 million in assets under management' listed among the key terms ([a] only; page wording not seen)."
+  ],
+  "processSteps": [],
+  "faq": [],
+  "claims": [
+    {"claim": "$40m / $40 million loan arranged", "kind": "number"},
+    {"claim": "80% LTV (loan-to-value)", "kind": "number"},
+    {"claim": "10-year term", "kind": "number"},
+    {"claim": "Rate 3.5% plus Euribor (3.5% margin over Euribor)", "kind": "number"},
+    {"claim": "1.5% lender fee", "kind": "number"},
+    {"claim": "Amortised over 10 years with a 30% balloon", "kind": "number"},
+    {"claim": "$5 million in assets under management ([a] only)", "kind": "number"},
+    {"claim": "Lender: European private bank ('tailored European private bank lending')", "kind": "deal-structure"},
+    {"claim": "Borrower: wealthy Emirati (UAE) individual", "kind": "borrower"},
+    {"claim": "Challenges: aircraft valuation, maintenance costs, regulatory compliance, suitability of jet to client's travel needs", "kind": "challenge"},
+    {"claim": "Page appeared in results as 37 days old (approx. late September 2026 relative to 2026-10-29)", "kind": "freshness"},
+    {"claim": "Related /aviation-finance/ page: sample terms up to 90% LTV and 5–12 year terms", "kind": "number-related-page"},
+    {"claim": "Related /senior-secured-aircraft-finance-advisory/ page: senior secured aircraft finance described as the lowest-risk form of aircraft finance", "kind": "positioning-related-page"}
+  ],
+  "geography": [
+    "United Arab Emirates (borrower: Emirati individual)",
+    "Europe (lender: European private bank)",
+    "United Kingdom (Silver Oak Capital, London-based broker)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/",
+    "https://www.silveroakcapital.co.uk/case-studies/manchester-office/",
+    "https://www.silveroakcapital.co.uk/case-studies/mayfair-self-employed-equity-release/",
+    "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/",
+    "https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/",
+    "https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/",
+    "https://www.silveroakcapital.co.uk/aviation-finance/",
+    "https://www.silveroakcapital.co.uk/senior-secured-aircraft-finance-advisory/",
+    "https://www.silveroakcapital.co.uk/aviation-finance-lease-advisory/"
+  ],
+  "confidence": "medium",
+  "notes": "Direct fetch blocked; everything comes from two WebSearch (extended) calls on 2026-10-29. Headline figures ($40m, 80% LTV, 10-year term, 3.5% + Euribor, 1.5% lender fee, 30% balloon, Emirati borrower, European private bank, valuation/maintenance/regulatory challenges) are consistent across both searches, hence medium rather than low. Items appearing in only one search: '$5 million in assets under management' and 'whether the jet suited the client's travel needs' ([a] only); '37 days old' and 'presented as a sample deal' ([b] only). Only two sentences read as actual page copy (tagged 'page snippet'); everything else is the search tool's paraphrase. H1, meta description, CTAs, FAQ, process steps, completion timescale, and how the challenges were resolved were not revealed. The 'client over 8 years old' phrasing for /case-studies/top-aviation-firms/ is the tool's wording and probably refers to aircraft age; not verified. New site URL discovered, not in seed: /aviation-finance-lease-advisory/ (titled 'Aviation Finance & Leasing'). Unrelated G650 accident/Wikipedia results ignored.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-g650.json"
+}

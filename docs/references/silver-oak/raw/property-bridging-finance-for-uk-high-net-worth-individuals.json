@@ -1,0 +1,92 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/property-bridging-finance-for-uk-high-net-worth-individuals/",
+  "title": "Property Bridging Finance: A Guide for UK HNWIs",
+  "summary": "Blog article / guide on property bridging finance for UK high-net-worth individuals. Neither search retrieved the article body: search [a] (exact URL) explicitly reported it could not retrieve the page and fell back to other Silver Oak pages and third-party listings; search [b] (site: query) returned the page as its first result with the title 'Property Bridging Finance: A Guide for UK HNWIs' and attributed two statements to 'the firm's guide': lenders are 'especially flexible for borrowers borrowing over £2,000,000', and bridging is 'short-term funding tied to a property sale, refinance, or other expected cash flow'. That is the full extent of what the results reveal about the article's thesis and guidance. The search summaries additionally surfaced context from other pages: the FAQ (bridge = short-term facility up to 12-24 months for active investors and business owners, repaid within the term), the £3.6m Kensington bridging case study (completed within four weeks, 0.78% per month, BBR-linked), the £1.46m 5-year interest-only Prime Central London refinance (personal guarantee from an overseas HNWI with no UK footprint), and a client-type statement (HNW and UHNW individuals, property developers, family offices and trustees, international clients with UK assets) whose source page is not specified. Article headings, sections, H1, meta description, CTAs, process steps and any article-level FAQ were not revealed.",
+  "verbatim": [
+    "[b] Result title for the target URL: \"Property Bridging Finance: A Guide for UK HNWIs\"",
+    "[b] \"The firm's guide says lenders are especially flexible for borrowers borrowing over £2,000,000, and it describes bridging as short-term funding tied to a property sale, refinance, or other expected cash flow.\"",
+    "[b] \"Its FAQ describes a bridge as a short-term facility (up to 12-24 months) designed for active investors and business owners. It must be repaid within the term.\"",
+    "[b] \"One example is a £3.6 million bridge on a Kensington property, which was completed within four weeks, priced at 0.78% per month, BBR-linked. Another is a £1.46 million, 5-year interest-only refinance on a Prime Central London property, arranged despite complexities such as a personal guarantee from an overseas high-net-worth individual with no UK footprint.\"",
+    "[b] \"The firm says it typically acts for HNW and UHNW individuals, property developers, family offices and trustees, and international clients with UK assets.\"",
+    "[b] \"The results didn't include pricing or fee schedules beyond the single case-study rate.\"",
+    "[a] \"I couldn't retrieve the exact page you linked, so this summary draws on other pages from Silver Oak Capital and third-party listings.\"",
+    "[a] \"Silver Oak Capital is described as a debt advisory firm located in London, UK. Its homepage says it specialises in loans over £500,000.\"",
+    "[a] \"Its site describes tailored property bridging loans designed to meet the unique needs of our clients. It also says it arranges short term bridging finance and claims this can secure the lowest achievable cost of funding in the open market.\"",
+    "[a] \"Third-party listings say the firm has access to an extensive network of over 800 lenders, though older listings cite 300+ and 500+ lenders.\"",
+    "[a] \"A Property Week awards listing describes the firm as providing tailored funding solutions for property investors, developers, and high net worth individuals.\"",
+    "[a] \"One published example is a £3.6 million bridging facility secured against a high-value residential property in Kensington. The loan was reportedly completed within four weeks, priced at 0.78% per month, BBR-linked.\""
+  ],
+  "services": [
+    "Property bridging finance / tailored property bridging loans [a][b]",
+    "Short term bridging finance [a]",
+    "Refinance of prime residential property (5-year interest-only, case study) [b]",
+    "Debt advisory [a]",
+    "Other site pages surfaced by result titles only: Mortgage Bridging Loans UK & London, Crypto Bridging Advisory, Bitcoin Loans, Complex Offshore Structures & International Finance Solution [b]"
+  ],
+  "claims": [
+    {"claim": "lenders are especially flexible for borrowers borrowing over £2,000,000", "kind": "threshold / lender-appetite claim, attributed by search [b] to 'the firm's guide' (presumed this article)"},
+    {"claim": "bridging is short-term funding tied to a property sale, refinance, or other expected cash flow", "kind": "product definition, attributed by search [b] to 'the firm's guide' (presumed this article)"},
+    {"claim": "a bridge is a short-term facility (up to 12-24 months) designed for active investors and business owners; it must be repaid within the term", "kind": "product term, from /faq/ per search [b]"},
+    {"claim": "£3.6 million bridging facility secured against a high-value residential property in Kensington, completed within four weeks, priced at 0.78% per month, BBR-linked", "kind": "case study figures [a][b]"},
+    {"claim": "£1.46 million, 5-year interest-only refinance on a Prime Central London property, with a personal guarantee from an overseas high-net-worth individual with no UK footprint", "kind": "case study figures [b]"},
+    {"claim": "specialises in loans over £500,000", "kind": "loan size, homepage per search [a]"},
+    {"claim": "access to an extensive network of over 800 lenders (older listings cite 300+ and 500+)", "kind": "lender count, third-party listings per search [a]"},
+    {"claim": "arranges short term bridging finance that can secure the lowest achievable cost of funding in the open market", "kind": "promise, site per search [a]"},
+    {"claim": "tailored funding solutions for property investors, developers, and high net worth individuals", "kind": "positioning, Property Week awards listing per search [a]"},
+    {"claim": "typically acts for HNW and UHNW individuals, property developers, family offices and trustees, and international clients with UK assets", "kind": "client types, source page not specified by search [b]"}
+  ],
+  "terms": [
+    "Loan term: short-term facility, up to 12-24 months, repaid within the term (from /faq/ per [b])",
+    "Pricing example: 0.78% per month, BBR-linked (Kensington £3.6m case study) [a][b]",
+    "Timing example: completed within four weeks (Kensington case study) [a][b]",
+    "Refinance example: 5-year interest-only (£1.46m Prime Central London case study) [b]",
+    "No fee schedule or general pricing revealed: 'The results didn't include pricing or fee schedules beyond the single case-study rate.' [b]"
+  ],
+  "eligibility": [
+    "Borrowers borrowing over £2,000,000: lenders 'especially flexible' [b]",
+    "Firm specialises in loans over £500,000 (homepage, [a])",
+    "Bridge aimed at 'active investors and business owners' (/faq/, [b])",
+    "Client types: HNW and UHNW individuals, property developers, family offices and trustees, international clients with UK assets [b]",
+    "Overseas HNWI with no UK footprint accommodated via personal guarantee in the £1.46m refinance case study [b]"
+  ],
+  "useCases": [
+    "Bridging tied to a property sale, refinance, or other expected cash flow [b]",
+    "Bridge secured against a high-value residential property in Kensington (£3.6m) [a][b]",
+    "Refinance of a Prime Central London property (£1.46m, 5-year interest-only) [b]"
+  ],
+  "faq": [
+    {"q": "What is a bridge / bridging loan? (statement from the /faq/ page surfaced by search [b], not confirmed as part of this article)", "a": "\"a short-term facility (up to 12-24 months) designed for active investors and business owners. It must be repaid within the term.\""}
+  ],
+  "geography": [
+    "United Kingdom (article title: 'UK HNWIs')",
+    "London (firm location per [a])",
+    "Kensington (case study) [a][b]",
+    "Prime Central London (case study) [b]",
+    "Overseas / international clients with UK assets [b]"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/property-bridging-finance-for-uk-high-net-worth-individuals/",
+    "https://www.silveroakcapital.co.uk/property-investment-strategies-to-get-maximum-roi/",
+    "https://www.silveroakcapital.co.uk/crypto-bridging-advisory/",
+    "https://www.silveroakcapital.co.uk/bitcoin-loans-advisory/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "https://www.silveroakcapital.co.uk/complex-offshore-structures/",
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/",
+    "https://www.silveroakcapital.co.uk/"
+  ],
+  "externalLinksSeen": [
+    "https://uk.linkedin.com/company/silver-oak-capital",
+    "https://www.thelandsite.co.uk/professional-services/720-silver-oak-capital",
+    "https://silveroakcapital.odoo.com/",
+    "https://awards.propertyweek.com/live/en/node/organisation-silver-oak-capital",
+    "https://www.syob.net/company/Silver%20Oak%20Capital%20-%20Debit%20Advisory/38582"
+  ],
+  "confidence": "low",
+  "notes": "Article body NOT retrieved. Search [a] (exact URL, extended) did not return the target page at all and stated so; its content concerns other Silver Oak pages and third-party listings. Search [b] (site: + slug keywords, extended) returned the target page as result #1, revealing only its SERP title 'Property Bridging Finance: A Guide for UK HNWIs' and two statements attributed to 'the firm's guide' (the >£2,000,000 flexibility statement and the bridging definition). Attribution of those two statements to this exact article is presumed, not confirmed, since the search summary did not name the URL. H1, meta description, section headings, CTAs, process steps, lender types and any article-level FAQ were not revealed and are therefore omitted rather than invented. The FAQ, case-study and client-type statements come from other pages and are included only as context, tagged accordingly. New URL not present in seed.json: https://www.silveroakcapital.co.uk/property-investment-strategies-to-get-maximum-roi/ (blog article). Lender types: not specified in results beyond aggregate lender counts (800+, with older 300+/500+). Search [a]'s '£3.6 million ... 0.78% per month, BBR-linked' matches seed case-study URL /case-studies/3-6-million-bridging-loan-prime-kensington-property/. Exactly 2 WebSearch calls run, none refused.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/property-bridging-finance-for-uk-high-net-worth-individuals.json"
+}

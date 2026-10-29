@@ -1,0 +1,107 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/your-trusted-local-finance-brokers-for-smart-lending-solutions/",
+  "title": "Your Trusted Local Finance Brokers for Smart Lending Solutions",
+  "summary": "Blog article (not a case study) on Silver Oak Capital's site arguing why borrowers should use a local finance broker. Per the search tool's reading of the page [a], it is 'a general article about finance brokers, not specific company details', organised around three themes: (1) the broker's role: sourcing competitive finance options, identifying the best lenders for development finance, structuring deals around project timelines, handling applications, and advising on risk and repayment; (2) the lending products involved: bridging loans and mezzanine finance, the latter described as a hybrid option that adds funding for developers when senior debt alone is not enough; (3) the benefits of using a local broker: a broad lender network, better negotiating power, wide lender relationships, deals structured around the client's needs, and less time spent on the lending process, with local brokers said to have strong relationships with high-street banks, specialist lenders and private financiers [b]. No deal figures, rates, LTVs, eligibility criteria, FAQ or named calls to action were revealed. The page was dated about 617 days before the search (roughly February 2025). The full article text was not readable: result [b] states the snippet was cut off, so all content recorded here is the search tool's paraphrase rather than the page's own prose.",
+  "verbatim": [
+    "[a] \"The page itself is a general article about finance brokers, not specific company details. It covers the broker's role, the lending products involved, and the benefits of using a local broker.\"",
+    "[a] \"It describes a broker's job as sourcing finance options, structuring deals around project timelines, handling applications, and advising on risk and repayment.\"",
+    "[a] \"Its role section lists sourcing competitive finance options and identifying the best lenders for development finance.\"",
+    "[a] \"It lists bridging loans and mezzanine finance among the products offered. Mezzanine finance is described as a hybrid option that adds funding for developers when senior debt alone isn't enough.\"",
+    "[a] \"Its benefits section claims a broad lender network and better negotiating power. The page is dated about 617 days ago, so it may be out of date.\"",
+    "[b] \"Silver Oak Capital's page titled 'Your Trusted Local Finance Brokers for Smart Lending Solutions' describes why borrowers might use a local broker.\"",
+    "[b] \"It lists benefits such as wide lender relationships, deals structured around a client's needs, and less time spent on the lending process.\"",
+    "[b] \"Local brokers have strong relationships with high-street banks, specialist lenders, and private financiers.\"",
+    "[b] \"The snippet I saw is cut off, so I couldn't read the full text.\"",
+    "[a] (site-level, homepage) \"The firm's homepage describes it as a commercial mortgage broker and development finance provider, and says it works with over 800 lenders.\"",
+    "[b] (site-level, homepage) \"It arranges debt on real estate and luxury asset transactions across the UK, US, Western Europe and the Middle East through a network of over 800 lenders.\"",
+    "[b] (site-level, /lenders/) \"The lenders page says the firm generally focuses on transactions upwards of £500,000.\"",
+    "[b] (site-level, /bridging-loans-uk/) \"The bridging loans page says its access to many lenders allows it to provide independent whole-of-market advice.\""
+  ],
+  "services": [
+    "Finance brokerage: sourcing competitive finance options [a]",
+    "Identifying the best lenders for development finance [a]",
+    "Structuring deals around project timelines [a]",
+    "Handling loan applications [a]",
+    "Advising on risk and repayment [a]",
+    "Bridging loans (listed among products offered) [a]",
+    "Mezzanine finance (hybrid option adding funding when senior debt alone is not enough) [a]",
+    "Site-level (homepage, not the article): commercial mortgage brokerage, property development finance, bridging loans [b]"
+  ],
+  "lenderTypes": [
+    "High-street banks [b]",
+    "Specialist lenders [b]",
+    "Private financiers [b]",
+    "Senior debt providers (implied: mezzanine 'adds funding for developers when senior debt alone isn't enough') [a]"
+  ],
+  "terms": [
+    "local finance broker",
+    "bridging loans",
+    "mezzanine finance",
+    "senior debt",
+    "development finance",
+    "lender network",
+    "negotiating power",
+    "high-street banks",
+    "specialist lenders",
+    "private financiers",
+    "whole-of-market advice (site-level, /bridging-loans-uk/) [b]"
+  ],
+  "eligibility": [],
+  "processSteps": [
+    "Broker role as described (reads as a sequence, not explicitly numbered on the page): 1. Source competitive finance options and identify the best lenders for development finance [a]",
+    "2. Structure the deal around the project timeline [a]",
+    "3. Handle the application [a]",
+    "4. Advise on risk and repayment [a]"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "Broad lender network (article benefits section) [a]", "kind": "promise"},
+    {"claim": "Better negotiating power (article benefits section) [a]", "kind": "promise"},
+    {"claim": "Wide lender relationships [b]", "kind": "promise"},
+    {"claim": "Deals structured around a client's needs [b]", "kind": "promise"},
+    {"claim": "Less time spent on the lending process [b]", "kind": "promise"},
+    {"claim": "Local brokers have strong relationships with high-street banks, specialist lenders, and private financiers [b]", "kind": "assertion"},
+    {"claim": "Mezzanine finance is a hybrid option that adds funding for developers when senior debt alone isn't enough [a]", "kind": "definition"},
+    {"claim": "Page dated about 617 days before 2026-10-29, i.e. approximately February 2025 (derived from search tool freshness note) [a]", "kind": "date-approximate"},
+    {"claim": "Site-level (homepage): works with over 800 lenders [a][b]", "kind": "number-site-level"},
+    {"claim": "Site-level (/bridging-loans-uk/): 700+ lenders [b]", "kind": "number-site-level"},
+    {"claim": "Site-level (/property-development-finance/): 300+ lenders [b]", "kind": "number-site-level"},
+    {"claim": "Site-level (/lenders/): generally focuses on transactions upwards of £500,000 [b]; homepage: specialises in loans over £500,000 [a]", "kind": "number-site-level"},
+    {"claim": "External listing: advice for loans between £2m and £20m (figure conflicts with homepage per [a])", "kind": "number-external"},
+    {"claim": "Site-level (/bridging-loans-uk/): independent whole-of-market advice [b]", "kind": "promise-site-level"},
+    {"claim": "Site-level (homepage): arranges debt on real estate and luxury asset transactions across the UK, US, Western Europe and the Middle East [b]", "kind": "geography-site-level"}
+  ],
+  "geography": [
+    "Article: 'local' brokers; no specific town, region or country named in the results",
+    "Site-level (homepage) [b]: UK, US, Western Europe, Middle East"
+  ],
+  "ctas": [
+    "Article-level: none revealed in results",
+    "Site-level page title seen [b]: 'Development Finance Brokers - Get a Instant Quote Now' (https://www.silveroakcapital.co.uk/development-finance-brokers/)"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/ (title: 'Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions') [a][b]",
+    "https://www.silveroakcapital.co.uk/what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/ (title: 'High Net Worth Property Funding UK Guide') [b]",
+    "https://www.silveroakcapital.co.uk/independent-mortgage-brokers/ (title: 'Independent Mortgage Broker - Mortgage Advice Solutions') [b] - NOT in seed.json",
+    "https://www.silveroakcapital.co.uk/lenders/ (title: 'Property Finance Lenders UK') [b]",
+    "https://www.silveroakcapital.co.uk/complex-offshore-structures/ (title: 'Complex Offshore Structures & International Finance Solution') [b]",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/ (title: 'Mortgage Bridging Loans UK & London') [b]",
+    "https://www.silveroakcapital.co.uk/development-finance-brokers/ (title: 'Development Finance Brokers - Get a Instant Quote Now') [b]",
+    "https://www.silveroakcapital.co.uk/property-development-finance/ (title: 'Property Development Finance') [b]"
+  ],
+  "sections": [
+    {"heading": "The role of a finance broker (named 'role section' in [a])", "content": "Sourcing competitive finance options; identifying the best lenders for development finance; structuring deals around project timelines; handling applications; advising on risk and repayment. [a]"},
+    {"heading": "Lending products involved", "content": "Bridging loans and mezzanine finance are listed among the products offered. Mezzanine finance is described as a hybrid option that adds funding for developers when senior debt alone isn't enough. [a]"},
+    {"heading": "Benefits of using a local broker (named 'benefits section' in [a])", "content": "Broad lender network and better negotiating power [a]; wide lender relationships, deals structured around a client's needs, less time spent on the lending process; local brokers have strong relationships with high-street banks, specialist lenders, and private financiers [b]."}
+  ],
+  "useCases": [
+    "Developers needing funding beyond what senior debt alone provides (mezzanine finance) [a]",
+    "Borrowers seeking the best lenders for development finance [a]",
+    "Borrowers who want to spend less time on the lending process and have deals structured around their needs [b]"
+  ],
+  "confidence": "low",
+  "notes": "Source channel: WebSearch only (2 extended calls, [a] = exact URL query, [b] = site: query with slug keywords); direct fetch blocked; 0 calls refused. The 'verbatim' entries are quotations of the search tool's summaries, not confirmed page prose: no sentence was returned that is identifiably copied from the article body, and [b] states the page snippet was cut off. H1 and meta description were not revealed; the only title seen is the result link title, identical in [a] and [b]. Author, exact publication date, word count, images and internal links inside the article were not revealed. Eligibility, FAQ and article-level CTAs: nothing revealed, arrays left empty. Date: [a] says the page is 'dated about 617 days ago' relative to 2026-10-29, i.e. approximately February 2025 (derived, approximate). Site-level facts in claims/geography come from other silveroakcapital.co.uk pages surfaced in the same results (homepage, /lenders/, /bridging-loans-uk/, /property-development-finance/) and are tagged as such; lender-count figures conflict across pages (800+, 700+, 300+) and [a] notes an external listing giving £2m-£20m versus the homepage's 'over £500,000'. New site URL not present in seed.json: https://www.silveroakcapital.co.uk/independent-mortgage-brokers/. External URLs seen in [a]: https://silveroakcapital.odoo.com/ ; https://uk.linkedin.com/company/silver-oak-capital ; https://www.lettingagenttoday.co.uk/trades-directory/silver-oak-capital/ ; https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital (directory listing titled 'Silver Oak Capital, Hackney'; unverified whether it is this firm, seed gives the office as 91 Wimpole Street W1) ; https://silveroakcapital.weebly.com/ . Unrelated results ignored: https://silveroakcp.com/ (Silver Oak Capital Partners, US commercial lending advisory, USDA B&I/SBA) and https://en.wikipedia.org/wiki/Local_Capital_Finance_Company. Confidence is low because the page's actual wording, its structure beyond the three themes, and its H1/meta are unknown; the title and the three-theme outline are consistent across both calls and are the reliable parts.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/your-trusted-local-finance-brokers-for-smart-lending-solutions.json"
+}

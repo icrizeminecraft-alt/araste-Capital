@@ -1,0 +1,97 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/",
+  "title": "Residential Mortgage Loan - BVI Trust Refinance - Silver Oak Capital",
+  "h1": "Not revealed by search results. The page title tag is 'Residential Mortgage Loan - BVI Trust Refinance - Silver Oak Capital'; the H1 is probably 'BVI Trust Refinance' or 'Residential Mortgage Loan - BVI Trust Refinance' but this is unconfirmed.",
+  "metaDescription": "Not revealed by search results.",
+  "summary": "Case study of a residential mortgage refinance on a property held in a British Virgin Islands (BVI) trust. Deal: a UK landlord had built a large five-bedroom house on a plot in Richmond, South West London, and wanted to replace an expensive development loan with a cheaper residential mortgage. Loan required: GBP 5 million; property valued at GBP 12 million (implied LTV approx. 41.7%, derived, not stated). Structure sought: interest-only facility over 10 years. Rate listed in the terms: 2.7%. Borrower type: UK landlord whose income came from a farming business and a property portfolio, with the property held in an offshore (BVI) trust administered with trustees based in Guernsey. Lender type: a private bank that had a BVI office where the trust was administered. Challenges: (1) finding a lender that would accept the mixed farming/property-portfolio income; (2) the lender needed a working relationship with the Guernsey-based trustees because the property sat in an offshore trust. Outcome: Silver Oak connected the client with the private bank; the listed terms show a GBP 5 million residential mortgage at 2.7%. Timing/completion date: not revealed. Only the opening portion of the page was returned by search; the full write-up may contain more detail.",
+  "verbatim": [
+    "[a] Page title as listed: \"Residential Mortgage Loan - BVI Trust Refinance - Silver Oak Capital\"",
+    "[a] \"The page is a Silver Oak Capital case study about refinancing a property held in a British Virgin Islands trust. The search returned only the opening portion of it, so the full write-up may contain more detail.\" (search tool summary)",
+    "[a] \"A UK landlord had built a large five-bedroom house on a plot in Richmond, South West London, and wanted to replace an expensive development loan with a cheaper residential mortgage. The client required a loan of £5 million GBP and the property was valued at £12 million GBP.\" (search tool summary)",
+    "[a] \"The borrower's income came from a farming business and a property portfolio, which made it hard to find a lender that would accept that income mix. Because the property sat in an offshore trust, the lender also needed a working relationship with the trustees, who were based in Guernsey.\" (search tool summary)",
+    "[a] \"The adviser sought an interest-only facility over 10 years and connected the client with a private bank that had a BVI office where the trust was administered. The listed terms show a £5 million residential mortgage at a 2.7% rate.\" (search tool summary)",
+    "[b] \"A UK landlord had built a large house on a Richmond plot and needed to replace an expensive development loan with a cheaper residential mortgage. The loan was £5 million against a £12 million valuation.\" (search tool summary)",
+    "[b] \"Because the property sat in a British Virgin Islands trust, the lender also had to work well with the Guernsey-based trustees. The brief was a 10-year interest-only facility. Silver Oak connected the client with a private bank that had a BVI office where the trust was administered. The snippet lists the rate as 2.7%.\" (search tool summary)",
+    "[b] \"The 'Read full case study' link on item 1 would give the complete details.\" (search tool summary, indicating a 'Read full case study' link on the case-studies listing)",
+    "[b] \"The page dates are relative ('230 days ago,' '8 days ago'), so I can't confirm when these cases were published.\" (search tool summary)"
+  ],
+  "services": [
+    "Residential mortgage (large loan) refinance",
+    "Refinancing a development loan into a residential mortgage (development exit)",
+    "Private bank mortgage placement",
+    "Lending to properties held in complex offshore structures (BVI trust, Guernsey trustees)",
+    "Interest-only term mortgage"
+  ],
+  "claims": [
+    {"claim": "Loan amount: GBP 5 million", "kind": "number"},
+    {"claim": "Property valuation: GBP 12 million", "kind": "number"},
+    {"claim": "Rate: 2.7% (listed in the terms box of the case study)", "kind": "number"},
+    {"claim": "Term: 10 years, interest-only", "kind": "term"},
+    {"claim": "Implied LTV approx. 41.7% (5m / 12m) - derived by this agent, not stated on the page", "kind": "derived"},
+    {"claim": "Property: large five-bedroom house built by the client on a plot in Richmond, South West London", "kind": "asset"},
+    {"claim": "Purpose: replace an expensive development loan with a cheaper residential mortgage", "kind": "purpose"},
+    {"claim": "Borrower: UK landlord; income from a farming business and a property portfolio", "kind": "borrower"},
+    {"claim": "Ownership structure: property held in a British Virgin Islands (BVI) offshore trust; trustees based in Guernsey", "kind": "structure"},
+    {"claim": "Lender: a private bank with a BVI office where the trust was administered", "kind": "lender"},
+    {"claim": "Challenge: difficulty finding a lender accepting the farming + property-portfolio income mix", "kind": "challenge"},
+    {"claim": "Challenge: lender needed a working relationship with the Guernsey-based trustees", "kind": "challenge"},
+    {"claim": "Outcome: Silver Oak connected the client with the private bank; GBP 5m residential mortgage at 2.7% listed", "kind": "outcome"}
+  ],
+  "terms": [
+    "GBP 5,000,000 loan",
+    "GBP 12,000,000 valuation",
+    "2.7% rate",
+    "10-year term",
+    "Interest-only",
+    "Residential mortgage (refinance of development loan)",
+    "Lender: private bank with BVI office"
+  ],
+  "eligibility": [
+    "UK landlord borrower (UK-based client)",
+    "Income from a farming business plus a property portfolio (non-standard income mix accepted by the chosen private bank)",
+    "Property held in a BVI offshore trust with Guernsey-based trustees (lender needed to work with the trustees)",
+    "Existing development loan being refinanced on a newly built house"
+  ],
+  "processSteps": [
+    "Client identified the need to replace an expensive development loan on the completed Richmond house with a cheaper residential mortgage (GBP 5m required against GBP 12m value).",
+    "Silver Oak identified the two obstacles: the farming/property-portfolio income mix and the BVI trust ownership with Guernsey trustees.",
+    "Silver Oak sought an interest-only facility over 10 years.",
+    "Silver Oak connected the client with a private bank that had a BVI office where the trust was administered.",
+    "Terms listed: GBP 5 million residential mortgage at 2.7%. (Completion timing not revealed.)"
+  ],
+  "faq": [],
+  "geography": [
+    "Richmond, South West London, United Kingdom (property)",
+    "British Virgin Islands (trust jurisdiction; lender's BVI office)",
+    "Guernsey (trustees' location)"
+  ],
+  "ctas": [
+    "\"Read full case study\" (link text seen on the case-studies listing pointing to this page, per [b]); no on-page CTA wording revealed by search results."
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/g650/",
+    "https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/",
+    "https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/notting-hill-large-residential-mortgage/",
+    "https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+    "https://www.silveroakcapital.co.uk/case-studies/successful-refinance-3-5-million-loan/",
+    "https://www.silveroakcapital.co.uk/case-studies/manchester-office/",
+    "https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/"
+  ],
+  "lenderTypes": [
+    "Private bank (with a BVI office where the trust was administered)"
+  ],
+  "useCases": [
+    "Refinancing an expensive development loan on a completed self-build/new-build house into a long-term residential mortgage",
+    "Mortgage on a UK residential property owned through a BVI offshore trust",
+    "Large residential mortgage (GBP 5m) for a borrower with non-standard income (farming business plus property portfolio)"
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "notes": "Both searches ([a] exact URL, [b] site: query) surfaced the page as the top result with consistent facts (GBP 5m loan, GBP 12m valuation, 2.7%, 10-year interest-only, Richmond SW London, BVI trust, Guernsey trustees, private bank with BVI office, farming + property portfolio income). Confidence is medium rather than high because the search tool returned its own summaries rather than raw page text, and it stated that only the opening portion of the page was returned; the 'verbatim' entries are therefore the search tool's summary wording (quoted exactly), not confirmed page sentences, except the page title. Not revealed: H1, meta description, publication/completion date, exact LTV as stated, lender name, fee, who at Silver Oak advised, any on-page CTA wording, any FAQ. The 2.7% rate and other figures are presumably from a 'terms' box on the page per [a] ('The listed terms show...'). NEW URL not in seed.json: https://www.silveroakcapital.co.uk/case-studies/successful-refinance-3-5-million-loan/ (Monaco resident, central London buy-to-let held via BVI structure, 10-year interest-only refinance of GBP 3.5m against a GBP 4.8m property, lender GB Bank, per [b]). Sibling data surfaced incidentally per [a]/[b], NOT part of this page: Notting Hill Large Residential Mortgage = GBP 6.35m, 5-year interest-only, 60% LTV, Middle-East private bank experienced with offshore trust structures; an aircraft finance case (top-aviation-firms or related) = GBP 28m, 60-month, 80% LTV, fixed 3.99%, SPV in the BVI. Search listing showed relative dates ('230 days ago', '8 days ago') but the tool could not attribute them to specific pages. Direct fetch not attempted per instructions.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-bvi-trust-refinance.json"
+}

@@ -1,0 +1,82 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/",
+  "title": "How Bridging Loans Help Property Developers",
+  "h1": "",
+  "metaDescription": "",
+  "summary": "Blog article (page title shown in both search results as 'How Bridging Loans Help Property Developers'; slug 'how-does-a-bridge-loan-work-for-developers'). Thesis per the search tool's summaries: bridge loans are short-term financing for property developers, typically running 6 to 24 months, used to cover funding gaps so developers can acquire, refurbish, or complete a scheme before arranging long-term finance or selling. Underwriting point: lenders weigh the property's value and the borrower's exit plan more than income or credit history (framed as a comparison with traditional mortgages). Listed benefits: quicker access to capital, flexible terms, securing a site before long-term finance is arranged, refinancing near completion, and covering construction costs in some cases. Application guidance: applicants typically submit site details, a business plan, projected Gross Development Value, an exit strategy, and their track record. No direct snippet text, H1, meta description, author, date, FAQ or CTA was revealed; all content is the search tool's paraphrase.",
+  "verbatim": [
+    "[a] \"bridge loans are short-term financing for property developers, typically running 6 to 24 months, and lenders weigh the property's value and the borrower's exit plan more than income or credit history.\"",
+    "[a] \"Its listed benefits include quicker access to capital, flexible terms, securing a site before long-term finance is arranged, refinancing near completion, and covering construction costs in some cases.\"",
+    "[b] \"Silver Oak's developer guide says these loans cover funding gaps, typically lasting between 6 to 24 months, so developers can acquire, refurbish, or complete a scheme before arranging long-term finance or selling.\"",
+    "[b] \"Lenders weigh the property's value and the borrower's exit plan more than income or credit history, per the comparison with traditional mortgages.\"",
+    "[b] \"Applicants typically submit site details, a business plan, projected Gross Development Value, an exit strategy, and their track record.\"",
+    "[b] (attributed to related page /post-planning-land-acquisitions/, not confirmed as target page) \"A post-planning land bridge is a single lump sum to buy the site. Development finance is released in stages for construction, and Silver Oak notes it is slower because it needs cost plans and contractor appointments (the land loan is a single lump sum used purely to complete the purchase of the site).\"",
+    "[b] (attribution ambiguous between target page and /post-planning-land-acquisitions/) \"Silver Oak says the exit is usually refinancing onto a development loan or selling the plot.\"",
+    "[b] (attributed to related page /development-exit-loans/, not confirmed as target page) \"A development exit loan repays the construction lender and gives a longer window, 12 to 18 months, to sell units. Its rates are lower than construction finance because the build risk has passed.\"",
+    "[b] \"Silver Oak's own pages say similar things about higher rates.\""
+  ],
+  "sections": [
+    {"heading": "What a bridge loan is for developers (inferred)", "content": "Short-term financing for property developers that covers funding gaps, typically 6 to 24 months, so a developer can acquire, refurbish, or complete a scheme before arranging long-term finance or selling. [a][b]"},
+    {"heading": "How lenders assess a developer bridge loan vs a traditional mortgage (inferred)", "content": "Lenders weigh the property's value and the borrower's exit plan more than income or credit history; the search summary describes this as a comparison with traditional mortgages. [a][b]"},
+    {"heading": "Benefits for developers (inferred)", "content": "Quicker access to capital; flexible terms; securing a site before long-term finance is arranged; refinancing near completion; covering construction costs in some cases. [a]"},
+    {"heading": "What applicants submit (inferred)", "content": "Site details, a business plan, projected Gross Development Value (GDV), an exit strategy, and the developer's track record. [b]"},
+    {"heading": "Cost (inferred, weak)", "content": "Search summary [b] only notes that Silver Oak's pages 'say similar things about higher rates' relative to conventional finance; no rate figures from the target page were revealed."}
+  ],
+  "services": [
+    "Bridging loans for property developers (subject of the article)",
+    "Post planning land acquisition bridging (related page surfaced in [b])",
+    "Development exit loans (related page surfaced in [b])",
+    "Development finance released in stages (contrasted with a bridge in [b])"
+  ],
+  "lenderTypes": [],
+  "useCases": [
+    "Acquire a site / scheme before long-term finance is arranged [a][b]",
+    "Refurbish a property [b]",
+    "Complete a scheme before selling or refinancing [b]",
+    "Refinance near completion [a]",
+    "Cover construction costs in some cases [a]",
+    "Buy a post-planning plot with a single lump sum, then exit by refinancing onto a development loan or selling the plot [b] (related page content)"
+  ],
+  "terms": [
+    "Typical term: 6 to 24 months [a][b]",
+    "Development exit loans: 12 to 18 months window to sell units; lower rates than construction finance (related page /development-exit-loans/, [b])",
+    "Bridging rates described as higher than conventional finance (general remark in [b], no figures)"
+  ],
+  "eligibility": [
+    "Assessment centred on the property's value and the borrower's exit plan rather than income or credit history [a][b]",
+    "Expected submissions: site details, business plan, projected GDV, exit strategy, track record [b]"
+  ],
+  "processSteps": [
+    "Submit site details, a business plan, projected Gross Development Value, an exit strategy and track record [b]",
+    "Lender assesses primarily on property value and exit plan [a][b]",
+    "Draw the bridge to acquire, refurbish or complete the scheme [b]",
+    "Exit via refinancing onto a development / long-term loan, or by sale [b]"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "Bridge loans for developers typically run 6 to 24 months", "kind": "term"},
+    {"claim": "Lenders weigh the property's value and the borrower's exit plan more than income or credit history", "kind": "underwriting"},
+    {"claim": "Benefits: quicker access to capital, flexible terms, securing a site before long-term finance is arranged, refinancing near completion, covering construction costs in some cases", "kind": "benefit"},
+    {"claim": "Applicants typically submit site details, business plan, projected GDV, exit strategy and track record", "kind": "process"},
+    {"claim": "Development exit loan gives a 12 to 18 month window to sell units and carries lower rates than construction finance (related page)", "kind": "term"},
+    {"claim": "Development finance is slower to arrange than a land bridge because it needs cost plans and contractor appointments (related page)", "kind": "timing"}
+  ],
+  "geography": [
+    "United Kingdom (implied by the site; not stated explicitly in the snippets for this page)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/why-are-property-bridging-loans-popular-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/post-planning-land-acquisitions/",
+    "https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/",
+    "https://www.silveroakcapital.co.uk/what-are-bridging-loans-and-how-do-they-work/",
+    "https://www.silveroakcapital.co.uk/development-exit-loans/",
+    "https://www.silveroakcapital.co.uk/understanding-short-term-property-funding-for-uk-real-estate/"
+  ],
+  "confidence": "medium",
+  "notes": "Page existence and title ('How Bridging Loans Help Property Developers', differing from the slug) confirmed by both searches. Core thesis (6-24 month term; value + exit plan outweigh income/credit; benefit list; documents to submit) is corroborated by two independent search summaries that both explicitly attribute it to this article. Limits: the search tool returned paraphrased summaries, not raw page snippets, so the 'verbatim' entries are the tool's wording, not confirmed page text; H1, meta description, author, publication date, FAQ, CTAs and lender-type references were not revealed. Several points in search [b] (post-planning land bridge as single lump sum, development finance released in stages, exit via refinance or plot sale, development exit loan 12-18 months) are attributed to other Silver Oak pages surfaced in the same result set and are flagged as related-page content rather than this article's. Non-Silver-Oak results (Wikipedia, Vaster, Requity, Focal Invest, Xero, Re-Leased, First State Bank, Crestmont) were ignored per rules. Searches run: 2 of the allowed 2; 0 refused.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/how-does-a-bridge-loan-work-for-developers.json"
+}

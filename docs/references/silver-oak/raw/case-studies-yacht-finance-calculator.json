@@ -1,0 +1,109 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/",
+  "title": "Yacht Finance Calculator",
+  "h1": "Yacht Finance Calculator (title as shown in search result listing; H1 not separately revealed)",
+  "metaDescription": "",
+  "summary": "Despite sitting under /case-studies/, the page is primarily a guide to yacht finance rather than a single-deal write-up. Per search [a], it 'describes the kind of calculator it's meant to host rather than showing working numbers': the calculator is meant to help a buyer see whether their monthly budget fits the monthly payments required to purchase a yacht of a particular size or price. It describes two loan structures: a standard yacht mortgage (roughly 5 to 7 years with a balloon payment of about 25% of the loan) and a lease (works more like car finance or hire purchase). It says the tools can also be used for purchases in France, Italy and Spain or anywhere in the Mediterranean, and that Silver Oak Capital has financed a number of yachts for French and Italian high net worth individuals who spend most of their time on their yachts in places like Monaco, St Tropez and Portofino. Search [b] attributes to the page one worked deal: a GBP 6 million facility at 70% loan-to-value, 3.5% fixed rate, 60-month term, quarterly repayments with a 20% balloon, and six months of interest held on deposit; the borrower had irregular income and Eastern European commodities wealth, and the firm 'arranged 6 months interest cover to be placed on account with the yacht finance lender' to reassure the lender. Asset make/model, yacht size, lender identity, timing to completion and exit are NOT revealed in the results. Neither search confirmed whether a working calculator widget is present on the live page.",
+  "verbatim": [
+    "[a] \"help you see where your monthly budget fits online with the monthly payments required to purchase a yacht of a particular size or price\"",
+    "[a] \"Yacht finance calculator UK focuses on standard yacht mortgages... The other type of loan is a lease\"",
+    "[a] \"the tools can also be used for purchases in France, Italy, and Spain or anywhere in the Mediterranean\"",
+    "[a] (search tool paraphrase of the page) \"describes the kind of calculator it's meant to host rather than showing working numbers\"",
+    "[a] (from related page /yacht-mortgages/) \"typical LTVs for yacht mortgages range from 50% to 70% of the vessel's market value\"",
+    "[a] (from related page /marine-finance/) \"broker fee of 1.00% of the loan amount\"",
+    "[b] \"Silver Oak Capital has financed a number of yachts for French and Italian high net worth individuals who spend most of their time on their yachts in places like Monaco, St Tropez, and Portofino.\"",
+    "[b] \"The firm arranged 6 months interest cover to be placed on account with the yacht finance lender.\"",
+    "[b] (search tool summary of the deal) \"a £6 million facility at 70% loan-to-value, a 3.5% fixed rate, a 60-month term, quarterly repayments with a 20% balloon, and six months of interest held on deposit\"",
+    "[b] (search tool summary of the borrower) \"a client with irregular income and Eastern European commodities wealth\"",
+    "[b] (from related page /case-studies/heesen-yacht-finance/) \"Silver Oak Capital arranged $14m yacht finance at 60% LTV for a 50m Heesen yacht, with a 10-year term.\"",
+    "[b] (from related page /marine-finance/, search tool summary) \"representative example is an £11 million loan at up to 70% LTV, interest-only over 48 months, with a 1.00% lender fee\"",
+    "[b] (from related page /marine-finance/, search tool summary) \"The firm says it typically finances yachts over 20 metres.\""
+  ],
+  "services": [
+    "Yacht finance / yacht mortgages",
+    "Marine lease finance (lease described as working like car finance or hire purchase)",
+    "Online yacht finance calculator (budget vs monthly payment)",
+    "Mediterranean yacht purchase finance (France, Italy, Spain)"
+  ],
+  "sections": [
+    {"heading": "Purpose of the calculator", "content": "[a] The calculator is meant to help you see where your monthly budget fits online with the monthly payments required to purchase a yacht of a particular size or price. [b] It describes using an online yacht finance calculator to check whether monthly payments for a given yacht price fit a budget."},
+    {"heading": "Standard yacht mortgage", "content": "[a] 'Yacht finance calculator UK focuses on standard yacht mortgages'; the page puts a standard yacht mortgage at roughly 5 to 7 years with a balloon payment of about 25% of the loan."},
+    {"heading": "Lease", "content": "[a] 'The other type of loan is a lease', which works more like car finance or hire purchase."},
+    {"heading": "Mediterranean scope", "content": "[a] The tools can also be used for purchases in France, Italy, and Spain or anywhere in the Mediterranean. [b] Silver Oak Capital has financed a number of yachts for French and Italian high net worth individuals who spend most of their time on their yachts in places like Monaco, St Tropez, and Portofino."},
+    {"heading": "Worked deal (attributed to this page by search [b])", "content": "GBP 6 million facility; 70% LTV; 3.5% fixed rate; 60-month term; quarterly repayments; 20% balloon; six months of interest held on deposit. Borrower: client with irregular income and Eastern European commodities wealth. Mechanism: the firm arranged 6 months interest cover to be placed on account with the yacht finance lender, used to reassure the lender."}
+  ],
+  "terms": [
+    "Standard yacht mortgage: roughly 5 to 7 years term [a]",
+    "Standard yacht mortgage: balloon payment of about 25% of the loan [a]",
+    "Lease: works more like car finance or hire purchase [a]",
+    "Worked deal: GBP 6,000,000 facility [b]",
+    "Worked deal: 70% loan-to-value [b]",
+    "Worked deal: 3.5% fixed rate [b]",
+    "Worked deal: 60-month term [b]",
+    "Worked deal: quarterly repayments [b]",
+    "Worked deal: 20% balloon [b]",
+    "Worked deal: six months of interest held on deposit / 6 months interest cover placed on account with the lender [b]",
+    "Related page /yacht-mortgages/: typical LTVs 50% to 70% of the vessel's market value [a]",
+    "Related page /marine-finance/: broker fee 1.00% of the loan amount [a]; representative example GBP 11m, up to 70% LTV, interest-only 48 months, 1.00% lender fee [b]"
+  ],
+  "eligibility": [
+    "Client with irregular income was accommodated by placing 6 months interest cover on account with the lender [b]",
+    "Wealth sourced from Eastern European commodities was accepted in the worked deal [b]",
+    "Related page /marine-finance/: the firm typically finances yachts over 20 metres [b]"
+  ],
+  "processSteps": [
+    "Use the online calculator to compare monthly budget against monthly payments for a yacht of a given size or price [a]",
+    "Choose between a standard yacht mortgage (5-7 years, ~25% balloon) and a lease (like car finance / hire purchase) [a]",
+    "Where income is irregular, arrange an interest reserve (6 months interest cover) on account with the lender to secure approval [b]"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "Standard yacht mortgage runs roughly 5 to 7 years with a balloon payment of about 25% of the loan", "kind": "number"},
+    {"claim": "GBP 6 million yacht facility at 70% LTV, 3.5% fixed, 60 months, quarterly repayments, 20% balloon, 6 months interest on deposit", "kind": "number"},
+    {"claim": "Silver Oak Capital has financed a number of yachts for French and Italian high net worth individuals who spend most of their time on their yachts in places like Monaco, St Tropez, and Portofino", "kind": "track-record"},
+    {"claim": "The calculator/tools can also be used for purchases in France, Italy, and Spain or anywhere in the Mediterranean", "kind": "scope"},
+    {"claim": "Related page /yacht-mortgages/: typical LTVs for yacht mortgages range from 50% to 70% of the vessel's market value", "kind": "number"},
+    {"claim": "Related page /marine-finance/: broker fee of 1.00% of the loan amount", "kind": "fee"},
+    {"claim": "Related page /marine-finance/: representative example GBP 11 million loan, up to 70% LTV, interest-only over 48 months, 1.00% lender fee; firm typically finances yachts over 20 metres", "kind": "number"},
+    {"claim": "Related page /case-studies/heesen-yacht-finance/: $14m at 60% LTV for a 50m Heesen yacht, 4.25% plus SONIA, 10-year term, amortisation over 20 years, 2.75% lender fee", "kind": "number"}
+  ],
+  "geography": [
+    "United Kingdom (page framed as 'Yacht finance calculator UK')",
+    "France",
+    "Italy",
+    "Spain",
+    "Mediterranean (anywhere)",
+    "Monaco",
+    "St Tropez",
+    "Portofino",
+    "Eastern Europe (source of borrower wealth in worked deal)"
+  ],
+  "lenderTypes": [
+    "yacht finance lender (unnamed) [b]"
+  ],
+  "useCases": [
+    "Purchase of a yacht of a particular size or price, checking monthly affordability [a]",
+    "Yacht purchase in France, Italy, Spain or elsewhere in the Mediterranean [a]",
+    "Financing for HNW individuals with irregular income using an interest reserve [b]"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/marine-finance/ (title: Boat Finance UK) [a][b]",
+    "https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/ (title: Heesen Yacht Finance) [a][b]",
+    "https://www.silveroakcapital.co.uk/superyacht-finance/ (title: Superyacht Finance) [a]",
+    "https://www.silveroakcapital.co.uk/yacht-mortgages/ (title: Yacht Mortgages & Marine Finance for Luxury Vessels) [a]",
+    "https://www.silveroakcapital.co.uk/pre-construction-marine-finance/ (title: Pre-Construction Marine Finance) [a]",
+    "https://www.silveroakcapital.co.uk/case-studies/ (title: Silver Oak Capital Case Studies) [b]",
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/ (title: NW London Bridging Loan) [b]",
+    "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/ (title: Country Estate Refinance Case Study - Silver Oak Capital) [b]",
+    "https://www.silveroakcapital.co.uk/case-studies/successful-refinance-3-5-million-loan/ (title: Successful Refinance) [b] - NOT in seed.json",
+    "https://www.silveroakcapital.co.uk/case-studies/residential-portfolio-refinance/ (title: Residential Portfolio Refinance) [b] - NOT in seed.json",
+    "https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/ (title: £1.46 Million Refinance) [b]",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/ (title: £3.6 Million Bridging Loan) [b]"
+  ],
+  "confidence": "medium",
+  "notes": "Searches: (a) extended, exact URL; (b) extended, 'site:silveroakcapital.co.uk yacht finance calculator case study'. 2 run, 0 refused. The page is classified under /case-studies/ but both searches describe it as mainly a guide/explainer about yacht finance calculators. Attribution caveat: the GBP 6m / 70% LTV / 3.5% fixed / 60-month / 20% balloon / 6-months-interest deal appears only in search [b], whose summary says 'The page lists...' immediately after discussing the calculator page; it is most plausibly this page's content but the tool did not quote the page URL alongside it, so it could in principle come from another Silver Oak yacht page. Search [a] did not surface that deal. Not revealed by either search: H1 (beyond listing title 'Yacht Finance Calculator'), meta description, publication date, yacht make/model/length, lender name, time to completion, exit route, any FAQ, any call-to-action text, whether a working calculator widget exists. Search [b] notes result dates range 'from roughly 8 to 700 days ago' so rates may be stale. Adjacent-page facts (yacht-mortgages LTV 50-70%; marine-finance 1.00% broker fee, GBP 11m representative example, yachts over 20 metres, Fleming 78 in Cannes, urgent purchase for a Belgian national; Heesen $14m/60% LTV/4.25%+SONIA/10yr/20yr amortisation/2.75% lender fee) are recorded as related context, clearly labelled, not as this page's content. Two case-study URLs not present in seed.json were discovered: /case-studies/successful-refinance-3-5-million-loan/ and /case-studies/residential-portfolio-refinance/. Non-Silver-Oak results (yachtworld.com, yachtcostcalculator.com, novielliyachts.com) ignored.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-yacht-finance-calculator.json"
+}

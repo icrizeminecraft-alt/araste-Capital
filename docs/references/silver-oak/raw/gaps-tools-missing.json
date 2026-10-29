@@ -1,0 +1,231 @@
+{
+  "task": "gaps-tools-missing: silveroakcapital.co.uk pages not surfaced in earlier passes (calculators, yacht calculator, case-study index, blog recent posts, newsletter, press, awards, reviews)",
+  "date": "2026-10-29",
+  "method": "WebSearch only (8 calls: 3 extended, 5 standard; 7 with site:silveroakcapital.co.uk operator, 1 with allowed_domains filter). Direct fetching unavailable. Verbatim strings below are copied from the search tool's result text/snippets, not from a fetched page; where the tool paraphrased, the wording is the tool's summary and is flagged in notes.",
+  "queriesRun": 8,
+  "queriesRefused": 0,
+  "queries": [
+    {"n": 1, "mode": "extended", "query": "site:silveroakcapital.co.uk mortgage calculator lenders compare", "onDomainHits": 8},
+    {"n": 2, "mode": "standard", "query": "site:silveroakcapital.co.uk yacht finance calculator", "onDomainHits": 0},
+    {"n": 3, "mode": "standard", "query": "site:silveroakcapital.co.uk case studies", "onDomainHits": 0},
+    {"n": 4, "mode": "extended", "query": "site:silveroakcapital.co.uk blog 2025 2026", "onDomainHits": 3},
+    {"n": 5, "mode": "standard", "query": "site:silveroakcapital.co.uk newsletter OR press OR \"in the press\"", "onDomainHits": 0},
+    {"n": 6, "mode": "standard", "query": "site:silveroakcapital.co.uk \"Spear's 500\" OR \"Property Week\" awards", "onDomainHits": 0},
+    {"n": 7, "mode": "standard", "query": "site:silveroakcapital.co.uk reviews testimonials", "onDomainHits": 0},
+    {"n": 8, "mode": "extended", "query": "Silver Oak Capital yacht finance calculator case studies awards Spear's 500 Property Week reviews newsletter press (allowed_domains=silveroakcapital.co.uk)", "onDomainHits": 10}
+  ],
+  "found": [
+    {
+      "url": "https://www.silveroakcapital.co.uk/lender-calculator/",
+      "title": "Mortgage & Development Finance Calculator UK",
+      "category": "tool / lender calculator",
+      "summary": "Lender calculator for commercial and development finance (not a residential mortgage calculator). Per the search tool's summary, it estimates borrowing capacity, loan terms and repayments for commercial and development finance deals across the UK; the user picks a project type and a loan type, and the page shows how many lenders are willing to lend on that particular project. Loan-type options listed: bridging, buy-to-let, development, equity, long-term mortgage, mezzanine.",
+      "verbatim": [
+        "estimates borrowing capacity, loan terms, and repayments for commercial and development finance deals across the UK",
+        "You pick a project type and loan type, and it shows how many lenders are willing to lend on your particular project",
+        "Its options include bridging, buy-to-let, development, equity, long-term mortgage, and mezzanine"
+      ],
+      "confidence": "medium",
+      "notes": "Verbatim strings are the search tool's summary wording (query 1), not confirmed page copy. Inputs partially identified (project type, loan type). Outputs partially identified (count of willing lenders; borrowing capacity / terms / repayments estimates). The actual number of lenders displayed, the list of project types, and any rate/LTV/fee fields were NOT surfaced."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/yacht-finance-calculator/",
+      "title": "Yacht Finance Calculator UK",
+      "category": "tool / yacht finance calculator",
+      "summary": "Standalone yacht finance calculator page exists on the domain. Only the URL and title surfaced (query 1); no inputs, outputs or page copy were returned by any search.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Query 2 (site: operator, standard) returned zero on-domain results; the URL came from query 1's link list only. A second, differently-pathed page with the same subject exists under /case-studies/ (see next entry)."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/",
+      "title": "Yacht Finance Calculator",
+      "category": "case study / yacht finance",
+      "summary": "Described by the search tool as a general guide: a yacht finance calculator shows where a monthly budget fits against the monthly payments required for a yacht of a particular size or price. The tool also reported one featured case in the yacht results: a GBP 6 million facility at 70% loan-to-value, 3.5% fixed rate, 60-month term, for a client with irregular income, with six months of interest cover placed on account with the lender.",
+      "verbatim": [
+        "a yacht finance calculator shows where your monthly budget fits against the monthly payments required for a yacht of a particular size or price",
+        "£6 million facility at 70% loan-to-value, a 3.5% fixed rate, and a 60-month term, for a client with irregular income",
+        "The firm arranged six months of interest cover placed on account with the lender"
+      ],
+      "confidence": "medium",
+      "notes": "From query 8. The tool did not state unambiguously whether the GBP 6m / 70% LTV / 3.5% / 60-month case sits on this page or on another yacht case-study page; it was presented as 'one featured case' alongside this page. Treat attribution as uncertain."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/",
+      "title": "Heesen Yacht Finance",
+      "category": "case study / yacht finance",
+      "summary": "Case study of a USD 14m loan at 60% LTV for a 50m Heesen yacht, 10-year term, amortising over 20 years, with a 2.75% lender fee.",
+      "verbatim": [
+        "$14m loan at 60% LTV for a 50m Heesen yacht, with a 10-year term",
+        "The loan amortizes over 20 years, with a 2.75% lender fee"
+      ],
+      "confidence": "medium",
+      "notes": "From query 8 search-tool summary; figures are self-reported by the firm."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/marine-finance/",
+      "title": "Boat Finance UK",
+      "category": "service page / marine finance",
+      "summary": "Marine/boat finance service page. The tool reported that the firm offers boat finance for yachts typically over 20m in length.",
+      "verbatim": [
+        "offers boat finance for yachts typically over 20m in length"
+      ],
+      "confidence": "medium",
+      "notes": "From query 8."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/",
+      "title": "Silver Oak Capital Case Studies",
+      "category": "case study index",
+      "summary": "Case-study index page. The search tool reported that the index shows a listing referencing the firm being added to the Spear's 500 list for 2022, appearing only as a page image caption. Case-study child URLs surfaced (query 8): yacht-finance-calculator, heesen-yacht-finance, nw-london-bridge, finance-for-100-senior-housing-development-in-kent, successful-refinance-3-5-million-loan, 3-6-million-bridging-loan-prime-kensington-property, residential-portfolio-refinance, country-estate-refinance. No explicit category taxonomy (tags/filters) was surfaced; the slugs suggest themes of bridging, refinance, development finance, residential portfolio, country estate and yacht finance, but that is inference from URLs only.",
+      "verbatim": [
+        "The case study index shows a listing referencing the firm being added to the Spear's 500 list for 2022",
+        "This appears only as a page image caption"
+      ],
+      "confidence": "medium",
+      "notes": "Query 3 (site: operator) returned zero on-domain hits; the index and children came from query 8 with allowed_domains. Category names were NOT surfaced."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+      "title": "NW London Bridging Loan",
+      "category": "case study / bridging",
+      "summary": "Case study page (bridging loan, North-West London). Only URL and title surfaced.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Query 8 link list only."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/finance-for-100-senior-housing-development-in-kent/",
+      "title": "Senior Housing Development Finance in Kent",
+      "category": "case study / development finance",
+      "summary": "Case study page (development finance for a 100-unit senior housing scheme in Kent, per slug). Only URL and title surfaced.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Query 8 link list only; '100' and 'senior housing' are from the URL slug."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/successful-refinance-3-5-million-loan/",
+      "title": "Successful Refinance",
+      "category": "case study / refinance",
+      "summary": "Case study page (GBP 3.5 million refinance, per slug). Only URL and title surfaced.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Query 8 link list only."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+      "title": "£3.6 Million Bridging Loan",
+      "category": "case study / bridging",
+      "summary": "Case study page (GBP 3.6 million bridging loan on a prime Kensington property, per title and slug). Only URL and title surfaced.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Query 8 link list only."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/residential-portfolio-refinance/",
+      "title": "Residential Portfolio Refinance",
+      "category": "case study / refinance",
+      "summary": "Case study page. Only URL and title surfaced.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Query 8 link list only."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/",
+      "title": "Country Estate Refinance Case Study - Silver Oak Capital",
+      "category": "case study / refinance",
+      "summary": "Case study page. Only URL and title surfaced.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Query 8 link list only."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/which-mortgage-company-is-right-for-you/",
+      "title": "Choosing the Best Mortgage Company Guide",
+      "category": "blog post",
+      "summary": "Blog post titled on-page (per tool) 'Which Mortgage Company Is Right for You?'; covers how to judge a mortgage broker using client reviews and industry commentary.",
+      "verbatim": [
+        "In this blog post, we'll explore how to choose the right mortgage provider"
+      ],
+      "confidence": "medium",
+      "notes": "Queries 1 and 4. No publication date surfaced."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/secure-the-best-business-loan-with-expert-brokerage-services/",
+      "title": "Secure the Best Business Loan with Expert Brokerage Services",
+      "category": "blog post",
+      "summary": "Blog post explaining why a business loan broker helps borrowers with funding. Listing shows an original date of 19 February 2025 and an update on 18 March 2026.",
+      "verbatim": [
+        "19 February 2025 18 March 2026"
+      ],
+      "confidence": "medium",
+      "notes": "Query 4. Date pair read by the tool as publish date + update date."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/find-the-perfect-mortgage-with-a-specialist-broker/",
+      "title": "Why Use a Mortgage Broker for the Right Fit",
+      "category": "blog post",
+      "summary": "Blog post titled on-page (per tool) 'Find the Perfect Mortgage with a Specialist Broker'; makes the case for specialist brokers who can reach niche lenders not available through high street banks.",
+      "verbatim": [
+        "access to a diverse range of lenders, including specialist lenders that may not be available through high street banks"
+      ],
+      "confidence": "medium",
+      "notes": "Query 4. No date surfaced."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/",
+      "title": "Commercial vs. Home Loan Rates Compared",
+      "category": "blog post",
+      "summary": "Blog post comparing commercial mortgage rates with residential mortgage rates. Only URL and title surfaced.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Query 1 link list only."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/faq/",
+      "title": "Property Finance FAQs",
+      "category": "FAQ page",
+      "summary": "FAQ page. Only URL and title surfaced.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Query 1 link list only."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/development-finance-broker-find-the-best-funding-partner-for-your-project/",
+      "title": "Expert Development Finance Broker",
+      "category": "blog post / service guide",
+      "summary": "Development finance broker guide. The tool reported that it says brokers can generate a number of different options from a number of different lenders, giving clients access to the whole of market.",
+      "verbatim": [
+        "a number of different options from a number of different lenders",
+        "whole of market"
+      ],
+      "confidence": "medium",
+      "notes": "Query 1."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/tips-for-first-time-commercial-property-buyers/",
+      "title": "Tips for first time commercial property buyers",
+      "category": "blog post",
+      "summary": "Blog post. Only URL and title surfaced.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Query 1 link list only."
+    }
+  ],
+  "notFound": [
+    "Lender calculator exact input fields (beyond 'project type' and 'loan type'), exact outputs, and the actual number of lenders displayed",
+    "Yacht finance calculator (/yacht-finance-calculator/) inputs, outputs and page copy",
+    "Case-study index category/tag taxonomy (no filter or category names surfaced; only child-page slugs)",
+    "Blog index page URL and blog category names",
+    "URL for blog post 'How Property Investment Supports Long-Term Financial Resilience' (tool reported title and dates '1 April 2025 18 March 2026' but no URL)",
+    "URL for blog post 'How Does a Bridge Loan Work for Developers?' (tool reported title and dates '30 January 2025 31 March 2026' but no URL)",
+    "Any blog post originally published in 2026 (all dated posts surfaced were 2025 originals with March 2026 update dates)",
+    "Newsletter page or newsletter sign-up page on silveroakcapital.co.uk",
+    "Press / 'in the press' / news page on silveroakcapital.co.uk",
+    "Dedicated awards page on silveroakcapital.co.uk (Spear's 500 surfaced only as an image caption on the case-study index referencing 2022)",
+    "Any Property Week award mention on silveroakcapital.co.uk",
+    "Reviews or testimonials page on silveroakcapital.co.uk",
+    "Trustpilot (or other third-party) review page for silveroakcapital.co.uk (a Trustpilot page exists for the different domain silver-oak.co.uk, 4.0 TrustScore from 3 reviews; not confirmed to be the same firm)"
+  ],
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/gaps-tools-missing.json"
+}

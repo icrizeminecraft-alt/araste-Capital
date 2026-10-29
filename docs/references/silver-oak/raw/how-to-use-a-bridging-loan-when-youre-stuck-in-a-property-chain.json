@@ -1,0 +1,79 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/",
+  "title": "Stuck in a Chain? How Bridging Loans Work",
+  "summary": "Educational blog article (not a case study). Thesis as revealed by the search excerpt: a bridging loan is a fast, short-term facility secured against property, typically 3 to 24 months, used to bridge the liquidity shortage that arises when a property chain breaks, i.e. when there is a lag between the cash flow from selling one property and the money needed to buy another. Concrete guidance surfaced: before borrowing, (1) pin down the timing gap, (2) choose the security, (3) set an exit strategy, which the article says is often the part of the deal the lender is most concerned about. Search (b) summarised the article together with eight other Silver Oak bridging pages and attributed to the site as a whole: bridging finance keeps a purchase moving while another sale is delayed; rates are higher than a standard mortgage; most products are interest-only with interest paid monthly or rolled up; repayment is usually via sale of the property or refinancing into a long-term mortgage; approvals advertised in 5-14 days with funds usually released within days or weeks; lenders look at property value, exit plan and speed. These [b] points cannot be reliably attributed to this specific article. The full article body, its H1, meta description, FAQ, fees, calls to action and any worked example were NOT returned by either search.",
+  "verbatim": [
+    "[a] A bridging loan is a fast, short-term facility (typically between 3 and 24 months) secured against property.",
+    "[a][b] This gap is often referred to as a \"broken chain\" where there exists a liquidity shortage due to a lag in the timeline of cash flow between selling and buying property.",
+    "[a] (search-tool paraphrase of the article, not a quoted sentence) It recommends pinning down the timing gap, choosing the security, and setting an exit strategy. It notes the exit strategy is often the part of a deal the lender is most concerned about.",
+    "[b] (search-tool paraphrase, attributed to 'the same guide' i.e. this article) bridging finance is pitched as a way to keep a purchase moving while another sale is delayed.",
+    "[b] (site-wide summary, page not identified) typical term of between 3 and 24 months, secured against property. Another gives usually between 6 to 24 months.",
+    "[b] (site-wide summary, page not identified) The firm advertises approvals in 5–14 days, and says funds are usually released within days or weeks.",
+    "[b] (explicitly 'a related page', not this article) lenders may ask for the income/wealth is verified by a UK solicitor or accountant before completing."
+  ],
+  "services": [
+    "Bridging loans (chain-break / bridge-to-purchase use case)"
+  ],
+  "claims": [
+    {"claim": "Bridging loan term typically between 3 and 24 months", "kind": "number [a]"},
+    {"claim": "A bridging loan is secured against property", "kind": "structure [a]"},
+    {"claim": "A broken chain is a liquidity shortage caused by a lag between the cash flow from selling and buying property", "kind": "definition [a][b]"},
+    {"claim": "The exit strategy is often the part of a deal the lender is most concerned about", "kind": "assertion [a] (paraphrased by search tool)"},
+    {"claim": "Bridging finance keeps a purchase moving while another sale is delayed", "kind": "use case [b] (attributed to this guide by the search tool)"},
+    {"claim": "Term usually between 6 to 24 months", "kind": "number [b] (site-wide, page not identified; conflicts with 3-24 months)"},
+    {"claim": "Rate is higher than a standard mortgage; most products are interest-only, interest paid monthly or rolled up", "kind": "pricing/structure [b] (site-wide, page not identified)"},
+    {"claim": "Loan usually cleared through sale of the property or refinancing into a long-term mortgage", "kind": "exit [b] (site-wide, page not identified)"},
+    {"claim": "Approvals in 5-14 days; funds usually released within days or weeks", "kind": "speed promise [b] (site-wide, page not identified)"},
+    {"claim": "Lenders look at the property's value, the borrower's exit plan, and speed", "kind": "eligibility [b] (site-wide, page not identified)"},
+    {"claim": "Site does not give fees for broken-chain loans specifically", "kind": "absence noted by search tool [b]"}
+  ],
+  "terms": [
+    "bridging loan",
+    "short-term facility",
+    "secured against property",
+    "broken chain",
+    "property chain",
+    "liquidity shortage",
+    "timing gap",
+    "security",
+    "exit strategy",
+    "interest-only",
+    "rolled up interest",
+    "refinancing into a long-term mortgage"
+  ],
+  "eligibility": [
+    "[b] (site-wide, page not identified) lenders look at the property's value, the borrower's exit plan, and speed",
+    "[b] (related page, not this article) lenders may ask that income/wealth is verified by a UK solicitor or accountant before completing"
+  ],
+  "processSteps": [
+    "[a] Pin down the timing gap (how long the shortfall between sale and purchase will last)",
+    "[a] Choose the security (the property the loan will be secured against)",
+    "[a] Set an exit strategy (described as the part of the deal the lender is most concerned about)",
+    "[b] (site-wide) Repay the loan via sale of the property or refinance onto a long-term mortgage"
+  ],
+  "faq": [],
+  "geography": [
+    "United Kingdom (implied by site; the article's own geographic wording was not revealed in the snippets)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/",
+    "https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/",
+    "https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/",
+    "https://www.silveroakcapital.co.uk/different-types-of-interest-options-with-bridging-loans/",
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+    "https://www.silveroakcapital.co.uk/how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/",
+    "https://www.silveroakcapital.co.uk/development-exit-loans/"
+  ],
+  "lenderTypes": [],
+  "useCases": [
+    "Buying a new property before the sale of the existing one completes (broken / stuck property chain)",
+    "Keeping a purchase moving while another sale is delayed [b]"
+  ],
+  "confidence": "medium",
+  "notes": "Search (a) with the exact URL returned the page title 'Stuck in a Chain? How Bridging Loans Work' and only a short excerpt (two verbatim sentences plus a paraphrase of three pre-borrowing steps); the search tool explicitly said it could not return the full article. Search (b) (site:silveroakcapital.co.uk bridging loan stuck property chain) returned nine Silver Oak pages and a blended summary; only the 'broken chain' sentence and the 'keep a purchase moving while another sale is delayed' point were tied to this guide, while the 3-24 vs 6-24 month terms, interest-only/rolled-up structure, 5-14 day approval claim, exit routes and eligibility factors were attributed to the site generally, not to this URL. The 'income/wealth verified by a UK solicitor or accountant' point was explicitly from a related page. Not revealed: H1, meta description, author, date, FAQ, fees, worked example, calls to action, lender names. Non-Silver-Oak results (Clifton PF, Together Money, SPF, Willows, Crystal PF, GPS Financial, Clever Lending, Rapid Bridging) were ignored as unrelated companies; the £900,000 cost example in search (a) came from another lender's guide, not this article. Direct fetching was not attempted (blocked). Exactly 2 WebSearch calls were made, none refused.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain.json"
+}

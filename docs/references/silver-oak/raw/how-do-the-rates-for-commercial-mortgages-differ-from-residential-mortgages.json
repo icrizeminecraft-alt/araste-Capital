@@ -1,0 +1,77 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/",
+  "title": "Commercial vs. Home Loan Rates Compared",
+  "summary": "Blog article comparing commercial mortgage rates with residential mortgage rates. According to the search tool's summary of the article [b], its thesis is that commercial rates tend to sit above residential ones and vary more from deal to deal; the credit spread is set case by case, and the gap is attributed to differences in risk, funding costs and exit routes. The search results attribute related guidance to sibling Silver Oak pages rather than to this article: lenders weigh the sponsor's track record, the loan-to-value ratio, the strength of the lease and the business's financials, whereas residential lending relies mainly on the borrower's income (attributed to /commercial-mortgages/); typical commercial LTV of 65% to 75% (attributed to /commercial-mortgages/); mixed-use rates usually slightly above standard buy-to-let rates but below pure commercial rates, with mixed-use LTVs typically capped at 70-75% (attributed to /faq/ and /mixed-use-property-finance/). No numeric rate figures, no H1, meta description, author, date, CTA or FAQ text from the article itself were revealed. Search (a) with the exact URL failed to retrieve the page and returned only unrelated third-party results, which are ignored.",
+  "verbatim": [
+    "[b] SERP title for the target URL: \"Commercial vs. Home Loan Rates Compared\"",
+    "[b] (search tool summary of the article, not a page snippet) \"Silver Oak's main comparison article says commercial rates tend to sit above residential ones and vary more from deal to deal. The credit spread is set case by case, and the article attributes the gap to differences in risk, funding costs and exit routes.\"",
+    "[b] (search tool summary, attributed to the commercial mortgage page) \"Lenders weigh the sponsor's track record, the loan-to-value ratio, the strength of the lease and the business's financials. The commercial mortgage page contrasts this with residential lending, which relies mainly on the borrower's income.\"",
+    "[b] (search tool summary, attributed to the commercial mortgage page) \"The commercial mortgage page gives a typical range of 65% to 75%, which is lower than many residential products.\"",
+    "[b] (search tool summary, attributed to the FAQ and mixed-use pages) \"The FAQ and mixed-use pages say mixed-use rates are usually slightly above standard buy-to-let rates but below pure commercial rates. Mixed-use LTVs are typically capped at 70–75%.\"",
+    "[b] (search tool caveat) \"These are Silver Oak's own marketing pages. The \\\"types of borrowing\\\" page is about 1,600 days old and cites LIBOR-based example terms, so its figures are out of date. Its fee and rate examples should not be treated as current.\"",
+    "[b] (search tool caveat) \"No current rate figures were found, so for live pricing you would need to check with a lender or broker.\"",
+    "[a] (search tool statement) \"I couldn't retrieve the Silver Oak Capital page itself, so this is a summary of general results on the same topic.\""
+  ],
+  "services": [
+    "Commercial mortgages",
+    "Residential mortgages (used as the comparison baseline)",
+    "Mixed use property finance (sibling page surfaced in results)",
+    "Buy-to-let (referenced as a pricing benchmark for mixed-use)"
+  ],
+  "claims": [
+    {"claim": "Commercial mortgage rates tend to sit above residential rates and vary more from deal to deal", "kind": "pricing statement - search tool summary of the article [b]"},
+    {"claim": "The credit spread on a commercial mortgage is set case by case", "kind": "pricing statement - search tool summary of the article [b]"},
+    {"claim": "The rate gap between commercial and residential is attributed to differences in risk, funding costs and exit routes", "kind": "explanation - search tool summary of the article [b]"},
+    {"claim": "Lenders weigh the sponsor's track record, the loan-to-value ratio, the strength of the lease and the business's financials", "kind": "underwriting criteria - attributed to /commercial-mortgages/ [b]"},
+    {"claim": "Residential lending relies mainly on the borrower's income", "kind": "underwriting criteria - attributed to /commercial-mortgages/ [b]"},
+    {"claim": "Typical commercial mortgage LTV range of 65% to 75%, lower than many residential products", "kind": "number - attributed to /commercial-mortgages/ [b]"},
+    {"claim": "Mixed-use rates are usually slightly above standard buy-to-let rates but below pure commercial rates", "kind": "pricing statement - attributed to /faq/ and /mixed-use-property-finance/ [b]"},
+    {"claim": "Mixed-use LTVs are typically capped at 70-75%", "kind": "number - attributed to /faq/ and /mixed-use-property-finance/ [b]"},
+    {"claim": "The /types-of-borrowing/ page is about 1,600 days old and cites LIBOR-based example terms", "kind": "search tool caveat about a sibling page, not a site claim [b]"}
+  ],
+  "terms": [
+    "credit spread",
+    "loan-to-value (LTV)",
+    "sponsor track record",
+    "lease strength",
+    "exit routes",
+    "funding costs",
+    "mixed-use",
+    "buy-to-let",
+    "pure commercial rate",
+    "LIBOR (cited as outdated on a sibling page)"
+  ],
+  "eligibility": [
+    "Commercial: lenders weigh the sponsor's track record, the loan-to-value ratio, the strength of the lease and the business's financials [b, attributed to /commercial-mortgages/]",
+    "Residential: lending relies mainly on the borrower's income [b, attributed to /commercial-mortgages/]",
+    "Commercial LTV typically 65% to 75% [b, attributed to /commercial-mortgages/]",
+    "Mixed-use LTV typically capped at 70-75% [b, attributed to /faq/ and /mixed-use-property-finance/]"
+  ],
+  "processSteps": [],
+  "faq": [],
+  "geography": [
+    "United Kingdom - not stated in the article extract itself; inferred only from sibling page SERP titles 'Commercial Mortgages UK' and 'Mixed Use Property Finance UK' [b]"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/commercial-mortgages/ (SERP title: Commercial Mortgages UK) [b]",
+    "https://www.silveroakcapital.co.uk/faq/ (SERP title: Property Finance FAQs) [b]",
+    "https://www.silveroakcapital.co.uk/ (SERP title: Residential & Commercial Mortgages) [b]",
+    "https://www.silveroakcapital.co.uk/types-of-borrowing/ (SERP title: Wealth Management) [b]",
+    "https://www.silveroakcapital.co.uk/mixed-use-property-finance/ (SERP title: Mixed Use Property Finance UK) [b]",
+    "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/ (SERP title: Best Finance Options for New Build Homes) [b]"
+  ],
+  "lenderTypes": [],
+  "useCases": [],
+  "sections": [
+    {"heading": "Pricing levels (search tool summary of the article, not a page heading)", "content": "Commercial rates tend to sit above residential ones and vary more from deal to deal. The credit spread is set case by case, and the article attributes the gap to differences in risk, funding costs and exit routes. [b]"},
+    {"heading": "What drives commercial pricing (attributed to /commercial-mortgages/)", "content": "Lenders weigh the sponsor's track record, the loan-to-value ratio, the strength of the lease and the business's financials; residential lending relies mainly on the borrower's income. [b]"},
+    {"heading": "Typical LTVs (attributed to /commercial-mortgages/)", "content": "Typical commercial LTV range of 65% to 75%, lower than many residential products. [b]"},
+    {"heading": "Mixed-use and HMO (attributed to /faq/ and /mixed-use-property-finance/)", "content": "Mixed-use rates usually slightly above standard buy-to-let rates but below pure commercial rates; mixed-use LTVs typically capped at 70-75%. [b]"}
+  ],
+  "confidence": "low",
+  "notes": "Search (a) (exact URL, extended) did not retrieve the page: the tool stated it could not retrieve the Silver Oak Capital page and returned only unrelated third-party results (linkedin.com, c-loans.com, mortgagecalculator.org, wikipedia, gta-homes.com, commercialrealestate.loans, fidelityca.com, oakreinvestment.com, 1steaglemortgage.com), all ignored per the rules. Search (b) (site: query, extended) listed the target URL with SERP title 'Commercial vs. Home Loan Rates Compared' and produced a one-paragraph tool summary of the article's thesis; no raw page snippet, H1, meta description, author, publication date, body paragraphs, CTA, FAQ, process steps or numeric rate figures from the article were revealed. All 'verbatim' entries are the search tool's own wording (SERP title aside), not quotations from the page, and most of the concrete guidance (LTV ranges, underwriting criteria, mixed-use pricing) is attributed by the tool to sibling pages (/commercial-mortgages/, /faq/, /mixed-use-property-finance/), not to this article. The seed file lists this URL under articles; the seed's /faq/ snippet (BTL max 75% LTV, HMO 75%/80%) is consistent with but not identical to the 70-75% mixed-use cap reported here. Confidence is low because the article text itself was never seen. h1 and metaDescription omitted because not revealed.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages.json"
+}

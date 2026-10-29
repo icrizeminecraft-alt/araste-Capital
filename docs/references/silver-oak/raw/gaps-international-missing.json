@@ -1,0 +1,182 @@
+{
+  "task": "gaps-international-missing",
+  "target_domain": "silveroakcapital.co.uk",
+  "date_run": "2026-10-29",
+  "channel": "WebSearch only (direct fetch blocked)",
+  "queriesRun": 8,
+  "queriesRefused": 0,
+  "queries": [
+    {"n": 1, "mode": "extended", "query": "site:silveroakcapital.co.uk \"Middle East\"", "on_domain_hits": 4},
+    {"n": 2, "mode": "standard", "query": "site:silveroakcapital.co.uk \"United States\"", "on_domain_hits": 0},
+    {"n": 3, "mode": "standard", "query": "site:silveroakcapital.co.uk \"United Kingdom\"", "on_domain_hits": 0},
+    {"n": 4, "mode": "extended", "query": "site:silveroakcapital.co.uk Dubai Monaco \"Cape Town\" office", "on_domain_hits": 10},
+    {"n": 5, "mode": "standard", "query": "site:silveroakcapital.co.uk \"South Africa\" clients", "on_domain_hits": 0},
+    {"n": 6, "mode": "standard", "query": "site:silveroakcapital.co.uk Spain property finance mortgage", "on_domain_hits": 0},
+    {"n": 7, "mode": "standard", "query": "site:silveroakcapital.co.uk France property finance mortgage", "on_domain_hits": 0},
+    {"n": 8, "mode": "extended", "query": "\"Silver Oak Capital\" silveroakcapital.co.uk international Dubai Monaco \"Cape Town\" offices finance brokerage", "on_domain_hits": 6}
+  ],
+  "found": [
+    {
+      "url": "https://www.silveroakcapital.co.uk/",
+      "title": "Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions",
+      "summary": "Homepage. Per the search tool's summary, the firm says it arranges debt on real estate and luxury asset transactions across the UK, US, Western Europe and the Middle East through a network of over 800 lenders. This is the only on-domain statement surfaced that names the US and the Middle East as markets.",
+      "verbatim": [],
+      "confidence": "medium",
+      "notes": "Wording is the search tool's paraphrase of the homepage, not a quoted snippet. Surfaced by query 1 (Middle East)."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/lender-calculator/",
+      "title": "Mortgage & Development Finance Calculator UK",
+      "summary": "Lender calculator page. Per the search tool's summary, it lists 'Middle East' among its regional filters, alongside Africa, Asia, Europe, the UK and the US.",
+      "verbatim": ["Middle East"],
+      "confidence": "medium",
+      "notes": "Region filter list (Africa, Asia, Europe, Middle East, UK, US) per the tool summary; only 'Middle East' was shown as an exact string. Surfaced by query 1."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/",
+      "title": "Aircraft Loan Falcon 900",
+      "summary": "Case study. Per the search tool's summary, the firm sourced a Falcon 900 aircraft and arranged financing through one of its private banks based in the Middle East.",
+      "verbatim": [],
+      "confidence": "medium",
+      "notes": "Paraphrase by the search tool. Surfaced by queries 1 and 4. Evidence of Middle East lender relationships, not of a Middle East office."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/notting-hill-large-residential-mortgage/",
+      "title": "Notting Hill Large Residential Mortgage",
+      "summary": "Case study. Per the search tool's summary, for a large residential mortgage the firm approached a Middle East-based private bank that would be comfortable with a client with this type of background.",
+      "verbatim": [],
+      "confidence": "medium",
+      "notes": "Paraphrase by the search tool. Surfaced by query 1."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/contact/",
+      "title": "Silver Oak Capital Speak to Experts",
+      "summary": "Contact page. Lists four locations: London, Monaco, Dubai and Cape Town. The only address given is London, 91 Wimpole Street, W1G 0EE. Phone +44 207 459 4440, email enquiry@silveroakcapital.co.uk. The search results do not state whether Monaco, Dubai or Cape Town are physical offices, and give no addresses for them.",
+      "verbatim": ["London. Monaco. Dubai. Cape Town."],
+      "confidence": "high",
+      "notes": "Verbatim location line quoted by the search tool in query 8. Address, phone and email per the tool summary in query 4. No dedicated Dubai/Monaco/Cape Town office pages were surfaced."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/about-us/",
+      "title": "About Us - Jimmy Baillie",
+      "summary": "About page for founder/Managing Director Jimmy Baillie. States he founded Silver Oak Capital in 2019, advising on loans between GBP 500k and GBP 20m secured on assets throughout the UK and abroad, and that he graduated from the University of Cape Town in 2010 (BCom Honours, Economics). This is the on-domain link to Cape Town/South Africa.",
+      "verbatim": [
+        "He founded Silver Oak Capital in 2019 – focussing on providing advice for loans between £500k – £20m, secured on assets throughout the UK and abroad.",
+        "Jimmy graduated from the University of Cape Town in 2010 with a BCom Honours Degree in Economics."
+      ],
+      "confidence": "high",
+      "notes": "Both sentences quoted by the search tool in query 8."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/",
+      "title": "Silver Oak Capital Case Studies",
+      "summary": "Case studies index page. States the firm has assisted property developers and investors in sourcing short-term bridging loans and long-term whole loans (commercial mortgages) on development sites or income-producing assets.",
+      "verbatim": [
+        "Silver Oak Capital has assisted property developers and investors in sourcing both short term bridging loans and long term whole loans (commercial mortgages) on development sites or income-producing assets."
+      ],
+      "confidence": "high",
+      "notes": "Quoted by the search tool in query 8."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/western-europe/",
+      "title": "Property Finance Western Europe",
+      "summary": "Regional page for Western Europe property finance. Per the search tool's summary (query 4), the firm says it specialises in structuring bespoke debt solutions across the UK and Western Europe. Navigation lists London, Monaco, Dubai and Cape Town. This is the closest on-domain page to the Spain/France focus; no Spain- or France-specific page surfaced.",
+      "verbatim": [],
+      "confidence": "medium",
+      "notes": "Only title and tool paraphrase available; page body not seen. Surfaced by query 4."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/complex-offshore-structures/",
+      "title": "Complex Offshore Structures & International Finance Solution",
+      "summary": "Service page on complex offshore structures and international finance. Navigation lists London, Monaco, Dubai and Cape Town. No further content surfaced.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Title only, from query 4 result list."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/introducers/",
+      "title": "Property Finance Introducers UK",
+      "summary": "Introducers (broker/intermediary partners) page. Navigation lists London, Monaco, Dubai and Cape Town. No further content surfaced.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Title only, from query 4 result list."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/commercial-Mortgage-Broker/",
+      "title": "Commercial Mortgage Broker UK",
+      "summary": "Commercial mortgage broker service page (UK). No content surfaced beyond the title.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Title only, from query 8 result list. Note the capital M in the URL path as returned."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/",
+      "title": "Residential Mortgage Loan - BVI Trust Refinance - Silver Oak Capital",
+      "summary": "Case study: residential mortgage loan refinance for a BVI trust structure. Navigation lists London, Monaco, Dubai and Cape Town. No further content surfaced.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Title only, from query 4 result list."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/",
+      "title": "Heesen Yacht Finance",
+      "summary": "Case study: finance for a Heesen yacht. No further content surfaced.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Title only, from query 4 result list."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/g650/",
+      "title": "G650",
+      "summary": "Case study (Gulfstream G650 aircraft). The search tool summary for query 4 says one of the returned cases concerns a Swiss Family Office whose Dubai-based client wanted a used private jet; this is most likely this page but the tool did not attribute it explicitly.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Attribution of the Dubai-based client detail to this specific URL is inferred, not stated by the tool."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/miami-developer/",
+      "title": "Miami Developer",
+      "summary": "Case study involving a Miami (US) developer. Only US-related page surfaced on the domain. No content surfaced beyond the title.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Title only, from query 4 result list. No dedicated United States page found."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/",
+      "title": "Bridging Villa Cap Ferrat",
+      "summary": "Case study: bridging loan on a villa in Cap Ferrat (Cote d'Azur, France). Only France-related page surfaced on the domain. No content surfaced beyond the title.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Title only, from queries 4 and 8 result lists. No dedicated France property finance page found."
+    },
+    {
+      "url": "https://www.thelandsite.co.uk/articles/silver-oak-capital-in-the-news",
+      "title": "Silver Oak Capital in the News",
+      "summary": "THIRD-PARTY (not on silveroakcapital.co.uk). Trade-press profile stating the firm's four key markets are London, Monaco, Dubai and Cape Town and that it aims to be a conduit for African, South African and Middle Eastern clients active in UK and Western European real estate. The search tool flagged the profile as roughly five years old.",
+      "verbatim": [
+        "Its four key markets are London, Monaco, Dubai and Cape Town, while it aims to be a \"conduit\" for African, South African and Middle Eastern clients who want to be active in UK and western European real estate."
+      ],
+      "confidence": "medium",
+      "notes": "Included because it is the only source surfaced that states the South Africa client focus; off-domain and dated per the tool. Quoted by the search tool in query 8."
+    }
+  ],
+  "notFound": [
+    "Dedicated Middle East page on silveroakcapital.co.uk (no /middle-east/ or similar URL surfaced; only homepage market list, lender-calculator region filter and two case studies mention the Middle East)",
+    "Dedicated United States page on silveroakcapital.co.uk (query 2 returned zero on-domain results; only the 'Miami Developer' case study and the homepage market list reference the US)",
+    "Dedicated United Kingdom page on silveroakcapital.co.uk (query 3 returned zero on-domain results; UK coverage appears only via service pages such as 'Commercial Mortgage Broker UK')",
+    "Dubai office page or Dubai address on silveroakcapital.co.uk (Dubai appears only as a navigation/location label 'London. Monaco. Dubai. Cape Town.')",
+    "Monaco office page or Monaco address on silveroakcapital.co.uk (same navigation label only)",
+    "Cape Town office page or Cape Town address on silveroakcapital.co.uk (same navigation label; the About Us page mentions the founder graduated from the University of Cape Town)",
+    "South Africa clients page or any on-domain mention of South African clients (query 5 returned zero on-domain results; only the third-party thelandsite.co.uk article states the African/South African client focus)",
+    "Spain property finance page on silveroakcapital.co.uk (query 6 returned zero on-domain results and no Spain case study)",
+    "France property finance page on silveroakcapital.co.uk (query 7 returned zero on-domain results; only the 'Bridging Villa Cap Ferrat' case study is France-related)",
+    "Any statement of whether Monaco, Dubai and Cape Town are physical offices versus served markets (search results do not say)"
+  ],
+  "unrelated_ignored": [
+    "Silver Oak Services Partners, LLC (US private equity, Evanston IL)",
+    "Silver Oak Properties / silveroakglobal.com (Dubai real estate brokerage)",
+    "Silverfleet Capital, Silverhawk Capital Partners, Oaktree Capital, Silver Ridge Asset Management",
+    "Generic Spain/France mortgage guides (Enness, Clifton PF, immoabroad, Savills, etc.)"
+  ],
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/gaps-international-missing.json"
+}

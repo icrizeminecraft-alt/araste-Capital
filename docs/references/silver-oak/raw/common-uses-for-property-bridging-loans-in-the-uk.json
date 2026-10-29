@@ -1,0 +1,80 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/common-uses-for-property-bridging-loans-in-the-uk/",
+  "title": "Common Uses for Property Bridging Loans in the UK (title inferred from the URL slug only; the page itself did not appear in either search result, so its real title, H1 and meta description are unconfirmed)",
+  "h1": "",
+  "metaDescription": "",
+  "summary": "The target article was NOT surfaced by either search. Search (a) on the exact URL returned only third-party UK bridging guides (KIS Bridging, HOA, Enness, L&C, Clifton PF, Westminster Finance, Bridge Loan Direct, FD Commercial, Momenta) and the tool stated: \"I couldn't find the Silver Oak Capital page itself in the results\". Search (b) (site:silveroakcapital.co.uk) returned nine other Silver Oak Capital pages on bridging but not the target slug. What can be recorded is therefore limited to the search tool's summary of those SIBLING Silver Oak pages: the most frequently cited use is buying before selling, with the borrower's existing property securing the loan and the sale proceeds repaying it; investors use bridging when they need funds quickly for a time-sensitive opportunity; developers use bridging to cover refurbishment or construction and repay through a sale or by refinancing onto a longer-term facility; the main /bridging-loans-uk/ page lists purchases, renovations and covering a short-term cash flow gap as typical reasons. Terms are described as short (1 to 36 months on one page, 6 to 24 months on another), rates are higher than standard mortgages, fees named are arrangement, valuation and exit fees, and interest can be serviced or rolled up. No sentence of the target article itself, no FAQ, no process steps, no eligibility criteria and no calls to action were revealed.",
+  "verbatim": [
+    "[a] \"I couldn't find the Silver Oak Capital page itself in the results, so this summarises general UK sources on common bridging loan uses instead.\" (search tool statement; the rest of result (a) concerns third-party firms and is not recorded as Silver Oak content)",
+    "[b] \"The search returned several Silver Oak Capital pages, all written by the lender itself\" (search tool summary; note: Silver Oak is a broker, the tool's word 'lender' is its own)",
+    "[b] \"Buying before selling: This appears to be the most frequently cited use. One page says the borrower's existing property secures the loan, and the proceeds from its sale repay it\" (search tool summary, attributed to /understanding-short-term-property-funding-for-uk-real-estate/)",
+    "[b] \"Another describes the same arrangement for investors who need funds quickly for a time-sensitive opportunity\" (search tool summary, attributed to /what-are-bridging-loans-and-how-do-they-work/)",
+    "[b] \"Development and renovation: Developers use these loans to cover refurbishment or construction, then repay through a sale or by refinancing onto a longer-term facility\" (search tool summary, attributed to /importance-of-bridging-loans-for-property-development/)",
+    "[b] \"Auction purchases and short-term cash gaps: The lender's main bridging loans page lists purchases, renovations, and covering a short-term cash flow gap among typical reasons\" (search tool summary, attributed to /bridging-loans-uk/)",
+    "[b] \"Terms are generally short. One page gives a range of 1 to 36 months\" (attributed to /understanding-short-term-property-funding-for-uk-real-estate/) \"while another says 6 to 24 months\" (attributed to /how-does-a-bridging-loan-work/)",
+    "[b] \"Rates are higher than standard mortgages, and the pages warn about fees such as arrangement, valuation, and exit fees\" (attributed to /how-does-a-bridging-loan-work/)",
+    "[b] \"Interest can be serviced or rolled up\" (attributed to /difference-between-regulated-unregulated-bridging-loans/)",
+    "[b] Page title seen in results: \"Bridging Loans in the UK for Prime Central London Purchases\"",
+    "[b] Page title seen in results: \"Fast & Flexible Bridging Loans UK\" (for /understanding-short-term-property-funding-for-uk-real-estate/)",
+    "[b] Page title seen in results: \"Importance of Bridging Loans for Property Development\"",
+    "[b] Page title seen in results: \"What are Bridging Loans and How Do They Work?\"",
+    "[b] Page title seen in results: \"Bridging Loans UK\"",
+    "[b] Page title seen in results: \"Why Smart Investors Choose Property Bridging Loans in 2025?\"",
+    "[b] Page title seen in results: \"Fast Bridging Loans London\" (for /a-complete-guide-to-securing-quick-property-finance-in-london/)",
+    "[b] Page title seen in results: \"Difference between Regulated & Unregulated Bridging Loans\"",
+    "[b] Page title seen in results: \"How Does a Bridging Loan Work?\""
+  ],
+  "services": [
+    "Bridging loans (property bridging finance, UK)"
+  ],
+  "useCases": [
+    "Buying a property before selling the existing one (existing property secures the loan; sale proceeds repay it) [b, sibling pages]",
+    "Investors needing funds quickly for a time-sensitive opportunity [b, /what-are-bridging-loans-and-how-do-they-work/]",
+    "Developers covering refurbishment or construction, repaid via sale or refinance onto a longer-term facility [b, /importance-of-bridging-loans-for-property-development/]",
+    "Purchases, renovations and covering a short-term cash flow gap [b, /bridging-loans-uk/]",
+    "Auction purchases [b, search tool heading; not quoted from a specific page]",
+    "Prime Central London purchases [b, page title only]"
+  ],
+  "terms": [
+    "Term length 1 to 36 months [b, /understanding-short-term-property-funding-for-uk-real-estate/]",
+    "Term length 6 to 24 months [b, /how-does-a-bridging-loan-work/]",
+    "Rates higher than standard mortgages [b, /how-does-a-bridging-loan-work/]",
+    "Fees named: arrangement, valuation, exit [b, /how-does-a-bridging-loan-work/]",
+    "Interest can be serviced or rolled up [b, /difference-between-regulated-unregulated-bridging-loans/]",
+    "Repayment via sale of the secured property or refinancing onto a longer-term facility [b]"
+  ],
+  "eligibility": [],
+  "processSteps": [],
+  "faq": [],
+  "claims": [
+    {"claim": "Bridging terms range from 1 to 36 months (sibling page /understanding-short-term-property-funding-for-uk-real-estate/, per search summary)", "kind": "term"},
+    {"claim": "Bridging terms range from 6 to 24 months (sibling page /how-does-a-bridging-loan-work/, per search summary)", "kind": "term"},
+    {"claim": "Bridging rates are higher than standard mortgages; fees include arrangement, valuation and exit fees (sibling page /how-does-a-bridging-loan-work/)", "kind": "cost"},
+    {"claim": "Interest can be serviced or rolled up (sibling page /difference-between-regulated-unregulated-bridging-loans/)", "kind": "structure"},
+    {"claim": "Buying before selling is the most frequently cited use across the Silver Oak bridging pages returned (search tool assessment, not a Silver Oak statement)", "kind": "use"},
+    {"claim": "No numbers, promises, awards or lender counts were revealed for the target article itself", "kind": "absence"}
+  ],
+  "geography": [
+    "United Kingdom",
+    "London / Prime Central London (from sibling page titles only)"
+  ],
+  "ctas": [],
+  "lenderTypes": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/bridging-loans-for-prime-central-london-purchases/",
+    "https://www.silveroakcapital.co.uk/understanding-short-term-property-funding-for-uk-real-estate/",
+    "https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/",
+    "https://www.silveroakcapital.co.uk/what-are-bridging-loans-and-how-do-they-work/",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "https://www.silveroakcapital.co.uk/why-smart-investors-choose-property-bridging-loans-in-2025/",
+    "https://www.silveroakcapital.co.uk/a-complete-guide-to-securing-quick-property-finance-in-london/",
+    "https://www.silveroakcapital.co.uk/difference-between-regulated-unregulated-bridging-loans/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/"
+  ],
+  "sections": [],
+  "confidence": "low",
+  "notes": "The target URL did not appear in either of the two permitted searches, so nothing here is drawn from the article itself; the title is inferred from the slug and flagged as such. All substantive content comes from the search tool's summary of nine SIBLING Silver Oak Capital bridging pages returned by query (b); each item is tagged with the page the tool attributed it to. Result (a) consisted solely of third-party UK bridging guides (KIS Bridging, HOA, Enness Global, L&C, Clifton Private Finance, Westminster Finance, Bridge Loan Direct, FD Commercial, Momenta Finance) and was ignored per the rule on unrelated companies; its general themes (buy-before-sell, 28-day auction completion, unmortgageable property, land pre-planning, tax/cash-flow, divorce/probate/repossession, 7-14 day completions) are NOT attributed to Silver Oak. Four Silver Oak URLs surfaced that are absent from seed.json articles list: /bridging-loans-for-prime-central-london-purchases/, /why-smart-investors-choose-property-bridging-loans-in-2025/, /a-complete-guide-to-securing-quick-property-finance-in-london/, /difference-between-regulated-unregulated-bridging-loans/ — candidates for later harvesting. The search tool called Silver Oak 'the lender'; the firm is a broker per seed.json. Exactly 2 WebSearch calls were made, none refused.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/common-uses-for-property-bridging-loans-in-the-uk.json"
+}

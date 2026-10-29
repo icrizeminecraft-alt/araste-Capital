@@ -1,0 +1,103 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/finance-for-100-senior-housing-development-in-kent/",
+  "title": "Finance for 100 senior housing development in Kent, UK",
+  "summary": "Case study of a development loan arranged by Silver Oak Capital for a 100-unit senior (affordable) housing scheme in Kent, UK, with a gross development value (GDV) of GBP 45 million. Borrower: a developer who had owned the site for almost 20 years and spent almost 5 years securing planning, with strong local-council backing. Need: fully fund construction and, at the same time, refinance an existing bridging loan secured on the site. Challenges reported: the borrower did not want to start building with any pre-sales in place, and the lender had to accept the borrower acting as his own builder rather than appointing a design-and-build contractor. Lender: a London-based senior debt fund. Structure: 65% loan-to-GDV, 78% loan-to-cost, margin 7.25% over base rate, 36-month term, interest and fees rolled up, fees of 1% on entry and 2% on exit; drawn in two tranches, the first used to refinance the existing bridging loan. Outcome as stated: the terms were 'positively received by our clients'. Loan amount in GBP, lender name, exact dates and completion status are NOT stated in the search results. Search metadata suggests the page is roughly 1,851 days old (about 5 years, i.e. circa 2021), but another listing shows it as recent, so the date is uncertain.",
+  "h1Note": "Not confirmed. The SERP link title in search (b) is 'Finance for 100 senior housing development in Kent, UK'; search (a) listed the same URL under the shorter title 'Senior Housing Development in Kent'. Neither is verified as the on-page H1 and no meta description was revealed.",
+  "sections": [
+    {"heading": "Background (as reported by search-tool summary [a])", "content": "The developer had owned the site for almost 20 years; planning took almost 5 years to secure, with strong backing from the local council. The scheme is a 100-unit senior affordable housing development in Kent, UK."},
+    {"heading": "Borrower's needs ([a] summary; [b] snippet)", "content": "The borrower needed to fully fund the build and at the same time refinance an existing bridging loan on the site. The GDV of the scheme is GBP 45 million."},
+    {"heading": "Challenges (as reported by search-tool summary [a])", "content": "The borrower did not want to start building with any pre-sales in place. The lender also had to accept the borrower's plan to act as his own builder rather than use a design-and-build contractor. The loan was drawn down in two tranches, with the first used to refinance the existing bridging loan."},
+    {"heading": "Solution ([b] snippet; [a] summary)", "content": "A London-based senior debt fund offered the following solution which was positively received by the clients: 65% Loan to GDV; 78% Loan to Cost; Margin 7.25% over Base Rate; 36-month term; interest and fees rolled up; fees of 1% on entry and 2% on exit."}
+  ],
+  "verbatim": [
+    "[b] \"The borrower needed to fully fund the build and at the same time refinance an existing bridging loan on the site.\"",
+    "[b] \"The GDV of the scheme is £45 million.\"",
+    "[b] \"A London based senior debt fund offered the following solution which was positively received by our clients.\"",
+    "[b] \"65% Loan to GDV 78% Loan to Cost Margin 7.25% over Base Rate 36 month term.\"",
+    "[b] (from /senior-development-finance/, not the case-study page) \"Senior lenders are risk-averse. They want to see that you (or your main contractor) have successfully completed a similar scheme before.\"",
+    "[a] (search-tool summary wording, not confirmed page text) \"The case study is about a 100-unit senior affordable housing scheme in Kent, UK.\"",
+    "[a] (search-tool summary wording) \"The developer had owned the site for almost 20 years, and planning took almost 5 years to secure, with strong backing from the local council.\"",
+    "[a] (search-tool summary wording) \"The borrower had to fund construction and refinance an existing bridging loan on the site at the same time. The gross development value (GDV) of the scheme is £45 million.\"",
+    "[a] (search-tool summary wording) \"The borrower did not want to start building with any pre-sales in place. The lender also had to accept the borrower's plan to act as his own builder rather than use a design-and-build contractor. The loan was drawn down in two tranches, with the first used to refinance the existing bridging loan.\"",
+    "[a] (search-tool summary wording) \"A London-based senior debt fund offered terms that the clients received positively. The terms were a 65% loan-to-GDV, a 78% loan-to-cost, a 7.25% margin over base rate, a 36-month term with interest and fees rolled up, and fees of 1% on entry and 2% on exit.\"",
+    "[a] (search-tool summary wording) \"one result lists it as about 1,851 days old, while another listing shows it as recent.\"",
+    "[b] (search-tool summary wording, /senior-development-finance/) \"senior debt is the first-charge loan that funds much of the land purchase and most construction costs\""
+  ],
+  "services": [
+    "Senior development finance (ground-up residential / senior living scheme)",
+    "Property development finance",
+    "Refinance of an existing bridging loan as part of a development facility",
+    "Debt advisory / brokerage sourcing a senior debt fund"
+  ],
+  "useCases": [
+    "Funding construction of a 100-unit senior affordable housing scheme",
+    "Simultaneously refinancing an existing bridging loan secured on the development site",
+    "Development without pre-sales in place",
+    "Developer acting as own builder rather than using a design-and-build contractor",
+    "Long-held site (almost 20 years) brought through a lengthy (almost 5 years) planning process with local-council backing"
+  ],
+  "lenderTypes": [
+    "London-based senior debt fund (lender name not stated)"
+  ],
+  "terms": [
+    "65% Loan to GDV",
+    "78% Loan to Cost",
+    "Margin 7.25% over Base Rate",
+    "36 month term",
+    "Interest and fees rolled up (per [a] summary; [b] snippet confirms interest rolled up)",
+    "Fees: 1% on entry, 2% on exit (per [a] summary only)",
+    "Drawn down in two tranches, first tranche used to refinance the existing bridging loan (per [a] summary only)"
+  ],
+  "eligibility": [
+    "Not stated on the case-study page per results. Contextual only, from /senior-development-finance/ [b]: 'Senior lenders are risk-averse. They want to see that you (or your main contractor) have successfully completed a similar scheme before.'"
+  ],
+  "processSteps": [
+    "Borrower presents need: fund full build plus refinance existing bridge on site (GDV GBP 45m)",
+    "Silver Oak Capital sources terms from a London-based senior debt fund",
+    "Lender accepts no-pre-sales position and borrower acting as own builder (per [a] summary)",
+    "Facility drawn in two tranches: tranche 1 refinances the existing bridging loan; purpose of tranche 2 not stated in results (per [a] summary)",
+    "Interest and fees rolled up over the 36-month term; 1% entry fee and 2% exit fee (per [a] summary)"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "100-unit senior affordable housing scheme in Kent, UK", "kind": "deal-fact"},
+    {"claim": "GDV of the scheme is GBP 45 million", "kind": "number"},
+    {"claim": "65% Loan to GDV", "kind": "number"},
+    {"claim": "78% Loan to Cost", "kind": "number"},
+    {"claim": "Margin 7.25% over Base Rate", "kind": "number"},
+    {"claim": "36 month term", "kind": "number"},
+    {"claim": "Interest and fees rolled up", "kind": "structure"},
+    {"claim": "Fees of 1% on entry and 2% on exit", "kind": "number"},
+    {"claim": "Loan drawn down in two tranches, first used to refinance existing bridging loan", "kind": "structure"},
+    {"claim": "Lender was a London-based senior debt fund", "kind": "lender"},
+    {"claim": "Terms were positively received by the clients", "kind": "outcome"},
+    {"claim": "Developer had owned the site for almost 20 years", "kind": "background"},
+    {"claim": "Planning took almost 5 years to secure, with strong backing from the local council", "kind": "background"},
+    {"claim": "Borrower did not want to start building with any pre-sales in place", "kind": "challenge"},
+    {"claim": "Borrower acted as own builder rather than using a design-and-build contractor", "kind": "challenge"},
+    {"claim": "Page age reported as about 1,851 days in one listing (circa 2021), but shown as recent in another", "kind": "meta"}
+  ],
+  "geography": ["Kent, UK (asset)", "London (lender base)", "United Kingdom"],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/",
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+    "https://www.silveroakcapital.co.uk/case-studies/cotsworlds-listed/",
+    "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/pbsa/",
+    "https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/",
+    "https://www.silveroakcapital.co.uk/senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/mezzanine-junior-finance/",
+    "https://www.silveroakcapital.co.uk/whole-loans/",
+    "https://www.silveroakcapital.co.uk/post-planning-land-acquisitions/"
+  ],
+  "confidence": "medium",
+  "notes": "Two WebSearch calls run (a: exact URL; b: site:silveroakcapital.co.uk finance senior housing development Kent), none refused. Core deal terms (GBP 45m GDV, 65% LTGDV, 78% LTC, 7.25% over base, 36 months, London-based senior debt fund, simultaneous build funding + bridge refinance) appear in both results and are backed by a direct page snippet in (b), so they are reliable. Background and challenge details (site owned ~20 years, planning ~5 years, council backing, no pre-sales, self-build vs design-and-build, two tranches, interest AND fees rolled up, 1% in / 2% out fees) come only from the search tool's paraphrased summary in (a) and were not seen as verbatim page text. NOT revealed: loan amount in GBP (65% of GBP 45m would be about GBP 29.25m, but this is a derivation, not stated), lender name, exact dates, whether the scheme completed, on-page H1, meta description, any FAQ or call to action, author or publication date. 'Senior housing' here refers to housing for older people (senior living), not to 'senior' debt, although the loan itself was senior debt. Page date is uncertain: 1,851 days before 2026-10-29 is approximately October 2021 (derived from search metadata, not from page content). New site URL not present in seed.json: https://www.silveroakcapital.co.uk/case-studies/cotsworlds-listed/ (title 'Cotsworlds Listed', sic). Contextual snippet from /senior-development-finance/ included with attribution; it is not from the case-study page.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-finance-for-100-senior-housing-development-in-kent.json"
+}

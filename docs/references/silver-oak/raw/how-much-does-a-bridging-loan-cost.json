@@ -1,0 +1,89 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/how-much-does-a-bridging-loan-cost/",
+  "title": "How much does a bridging loan cost?",
+  "h1": "How much does a bridging loan cost? (search-result title; H1 not independently confirmed)",
+  "summary": "Blog article / guide explaining the components that make up the total cost of a UK bridging loan. Thesis: the headline monthly interest rate is only one part of the cost; the full picture is interest + lender arrangement fee + broker fees + legal fees + valuation fees (+ possible exit fee). Concrete guidance revealed by the search tool: monthly interest starts around 0.44%, with a common average near 1% per month (roughly 12% a year), depending on loan-to-value, location and credit profile; lender arrangement fee usually 1% to 2% of the loan (i.e. £5,000 to £10,000 on a £500,000 loan), sometimes waived on large loans; broker fee of about £1,500 on application plus 0.5% at offer and 0.5% at completion, worked example totalling £6,500 on a £500,000 loan; exit fees often around 1% can apply on repayment; valuation fees are covered but the figure was cut off in the snippet. The page states it offers a general overview rather than specific products or lender comparisons.",
+  "sections": [
+    {"heading": "Cost components", "content": "[a] 'It breaks bridging costs into interest, lender arrangement fees, broker fees, and legal fees.' [b] 'It breaks costs into interest, arrangement, broker, and valuation fees.'"},
+    {"heading": "Interest", "content": "[a] 'It gives a monthly interest range starting around 0.44%, with an average near 1% a month, which it says works out to about 12% a year.' [b] 'The guide puts monthly rates from about 0.44%, with a common average near 1% a month, or roughly 12% a year. Rates depend on loan-to-value, location, and credit profile.'"},
+    {"heading": "Lender arrangement fee", "content": "[a] 'It says the arrangement fee is usually 1% to 2% of the loan, and that large loans may sometimes have it waived.' [b] 'The guide cites 1% to 2% of the loan, so £5,000 to £10,000 on a £500,000 loan.'"},
+    {"heading": "Broker fees", "content": "[b] 'The guide describes about £1,500 on application, plus 0.5% on offer and 0.5% on completion.' [a] 'Its broker-fee example comes to £6,500 on a £500,000 loan.'"},
+    {"heading": "Exit fees", "content": "[b] 'Exit fees, often around 1%, can apply on repayment.'"},
+    {"heading": "Valuation fees", "content": "[b] 'The guide also covers valuation fees, which the search snippet cut off before stating.' No figure revealed."},
+    {"heading": "Legal fees", "content": "[a] lists legal fees as a cost component; no figure revealed."},
+    {"heading": "Scope disclaimer", "content": "[a] 'The page also says it offers a general overview rather than specific products or lender comparisons.'"}
+  ],
+  "verbatim": [
+    "[a] It breaks bridging costs into interest, lender arrangement fees, broker fees, and legal fees.",
+    "[a] It gives a monthly interest range starting around 0.44%, with an average near 1% a month, which it says works out to about 12% a year.",
+    "[a] It says the arrangement fee is usually 1% to 2% of the loan, and that large loans may sometimes have it waived.",
+    "[a] Its broker-fee example comes to £6,500 on a £500,000 loan.",
+    "[a] The page also says it offers a general overview rather than specific products or lender comparisons.",
+    "[b] It breaks costs into interest, arrangement, broker, and valuation fees.",
+    "[b] The guide puts monthly rates from about 0.44%, with a common average near 1% a month, or roughly 12% a year. Rates depend on loan-to-value, location, and credit profile.",
+    "[b] The guide cites 1% to 2% of the loan, so £5,000 to £10,000 on a £500,000 loan.",
+    "[b] The guide describes about £1,500 on application, plus 0.5% on offer and 0.5% on completion.",
+    "[b] Exit fees, often around 1%, can apply on repayment.",
+    "[b] The guide also covers valuation fees, which the search snippet cut off before stating.",
+    "[b] Other Silver Oak pages give 0.6% to 1.5% a month for developers, and a 0.75% monthly example for a £12 million loan.",
+    "[b] Its developer page says lender fees are typically around 2%, with a wider range of 1% to 10%.",
+    "[b] A different page on the site gives a flat typical broker fee of 1%, or 1.5% for loans outside the UK.",
+    "[b] The site's pages are of varying age, some as old as about 1,600 days, so the figures may be out of date."
+  ],
+  "services": [
+    "Bridging loans (UK)",
+    "Bridging finance brokerage (broker fee structure: application fee + fee at offer + fee at completion)"
+  ],
+  "terms": [
+    "Monthly interest from about 0.44%; average near 1% per month (~12% per year) [a][b]",
+    "Rates depend on loan-to-value, location and credit profile [b]",
+    "Lender arrangement fee usually 1% to 2% of the loan; may be waived on large loans [a][b]",
+    "Arrangement fee worked example: £5,000 to £10,000 on a £500,000 loan [b]",
+    "Broker fee: about £1,500 on application + 0.5% on offer + 0.5% on completion [b]",
+    "Broker fee worked example: £6,500 on a £500,000 loan [a]",
+    "Exit fee often around 1%, can apply on repayment [b]",
+    "Legal fees and valuation fees listed as cost components; figures not revealed [a][b]"
+  ],
+  "eligibility": [],
+  "processSteps": [
+    "Fee timeline implied by the broker fee structure: application (about £1,500) -> offer (0.5%) -> completion (0.5%) [b]"
+  ],
+  "faq": [
+    {"q": "How much does a bridging loan cost?", "a": "Interest from about 0.44% per month, average near 1% per month (~12% a year), plus a lender arrangement fee of usually 1% to 2%, broker fees (about £1,500 + 0.5% at offer + 0.5% at completion), legal fees, valuation fees and possibly an exit fee of around 1% [a][b]."},
+    {"q": "What is the lender arrangement fee on a bridging loan?", "a": "Usually 1% to 2% of the loan (£5,000 to £10,000 on £500,000); large loans may sometimes have it waived [a][b]."},
+    {"q": "What does a bridging loan broker charge?", "a": "About £1,500 on application, plus 0.5% on offer and 0.5% on completion; example of £6,500 on a £500,000 loan [a][b]."},
+    {"q": "Is there an exit fee?", "a": "Exit fees, often around 1%, can apply on repayment [b]."}
+  ],
+  "claims": [
+    {"claim": "Monthly bridging interest rates start around 0.44%", "kind": "rate"},
+    {"claim": "Average bridging interest near 1% per month, about 12% a year", "kind": "rate"},
+    {"claim": "Lender arrangement fee usually 1% to 2% of the loan", "kind": "fee"},
+    {"claim": "Arrangement fee may sometimes be waived on large loans", "kind": "promise"},
+    {"claim": "Arrangement fee of £5,000 to £10,000 on a £500,000 loan", "kind": "number"},
+    {"claim": "Broker fee about £1,500 on application + 0.5% on offer + 0.5% on completion", "kind": "fee"},
+    {"claim": "Broker fee worked example £6,500 on a £500,000 loan", "kind": "number"},
+    {"claim": "Exit fee often around 1%", "kind": "fee"},
+    {"claim": "Page offers a general overview rather than specific products or lender comparisons", "kind": "disclaimer"},
+    {"claim": "External (bridgingandcommercial.co.uk headline, not from this page): 'Silver Oak Capital completes its largest ever bridging loan of £19.1m'", "kind": "external-number"}
+  ],
+  "geography": [
+    "United Kingdom (GBP figures; 'location' cited as a rate factor [b])"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+    "https://www.silveroakcapital.co.uk/property-bridging-finance-for-uk-high-net-worth-individuals/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/",
+    "https://www.silveroakcapital.co.uk/types-of-borrowing/",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+    "https://www.silveroakcapital.co.uk/a-complete-guide-to-securing-quick-property-finance-in-london/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/"
+  ],
+  "lenderTypes": [],
+  "useCases": [],
+  "confidence": "medium",
+  "notes": "Both searches surfaced the page as a result but returned the search tool's paraphrased summary, not raw page text; the 'verbatim' entries are therefore the tool's sentences describing the page, tagged [a] (URL query) and [b] (site: query), not confirmed page wording. The two summaries agree on all overlapping figures (0.44% floor, ~1%/month avg, ~12%/yr, 1-2% arrangement fee, £500k worked example). The broker-fee arithmetic is internally consistent: £1,500 + 0.5% of £500,000 (£2,500) + 0.5% of £500,000 (£2,500) = £6,500, matching [a]. H1 and meta description were not revealed; 'h1' holds the search-result title. No calls to action, eligibility criteria, lender types, or use cases were revealed for this page. Valuation and legal fee figures were not revealed ([b] says the snippet cut off before the valuation figure). [b] notes the site's figures are not fully consistent across pages (developer page: 0.6%-1.5%/month, lender fees ~2% range 1%-10%; /types-of-borrowing/: flat 1% broker fee or 1.5% outside UK) and that some pages are ~1,600 days old, so figures may be dated. New site URL not in seed.json: https://www.silveroakcapital.co.uk/a-complete-guide-to-securing-quick-property-finance-in-london/ (SERP title 'Fast Bridging Loans London'). Unrelated results ignored: cliftonpf.co.uk, westminsterfinance.uk, sourced.co, bridgingloandirectory.co.uk, Wikipedia West One Bridging Index. External item retained in claims: bridgingandcommercial.co.uk headline about a £19.1m Silver Oak bridging loan (not content of this page). Direct fetch not attempted per instructions. Search allowance: exactly 2 WebSearch calls used, 0 refused.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/how-much-does-a-bridging-loan-cost.json"
+}

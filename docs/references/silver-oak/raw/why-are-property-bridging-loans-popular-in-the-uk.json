@@ -1,0 +1,72 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/why-are-property-bridging-loans-popular-in-the-uk/",
+  "title": "Why Are Property Bridging Loans Popular in the UK?",
+  "summary": "Blog article (not a case study). Only a fragment of the page surfaced in search results; the full argument was not visible. According to the search tool's summary of the visible portion, the article's thesis is that bridging loans are a long-established UK finance option used by both first-time buyers and experienced investors, and that they are popular because bridging lenders apply more flexible underwriting than mortgage providers, which shortens approval to a few weeks. The concrete guidance revealed is a trade-off: bridging loans carry higher interest rates than mortgages, so they suit short-term rather than long-term use. No eligibility criteria, process steps, FAQ, pricing, lender names, calls to action or author/date were revealed for this specific page.",
+  "verbatim": [
+    "[a] Search tool summary of the page fragment: \"The Silver Oak Capital article itself only surfaced as a fragment, so I can't summarize its full argument.\"",
+    "[a] Search tool summary of the page fragment: \"Its visible portion says bridging loans are a long-established UK finance option used by both first-time buyers and experienced investors, and that lenders apply more flexible underwriting than mortgage providers, which shortens approval to a few weeks.\"",
+    "[a] Search tool summary of the page fragment: \"It also notes higher interest rates, so the loans suit short-term rather than long-term use.\"",
+    "[b] Search tool summary attributed to this URL: \"Another says lenders can approve these loans in a few weeks, since they have more room to assess applications than they do with traditional mortgages\"",
+    "[b] Result title for this URL: \"Why Are Property Bridging Loans Popular in the UK?\"",
+    "[b] Search tool caveat on the Silver Oak pages as a group: \"These pages are marketing content from a lender and broker, so they emphasise the benefits. The results also contain no independent data on market size or usage.\"",
+    "[b] Attributed to /a-complete-guide-to-securing-quick-property-finance-in-london/ (sibling page, not the target): \"the London market moves so fast that buyers often can't wait for a conventional mortgage approval\"",
+    "[b] Attributed to /a-complete-guide-to-securing-quick-property-finance-in-london/ (sibling page, not the target): \"Specialist lenders and private individuals offer these loans, which the site suggests makes them more widely available than high street bank products\"",
+    "[b] Attributed to /property-bridging-finance-for-uk-high-net-worth-individuals/ (sibling page, not the target): \"Because the loans are secured against real estate, which the site describes as strong collateral for lenders, they are considered quick to arrange\"",
+    "[b] Attributed to /property-bridging-finance-for-uk-high-net-worth-individuals/ (sibling page, not the target): \"Fees and early repayment charges can make the total cost high\"",
+    "[b] Attributed to /importance-of-bridging-loans-for-property-development/ (sibling page, not the target): \"Bridging finance can cover purchases, refurbishments and development, and the site says it can serve as a stopgap while an existing property is sold. It also says many lenders let interest be rolled up or paid as it accrues\"",
+    "[b] Attributed to /bridging-loans-for-prime-central-london-purchases/ (sibling page, not the target): \"higher interest rates than mortgages, often double or triple, and terms that usually run from a few months to about two years\""
+  ],
+  "services": [
+    "Property bridging loans (UK)"
+  ],
+  "claims": [
+    {"claim": "Bridging loans are a long-established UK finance option [a, tool summary of page fragment]", "kind": "positioning"},
+    {"claim": "Used by both first-time buyers and experienced investors [a]", "kind": "audience"},
+    {"claim": "Lenders apply more flexible underwriting than mortgage providers [a]; lenders have more room to assess applications than with traditional mortgages [b]", "kind": "product-feature"},
+    {"claim": "Approval shortened to a few weeks [a]; lenders can approve these loans in a few weeks [b]", "kind": "timing"},
+    {"claim": "Higher interest rates than mortgages, so the loans suit short-term rather than long-term use [a]", "kind": "trade-off"},
+    {"claim": "No numbers, awards, lender counts, loan sizes or fee figures were revealed for this specific page", "kind": "absence"}
+  ],
+  "terms": [
+    "bridging loans",
+    "property bridging loans",
+    "underwriting",
+    "mortgage providers / traditional mortgages",
+    "approval (a few weeks)",
+    "interest rates",
+    "short-term finance",
+    "first-time buyers",
+    "experienced investors"
+  ],
+  "eligibility": [],
+  "processSteps": [],
+  "faq": [],
+  "geography": [
+    "United Kingdom (from title and content)"
+  ],
+  "ctas": [],
+  "lenderTypes": [
+    "Bridging lenders contrasted with mortgage providers / traditional mortgage lenders [a][b] (target page)",
+    "Specialist lenders and private individuals [b] (attributed to sibling page /a-complete-guide-to-securing-quick-property-finance-in-london/, not the target)"
+  ],
+  "useCases": [
+    "Short-term rather than long-term borrowing [a] (target page)",
+    "Finance for first-time buyers and experienced investors [a] (target page)",
+    "Sibling pages only [b]: acting on time-limited opportunities when a conventional mortgage approval is too slow; purchases, refurbishments and development; stopgap while an existing property is sold"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/ [a][b] (in seed)",
+    "https://www.silveroakcapital.co.uk/why-smart-investors-choose-property-bridging-loans-in-2025/ [b] (NEW, not in seed; result title: Why Smart Investors Choose Property Bridging Loans in 2025?)",
+    "https://www.silveroakcapital.co.uk/bridging-loans-for-prime-central-london-purchases/ [b] (NEW, not in seed; result title: Bridging Loans in the UK for Prime Central London Purchases)",
+    "https://www.silveroakcapital.co.uk/a-complete-guide-to-securing-quick-property-finance-in-london/ [b] (NEW, not in seed; result title: Fast Bridging Loans London)",
+    "https://www.silveroakcapital.co.uk/understanding-short-term-property-funding-for-uk-real-estate/ [b] (in seed; result title: Fast & Flexible Bridging Loans UK)",
+    "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/ [b] (in seed; result title: Best Finance Options for New Build Homes)",
+    "https://www.silveroakcapital.co.uk/property-bridging-finance-for-uk-high-net-worth-individuals/ [b] (in seed; result title: Property Bridging Finance: A Guide for UK HNWIs)",
+    "https://www.silveroakcapital.co.uk/do-i-need-income-for-a-bridging-loan/ [b] (NEW, not in seed; result title: Do I Need Income for a Bridging Loan?)"
+  ],
+  "confidence": "low",
+  "notes": "Confidence is low because the target page only surfaced as a fragment and the WebSearch tool returned paraphrased summaries rather than raw snippets; the 'verbatim' entries quote the tool's summary wording exactly, not confirmed page text. H1 and meta description were not revealed (only the search result title). No author, publication date, section headings, CTAs, FAQ, eligibility, process steps, pricing or lender names surfaced for this URL. Search (b) surfaced four Silver Oak blog URLs absent from seed.json (why-smart-investors-choose-property-bridging-loans-in-2025, bridging-loans-for-prime-central-london-purchases, a-complete-guide-to-securing-quick-property-finance-in-london, do-i-need-income-for-a-bridging-loan) which other agents may wish to harvest. Content attributed by the tool to sibling Silver Oak pages is kept but explicitly labelled as not from the target. Unrelated third-party results (bridgingloandirectory.co.uk, Wikipedia, lendlord.io, bird-lovibond.co.uk, mortgage118.com, rapidbridging.com) were ignored per rules. Exactly 2 WebSearch calls were made, both mode extended; none refused.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/why-are-property-bridging-loans-popular-in-the-uk.json"
+}

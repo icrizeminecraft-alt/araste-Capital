@@ -1,0 +1,93 @@
+{
+  "task": "gaps-firm-missing",
+  "target_domain": "silveroakcapital.co.uk",
+  "date_run": "2026-10-29",
+  "channel": "WebSearch only (direct fetch blocked)",
+  "queriesRun": 8,
+  "queriesRefused": 0,
+  "queries": [
+    {"n": 1, "mode": "standard", "query": "site:silveroakcapital.co.uk team \"Jimmy Baillie\"", "on_domain_hits": 0},
+    {"n": 2, "mode": "extended", "query": "site:silveroakcapital.co.uk \"Sophia De Stefano\" OR \"Connor Dooley\" OR \"Joe Berk\"", "on_domain_hits": 3},
+    {"n": 3, "mode": "standard", "query": "site:silveroakcapital.co.uk careers jobs vacancies \"join\"", "on_domain_hits": 0},
+    {"n": 4, "mode": "standard", "query": "site:silveroakcapital.co.uk \"privacy notice\" OR \"privacy policy\" OR \"cookie policy\"", "on_domain_hits": 0},
+    {"n": 5, "mode": "extended", "query": "site:silveroakcapital.co.uk \"terms of business\" fee commission complaints \"data protection officer\"", "on_domain_hits": 1},
+    {"n": 6, "mode": "extended", "query": "site:silveroakcapital.co.uk \"developer scorecard\"", "on_domain_hits": 10},
+    {"n": 7, "mode": "extended", "query": "site:silveroakcapital.co.uk \"Ts-and-Cs\" OR \"terms and conditions\" complaints \"Financial Ombudsman\" fee commission \"arrangement fee\"", "on_domain_hits": 1},
+    {"n": 8, "mode": "extended", "query": "site:silveroakcapital.co.uk privacy-policy OR cookie-policy OR careers OR \"work with us\" Silver Oak Capital", "on_domain_hits": 2}
+  ],
+  "found": [
+    {
+      "url": "https://www.silveroakcapital.co.uk/about-us/",
+      "title": "About Us - Jimmy Baillie",
+      "summary": "Team / About Us page. Per the search tool's summary it carries bios for at least three team members. Connor Dooley: Senior Associate, Debt Advisory; graduated University of Cape Town 2022 (BSc Real Estate); came to Silver Oak from an underwriting role at IUM in Johannesburg; CFA candidate. Joe Berk (Joseph): Associate, Debt Advisory; Bachelor of Business Science (Finance), University of Cape Town, 2024; passed CFA Level I; joined Silver Oak in 2025. Sophia De Stefano: Relationship Manager; maintains existing investor relations and meets new traditional lenders and alternative sources of capital; background in television and media; supports the firm's lender network. The page title names Jimmy Baillie but no Baillie bio text was returned in any snippet.",
+      "verbatim": [
+        "Connor graduated from the University of Cape Town in 2022 with a Bachelor of Science in Real Estate.",
+        "Joseph graduated with a Bachelor of Business Science specialising in Finance from the University of Cape Town in 2024, and has successfully passed the CFA Level I exam.",
+        "Sophia's role within the firm involves maintaining existing investor relations as well as meeting with new traditional lenders and alternative sources of capital."
+      ],
+      "confidence": "medium",
+      "notes": "Surfaced by query 2. The three quoted sentences were presented by the search tool as page quotes. Role titles (Senior Associate / Associate / Relationship Manager), the IUM Johannesburg detail, 'CFA candidate', 'joined in 2025' and the TV/media background are the tool's paraphrase. The tool stated the page was last indexed about 388 days ago, so bios may be out of date. Query 1 (standard mode, 'Jimmy Baillie') returned zero on-domain results; no Baillie bio content was obtained. The tool also attributed a client review to 'the developer-finance site' without a URL: \"This was introduced by Connor Dooley who was a fundamental part of the transaction.\" - source page not identified, so recorded here only as a note."
+    },
+    {
+      "url": "https://www.silveroakcapital.co.uk/wp-content/uploads/2026/02/Ts-and-Cs.pdf",
+      "title": "Ts and Cs (Silver Oak Capital terms of business PDF)",
+      "summary": "Terms of business PDF for arranging services in respect of financial facilities. Per the search tool's summary: dated May 2024, version 2; company is Silver Oak Capital Ltd, London, company number 08551479; parties defined as SOC ('We') and the client, connected entity or attorney ('You'); written for consumers considering certain financial products. Fee agreement: SOC provides a brokerage service (independent recommendations and arranging financial facilities) in consideration of an Arrangement Fee; fee and charge structures may vary and all fee/charge details are set out in a client-specific Fee Agreement. Commission disclosure: no snippet stated whether commission is paid. Complaints: complaints go to the Managing Director in writing or by phone; if unresolved the client may be entitled to refer the matter to the Financial Ombudsman Service. Data protection: the firm has safeguards against unauthorised or unlawful processing; consent to ongoing processing can be withdrawn; people can opt out of communications at any time; the Data Protection Officer contact is Connor.dooley@silveroakcapital.co.uk.",
+      "verbatim": [
+        "Please contact The Data Protection Officer at Connor.dooley@silveroakcapital.co.uk.",
+        "SOC will provide to the Client in consideration of the Arrangement Fee, a brokerage service",
+        "all details surrounding fees and charges will be highlighted in the Client specific Fee Agreement"
+      ],
+      "confidence": "medium",
+      "notes": "Surfaced by queries 2, 5 and 7. The first two quotes were presented by the tool as page quotes; the third was embedded in the tool's sentence 'fees and charge structures may vary, and that all details surrounding fees and charges will be highlighted in the Client specific Fee Agreement' and may be lightly paraphrased. Complaints wording (Managing Director; Financial Ombudsman Service) and data-protection wording are the tool's paraphrase. Upload path is /2026/02/ although the document itself is dated May 2024 v2 per the tool. Tool said the document was indexed about 270 days ago. Full PDF not readable via this channel; commission disclosure wording not confirmed."
+    },
+    {
+      "url": "https://developerscorecard.silveroakcapital.co.uk/",
+      "title": "Silver Oak Capital (Development Finance Scorecard)",
+      "summary": "Developer scorecard tool on a subdomain. Per the search tool's summary: a 'Development Finance Scorecard' that benchmarks a project against five categories and produces an overall score, pitched as a way to gauge how ready a developer is to raise finance; a short questionnaire; the report is then emailed, after which the user can request a free consultation to talk through the results. Query 8's summary described the subdomain home page as a property-finance pitch aimed at developers offering a free 'funding ready' analysis.",
+      "verbatim": [
+        "Development Finance Scorecard",
+        "funding ready"
+      ],
+      "confidence": "medium",
+      "notes": "Surfaced by queries 2, 6 and 8. Only these two short phrases were shown as exact strings; the rest is the tool's paraphrase. Per the tool, none of the main-domain pages returned by query 6 (property-development-finance, contact, home, faq, blogs, case studies) mention the scorecard, so the tool is described only on this subdomain."
+    },
+    {
+      "url": "https://developerscorecard.silveroakcapital.co.uk/services/",
+      "title": "Services (developer scorecard subdomain)",
+      "summary": "Services page on the scorecard subdomain. Per the search tool's summary it carries a generic cookie-consent banner and a cookie table. The tool explicitly stated this is not the company's actual cookie policy.",
+      "verbatim": [],
+      "confidence": "low",
+      "notes": "Surfaced by query 8. No content from the page was quoted; only the presence of a cookie banner/table was reported. Not a substitute for a cookie policy page."
+    }
+  ],
+  "notFound": [
+    "Jimmy Baillie bio text (only the page title 'About Us - Jimmy Baillie' surfaced; query 1 returned zero on-domain results; no snippet contained his bio)",
+    "Careers / jobs / vacancies / 'work with us' page on silveroakcapital.co.uk (queries 3 and 8 returned no such page)",
+    "Standalone privacy notice / privacy policy page (queries 4 and 8 returned no on-domain privacy page; only the data-protection section inside the Ts-and-Cs PDF was found)",
+    "Standalone cookie policy page (queries 4 and 8; only a generic cookie-consent banner and cookie table on developerscorecard.silveroakcapital.co.uk/services/ was reported, which the tool said is not the company's cookie policy)",
+    "Commission disclosure wording in the terms of business (snippets from the Ts-and-Cs PDF did not state whether commission is received; queries 5 and 7)",
+    "The client-specific Fee Agreement document itself (referenced in the Ts-and-Cs PDF but not surfaced as a page or file)",
+    "A standalone complaints procedure page (complaints wording was found only inside the Ts-and-Cs PDF)",
+    "Named Data Protection Officer beyond the email address Connor.dooley@silveroakcapital.co.uk (no role statement for the DPO beyond this contact line)"
+  ],
+  "unrelated_ignored": [
+    "Wikipedia and Baillie Gifford pages for other people named Baillie (query 1)",
+    "Dealroom page for Silverfleet Capital containing an instruction aimed at AI readers (queries 2 and 8) - ignored, not used",
+    "Careers pages of SJP, SilverDoor, Citi, City of London and other job boards (query 3)",
+    "Privacy policies of Oakley Capital, Silverstone, Silverpoint Capital, Silverfleet, Parmenion, Silverfin and others (query 4)",
+    "Wikipedia / council pages on DPOs, ICO, Financial Ombudsman Service, Consumer Credit Act, legislation.gov.uk (queries 5 and 7)",
+    "CB Insights pages for Silver Capital, Silver Ventures, Silverstone Capital, Oakcrest Capital; SilverPush; Southampton council; london.gov.uk OPDC (query 8)"
+  ],
+  "other_on_domain_urls_surfaced_without_focus_content": [
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/contact/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/blogs/",
+    "https://www.silveroakcapital.co.uk/complete-guide-to-development-loans-for-property-projects-uk/",
+    "https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/",
+    "https://www.silveroakcapital.co.uk/why-lenders-reject-70-of-london-resi-led-development-deals/",
+    "https://www.silveroakcapital.co.uk/selecting-the-ideal-property-finance-specialist-for-successful-developments/"
+  ],
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/gaps-firm-missing.json"
+}

@@ -5,7 +5,7 @@
 1. inventaire de toutes les adresses du site par familles de mots-clés (environ 190 recherches) ;
 2. extraction page par page des 51 pages de services et du cabinet, trois recherches ciblées par page (153 recherches) ;
 3. sources tierces (registre, presse, annuaires, profils) : 28 recherches, 145 faits relevés ;
-4. études de cas, articles et pages jamais remontées (en cours au moment de l'assemblage ; les fiches sont ajoutées à mesure dans `raw/`).
+4. études de cas (23), articles (34) et pages jamais remontées : deux recherches par page et quatre agents de complément (146 recherches), soit 108 fiches au total.
 
 **Ce que cela implique.** Une fiche courte signifie que peu de texte de la page a été indexé, pas que la page est vide. Les phrases « verbatim » sont celles que les extraits reproduisent ; lorsque l'outil résume, la fiche le signale. Les titres de pages et la liste des produits sont fiables (confirmés par plusieurs recherches) ; les conditions chiffrées (ratios, durées, frais) proviennent parfois de pages voisines ou d'une copie ancienne de la page, et sont marquées comme telles. Les contradictions entre pages (nombre de prêteurs, fourchette de montants, code postal) sont relevées sans être tranchées.
 

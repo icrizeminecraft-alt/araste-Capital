@@ -1,0 +1,81 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/",
+  "title": "Aircraft Loan Falcon 900",
+  "h1": "Aircraft Loan Falcon 900 (search-result title only; actual H1 not revealed)",
+  "metaDescription": "",
+  "summary": "Case study of a private jet loan arranged by Silver Oak Capital. Borrower: a Dubai-based client introduced by a Swiss family office, buying a used Falcon-class private jet for personal use with a budget capped at about USD 25m; the client wanted a mid-range jet, ideally registered in Dubai, for flights between European and Middle Eastern cities. Challenge: finding the aircraft was harder than arranging the loan because used-aircraft prices had risen and stock at aviation brokers was very thin; Silver Oak says it sourced the aircraft through its own contacts. Lender: a private bank in the Middle East. Structure: 70% loan-to-value, 4.45% fixed rate, 72-month term, quarterly repayments, 1% arrangement fee, 25% balloon. Not revealed by the search results: the absolute loan amount or purchase price, the exact aircraft (beyond 'Falcon 900' in the URL/title and 'Falcon-class' in the snippet), the registration outcome, completion timing or date, the lender's name, and the page's calls to action.",
+  "verbatim": [
+    "[a] \"70% Loan to Value 4.45% Fixed Rate 72 month term Quarterly Repayments Fees 1% Arrangement 25% Balloon\" (snippet, appears to be the page's deal-terms block)",
+    "[a] \"Prices have increased and there is remarkably little stock available at many of the aviation brokers.\" (appears verbatim from the page, present tense)",
+    "[a] \"Finding an aircraft was harder than arranging the loan.\" (also reported in [b]; may be the search tool's paraphrase rather than page wording)",
+    "[a] Search-tool summary: \"a private jet loan arranged by Silver Oak Capital for a Dubai-based client, with a Swiss family office making the introduction.\"",
+    "[a] Search-tool summary: \"The buyer wanted a used Falcon-class jet capped at about $25m USD for personal use, and needed a mid-range jet, ideally registered in Dubai.\"",
+    "[a] Search-tool summary: \"The firm says it sourced the aircraft through its own contacts and then secured the loan from a Middle East private bank\"",
+    "[b] Search-tool summary: \"A Swiss family office referred a Dubai-based client looking for a used private jet, with a budget capped at $25m. The client needed a mid-range jet registered in Dubai for flights between European and Middle Eastern cities.\"",
+    "[b] Search-tool summary: \"Used-aircraft stock was thin and prices had risen, according to the case study.\"",
+    "[b] Search-tool summary: \"Silver Oak's solution was a 70% loan-to-value facility at a 4.45% fixed rate over 72 months, with quarterly repayments, a 1% arrangement fee and a 25% balloon payment. The loan came from a private bank in the Middle East.\"",
+    "[b] Search-tool summary (about the separate /aviation-finance/ page, not this case study): \"a representative indicative example of up to 90% LTV, a 30% balloon, and a 1.50% lender fee\""
+  ],
+  "services": [
+    "Aviation finance / private jet loan (secured aircraft loan)",
+    "Aircraft sourcing through the broker's own contacts (as described in the case study)",
+    "Private bank lending (Middle East private bank)"
+  ],
+  "claims": [
+    {"claim": "70% Loan to Value", "kind": "deal-term"},
+    {"claim": "4.45% Fixed Rate", "kind": "deal-term"},
+    {"claim": "72 month term", "kind": "deal-term"},
+    {"claim": "Quarterly Repayments", "kind": "deal-term"},
+    {"claim": "Fees 1% Arrangement", "kind": "deal-term"},
+    {"claim": "25% Balloon", "kind": "deal-term"},
+    {"claim": "Client budget capped at about $25m USD for a used Falcon-class jet", "kind": "deal-fact"},
+    {"claim": "Client is Dubai-based; introduction made by a Swiss family office", "kind": "deal-fact"},
+    {"claim": "Jet intended for personal use, mid-range, ideally registered in Dubai, for flights between European and Middle Eastern cities", "kind": "deal-fact"},
+    {"claim": "Finding an aircraft was harder than arranging the loan; prices have increased and there is remarkably little stock available at many of the aviation brokers", "kind": "challenge"},
+    {"claim": "Silver Oak sourced the aircraft through its own contacts", "kind": "outcome"},
+    {"claim": "Loan secured from a Middle East private bank", "kind": "lender"},
+    {"claim": "Related page /aviation-finance/ shows an indicative example of up to 90% LTV, 30% balloon, 1.50% lender fee (different deal, not this case study)", "kind": "related-page"}
+  ],
+  "terms": [
+    "Loan to Value (LTV) 70%",
+    "Fixed Rate 4.45%",
+    "Term 72 months",
+    "Quarterly Repayments",
+    "Arrangement fee 1%",
+    "Balloon 25%"
+  ],
+  "eligibility": [],
+  "processSteps": [
+    "Introduction of the Dubai-based client by a Swiss family office",
+    "Client brief: used mid-range Falcon-class jet, budget capped at about $25m USD, personal use, ideally Dubai-registered",
+    "Aircraft sourced by Silver Oak Capital through its own contacts (given thin broker stock)",
+    "Loan secured from a Middle East private bank at 70% LTV, 4.45% fixed, 72 months, quarterly repayments, 1% arrangement fee, 25% balloon"
+  ],
+  "faq": [],
+  "lenderTypes": ["Private bank (Middle East)"],
+  "useCases": ["Purchase of a used private jet (Falcon 900 / Falcon-class) for personal use, Dubai registration, European and Middle Eastern routes"],
+  "geography": ["Dubai (client base and intended aircraft registration)", "Switzerland (introducing family office)", "Middle East (lender)", "Europe and Middle East (flight routes)"],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/",
+    "https://www.silveroakcapital.co.uk/aviation-finance/",
+    "https://www.silveroakcapital.co.uk/case-studies/g650/",
+    "https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/",
+    "https://www.silveroakcapital.co.uk/senior-secured-aircraft-finance-advisory/",
+    "https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/",
+    "https://www.silveroakcapital.co.uk/aviation-bridging-loans/",
+    "https://www.silveroakcapital.co.uk/aviation-finance-lease-advisory/"
+  ],
+  "sections": [
+    {"heading": "Deal terms (as shown in snippet)", "content": "70% Loan to Value; 4.45% Fixed Rate; 72 month term; Quarterly Repayments; Fees 1% Arrangement; 25% Balloon."},
+    {"heading": "Client brief", "content": "Dubai-based client introduced by a Swiss family office; wanted a used Falcon-class private jet capped at about $25m USD for personal use; mid-range jet, ideally registered in Dubai, for flights between European and Middle Eastern cities."},
+    {"heading": "Challenge", "content": "Finding an aircraft was harder than arranging the loan. 'Prices have increased and there is remarkably little stock available at many of the aviation brokers.'"},
+    {"heading": "Solution / outcome", "content": "Silver Oak sourced the aircraft through its own contacts and secured the loan from a Middle East private bank on the terms above."}
+  ],
+  "confidence": "medium",
+  "notes": "Both searches returned the page in their link lists under the title 'Aircraft Loan Falcon 900', and the two independent summaries agree on every deal term (70% LTV, 4.45% fixed, 72 months, quarterly repayments, 1% arrangement fee, 25% balloon), the Dubai-based client, the Swiss family office introduction, the ~$25m budget cap, the aircraft-sourcing challenge and the Middle East private bank lender. The page was not fetched in full; the search tool itself flagged that its snippets were partial. Only one snippet reads as unmistakably verbatim page text (the deal-terms block and the 'Prices have increased...' sentence); the rest is the search tool's paraphrase. Not revealed: absolute loan amount or purchase price, exact aircraft beyond 'Falcon 900' in the URL/title, lender name, timing/completion date, registration outcome, H1, meta description, calls to action, FAQ, eligibility criteria. The /aviation-finance/ page's '90% LTV, 30% balloon, 1.50% lender fee' example is a different indicative example, not this deal. New site URL not present in seed.json: /aviation-finance-lease-advisory/. Unrelated results ignored: aerotrustcapital.com, Wikipedia 'Avation'.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-aircraft-loan-falcon-900.json"
+}

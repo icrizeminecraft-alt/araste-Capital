@@ -1,0 +1,102 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/find-the-perfect-mortgage-with-a-specialist-broker/",
+  "title": "Why Use a Mortgage Broker for the Right Fit (SERP/SEO title shown by both searches); article title per [b]: \"Find the Perfect Mortgage with a Specialist Broker\"",
+  "h1": "Find the Perfect Mortgage with a Specialist Broker (probable H1: search [b] calls it \"an article titled 'Find the Perfect Mortgage with a Specialist Broker'\" and it matches the URL slug; not seen as rendered HTML)",
+  "metaDescription": "Not revealed by the search results. The <title>-tag style SERP title is \"Why Use a Mortgage Broker for the Right Fit\".",
+  "summary": "Blog article (not a case study) by Silver Oak Capital, described by the search tool as \"a Silver Oak Capital guide, from a UK commercial and development finance broker, on using a specialist mortgage broker\". Thesis: the mortgage market is \"crowded with lenders\" / \"large and complex\", so a specialist broker helps borrowers find a product that fits their goals; securing the right mortgage is \"a daunting and time-consuming task for experienced and first time buyers\". Concrete guidance visible in snippets: (1) a specialist broker \"covers ground beyond standard lending, such as niche lenders for unusual property types, complex income, or commercial borrowing\"; (2) specialist brokers \"can build solutions for commercial, residential, or mixed-use mortgages\". Only snippets were returned, not the full text; no fees, process steps, FAQ, CTA or lender names from this article were revealed. Search [b] states the article is \"about 225 days old\" (approximately mid-March 2026 relative to 2026-10-29).",
+  "verbatim": [
+    "[a] \"The page is a Silver Oak Capital guide, from a UK commercial and development finance broker, on using a specialist mortgage broker. The search returned only snippets of it, not the full text, so this summary covers the main points visible in those snippets.\"",
+    "[a] \"The page says the mortgage market is crowded with lenders, so a specialist broker can help borrowers find a product that fits their goals.\"",
+    "[a] \"Securing the right mortgage can be a daunting and time-consuming task for experienced and first time buyers.\"",
+    "[a] \"A specialist broker covers ground beyond standard lending, such as niche lenders for unusual property types, complex income, or commercial borrowing\"",
+    "[a] \"The page says specialist brokers can build solutions for commercial, residential, or mixed-use mortgages\"",
+    "[a] (attributed to the companion guide /which-mortgage-company-is-right-for-you/, not this article) \"The companion guide suggests reading reviews and testimonials to judge customer service and expertise\"",
+    "[a] \"Silver Oak's own pages describe its scope differently. One says it works with over 300 lenders, while the homepage cites over 800 lenders. Its homepage also says it specialises in loans over £500,000.\"",
+    "[b] \"the most relevant is an article titled 'Find the Perfect Mortgage with a Specialist Broker.' It explains that the mortgage market is large and complex, and that specialist brokers can offer products from niche lenders for unusual property types, complex income situations, or commercial loans. It also covers commercial, residential and mixed-use financing.\"",
+    "[b] (from /prime-residential-mortgages/) \"Its prime residential page says it has arranged mortgages for properties priced at £1m and above since 2019, and that it works with more than 300 lenders.\"",
+    "[b] (from /prime-london-mortgages/) \"Its prime London page covers lender selection for high-value properties, preparing a case summary for underwriters, and handling pricing negotiation and coordination with valuers and solicitors.\"",
+    "[b] (from homepage) \"The homepage describes real estate finance focused on loans over £500,000, and says it works through a network of more than 800 lenders.\"",
+    "[b] \"The specialist-broker article is about 225 days old, so its details may also have changed.\"",
+    "[a][b] SERP link title for the target URL: \"Why Use a Mortgage Broker for the Right Fit\""
+  ],
+  "services": [
+    "Specialist mortgage brokerage (article subject)",
+    "Commercial mortgages",
+    "Residential mortgages",
+    "Mixed-use mortgages",
+    "Access to niche lenders for unusual property types",
+    "Access to niche lenders for complex income situations",
+    "Access to niche lenders for commercial borrowing / commercial loans"
+  ],
+  "claims": [
+    {"claim": "\"the mortgage market is crowded with lenders\" / \"large and complex\" [a][b]", "kind": "market-statement (this article)"},
+    {"claim": "\"Securing the right mortgage can be a daunting and time-consuming task for experienced and first time buyers.\" [a]", "kind": "audience-statement (this article)"},
+    {"claim": "A specialist broker \"covers ground beyond standard lending\" [a]", "kind": "value-proposition (this article)"},
+    {"claim": "Specialist brokers \"can build solutions for commercial, residential, or mixed-use mortgages\" [a]", "kind": "scope (this article)"},
+    {"claim": "Article is \"about 225 days old\" as of 2026-10-29, i.e. published approximately March 2026 [b]", "kind": "date (search-tool estimate)"},
+    {"claim": "Firm works with \"over 300 lenders\" / \"more than 300 lenders\" [a][b]", "kind": "lender-count (other Silver Oak page: prime residential per [b])"},
+    {"claim": "Homepage cites \"over 800 lenders\" / \"a network of more than 800 lenders\" [a][b]", "kind": "lender-count (homepage, not this article)"},
+    {"claim": "Homepage says the firm \"specialises in loans over £500,000\" [a][b]", "kind": "loan-size (homepage, not this article)"},
+    {"claim": "Prime residential page: \"arranged mortgages for properties priced at £1m and above since 2019\" [b]", "kind": "track-record (other page, not this article)"},
+    {"claim": "Search tool notes the 300+ vs 800+ lender figures conflict and advises checking with the firm [a][b]", "kind": "inconsistency-flag"}
+  ],
+  "terms": [
+    "specialist broker",
+    "specialist mortgage broker",
+    "niche lenders",
+    "standard lending",
+    "unusual property types",
+    "complex income / complex income situations",
+    "commercial borrowing / commercial loans",
+    "mixed-use mortgages",
+    "first time buyers",
+    "experienced buyers"
+  ],
+  "eligibility": [
+    "Not stated as criteria in the results. Implied audience: \"experienced and first time buyers\" [a]; borrowers with \"unusual property types, complex income, or commercial borrowing\" needs [a]; commercial, residential or mixed-use borrowers [a][b]."
+  ],
+  "processSteps": [
+    "No process steps for this article were revealed by the results.",
+    "(Context only, from /prime-london-mortgages/ per [b], not this article): lender selection for high-value properties; preparing a case summary for underwriters; pricing negotiation; coordination with valuers and solicitors."
+  ],
+  "faq": [],
+  "geography": [
+    "United Kingdom (firm described as \"a UK commercial and development finance broker\" [a]; no geography stated for the article itself)",
+    "London (only via other pages: /prime-london-mortgages/ in [b])"
+  ],
+  "ctas": [
+    "None revealed by the search results for this article."
+  ],
+  "lenderTypes": [
+    "niche lenders (for unusual property types, complex income, commercial borrowing) [a][b]",
+    "standard lending (contrasted with specialist/niche) [a]",
+    "firm-level: network of 300+ / 800+ lenders (other pages) [a][b]"
+  ],
+  "useCases": [
+    "Unusual property types",
+    "Complex income situations",
+    "Commercial borrowing / commercial loans",
+    "Commercial, residential and mixed-use mortgage financing",
+    "First-time buyers and experienced buyers seeking the right mortgage product"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/ [a][b]",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/ [a]",
+    "https://www.silveroakcapital.co.uk/commercial-Mortgage-Broker/ [b] (capitalised variant of the same path)",
+    "https://www.silveroakcapital.co.uk/independent-mortgage-brokers/ [a] (NEW - not in seed)",
+    "https://www.silveroakcapital.co.uk/independent-mortgage-broker-get-unbiased-advice/ [b] (NEW - not in seed; SERP title \"Trusted Independent Mortgage Broker\")",
+    "https://www.silveroakcapital.co.uk/unlock-financial-freedom-mortgages-without-early-redemption-charges/ [b] (NEW - not in seed; SERP title \"Unlock Flexible Mortgage Bridging Loans Without Penalties\")",
+    "https://www.silveroakcapital.co.uk/your-trusted-local-finance-brokers-for-smart-lending-solutions/ [a][b]",
+    "https://www.silveroakcapital.co.uk/secure-the-best-business-loan-with-expert-brokerage-services/ [a]",
+    "https://www.silveroakcapital.co.uk/which-mortgage-company-is-right-for-you/ [a][b] (SERP title \"Choosing the Best Mortgage Company Guide\"; described as the companion guide)",
+    "https://www.silveroakcapital.co.uk/prime-residential-mortgages/ [b] (SERP title \"Residential Mortgages UK\")",
+    "https://www.silveroakcapital.co.uk/prime-london-mortgages/ [b]",
+    "External [a]: https://www.landlordtoday.co.uk/trades-directory/silver-oak-capital/",
+    "External [a]: https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital (lists Silver Oak Capital under Hackney, London)"
+  ],
+  "confidence": "low",
+  "notes": "Direct fetch blocked; everything comes from two WebSearch calls ([a] exact URL, extended; [b] site: query, extended). Both searches confirmed the URL exists, its SERP title (\"Why Use a Mortgage Broker for the Right Fit\") and its article title (\"Find the Perfect Mortgage with a Specialist Broker\"), and gave a consistent thesis, so the thesis itself is reasonably solid. Confidence is low for completeness: the search tool explicitly said it \"returned only snippets of it, not the full text\"; no meta description, body structure, subheadings, fees, process, FAQ, CTA, author or exact publication date were revealed. Verbatim items are quotes of the search tool's summary wording (which itself paraphrases snippets) except where marked as SERP titles. Lender-count (300+/800+), loan-size (>£500k) and £1m+ since 2019 claims come from OTHER Silver Oak pages surfaced in the results, not from this article; they are included as firm context and tagged accordingly. The 225-day age is a search-tool estimate (approx. March 2026 from 2026-10-29). Three site URLs not present in seed.json were discovered: /independent-mortgage-brokers/, /independent-mortgage-broker-get-unbiased-advice/, /unlock-financial-freedom-mortgages-without-early-redemption-charges/. Unrelated directory listings (Landlord Today, mortgage118) were noted as external only.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/find-the-perfect-mortgage-with-a-specialist-broker.json"
+}

@@ -1,0 +1,86 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/",
+  "title": "How Can Offshore Borrowers Secure Fast UK Property Development Finance and Bridging Loans?",
+  "summary": "Blog article (not a case study). Only a thin summary of the page surfaced. Per the search tool's summary of search (b), the article ('the main offshore guide') defines an offshore bridging loan as a loan secured on UK property where the borrower is an overseas resident, national, or foreign-registered company; notes that lenders find some borrower home countries harder to source finance for, particularly those under UK government sanctions; lists the USA, South Africa, the EU and many Middle Eastern countries as easy to arrange finance for; and states that offshore bridging loans typically take a few weeks to arrange. The article's guidance on the 'development finance' and 'fast' aspects of its title, its structure, headings, FAQs and calls to action were NOT revealed by either search. Search (a) (exact URL) returned zero Silver Oak results, only third-party lender/broker pages.",
+  "verbatim": [
+    "[b] (search-result title of the target page) \"How Can Offshore Borrowers Secure Fast UK Property Development Finance and Bridging Loans?\"",
+    "[b] (homepage snippet, ellipsis in source) \"Real Estate Finance professionals, specialising in loans over £500,000 ... through our network of over 800 lenders\"",
+    "[b] (case study /case-studies/bridging-loan-land-with-planning/) \"the borrowers were not willing to provide a personal guarantee\"",
+    "[b] (other page titles seen) \"Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions\"; \"Bridging Loan for Land with Planning\"; \"Crypto Bridging Advisory - Bitcoin Loans\"; \"Stuck in a Chain? How Bridging Loans Work\"; \"Property Finance FAQs\"; \"Your Trusted Local Finance Brokers for Smart Lending Solutions\"; \"Complex Offshore Structures & International Finance Solution\"",
+    "NOTE: all other article content below is the search tool's paraphrase of the page, not verbatim page text."
+  ],
+  "services": [
+    "Offshore bridging loans secured on UK property (borrower an overseas resident, national, or foreign-registered company) [b, target article per summary]",
+    "UK property development finance for offshore borrowers [b, from the page title only; no detail revealed]",
+    "Lending to offshore companies via a network of hundreds of lenders [b, /complex-offshore-structures/]",
+    "Bridging finance for an offshore trust company on a Glasgow site [b, case study]",
+    "Loans over £500,000 across UK, US, Western Europe and Middle East [b, homepage]"
+  ],
+  "claims": [
+    {"claim": "An offshore bridging loan is a loan secured on UK property where the borrower is an overseas resident, national, or foreign-registered company (search-summary paraphrase of the target article) [b]", "kind": "definition"},
+    {"claim": "Lenders find some home countries harder to source finance for, particularly those under UK government sanctions (paraphrase, target article) [b]", "kind": "eligibility"},
+    {"claim": "The USA, South Africa, the EU and many Middle Eastern countries are listed as easy to arrange finance for (paraphrase, target article) [b]", "kind": "geography"},
+    {"claim": "Offshore bridging loans typically take a few weeks to arrange (paraphrase, target article) [b]", "kind": "timing"},
+    {"claim": "Firm works across the UK, US, Western Europe and the Middle East (homepage) [b]", "kind": "geography"},
+    {"claim": "Specialising in loans over £500,000 (homepage, verbatim) [b]", "kind": "number"},
+    {"claim": "Network of over 800 lenders (homepage, verbatim) [b]", "kind": "number"},
+    {"claim": "Access to a network of hundreds of lenders who lend to offshore companies (/complex-offshore-structures/, paraphrase) [b]", "kind": "number"},
+    {"claim": "Traditional high street lenders generally prefer not to lend on atypical transactions (/faq/, paraphrase) [b]", "kind": "market"},
+    {"claim": "Case study: offshore trust company sought bridging finance for a Glasgow site without planning; borrowers unwilling to give a personal guarantee; solved through the firm's bridging lender network (/case-studies/bridging-loan-land-with-planning/, paraphrase; note the page title says 'Land with Planning' while the summary says 'without planning') [b]", "kind": "case-study"}
+  ],
+  "terms": [
+    "offshore bridging loan",
+    "overseas resident",
+    "foreign-registered company",
+    "UK government sanctions",
+    "personal guarantee",
+    "offshore trust company",
+    "site without planning",
+    "high street lenders",
+    "atypical transactions"
+  ],
+  "eligibility": [
+    "Borrower is an overseas resident, a foreign national, or a foreign-registered company, with the loan secured on UK property [b, paraphrase]",
+    "Borrowers from countries under UK government sanctions are harder for lenders to source finance for [b, paraphrase]",
+    "Borrowers from the USA, South Africa, the EU and many Middle Eastern countries are easy to arrange finance for [b, paraphrase]"
+  ],
+  "processSteps": [
+    "Only timing was revealed: offshore bridging loans typically take a few weeks to arrange [b, paraphrase]. No step-by-step process from the article surfaced in the results."
+  ],
+  "faq": [],
+  "geography": [
+    "United Kingdom (property securing the loan)",
+    "USA (borrower source country, easy)",
+    "South Africa (borrower source country, easy)",
+    "EU (borrower source country, easy)",
+    "Middle East (many countries, easy)",
+    "Countries under UK government sanctions (harder)",
+    "Glasgow (case study site)",
+    "UK, US, Western Europe, Middle East (firm footprint per homepage)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-loan-land-with-planning/",
+    "https://www.silveroakcapital.co.uk/crypto-bridging-advisory/",
+    "https://www.silveroakcapital.co.uk/how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/your-trusted-local-finance-brokers-for-smart-lending-solutions/",
+    "https://www.silveroakcapital.co.uk/complex-offshore-structures/"
+  ],
+  "lenderTypes": [
+    "Network of hundreds of lenders who lend to offshore companies [b, /complex-offshore-structures/]",
+    "Bridging lender network (used for the offshore trust Glasgow case) [b, case study]",
+    "Traditional high street lenders - generally prefer not to lend on atypical transactions [b, /faq/]",
+    "Network of over 800 lenders [b, homepage]"
+  ],
+  "useCases": [
+    "Overseas resident, foreign national or foreign-registered company borrowing against UK property via a bridging loan [b, paraphrase]",
+    "Offshore trust company bridging finance for a Glasgow site without planning, with no personal guarantee [b, case study]"
+  ],
+  "confidence": "low",
+  "notes": "Search (a) with the exact URL returned no silveroakcapital.co.uk result; all nine links were third-party lenders/brokers (kandoo, alternativebridging, boxxfinance, skybridgelending, berkeleycredit, tenn.capital, fdcommercial, Wikipedia) and their content was NOT recorded as it concerns unrelated companies. Search (b) returned the target page as the first result (title confirmed) and the search tool's summary attributed four points to 'the main offshore guide' (definition of offshore bridging loan; sanctions jurisdictions harder; USA/South Africa/EU/Middle East easy; a few weeks to arrange). The summary separately referenced the /complex-offshore-structures/ page, so 'the main offshore guide' most plausibly means the target article, but the attribution is not explicit - treat as probable, not certain. No H1, meta description, headings, FAQ, CTA or body sentences of the article were revealed. Two Wikipedia pages in (b) (LandlordInvest, Montello Bridging Finance) are unrelated and ignored. Minor inconsistency: case-study page title says 'Land with Planning' while summary says 'site without planning'. queriesRun=2, queriesRefused=0.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans.json"
+}

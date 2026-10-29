@@ -1,0 +1,81 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/miami-developer/",
+  "title": "Miami Developer",
+  "h1": "Miami Developer",
+  "summary": "Case study: Silver Oak Capital arranged a USD 10 million long-term commercial mortgage at 70% loan-to-value for a property development company specialising in waterfront properties in Miami, Florida. The borrower approached the firm for help purchasing a new residential building in the Brickell neighbourhood of Miami. Reported terms: interest rate of 4.25% above Bank Prime Rate, 7-year term, interest-only for the first five years then amortised over 20 years, and a 1.5% bank fee. The lender's package is described as accounting for coastal and hurricane risks (sea-level rise mitigation measures, adherence to strict coastal development regulations, hurricane stability). The lender is not named and no completion date is given in the search results; the search engine reported the page as about 37 days old (roughly late September 2026), which may be a last-modified date rather than the deal date. No independent coverage of the deal was found.",
+  "verbatim": [
+    "[a] \"Silver Oak Capital arranged $10m commercial mortgage at 70% LTV for a Miami waterfront property, with a 7-year term and tailored financing for the purchase.\"",
+    "[a] \"The client is a developer of waterfront properties in Miami, seeking financing for a new residential building in Brickell\"",
+    "[a] \"The listed rate is 4.25% above Bank Prime, with a 1.5% bank fee. Repayment is interest-only for five years, then amortized over 20 years\"",
+    "[a] \"The lender's package accounted for coastal and hurricane risks, including compliance with regulations and provisions for property resilience\"",
+    "[a] \"The search didn't turn up any independent coverage of this specific deal, so the details come from the firm's own marketing page. The page is also dated, with the search engine reporting it as about 37 days old.\"",
+    "[b] \"A property development company specializing in waterfront properties in Miami, Florida, approached Silver Oak Capital seeking assistance in purchasing a new residential building in the Brickell neighborhood. They required a long-term commercial mortgage at 70% loan to value (LTV).\"",
+    "[b] \"Loan Amount: $10 million USD, Loan to Value: 70%, Interest Rate: 4.25% + Bank Prime Rate, Term: 7 years, with interest-only for five years and a 1.5% bank fee\"",
+    "[b] \"sea-level rise mitigation measures or adherence to strict coastal development regulations, and hurricane stability\"",
+    "[b] (attributed to the Silver Oak business profile, not the case-study page) \"through our network of 500+ private banks, challenger banks, debt funds, specialist lenders and family offices\"",
+    "[b] \"The Miami page's snippet is partly garbled, and the search did not confirm the completion date or the lender's name\""
+  ],
+  "services": [
+    "Commercial mortgage (long-term, 70% LTV)",
+    "International property finance - United States (Miami, Florida)",
+    "Finance for property developers (purchase of a residential building)"
+  ],
+  "terms": [
+    "Loan Amount: $10 million USD",
+    "Loan to Value: 70%",
+    "Interest Rate: 4.25% + Bank Prime Rate",
+    "Term: 7 years",
+    "Repayment: interest-only for five years, then amortized over 20 years",
+    "Bank fee: 1.5%",
+    "Currency: USD"
+  ],
+  "eligibility": [],
+  "processSteps": [
+    "Property development company specialising in Miami waterfront properties approached Silver Oak Capital for help purchasing a new residential building in Brickell",
+    "Requirement defined: long-term commercial mortgage at 70% loan to value",
+    "Silver Oak Capital arranged a $10m commercial mortgage at 70% LTV with a 7-year term described as tailored financing for the purchase",
+    "Lender's package accounted for coastal and hurricane risks (compliance with coastal development regulations, provisions for property resilience)"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "Loan amount $10 million USD", "kind": "number"},
+    {"claim": "70% loan to value", "kind": "number"},
+    {"claim": "Interest rate 4.25% + Bank Prime Rate", "kind": "number"},
+    {"claim": "Term 7 years", "kind": "number"},
+    {"claim": "Interest-only for five years, then amortized over 20 years", "kind": "number"},
+    {"claim": "1.5% bank fee", "kind": "number"},
+    {"claim": "Lender's package accounted for coastal and hurricane risks, including sea-level rise mitigation and adherence to strict coastal development regulations", "kind": "deal-feature"},
+    {"claim": "Network of 500+ private banks, challenger banks, debt funds, specialist lenders and family offices (business profile, not the case-study page)", "kind": "number"}
+  ],
+  "lenderTypes": [
+    "Bank (implied by 'Bank Prime Rate' reference and '1.5% bank fee'; lender not named in results)"
+  ],
+  "useCases": [
+    "Purchase of a new residential building by a property developer",
+    "Long-term commercial mortgage for a waterfront asset",
+    "Cross-border / US property finance arranged by a UK broker"
+  ],
+  "geography": [
+    "Miami, Florida, United States",
+    "Brickell neighborhood, Miami",
+    "Waterfront / coastal property"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/manchester-office/",
+    "https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/",
+    "https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/",
+    "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/g650/",
+    "https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/",
+    "https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/",
+    "https://www.silveroakcapital.co.uk/case-studies/successful-refinance-3-5-million-loan/",
+    "https://uk.linkedin.com/company/silver-oak-capital"
+  ],
+  "confidence": "medium",
+  "notes": "Core deal terms ($10m, 70% LTV, 4.25% + Bank Prime, 7 years, IO 5 years then 20-year amortisation, 1.5% bank fee) were consistent across both searches. Not revealed: lender name, completion/deal date, meta description, H1 (the 'Miami Developer' value is the indexed page title; the H1 was not separately confirmed), any FAQ, eligibility criteria or calls to action on the page. Search (a) reported the page as about 37 days old (approx. 22 September 2026 relative to 29 October 2026); this is a search-engine freshness signal and may reflect a modification date rather than when the deal completed. Search (b) warned that the page snippet was partly garbled. The '500+ lenders' wording came from the Silver Oak business profile (likely LinkedIn), not from the case-study page. Newly seen site URL not in seed.json: /case-studies/successful-refinance-3-5-million-loan/. Unrelated results ignored: The Real Deal article on Ricardo Dunin's 'Oak Capital' / Edifica Brickell hotel (different company), intellisourcecorp 'Silver Oak' case study, Silver Arch Capital Partners, Cipriani Residences Miami (Wikipedia), oakcapital.co. Direct fetching was not attempted per instructions; all content derives from search snippets and the search tool's summaries.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-miami-developer.json"
+}

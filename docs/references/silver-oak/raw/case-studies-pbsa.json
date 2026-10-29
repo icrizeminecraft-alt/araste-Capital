@@ -1,0 +1,89 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/pbsa/",
+  "title": "PBSA",
+  "h1": "PBSA (search-result link title; actual H1 not confirmed)",
+  "summary": "Case study of a long-term commercial mortgage arranged for a UK student accommodation operator buying a new purpose-built student accommodation (PBSA) building in Birmingham. The borrower required a long-term commercial mortgage at 70% loan-to-value; it intended to complete the purchase with cash and then needed immediate access to a loan post-acquisition. Silver Oak Capital proposed a GBP 12 million facility from a Birmingham-based lender at 70% LTV, priced at 2.50% above the Bank Base Rate, over a 10-year term, interest-only, with a 1.75% bank fee. Challenges named in the case study: optimising the building's space and amenities for changing student needs, and meeting student housing regulations and safety standards. The search results did not reveal the final outcome/completion statement, timing (dates or speed of completion), the lender's name, or any client quote. Only a partial text of the page was returned.",
+  "verbatim": [
+    "[a] \"A UK student accommodation operator sought help buying a new PBSA building in Birmingham, and needed a long-term commercial mortgage at 70% loan-to-value.\"",
+    "[a] \"the client wanted to pay cash for the purchase and then needed a loan right after acquisition.\"",
+    "[a] \"Silver Oak offered a £12 million facility from a Birmingham-based lender.\"",
+    "[a] \"The listed terms were a rate of 2.50% plus the Bank Base Rate, a 10-year term, interest-only repayments, and a 1.75% bank fee.\"",
+    "[a] \"The case flagged how to optimise the building's space and amenities for changing student needs, and how to meet student housing regulations and safety standards.\"",
+    "[a] \"The search returned only a partial text of it, so some details may be cut off.\"",
+    "[b] \"a finance deal for a UK student accommodation operator buying a new building in Birmingham. They required a long-term commercial mortgage at 70% loan to value (LTV).\"",
+    "[b] \"The proposed terms were a £12 million loan at 70% LTV, priced at 2.50% above the Bank Base Rate, over a 10-year term, interest-only, with a 1.75% bank fee.\"",
+    "[b] \"the borrower aimed to complete the purchase with cash but required immediate access to a loan post-acquisition.\"",
+    "[b] (from /faq/, not this page) \"lenders will fund PBSA when the economics are sound. Whole-loan providers are comfortable funding student accommodation (PBSA), hotels, Build-to-Rent (BTR), and industrial schemes, provided the exit yields and demand are proven.\"",
+    "[b] (from /senior-development-finance/, not this page) \"PBSA developers are among the large, well-capitalised sponsors who use senior development finance.\"",
+    "[b] (other case study mentioned, URL not given) \"a Development Loan for Student Conversion Cardiff, which involved a development loan to convert a vacant office block.\""
+  ],
+  "services": [
+    "Commercial mortgage (investor / operator, long-term)",
+    "PBSA / student accommodation finance",
+    "Post-acquisition refinance of a cash purchase"
+  ],
+  "claims": [
+    {"claim": "GBP 12 million facility proposed", "kind": "loan amount"},
+    {"claim": "70% loan-to-value", "kind": "LTV"},
+    {"claim": "Rate of 2.50% plus Bank Base Rate", "kind": "pricing"},
+    {"claim": "10-year term", "kind": "term"},
+    {"claim": "Interest-only repayments", "kind": "repayment structure"},
+    {"claim": "1.75% bank fee", "kind": "fee"},
+    {"claim": "Lender was Birmingham-based", "kind": "lender"},
+    {"claim": "Borrower: UK student accommodation operator buying a new PBSA building in Birmingham", "kind": "borrower / asset"},
+    {"claim": "Borrower intended to pay cash for the purchase and needed a loan immediately after acquisition", "kind": "structure / timing"},
+    {"claim": "Challenges: optimising space and amenities for changing student needs; meeting student housing regulations and safety standards", "kind": "challenge"}
+  ],
+  "terms": [
+    "GBP 12 million facility",
+    "70% LTV",
+    "2.50% plus Bank Base Rate (variable)",
+    "10-year term",
+    "Interest-only",
+    "1.75% bank fee",
+    "Long-term commercial mortgage"
+  ],
+  "eligibility": [
+    "Not stated as criteria. Borrower profile revealed: UK student accommodation operator (experienced operator) acquiring a new PBSA building."
+  ],
+  "processSteps": [
+    "Client approached Silver Oak Capital for help buying a new PBSA building in Birmingham, requiring a long-term commercial mortgage at 70% LTV.",
+    "Client planned to complete the purchase with cash, then draw a loan immediately after acquisition.",
+    "Silver Oak Capital proposed a GBP 12m facility from a Birmingham-based lender (2.50% + BBR, 10 years, interest-only, 1.75% bank fee).",
+    "Completion / outcome step not revealed by the search results."
+  ],
+  "faq": [
+    {"q": "(From /faq/, not this page) Will lenders fund PBSA?", "a": "Search summary: lenders will fund PBSA when the economics are sound; whole-loan providers are comfortable funding student accommodation (PBSA), hotels, Build-to-Rent (BTR) and industrial schemes, provided the exit yields and demand are proven."}
+  ],
+  "geography": [
+    "Birmingham, United Kingdom (asset location)",
+    "Birmingham (lender location)",
+    "United Kingdom (borrower: UK student accommodation operator)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/mayfair-self-employed-equity-release/",
+    "https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/",
+    "https://www.silveroakcapital.co.uk/case-studies/finance-for-100-senior-housing-development-in-kent/",
+    "https://www.silveroakcapital.co.uk/senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/"
+  ],
+  "lenderTypes": [
+    "Birmingham-based lender, unnamed; terms include a 'bank fee', suggesting a bank"
+  ],
+  "useCases": [
+    "Acquisition of a new PBSA building by an operator",
+    "Immediate post-acquisition long-term mortgage against a cash purchase (70% LTV release)"
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "notes": "Source channel: WebSearch only (direct fetch blocked). Both results came from the search tool's own summary of the page rather than raw page HTML, so the 'verbatim' quotes are the tool's summary wording, which closely paraphrases the page; exact page sentences are not confirmed. Result [a] explicitly stated only partial page text was returned. Not revealed: page H1 (only link title 'PBSA' seen), meta description, final outcome/completion wording, deal date or speed, lender name, client testimonial, calls to action, and any structured facts beyond the terms listed. Core deal facts (GBP 12m, 70% LTV, 2.50% + BBR, 10 years, interest-only, 1.75% bank fee, Birmingham, UK student accommodation operator, cash purchase then post-acquisition loan) were stated consistently in both independent results. Result [b] additionally mentioned a Silver Oak case study 'Development Loan for Student Conversion Cardiff' (vacant office block conversion) with no URL given; it is not in the seed.json case-study list. Unrelated results ignored: savillsim.com (Vita portfolio), interbay.co.uk (GBP 15m PBSA refinance), bbscapital.com.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-pbsa.json"
+}

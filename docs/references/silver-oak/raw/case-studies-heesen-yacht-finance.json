@@ -1,0 +1,91 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/",
+  "title": "Heesen Yacht Finance",
+  "metaDescription": "Silver Oak Capital arranged $14m yacht finance at 60% LTV for a 50m Heesen yacht, with a 10-year term and tailored lending for a luxury acquisition.",
+  "summary": "Case study of a yacht acquisition loan. Amount: $14 million (US dollars). Asset: a 50-metre Heesen yacht. Leverage: 60% loan-to-value. Borrower: described as a wealthy individual (result [a]) / a wealthy Chinese national (result [b]) who wanted long-term financing and needed to buy the boat quickly. Structure: 4.25% margin over SONIA, 10-year term, repayments amortised over a 20-year profile, 2.75% lender fee. Challenge: the team had to address the yacht's valuation, its maintenance costs, regulatory compliance for maritime operations, and whether the yacht suited the buyer's preferences. Outcome: the $14m facility was arranged on the terms above. Lender identity/type, yacht location or flag, exact dates and timing to completion were not revealed by the search results.",
+  "verbatim": [
+    "[a] \"The broker describes arranging a $14 million loan for a 50-metre Heesen yacht, sized at 60% loan-to-value.\"",
+    "[a] \"The borrower was a wealthy individual who wanted long-term financing to buy the boat quickly.\"",
+    "[a] \"The stated terms were a 4.25% margin over SONIA, a 10-year term, repayments amortised over 20 years, and a 2.75% lender fee.\"",
+    "[a] \"The page also says the team had to address valuation, maintenance costs, regulatory compliance for maritime operations, and whether the yacht suited the buyer's preferences.\"",
+    "[a] (marine-finance page) \"Silver Oak's marine finance page says it typically finances yachts over 20 metres, and that its lenders can use export credit support for newly built yachts.\"",
+    "[a] (case-studies index) \"Another Silver Oak yacht case study, a Fleming 78 purchase, is listed on the case studies index.\"",
+    "[b] \"Silver Oak arranged a $14 million loan covering 60% of the value of a 50-metre Heesen yacht. The term was 10 years.\"",
+    "[b] (parenthetical snippet, probable meta description) \"Silver Oak Capital arranged $14m yacht finance at 60% LTV for a 50m Heesen yacht, with a 10-year term and tailored lending for a luxury acquisition.\"",
+    "[b] \"The listed interest rate was 4.25% plus SONIA, with repayments amortised over 20 years and a 2.75% lender fee.\"",
+    "[b] \"The main issues were the yacht's valuation, maintenance costs, and regulatory compliance for maritime use, along with fitting the yacht to the borrower's preferences.\"",
+    "[b] \"The borrower was a wealthy Chinese national seeking long-term finance quickly. The case study describes this profile in general terms only.\"",
+    "[b] (yacht-finance-calculator page) \"It says standard yacht mortgages typically run 5 to 7 years with a balloon payment of around 25% of the loan, and that leasing is the other common option.\""
+  ],
+  "services": [
+    "Yacht finance / superyacht finance (acquisition loan on a 50-metre Heesen)",
+    "Marine / boat finance (related page /marine-finance/, titled 'Boat Finance UK')"
+  ],
+  "lenderTypes": [
+    "Not stated in results: the lender is described only via a '2.75% lender fee'; its type (private bank, specialist marine lender, etc.) is not named",
+    "Related marine-finance page: Silver Oak's lenders 'can use export credit support for newly built yachts' [a]"
+  ],
+  "useCases": [
+    "Acquisition of a 50-metre Heesen yacht by a wealthy individual wanting long-term financing and a quick purchase",
+    "Long-term (10-year) amortising yacht mortgage as an alternative to the 5-7 year balloon structure described on the yacht-finance-calculator page"
+  ],
+  "terms": [
+    "SONIA (Sterling Overnight Index Average) - floating reference rate; margin 4.25% over SONIA",
+    "Loan-to-value (LTV) - 60%",
+    "Amortisation - repayments amortised over 20 years on a 10-year term",
+    "Lender fee - 2.75%",
+    "Balloon payment - around 25% of the loan on standard 5-7 year yacht mortgages (calculator page)",
+    "Export credit support - available to lenders for newly built yachts (marine-finance page)",
+    "Leasing - 'the other common option' for yacht finance (calculator page)"
+  ],
+  "eligibility": [
+    "Borrower profile in this deal: wealthy individual [a] / wealthy Chinese national [b], seeking long-term finance quickly",
+    "Marine-finance page: Silver Oak 'typically finances yachts over 20 metres' [a]",
+    "No explicit eligibility criteria (minimum net worth, residency, deposit) were revealed by the search results"
+  ],
+  "processSteps": [
+    "Addressed the yacht's valuation",
+    "Addressed maintenance costs",
+    "Addressed regulatory compliance for maritime operations / maritime use",
+    "Assessed whether the yacht suited the buyer's preferences",
+    "Note: no step-by-step process (enquiry, terms, valuation, legal, drawdown) or timeline was revealed by the search results"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "$14 million loan arranged", "kind": "deal-amount"},
+    {"claim": "60% loan-to-value", "kind": "leverage"},
+    {"claim": "50-metre Heesen yacht", "kind": "asset"},
+    {"claim": "4.25% margin over SONIA", "kind": "pricing"},
+    {"claim": "10-year term", "kind": "term"},
+    {"claim": "Repayments amortised over 20 years", "kind": "structure"},
+    {"claim": "2.75% lender fee", "kind": "fee"},
+    {"claim": "Borrower: wealthy individual [a] / wealthy Chinese national [b] seeking long-term finance quickly", "kind": "borrower"},
+    {"claim": "Silver Oak typically finances yachts over 20 metres (marine-finance page)", "kind": "related-page"},
+    {"claim": "Lenders can use export credit support for newly built yachts (marine-finance page)", "kind": "related-page"},
+    {"claim": "Standard yacht mortgages typically run 5 to 7 years with a balloon payment of around 25% of the loan; leasing is the other common option (yacht-finance-calculator page)", "kind": "related-page"},
+    {"claim": "A Fleming 78 yacht purchase is another case study listed on the case studies index", "kind": "related-page"}
+  ],
+  "geography": [
+    "Borrower: Chinese national (per result [b] only; result [a] says 'wealthy individual')",
+    "Loan currency: US dollars ($14m)",
+    "Yacht location, flag state and lender jurisdiction: not stated in results"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/marine-finance/",
+    "https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/",
+    "https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/",
+    "https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/",
+    "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/residential-portfolio-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/successful-refinance-3-5-million-loan/"
+  ],
+  "confidence": "medium",
+  "notes": "Sources: two WebSearch extended calls, [a] = exact URL query, [b] = site:silveroakcapital.co.uk Heesen yacht finance case study. The page itself could not be opened (direct fetching blocked); all content comes from the search tool's result summaries, which are paraphrases rather than confirmed page copy, except the parenthetical in [b] that reads like the page's meta description (recorded in metaDescription as probable, not confirmed). Core figures ($14m, 60% LTV, 50m Heesen, 4.25% over SONIA, 10-year term, 20-year amortisation, 2.75% lender fee, valuation/maintenance/regulatory/preference challenges) appear identically in both results, hence medium rather than low confidence. Discrepancy: [a] describes the borrower as a 'wealthy individual', [b] as a 'wealthy Chinese national'; [b] adds that the profile is described 'in general terms only'. Not revealed: H1 (link title 'Heesen Yacht Finance' is the page title), lender name/type, completion timing or date, yacht flag/location, yacht age or builder-delivery status, calls to action, FAQ, the client's purpose beyond acquisition. Pricing note: SONIA is a sterling rate while the loan is in US dollars - recorded as stated, not reconciled. Two case-study URLs not present in seed.json surfaced: /case-studies/residential-portfolio-refinance/ and /case-studies/successful-refinance-3-5-million-loan/. Unrelated results ignored: taylor.agency 'Heesen Yachts Case Study' (a marketing agency), Wikipedia 'Heesen Yachts' and 'List of yachts built by Heesen'. Related-page facts (marine-finance page, yacht-finance-calculator page, Fleming 78 case study) are recorded as context and tagged as such; they are not content of the Heesen page.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-heesen-yacht-finance.json"
+}

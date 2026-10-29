@@ -1,0 +1,112 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/",
+  "title": "Development Finance LTV, LTC & LTGDV Explained",
+  "summary": "Blog article (not a case study). Thesis: three lending metrics set how much a developer can borrow on a development loan - loan-to-value (LTV, the loan against the site's current value), loan-to-cost (LTC, the loan against total project cost including land, build and fees) and loan-to-gross-development-value (LTGDV, the loan against the projected completed value). The article says these metrics directly affect the maximum loan available, the equity the developer must contribute and whether the project is financially viable. Concrete guidance revealed: two worked examples - a GBP 5m site with a GBP 3m day-one advance = 60% LTV, and a GBP 4m completed scheme with a GBP 2.8m facility = 70% LTGDV; LTV is said to be most relevant when the developer plans to purchase the site first or refinance an existing facility secured on the site; LTC is described as typically up to 85%-90%. Sibling Silver Oak pages surfaced by the same search add market caps (senior lenders usually cap at 65%-70% of GDV; 75% LTGDV / 90% LTC usually applies to residential schemes with commercial capped lower; lenders generally not above 90%-95% LTC; land without planning unlikely to secure over 50% LTV; stretch senior up to 75% GDV or 90% LTC at a blended 8%-10% p.a. plus execution fees) and note that lenders heavily scrutinise the borrower's equity contribution. The full article text, H1, meta description, author, publication date, section headings, FAQ and calls to action were NOT revealed by the search results.",
+  "verbatim": [
+    "[a] Search-result title: \"Development Finance LTV, LTC & LTGDV Explained\"",
+    "[a] \"It explains the three lending metrics that set how much a developer can borrow: loan-to-value (LTV), loan-to-cost (LTC), and loan-to-gross-development-value (LTGDV).\"",
+    "[a] \"Those metrics directly affect the maximum loan available, the equity the developer must contribute, and whether the project is financially viable.\"",
+    "[a] \"Its worked examples include a £5m site with a £3m day-one advance, which gives a 60% LTV, and a £4m completed scheme with a £2.8m facility, which gives a 70% LTGDV.\"",
+    "[a] \"The search didn't return the full Silver Oak article, only excerpts\"",
+    "[b] \"LTV (loan to value) is the loan against the site's current value. The article's example is a £5m site with a £3m day-one advance, giving 60%.\"",
+    "[b] \"LTV is usually most relevant when the developer plans to purchase the site first or refinance an existing facility secured on the site.\"",
+    "[b] \"LTC (loan to cost) is the loan against total project cost, including land, build, and fees. Typically up to 85% – 90%.\"",
+    "[b] \"A separate requirements article says lenders will generally not go above 90%-95%LTC on a development.\" (attributed to /development-finance-requirements-in-the-uk-explained/)",
+    "[b] \"LTGDV (loan to gross development value) is the loan against the projected completed value.\"",
+    "[b] \"The senior development page puts lender's usually cap out at 65% – 70% of GDV for development loans.\" (attributed to /senior-development-finance/)",
+    "[b] \"The FAQ says the 75% LTGDV / 90% LTC figures usually apply to residential schemes, and commercial schemes may be capped lower.\" (attributed to /faq/)",
+    "[b] \"Land without planning is harder to finance. Typically, land without planning is unlikely to secure financing over 50% LTV.\" (Silver Oak page, most likely /post-planning-land-acquisitions/)",
+    "[b] \"Stretch senior finance combines senior and mezzanine debt in one facility. Silver Oak Capital helps secure up to 75% of GDV or 90% of LTC in a single transaction.\" (attributed to /stretch-senior-development-finance/)",
+    "[b] \"The page also notes it is a \\\"blended\\\" cost, typically between 8% and 10% per annum (plus execution fees).\" (attributed to /stretch-senior-development-finance/)",
+    "[b] \"Lenders also look at the developer's equity. Lenders will heavily scrutinise the borrower equity contribution to the development.\" (Silver Oak page, not identified)",
+    "[b] \"The most recent pages are about 114 to 213 days old.\" (search tool dating of Silver Oak pages, relative to 2026-10-29)"
+  ],
+  "services": [
+    "Property development finance (brokerage)",
+    "Senior development finance",
+    "Stretch senior development finance (senior + mezzanine in one facility)",
+    "Mezzanine / junior development debt (implied by stretch senior description)",
+    "Post-planning land acquisition finance",
+    "Development finance requirements / borrowing advice (blog content)"
+  ],
+  "claims": [
+    {"claim": "Worked example: £5m site with a £3m day-one advance = 60% LTV", "kind": "worked-example [a][b]"},
+    {"claim": "Worked example: £4m completed scheme (GDV) with a £2.8m facility = 70% LTGDV", "kind": "worked-example [a]"},
+    {"claim": "LTV, LTC and LTGDV directly affect the maximum loan available, the equity the developer must contribute, and whether the project is financially viable", "kind": "thesis [a]"},
+    {"claim": "LTV is usually most relevant when the developer plans to purchase the site first or refinance an existing facility secured on the site", "kind": "guidance [b]"},
+    {"claim": "LTC typically up to 85% – 90%", "kind": "market-range [b] (Silver Oak pages; exact page not pinned)"},
+    {"claim": "Lenders will generally not go above 90%-95% LTC on a development", "kind": "market-range [b] (/development-finance-requirements-in-the-uk-explained/)"},
+    {"claim": "Lenders usually cap out at 65% – 70% of GDV for development loans", "kind": "market-range [b] (/senior-development-finance/)"},
+    {"claim": "75% LTGDV / 90% LTC figures usually apply to residential schemes; commercial schemes may be capped lower", "kind": "market-range [b] (/faq/)"},
+    {"claim": "Land without planning is unlikely to secure financing over 50% LTV", "kind": "market-range [b] (likely /post-planning-land-acquisitions/)"},
+    {"claim": "Silver Oak Capital helps secure up to 75% of GDV or 90% of LTC in a single stretch senior transaction", "kind": "service-promise [b] (/stretch-senior-development-finance/)"},
+    {"claim": "Stretch senior is a blended cost typically between 8% and 10% per annum plus execution fees", "kind": "pricing [b] (/stretch-senior-development-finance/)"},
+    {"claim": "Lenders heavily scrutinise the borrower equity contribution to the development", "kind": "guidance [b]"},
+    {"claim": "Most recent Silver Oak pages were about 114 to 213 days old at search time (2026-10-29), i.e. roughly late March to early July 2026", "kind": "dating [b] (search-tool estimate, not page-stated)"}
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow.json",
+  "sections": [
+    {"heading": "LTV - loan to value (thematic grouping; actual heading not revealed)", "content": "The loan measured against the site's current value. Example: £5m site, £3m day-one advance = 60% LTV. Most relevant when the developer plans to purchase the site first or refinance an existing facility secured on the site. Sibling page: land without planning unlikely to secure over 50% LTV."},
+    {"heading": "LTC - loan to cost (thematic grouping; actual heading not revealed)", "content": "The loan measured against total project cost including land, build and fees. Typically up to 85%-90% per Silver Oak pages; the requirements article says lenders generally will not exceed 90%-95% LTC; FAQ says 90% LTC usually applies to residential schemes."},
+    {"heading": "LTGDV - loan to gross development value (thematic grouping; actual heading not revealed)", "content": "The loan measured against the projected completed value. Example: £4m completed scheme, £2.8m facility = 70% LTGDV. Senior development page: lenders usually cap out at 65%-70% of GDV; FAQ: 75% LTGDV usually applies to residential, commercial capped lower; stretch senior can reach 75% of GDV."},
+    {"heading": "How the metrics drive borrowing (thematic grouping; actual heading not revealed)", "content": "The three metrics directly affect the maximum loan available, the equity the developer must contribute and whether the project is financially viable. Lenders heavily scrutinise the borrower equity contribution."}
+  ],
+  "terms": [
+    "LTV (loan to value)",
+    "LTC (loan to cost)",
+    "LTGDV (loan to gross development value)",
+    "GDV (gross development value)",
+    "day-one advance",
+    "total project cost (land, build, fees)",
+    "projected completed value",
+    "senior debt",
+    "mezzanine debt",
+    "stretch senior finance",
+    "blended cost",
+    "execution fees",
+    "borrower equity contribution",
+    "land with / without planning",
+    "residential vs commercial schemes",
+    "refinance of an existing facility secured on the site"
+  ],
+  "eligibility": [
+    "Lenders heavily scrutinise the borrower equity contribution to the development [b]",
+    "Land without planning is unlikely to secure financing over 50% LTV [b]",
+    "75% LTGDV / 90% LTC usually applies to residential schemes; commercial schemes may be capped lower [b, FAQ]",
+    "Development loans usually capped at 65%-70% of GDV by lenders [b, senior development page]",
+    "Lenders generally will not go above 90%-95% LTC [b, requirements article]"
+  ],
+  "processSteps": [],
+  "faq": [],
+  "geography": [
+    "United Kingdom (implied by site context and sibling page titles such as 'Senior Development Finance UK' and 'Development Finance Requirements UK Explained'; not explicitly stated in the article excerpts)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/case-studies/finance-for-100-senior-housing-development-in-kent/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/post-planning-land-acquisitions/",
+    "https://www.silveroakcapital.co.uk/development-finance-requirements-in-the-uk-explained/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/",
+    "https://www.silveroakcapital.co.uk/stretch-senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/"
+  ],
+  "lenderTypes": [
+    "senior development lenders",
+    "mezzanine / junior lenders",
+    "stretch senior lenders (single facility combining senior and mezzanine debt)"
+  ],
+  "useCases": [
+    "Sizing a development loan against site value, total cost and end value",
+    "Purchasing a development site first (LTV test)",
+    "Refinancing an existing facility secured on the site (LTV test)",
+    "Funding land, build and fees (LTC test)",
+    "Financing land without planning (capped around 50% LTV)",
+    "Residential vs commercial development schemes (different LTGDV/LTC caps)"
+  ],
+  "notes": "Direct fetching was blocked; everything above comes from two WebSearch 'extended' calls on 2026-10-29: [a] the exact URL, [b] 'site:silveroakcapital.co.uk development finance LTV LTC LTGDV lenders borrow'. Neither returned the full article; the search tool itself said it had only excerpts. Confirmed as the article's own content by both searches: the thesis (three metrics set borrowing capacity; they drive max loan, equity requirement and viability), the GBP 5m / GBP 3m = 60% LTV example, and (from [a] only) the GBP 4m / GBP 2.8m = 70% LTGDV example. Items from [b] attributed to sibling pages (senior development page, FAQ, requirements article, stretch senior page, post-planning land page) are recorded with their attribution and may NOT appear in the article itself; the '85%-90% LTC' line and the 'equity contribution' line were attributed by the search summary to Silver Oak pages generally without naming the page. NOT revealed: H1 (the slug suggests a longer title ending 'How Lenders Decide What You Can Borrow', but this is inferred from the URL, not seen), meta description, author, publication date, section headings, FAQ block, calls to action, images. The 'sections' field is a thematic grouping of revealed content, not confirmed headings. Third-party definitions and caps returned by search [a] (Kuflink, Brickflow/land.tech, Property Tax Partners, thefinancebrokers.co.uk, FD Commercial, Statuskwo, Doulton Bridging - e.g. 'lender advances the lower of the two figures', 'first-time developers often 85% LTC and 65% LTGDV') were deliberately excluded as they are not Silver Oak content. The seed file's one-line note for this URL (LTV = loan / current value; LTC = loan / total development cost; LTGDV = loan / GDV) is consistent with what was found. The search tool's '114 to 213 days old' dating refers to Silver Oak pages generally, not specifically this article. Confidence is medium because the core thesis and two worked examples are corroborated but the bulk of the article text and structure remain unseen."
+}

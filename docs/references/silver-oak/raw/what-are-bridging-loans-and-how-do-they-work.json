@@ -1,0 +1,95 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/what-are-bridging-loans-and-how-do-they-work/",
+  "title": "What are Bridging Loans and How Do They Work?",
+  "summary": "Blog article (not a case study). Its SEO/result title is confirmed as \"What are Bridging Loans and How Do They Work?\". The exact-URL search [a] returned no Silver Oak result at all (only third-party guides, ignored). The site: search [b] returned the page plus eight sibling Silver Oak bridging pages, and the search tool's summary blended them, attributing points to \"one article\" / \"another\" without naming which. Thesis as summarised: a bridging loan is a short-term loan used to \"bridge the gap\" between a future cash flow and a current expense; the most common use is buying a new home before selling the current one, with the existing property serving as security and the loan repaid from the proceeds of sale once the old property is sold; terms quoted as between 1 and 36 months (one article) or usually 6 to 24 months (another); lenders focus mainly on the property's value and the borrower's exit plan and set a loan-to-value (LTV) ratio; interest is either rolled up and settled at the end of the term or serviced (paid regularly); rates are higher than a standard mortgage (\"double, if not triple\"), and arrangement and valuation fees add to the total. No lender names, current rates, eligibility criteria, FAQ blocks, calls to action, H1 or meta description were revealed for this page.",
+  "h1": "",
+  "metaDescription": "",
+  "sections": [
+    {"heading": "Definition (search-tool grouping, not a confirmed page heading)", "content": "[b] \"One article describes a bridging loan as a short term loan used to 'bridge the gap' between a future cash flow and a current expense.\""},
+    {"heading": "Typical use (search-tool grouping)", "content": "[b] \"The most common case is buying a new home before selling the current one. The existing property serves as security, the loan pays for the purchase, and once the new property is purchased and the old property is sold, the borrower will repay the bridging loan with the proceeds of sale.\""},
+    {"heading": "Term (search-tool grouping)", "content": "[b] \"Estimates vary by article. One gives between 1 and 36 months, another says usually between 6 to 24 months.\""},
+    {"heading": "What lenders focus on (search-tool grouping)", "content": "[b] \"Lenders care mainly about the property's value and the borrower's exit plan. The lender assesses the property's value and determines the loan-to-value (LTV) ratio.\""},
+    {"heading": "Interest (search-tool grouping)", "content": "[b] \"Interest is usually charged either as rolled-up interest, settled at the end of the term, or serviced, meaning paid regularly to the lender.\""},
+    {"heading": "Cost (search-tool grouping)", "content": "[b] \"Rates are higher than a standard mortgage. One article notes that bridging loans have interest rates that are double, if not triple those of traditional mortgages. Fees such as arrangement and valuation charges can add to the total.\""}
+  ],
+  "verbatim": [
+    "[a] No Silver Oak Capital result was returned for the exact-URL query; the search tool stated: \"I couldn't find the Silver Oak Capital page itself in the results, so I can't say what it specifically covers.\"",
+    "[b] Result title for the target URL: \"What are Bridging Loans and How Do They Work?\"",
+    "[b] \"The search returned several Silver Oak Capital articles on bridging loans. In short, they describe a bridging loan as a short-term loan that covers a timing gap, usually secured against property, and repaid when a sale or refinance comes through.\"",
+    "[b] \"One article describes a bridging loan as a short term loan used to \\\"bridge the gap\\\" between a future cash flow and a current expense.\"",
+    "[b] \"The most common case is buying a new home before selling the current one.\"",
+    "[b] \"The existing property serves as security, the loan pays for the purchase, and once the new property is purchased and the old property is sold, the borrower will repay the bridging loan with the proceeds of sale.\"",
+    "[b] \"Estimates vary by article. One gives between 1 and 36 months, another says usually between 6 to 24 months.\"",
+    "[b] \"Lenders care mainly about the property's value and the borrower's exit plan. The lender assesses the property's value and determines the loan-to-value (LTV) ratio.\"",
+    "[b] \"Interest is usually charged either as rolled-up interest, settled at the end of the term, or serviced, meaning paid regularly to the lender.\"",
+    "[b] \"Rates are higher than a standard mortgage. One article notes that bridging loans have interest rates that are double, if not triple those of traditional mortgages. Fees such as arrangement and valuation charges can add to the total.\"",
+    "[b] \"I did not find details on specific lenders, current rates, or eligibility criteria in these results.\""
+  ],
+  "services": [
+    "Bridging loans (short-term, property-secured finance)",
+    "Bridge-to-purchase: buying a new home before selling the current one (described as the most common case)",
+    "Related site service seen in results: Crypto Bridging Advisory - Bitcoin Loans (/crypto-bridging-advisory/)"
+  ],
+  "terms": [
+    "bridging loan",
+    "bridge the gap",
+    "future cash flow / current expense",
+    "security (existing property)",
+    "proceeds of sale",
+    "exit plan",
+    "loan-to-value (LTV) ratio",
+    "rolled-up interest",
+    "serviced interest",
+    "arrangement fee",
+    "valuation fee",
+    "refinance"
+  ],
+  "eligibility": [
+    "[b] Lenders care mainly about the property's value and the borrower's exit plan (no explicit eligibility criteria revealed)",
+    "[b] Loan is usually secured against property; the existing property serves as security in the buy-before-sell case",
+    "[b] Search tool: \"I did not find details on specific lenders, current rates, or eligibility criteria in these results.\""
+  ],
+  "processSteps": [
+    "[b] Existing property is put up as security",
+    "[b] Lender assesses the property's value and determines the loan-to-value (LTV) ratio",
+    "[b] Bridging loan pays for the new purchase",
+    "[b] Interest accrues either rolled up (settled at end of term) or serviced (paid regularly)",
+    "[b] Old property is sold (or a refinance completes)",
+    "[b] Borrower repays the bridging loan with the proceeds of sale"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "bridging loans have interest rates that are double, if not triple those of traditional mortgages", "kind": "cost comparison [b]; attributed to 'one article', not confirmed as this page"},
+    {"claim": "term between 1 and 36 months", "kind": "term range [b]; attributed to 'one' article, not confirmed as this page"},
+    {"claim": "term usually between 6 to 24 months", "kind": "term range [b]; attributed to 'another' article, not confirmed as this page"},
+    {"claim": "Interest is usually charged either as rolled-up interest, settled at the end of the term, or serviced, meaning paid regularly to the lender", "kind": "interest structure [b]"},
+    {"claim": "The lender assesses the property's value and determines the loan-to-value (LTV) ratio", "kind": "underwriting [b]"},
+    {"claim": "Fees such as arrangement and valuation charges can add to the total", "kind": "fees [b]"},
+    {"claim": "No lender-count, award, speed or guarantee claims surfaced for this page in either search", "kind": "absence note"}
+  ],
+  "geography": [
+    "United Kingdom (implied by sibling result titles 'Fast & Flexible Bridging Loans UK', 'A Guide for UK HNWIs' and the FCA regulation article; not stated in a snippet for this page itself)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/how-to-use-a-bridging-loan-when-youre-stuck-in-a-property-chain/ (result title: \"Stuck in a Chain? How Bridging Loans Work\")",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/ (result title: \"How Does a Bridging Loan Work?\")",
+    "https://www.silveroakcapital.co.uk/understanding-short-term-property-funding-for-uk-real-estate/ (result title: \"Fast & Flexible Bridging Loans UK\")",
+    "https://www.silveroakcapital.co.uk/crypto-bridging-advisory/ (result title: \"Crypto Bridging Advisory - Bitcoin Loans\")",
+    "https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/ (result title: \"Importance of Bridging Loans for Property Development\")",
+    "https://www.silveroakcapital.co.uk/property-bridging-finance-for-uk-high-net-worth-individuals/ (result title: \"Property Bridging Finance: A Guide for UK HNWIs\")",
+    "https://www.silveroakcapital.co.uk/why-smart-investors-choose-property-bridging-loans-in-2025/ (result title: \"Why Smart Investors Choose Property Bridging Loans in 2025?\") - NOT in seed.json articles list",
+    "https://www.silveroakcapital.co.uk/regulating-bridging-loans-through-fca-rules/amp/ (result title: \"FCA Bridging Loan Regulations Explained - Silver Oak Capital\"; AMP variant of a seed URL)"
+  ],
+  "lenderTypes": [],
+  "useCases": [
+    "[b] bridging the gap between a future cash flow and a current expense",
+    "[b] buying a new home before selling the current one (most common case)",
+    "[b] repayment via sale of the old property or via refinance"
+  ],
+  "confidence": "low",
+  "notes": "Title confidence is high (the exact URL appeared in search [b] with the title 'What are Bridging Loans and How Do They Work?'). Content confidence is low: search [a] on the exact URL returned no Silver Oak result (only third-party guides from Medium, Enness, Experian, Together, Defacto, GoCardless, Wikipedia, Casaplorer, FirstBank, all ignored), and the [b] summary explicitly blends 'several Silver Oak Capital articles', attributing statements to 'one article' / 'another' without identifying which, so none of the quoted content can be pinned to this specific page. The 'sections' headings are the search tool's grouping, not confirmed page headings. H1 and meta description were not revealed (left empty). No FAQ block, CTA, lender name, rate figure or eligibility list surfaced. New discoveries for the crawl: a previously unseen article URL /why-smart-investors-choose-property-bridging-loans-in-2025/, an AMP variant /regulating-bridging-loans-through-fca-rules/amp/, and a title-suffix pattern '... - Silver Oak Capital'. The seed URL /understanding-short-term-property-funding-for-uk-real-estate/ carries an SEO title ('Fast & Flexible Bridging Loans UK') that differs from its slug. Searches run: exactly 2 (both mode extended); refused: 0.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/what-are-bridging-loans-and-how-do-they-work.json"
+}

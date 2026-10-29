@@ -1,0 +1,115 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/",
+  "title": "Country Estate Refinance Case Study - Silver Oak Capital",
+  "summary": "Case study of a refinance of a large English countryside estate. A Monaco-based introducer approached Silver Oak Capital for help refinancing a borrower's costly/expensive short-term debt, which had been used to fund a high-spec refurbishment of the property; the property was vacant at the time of enquiry. Result (a) frames the request as 'help with a private bank'; result (b) describes the need as 'a refinance on a standard Buy to Let mortgage, on a full interest only basis'. The deal was sized at 65% loan-to-value on a £7 million valuation. The borrower's income was irregular, so several income sources, including capital disposals, were documented/evidenced through a detailed accountant's letter. Outcome, described by the page as a 'dry lending' solution: £4.55 million GBP loan, 65% LTV, 2.89% variable rate, 5-year term, full interest only, 0.50% bank fee, no AUM (assets under management / wealth management) requirement. Neither result states when the deal completed; search metadata dates the page listing at roughly 230 days before the search (i.e. around March 2026).",
+  "verbatim": [
+    "[a] \"The page describes a refinance of a large English countryside estate.\"",
+    "[a] \"A Monaco-based introducer approached the firm for help with a private bank, after a borrower's costly short-term debt on the vacant property was used to fund a high-spec refurbishment.\"",
+    "[a] \"The 'dry lending' solution offered the following terms: £4.55 million GBP loan, 65% loan to value, 2.89% variable rate, 5-year term, full interest only, 0.50% bank fee, and no AUM requirement.\"",
+    "[a] \"The valuation was £7 million.\"",
+    "[a] \"The borrower's income was irregular, so several income sources, including capital disposals, were documented through a detailed accountant's letter.\"",
+    "[a] \"The search metadata dates the page at about 230 days old, so the terms may no longer be current.\"",
+    "[b] \"A Monaco-based introducer asked for help refinancing expensive short-term debt on a large English countryside estate.\"",
+    "[b] \"The property was vacant at the time of enquiry.\"",
+    "[b] \"The borrower had used that debt to refurbish it, so a refinance on a standard Buy to Let mortgage, on a full interest only basis was needed.\"",
+    "[b] \"The deal was sized at 65% loan-to-value on a £7 million valuation.\"",
+    "[b] \"The borrower's income was irregular, so the accountant's letter had to evidence several sources, including capital disposals.\"",
+    "[b] \"The reported outcome was a £4.55 million loan at 65% LTV, at a 2.89% variable rate on a five-year term, with no wealth management requirement.\"",
+    "[b] \"The page describes this as a \\\"dry lending\\\" solution.\"",
+    "[b] \"The results also do not say when the country estate case was completed.\""
+  ],
+  "services": [
+    "Refinance of short-term (bridging-type) debt onto a longer-term facility",
+    "Private bank mortgage / 'dry lending' (no AUM requirement) [a]",
+    "Buy to Let mortgage, full interest only basis [b]",
+    "Large residential mortgage secured on a country estate (England)",
+    "Introducer-sourced transaction (Monaco-based introducer)"
+  ],
+  "claims": [
+    {"claim": "Loan amount: £4.55 million GBP", "kind": "deal-figure"},
+    {"claim": "Loan to value: 65%", "kind": "deal-figure"},
+    {"claim": "Property valuation: £7 million", "kind": "deal-figure"},
+    {"claim": "Interest rate: 2.89% variable", "kind": "deal-figure"},
+    {"claim": "Term: 5 years", "kind": "deal-figure"},
+    {"claim": "Repayment basis: full interest only", "kind": "deal-structure"},
+    {"claim": "Bank fee: 0.50% [a only]", "kind": "deal-figure"},
+    {"claim": "No AUM requirement [a] / no wealth management requirement [b]", "kind": "deal-structure"},
+    {"claim": "Described by the page as a 'dry lending' solution", "kind": "positioning"},
+    {"claim": "Borrower's irregular income accepted on the strength of a detailed accountant's letter evidencing several income sources including capital disposals", "kind": "underwriting-outcome"},
+    {"claim": "Property was vacant at the time of enquiry", "kind": "deal-context"},
+    {"claim": "Existing debt was costly/expensive short-term debt used to fund a high-spec refurbishment", "kind": "deal-context"},
+    {"claim": "Introducer was Monaco-based", "kind": "deal-context"},
+    {"claim": "Page listing dated about 230 days before the search (search run 2026-10-29)", "kind": "metadata"}
+  ],
+  "terms": [
+    "dry lending (lending with no AUM / wealth management requirement)",
+    "AUM requirement (assets under management)",
+    "wealth management requirement",
+    "loan to value (LTV)",
+    "variable rate",
+    "full interest only",
+    "bank fee",
+    "short-term debt",
+    "high-spec refurbishment",
+    "refinance",
+    "Buy to Let mortgage",
+    "private bank",
+    "accountant's letter",
+    "capital disposals",
+    "irregular income",
+    "introducer",
+    "valuation",
+    "vacant property"
+  ],
+  "eligibility": [
+    "Borrower with irregular income was accommodated: income evidenced through a detailed accountant's letter covering several sources, including capital disposals [a][b]",
+    "Property vacant at the time of enquiry did not prevent the refinance [b]",
+    "No AUM / wealth management requirement imposed by the lender [a][b]",
+    "Lending at 65% LTV against a £7 million valuation on a large English countryside estate [a][b]"
+  ],
+  "processSteps": [
+    "A Monaco-based introducer approached Silver Oak Capital on behalf of the borrower [a][b]",
+    "Need identified: refinance costly/expensive short-term debt that had funded a high-spec refurbishment of a vacant large English countryside estate [a][b]",
+    "Target solution: private bank 'dry lending' [a] / standard Buy to Let mortgage on a full interest only basis [b]",
+    "Deal sized at 65% LTV on a £7 million valuation [a][b]",
+    "Irregular income documented via a detailed accountant's letter evidencing several income sources including capital disposals [a][b]",
+    "Outcome: £4.55m loan, 65% LTV, 2.89% variable, 5-year term, full interest only, 0.50% bank fee, no AUM requirement [a][b]"
+  ],
+  "faq": [],
+  "geography": [
+    "England (large English countryside estate - exact county/region not stated)",
+    "Monaco (location of the introducer)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/cotsworlds-listed/",
+    "https://www.silveroakcapital.co.uk/case-studies/successful-refinance-3-5-million-loan/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/",
+    "https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-loan-land-with-planning/",
+    "https://www.silveroakcapital.co.uk/case-studies/g650/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/"
+  ],
+  "lenderTypes": [
+    "Private bank [a]",
+    "Standard Buy to Let mortgage lender [b]",
+    "'Dry lending' lender (no AUM / wealth management requirement) [a][b]"
+  ],
+  "useCases": [
+    "Refinancing expensive short-term / bridging debt after completing a high-spec refurbishment",
+    "Long-term (5-year) interest-only refinance of a large English country estate",
+    "Securing lending for a borrower with irregular income (capital disposals evidenced by accountant's letter)",
+    "Private bank lending without an AUM / wealth management tie-in ('dry lending')",
+    "Refinancing a property that is vacant at the time of enquiry",
+    "Introducer-originated transaction (Monaco-based introducer)"
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "notes": "SOURCES: two WebSearch (extended) calls, run 2026-10-29. (a) query = exact URL; (b) query = 'site:silveroakcapital.co.uk country estate refinance case study'. Both returned the target page as top result; the deal figures (£4.55m, 65% LTV, £7m valuation, 2.89% variable, 5 years, full interest only, no AUM/wealth-management requirement, 'dry lending', Monaco introducer, vacant estate, irregular income / accountant's letter / capital disposals) are consistent across both. The 'verbatim' entries are the search tool's summary sentences, not confirmed page text; only 'dry lending' is flagged by the tool as the page's own wording. Direct fetch was not attempted (blocked). DISCREPANCIES: (a) says the introducer sought 'help with a private bank', while (b) says the need was 'a refinance on a standard Buy to Let mortgage, on a full interest only basis' - the page may say both (a BTL-basis mortgage from a private bank) but this is unconfirmed. The 0.50% bank fee appears only in (a). (a) says 'no AUM requirement', (b) says 'no wealth management requirement' - treated as the same fact. NOT REVEALED: H1 and meta description (page <title> is 'Country Estate Refinance Case Study - Silver Oak Capital'; the H1 is probably 'Country Estate Refinance' but this is inferred, not seen); borrower nationality/residence; county/region of the estate; lender name; completion date; any FAQ; any explicit calls to action; any client quote. TIMING: search metadata dates the listing at ~230 days before the search (about March 2026); the rate of 2.89% suggests an older deal but the page date is not stated in the results. RELATED CASE STUDY FACTS seen in (b) snippets (recorded for sibling agents): BVI Trust Refinance (Richmond) - £5m loan against a £12m property held in a BVI trust, 10-year interest only; £1.46m Refinance (Prime Central London) - five-year interest-only facility, lender accepted a non-standard loan purpose and combined household income; £800k Bridging Loan Refinance - Kenyan-resident borrower with no UK credit profile, refinanced at 75% LTV at 4.19% fixed for five years. NEW URLS not in seed.json: https://www.silveroakcapital.co.uk/case-studies/cotsworlds-listed/ (titled 'Cotsworlds Listed', sic) and https://www.silveroakcapital.co.uk/case-studies/successful-refinance-3-5-million-loan/ (titled 'Successful Refinance')."
+}

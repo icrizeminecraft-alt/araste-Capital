@@ -1,0 +1,101 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/which-mortgage-company-is-right-for-you/",
+  "title": "Choosing the Best Mortgage Company Guide",
+  "h1": "Which Mortgage Company Is Right for You?",
+  "summary": "Advice article (not a case study) on how to choose a mortgage company / broker. Per search [b], the guide 'advises checking reviews and focusing on a few factors': (1) customer service - reviews that describe how reachable and responsive a firm was are a good signal of its service; (2) expertise in your mortgage type - commercial and residential lending are quite different, so a firm's track record with your type of loan matters, and the guide also points to how a firm handled complex or non-standard cases; (3) reputation and success rate - this section was cut off in the search results, so its details are unknown. Search [a] (the exact URL) did not return the page at all and only surfaced other Silver Oak Capital pages (home, /commercial-mortgage-broker/, /faq/, Ts&Cs PDF) plus unrelated US firms. No author, publication date, meta description, FAQ, CTA or lender names were revealed for this article.",
+  "verbatim": [
+    "[b] SERP result title for the target URL: \"Choosing the Best Mortgage Company Guide\"",
+    "[b] Search summary states the guide is titled \"Which Mortgage Company Is Right for You?\"",
+    "[b] Search summary: the guide \"advises checking reviews and focusing on a few factors\"",
+    "[b] Customer service (tool paraphrase): \"The guide suggests reviews that describe how reachable and responsive a firm was are a good signal of its service.\"",
+    "[b] Expertise in your mortgage type (tool paraphrase): \"Commercial and residential lending are quite different, so a firm's track record with your type of loan matters. The guide also points to how a firm handled complex or non-standard cases.\"",
+    "[b] Reputation and success rate: \"This section is cut off in the results, so I couldn't see its details.\"",
+    "[b] From /find-the-perfect-mortgage-with-a-specialist-broker/ (sibling article, SERP title \"Why Use a Mortgage Broker for the Right Fit\"): \"Whether you're self-employed, have a complex credit history, or are interested in a commercial mortgage for your business, a specialist broker can ensure you get the right advice and the most competitive rates.\"",
+    "[b] From home page: \"Real Estate Finance professionals, specialising in loans over £500,000\"",
+    "[b] From /prime-residential-mortgages/ (SERP title \"Residential Mortgages UK\"): \"300+ Lenders\", which the summary says the page \"presents as independent whole-of-market advice\"",
+    "[a] From /commercial-mortgage-broker/: \"independent commercial mortgage broker that offers extraordinary rates and terms for financing commercial real estate in the UK\"",
+    "[a] From home page: \"network of over 800 lenders\"",
+    "[a] From home page: \"Main home mortgages, Buy to Lets, Holiday Lets and HMO's\"",
+    "[a] From Letting Agent Today trades directory listing (older figure of over 300 lenders): \"We arrange debt on a wide range of real estate transactions across the UK, Western Europe, the Middle East and Southern Africa\"",
+    "[a] From Ts&Cs PDF (/wp-content/uploads/2026/02/Ts-and-Cs.pdf): \"SOC does not provide regulated mortgage and insurance advice\"",
+    "[a] From Ts&Cs PDF: \"Residential mortgages are regulated by the FCA, while buy-to-let mortgages are not normally regulated by the FCA\""
+  ],
+  "sections": [
+    {"heading": "Customer service", "content": "[b] The guide suggests reviews that describe how reachable and responsive a firm was are a good signal of its service."},
+    {"heading": "Expertise in your mortgage type", "content": "[b] Commercial and residential lending are quite different, so a firm's track record with your type of loan matters. The guide also points to how a firm handled complex or non-standard cases."},
+    {"heading": "Reputation and success rate", "content": "[b] Section heading visible but body cut off in the search results; details unknown."}
+  ],
+  "services": [
+    "Mortgage brokerage / choosing a mortgage company (article topic)",
+    "Commercial mortgages (article distinguishes commercial vs residential lending) [b]",
+    "Residential mortgages [b]",
+    "Context from home page [a]: Main home mortgages, Buy to Lets, Holiday Lets and HMO's",
+    "Context from sibling article [b]: specialist broker for self-employed, complex credit history, or commercial mortgage for a business"
+  ],
+  "useCases": [
+    "Selecting a mortgage company for a commercial or residential mortgage [b]",
+    "Complex or non-standard mortgage cases (judge a firm by how it handled them) [b]",
+    "Context [b] sibling article: self-employed borrowers, complex credit history, business commercial mortgage"
+  ],
+  "lenderTypes": [
+    "Not stated in the article results. Context [b] (tool summary of sibling pages): specialist brokers can reach 'niche lenders' for complex cases; home page cites a network of over 800 lenders [a]; prime residential page cites 300+ Lenders [b]"
+  ],
+  "terms": [
+    "mortgage company",
+    "mortgage broker / specialist broker / independent broker",
+    "customer service (reachable, responsive)",
+    "commercial lending vs residential lending",
+    "track record",
+    "complex or non-standard cases",
+    "reputation and success rate",
+    "reviews",
+    "whole-of-market advice (context, prime residential page) [b]",
+    "FCA regulated residential mortgages; buy-to-let not normally FCA regulated (context, Ts&Cs) [a]"
+  ],
+  "eligibility": [
+    "Nothing eligibility-specific revealed for this article. Context only [b] (sibling article /find-the-perfect-mortgage-with-a-specialist-broker/): self-employed, complex credit history, or commercial mortgage for your business are cases where a specialist broker is recommended."
+  ],
+  "processSteps": [
+    "[b] Check reviews of the mortgage company",
+    "[b] Assess customer service: look for reviews describing how reachable and responsive the firm was",
+    "[b] Check expertise in your mortgage type: commercial and residential lending differ; look at the firm's track record with your type of loan and how it handled complex or non-standard cases",
+    "[b] Check reputation and success rate (details cut off in results)"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "network of over 800 lenders (home page) [a]", "kind": "number"},
+    {"claim": "300+ Lenders (prime residential page) [b]", "kind": "number"},
+    {"claim": "over 300 lenders (Letting Agent Today directory listing, described by the search tool as an older figure) [a]", "kind": "number"},
+    {"claim": "specialising in loans over £500,000 (home page) [a][b]", "kind": "number"},
+    {"claim": "offers extraordinary rates and terms for financing commercial real estate in the UK (/commercial-mortgage-broker/) [a]", "kind": "promise"},
+    {"claim": "a specialist broker can ensure you get the right advice and the most competitive rates (sibling article) [b]", "kind": "promise"},
+    {"claim": "independent whole-of-market advice (prime residential page, per tool summary) [b]", "kind": "positioning"},
+    {"claim": "independent commercial mortgage broker (/commercial-mortgage-broker/) [a]", "kind": "positioning"},
+    {"claim": "SOC does not provide regulated mortgage and insurance advice (Ts&Cs PDF) [a]", "kind": "regulatory"},
+    {"claim": "No awards, dates or figures were revealed for the article itself", "kind": "absence"}
+  ],
+  "geography": [
+    "United Kingdom (article context: UK mortgage market; FCA references in Ts&Cs) [a][b]",
+    "Context [a] directory listing: UK, Western Europe, the Middle East and Southern Africa",
+    "No geography stated in the visible article content"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/prime-residential-mortgages/",
+    "https://www.silveroakcapital.co.uk/find-the-perfect-mortgage-with-a-specialist-broker/",
+    "https://www.silveroakcapital.co.uk/tips-for-first-time-commercial-property-buyers/",
+    "https://www.silveroakcapital.co.uk/what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/wp-content/uploads/2026/02/Ts-and-Cs.pdf",
+    "external: https://www.lettingagenttoday.co.uk/trades-directory/silver-oak-capital/",
+    "external: https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital"
+  ],
+  "confidence": "medium",
+  "notes": "Exactly 2 WebSearch calls run, 0 refused. Search [a] (exact URL, extended) did NOT return the target page; it returned other Silver Oak Capital pages plus unrelated firms that were ignored (Silver Oak Mortgage, Farmington NM on MapQuest; sofunding.net 'Silver Oak Funding'; silveroaklenders.com 'Silver Oak Lending'). Search [b] (site: + keywords, extended) returned the target page as top result with SERP title 'Choosing the Best Mortgage Company Guide' and the search tool's summary gave the article title as 'Which Mortgage Company Is Right for You?' plus three criteria (customer service; expertise in your mortgage type; reputation and success rate), the third being cut off. The tool output does not preserve quote marks, so 'verbatim' entries are as rendered by the tool and some are explicitly tool paraphrases (flagged). Meta description, author, publication date, images, FAQ block, CTAs and footer details were not revealed, so metaDescription is omitted rather than invented. SERP titles observed for other pages (useful to siblings): home = 'Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions'; /commercial-mortgage-broker/ = 'Commercial Mortgage Brokers - Silver Oak Capital'; /faq/ = 'Property Finance FAQs'; /prime-residential-mortgages/ = 'Residential Mortgages UK'; /find-the-perfect-mortgage-with-a-specialist-broker/ = 'Why Use a Mortgage Broker for the Right Fit'; /what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/ = 'High Net Worth Property Funding UK Guide'; /different-ways-to-finance-new-build-homes-in-the-uk/ = 'Best Finance Options for New Build Homes'; /tips-for-first-time-commercial-property-buyers/ = 'Tips for first time commercial property buyers' (this URL is NOT in seed.json's article list - new discovery). The mortgage118.com listing places 'Silver Oak Capital, Hackney', which conflicts with the seed's Wimpole Street W1 office; treat as an unverified third-party directory. Lender-count figures (800+, 300+) are consistent with the seed's lenderCountClaims. The search tool's closing caveat that these are marketing claims, not independent reviews, is the tool's commentary, not site content.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/which-mortgage-company-is-right-for-you.json"
+}

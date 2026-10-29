@@ -1,0 +1,95 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/",
+  "title": "Silver Oak Capital added to Spear’s 500 list for 2022",
+  "summary": "Not a deal case study: a news/award item filed under /case-studies/. Per the search tool's summaries, the page announces that Silver Oak Capital and its founder Jimmy Baillie were included in the Spear's 500 list (stated on the page as 2022/2023; the title says 2022) and links to Baillie's full adviser profile on spears500.com. The page is reported to say the firm was set up in 2019 after Baillie saw a gap in specialist advice for loans of £2 million and above. The linked Spear's 500 profile (spears500.com/adviser/22953/jimmy-baillie) describes the firm as advising high-net-worth clients on secured loans of roughly £2m to £20m, arranging real estate debt in the UK, Western Europe, Southern Africa and the Middle East, with a network of more than 800 lenders worldwide. No deal amount, asset, borrower, lender, structure, timing, challenge or outcome applies; no publication date, author, H1 or meta description was revealed by the search results.",
+  "verbatim": [
+    "[a] result title: \"Silver Oak Capital added to Spear’s 500 list for 2022\"",
+    "[a] \"The page is a Silver Oak Capital case study announcing that the firm and its founder, Jimmy Baillie, were included in the Spear's 500 list.\"",
+    "[a] \"The case study says Jimmy Baillie is in the Spear's 500 for 2022/2023 and links to his full adviser profile on spears500.com.\"",
+    "[a] \"The firm was set up in 2019 after Baillie saw a gap in specialist advice for loans of £2 million and above.\"",
+    "[a] \"Baillie's Spear's 500 profile describes the firm as advising high-net-worth clients on secured loans of roughly £2 million to £20 million, arranging real estate debt in the UK, Western Europe, Southern Africa and the Middle East.\"",
+    "[a] \"The Spear's profile cites more than 800 lenders worldwide. The firm's LinkedIn page cites 500+ private banks, investment banks, specialist lenders and debt funds across more than 100 countries.\"",
+    "[a] \"Spear's describes the Spear's 500 as a guide to top private client advisers, wealth managers, lawyers and service providers for high-net-worth individuals. The 2022 edition was one of the first to be released in print alongside a growing online database.\"",
+    "[b] \"The company's page says Jimmy Baillie was included in the Spear's 500 list for 2022/2023. The full profile is hosted on the Spear's 500 site, and the company's case study page links to it.\"",
+    "[b] \"The company describes itself as a commercial mortgage broker focused on large loans. Its site notes that the Spear's 500 logo appears on its homepage, and its about page says it has focused on advising on loans between £500K and £20m since 2019.\"",
+    "[b] \"The search results don't include the 2022 Spear's 500 list itself, so the company's page is the only source for the listing.\""
+  ],
+  "services": [
+    "Debt advisory for high-net-worth clients on secured loans of roughly £2m to £20m (per Spear's 500 profile, [a])",
+    "Arranging real estate debt in the UK, Western Europe, Southern Africa and the Middle East (per Spear's 500 profile, [a])",
+    "Specialist advice for loans of £2 million and above (the gap the firm was founded to fill, [a])",
+    "Commercial mortgage broker focused on large loans (firm self-description, [b])",
+    "Advising on loans between £500K and £20m (about-us page, [b])"
+  ],
+  "claims": [
+    {"claim": "Silver Oak Capital / Jimmy Baillie added to the Spear's 500 list for 2022 (page title); page text says 2022/2023", "kind": "award"},
+    {"claim": "Jimmy Baillie has an adviser profile on spears500.com in the Debt Advisory Index (spears500.com/adviser/22953/jimmy-baillie)", "kind": "award"},
+    {"claim": "Firm set up in 2019 after Baillie saw a gap in specialist advice for loans of £2 million and above", "kind": "firm-fact"},
+    {"claim": "Advises high-net-worth clients on secured loans of roughly £2 million to £20 million (Spear's profile)", "kind": "number"},
+    {"claim": "Arranges real estate debt in the UK, Western Europe, Southern Africa and the Middle East (Spear's profile)", "kind": "geography"},
+    {"claim": "More than 800 lenders worldwide (Spear's profile, per [a])", "kind": "number"},
+    {"claim": "500+ private banks, investment banks, specialist lenders and debt funds across more than 100 countries (firm's LinkedIn page, per [a]; not the case-study page)", "kind": "number"},
+    {"claim": "Spear's 500 logo appears on the Silver Oak Capital homepage (per [b])", "kind": "award"},
+    {"claim": "Has focused on advising on loans between £500K and £20m since 2019 (about-us page, per [b])", "kind": "number"},
+    {"claim": "Spear's 500 is a guide to top private client advisers, wealth managers, lawyers and service providers for high-net-worth individuals; the 2022 edition was one of the first released in print alongside an online database (Spear's own description, per [a])", "kind": "third-party-context"}
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-silver-oak-capital-added-to-spears-500-list-for-2022.json",
+  "terms": [
+    "Spear's 500",
+    "Debt Advisory Index",
+    "high-net-worth clients",
+    "secured loans",
+    "real estate debt",
+    "commercial mortgage broker",
+    "large loans",
+    "private banks",
+    "investment banks",
+    "specialist lenders",
+    "debt funds"
+  ],
+  "eligibility": [
+    "High-net-worth clients (Spear's profile wording, [a])",
+    "Secured loans of roughly £2 million to £20 million (Spear's profile, [a])",
+    "Loans of £2 million and above (stated as the specialist-advice gap the firm was founded to address, [a])",
+    "Loans between £500K and £20m (about-us page, [b]; broader than the Spear's figure)"
+  ],
+  "processSteps": [],
+  "faq": [],
+  "geography": [
+    "United Kingdom",
+    "Western Europe",
+    "Southern Africa",
+    "Middle East"
+  ],
+  "ctas": [
+    "Link to Jimmy Baillie's full adviser profile on spears500.com (the only outbound action the search summaries attribute to the page, [a][b])"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/prime-residential-mortgages/",
+    "https://www.silveroakcapital.co.uk/about-us/"
+  ],
+  "lenderTypes": [
+    "private banks (LinkedIn, per [a])",
+    "investment banks (LinkedIn, per [a])",
+    "specialist lenders (LinkedIn, per [a])",
+    "debt funds (LinkedIn, per [a])"
+  ],
+  "useCases": [
+    "Secured lending of roughly £2m to £20m for high-net-worth clients (Spear's profile, [a])",
+    "Real estate debt in the UK, Western Europe, Southern Africa and the Middle East (Spear's profile, [a])"
+  ],
+  "sections": [
+    {"heading": "Announcement", "content": "The page announces that Silver Oak Capital and its founder Jimmy Baillie were included in the Spear's 500 list. The title says 2022; the page text is reported to say 2022/2023. The page links to Baillie's full adviser profile on spears500.com (Debt Advisory Index, adviser id 22953). Sources: [a], [b]."},
+    {"heading": "Founder and firm origin", "content": "The firm was set up in 2019 after Jimmy Baillie saw a gap in specialist advice for loans of £2 million and above. Source: [a]. (Seed file: Baillie is Founder & Managing Director; one page mentions 2018.)"},
+    {"heading": "Spear's 500 profile content (linked, not on the page itself)", "content": "Advises high-net-worth clients on secured loans of roughly £2 million to £20 million; arranges real estate debt in the UK, Western Europe, Southern Africa and the Middle East; cites more than 800 lenders worldwide. Source: [a]."},
+    {"heading": "About the Spear's 500 (third-party context)", "content": "Spear's describes the Spear's 500 as a guide to top private client advisers, wealth managers, lawyers and service providers for high-net-worth individuals. The 2022 edition was one of the first released in print alongside a growing online database. Source: [a], from spearswms.com and spears500.com results."},
+    {"heading": "Related firm positioning seen in [b]", "content": "The company describes itself as a commercial mortgage broker focused on large loans; the Spear's 500 logo appears on its homepage; the about-us page says it has focused on advising on loans between £500K and £20m since 2019."},
+    {"heading": "Deal fields", "content": "Not applicable: this is an award/news item, not a transaction. No amount, asset, location, borrower type, lender type, structure, timing, challenge or outcome is present in the results."}
+  ],
+  "notes": "Direct fetch blocked; all content comes from the WebSearch tool's own summaries of search snippets, not from the page's raw text, so quotes tagged [a]/[b] are the tool's paraphrase rather than confirmed page sentences (the only confirmed page-level string is the result title, which renders with a typographic apostrophe: Spear’s). H1, meta description, publication date and author were not revealed; the result title likely mirrors the H1 but this is unconfirmed, so h1/metaDescription are omitted. The page sits under /case-studies/ but is an award announcement, not a deal. Year ambiguity: title says 2022, page text reportedly says 2022/2023. Lender-count discrepancy: [a] says the Spear's profile cites more than 800 lenders worldwide, whereas the seed file attributes a 300+ figure to Spear's; [a] also records 500+ from LinkedIn. Loan-size ranges differ by source: £2m–£20m (Spear's profile), £2m and above (founding rationale), £500K–£20m (about-us). External URLs seen: https://spears500.com/adviser/22953/jimmy-baillie (title: Jimmy Baillie - Spear's 500 Adviser Profile - Debt Advisory Index), https://spearswms.com/wealth/the-spears-500-2022-out-now/, https://spears500.com/, https://www.linkedin.com/company/silver-oak-capital/. Other site pages surfaced in [b] with titles: home (Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions), /case-studies/ (Silver Oak Capital Case Studies), /prime-residential-mortgages/ (Residential Mortgages UK), /about-us/ (About Us - Jimmy Baillie). Unrelated results ignored: Black Brick, Lockhart Capital Management, Silver Lake, Wikipedia rich-list pages. Confidence medium because the award, the founder, the 2019 founding and the spears500.com profile are corroborated by two independent searches, but the page body itself was never seen verbatim."
+}

@@ -1,0 +1,103 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/secure-the-best-business-loan-with-expert-brokerage-services/",
+  "title": "Secure the Best Business Loan with Expert Brokerage Services",
+  "h1": "Not revealed by search results (title tag only: \"Secure the Best Business Loan with Expert Brokerage Services\")",
+  "metaDescription": "Not revealed by search results",
+  "summary": "Promotional blog article presenting Silver Oak Capital's business-loan brokerage service. Thesis (per search summaries): a broker sits between borrowers and lenders and helps a business obtain a loan that fits its growth plans. Concrete guidance described: the broker assesses the business's needs, compares lenders, handles the application paperwork and approvals, and advises on alternatives/short-term options such as bridging loans. The firm claims brokers can reach high-street banks, specialist lenders and private funders, and that they aim to secure competitive rates. The page highlights commercial mortgages for buying or refinancing business property. The article contains no pricing, fees or regulatory details according to the search summary. No verbatim page text was returned; only the title and the search tool's paraphrased summaries.",
+  "verbatim": [
+    "[a] Title: \"Secure the Best Business Loan with Expert Brokerage Services\"",
+    "[a] \"It's a promotional piece for the firm's broker service.\"",
+    "[a] \"The article lists the broker's job as assessing a business's needs, comparing lenders, and handling paperwork and approvals. It also covers advising on short-term options such as bridging loans.\"",
+    "[a] \"The firm says brokers can reach high-street banks, specialist lenders, and private funders, and that they aim to secure competitive rates.\"",
+    "[a] \"The page highlights commercial mortgages for buying or refinancing business property.\"",
+    "[a] \"The article itself contains no pricing, fees, or regulatory details, so check those directly with the firm.\"",
+    "[a] (homepage context) \"Its own homepage describes commercial mortgage brokerage, development finance, and bridging loans, and says it works with over 800 lenders. A separate commercial-mortgage page cites a network of 700+ lenders.\"",
+    "[b] \"It frames the firm as a broker that helps clients get business loans that fit their growth plans. It describes a broker's job as sitting between borrowers and lenders, covering needs assessment, lender comparison, application handling, and advice on alternatives such as bridging loans.\"",
+    "[b] (homepage context) \"Its homepage says it is a Real Estate Finance professional, specialising in loans over £500,000.\"",
+    "[b] (commercial mortgage page context) \"A page on the firm's commercial mortgage service says it works with 700+ Lenders, while its homepage gives a different figure of over 800 lenders.\"",
+    "[b] \"The search results contain no independent reviews or regulatory details\""
+  ],
+  "services": [
+    "Business loan brokerage (intermediary between borrowers and lenders)",
+    "Needs assessment for the business",
+    "Lender comparison",
+    "Application / paperwork and approvals handling",
+    "Advice on short-term alternatives such as bridging loans",
+    "Commercial mortgages for buying or refinancing business property",
+    "Access to high-street banks, specialist lenders and private funders"
+  ],
+  "claims": [
+    {"claim": "Brokers can reach high-street banks, specialist lenders, and private funders", "kind": "capability"},
+    {"claim": "They aim to secure competitive rates", "kind": "promise"},
+    {"claim": "Helps clients get business loans that fit their growth plans", "kind": "promise"},
+    {"claim": "Article contains no pricing, fees, or regulatory details (per search summary [a])", "kind": "absence"},
+    {"claim": "Homepage: works with over 800 lenders (context, not from this article)", "kind": "number"},
+    {"claim": "Commercial mortgage page: 700+ lenders (context, not from this article)", "kind": "number"},
+    {"claim": "Homepage: specialising in loans over £500,000 (context, not from this article)", "kind": "number"},
+    {"claim": "No awards or recognitions mentioned in results for this article", "kind": "absence"}
+  ],
+  "terms": [
+    "business loan",
+    "broker / brokerage services",
+    "borrowers and lenders",
+    "needs assessment",
+    "lender comparison",
+    "application handling / paperwork and approvals",
+    "bridging loans (short-term option)",
+    "commercial mortgages",
+    "refinancing business property",
+    "high-street banks",
+    "specialist lenders",
+    "private funders",
+    "competitive rates",
+    "growth plans"
+  ],
+  "eligibility": [],
+  "processSteps": [
+    "Assess the business's needs",
+    "Compare lenders (high-street banks, specialist lenders, private funders)",
+    "Handle the application paperwork and approvals",
+    "Advise on alternatives / short-term options such as bridging loans"
+  ],
+  "faq": [],
+  "geography": [
+    "United Kingdom (firm is UK-based; 'high-street banks' wording; no specific location named in results for this article)"
+  ],
+  "ctas": [],
+  "lenderTypes": [
+    "high-street banks",
+    "specialist lenders",
+    "private funders"
+  ],
+  "useCases": [
+    "Securing a business loan aligned with growth plans",
+    "Buying business property (commercial mortgage)",
+    "Refinancing business property (commercial mortgage)",
+    "Short-term funding via bridging loans"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/",
+    "https://www.silveroakcapital.co.uk/commercial-Mortgage-Broker/ (capitalised variant of the same slug, title 'Commercial Mortgage Broker UK')",
+    "https://www.silveroakcapital.co.uk/commercial-mortgages/ (title 'Commercial Mortgages UK')",
+    "https://www.silveroakcapital.co.uk/find-the-perfect-mortgage-with-a-specialist-broker/ (title 'Why Use a Mortgage Broker for the Right Fit')",
+    "https://www.silveroakcapital.co.uk/your-trusted-local-finance-brokers-for-smart-lending-solutions/",
+    "https://www.silveroakcapital.co.uk/bitcoin-loans-advisory/ (title 'Bitcoin Loans Uk')",
+    "https://www.silveroakcapital.co.uk/how-do-shared-ownership-mortgage-broker-work/",
+    "https://www.silveroakcapital.co.uk/development-finance-broker-find-the-best-funding-partner-for-your-project/ (title 'Expert Development Finance Broker'; NOT in seed.json articles list)",
+    "https://silveroakcapital.odoo.com/ (external mirror, title 'Silver Oak Capital - Real Estate & Finance Professionals')",
+    "https://www.crunchbase.com/organization/silver-oak-capital (external)",
+    "https://www.lettingagenttoday.co.uk/trades-directory/silver-oak-capital/ (external directory listing)"
+  ],
+  "sections": [
+    {"heading": "Role of a business loan broker", "content": "Sits between borrowers and lenders; assesses the business's needs, compares lenders, handles paperwork and approvals (per [a] and [b])."},
+    {"heading": "Lender access", "content": "Brokers can reach high-street banks, specialist lenders and private funders; aim to secure competitive rates (per [a])."},
+    {"heading": "Loan types highlighted", "content": "Commercial mortgages for buying or refinancing business property; bridging loans as a short-term option/alternative (per [a] and [b])."},
+    {"heading": "Not revealed", "content": "Section headings, H1, meta description, CTAs, FAQ, eligibility criteria, pricing/fees and regulatory wording were not surfaced by either search; summary [a] explicitly states the article has no pricing, fees or regulatory details."}
+  ],
+  "confidence": "low",
+  "notes": "Direct fetch blocked; both WebSearch calls returned only the page title plus the search tool's paraphrased summaries, no raw snippet text from the page body. All 'verbatim' entries are therefore quotations of the search tool's summary wording, not confirmed page copy, except the title which appeared as the result title in both searches. Two independent summaries ([a] and [b]) agree on the thesis and the four-part broker role (needs assessment, lender comparison, application handling, bridging-loan advice), which gives reasonable confidence in the outline but not in wording. Homepage and commercial-mortgage-page figures (800+ / 700+ lenders, loans over £500,000) are context from other pages surfaced in the results, consistent with seed.json, and are not attributed to this article. Unrelated namesakes surfaced and were ignored: Silver Oak Capital Partners (silveroakcp.com, US), Silver Oak Securities (US broker-dealer), Source Capital Funding, Assetz Capital. A previously unseen Silver Oak blog URL was observed: /development-finance-broker-find-the-best-funding-partner-for-your-project/.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/secure-the-best-business-loan-with-expert-brokerage-services.json"
+}

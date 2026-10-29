@@ -1,0 +1,89 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/mayfair-self-employed-equity-release/",
+  "title": "Mayfair Self Employed Equity Release",
+  "h1": "Mayfair Self Employed Equity Release (search-result title; H1 not independently confirmed)",
+  "summary": "Case study of a prime residential refinance with equity release in Mayfair, Central London. The borrower was a Mayfair homeowner and business owner with high earnings who wanted to refinance his existing mortgage and release equity to buy a holiday home in Cannes, France. The security property was valued at £10 million and the client required a 75% loan-to-value. His income came mostly from his UK company, drawn as director's loans; earnings were described as high enough to meet typical bank affordability tests. The complication was an ongoing divorce, meaning any lender needed assurance about his asset base and income after separation. Silver Oak Capital placed the deal with a London-based lender that favours UK nationals and high-value Central London homes. Terms stated: £7.5 million mortgage, 75% LTV, variable rate of 2.25% over 3-month LIBOR, 5-year term, interest-only repayments. Challenge: self-employed/director's-loan income plus divorce. Outcome: £7.5m interest-only facility secured. Timing/publication date not confirmed by the search results.",
+  "verbatim": [
+    "[a] Result title: \"Mayfair Self Employed Equity Release\"",
+    "[a] Search-tool summary: \"It describes a Mayfair homeowner, a business owner with high earnings, who wanted to refinance his mortgage and release equity to buy a holiday home in Cannes. The property value was £10 million and the client required a Loan to Value of 75%.\"",
+    "[a] Search-tool summary (income): \"The borrower drew most of his pay from his UK company as director's loans, and his earnings were high enough to meet typical bank affordability tests.\"",
+    "[a] Search-tool summary (complication): \"He was going through a divorce, so any lender would need assurance about his asset base and income after separation.\"",
+    "[a] Search-tool summary (solution): \"The broker placed the deal with a London-based lender that favours UK nationals and high-value Central London homes. The listed terms were a £7.5 million mortgage at 75% LTV, a variable rate of 2.25% over 3-month LIBOR, a 5-year term, and interest-only repayments.\"",
+    "[a] Search-tool caveat: \"The excerpt is incomplete and includes some text from other pages on the site, so I could not confirm the full narrative or the publication date. The '230 days ago' age tag suggests it was posted around early 2026.\"",
+    "[b] Search-tool summary: \"It describes a business owner in Mayfair who refinanced his mortgage and released equity to buy a holiday home in France. The property was valued at £10 million, and the case study says the deal was placed with a London-based lender at a £7.5 million mortgage, 75% loan-to-value, on interest-only terms.\"",
+    "[b] Search-tool summary of related /prime-london-mortgages/ result: \"a page on refinancing to release equity, aimed at high-net-worth buyers and business owners with dividend-led income.\"",
+    "[b] Search-tool summary of related /faq/ result: \"an FAQ says the firm's equity release product is a short-term bridging loan of up to 12 to 24 months, which is different from a retiree lifetime mortgage.\"",
+    "[b] Search-tool caveat: \"The search didn't return any page on self-employed applicants specifically. The Mayfair case study is the closest match, and the search tool showed its date inconsistently\""
+  ],
+  "services": [
+    "Equity release via refinance of a prime Central London residential mortgage",
+    "Prime London / prime residential mortgages",
+    "Interest-only mortgage for a self-employed business owner",
+    "Large-loan mortgage brokerage (£7.5m facility)"
+  ],
+  "claims": [
+    {"claim": "Security property valued at £10 million (Mayfair)", "kind": "number"},
+    {"claim": "Client required 75% loan-to-value", "kind": "number"},
+    {"claim": "£7.5 million mortgage arranged", "kind": "number"},
+    {"claim": "Variable rate of 2.25% over 3-month LIBOR", "kind": "number"},
+    {"claim": "5-year term", "kind": "number"},
+    {"claim": "Interest-only repayments", "kind": "term"},
+    {"claim": "Borrower's earnings were high enough to meet typical bank affordability tests", "kind": "statement"},
+    {"claim": "Deal placed with a London-based lender that favours UK nationals and high-value Central London homes", "kind": "statement"},
+    {"claim": "Released equity used to buy a holiday home in Cannes, France", "kind": "statement"},
+    {"claim": "Site FAQ (not this page): the firm's equity release product is a short-term bridging loan of up to 12 to 24 months, different from a retiree lifetime mortgage", "kind": "statement-from-related-page"}
+  ],
+  "terms": [
+    "Loan amount: £7.5 million",
+    "Property value: £10 million",
+    "LTV: 75%",
+    "Rate: variable, 2.25% over 3-month LIBOR",
+    "Term: 5 years",
+    "Repayment: interest-only",
+    "Lender: London-based lender favouring UK nationals and high-value Central London homes"
+  ],
+  "eligibility": [
+    "Self-employed business owner / company director (income drawn mostly as director's loans from a UK company)",
+    "High earnings sufficient to meet typical bank affordability tests",
+    "UK national (lender described as favouring UK nationals)",
+    "High-value Central London (Mayfair) home as security",
+    "Borrower going through a divorce: lender required assurance on asset base and income after separation"
+  ],
+  "processSteps": [
+    "Client sought to refinance existing Mayfair mortgage and release equity (purpose: holiday home purchase in Cannes)",
+    "Income assessed: director's loans from UK company; earnings met typical bank affordability tests",
+    "Divorce complication addressed: lender needed assurance about post-separation asset base and income",
+    "Broker placed the deal with a London-based lender favouring UK nationals and high-value Central London homes",
+    "Facility agreed: £7.5m, 75% LTV, 2.25% over 3-month LIBOR variable, 5-year term, interest-only"
+  ],
+  "faq": [
+    {"q": "Is Silver Oak Capital's equity release the same as a lifetime mortgage? (from site /faq/, surfaced in search b, not from this case study page)", "a": "Per the search-tool summary of the FAQ page: the firm's equity release product is a short-term bridging loan of up to 12 to 24 months, which is different from a retiree lifetime mortgage."}
+  ],
+  "lenderTypes": [
+    "London-based lender that favours UK nationals and high-value Central London homes"
+  ],
+  "useCases": [
+    "Refinance an existing prime Central London mortgage and release equity to fund the purchase of a holiday home abroad (Cannes, France)",
+    "Mortgage for a self-employed business owner whose income is drawn as director's loans",
+    "Lending to a borrower mid-divorce where the lender needs assurance on post-separation asset base and income"
+  ],
+  "geography": [
+    "Mayfair, Central London, United Kingdom (security property)",
+    "Cannes, France (holiday home bought with released equity)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/",
+    "https://www.silveroakcapital.co.uk/prime-london-mortgages/",
+    "https://www.silveroakcapital.co.uk/development-exit-loans/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/",
+    "https://www.silveroakcapital.co.uk/superyacht-finance/",
+    "https://www.silveroakcapital.co.uk/property-portfolio-mortgages/"
+  ],
+  "confidence": "medium",
+  "notes": "Direct fetch blocked; all content comes from two WebSearch (extended) calls. Core deal facts (£10m Mayfair property, £7.5m loan, 75% LTV, interest-only, London-based lender, holiday home in France/Cannes, self-employed business owner) are corroborated by both searches [a] and [b]. Rate (2.25% over 3-month LIBOR), 5-year term, director's-loan income, affordability remark and divorce complication come from search [a] only. The 'verbatim' entries are the search tool's own summary wording, not confirmed page text; the only string believed to be exact page text is the title 'Mayfair Self Employed Equity Release'. Meta description, H1, publication date, CTAs, author and any closing remarks were NOT revealed; search [a] noted an age tag of '230 days ago' (suggesting early 2026) while search [b] said the date was shown inconsistently, so no date is recorded as fact. Observation (my inference, not from the source): the reference to 3-month LIBOR suggests the underlying deal was priced before LIBOR's cessation (end 2021), so the page may republish an older transaction. Search [a] also warned the excerpt mixed in text from other site pages. Unrelated results (Mayfair Equity Partners, Silver Oak Services Partners, Silver Oak Capital LLC Form D, Mayfair Capital Investment Management, Equity Release Council, Kellogg Silver Oak Investment Thesis, 'The Mayfair Set') were ignored. Searches run: 2; refused: 0.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-mayfair-self-employed-equity-release.json"
+}

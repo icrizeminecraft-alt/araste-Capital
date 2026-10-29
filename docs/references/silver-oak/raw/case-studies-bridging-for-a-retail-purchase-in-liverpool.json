@@ -1,0 +1,94 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/bridging-for-a-retail-purchase-in-liverpool/",
+  "title": "Bridging for a Retail Store Purchase in Liverpool",
+  "h1": "Bridging for a Retail Store Purchase in Liverpool (search-result title; not confirmed as the on-page H1 element)",
+  "summary": "Case study of a wealthy father seeking to finance two retail investment units in Liverpool as an investment for his daughters. The enquiry concerned two brand new Tesco Convenience stores, each with a fresh 15-year lease, priced at GBP 2.75 million per unit (GBP 5.5 million in total). The family are described as experienced commercial landlords who could have paid cash; the brief to Silver Oak Capital was therefore to source a UK high-street bank with a very low cost of funds, i.e. the cheapest rate available. Challenge: retail property lending has been difficult since Covid and high-street lenders have offered only conservative loan-to-value ratios on retail assets. Proposed structure: 55% LTV, 3.00% five-year fixed rate, 10-year interest-only term, 1.25% arrangement fee. The search results do not state the loan amount explicitly, the lender's name, the timeline, or whether the facility completed; they describe the structure as 'proposed'. Although titled 'Bridging', the terms described (5-year fix, 10-year interest-only) are those of a long-term commercial mortgage, an observation made by the search tool's summary rather than by the page itself. The firm's commercial-mortgage-broker page lists this case study among its examples.",
+  "verbatim": [
+    "[a] Result title: \"Bridging for a Retail Store Purchase in Liverpool\"",
+    "[a] \"The case study is about a wealthy father who wanted to finance two Liverpool retail units as an investment for his daughters.\"",
+    "[a] \"The enquiry was for two retail assets, two brand new Tesco Convenience stores located in Liverpool.\"",
+    "[a] \"Each unit had a fresh 15-year lease, and the price per unit was £2.75 million.\"",
+    "[a] \"The clients could pay cash, but the firm's brief was to find a UK high-street bank with a very low cost of funds.\"",
+    "[a] \"The firm notes that retail property lending has been hard since Covid, and that lenders have offered only conservative loan-to-value ratios.\"",
+    "[a] \"The proposed structure was a 55% LTV, 3.00% five-year fixed rate, 10-year interest-only term, and a 1.25% arrangement fee.\"",
+    "[a] (search-tool observation, not page text) \"The title says 'bridging,' but the terms described are a long-term commercial mortgage rather than a short-term bridging loan.\"",
+    "[b] Result title: \"Bridging for a Retail Store Purchase in Liverpool\"",
+    "[b] \"It covers a father financing two new supermarket convenience units in Liverpool as an investment for his daughters.\"",
+    "[b] \"Each unit was priced at £2.75 million, with a 15-year lease.\"",
+    "[b] \"The page describes the family as experienced commercial landlords who could pay in cash.\"",
+    "[b] \"Because the buyers had the funds, the broker aimed for the cheapest rate available.\"",
+    "[b] \"The case notes that high-street lenders were cautious about retail assets after Covid and offered loans only at conservative loan-to-value levels.\"",
+    "[b] \"The proposed solution was a 55% LTV loan at 3.00% on a 5-year fix, with a 10-year interest-only term and a 1.25% arrangement fee.\"",
+    "[b] \"The firm's commercial mortgage broker page lists the same Liverpool case study among its examples and says the firm arranges both short-term bridging and long-term commercial mortgages.\"",
+    "[b] \"The homepage says the firm arranges debt through a network of over 800 lenders, mainly for loans above £500,000.\""
+  ],
+  "sections": [
+    {"heading": "The client and the enquiry", "content": "A wealthy father wanted to finance two Liverpool retail units as an investment for his daughters. The enquiry concerned two retail assets: two brand new Tesco Convenience stores located in Liverpool. Each unit had a fresh 15-year lease and a price of GBP 2.75 million per unit. The family are described as experienced commercial landlords."},
+    {"heading": "The brief", "content": "The clients could pay cash; the firm's brief was to find a UK high-street bank with a very low cost of funds. Because the buyers had the funds, the broker aimed for the cheapest rate available."},
+    {"heading": "The challenge", "content": "Retail property lending has been hard since Covid. High-street lenders were cautious about retail assets and offered loans only at conservative loan-to-value levels."},
+    {"heading": "The proposed structure", "content": "55% LTV; 3.00% five-year fixed rate; 10-year interest-only term; 1.25% arrangement fee. The search results describe this as the 'proposed' structure/solution and do not confirm completion, the lender's identity or the timeline."},
+    {"heading": "Product-type observation (not from the page)", "content": "The search tool's summary notes that although the page is titled 'Bridging', the terms described (five-year fix, ten-year interest-only) correspond to a long-term commercial mortgage rather than a short-term bridging loan. Silver Oak's commercial-mortgage-broker page lists this case study among its examples and states the firm arranges both short-term bridging and long-term commercial mortgages."}
+  ],
+  "services": [
+    "Bridging loans (page title / case-study category)",
+    "Commercial mortgages (structure described: 5-year fixed, 10-year interest-only; case study listed on /commercial-mortgage-broker/)",
+    "Commercial investment property finance (retail units with long leases)"
+  ],
+  "useCases": [
+    "Purchase of income-producing retail investment property (two new Tesco Convenience stores with fresh 15-year leases)",
+    "Family wealth / investment for children (father acquiring assets as an investment for his daughters)",
+    "Cheap leverage for cash-rich, experienced commercial landlords who want a very low cost of funds rather than maximum gearing"
+  ],
+  "lenderTypes": ["UK high-street bank (the brief); high-street lenders generally described as cautious on retail post-Covid"],
+  "terms": [
+    "55% loan-to-value (LTV)",
+    "3.00% five-year fixed rate",
+    "10-year interest-only term",
+    "1.25% arrangement fee",
+    "Asset: two units each priced at GBP 2.75 million, each with a fresh 15-year lease"
+  ],
+  "eligibility": [
+    "Borrower profile stated: experienced commercial landlords, able to pay cash (strong liquidity)",
+    "Asset profile stated: brand new retail units (Tesco Convenience stores) with fresh 15-year leases",
+    "Lender appetite stated: retail lending hard since Covid; only conservative LTVs offered on retail assets (55% achieved/proposed here)"
+  ],
+  "processSteps": [
+    "Enquiry received for two Liverpool retail assets (two new Tesco Convenience stores, GBP 2.75m each, 15-year leases)",
+    "Brief defined: clients could pay cash; objective was a UK high-street bank with a very low cost of funds / cheapest rate available",
+    "Market constraint identified: high-street lenders cautious on retail post-Covid, conservative LTVs only",
+    "Structure proposed: 55% LTV, 3.00% 5-year fixed, 10-year interest-only, 1.25% arrangement fee",
+    "Completion/outcome and timing: not stated in the search results"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "Two brand new Tesco Convenience stores located in Liverpool", "kind": "asset"},
+    {"claim": "Price per unit GBP 2.75 million (two units)", "kind": "number"},
+    {"claim": "Each unit had a fresh 15-year lease", "kind": "number"},
+    {"claim": "Proposed 55% LTV", "kind": "number"},
+    {"claim": "Proposed 3.00% five-year fixed rate", "kind": "rate"},
+    {"claim": "Proposed 10-year interest-only term", "kind": "term"},
+    {"claim": "Proposed 1.25% arrangement fee", "kind": "fee"},
+    {"claim": "Retail property lending has been hard since Covid; lenders offered only conservative LTVs", "kind": "market-statement"},
+    {"claim": "Clients were experienced commercial landlords who could pay cash", "kind": "borrower-profile"},
+    {"claim": "Homepage: network of over 800 lenders, mainly for loans above GBP 500,000 [b]", "kind": "firm-claim"},
+    {"claim": "Commercial-mortgage-broker page: firm arranges both short-term bridging and long-term commercial mortgages [b]", "kind": "firm-claim"},
+    {"claim": "External press result title [a]: 'Silver Oak Capital completes its largest ever bridging loan of £19.1m' (bridgingandcommercial.co.uk; not opened, headline only)", "kind": "external-press-headline"}
+  ],
+  "geography": ["Liverpool", "United Kingdom"],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-for-a-retail-purchase-in-liverpool/",
+    "https://www.silveroakcapital.co.uk/case-studies/notting-hill-large-residential-mortgage/",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/",
+    "https://www.silveroakcapital.co.uk/common-uses-for-property-bridging-loans-in-the-uk/"
+  ],
+  "confidence": "medium",
+  "notes": "Sources: [a] = extended WebSearch on the exact URL; [b] = extended WebSearch 'site:silveroakcapital.co.uk bridging retail purchase Liverpool case study'. Both calls returned the search tool's prose summary of the page rather than raw snippet text, so the 'verbatim' entries quote the tool's summary wording; the two summaries agree on every figure (2 units, GBP 2.75m each, 15-year leases, 55% LTV, 3.00% 5-year fix, 10-year interest-only, 1.25% fee), which supports medium confidence. Not revealed: meta description, on-page H1 (the result title is used), publication date, lender name, completion/outcome, timeline, explicit loan amount. Arithmetic (mine, not stated on the page): 55% of GBP 5.5m total purchase price would be about GBP 3.025m. The 'bridging vs commercial mortgage' remark is the search tool's observation, not the page's wording. External results also surfaced but were not opened: silveroakcapital.odoo.com; two bridgingandcommercial.co.uk headlines about a GBP 19.1m largest-ever bridging loan; adventuresincre.com sale-leaseback glossary and two Wikipedia pages (unrelated noise). Direct fetching blocked; no further searches run. Search budget used: 2 of 2 allotted; 0 refusals.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-bridging-for-a-retail-purchase-in-liverpool.json"
+}
