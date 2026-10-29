@@ -2,42 +2,52 @@
 
 ## État livré
 
-Aucune photographie tierce n'est incluse. Les banques d'images n'étaient pas accessibles depuis l'environnement de réalisation et aucune licence ne doit être supposée. Chaque emplacement visuel est servi par une **composition architecturale originale en SVG** (`src/components/visuals/ArchitecturalPlate.tsx`), créée pour le projet et libre de droits tiers :
+Chaque emplacement visuel est servi par une **photographie d'illustration** importée depuis Unsplash sous licence Unsplash (utilisation libre, y compris commerciale, sans attribution obligatoire ; seules les photos gratuites `images.unsplash.com` sont admises, jamais les photos Unsplash+ `plus.unsplash.com`). Les crédits figurent dans `src/config/images.ts` et dans les mentions légales.
 
-| Composition | Usage par défaut | Évocation |
+| Fichier (`public/images/`) | Usage | Évocation |
 | --- | --- | --- |
-| `arcade` | ouverture de l'accueil | arcades de pierre claire ouvrant sur la mer |
-| `vault` | mise en avant du financement relais, page relais | voûte franchissant un vide vers la lumière |
-| `colonnade` | refinancement | rythme régulier de colonnes |
-| `facade` | cabinet, acquisition immobilière | élévation rythmée par ses ouvertures |
-| `stair` | approche, promotion immobilière | escalier montant vers la lumière |
-| `cornice` | financements complexes | moulures superposées |
-| `horizon` | dette privée | balustrade ouverte sur l'horizon marin |
+| `monaco-crepuscule` | ouverture de l'accueil | Monaco au crépuscule, ciel bleu nuit |
+| `galerie-voutee` | financement relais (accueil et page) | galerie voûtée menant vers la lumière |
+| `facade-monaco` | cabinet | façade Belle Époque, pins et grille |
+| `escalier-marbre` | approche | premières marches d'un escalier de marbre |
+| `corniche` | financements complexes | corniche sculptée au soleil couchant |
+| `colonnade` | refinancement, partenaires | colonnade de pierre aux lanternes |
+| `residences-mer` | acquisition immobilière | arcades de pierre claire sur la Méditerranée |
+| `grue` | promotion immobilière | ombre d'une grue sur une façade blanche |
+| `falaise-port` | dette privée | falaise, port et horizon marin |
+| `andorre`, `londres`, `monaco`, `emirats` | implantations (accueil) | une vue par place |
 
-Toutes sont décoratives par défaut (`aria-hidden`) sauf l'ouverture de l'accueil, qui porte un texte alternatif. Aucune n'est présentée comme un actif financé ou comme les bureaux du cabinet ; la légende de l'accueil le rappelle.
+Les compositions architecturales originales en SVG (`src/components/visuals/ArchitecturalPlate.tsx`, `public/plates/`) restent disponibles comme solution de repli (`kind: "plate"`).
 
-## Remplacer par une photographie
+Aucune photographie n'est présentée comme un actif financé ou comme les bureaux du cabinet ; les légendes de l'accueil, du cabinet et de l'acquisition le rappellent.
+
+## Importer ou changer une photographie
+
+1. Ajouter une ligne à `outils/photos.txt` : nom de fichier, identifiant Unsplash, URL de base (`https://images.unsplash.com/photo-…`, sans paramètres) et largeurs souhaitées.
+2. Pousser : le workflow `.github/workflows/import-photos.yml` télécharge chaque largeur en JPEG (`public/images/<nom>-<largeur>.jpg`) et commet les fichiers sur la branche. `public/images/dimensions.txt` donne les dimensions réelles.
+3. Déclarer la photographie dans `src/config/images.ts` (`photos`), puis l'affecter à un emplacement (`visuals`) avec son point focal, son texte alternatif et, s'il y a lieu, sa légende.
+
+Pour trier des candidats, `outils/candidats-images.txt` et le workflow `candidats-images.yml` produisent des planches-contact sur la branche `candidats-images`.
+
+## Utiliser une photographie d'une autre source
 
 1. Vérifier les droits : auteur, licence (usage commercial, modification, attribution), durée, territoires. Conserver la preuve (facture ou licence) hors du dépôt.
 2. Préparer le fichier : JPEG ou AVIF, largeur 2400 px maximum pour l'ouverture, 1600 px pour les autres emplacements, poids raisonnable. Le déposer dans `public/images/`.
-3. Déclarer l'emplacement dans `src/config/images.ts` :
+3. Produire les variantes de largeur (`<nom>-<largeur>.jpg`) et les déclarer dans `src/config/images.ts` :
 
 ```ts
-hero: {
-  kind: "photo",
-  photo: {
-    src: "/images/ouverture.jpg",
-    width: 2400,
-    height: 3000,
-    focal: { x: 40, y: 50 },              // point focal en %, utilisé pour le recadrage
-    alt: { fr: "…", en: "…" },            // description factuelle, sans mention d'un actif financé
-    caption: { fr: "…", en: "…" },        // facultatif
-    credit: "Photographe — licence — référence",
-  },
+ouverture: {
+  base: "ouverture",                    // fichiers public/images/ouverture-960.jpg, -1600, -2400
+  widths: [960, 1600, 2400],
+  width: 2400, height: 3000,            // dimensions du plus grand fichier
+  focal: { x: 40, y: 50 },              // point focal en %, utilisé pour le recadrage
+  alt: { fr: "…", en: "…" },            // description factuelle, sans mention d'un actif financé
+  caption: { fr: "…", en: "…" },        // facultatif
+  credit: "Photographe — licence — référence",
 },
 ```
 
-4. Les composants (`Visual`) chargent alors l'image via `next/image` (formats AVIF/WebP, tailles adaptées, priorité sur l'ouverture uniquement).
+4. Le composant `Visual` sert alors l'image avec `srcset` et `sizes` (export statique : aucune optimisation au vol).
 
 ## Règles éditoriales
 

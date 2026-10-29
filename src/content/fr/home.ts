@@ -12,7 +12,7 @@ export const home: HomeContent = {
     body: "Financements relais, refinancements et opérations complexes : ARASTE CAPITAL accompagne les emprunteurs professionnels dans la recherche et la structuration de solutions adaptées à leur projet.",
     cta: "Présenter une opération",
     secondary: "Découvrir nos expertises",
-    caption: "Composition architecturale originale. Visuel d'illustration, sans lien avec une opération ou des locaux.",
+    caption: "Photographie d'illustration, sans lien avec une opération conseillée ni avec des locaux du cabinet.",
   },
   stance: {
     eyebrow: "Prise de position",

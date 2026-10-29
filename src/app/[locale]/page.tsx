@@ -51,7 +51,7 @@ export default async function HomePage({ params }: Props) {
       eyebrow: e.eyebrow,
       summary: e.summary,
       href: expertisePath(l, key),
-      plate: slot.kind === "plate" ? slot.plate : "arcade",
+      slot,
       featured: i < 2,
     };
   });
@@ -66,7 +66,7 @@ export default async function HomePage({ params }: Props) {
           <SectionHeading id="expertises-title" eyebrow={t.expertises.eyebrow} title={t.expertises.title} body={t.expertises.body} className="max-w-3xl" />
         </Reveal>
         <div className="mt-14 lg:mt-20">
-          <ExpertiseList items={items} allLabel={t.expertises.all} allHref={pagePath(l, "expertises")} />
+          <ExpertiseList items={items} allLabel={t.expertises.all} allHref={pagePath(l, "expertises")} locale={l} />
         </div>
       </section>
 

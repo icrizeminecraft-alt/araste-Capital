@@ -43,3 +43,14 @@ export function LocalClocks({ places, locale, label, dark = false, compact = fal
     </ul>
   );
 }
+
+/** Heure locale d'une seule implantation, pour une vignette ; vide côté serveur. */
+export function LocalTime({ timeZone, locale, className = "" }: { timeZone: string; locale: string; className?: string }) {
+  const snapshot = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+  const now = snapshot >= 0 ? new Date() : null;
+  return (
+    <span className={`tabular-nums ${className}`}>
+      {now ? new Intl.DateTimeFormat(locale, { hour: "2-digit", minute: "2-digit", timeZone }).format(now) : " "}
+    </span>
+  );
+}

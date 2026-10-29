@@ -2,8 +2,10 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import type { PlateKind } from "@/config/images";
+import type { Locale } from "@/lib/i18n";
+import type { VisualSlot } from "@/config/images";
 import { ArrowLink } from "@/components/ui/ButtonLink";
+import { Visual } from "@/components/visuals/Visual";
 
 export type ExpertiseListItem = {
   key: string;
@@ -12,7 +14,7 @@ export type ExpertiseListItem = {
   eyebrow: string;
   summary: string;
   href: string;
-  plate: PlateKind;
+  slot: VisualSlot;
   featured: boolean;
 };
 
@@ -21,7 +23,7 @@ export type ExpertiseListItem = {
  * Chaque entrée est un lien complet (titre, résumé) lisible sans JavaScript.
  * Le visuel de droite, décoratif, suit l'entrée survolée, focalisée ou touchée.
  */
-export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseListItem[]; allLabel: string; allHref: string }) {
+export function ExpertiseList({ items, allLabel, allHref, locale }: { items: ExpertiseListItem[]; allLabel: string; allHref: string; locale: Locale }) {
   const [active, setActive] = useState(0);
   const current = items[active] ?? items[0];
 
@@ -82,8 +84,7 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
                   active === i ? "opacity-100" : "opacity-0"
                 }`}
               >
-                {/* eslint-disable-next-line @next/next/no-img-element -- SVG statique */}
-                <img src={`/plates/${item.plate}.svg`} alt="" width={800} height={1000} loading="lazy" decoding="async" className="h-full w-full object-cover" />
+                <Visual slot={item.slot} locale={locale} decorative sizes="(min-width: 64rem) 36vw, 100vw" />
               </div>
             ))}
             <div

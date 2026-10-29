@@ -12,7 +12,7 @@ export const home: HomeContent = {
     body: "Bridge finance, refinancing and complex transactions: ARASTE CAPITAL supports professional borrowers in sourcing and structuring solutions suited to their project.",
     cta: "Present a transaction",
     secondary: "Discover our expertise",
-    caption: "Original architectural composition. Illustrative visual, unrelated to any transaction or premises.",
+    caption: "Illustrative photograph, unrelated to any advised transaction or to the firm's premises.",
   },
   stance: {
     eyebrow: "Our position",

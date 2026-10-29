@@ -9,40 +9,41 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 
 /**
- * Première section : composition éditoriale, texte sur ivoire et grande
- * composition architecturale à droite. Sur mobile, le titre et le bouton
- * précèdent le visuel.
+ * Ouverture : photographie en pleine page, voilée d'un dégradé bleu nuit, et
+ * texte posé en bas à gauche. C'est le seul moment spectaculaire du site ;
+ * tout ce qui suit reste sobre, sur fond blanc.
  */
 export function Hero({ locale, t }: { locale: Locale; t: HomeContent["hero"] }) {
   const ticket = siteConfig.ticketSize;
+  const slot = visuals.hero;
+  const caption = slot.kind === "photo" ? slot.photo.caption?.[locale] : t.caption;
   return (
-    <section className="relative" aria-labelledby="hero-title">
-      <div className="container-x grid grid-cols-1 gap-10 pb-12 pt-10 md:pt-14 lg:grid-cols-12 lg:items-end lg:gap-8 lg:pb-14 lg:pt-16 xl:pt-20">
-        <div className="lg:col-span-6 lg:pb-16">
-          <Eyebrow className="mb-6">{t.eyebrow}</Eyebrow>
-          <h1 id="hero-title" className="display-xl">
+    <section className="on-dark relative isolate overflow-hidden bg-navy text-porcelain" aria-labelledby="hero-title">
+      <div className="absolute inset-0 -z-10" aria-hidden="true">
+        <Visual slot={slot} locale={locale} priority decorative sizes="100vw" />
+        <div className="absolute inset-0 bg-linear-to-t from-navy via-navy/55 to-navy/15" />
+        <div className="absolute inset-0 bg-linear-to-r from-navy/70 via-navy/25 to-transparent" />
+      </div>
+
+      <div className="container-x flex min-h-[calc(100svh-var(--header-h))] max-h-[60rem] flex-col justify-end pb-12 pt-32 md:pb-16 lg:pb-20">
+        <div className="max-w-3xl">
+          <Eyebrow dark className="mb-6">{t.eyebrow}</Eyebrow>
+          <h1 id="hero-title" className="display-xl text-porcelain">
             {t.title}
           </h1>
-          <p className="lead measure-lead mt-8 text-ink-soft">{t.body}</p>
-          {ticket.enabled ? (
-            <p className="mt-5 font-sans text-sm text-gold-deep">{ticket.text[locale]}</p>
-          ) : null}
+          <div aria-hidden="true" className="mt-8 h-px w-16 bg-gold" />
+          <p className="lead measure-lead mt-8 text-silver">{t.body}</p>
+          {ticket.enabled ? <p className="mt-5 font-sans text-sm text-gold-light">{ticket.text[locale]}</p> : null}
           <div className="mt-10 flex flex-col items-start gap-5 sm:flex-row sm:items-center">
-            <ButtonLink href={pagePath(locale, "contact")}>{t.cta}</ButtonLink>
-            <Link href="#expertises" className="link-line self-start font-sans text-[0.9375rem] font-medium text-navy sm:self-auto">
+            <ButtonLink href={pagePath(locale, "contact")} variant="porcelain">
+              {t.cta}
+            </ButtonLink>
+            <Link href="#expertises" className="link-line self-start font-sans text-[0.9375rem] font-medium text-porcelain sm:self-auto">
               {t.secondary}
             </Link>
           </div>
         </div>
-
-        <figure className="relative lg:col-span-6 lg:col-start-7">
-          {/* Cadre laiton décalé : le visuel est présenté comme une planche encadrée. */}
-          <div aria-hidden="true" className="pointer-events-none absolute -bottom-3 -right-3 hidden h-full w-full border border-gold/60 md:block" />
-          <div className="grain relative aspect-[4/5] w-full overflow-hidden bg-silver sm:aspect-[5/6] lg:aspect-[4/5] lg:max-h-[80vh] xl:aspect-[5/6]">
-            <Visual slot={visuals.hero} locale={locale} priority sizes="(min-width: 64rem) 50vw, 100vw" />
-          </div>
-          <figcaption className="mt-3 font-sans text-xs text-ink-soft">{t.caption}</figcaption>
-        </figure>
+        {caption ? <p className="mt-12 max-w-xl font-sans text-xs text-silver/70 md:ml-auto md:text-right">{caption}</p> : null}
       </div>
     </section>
   );

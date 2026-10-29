@@ -1,13 +1,25 @@
-import Image from "next/image";
+import type { CSSProperties } from "react";
 import type { Locale } from "@/lib/i18n";
-import type { VisualSlot } from "@/config/images";
+import type { PhotoAsset, VisualSlot } from "@/config/images";
 import { ArchitecturalPlate } from "@/components/visuals/ArchitecturalPlate";
 
+/** Attributs d'une photographie du registre : source, variantes de largeur et cadrage. */
+export function photoAttributes(photo: PhotoAsset) {
+  const largest = photo.widths[photo.widths.length - 1];
+  return {
+    src: `/images/${photo.base}-${largest}.jpg`,
+    srcSet: photo.widths.map((w) => `/images/${photo.base}-${w}.jpg ${w}w`).join(", "),
+    width: photo.width,
+    height: photo.height,
+    style: { objectPosition: `${photo.focal.x}% ${photo.focal.y}%` } satisfies CSSProperties,
+  };
+}
+
 /**
- * Rend un emplacement visuel du registre `config/images.ts` :
- * composition SVG originale ou photographie (une fois les droits vérifiés).
- * Les compositions sont servies en fichiers statiques (public/plates) chargés
- * à la demande ; seule l'ouverture (priority) est rendue inline pour le LCP.
+ * Rend un emplacement visuel du registre `config/images.ts` : photographie
+ * (fichiers statiques de /public/images, plusieurs largeurs) ou composition
+ * SVG originale. Le site étant exporté en statique, l'image est servie telle
+ * quelle : `sizes` doit décrire la largeur réellement affichée.
  */
 export function Visual({
   slot,
@@ -27,17 +39,36 @@ export function Visual({
 }) {
   if (slot.kind === "photo") {
     const { photo } = slot;
-    return (
-      <Image
-        src={photo.src}
-        alt={decorative ? "" : photo.alt[locale]}
-        width={photo.width}
-        height={photo.height}
-        priority={priority}
+    const attrs = photoAttributes(photo);
+    const img = (
+      // eslint-disable-next-line @next/next/no-img-element -- export statique : variantes de largeur servies telles quelles.
+      <img
+        src={attrs.src}
+        srcSet={attrs.srcSet}
         sizes={sizes}
+        width={attrs.width}
+        height={attrs.height}
+        alt={decorative ? "" : photo.alt[locale]}
+        loading={priority ? "eager" : "lazy"}
+        fetchPriority={priority ? "high" : undefined}
+        decoding="async"
         className={`h-full w-full object-cover ${className}`}
-        style={{ objectPosition: `${photo.focal.x}% ${photo.focal.y}%` }}
+        style={attrs.style}
       />
+    );
+    if (!photo.landscape) return img;
+    const l = photo.landscape;
+    return (
+      <picture className="contents">
+        <source
+          media={`(min-width: ${l.minWidth})`}
+          srcSet={l.widths.map((w) => `/images/${l.base}-${w}.jpg ${w}w`).join(", ")}
+          sizes={sizes}
+          width={l.width}
+          height={l.height}
+        />
+        {img}
+      </picture>
     );
   }
   if (priority) {
@@ -55,4 +86,11 @@ export function Visual({
       className={`h-full w-full object-cover ${className}`}
     />
   );
+}
+
+/** Légende d'illustration d'un emplacement, lorsqu'il en porte une (rappel : aucun lien avec une opération ou des locaux). */
+export function VisualCaption({ slot, locale, className = "" }: { slot: VisualSlot; locale: Locale; className?: string }) {
+  const caption = slot.kind === "photo" ? slot.photo.caption?.[locale] : undefined;
+  if (!caption) return null;
+  return <p className={`font-sans text-xs text-ink-soft ${className}`}>{caption}</p>;
 }

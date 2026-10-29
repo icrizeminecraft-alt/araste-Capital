@@ -6,7 +6,7 @@ import { visuals } from "@/config/images";
 import { enabledExpertises, siteConfig } from "@/config/site";
 import { PageIntro } from "@/components/ui/PageIntro";
 import { Reveal } from "@/components/ui/Reveal";
-import { Visual } from "@/components/visuals/Visual";
+import { Visual, VisualCaption } from "@/components/visuals/Visual";
 import { ContactCta } from "@/components/home/ContactCta";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Faq } from "@/components/ui/Faq";
@@ -34,9 +34,12 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
       />
 
       <div className="container-x mt-12 grid grid-cols-1 gap-12 md:mt-16 lg:grid-cols-12 lg:gap-8">
-        <Reveal className="reveal-media grain relative aspect-[16/9] overflow-hidden bg-silver lg:col-span-12 lg:aspect-[21/9]">
-          <Visual slot={visuals.expertises[expertise]} locale={locale} decorative sizes="100vw" />
-        </Reveal>
+        <div className="lg:col-span-12">
+          <Reveal className="reveal-media grain relative aspect-[16/9] overflow-hidden bg-silver lg:aspect-[21/9]">
+            <Visual slot={visuals.expertises[expertise]} locale={locale} decorative sizes="100vw" />
+          </Reveal>
+          <VisualCaption slot={visuals.expertises[expertise]} locale={locale} className="mt-3" />
+        </div>
       </div>
 
       <section className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8" aria-labelledby="needs-title">
