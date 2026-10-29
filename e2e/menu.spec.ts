@@ -22,7 +22,7 @@ test.describe("menu mobile", () => {
     await page.goto("/fr");
     await page.getByRole("button", { name: /ouvrir le menu/i }).click();
     await page.getByRole("dialog").getByRole("link", { name: "Notre approche" }).click();
-    await expect(page).toHaveURL(/\/fr\/notre-approche$/);
+    await expect(page).toHaveURL(/\/fr\/notre-approche\/?$/);
     await expect(page.getByRole("dialog")).toBeHidden();
   });
 });

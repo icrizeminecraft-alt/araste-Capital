@@ -35,6 +35,18 @@ export const siteConfig = {
 
   /** Indexation (préproduction non indexable par défaut). */
   indexable: process.env.SITE_INDEXABLE === "true",
+  /**
+   * Export statique (`npm run build:static`) : pages en fichiers HTML pour un
+   * hébergement web classique (FTP, cPanel, Apache, nginx), sans serveur Node.
+   * Les URL se terminent alors par une barre oblique (/fr/contact/).
+   */
+  staticExport: process.env.STATIC_EXPORT === "true",
+  /**
+   * Hébergement statique uniquement : URL d'une instance Node de ce même site
+   * qui reçoit les fiches d'opération (ex. https://app.exemple.com). Vide :
+   * le formulaire reste en mode démonstration.
+   */
+  contactEndpoint: (process.env.NEXT_PUBLIC_CONTACT_ENDPOINT ?? "").replace(/\/$/, ""),
 
   /**
    * Coordonnées affichées (pied de page, page contact, données structurées) —

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { locales, localeTags, type Locale } from "@/lib/i18n";
-import { alternatesFor, type ResolvedRoute } from "@/config/routes";
+import { alternatesFor, publicPath, type ResolvedRoute } from "@/config/routes";
 import { siteConfig } from "@/config/site";
 
 /**
@@ -38,16 +38,16 @@ export function buildMetadata({
       description,
       locale: localeTags[locale].replace("-", "_"),
       alternateLocale: locales.filter((l) => l !== locale).map((l) => localeTags[l].replace("-", "_")),
-      url: base ? `${base}${paths[locale]}` : undefined,
+      url: base ? `${base}${publicPath(paths[locale])}` : undefined,
     },
     twitter: { card: "summary_large_image", title: fullTitle, description },
   };
 
   if (base) {
     const languages: Record<string, string> = {};
-    for (const l of locales) languages[localeTags[l]] = `${base}${paths[l]}`;
-    languages["x-default"] = `${base}${paths.fr}`;
-    metadata.alternates = { canonical: `${base}${paths[locale]}`, languages };
+    for (const l of locales) languages[localeTags[l]] = `${base}${publicPath(paths[l])}`;
+    languages["x-default"] = `${base}${publicPath(paths.fr)}`;
+    metadata.alternates = { canonical: `${base}${publicPath(paths[locale])}`, languages };
   }
   return metadata;
 }

@@ -4,6 +4,7 @@ import { verifyFormToken, formSecret } from "@/lib/contact/token";
 import { SlidingWindowLimiter, RecentKeys, clientAddress, fingerprint } from "@/lib/contact/rate-limit";
 import { sendContact } from "@/lib/contact/providers";
 import { enabledExpertises } from "@/config/site";
+import { corsHeaders, isAllowedOrigin } from "@/lib/contact/cors";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -16,6 +17,19 @@ const NO_STORE = { "Cache-Control": "no-store" } as const;
 
 function error(status: number, code: string, extra?: Record<string, unknown>, headers?: Record<string, string>) {
   return NextResponse.json({ status: "error", code, ...extra }, { status, headers: { ...NO_STORE, ...headers } });
+}
+
+/** En-têtes CORS lorsque la requête vient d'une origine autorisée (site statique distant). */
+function crossOriginHeaders(request: Request): Record<string, string> {
+  const origin = request.headers.get("origin");
+  return origin && isAllowedOrigin(origin) ? corsHeaders(origin) : {};
+}
+
+/** Pré-vérification CORS : uniquement pour une origine explicitement autorisée. */
+export function OPTIONS(request: Request) {
+  const origin = request.headers.get("origin");
+  if (!origin || !isAllowedOrigin(origin)) return new NextResponse(null, { status: 403 });
+  return new NextResponse(null, { status: 204, headers: corsHeaders(origin) });
 }
 
 /** Lecture du corps en flux, plafonnée en octets quel que soit Content-Length. */
@@ -47,67 +61,69 @@ async function readBody(request: Request): Promise<string | null> {
  */
 export async function POST(request: Request) {
   // Défense en profondeur : un navigateur déclare l'origine de la requête.
+  // Une origine étrangère n'est admise que si elle est explicitement autorisée.
   const fetchSite = request.headers.get("sec-fetch-site");
-  if (fetchSite && fetchSite !== "same-origin" && fetchSite !== "none") return error(403, "forbidden");
+  const cors = crossOriginHeaders(request);
+  if (fetchSite && fetchSite !== "same-origin" && fetchSite !== "none" && !("Access-Control-Allow-Origin" in cors)) return error(403, "forbidden", undefined, cors);
 
   const contentType = request.headers.get("content-type") ?? "";
-  if (!contentType.includes("application/json")) return error(415, "unsupported");
+  if (!contentType.includes("application/json")) return error(415, "unsupported", undefined, cors);
 
   let raw: string | null;
   try {
     raw = await readBody(request);
   } catch {
-    return error(400, "invalid");
+    return error(400, "invalid", undefined, cors);
   }
-  if (raw === null) return error(413, "too-large");
+  if (raw === null) return error(413, "too-large", undefined, cors);
 
   let json: unknown;
   try {
     json = JSON.parse(raw);
   } catch {
-    return error(400, "invalid");
+    return error(400, "invalid", undefined, cors);
   }
 
   const parsed = contactRequestSchema.safeParse(json);
   if (!parsed.success) {
     const fields = toFieldErrors(parsed.error.issues);
-    if (Object.keys(fields).length > 0) return error(400, "invalid", { fields });
-    return error(400, envelopeErrorCode(parsed.error.issues) ?? "invalid");
+    if (Object.keys(fields).length > 0) return error(400, "invalid", { fields }, cors);
+    return error(400, envelopeErrorCode(parsed.error.issues) ?? "invalid", undefined, cors);
   }
   const { token, idempotencyKey, website, locale, ...fields } = parsed.data;
 
   // Seules les expertises actives (et « autre ») sont recevables.
   if (fields.financingType !== "other" && !enabledExpertises().includes(fields.financingType)) {
-    return error(400, "invalid", { fields: { financingType: "required" } });
+    return error(400, "invalid", { fields: { financingType: "required" } }, cors);
   }
 
   // Pot de miel rempli : réponse neutre, rien n'est envoyé ni compté.
   if (website && website.trim() !== "") {
-    return NextResponse.json({ status: "demo" }, { headers: NO_STORE });
+    return NextResponse.json({ status: "demo" }, { headers: { ...NO_STORE, ...cors } });
   }
 
-  if (verifyFormToken(token) !== "ok") return error(400, "token");
+  if (verifyFormToken(token) !== "ok") return error(400, "token", undefined, cors);
 
   const address = clientAddress(request.headers);
   const key = fingerprint(address.ip, formSecret());
   // Sans adresse fiable, compartiment partagé avec une limite plus large.
   const limit = limiter.hit(key, Date.now(), address.trusted ? MAX_PER_WINDOW : MAX_PER_WINDOW * 10);
   if (!limit.allowed) {
-    return error(429, "rate-limited", undefined, { "Retry-After": String(Math.ceil(limit.retryAfterMs / 1000)) });
+    return error(429, "rate-limited", undefined, { ...cors, "Retry-After": String(Math.ceil(limit.retryAfterMs / 1000)) });
   }
 
   const idem = `${key}:${idempotencyKey}`;
-  if (!recentKeys.add(idem)) return error(409, "duplicate");
+  if (!recentKeys.add(idem)) return error(409, "duplicate", undefined, cors);
 
   try {
     const outcome = await sendContact(fields, locale);
-    return NextResponse.json({ status: outcome }, { headers: NO_STORE });
+    return NextResponse.json({ status: outcome }, { headers: { ...NO_STORE, ...cors } });
   } catch (err) {
     // La clé est libérée : une nouvelle tentative reste possible.
     recentKeys.release(idem);
     // Journal minimal : aucun contenu de la demande.
     console.error("[contact] provider failure", err instanceof Error ? err.message : "unknown");
-    return error(502, "provider");
+    return error(502, "provider", undefined, cors);
   }
 }
 

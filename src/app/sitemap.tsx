@@ -1,7 +1,10 @@
 import type { MetadataRoute } from "next";
 import { locales, localeTags } from "@/lib/i18n";
-import { alternatesFor, guideKeys, pageKeys, type ResolvedRoute } from "@/config/routes";
+import { alternatesFor, guideKeys, pageKeys, publicPath, type ResolvedRoute } from "@/config/routes";
 import { enabledExpertises, siteConfig } from "@/config/site";
+
+// Fichier généré à la construction (également requis par l'export statique).
+export const dynamic = "force-static";
 
 /**
  * Plan du site : généré uniquement lorsque l'URL publique est configurée et
@@ -12,8 +15,8 @@ import { enabledExpertises, siteConfig } from "@/config/site";
 function languagesFor(route: ResolvedRoute, base: string): Record<string, string> {
   const paths = alternatesFor(route);
   const languages: Record<string, string> = {};
-  for (const l of locales) languages[localeTags[l]] = `${base}${paths[l]}`;
-  languages["x-default"] = `${base}${paths.fr}`;
+  for (const l of locales) languages[localeTags[l]] = `${base}${publicPath(paths[l])}`;
+  languages["x-default"] = `${base}${publicPath(paths.fr)}`;
   return languages;
 }
 
@@ -35,7 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const languages = languagesFor(route, base);
     for (const l of locales) {
       entries.push({
-        url: `${base}${paths[l]}`,
+        url: `${base}${publicPath(paths[l])}`,
         changeFrequency: "monthly",
         priority: l === "fr" ? priority : Math.max(0.1, priority - 0.1),
         alternates: { languages },

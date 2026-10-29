@@ -20,7 +20,8 @@ const pages = [
 test.describe("navigation", () => {
   test("la racine redirige vers une langue", async ({ page }) => {
     const response = await page.goto("/");
-    expect(response?.url()).toMatch(/\/(fr|en)$/);
+    // L'export statique sert chaque page comme un dossier : barre oblique finale tolérée.
+    expect(response?.url()).toMatch(/\/(fr|en)\/?$/);
   });
 
   for (const path of pages) {
@@ -55,18 +56,18 @@ test.describe("navigation", () => {
 
   test("un préfixe de langue en capitales est normalisé", async ({ page }) => {
     const response = await page.goto("/FR/le-cabinet");
-    expect(response?.url()).toMatch(/\/fr\/le-cabinet$/);
+    expect(response?.url()).toMatch(/\/fr\/le-cabinet\/?$/);
   });
 
   test("le sélecteur de langue conserve la page correspondante", async ({ page }) => {
     await page.goto("/fr/expertises/financement-relais");
     await page.getByRole("link", { name: "English" }).first().click();
-    await expect(page).toHaveURL(/\/en\/expertise\/bridge-finance$/);
+    await expect(page).toHaveURL(/\/en\/expertise\/bridge-finance\/?$/);
     await page.getByRole("link", { name: "Français" }).first().click();
-    await expect(page).toHaveURL(/\/fr\/expertises\/financement-relais$/);
+    await expect(page).toHaveURL(/\/fr\/expertises\/financement-relais\/?$/);
     await page.goto("/fr/reperes/la-sortie-cle-du-relais");
     await page.getByRole("link", { name: "English" }).first().click();
-    await expect(page).toHaveURL(/\/en\/guides\/the-exit-key-to-a-bridge$/);
+    await expect(page).toHaveURL(/\/en\/guides\/the-exit-key-to-a-bridge\/?$/);
   });
 
   test("aucun lien interne mort sur l'accueil et l'index des expertises", async ({ page, request }) => {

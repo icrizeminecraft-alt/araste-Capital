@@ -1,4 +1,5 @@
 import { siteConfig } from "@/config/site";
+import { publicPath } from "@/config/routes";
 import type { Crumb } from "@/components/ui/Breadcrumb";
 
 /** Fil d'Ariane en données structurées, uniquement lorsque l'URL publique est connue. */
@@ -12,7 +13,7 @@ export function BreadcrumbJsonLd({ crumbs }: { crumbs: Crumb[] }) {
       "@type": "ListItem",
       position: i + 1,
       name: crumb.label,
-      ...(crumb.href ? { item: `${base}${crumb.href}` } : {}),
+      ...(crumb.href ? { item: `${base}${publicPath(crumb.href)}` } : {}),
     })),
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, "\\u003c") }} />;

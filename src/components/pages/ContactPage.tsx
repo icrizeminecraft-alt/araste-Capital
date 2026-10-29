@@ -10,13 +10,21 @@ import { LocalClocks } from "@/components/layout/LocalClocks";
 import { connection } from "next/server";
 
 export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dictionary }) {
-  // Rendu à la demande : le jeton signé doit être frais à chaque visite.
-  await connection();
+  // Serveur Node : rendu à la demande, le jeton signé doit être frais à chaque visite.
+  // Export statique : pas de jeton local ; le formulaire s'adresse à une instance
+  // Node distante (NEXT_PUBLIC_CONTACT_ENDPOINT) ou reste en mode démonstration.
+  const staticMode = siteConfig.staticExport;
+  if (!staticMode) await connection();
   const t = dict.contact;
-  const token = createFormToken();
+  const token = staticMode ? "" : createFormToken();
+  // Relais en export statique : « php » = relais PHP de même origine (Hostinger),
+  // une URL = instance Node distante, vide = démonstration.
+  const relay = siteConfig.contactEndpoint;
+  const transport = !staticMode ? "server" : relay === "php" || /^https?:\/\//.test(relay) ? "remote" : "demo";
+  const endpoint = relay === "php" ? "" : relay;
   const c = siteConfig.toConfirm;
   const financingOptions = enabledExpertises().map((key) => ({ value: key, label: dict.expertises[key].shortTitle }));
-  const demo = currentProvider() === "none";
+  const demo = staticMode ? transport === "demo" : currentProvider() === "none";
 
   return (
     <>
@@ -94,7 +102,7 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
               {t.form.result.demoBanner}
             </p>
           ) : null}
-          <ContactForm locale={locale} t={t.form} token={token} financingOptions={financingOptions} />
+          <ContactForm locale={locale} t={t.form} token={token} financingOptions={financingOptions} transport={transport} endpoint={endpoint} />
         </div>
       </div>
 

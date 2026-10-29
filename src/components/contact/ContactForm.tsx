@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useId, useRef, useState, type FormEvent, type ReactNode } from "react";
+import { useEffect, useId, useRef, useState, type FormEvent, type ReactNode } from "react";
 import type { Locale } from "@/lib/i18n";
 import type { ContactContent } from "@/content/types";
 import { pagePath } from "@/config/routes";
@@ -46,11 +46,22 @@ export function ContactForm({
   t,
   token,
   financingOptions,
+  transport = "server",
+  endpoint = "",
 }: {
   locale: Locale;
   t: ContactContent["form"];
   token: string;
   financingOptions: { value: string; label: string }[];
+  /**
+   * server : route API de ce même déploiement Node, jeton fourni au rendu.
+   * remote : hébergement statique ; la fiche est envoyée à `endpoint` (URL
+   * d'une instance Node, ou chaîne vide pour le relais PHP de même origine),
+   * le jeton étant demandé à `${endpoint}/api/contact/token` au chargement.
+   * demo : hébergement statique sans relais ; aucun envoi n'est tenté.
+   */
+  transport?: "server" | "remote" | "demo";
+  endpoint?: string;
 }) {
   const [step, setStep] = useState<StepNumber>(1);
   const [values, setValues] = useState<Values>({ ...emptyContactFields });
@@ -62,7 +73,22 @@ export function ContactForm({
   const honeypotRef = useRef<HTMLInputElement | null>(null);
   const headingRef = useRef<HTMLHeadingElement | null>(null);
   const summaryRef = useRef<HTMLDivElement | null>(null);
+  const remoteTokenRef = useRef<string>("");
   const uid = useId();
+
+  // Hébergement statique : le jeton est demandé à l'instance distante dès le
+  // chargement, afin que le délai minimal avant envoi soit déjà écoulé.
+  useEffect(() => {
+    if (transport !== "remote") return;
+    const controller = new AbortController();
+    fetch(`${endpoint}/api/contact/token`, { signal: controller.signal, credentials: "omit", headers: { Accept: "application/json" } })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data: { token?: string } | null) => {
+        if (data?.token) remoteTokenRef.current = data.token;
+      })
+      .catch(() => {});
+    return () => controller.abort();
+  }, [transport, endpoint]);
 
   const field = (name: keyof ContactFields) => {
     const describedBy = [errors[name] ? `${uid}-${name}-error` : null, HINTED.includes(name) ? `${uid}-${name}-hint` : null].filter(Boolean).join(" ");
@@ -161,16 +187,27 @@ export function ContactForm({
       }
     }
     setErrors({});
+    // Export statique sans instance distante : aucun envoi n'est possible,
+    // le résultat « démonstration » le dit sans détour.
+    if (transport === "demo") {
+      setStatus({ kind: "demo" });
+      setAnnouncement(t.result.demoTitle);
+      focus(headingRef);
+      return;
+    }
     setStatus({ kind: "submitting" });
     setAnnouncement(t.submitting);
     idempotencyRef.current ??= newKey();
     const idempotencyKey = idempotencyRef.current;
     const website = honeypotRef.current?.value ?? "";
+    const usedToken = transport === "remote" ? remoteTokenRef.current : token;
+    if (!usedToken) return fail("token");
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch(transport === "remote" ? `${endpoint}/api/contact` : "/api/contact", {
         method: "POST",
+        credentials: "omit",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({ ...values, locale, token, idempotencyKey, website }),
+        body: JSON.stringify({ ...values, locale, token: usedToken, idempotencyKey, website }),
       });
       const data = (await response.json().catch(() => null)) as { status: "sent" | "demo" } | { status: "error"; code?: string; fields?: unknown } | null;
       if (response.ok && data && (data.status === "sent" || data.status === "demo")) {

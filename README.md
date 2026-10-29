@@ -24,12 +24,20 @@ cp .env.example .env.local     # facultatif en développement
 npm run dev                    # http://localhost:3000 → redirige vers /fr
 ```
 
-Production :
+Production, serveur Node (VPS, hébergeur Node 20) :
 
 ```bash
 npm run build
 npm run start
 ```
+
+Production, hébergement web classique (Hostinger hPanel, FTP, LiteSpeed/Apache + PHP) :
+
+```bash
+npm run build:static          # produit out/ et dist/araste-capital-hostinger.zip
+```
+
+Déposer le contenu de `out/` dans `public_html` : pages HTML, `.htaccess`, page racine de redirection et relais PHP du formulaire (`api/`). Le guide pas à pas, le diagnostic de l'erreur 403 et l'activation du formulaire sont dans `docs/DEPLOIEMENT.md`.
 
 ## Vérifications
 
@@ -56,7 +64,7 @@ src/
       opengraph-image.tsx     aperçu de partage FR/EN généré à la construction
       error.tsx, not-found.tsx
     api/contact/route.ts      réception de la fiche d'opération (validation, jeton, débit, envoi)
-    sitemap.ts, robots.ts, manifest.ts, icon.svg, apple-icon.png
+    sitemap.tsx, robots.tsx, manifest.tsx, icon.svg, apple-icon.png
   components/
     brand/                    Wordmark, Monogram
     layout/                   Header, MobileMenu, LocaleSwitcher, Footer, LocalClocks (heure des implantations)
@@ -79,9 +87,11 @@ src/
     contact/                  schéma, jeton signé, limitation de débit, fournisseurs, fiche PDF (pdf-lib)
     i18n.ts, metadata.ts, typography.ts
   proxy.ts                    redirection vers la langue (/ → /fr ou /en)
-docs/                         images, contenus, liste avant publication
+deploy/hostinger/             export statique : page racine, relais PHP du formulaire (api/)
+docs/                         déploiement, images, contenus, liste avant publication, références
 scripts/render-icons.mjs      génération de l'icône Apple depuis le SVG
 scripts/render-plates.mts     génération des planches SVG statiques (npm run plates)
+scripts/build-static.mts      export statique + .htaccess + relais PHP + archive (npm run build:static)
 tests/, e2e/                  tests unitaires et de bout en bout
 ```
 
@@ -113,6 +123,8 @@ Côté serveur (`src/app/api/contact/route.ts`) :
 - clé d'idempotence contre les doubles envois, libérée si le fournisseur échoue afin qu'un nouvel essai reste possible ;
 - refus des requêtes déclarées inter-sites (`Sec-Fetch-Site`) et des expertises désactivées, journaux sans contenu ;
 - courriel ou webhook rédigé dans la langue de la demande, avec les libellés du site plutôt que les codes internes.
+
+Hébergement statique (`npm run build:static`) : la route Node n'existe pas ; le formulaire s'adresse, selon `NEXT_PUBLIC_CONTACT_ENDPOINT`, au relais PHP livré dans `out/api/` (`php`, défaut), à une instance Node distante de ce même site (URL, avec `CONTACT_ALLOWED_ORIGINS` côté Node) ou reste en mode démonstration (vide). Le relais PHP reproduit les protections ci-dessous et envoie le courriel en texte et HTML ; la fiche PDF reste propre au mode Node.
 
 Fournisseurs (`CONTACT_PROVIDER`) :
 

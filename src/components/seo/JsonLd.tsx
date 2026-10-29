@@ -1,5 +1,6 @@
 import type { Locale } from "@/lib/i18n";
 import { siteConfig } from "@/config/site";
+import { publicPath } from "@/config/routes";
 
 /**
  * Données structurées : uniquement des faits confirmés (nom, marque, URL si
@@ -16,7 +17,7 @@ export function JsonLd({ locale }: { locale: Locale }) {
   };
   if (siteConfig.brand.legalNameConfirmed) data.legalName = siteConfig.brand.legalName;
   if (siteConfig.siteUrl) {
-    data.url = `${siteConfig.siteUrl}/${locale}`;
+    data.url = `${siteConfig.siteUrl}${publicPath(`/${locale}`)}`;
     data.logo = `${siteConfig.siteUrl}/icon.svg`;
   }
   if (c.email) data.email = c.email;

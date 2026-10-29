@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
 import type { Dictionary } from "@/content/types";
-import { expertisePath, guidePath, pagePath, type GuideKey } from "@/config/routes";
+import { expertisePath, guidePath, publicPath, pagePath, type GuideKey } from "@/config/routes";
 import { siteConfig } from "@/config/site";
 import { PageIntro } from "@/components/ui/PageIntro";
 import { Reveal } from "@/components/ui/Reveal";
@@ -21,7 +21,7 @@ export function GuidePage({ locale, dict, guide }: { locale: Locale; dict: Dicti
     inLanguage: locale,
     author: { "@type": "Organization", name: siteConfig.brand.name },
     publisher: { "@type": "Organization", name: siteConfig.brand.name },
-    ...(siteConfig.siteUrl ? { mainEntityOfPage: `${siteConfig.siteUrl}${guidePath(locale, guide)}` } : {}),
+    ...(siteConfig.siteUrl ? { mainEntityOfPage: `${siteConfig.siteUrl}${publicPath(guidePath(locale, guide))}` } : {}),
   };
 
   return (

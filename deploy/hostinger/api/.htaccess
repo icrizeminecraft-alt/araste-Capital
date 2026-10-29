@@ -1,0 +1,5 @@
+# Relais PHP du formulaire : seuls token.php et contact.php sont accessibles.
+<FilesMatch "^(config\.php|config\.example\.php|lib\.php|labels\.json)$">
+  Require all denied
+</FilesMatch>
+Options -Indexes

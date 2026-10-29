@@ -88,6 +88,16 @@ export function expertisePath(locale: Locale, key: ExpertiseKey): string {
   return `/${locale}/${pageSlugs.expertises[locale]}/${expertiseSlugs[key][locale]}`;
 }
 
+/**
+ * Chemin tel qu'il doit apparaître dans les URL publiques (canoniques,
+ * hreflang, plan du site) : en export statique, chaque page est un dossier
+ * et son URL se termine par une barre oblique.
+ */
+export function publicPath(path: string): string {
+  if (process.env.STATIC_EXPORT !== "true") return path;
+  return path.endsWith("/") ? path : `${path}/`;
+}
+
 export function pageKeyFromSlug(locale: Locale, slug: string): PageKey | null {
   for (const key of pageKeys) {
     if (key !== "home" && pageSlugs[key][locale] === slug) return key;
