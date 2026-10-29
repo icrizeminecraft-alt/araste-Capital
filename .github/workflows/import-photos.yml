@@ -33,9 +33,10 @@ jobs:
 
       - name: Installer sharp (hors du projet)
         run: |
-          mkdir -p outils/.deps && cd outils/.deps
-          npm init -y > /dev/null
-          npm install --no-audit --no-fund sharp@0.34
+          mkdir -p outils/.deps
+          echo '{ "name": "import-photos-deps", "private": true }' > outils/.deps/package.json
+          npm install --prefix outils/.deps --no-audit --no-fund sharp@0.34
+          node -e "require('./outils/.deps/node_modules/sharp'); console.log('sharp prêt')"
 
       - name: Télécharger et produire les variantes
         run: node outils/importer-photos.mjs
