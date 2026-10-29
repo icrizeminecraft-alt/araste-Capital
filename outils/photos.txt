@@ -1,8 +1,9 @@
 # Photographies retenues (Unsplash, licence Unsplash : usage commercial libre, sans attribution obligatoire).
 # Le workflow .github/workflows/import-photos.yml télécharge chaque image aux largeurs indiquées
 # dans public/images/<nom>-<largeur>.jpg (JPEG progressif, qualité 82). Les crédits sont dans src/config/images.ts.
-# Format : nom | identifiant Unsplash | URL de base | largeurs (px)
+# Format : nom | identifiant Unsplash | URL de base | largeurs (px) | [ratio l:h | point focal x | point focal y] (recadrage facultatif)
 monaco-crepuscule | _0hTRmpkT5s | https://images.unsplash.com/photo-1778328989282-c758e25c6037 | 960,1600,2400
+monaco-crepuscule-paysage | _0hTRmpkT5s | https://images.unsplash.com/photo-1778328989282-c758e25c6037 | 1600,2400 | 16:9 | 0.5 | 0.58
 galerie-voutee | 5kjDIw7STCw | https://images.unsplash.com/photo-1497282003564-004631e01464 | 800,1200,1800
 facade-monaco | GkCoXO22kIM | https://images.unsplash.com/photo-1718255632064-88289bfb5f10 | 800,1200,1800
 escalier-marbre | pfhVW5J2BKc | https://images.unsplash.com/photo-1781047884697-53a3dc4d7eee | 800,1600,2400

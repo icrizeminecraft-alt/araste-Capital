@@ -31,11 +31,18 @@ jobs:
           set -u
           mkdir -p public/images
           : > public/images/journal-import.txt
-          grep -v '^#' outils/photos.txt | grep '|' | while IFS='|' read -r nom id url largeurs; do
+          grep -v '^#' outils/photos.txt | grep '|' | while IFS='|' read -r nom id url largeurs ratio fpx fpy; do
             nom=$(echo "$nom" | xargs); url=$(echo "$url" | xargs); largeurs=$(echo "$largeurs" | xargs)
+            ratio=$(echo "${ratio:-}" | xargs); fpx=$(echo "${fpx:-0.5}" | xargs); fpy=$(echo "${fpy:-0.5}" | xargs)
             for w in ${largeurs//,/ }; do
               cible="public/images/$nom-$w.jpg"
-              if curl -fsSL --retry 3 "$url?w=$w&q=82&fm=jpg&fit=max" -o "$cible"; then
+              if [ -n "$ratio" ]; then
+                rw=${ratio%%:*}; rh=${ratio##*:}; h=$(( (w * rh + rw / 2) / rw ))
+                params="w=$w&h=$h&fit=crop&crop=focalpoint&fp-x=$fpx&fp-y=$fpy&q=82&fm=jpg"
+              else
+                params="w=$w&q=82&fm=jpg&fit=max"
+              fi
+              if curl -fsSL --retry 3 "$url?$params" -o "$cible"; then
                 echo "ok    $cible $(stat -c%s "$cible") octets" | tee -a public/images/journal-import.txt
               else
                 echo "échec $cible" | tee -a public/images/journal-import.txt; rm -f "$cible"
