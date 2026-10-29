@@ -128,18 +128,9 @@ export const photos = {
     widths: [800, 1600, 2400],
     width: 2400,
     height: 1600,
-    focal: { x: 50, y: 50 },
+    focal: { x: 14, y: 50 },
     alt: { fr: "Homme de dos, à la fenêtre, devant une ville la nuit.", en: "Man from behind at a window, facing a city at night." },
     credit: unsplash("avechenri", "ccsxNJmOGPw"),
-  },
-  manchetteMontre: {
-    base: "manchette-montre",
-    widths: [800, 1600, 2400],
-    width: 2400,
-    height: 1600,
-    focal: { x: 55, y: 50 },
-    alt: { fr: "Costume bleu nuit : une main ajuste la manchette, montre au poignet.", en: "Midnight-blue suit: a hand adjusts the cuff, watch on the wrist." },
-    credit: unsplash("Alvin Mahmudov", "oBT4lJvNMQg"),
   },
   villaCrepuscule: {
     base: "villa-crepuscule",
@@ -168,15 +159,6 @@ export const photos = {
     alt: { fr: "Tour de verre reflétant la lumière dorée du couchant.", en: "Glass tower reflecting golden sunset light." },
     credit: unsplash("Hoak Shen", "OLhtAXMgaaQ"),
   },
-  hommeMarche: {
-    base: "homme-marche",
-    widths: [960, 1600, 2400],
-    width: 2400,
-    height: 1600,
-    focal: { x: 50, y: 50 },
-    alt: { fr: "Homme en costume s'éloignant le long d'une façade de pierre.", en: "Man in a suit walking away along a stone façade." },
-    credit: unsplash("Toxic Smoker", "mhlNXGEBLbU"),
-  },
   refletsVerre: {
     base: "reflets-verre",
     widths: [960, 1600, 2400],
@@ -203,15 +185,6 @@ export const photos = {
     focal: { x: 50, y: 50 },
     alt: { fr: "Gratte-ciel sous un ciel de couchant.", en: "Skyscraper under a sunset sky." },
     credit: unsplash("LEDC", "J9zND9ieE4Q"),
-  },
-  hommeSeuil: {
-    base: "homme-seuil",
-    widths: [800, 1600, 2400],
-    width: 2400,
-    height: 1600,
-    focal: { x: 50, y: 45 },
-    alt: { fr: "Homme en costume sombre, de dos, sur un seuil éclairé.", en: "Man in a dark suit, from behind, on a lit threshold." },
-    credit: unsplash("Tom Morbey", "7L4XxWFTJVs"),
   },
   hommeVeste: {
     base: "homme-veste",
@@ -249,6 +222,33 @@ export const photos = {
     alt: { fr: "Stylo posé sur une pile de documents, en noir et blanc.", en: "Pen resting on a pile of documents, in black and white." },
     credit: unsplash("Andres Vera", "OJbjBsNIwjk"),
   },
+  costumeMontre: {
+    base: "costume-montre",
+    widths: [800, 1600, 2400],
+    width: 2400,
+    height: 3627,
+    focal: { x: 55, y: 40 },
+    alt: { fr: "Costume bleu nuit, mains croisées, montre au poignet.", en: "Midnight-blue suit, hands clasped, watch on the wrist." },
+    credit: unsplash("Ruthson Zimmerman", "4oDG18btbWI"),
+  },
+  horizonVerre: {
+    base: "horizon-verre",
+    widths: [960, 1600, 2400],
+    width: 2400,
+    height: 1600,
+    focal: { x: 50, y: 50 },
+    alt: { fr: "Ligne d'horizon d'une ville, vue à travers une paroi de verre.", en: "City skyline seen through a glass wall." },
+    credit: unsplash("Yosuke Ota", "bD-1TlciAIQ"),
+  },
+  villeFenetre: {
+    base: "ville-fenetre",
+    widths: [960, 1600, 2400],
+    width: 2400,
+    height: 1800,
+    focal: { x: 55, y: 50 },
+    alt: { fr: "Ville vue d'une haute fenêtre, en noir et blanc.", en: "City seen from a high window, in black and white." },
+    credit: unsplash("V", "sYtp3sQkqbM"),
+  },
 } as const satisfies Record<string, PhotoAsset>;
 
 
@@ -266,7 +266,7 @@ export const visuals: {
   places: Record<"andorra" | "london" | "monaco" | "uae", VisualSlot>;
 } = {
   hero: { kind: "photo", photo: photos.monacoCrepuscule },
-  bridgeFeature: { kind: "photo", photo: photos.hommeSeuil },
+  bridgeFeature: { kind: "photo", photo: photos.costumeMontre },
   firm: { kind: "photo", photo: photos.hommeVeste },
   approach: { kind: "photo", photo: photos.plumeOr },
   partners: { kind: "photo", photo: photos.accord },
@@ -274,14 +274,14 @@ export const visuals: {
   expertises: {
     bridge: { kind: "photo", photo: photos.hommeFenetre },
     complex: { kind: "photo", photo: photos.corniche },
-    refinancing: { kind: "photo", photo: photos.manchetteMontre },
+    refinancing: { kind: "photo", photo: photos.refletsVerre },
     acquisition: { kind: "photo", photo: photos.villaCrepuscule },
     development: { kind: "photo", photo: photos.maquette },
     privateDebt: { kind: "photo", photo: photos.tourDoree },
   },
   expertiseBanners: {
-    bridge: { kind: "photo", photo: photos.hommeMarche },
-    complex: { kind: "photo", photo: photos.refletsVerre },
+    bridge: { kind: "photo", photo: photos.horizonVerre },
+    complex: { kind: "photo", photo: photos.villeFenetre },
     refinancing: { kind: "photo", photo: photos.colonnade },
     acquisition: { kind: "photo", photo: photos.residencesMer },
     development: { kind: "photo", photo: photos.chantierCrepuscule },

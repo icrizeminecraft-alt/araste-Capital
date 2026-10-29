@@ -7,13 +7,13 @@ Chaque emplacement visuel est servi par une **photographie d'illustration** impo
 | Fichier (`public/images/`) | Usage | Évocation |
 | --- | --- | --- |
 | `monaco-crepuscule` (+ `-paysage`) | ouverture de l'accueil | Monaco au crépuscule, ciel bleu nuit |
-| `homme-seuil` | moment fort du financement relais (accueil) | homme en costume sur un seuil éclairé |
+| `costume-montre` | moment fort du financement relais (accueil) | costume bleu nuit, montre au poignet |
 | `homme-veste` | cabinet | homme boutonnant sa veste, noir et blanc |
 | `plume-or` | approche | plume dorée d'un stylo noir |
 | `accord` | partenaires | poignée de main dans la pénombre |
 | `stylo-dossier` | contact | stylo sur une pile de documents |
-| `homme-fenetre`, `corniche`, `manchette-montre`, `villa-crepuscule`, `maquette`, `tour-doree` | vignettes des expertises (accueil, page des expertises) | relais, complexes, refinancement, acquisition, promotion, dette privée |
-| `homme-marche`, `reflets-verre`, `colonnade`, `residences-mer`, `chantier-crepuscule`, `tour-couchant` | bandeaux des pages d'expertise | une seconde image par expertise, jamais la même que la vignette |
+| `homme-fenetre`, `corniche`, `reflets-verre`, `villa-crepuscule`, `maquette`, `tour-doree` | vignettes des expertises (accueil, page des expertises) | relais, complexes, refinancement, acquisition, promotion, dette privée |
+| `horizon-verre`, `ville-fenetre`, `colonnade`, `residences-mer`, `chantier-crepuscule`, `tour-couchant` | bandeaux des pages d'expertise | une seconde image par expertise, jamais la même que la vignette |
 | `andorre`, `londres`, `monaco`, `emirats` | implantations (accueil) | une vue par place |
 
 Chaque photographie n'apparaît qu'à un seul emplacement du site (les vignettes d'expertise sont reprises à l'identique entre l'accueil et la page des expertises).
