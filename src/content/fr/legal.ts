@@ -20,20 +20,18 @@ export const legal: LegalContent = {
     {
       title: "Éditeur du site",
       paragraphs: [
-        "Le site est édité par ARASTE CAPITAL LTD (dénomination sociale à confirmer), ci-après « le cabinet ».",
+        "Le site est édité par ARASTE CAPITAL, société par actions simplifiée unipersonnelle de droit français, immatriculée au registre du commerce et des sociétés de Grenoble, ci-après « le cabinet ». Son président, Lucas Araste, est le responsable de la publication.",
       ],
       pending: [
-        "Forme juridique et pays d'immatriculation",
-        "Numéro d'immatriculation",
+        "Numéro d'immatriculation au RCS de Grenoble et capital social",
         "Adresse du siège social",
         "Adresse électronique et téléphone de contact",
-        "Nom du responsable de la publication",
       ],
     },
     {
       title: "Activité et statut",
       paragraphs: [
-        "Le cabinet exerce une activité de conseil et d'intermédiation en financements professionnels, pour le compte d'emprunteurs professionnels. Il ne consent pas de crédit, ne gère aucun actif pour compte de tiers, ne propose aucun placement au public et n'intervient pas auprès des particuliers.",
+        "Le cabinet exerce une activité de conseil et d'intermédiation en financement immobilier et opérations complexes, pour le compte d'emprunteurs professionnels : entrepreneurs, investisseurs et structures patrimoniales. Il ne consent pas de crédit, ne gère aucun actif pour compte de tiers, ne propose aucun placement au public et n'intervient pas auprès des particuliers.",
         "Le périmètre des prestations, le statut d'intermédiaire applicable, les pays servis et les éventuelles mentions obligatoires sont précisés ci-dessous.",
       ],
       pending: [

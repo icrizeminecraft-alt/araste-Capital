@@ -80,6 +80,6 @@ export const refinancing: ExpertiseContent = {
   cta: {
     title: "Une dette à réexaminer ?",
     body: "Présentez-nous le financement en place, son échéance et ce qui a changé depuis sa signature. Nous vous dirons si une nouvelle structure nous paraît mériter d'être étudiée.",
-    button: "Présenter une opération",
+    button: "Échanger sur votre projet",
   },
 };

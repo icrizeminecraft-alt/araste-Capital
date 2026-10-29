@@ -6,14 +6,13 @@ import { expertisePath, pagePath } from "@/config/routes";
 import { enabledExpertises } from "@/config/site";
 import { visuals } from "@/config/images";
 import { Hero } from "@/components/home/Hero";
-import { Stance } from "@/components/home/Stance";
 import { ExpertiseList, type ExpertiseListItem } from "@/components/home/ExpertiseList";
 import { BridgeFeature } from "@/components/home/BridgeFeature";
 import { ApproachSteps } from "@/components/home/ApproachSteps";
 import { Situations } from "@/components/home/Situations";
-import { Interlocutors } from "@/components/home/Interlocutors";
+import { Founder } from "@/components/home/Founder";
 import { HomeGuides } from "@/components/home/HomeGuides";
-import { Presence } from "@/components/home/Presence";
+import { Markets } from "@/components/home/Markets";
 import { HomePartners } from "@/components/home/HomePartners";
 import { ContactCta } from "@/components/home/ContactCta";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -35,6 +34,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   });
 }
 
+/**
+ * Accueil, dans l'ordre : dire le métier, reconnaître son enjeu, présenter
+ * l'offre, identifier le responsable, le financement relais, la méthode en
+ * quatre temps, les prescripteurs, les marchés, les guides, puis l'invitation.
+ */
 export default async function HomePage({ params }: Props) {
   const { locale } = await params;
   const l: Locale = isLocale(locale) ? locale : "fr";
@@ -59,7 +63,7 @@ export default async function HomePage({ params }: Props) {
   return (
     <>
       <Hero locale={l} t={t.hero} />
-      <Stance t={t.stance} />
+      <Situations locale={l} t={t.situations} dict={dict} />
 
       <section id="expertises" className="container-x section-y scroll-mt-24" aria-labelledby="expertises-title">
         <Reveal>
@@ -70,12 +74,16 @@ export default async function HomePage({ params }: Props) {
         </div>
       </section>
 
+      <section className="border-t border-silver bg-porcelain-deep/60" aria-labelledby="founder-title">
+        <div className="container-x section-y">
+          <Founder locale={l} founder={{ ...dict.firm.founder, cta: t.founder.cta }} heading={{ eyebrow: t.founder.eyebrow, title: t.founder.title }} />
+        </div>
+      </section>
+
       {siteConfig.expertises.bridge ? <BridgeFeature locale={l} t={t.bridge} /> : null}
       <ApproachSteps locale={l} t={t.approach} />
-      <Situations locale={l} t={t.situations} dict={dict} />
-      <Interlocutors t={t.interlocutors} />
       <HomePartners locale={l} t={t.partners} />
-      <Presence locale={l} t={t.presence} dict={dict} />
+      <Markets locale={l} t={t.markets} />
       <HomeGuides locale={l} t={t.guides} dict={dict} />
       <ContactCta locale={l} t={t.contact} />
     </>

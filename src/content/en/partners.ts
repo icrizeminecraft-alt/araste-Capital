@@ -85,6 +85,6 @@ export const partners: PartnersContent = {
   cta: {
     title: "A transaction to present on behalf of a client?",
     body: "The transaction sheet takes a few minutes. Simply indicate your role: we come back to you.",
-    button: "Present a transaction",
+    button: "Submit a transaction",
   },
 };

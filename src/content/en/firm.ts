@@ -4,16 +4,51 @@ export const firm: FirmContent = {
   meta: {
     title: "The firm",
     description:
-      "ARASTE CAPITAL is an independent boutique advising on and arranging professional financing, dedicated to bridge finance and complex cases.",
+      "ARASTE CAPITAL is an independent advisory and intermediary firm in real estate finance and complex transactions, led by Lucas Araste.",
   },
   eyebrow: "The firm",
-  title: "An independent boutique, dedicated to financing that calls for a careful reading.",
-  lead: "ARASTE CAPITAL advises and supports professional borrowers in sourcing and structuring financing. We act on their side, on transactions where the timetable, the structure or the nature of the assets calls for an in-depth presentation.",
+  title: "An independent firm, dedicated to real estate finance and complex transactions.",
+  lead: "ARASTE CAPITAL supports entrepreneurs, investors and family holding structures in sourcing real estate finance, refinancing and liquidity solutions. We act on the borrower's side, on transactions where the timetable, the structure or the nature of the assets calls for an in-depth presentation.",
   paragraphs: [
     "Our work consists of understanding a transaction, presenting it with precision and seeking the financing routes that fit it. We do not lend and we do not manage any assets: our role is that of an adviser and intermediary, acting for the borrower.",
     "Independence is the condition of that role. We belong to no institution and promote no product. Routes are compared in the light of the transaction, its timetable and its security.",
     "We work in coordination with your usual advisers. The file we prepare is meant to be read, checked and discussed: its clarity is our first commitment.",
   ],
+  founder: {
+    eyebrow: "Your contact",
+    title: "A named principal who follows every transaction.",
+    cta: "Talk to Lucas Araste",
+    name: "Lucas Araste",
+    role: "Founder and President of ARASTE CAPITAL",
+    paragraphs: [
+      "Lucas Araste personally follows every transaction entrusted to the firm, from the first conversation to the close of discussions. He is the single point of contact for the borrower and its advisers: lawyer, notary, accountant, banker or family office.",
+      "His approach comes down to one rule: understand the transaction before seeking to finance it. The assets, the holding structure, the timetable and the exit are examined before a single lender is approached.",
+    ],
+    portraitAlt: "Portrait of Lucas Araste, founder of ARASTE CAPITAL.",
+  },
+  clients: {
+    eyebrow: "Who we work with",
+    title: "Who we work for.",
+    body: "We work with professional borrowers and with the advisers who support them. In every case, the quality of the collaboration rests on the clarity of the file and the candour of the discussions.",
+    groups: [
+      {
+        title: "Companies and holdings",
+        body: "Operating companies, holding companies and investment vehicles facing a specific financing need.",
+      },
+      {
+        title: "Property investors",
+        body: "Property companies and professional owners, for an acquisition, a refinancing or a reorganisation.",
+      },
+      {
+        title: "Developers",
+        body: "Sponsors of development, renovation or conversion projects, at every stage of the timetable.",
+      },
+      {
+        title: "Referring advisers",
+        body: "Lawyers, accountants, notaries, wealth managers and family offices who wish to refer a client to a dedicated contact.",
+      },
+    ],
+  },
   principles: {
     eyebrow: "Principles",
     title: "What guides our work.",
@@ -58,6 +93,6 @@ export const firm: FirmContent = {
   cta: {
     title: "A transaction to present to us?",
     body: "A first conversation allows us to understand where the need sits and to say, simply, whether we can be useful.",
-    button: "Present a transaction",
+    button: "Discuss your project",
   },
 };

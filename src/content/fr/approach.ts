@@ -59,6 +59,6 @@ export const approach: ApproachContent = {
   cta: {
     title: "Une opération à nous présenter ?",
     body: "Un premier échange suffit pour situer le besoin. Nous vous dirons franchement si nous pouvons être utiles.",
-    button: "Présenter une opération",
+    button: "Échanger sur votre projet",
   },
 };

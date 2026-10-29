@@ -9,6 +9,10 @@ import {
   emptyContactFields,
   envelopeErrorCode,
   sanitizeFieldErrors,
+  briefFieldsSchema,
+  briefRequestSchema,
+  toBriefFieldErrors,
+  sanitizeBriefFieldErrors,
 } from "@/lib/contact/schema";
 
 const validStepOne = {
@@ -143,5 +147,25 @@ describe("toFieldErrors", () => {
       const errors = toFieldErrors(result.error.issues);
       expect(errors.description).toBe("required");
     }
+  });
+});
+
+describe("briefFieldsSchema (premier échange)", () => {
+  const valid = { name: "Jean Dupont", email: "jean@exemple.fr", phone: "", message: "Refinancement d'un immeuble de bureaux, échéance dans six mois." };
+  it("accepte une demande valide, téléphone facultatif", () => {
+    expect(briefFieldsSchema.safeParse(valid).success).toBe(true);
+    expect(briefFieldsSchema.safeParse({ ...valid, phone: "+33 6 12 34 56 78" }).success).toBe(true);
+  });
+  it("signale les champs requis et les formats", () => {
+    const r = briefFieldsSchema.safeParse({ name: "", email: "pas-un-courriel", phone: "abc", message: "court" });
+    expect(r.success).toBe(false);
+    if (!r.success) expect(toBriefFieldErrors(r.error.issues)).toEqual({ name: "required", email: "email", phone: "phone", message: "tooShort" });
+  });
+  it("accepte une enveloppe de premier échange", () => {
+    const r = briefRequestSchema.safeParse({ ...valid, kind: "brief", locale: "fr", token: "t", idempotencyKey: "abcdefgh-1234" });
+    expect(r.success).toBe(true);
+  });
+  it("ne garde que les champs connus dans les erreurs renvoyées", () => {
+    expect(sanitizeBriefFieldErrors({ name: "required", amount: "amount", message: "nope" })).toEqual({ name: "required" });
   });
 });

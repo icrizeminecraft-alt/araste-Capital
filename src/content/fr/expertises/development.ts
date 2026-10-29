@@ -80,6 +80,6 @@ export const development: ExpertiseContent = {
   cta: {
     title: "Un projet à financer par étapes ?",
     body: "Décrivez-nous le projet, où il en est, son budget et la sortie prévue. Nous vous répondrons franchement sur la phase et la forme de financement qui nous paraissent envisageables.",
-    button: "Présenter une opération",
+    button: "Échanger sur votre projet",
   },
 };

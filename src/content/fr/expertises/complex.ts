@@ -80,6 +80,6 @@ export const complex: ExpertiseContent = {
   cta: {
     title: "Une opération qui sort du cadre ?",
     body: "Décrivez-nous la structure, l'actif et le calendrier, même de manière sommaire. Nous vous indiquerons ce qui peut, selon nous, être étudié et ce qui ne le peut pas.",
-    button: "Présenter une opération",
+    button: "Échanger sur votre projet",
   },
 };

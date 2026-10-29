@@ -7,7 +7,8 @@ import { Reveal } from "@/components/ui/Reveal";
 import { Numeral } from "@/components/ui/Numeral";
 import { Visual } from "@/components/visuals/Visual";
 import { Faq } from "@/components/ui/Faq";
-import { ContactCta } from "@/components/home/ContactCta";
+import { ContactCta, SHEET_ANCHOR } from "@/components/home/ContactCta";
+import { pagePath } from "@/config/routes";
 
 export function PartnersPage({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   const t = dict.partners;
@@ -87,7 +88,7 @@ export function PartnersPage({ locale, dict }: { locale: Locale; dict: Dictionar
         </div>
       </div>
 
-      <ContactCta locale={locale} t={{ title: t.cta.title, body: t.cta.body, cta: t.cta.button }} />
+      <ContactCta locale={locale} t={{ title: t.cta.title, body: t.cta.body, cta: t.cta.button }} href={`${pagePath(locale, "contact")}#${SHEET_ANCHOR}`} />
     </>
   );
 }

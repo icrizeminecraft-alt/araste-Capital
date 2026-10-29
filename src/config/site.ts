@@ -18,15 +18,15 @@ export type ContactDetails = {
 
 export const siteConfig = {
   brand: {
-    /** Dénomination complète demandée (identité juridique exacte à confirmer). */
-    legalName: "ARASTE CAPITAL LTD",
-    /** Passer à true une fois la dénomination vérifiée : elle est alors publiée dans les données structurées. */
-    legalNameConfirmed: false,
+    /** Dénomination sociale (SASU de droit français, RCS Grenoble). */
+    legalName: "ARASTE CAPITAL",
+    /** Dénomination vérifiée : publiée dans les données structurées. */
+    legalNameConfirmed: true,
     /** Marque mise en avant dans le design. */
     name: "ARASTE CAPITAL",
     tagline: {
-      fr: "Conseil indépendant en financements professionnels",
-      en: "Independent Financing Advisory",
+      fr: "Conseil indépendant en financement immobilier et opérations complexes",
+      en: "Independent advisory in real estate finance and complex transactions",
     },
   },
 
@@ -76,10 +76,9 @@ export const siteConfig = {
   },
 
   /**
-   * Implantations affichées (accueil, pied de page, contact).
-   * Les noms sont fournis par le cabinet ; adresses et entités juridiques
-   * de chaque implantation restent À RENSEIGNER avant publication
-   * (chaîne vide = non affichée). `timeZone` sert à l'heure locale.
+   * Marchés d'intervention affichés (accueil, pied de page, contact) : des
+   * marchés, pas des bureaux. Une adresse ne s'affiche que si elle est
+   * renseignée (un bureau réel ou un représentant).
    */
   locations: [
     { key: "andorra", name: { fr: "Andorre", en: "Andorra" }, timeZone: "Europe/Andorra", addressLines: [] as string[] },

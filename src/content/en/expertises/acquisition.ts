@@ -80,6 +80,6 @@ export const acquisition: ExpertiseContent = {
   cta: {
     title: "An acquisition to finance?",
     body: "Tell us about the asset, the structure acquiring it and the timetable of the transaction. We will tell you whether it falls within what we review and on what basis we can take it forward.",
-    button: "Present a transaction",
+    button: "Discuss your project",
   },
 };

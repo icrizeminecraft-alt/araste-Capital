@@ -1,5 +1,5 @@
 import "server-only";
-import type { ContactFields } from "@/lib/contact/schema";
+import type { BriefFields, ContactFields } from "@/lib/contact/schema";
 import { siteConfig } from "@/config/site";
 import { getDictionary } from "@/content";
 import { isLocale, type Locale } from "@/lib/i18n";
@@ -117,8 +117,38 @@ export function buildSheet(fields: ContactFields, locale: string, receivedAt: Da
   return { locale: l, title, subtitle, reference, sections, footer, financing };
 }
 
+export type Sheet = ReturnType<typeof buildSheet>;
+
+/** Premier échange : une seule section, sans PDF. */
+export function buildBriefSheet(fields: BriefFields, locale: string, receivedAt: Date): Sheet {
+  const l: Locale = isLocale(locale) ? locale : "fr";
+  const dict = getDictionary(l);
+  const b = dict.contact.brief;
+  const fr = l === "fr";
+  const sections: SheetSection[] = [
+    {
+      title: b.title,
+      rows: [
+        { label: b.fields.name.label, value: fields.name },
+        { label: b.fields.email.label, value: fields.email },
+        { label: b.fields.phone.label, value: fields.phone },
+        { label: b.fields.message.label, value: fields.message },
+      ],
+    },
+  ];
+  const reference = `${fr ? "Demande" : "Request"} ${receivedAt.toISOString().slice(0, 16).replace("T", " ")} UTC`;
+  const title = fr ? "Premier échange" : "First conversation";
+  const footer = fr
+    ? "Demande d'échange transmise depuis le site. Informations déclaratives. Confidentiel."
+    : "Conversation request sent from the website. Declarative information. Confidential.";
+  return { locale: l, title, subtitle: fields.name, reference, sections, footer, financing: "" };
+}
+
 export function renderPlainText(fields: ContactFields, locale: string, receivedAt: Date): string {
-  const sheet = buildSheet(fields, locale, receivedAt);
+  return renderSheetText(buildSheet(fields, locale, receivedAt));
+}
+
+export function renderSheetText(sheet: Sheet): string {
   const lines = [`${siteConfig.brand.name} — ${sheet.title}`, sheet.reference, sheet.subtitle, ""];
   sheet.sections.forEach((section, i) => {
     lines.push(`${String(i + 1).padStart(2, "0")}  ${section.title.toUpperCase()}`);
@@ -135,7 +165,10 @@ function escapeHtml(value: string): string {
 
 /** Courriel HTML sobre, lisible sur mobile, reprenant la charte. */
 export function renderHtml(fields: ContactFields, locale: string, receivedAt: Date): string {
-  const sheet = buildSheet(fields, locale, receivedAt);
+  return renderSheetHtml(buildSheet(fields, locale, receivedAt));
+}
+
+export function renderSheetHtml(sheet: Sheet): string {
   const sections = sheet.sections
     .map(
       (section, i) => `
@@ -171,15 +204,27 @@ class ProviderError extends Error {
 }
 
 export async function sendContact(fields: ContactFields, locale: string): Promise<SendOutcome> {
+  const receivedAt = new Date();
+  const sheet = buildSheet(fields, locale, receivedAt);
+  const subject = oneLine(`[${siteConfig.brand.name}] ${sheet.title} · ${sheet.financing} · ${fields.amount} ${fields.currency} · ${fields.country}`);
+  return deliver(sheet, fields, locale, receivedAt, subject, true);
+}
+
+/** Premier échange : courriel sans pièce jointe. */
+export async function sendBrief(fields: BriefFields, locale: string): Promise<SendOutcome> {
+  const receivedAt = new Date();
+  const sheet = buildBriefSheet(fields, locale, receivedAt);
+  const subject = oneLine(`[${siteConfig.brand.name}] ${sheet.title} · ${fields.name}`);
+  return deliver(sheet, fields, locale, receivedAt, subject, false);
+}
+
+async function deliver(sheet: Sheet, fields: ContactFields | BriefFields, locale: string, receivedAt: Date, subject: string, withPdf: boolean): Promise<SendOutcome> {
   const provider = currentProvider();
   if (provider === "none") return "demo";
 
-  const receivedAt = new Date();
-  const sheet = buildSheet(fields, locale, receivedAt);
-  const text = renderPlainText(fields, locale, receivedAt);
-  const html = renderHtml(fields, locale, receivedAt);
-  const subject = oneLine(`[${siteConfig.brand.name}] ${sheet.title} · ${sheet.financing} · ${fields.amount} ${fields.currency} · ${fields.country}`);
-  const pdf = await renderSheetPdf(sheet);
+  const text = renderSheetText(sheet);
+  const html = renderSheetHtml(sheet);
+  const pdf = withPdf ? await renderSheetPdf(sheet) : null;
   const pdfName = `${sheet.locale === "fr" ? "fiche-operation" : "transaction-sheet"}-${receivedAt.toISOString().slice(0, 10)}.pdf`;
 
   if (provider === "resend") {
@@ -196,7 +241,7 @@ export async function sendContact(fields: ContactFields, locale: string): Promis
         subject,
         text,
         html,
-        attachments: [{ filename: pdfName, content: Buffer.from(pdf).toString("base64") }],
+        ...(pdf ? { attachments: [{ filename: pdfName, content: Buffer.from(pdf).toString("base64") }] } : {}),
       }),
       signal: AbortSignal.timeout(10_000),
     });
@@ -218,7 +263,7 @@ export async function sendContact(fields: ContactFields, locale: string): Promis
       fields,
       text,
       html,
-      pdf: { filename: pdfName, contentType: "application/pdf", base64: Buffer.from(pdf).toString("base64") },
+      ...(pdf ? { pdf: { filename: pdfName, contentType: "application/pdf", base64: Buffer.from(pdf).toString("base64") } } : {}),
     }),
     signal: AbortSignal.timeout(10_000),
   });

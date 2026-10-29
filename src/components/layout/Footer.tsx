@@ -34,7 +34,7 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             </Link>
             <p className="mt-6 max-w-xs font-serif text-xl leading-snug text-silver">{t.footer.tagline}</p>
             <p className="mt-6 font-sans text-sm text-silver">{siteConfig.brand.legalName}</p>
-            <p className="mt-8 font-sans text-xs uppercase tracking-[0.18em] text-gold-light">{t.ui.presence}</p>
+            <p className="mt-8 font-sans text-xs uppercase tracking-[0.18em] text-gold-light">{t.ui.markets}</p>
             <p className="mt-2 font-serif text-lg text-silver">{siteConfig.locations.map((l) => l.name[locale]).join(" · ")}</p>
           </div>
 

@@ -80,6 +80,6 @@ export const refinancing: ExpertiseContent = {
   cta: {
     title: "Debt worth a second look?",
     body: "Tell us about the financing in place, its maturity and what has changed since it was arranged. We will tell you whether, in our view, a new structure is worth exploring.",
-    button: "Present a transaction",
+    button: "Discuss your project",
   },
 };

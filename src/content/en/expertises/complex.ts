@@ -80,6 +80,6 @@ export const complex: ExpertiseContent = {
   cta: {
     title: "A transaction that does not fit the usual mould?",
     body: "Describe the structure, the asset and the timetable to us, even in outline. We will tell you what we think can be reviewed, and what cannot.",
-    button: "Present a transaction",
+    button: "Discuss your project",
   },
 };

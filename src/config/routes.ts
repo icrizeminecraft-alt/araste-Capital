@@ -23,7 +23,7 @@ export const pageSlugs: Record<PageKey, Record<Locale, string>> = {
   firm: { fr: "le-cabinet", en: "the-firm" },
   expertises: { fr: "expertises", en: "expertise" },
   approach: { fr: "notre-approche", en: "our-approach" },
-  guides: { fr: "reperes", en: "guides" },
+  guides: { fr: "guides", en: "guides" },
   partners: { fr: "partenaires", en: "partners" },
   contact: { fr: "contact", en: "contact" },
   legal: { fr: "mentions-legales", en: "legal-notice" },

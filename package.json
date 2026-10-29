@@ -2,7 +2,7 @@
   "name": "araste-capital",
   "version": "0.1.0",
   "private": true,
-  "description": "Site d'ARASTE CAPITAL LTD — conseil indépendant en financements professionnels",
+  "description": "Site d'ARASTE CAPITAL — conseil indépendant en financement immobilier et opérations complexes",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

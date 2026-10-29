@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
-import { contactRequestSchema, LIMITS, toFieldErrors, envelopeErrorCode } from "@/lib/contact/schema";
+import { briefRequestSchema, contactRequestSchema, LIMITS, toBriefFieldErrors, toFieldErrors, envelopeErrorCode, type BriefFields, type ContactFields } from "@/lib/contact/schema";
 import { verifyFormToken, formSecret } from "@/lib/contact/token";
 import { SlidingWindowLimiter, RecentKeys, clientAddress, fingerprint } from "@/lib/contact/rate-limit";
-import { sendContact } from "@/lib/contact/providers";
+import { sendBrief, sendContact } from "@/lib/contact/providers";
 import { enabledExpertises } from "@/config/site";
 import { corsHeaders, isAllowedOrigin } from "@/lib/contact/cors";
 
@@ -84,18 +84,37 @@ export async function POST(request: Request) {
     return error(400, "invalid", undefined, cors);
   }
 
-  const parsed = contactRequestSchema.safeParse(json);
-  if (!parsed.success) {
-    const fields = toFieldErrors(parsed.error.issues);
-    if (Object.keys(fields).length > 0) return error(400, "invalid", { fields }, cors);
-    return error(400, envelopeErrorCode(parsed.error.issues) ?? "invalid", undefined, cors);
+  // Deux entrées : le premier échange (kind: "brief") et la fiche d'opération.
+  const brief = typeof json === "object" && json !== null && (json as { kind?: unknown }).kind === "brief";
+  let envelope: { token: string; idempotencyKey: string; website?: string; locale: "fr" | "en" };
+  let send: () => Promise<"sent" | "demo">;
+  if (brief) {
+    const parsed = briefRequestSchema.safeParse(json);
+    if (!parsed.success) {
+      const fields = toBriefFieldErrors(parsed.error.issues);
+      if (Object.keys(fields).length > 0) return error(400, "invalid", { fields }, cors);
+      return error(400, envelopeErrorCode(parsed.error.issues) ?? "invalid", undefined, cors);
+    }
+    const { token, idempotencyKey, website, locale, name, email, phone, message } = parsed.data;
+    const fields: BriefFields = { name, email, phone, message };
+    envelope = { token, idempotencyKey, website, locale };
+    send = () => sendBrief(fields, locale);
+  } else {
+    const parsed = contactRequestSchema.safeParse(json);
+    if (!parsed.success) {
+      const fields = toFieldErrors(parsed.error.issues);
+      if (Object.keys(fields).length > 0) return error(400, "invalid", { fields }, cors);
+      return error(400, envelopeErrorCode(parsed.error.issues) ?? "invalid", undefined, cors);
+    }
+    const { token, idempotencyKey, website, locale, ...fields } = parsed.data;
+    // Seules les expertises actives (et « autre ») sont recevables.
+    if (fields.financingType !== "other" && !enabledExpertises().includes(fields.financingType)) {
+      return error(400, "invalid", { fields: { financingType: "required" } }, cors);
+    }
+    envelope = { token, idempotencyKey, website, locale };
+    send = () => sendContact(fields as ContactFields, locale);
   }
-  const { token, idempotencyKey, website, locale, ...fields } = parsed.data;
-
-  // Seules les expertises actives (et « autre ») sont recevables.
-  if (fields.financingType !== "other" && !enabledExpertises().includes(fields.financingType)) {
-    return error(400, "invalid", { fields: { financingType: "required" } }, cors);
-  }
+  const { token, idempotencyKey, website } = envelope;
 
   // Pot de miel rempli : réponse neutre, rien n'est envoyé ni compté.
   if (website && website.trim() !== "") {
@@ -116,7 +135,7 @@ export async function POST(request: Request) {
   if (!recentKeys.add(idem)) return error(409, "duplicate", undefined, cors);
 
   try {
-    const outcome = await sendContact(fields, locale);
+    const outcome = await send();
     return NextResponse.json({ status: outcome }, { headers: { ...NO_STORE, ...cors } });
   } catch (err) {
     // La clé est libérée : une nouvelle tentative reste possible.

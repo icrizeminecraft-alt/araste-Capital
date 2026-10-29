@@ -4,7 +4,7 @@ export const common: CommonContent = {
   meta: {
     siteName: "ARASTE CAPITAL",
     defaultDescription:
-      "Independent financing advisory: bridge finance, refinancing and complex transactions for professional borrowers.",
+      "Independent advisory in real estate finance and complex transactions: bridge finance, refinancing and liquidity solutions, on the borrower's side.",
   },
   nav: {
     firm: "The firm",
@@ -13,7 +13,7 @@ export const common: CommonContent = {
     guides: "Guides",
     partners: "Partners",
     contact: "Contact",
-    present: "Present a transaction",
+    present: "Discuss your project",
     menuOpen: "Open menu",
     menuClose: "Close menu",
     menuLabel: "Main navigation",
@@ -35,15 +35,16 @@ export const common: CommonContent = {
     languagesTitle: "Language",
     legal: "Legal notice",
     privacy: "Privacy",
-    contactPending: "Contact details to be confirmed before publication.",
+    contactPending: "Direct contact details to be confirmed before publication.",
     rights: "All rights reserved.",
     previewNotice:
       "Pre-production version. Legal identity, contact details and regulatory statements to be confirmed before publication.",
-    tagline: "Independent Financing Advisory",
+    tagline: "Independent advisory in real estate finance and complex transactions",
   },
   ui: {
     allExpertises: "All areas of expertise",
     allGuides: "All guides",
+    markets: "Markets",
     breadcrumbLabel: "Breadcrumb",
     homeCrumb: "Home",
     contents: "Contents",
@@ -52,9 +53,7 @@ export const common: CommonContent = {
     relatedGuides: "Further reading",
     faq: "Frequently asked questions",
     readingTime: "{minutes} min read",
-    mobileCta: "Present a transaction",
-    presence: "Presence",
-    localTime: "Local time",
+    mobileCta: "Discuss your project",
     addressPending: "Address to be confirmed before publication.",
   },
   notFound: {

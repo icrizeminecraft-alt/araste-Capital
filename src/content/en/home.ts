@@ -2,27 +2,21 @@ import type { HomeContent } from "@/content/types";
 
 export const home: HomeContent = {
   meta: {
-    title: "Independent Financing Advisory",
+    title: "Independent advisory in real estate finance and complex transactions",
     description:
-      "ARASTE CAPITAL advises professional borrowers on sourcing and structuring bridge finance, refinancing and complex transactions.",
+      "ARASTE CAPITAL supports entrepreneurs, investors and family holding structures in sourcing real estate finance, refinancing and liquidity solutions.",
   },
   hero: {
-    eyebrow: "Independent financing advisory",
-    title: "A different reading of your financing.",
-    body: "Bridge finance, refinancing and complex transactions: ARASTE CAPITAL supports professional borrowers in sourcing and structuring solutions suited to their project.",
-    cta: "Present a transaction",
-    secondary: "Discover our expertise",
-    caption: "Illustrative photograph, unrelated to any advised transaction or to the firm's premises.",
-  },
-  stance: {
-    eyebrow: "Our position",
-    title: "Some transactions call for a different approach.",
-    body: "A tight timetable, an unusual asset, a multi-layered holding structure or debt in need of reorganisation do not fit a standard template. We start by understanding the need, the assets, the deadlines and the exit options. We then prepare a clear presentation of the case before seeking the financing routes that genuinely fit it.",
+    eyebrow: "Independent advisory, on the borrower's side",
+    title: "Real estate finance. Complex transactions.",
+    body: "ARASTE CAPITAL supports entrepreneurs, investors and family holding structures in sourcing real estate finance, refinancing and liquidity solutions. Every transaction is examined through its assets, its structure and its timetable.",
+    cta: "Discuss your project",
+    secondary: "Our expertise",
   },
   expertises: {
     eyebrow: "Expertise",
-    title: "Distinct areas, one level of rigour.",
-    body: "Bridge finance and complex cases are at the heart of what we do. Our other areas of expertise follow naturally: they call for the same work of analysis and structuring.",
+    title: "Financing shaped to the structure of your transaction.",
+    body: "Bridge finance and complex transactions are at the heart of what we do. Refinancing, acquisition, development and private debt call for the same work: understanding the transaction, then finding the financing that fits it.",
     all: "See all areas of expertise",
   },
   bridge: {
@@ -45,33 +39,38 @@ export const home: HomeContent = {
     ],
     cta: "Bridge finance in detail",
   },
+  founder: {
+    eyebrow: "Your contact",
+    title: "A named principal who follows every transaction.",
+    cta: "Talk to Lucas Araste",
+  },
   approach: {
-    eyebrow: "Our approach",
+    eyebrow: "Our method",
     title: "Four stages, one common thread.",
-    intro: "Every transaction follows the same path, from the first conversation to the outcome of discussions.",
+    intro: "Every transaction follows the same path, from the first conversation to the close of discussions with the lender.",
     steps: [
       {
         title: "Understand the transaction",
         body: "The need, the assets, the holding structure, the timetable and the constraints of each party.",
       },
       {
-        title: "Prepare its presentation",
-        body: "A clear, quantified and documented file that anticipates the questions a lender will ask.",
+        title: "Structure the file and the options",
+        body: "A clear, quantified and documented file, and the financing options that fit the transaction.",
       },
       {
-        title: "Source and compare",
-        body: "Identifying the relevant routes and comparing the terms offered, without preconceptions.",
+        title: "Approach and compare",
+        body: "Approaching the relevant lenders and comparing the terms offered, without preconceptions.",
       },
       {
-        title: "Support through to the outcome",
-        body: "Following the discussions through, in coordination with your legal, tax and accounting advisers.",
+        title: "Coordinate through to completion",
+        body: "The progress of the transaction, coordinated with your legal, tax and accounting advisers.",
       },
     ],
     cta: "Our approach in detail",
   },
   situations: {
-    eyebrow: "Situations",
-    title: "What we can review.",
+    eyebrow: "Your needs",
+    title: "Your financing needs.",
     note: "Illustrative examples. These scenarios do not describe transactions completed by ARASTE CAPITAL and do not prejudge the outcome of any case.",
     cases: [
       {
@@ -98,46 +97,22 @@ export const home: HomeContent = {
     all: "All guides",
     featured: ["bridgeBasics", "exitStrategy", "preparingFile"],
   },
-  presence: {
-    eyebrow: "Presence",
-    title: "Andorra, London, Monaco, United Arab Emirates.",
-    body: "A presence in the places where the property and corporate financings we support are decided, and counterparts who travel.",
-    note: "The details of each office are shown on the contact page.",
+  markets: {
+    eyebrow: "Markets",
+    title: "Monaco, London, Andorra, United Arab Emirates.",
+    body: "The markets in which we operate, for borrowers and assets located there. Discussions take place in person or remotely, depending on the transaction and the parties involved.",
   },
   partners: {
-    eyebrow: "Independent partners",
+    eyebrow: "Referrers",
     title: "You bring a transaction; we take care of it.",
-    body: "Introducers, independent brokers, lawyers, accountants, wealth managers: we work with a large number of independent professionals. A clear transaction sheet, candid feedback and a collaboration set out in writing.",
+    body: "Introducers, independent brokers, lawyers, accountants, wealth managers: we work with independent professionals. A clear transaction sheet, a reasoned first opinion on feasibility and a collaboration set out in writing.",
     cta: "The partners area",
-  },
-  interlocutors: {
-    eyebrow: "Who we work with",
-    title: "Who we work for.",
-    body: "We work with professional borrowers and with the advisers who support them. In every case, the quality of the collaboration rests on the clarity of the file and the candour of the discussions.",
-    groups: [
-      {
-        title: "Companies and holdings",
-        body: "Operating companies, holding companies and investment vehicles facing a specific financing need.",
-      },
-      {
-        title: "Property investors",
-        body: "Property companies and professional owners, for an acquisition, a refinancing or a reorganisation.",
-      },
-      {
-        title: "Developers",
-        body: "Sponsors of development, renovation or conversion projects, at every stage of the timetable.",
-      },
-      {
-        title: "Referring advisers",
-        body: "Lawyers, accountants, notaries, wealth managers and family offices who wish to refer a client to a dedicated contact.",
-      },
-    ],
   },
   contact: {
     eyebrow: "Contact",
-    title: "Let's talk about your next transaction.",
-    body: "A few details are enough for a first conversation: the type of need, the order of magnitude, the country of the transaction and the intended timeframe. We will come back to you to discuss it.",
-    cta: "Present a transaction",
-    secondary: "Understand our approach",
+    title: "Let's discuss your project.",
+    body: "A first conversation takes only a few lines: your name, how to reach you and the context of the transaction. Lucas Araste gets back to you. The detailed transaction sheet remains available if you wish to go further.",
+    cta: "Discuss your project",
+    secondary: "Submit a transaction sheet",
   },
 };

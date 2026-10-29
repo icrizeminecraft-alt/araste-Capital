@@ -2,19 +2,26 @@ import type { Locale } from "@/lib/i18n";
 import type { Dictionary } from "@/content/types";
 import { PageIntro } from "@/components/ui/PageIntro";
 import { ContactForm } from "@/components/contact/ContactForm";
+import { BriefContactForm } from "@/components/contact/BriefContactForm";
 import { createFormToken } from "@/lib/contact/token";
 import { enabledExpertises, siteConfig, hasContactDetails } from "@/config/site";
 import { currentProvider } from "@/lib/contact/providers";
 import { Faq } from "@/components/ui/Faq";
-import { LocalClocks } from "@/components/layout/LocalClocks";
-import { connection } from "next/server";
-import { visuals } from "@/config/images";
+import { Eyebrow } from "@/components/ui/Eyebrow";
+import { Reveal } from "@/components/ui/Reveal";
 import { Visual } from "@/components/visuals/Visual";
+import { visuals } from "@/config/images";
+import { SHEET_ANCHOR } from "@/components/home/ContactCta";
+import { connection } from "next/server";
 
+/**
+ * Deux entrées, deux niveaux d'engagement : le premier échange (quelques
+ * lignes) en premier, la fiche d'opération détaillée ensuite, sous une ancre.
+ */
 export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   // Serveur Node : rendu à la demande, le jeton signé doit être frais à chaque visite.
-  // Export statique : pas de jeton local ; le formulaire s'adresse à une instance
-  // Node distante (NEXT_PUBLIC_CONTACT_ENDPOINT) ou reste en mode démonstration.
+  // Export statique : pas de jeton local ; les formulaires s'adressent à une instance
+  // Node distante (NEXT_PUBLIC_CONTACT_ENDPOINT) ou restent en mode démonstration.
   const staticMode = siteConfig.staticExport;
   if (!staticMode) await connection();
   const t = dict.contact;
@@ -27,6 +34,15 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
   const c = siteConfig.toConfirm;
   const financingOptions = enabledExpertises().map((key) => ({ value: key, label: dict.expertises[key].shortTitle }));
   const demo = staticMode ? transport === "demo" : currentProvider() === "none";
+  const shared = {
+    errors: t.form.errors,
+    honeypotLabel: t.form.honeypotLabel,
+    privacyNotice: t.form.privacyNotice,
+    privacyLink: t.form.privacyLink,
+    submitting: t.form.submitting,
+    optional: t.form.optional,
+    errorSummary: t.form.errorSummary,
+  };
 
   return (
     <>
@@ -38,45 +54,45 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
 
-      <div className="container-x section-y-sm grid grid-cols-1 gap-14 lg:grid-cols-12 lg:gap-8">
-        <aside className="order-2 lg:order-1 lg:col-span-4">
+      {/* Première entrée : le premier échange. */}
+      <section className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8" aria-labelledby="brief-title">
+        <div className="lg:col-span-7">
+          <Reveal>
+            <Eyebrow className="mb-5">{t.brief.eyebrow}</Eyebrow>
+            <h2 id="brief-title" className="display-md">
+              {t.brief.title}
+            </h2>
+            <p className="measure-lead mt-5 font-sans text-[1.0625rem] leading-relaxed text-ink-soft">{t.brief.lead}</p>
+          </Reveal>
+          <div className="mt-10">
+            {demo ? (
+              <p className="mb-8 border-l-2 border-gold bg-porcelain-deep/60 px-4 py-3 font-sans text-sm text-ink-soft" role="note">
+                {t.form.result.demoBanner}
+              </p>
+            ) : null}
+            <BriefContactForm locale={locale} t={t.brief} form={shared} token={token} transport={transport} endpoint={endpoint} />
+          </div>
+        </div>
+
+        <aside className="lg:col-span-4 lg:col-start-9">
           <div className="lg:sticky lg:top-[calc(var(--header-h)+2rem)]">
-            <div className="grain relative mb-10 aspect-[4/3] overflow-hidden bg-silver">
-              <Visual slot={visuals.contact} locale={locale} decorative sizes="(min-width: 64rem) 33vw, 100vw" />
+            <div className="grain relative mb-8 aspect-[4/3] overflow-hidden bg-silver">
+              <Visual slot={visuals.contact} locale={locale} decorative sizes="(min-width: 64rem) 30vw, 100vw" />
             </div>
-            <h2 className="eyebrow mb-4">{t.aside.title}</h2>
-            <ul className="space-y-3 border-t border-navy pt-5">
-              {t.aside.items.map((item) => (
-                <li key={item} className="flex gap-4 font-sans text-[0.9375rem] leading-relaxed text-ink">
-                  <span aria-hidden="true" className="mt-[0.7em] h-px w-4 shrink-0 bg-gold" />
+            <h3 className="eyebrow mb-4">{t.brief.next.title}</h3>
+            <ol className="space-y-3 border-t border-navy pt-5">
+              {t.brief.next.items.map((item, i) => (
+                <li key={item} className="grid grid-cols-[2rem_minmax(0,1fr)] gap-2 font-sans text-[0.9375rem] leading-relaxed text-ink">
+                  <span aria-hidden="true" className="numeral text-sm">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
                   {item}
                 </li>
               ))}
-            </ul>
-            <p className="mt-8 border-l border-gold pl-4 font-sans text-sm leading-relaxed text-ink-soft">{t.aside.confidentiality}</p>
+            </ol>
+            <p className="mt-8 border-l border-gold pl-4 font-sans text-sm leading-relaxed text-ink-soft">{t.brief.responder}</p>
 
-            <h2 className="eyebrow mb-4 mt-12">{dict.common.ui.presence}</h2>
-            <LocalClocks places={siteConfig.locations.map((l) => ({ key: l.key, name: l.name[locale], timeZone: l.timeZone }))} locale={locale === "fr" ? "fr-FR" : "en-GB"} label={dict.common.ui.localTime} compact />
-            {siteConfig.locations.some((l) => l.addressLines.length > 0) ? (
-              <ul className="mt-6 space-y-4 font-sans text-sm text-ink">
-                {siteConfig.locations
-                  .filter((l) => l.addressLines.length > 0)
-                  .map((l) => (
-                    <li key={l.key}>
-                      <span className="block font-medium text-navy">{l.name[locale]}</span>
-                      {l.addressLines.map((line) => (
-                        <span key={line} className="block">
-                          {line}
-                        </span>
-                      ))}
-                    </li>
-                  ))}
-              </ul>
-            ) : (
-              <p className="mt-4 font-sans text-sm text-ink-soft">{dict.common.ui.addressPending}</p>
-            )}
-
-            <h2 className="eyebrow mb-4 mt-12">{t.aside.detailsTitle}</h2>
+            <h3 className="eyebrow mb-4 mt-12">{t.aside.detailsTitle}</h3>
             {hasContactDetails() ? (
               <address className="not-italic font-sans text-[0.9375rem] text-ink">
                 {c.addressLines.map((line) => (
@@ -98,18 +114,64 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
             ) : (
               <p className="font-sans text-sm text-ink-soft">{t.aside.detailsPending}</p>
             )}
+
+            <h3 className="eyebrow mb-4 mt-12">{dict.common.ui.markets}</h3>
+            <p className="font-serif text-lg leading-snug text-navy">{siteConfig.locations.map((l) => l.name[locale]).join(" · ")}</p>
+            {siteConfig.locations.some((l) => l.addressLines.length > 0) ? (
+              <ul className="mt-4 space-y-4 font-sans text-sm text-ink">
+                {siteConfig.locations
+                  .filter((l) => l.addressLines.length > 0)
+                  .map((l) => (
+                    <li key={l.key}>
+                      <span className="block font-medium text-navy">{l.name[locale]}</span>
+                      {l.addressLines.map((line) => (
+                        <span key={line} className="block">
+                          {line}
+                        </span>
+                      ))}
+                    </li>
+                  ))}
+              </ul>
+            ) : null}
           </div>
         </aside>
+      </section>
 
-        <div className="order-1 relative lg:order-2 lg:col-span-7 lg:col-start-6">
-          {demo ? (
-            <p className="mb-8 border-l-2 border-gold bg-porcelain-deep/60 px-4 py-3 font-sans text-sm text-ink-soft" role="note">
-              {t.form.result.demoBanner}
-            </p>
-          ) : null}
-          <ContactForm locale={locale} t={t.form} token={token} financingOptions={financingOptions} transport={transport} endpoint={endpoint} />
+      {/* Seconde entrée : la fiche d'opération détaillée. */}
+      <section id={SHEET_ANCHOR} className="scroll-mt-24 border-t border-silver bg-porcelain-deep/60" aria-labelledby="sheet-title">
+        <div className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
+          <aside className="order-2 lg:order-1 lg:col-span-4">
+            <div className="lg:sticky lg:top-[calc(var(--header-h)+2rem)]">
+              <Reveal>
+                <Eyebrow className="mb-5">{t.sheet.eyebrow}</Eyebrow>
+                <h2 id="sheet-title" className="display-md">
+                  {t.sheet.title}
+                </h2>
+                <p className="measure-narrow mt-5 font-sans text-[1.0625rem] leading-relaxed text-ink-soft">{t.sheet.lead}</p>
+              </Reveal>
+              <h3 className="eyebrow mb-4 mt-10">{t.aside.title}</h3>
+              <ul className="space-y-3 border-t border-navy pt-5">
+                {t.aside.items.map((item) => (
+                  <li key={item} className="flex gap-4 font-sans text-[0.9375rem] leading-relaxed text-ink">
+                    <span aria-hidden="true" className="mt-[0.7em] h-px w-4 shrink-0 bg-gold" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-8 border-l border-gold pl-4 font-sans text-sm leading-relaxed text-ink-soft">{t.aside.confidentiality}</p>
+            </div>
+          </aside>
+
+          <div className="order-1 relative lg:order-2 lg:col-span-7 lg:col-start-6">
+            {demo ? (
+              <p className="mb-8 border-l-2 border-gold bg-porcelain-deep/60 px-4 py-3 font-sans text-sm text-ink-soft" role="note">
+                {t.form.result.demoBanner}
+              </p>
+            ) : null}
+            <ContactForm locale={locale} t={t.form} token={token} financingOptions={financingOptions} transport={transport} endpoint={endpoint} />
+          </div>
         </div>
-      </div>
+      </section>
 
       <div className="border-t border-silver">
         <div className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">

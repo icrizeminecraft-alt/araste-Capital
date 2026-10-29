@@ -6,16 +6,23 @@ import { ButtonLink } from "@/components/ui/ButtonLink";
 import { Reveal } from "@/components/ui/Reveal";
 import { Monogram } from "@/components/brand/Monogram";
 
+/** Ancre de la fiche d'opération détaillée sur la page contact. */
+export const SHEET_ANCHOR = "fiche";
+
 export function ContactCta({
   locale,
   t,
   tone = "dark",
+  href,
 }: {
   locale: Locale;
   t: { eyebrow?: string; title: string; body: string; cta: string; secondary?: string };
   tone?: "dark" | "light";
+  /** Destination du bouton principal (par défaut, la page contact : premier échange). */
+  href?: string;
 }) {
   const dark = tone === "dark";
+  const contact = pagePath(locale, "contact");
   return (
     <section
       className={dark ? "on-dark bg-navy text-porcelain" : "border-t border-silver bg-porcelain"}
@@ -29,12 +36,12 @@ export function ContactCta({
           </h2>
           <p className={`lead measure-lead mt-8 ${dark ? "text-silver" : "text-ink-soft"}`}>{t.body}</p>
           <div className="mt-10 flex flex-col items-start gap-5 sm:flex-row sm:items-center">
-            <ButtonLink href={pagePath(locale, "contact")} variant={dark ? "porcelain" : "primary"}>
+            <ButtonLink href={href ?? contact} variant={dark ? "porcelain" : "primary"}>
               {t.cta}
             </ButtonLink>
             {t.secondary ? (
               <Link
-                href={pagePath(locale, "approach")}
+                href={`${contact}#${SHEET_ANCHOR}`}
                 className={`link-line font-sans text-[0.9375rem] font-medium ${dark ? "text-porcelain" : "text-navy"}`}
               >
                 {t.secondary}

@@ -4,16 +4,51 @@ export const firm: FirmContent = {
   meta: {
     title: "Le cabinet",
     description:
-      "ARASTE CAPITAL est une boutique indépendante de conseil et d'intermédiation en financements professionnels, dédiée aux financements relais et aux dossiers complexes.",
+      "ARASTE CAPITAL est un cabinet indépendant de conseil et d'intermédiation en financement immobilier et opérations complexes, dirigé par Lucas Araste.",
   },
   eyebrow: "Le cabinet",
-  title: "Une boutique indépendante, dédiée aux financements qui demandent une lecture attentive.",
-  lead: "ARASTE CAPITAL conseille et accompagne les emprunteurs professionnels dans la recherche et la structuration de financements. Nous intervenons de leur côté, sur des opérations où le calendrier, la structure ou la nature des actifs appellent une présentation approfondie.",
+  title: "Un cabinet indépendant, dédié au financement immobilier et aux opérations complexes.",
+  lead: "ARASTE CAPITAL accompagne les entrepreneurs, les investisseurs et les structures patrimoniales dans la recherche de financements immobiliers, de refinancements et de solutions de liquidité. Nous intervenons du côté de l'emprunteur, sur des opérations où le calendrier, la structure ou la nature des actifs appellent une présentation approfondie.",
   paragraphs: [
     "Notre métier consiste à comprendre une opération, à la présenter avec précision et à rechercher les pistes de financement qui lui correspondent. Nous ne prêtons pas et ne gérons aucun actif : notre rôle est celui d'un conseil et d'un intermédiaire, au service de l'emprunteur.",
     "L'indépendance est la condition de ce rôle. Nous n'appartenons à aucun établissement et ne défendons aucun produit. La comparaison des pistes se fait au regard de l'opération, de son échéancier et de ses garanties.",
     "Nous travaillons en coordination avec vos conseils habituels. Le dossier que nous préparons a vocation à être lu, vérifié et discuté : sa clarté est notre premier engagement.",
   ],
+  founder: {
+    eyebrow: "Votre interlocuteur",
+    title: "Un responsable nommé, qui suit chaque opération.",
+    cta: "Échanger avec Lucas Araste",
+    name: "Lucas Araste",
+    role: "Fondateur et président d'ARASTE CAPITAL",
+    paragraphs: [
+      "Lucas Araste suit personnellement chaque opération confiée au cabinet, du premier échange jusqu'au terme des discussions. Il est l'interlocuteur unique de l'emprunteur et de ses conseils : avocat, notaire, expert-comptable, banquier ou family office.",
+      "Son approche tient en une règle : comprendre l'opération avant de chercher à la financer. Les actifs, la structure de détention, le calendrier et la sortie sont examinés avant qu'un seul prêteur ne soit sollicité.",
+    ],
+    portraitAlt: "Portrait de Lucas Araste, fondateur d'ARASTE CAPITAL.",
+  },
+  clients: {
+    eyebrow: "Interlocuteurs",
+    title: "À qui nous nous adressons.",
+    body: "Nous travaillons avec des emprunteurs professionnels et avec les conseils qui les accompagnent. Dans tous les cas, la qualité de la collaboration repose sur la clarté du dossier et la franchise des échanges.",
+    groups: [
+      {
+        title: "Entreprises et holdings",
+        body: "Sociétés opérationnelles, holdings et véhicules d'investissement confrontés à un besoin de financement précis.",
+      },
+      {
+        title: "Investisseurs immobiliers",
+        body: "Sociétés immobilières et propriétaires professionnels, pour une acquisition, un refinancement ou une réorganisation.",
+      },
+      {
+        title: "Promoteurs et développeurs",
+        body: "Porteurs de projets de développement, de rénovation ou de transformation, à chaque étape du calendrier.",
+      },
+      {
+        title: "Conseils prescripteurs",
+        body: "Avocats, experts-comptables, notaires, gestionnaires de patrimoine et family offices qui souhaitent orienter un client vers un interlocuteur dédié.",
+      },
+    ],
+  },
   principles: {
     eyebrow: "Principes",
     title: "Ce qui guide notre travail.",
@@ -58,6 +93,6 @@ export const firm: FirmContent = {
   cta: {
     title: "Une opération à nous présenter ?",
     body: "Un premier échange permet de situer le besoin et de dire, simplement, si nous pouvons être utiles.",
-    button: "Présenter une opération",
+    button: "Échanger sur votre projet",
   },
 };

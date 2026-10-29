@@ -2,27 +2,21 @@ import type { HomeContent } from "@/content/types";
 
 export const home: HomeContent = {
   meta: {
-    title: "Conseil indépendant en financements professionnels",
+    title: "Conseil indépendant en financement immobilier et opérations complexes",
     description:
-      "ARASTE CAPITAL accompagne les emprunteurs professionnels dans la recherche et la structuration de financements relais, de refinancements et de dossiers complexes.",
+      "ARASTE CAPITAL accompagne les entrepreneurs, les investisseurs et les structures patrimoniales dans la recherche de financements immobiliers, de refinancements et de solutions de liquidité.",
   },
   hero: {
-    eyebrow: "Conseil indépendant en financement",
-    title: "Une autre lecture de votre financement.",
-    body: "Financements relais, refinancements et opérations complexes : ARASTE CAPITAL accompagne les emprunteurs professionnels dans la recherche et la structuration de solutions adaptées à leur projet.",
-    cta: "Présenter une opération",
-    secondary: "Découvrir nos expertises",
-    caption: "Photographie d'illustration, sans lien avec une opération conseillée ni avec des locaux du cabinet.",
-  },
-  stance: {
-    eyebrow: "Prise de position",
-    title: "Certaines opérations appellent une approche différente.",
-    body: "Un calendrier serré, un actif atypique, une détention à plusieurs niveaux ou une dette à réorganiser ne se lisent pas dans une grille standard. Nous commençons par comprendre le besoin, les actifs, les échéances et les options de sortie. Nous préparons ensuite une présentation claire du dossier, avant de rechercher les pistes de financement qui lui correspondent.",
+    eyebrow: "Conseil indépendant, côté emprunteur",
+    title: "Financement immobilier. Opérations complexes.",
+    body: "ARASTE CAPITAL accompagne les entrepreneurs, les investisseurs et les structures patrimoniales dans la recherche de financements immobiliers, de refinancements et de solutions de liquidité. Chaque opération est étudiée à partir de ses actifs, de sa structure et de son calendrier.",
+    cta: "Échanger sur votre projet",
+    secondary: "Nos expertises",
   },
   expertises: {
     eyebrow: "Expertises",
-    title: "Des domaines distincts, une même exigence de lecture.",
-    body: "Le financement relais et les dossiers complexes sont au cœur de notre activité. Les autres expertises s'y rattachent naturellement : elles relèvent du même travail d'analyse et de structuration.",
+    title: "Des financements adaptés à la structure de votre opération.",
+    body: "Le financement relais et les opérations complexes sont au cœur de notre activité. Le refinancement, l'acquisition, la promotion et la dette privée relèvent du même travail : comprendre l'opération, puis lui trouver le financement qui lui correspond.",
     all: "Voir toutes les expertises",
   },
   bridge: {
@@ -45,33 +39,38 @@ export const home: HomeContent = {
     ],
     cta: "Le financement relais en détail",
   },
+  founder: {
+    eyebrow: "Votre interlocuteur",
+    title: "Un responsable nommé, qui suit chaque opération.",
+    cta: "Échanger avec Lucas Araste",
+  },
   approach: {
-    eyebrow: "Notre approche",
+    eyebrow: "Notre méthode",
     title: "Quatre temps, un fil conducteur.",
-    intro: "Chaque opération suit le même parcours, du premier échange jusqu'à l'issue des discussions.",
+    intro: "Chaque opération suit le même parcours, du premier échange jusqu'au terme des discussions avec le prêteur.",
     steps: [
       {
         title: "Comprendre l'opération",
         body: "Le besoin, les actifs, la structure de détention, le calendrier et les contraintes de chaque partie.",
       },
       {
-        title: "Préparer sa présentation",
-        body: "Un dossier clair, chiffré et documenté, qui anticipe les questions qu'un prêteur se posera.",
+        title: "Structurer le dossier et les options",
+        body: "Un dossier clair, chiffré et documenté, et les options de financement qui correspondent à l'opération.",
       },
       {
-        title: "Rechercher et comparer",
-        body: "L'identification des pistes pertinentes et la comparaison des conditions proposées, sans a priori.",
+        title: "Consulter et comparer",
+        body: "La consultation des prêteurs pertinents et la comparaison des conditions proposées, sans a priori.",
       },
       {
-        title: "Accompagner jusqu'à l'issue",
-        body: "Le suivi des échanges, en coordination avec vos conseils juridiques, fiscaux et comptables.",
+        title: "Coordonner jusqu'au terme",
+        body: "L'avancement de l'opération, coordonné avec vos conseils juridiques, fiscaux et comptables.",
       },
     ],
     cta: "Notre approche en détail",
   },
   situations: {
-    eyebrow: "Situations",
-    title: "Ce que nous pouvons étudier.",
+    eyebrow: "Vos enjeux",
+    title: "Vos enjeux de financement.",
     note: "Illustrations pédagogiques. Ces cas de figure ne décrivent pas des opérations réalisées par ARASTE CAPITAL et ne préjugent pas de l'issue d'un dossier.",
     cases: [
       {
@@ -92,52 +91,28 @@ export const home: HomeContent = {
     ],
   },
   guides: {
-    eyebrow: "Repères",
+    eyebrow: "Guides",
     title: "Comprendre avant de décider.",
     body: "Quelques guides courts pour lire une opération comme un prêteur la lira : le mécanisme d'un relais, la sortie, la préparation d'un dossier.",
-    all: "Tous les repères",
+    all: "Tous les guides",
     featured: ["bridgeBasics", "exitStrategy", "preparingFile"],
   },
-  presence: {
-    eyebrow: "Présence",
-    title: "Andorre, Londres, Monaco, Émirats arabes unis.",
-    body: "Une présence sur les places où se décident les financements immobiliers et d'entreprise que nous accompagnons, et des interlocuteurs qui se déplacent.",
-    note: "Les coordonnées de chaque implantation sont indiquées sur la page contact.",
+  markets: {
+    eyebrow: "Marchés",
+    title: "Monaco, Londres, Andorre, Émirats arabes unis.",
+    body: "Les marchés sur lesquels nous intervenons, pour des emprunteurs et des actifs qui s'y trouvent. Les échanges se tiennent sur place ou à distance, selon l'opération et ses interlocuteurs.",
   },
   partners: {
-    eyebrow: "Partenaires indépendants",
+    eyebrow: "Prescripteurs",
     title: "Vous apportez une opération, nous en prenons soin.",
-    body: "Apporteurs d'affaires, courtiers indépendants, avocats, experts-comptables, gestionnaires de patrimoine : nous travaillons avec un grand nombre de professionnels indépendants. Une fiche d'opération claire, un retour franc et une collaboration formalisée par écrit.",
+    body: "Apporteurs d'affaires, courtiers indépendants, avocats, experts-comptables, gestionnaires de patrimoine : nous travaillons avec des professionnels indépendants. Une fiche d'opération claire, un premier avis motivé sur la faisabilité et une collaboration formalisée par écrit.",
     cta: "L'espace partenaires",
-  },
-  interlocutors: {
-    eyebrow: "Interlocuteurs",
-    title: "À qui nous nous adressons.",
-    body: "Nous travaillons avec des emprunteurs professionnels et avec les conseils qui les accompagnent. Dans tous les cas, la qualité de la collaboration repose sur la clarté du dossier et la franchise des échanges.",
-    groups: [
-      {
-        title: "Entreprises et holdings",
-        body: "Sociétés opérationnelles, holdings et véhicules d'investissement confrontés à un besoin de financement précis.",
-      },
-      {
-        title: "Investisseurs immobiliers",
-        body: "Sociétés immobilières et propriétaires professionnels, pour une acquisition, un refinancement ou une réorganisation.",
-      },
-      {
-        title: "Promoteurs et développeurs",
-        body: "Porteurs de projets de développement, de rénovation ou de transformation, à chaque étape du calendrier.",
-      },
-      {
-        title: "Conseils prescripteurs",
-        body: "Avocats, experts-comptables, notaires, gestionnaires de patrimoine et family offices qui souhaitent orienter un client vers un interlocuteur dédié.",
-      },
-    ],
   },
   contact: {
     eyebrow: "Contact",
-    title: "Parlons de votre prochaine opération.",
-    body: "Quelques éléments suffisent pour un premier échange : la nature du besoin, l'ordre de grandeur, le pays de l'opération et le délai envisagé. Nous revenons vers vous pour en discuter.",
-    cta: "Présenter une opération",
-    secondary: "Comprendre notre approche",
+    title: "Échangeons sur votre projet.",
+    body: "Un premier échange ne demande que quelques lignes : votre nom, le moyen de vous joindre et le contexte de l'opération. Lucas Araste reprend contact avec vous. La fiche d'opération détaillée reste à votre disposition si vous souhaitez aller plus loin.",
+    cta: "Échanger sur votre projet",
+    secondary: "Soumettre une fiche d'opération",
   },
 };

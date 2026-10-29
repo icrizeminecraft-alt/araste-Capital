@@ -78,6 +78,6 @@ export const bridge: ExpertiseContent = {
   cta: {
     title: "A transition to finance?",
     body: "Tell us about the transaction, its intended exit and its timetable. We will tell you plainly whether a bridge seems feasible to us.",
-    button: "Present a transaction",
+    button: "Discuss your project",
   },
 };

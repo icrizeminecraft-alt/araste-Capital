@@ -2,13 +2,46 @@ import type { ContactContent } from "@/content/types";
 
 export const contact: ContactContent = {
   meta: {
-    title: "Présenter une opération",
+    title: "Échanger sur votre projet",
     description:
-      "Présentez les principaux éléments de votre besoin de financement professionnel à ARASTE CAPITAL : nature, montant, pays, délai. Un premier échange pour situer le besoin.",
+      "Demandez un premier échange avec ARASTE CAPITAL en quelques lignes, ou présentez votre opération dans une fiche détaillée : nature, montant, pays, délai, actif, structure et sortie.",
   },
   eyebrow: "Contact",
-  title: "Présentez votre opération.",
-  lead: "La fiche d'opération rassemble, en quatre étapes courtes, ce dont nous avons besoin pour vous donner un premier avis de faisabilité. Des ordres de grandeur suffisent ; chaque champ non obligatoire peut rester vide.",
+  title: "Échangeons sur votre projet.",
+  lead: "Deux façons d'entrer en relation : quelques lignes pour demander un premier échange, ou la fiche d'opération détaillée si vous souhaitez présenter votre dossier dès maintenant. Dans les deux cas, Lucas Araste reprend contact avec vous.",
+  brief: {
+    eyebrow: "Premier échange",
+    title: "Quelques lignes suffisent.",
+    lead: "Votre nom, le moyen de vous joindre et le contexte de l'opération. Aucun document n'est demandé à ce stade.",
+    fields: {
+      name: { label: "Votre nom" },
+      email: { label: "Adresse électronique" },
+      phone: { label: "Téléphone", hint: "Si vous préférez être rappelé." },
+      message: { label: "Votre projet, en quelques lignes", hint: "La nature du besoin, l'ordre de grandeur, le pays et le calendrier, si vous les connaissez." },
+    },
+    submit: "Demander un échange",
+    next: {
+      title: "Ce qui se passe ensuite",
+      items: [
+        "Lucas Araste prend connaissance de votre message et vous répond par le canal indiqué.",
+        "Un premier échange permet de situer le besoin et de dire, simplement, si nous pouvons être utiles.",
+        "Les pièces utiles ne sont demandées qu'ensuite, par un canal convenu avec vous.",
+      ],
+    },
+    responder: "Lucas Araste, fondateur et président, reprend personnellement contact avec vous.",
+    result: {
+      sentTitle: "Votre demande a été transmise.",
+      sentBody: "Lucas Araste reprend contact avec vous par le canal indiqué. Aucune pièce n'est à envoyer à ce stade.",
+      demoTitle: "Mode démonstration : votre demande n'a pas été envoyée.",
+      demoBody: "L'envoi des messages n'est pas activé sur ce déploiement. Les informations saisies n'ont été ni transmises ni conservées.",
+      newRequest: "Envoyer une autre demande",
+    },
+  },
+  sheet: {
+    eyebrow: "Fiche d'opération",
+    title: "Présenter votre opération en détail.",
+    lead: "La fiche rassemble, en quatre étapes courtes, ce dont nous avons besoin pour vous donner un premier avis de faisabilité. Des ordres de grandeur suffisent ; chaque champ non obligatoire peut rester vide.",
+  },
   aside: {
     title: "Ce que la fiche nous apporte",
     items: [

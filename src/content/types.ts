@@ -48,6 +48,8 @@ export type CommonContent = {
   ui: {
     allExpertises: string;
     allGuides: string;
+    /** Libellé « Marchés » du pied de page et de la page contact. */
+    markets: string;
     breadcrumbLabel: string;
     homeCrumb: string;
     contents: string;
@@ -57,8 +59,6 @@ export type CommonContent = {
     faq: string;
     readingTime: string; // "{minutes} min de lecture"
     mobileCta: string;
-    presence: string;
-    localTime: string;
     addressPending: string;
   };
   notFound: { title: string; body: string; cta: string };
@@ -74,12 +74,6 @@ export type HomeContent = {
     body: string;
     cta: string;
     secondary: string;
-    caption: string;
-  };
-  stance: {
-    eyebrow: string;
-    title: string;
-    body: string;
   };
   expertises: {
     eyebrow: string;
@@ -92,6 +86,12 @@ export type HomeContent = {
     title: string;
     body: string;
     points: { title: string; body: string }[];
+    cta: string;
+  };
+  /** Bloc fondateur de l'accueil ; le nom, la fonction et les paragraphes viennent de `firm.founder`. */
+  founder: {
+    eyebrow: string;
+    title: string;
     cta: string;
   };
   approach: {
@@ -114,23 +114,17 @@ export type HomeContent = {
     all: string;
     featured: GuideKey[];
   };
-  presence: {
+  /** Marchés d'intervention (et non des bureaux). */
+  markets: {
     eyebrow: string;
     title: string;
     body: string;
-    note: string;
   };
   partners: {
     eyebrow: string;
     title: string;
     body: string;
     cta: string;
-  };
-  interlocutors: {
-    eyebrow: string;
-    title: string;
-    body: string;
-    groups: { title: string; body: string }[];
   };
   contact: {
     eyebrow: string;
@@ -141,12 +135,23 @@ export type HomeContent = {
   };
 };
 
+export type FounderContent = {
+  name: string;
+  role: string;
+  /** Angle d'intervention, en quelques phrases factuelles. */
+  paragraphs: string[];
+  /** Texte alternatif du portrait, lorsqu'il est fourni. */
+  portraitAlt: string;
+};
+
 export type FirmContent = {
   meta: Meta;
   eyebrow: string;
   title: string;
   lead: string;
   paragraphs: string[];
+  founder: { eyebrow: string; title: string; cta: string } & FounderContent;
+  clients: { eyebrow: string; title: string; body: string; groups: { title: string; body: string }[] };
   principles: { eyebrow: string; title: string; items: { title: string; body: string }[] };
   scope: { eyebrow: string; title: string; body: string; items: string[]; exclusionsTitle: string; exclusions: string[] };
   cta: { title: string; body: string; button: string };
@@ -186,7 +191,7 @@ export type ExpertiseContent = {
 
 export type FaqItem = { question: string; answer: string };
 
-/** Guide pédagogique (« Repères ») : contenu évolutif, sans date ni auteur nommé. */
+/** Guide pédagogique (« Guides ») : contenu évolutif, sans date ni auteur nommé. */
 export type GuideContent = {
   meta: Meta;
   title: string;
@@ -235,6 +240,26 @@ export type ContactContent = {
   eyebrow: string;
   title: string;
   lead: string;
+  /** Première entrée : quelques lignes pour demander un échange. */
+  brief: {
+    eyebrow: string;
+    title: string;
+    lead: string;
+    fields: {
+      name: { label: string };
+      email: { label: string };
+      phone: { label: string; hint: string };
+      message: { label: string; hint: string };
+    };
+    submit: string;
+    /** Ce qui se passe ensuite, en trois temps. */
+    next: { title: string; items: string[] };
+    /** Qui reprend contact. */
+    responder: string;
+    result: { sentTitle: string; sentBody: string; demoTitle: string; demoBody: string; newRequest: string };
+  };
+  /** Seconde entrée : la fiche d'opération détaillée. */
+  sheet: { eyebrow: string; title: string; lead: string };
   aside: {
     title: string;
     items: string[];

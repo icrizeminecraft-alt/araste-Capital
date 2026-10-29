@@ -9,5 +9,5 @@ export const expertisesIndex: ExpertisesIndexContent = {
   eyebrow: "Expertises",
   title: "Nos domaines d'intervention, une même méthode.",
   lead: "Le financement relais et les dossiers complexes structurent notre activité. Chaque autre expertise en procède : comprendre l'opération, la présenter avec précision, rechercher les pistes qui lui correspondent.",
-  cta: "Présenter une opération",
+  cta: "Échanger sur votre projet",
 };

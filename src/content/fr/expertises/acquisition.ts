@@ -80,6 +80,6 @@ export const acquisition: ExpertiseContent = {
   cta: {
     title: "Une acquisition à financer ?",
     body: "Présentez-nous l'actif, la structure qui l'acquiert et le calendrier de l'opération. Nous vous dirons si elle entre dans ce que nous étudions et sur quelles bases nous pouvons l'instruire.",
-    button: "Présenter une opération",
+    button: "Échanger sur votre projet",
   },
 };

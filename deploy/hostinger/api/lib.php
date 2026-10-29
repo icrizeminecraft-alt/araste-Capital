@@ -311,6 +311,68 @@ function araste_validate(array $input, array $enums, array $limits): array
     return [$out, $errors];
 }
 
+/** Premier échange : nom, courriel, téléphone facultatif, message. */
+function araste_validate_brief(array $input, array $limits): array
+{
+    $errors = [];
+    $out = [];
+    $str = fn(string $k): string => is_string($input[$k] ?? null) ? $input[$k] : '';
+    $name = araste_line($str('name'));
+    if ($name === '') {
+        $errors['name'] = 'required';
+    } elseif (mb_strlen($name) > $limits['name']) {
+        $errors['name'] = 'tooLong';
+    }
+    $out['name'] = $name;
+    $email = araste_line($str('email'));
+    if ($email === '') {
+        $errors['email'] = 'required';
+    } elseif (mb_strlen($email) > $limits['email'] || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors['email'] = 'email';
+    }
+    $out['email'] = $email;
+    $phone = araste_line($str('phone'));
+    if ($phone !== '' && (mb_strlen($phone) > $limits['phone'] || !preg_match('/^\+?[0-9][0-9 ().-]{5,}$/', $phone))) {
+        $errors['phone'] = 'phone';
+    }
+    $out['phone'] = $phone;
+    $message = araste_multiline($str('message'));
+    if ($message === '') {
+        $errors['message'] = 'required';
+    } elseif (mb_strlen($message) < $limits['descriptionMin']) {
+        $errors['message'] = 'tooShort';
+    } elseif (mb_strlen($message) > $limits['description']) {
+        $errors['message'] = 'tooLong';
+    }
+    $out['message'] = $message;
+    return [$out, $errors];
+}
+
+/** Premier échange : une seule section, dans la langue demandée. */
+function araste_brief_sheet(array $fields, string $locale): array
+{
+    $labels = araste_labels();
+    $l = $labels[$locale] ?? $labels['fr'] ?? [];
+    $b = $l['brief'] ?? [];
+    $fr = $locale === 'fr';
+    $received = gmdate('Y-m-d H:i');
+    return [
+        'title' => (string) ($b['title'] ?? ($fr ? 'Premier échange' : 'First conversation')),
+        'reference' => ($fr ? 'Demande ' : 'Request ') . $received . ' UTC',
+        'subtitle' => $fields['name'],
+        'footer' => (string) ($b['footer'] ?? ''),
+        'sections' => [[
+            (string) ($b['title'] ?? ''),
+            [
+                [(string) ($b['name'] ?? 'name'), $fields['name']],
+                [(string) ($b['email'] ?? 'email'), $fields['email']],
+                [(string) ($b['phone'] ?? 'phone'), $fields['phone']],
+                [(string) ($b['message'] ?? 'message'), $fields['message']],
+            ],
+        ]],
+    ];
+}
+
 /** Fiche en sections, avec les libellés du site dans la langue demandée. */
 function araste_sheet(array $fields, string $locale): array
 {

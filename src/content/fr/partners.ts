@@ -85,6 +85,6 @@ export const partners: PartnersContent = {
   cta: {
     title: "Une opération à nous présenter pour un client ?",
     body: "La fiche d'opération prend quelques minutes. Indiquez simplement votre rôle : nous revenons vers vous.",
-    button: "Présenter une opération",
+    button: "Soumettre une opération",
   },
 };

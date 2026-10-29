@@ -1,11 +1,12 @@
 import type { Locale } from "@/lib/i18n";
 import type { Dictionary } from "@/content/types";
-import { visuals } from "@/config/images";
 import { PageIntro } from "@/components/ui/PageIntro";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
-import { Visual } from "@/components/visuals/Visual";
+import { Founder } from "@/components/home/Founder";
 import { ContactCta } from "@/components/home/ContactCta";
+import { ArrowLink } from "@/components/ui/ButtonLink";
+import { pagePath } from "@/config/routes";
 import { siteConfig } from "@/config/site";
 
 export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary }) {
@@ -21,19 +22,34 @@ export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary })
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
 
-      <section className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-start lg:gap-8">
-        <div className="lg:col-span-6">
-          <Reveal className="reveal-media grain relative aspect-[4/5] overflow-hidden bg-silver sm:aspect-[4/3]">
-            <Visual slot={visuals.firm} locale={locale} decorative sizes="(min-width: 64rem) 50vw, 100vw" />
+      <section className="container-x section-y-sm" aria-labelledby="firm-founder-title">
+        <Founder locale={locale} founder={t.founder} headingId="firm-founder-title" compact />
+      </section>
+
+      <section className="border-t border-silver" aria-labelledby="firm-about-title">
+        <div className="container-x section-y-sm grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-8">
+          <Reveal className="lg:col-span-4">
+            <h2 id="firm-about-title" className="display-sm">
+              {t.clients.title}
+            </h2>
+            <p className="measure-narrow mt-5 font-sans text-[1.0625rem] leading-relaxed text-ink-soft">{t.clients.body}</p>
           </Reveal>
-        </div>
-        <div className="lg:col-span-5 lg:col-start-8">
-          {t.paragraphs.map((p, i) => (
-            <Reveal as="p" key={i} className="measure mt-6 first:mt-0 font-sans text-[1.0625rem] leading-relaxed text-ink" delay={Math.min(i, 3) as 0 | 1 | 2 | 3}>
-              {p}
-            </Reveal>
-          ))}
-          {ticket.enabled ? <p className="mt-8 border-l border-gold pl-4 font-sans text-sm text-gold-deep">{ticket.text[locale]}</p> : null}
+          <div className="lg:col-span-7 lg:col-start-6">
+            {t.paragraphs.map((p, i) => (
+              <Reveal as="p" key={i} className="measure mt-5 first:mt-0 font-sans text-[1.0625rem] leading-relaxed text-ink" delay={Math.min(i, 3) as 0 | 1 | 2 | 3}>
+                {p}
+              </Reveal>
+            ))}
+            {ticket.enabled ? <p className="mt-8 border-l border-gold pl-4 font-sans text-sm text-gold-deep">{ticket.text[locale]}</p> : null}
+            <dl className="mt-12 grid grid-cols-1 gap-x-8 gap-y-8 border-t border-silver pt-8 sm:grid-cols-2">
+              {t.clients.groups.map((group, i) => (
+                <Reveal key={group.title} delay={Math.min(i, 3) as 0 | 1 | 2 | 3}>
+                  <dt className="font-serif text-xl font-medium text-navy">{group.title}</dt>
+                  <dd className="mt-2 font-sans text-[0.9375rem] leading-relaxed text-ink-soft">{group.body}</dd>
+                </Reveal>
+              ))}
+            </dl>
+          </div>
         </div>
       </section>
 
@@ -50,6 +66,9 @@ export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary })
               </Reveal>
             ))}
           </dl>
+          <div className="mt-12">
+            <ArrowLink href={pagePath(locale, "approach")}>{dict.home.approach.cta}</ArrowLink>
+          </div>
         </div>
       </section>
 

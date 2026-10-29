@@ -52,7 +52,9 @@ if ($token === '') {
     araste_error(400, 'token');
 }
 
-[$fields, $errors] = araste_validate($input, $enums, $limits);
+// Deux entrées : le premier échange (kind: "brief") et la fiche d'opération.
+$brief = ($input['kind'] ?? null) === 'brief';
+[$fields, $errors] = $brief ? araste_validate_brief($input, $limits) : araste_validate($input, $enums, $limits);
 if ($errors !== []) {
     araste_error(400, 'invalid', ['fields' => $errors]);
 }
@@ -82,7 +84,7 @@ if (trim((string) $config['to']) === '') {
     araste_json(200, ['status' => 'demo']);
 }
 
-$sheet = araste_sheet($fields, $locale);
+$sheet = $brief ? araste_brief_sheet($fields, $locale) : araste_sheet($fields, $locale);
 if (!araste_send($fields, $locale, $sheet)) {
     @unlink($claim);
     error_log('[araste-contact] mail() a échoué (aucun contenu journalisé)');

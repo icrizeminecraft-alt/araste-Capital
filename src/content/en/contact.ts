@@ -2,13 +2,46 @@ import type { ContactContent } from "@/content/types";
 
 export const contact: ContactContent = {
   meta: {
-    title: "Present a transaction",
+    title: "Discuss your project",
     description:
-      "Share the main details of your professional financing need with ARASTE CAPITAL: type, amount, country, timing. A first conversation to understand where the need sits.",
+      "Request a first conversation with ARASTE CAPITAL in a few lines, or present your transaction in a detailed sheet: type, amount, country, timing, asset, structure and exit.",
   },
   eyebrow: "Contact",
-  title: "Present your transaction.",
-  lead: "The transaction sheet gathers, in four short steps, what we need to give you a first view on feasibility. Orders of magnitude are enough; any optional field can be left blank.",
+  title: "Let's discuss your project.",
+  lead: "Two ways to get in touch: a few lines to request a first conversation, or the detailed transaction sheet if you wish to present your case right away. Either way, Lucas Araste gets back to you.",
+  brief: {
+    eyebrow: "First conversation",
+    title: "A few lines are enough.",
+    lead: "Your name, how to reach you and the context of the transaction. No documents are requested at this stage.",
+    fields: {
+      name: { label: "Your name" },
+      email: { label: "Email address" },
+      phone: { label: "Telephone", hint: "If you would rather be called back." },
+      message: { label: "Your project, in a few lines", hint: "The type of need, the order of magnitude, the country and the timetable, if known." },
+    },
+    submit: "Request a conversation",
+    next: {
+      title: "What happens next",
+      items: [
+        "Lucas Araste reads your message and replies through the channel you indicated.",
+        "A first conversation allows us to understand where the need sits and to say, simply, whether we can be useful.",
+        "Useful documents are requested only afterwards, through a channel agreed with you.",
+      ],
+    },
+    responder: "Lucas Araste, founder and President, personally gets back to you.",
+    result: {
+      sentTitle: "Your request has been sent.",
+      sentBody: "Lucas Araste gets back to you through the channel you indicated. No documents need to be sent at this stage.",
+      demoTitle: "Demonstration mode: your request was not sent.",
+      demoBody: "Message sending is not enabled on this deployment. The information entered was neither transmitted nor stored.",
+      newRequest: "Send another request",
+    },
+  },
+  sheet: {
+    eyebrow: "Transaction sheet",
+    title: "Present your transaction in detail.",
+    lead: "The sheet gathers, in four short steps, what we need to give you a first view on feasibility. Orders of magnitude are enough; any optional field can be left blank.",
+  },
   aside: {
     title: "What the sheet gives us",
     items: [

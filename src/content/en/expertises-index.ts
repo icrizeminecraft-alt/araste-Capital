@@ -9,5 +9,5 @@ export const expertisesIndex: ExpertisesIndexContent = {
   eyebrow: "Expertise",
   title: "Our areas of work, one method.",
   lead: "Bridge finance and complex cases shape what we do. Every other area of expertise follows from them: understanding the transaction, presenting it with precision, seeking the routes that fit it.",
-  cta: "Present a transaction",
+  cta: "Discuss your project",
 };

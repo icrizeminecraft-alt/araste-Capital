@@ -20,20 +20,18 @@ export const legal: LegalContent = {
     {
       title: "Publisher",
       paragraphs: [
-        "This site is published by ARASTE CAPITAL LTD (corporate name to be confirmed), hereinafter “the firm”.",
+        "This site is published by ARASTE CAPITAL, a French single-shareholder simplified joint-stock company (SASU) registered with the Grenoble Trade and Companies Register, hereinafter “the firm”. Its President, Lucas Araste, is responsible for publication.",
       ],
       pending: [
-        "Legal form and country of incorporation",
-        "Registration number",
+        "Grenoble Trade and Companies Register number and share capital",
         "Registered office address",
         "Contact email address and telephone number",
-        "Name of the person responsible for publication",
       ],
     },
     {
       title: "Activity and status",
       paragraphs: [
-        "The firm advises on and arranges professional financing on behalf of professional borrowers. It does not lend, does not manage assets on behalf of third parties, does not offer any investment to the public and does not deal with private individuals.",
+        "The firm advises on and arranges real estate finance and complex transactions on behalf of professional borrowers: entrepreneurs, investors and family holding structures. It does not lend, does not manage assets on behalf of third parties, does not offer any investment to the public and does not deal with private individuals.",
         "The scope of services, the applicable intermediary status, the countries served and any mandatory statements are set out below.",
       ],
       pending: [

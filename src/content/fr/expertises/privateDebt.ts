@@ -80,6 +80,6 @@ export const privateDebt: ExpertiseContent = {
   cta: {
     title: "Un besoin que le crédit bancaire ne couvre pas ?",
     body: "Décrivez-nous l'opération, ce qui la distingue d'un dossier bancaire classique et la sortie envisagée. Nous vous dirons si ce segment nous paraît pertinent et ce qu'il impliquerait pour vous.",
-    button: "Présenter une opération",
+    button: "Échanger sur votre projet",
   },
 };

@@ -56,17 +56,19 @@ export function Visual({
         style={attrs.style}
       />
     );
-    if (!photo.landscape) return img;
-    const l = photo.landscape;
+    if (!photo.variants || photo.variants.length === 0) return img;
     return (
       <picture className="contents">
-        <source
-          media={`(min-width: ${l.minWidth})`}
-          srcSet={l.widths.map((w) => `/images/${l.base}-${w}.jpg ${w}w`).join(", ")}
-          sizes={sizes}
-          width={l.width}
-          height={l.height}
-        />
+        {photo.variants.map((v) => (
+          <source
+            key={v.base}
+            media={v.media}
+            srcSet={v.widths.map((w) => `/images/${v.base}-${w}.jpg ${w}w`).join(", ")}
+            sizes={sizes}
+            width={v.width}
+            height={v.height}
+          />
+        ))}
         {img}
       </picture>
     );

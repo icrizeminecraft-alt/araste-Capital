@@ -78,6 +78,6 @@ export const bridge: ExpertiseContent = {
   cta: {
     title: "Une transition à financer ?",
     body: "Présentez-nous l'opération, sa sortie envisagée et son calendrier. Nous vous dirons sans détour si un relais nous paraît envisageable.",
-    button: "Présenter une opération",
+    button: "Échanger sur votre projet",
   },
 };

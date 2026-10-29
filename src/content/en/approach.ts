@@ -59,6 +59,6 @@ export const approach: ApproachContent = {
   cta: {
     title: "A transaction to present to us?",
     body: "A first conversation is enough to understand where the need sits. We will tell you plainly whether we can be useful.",
-    button: "Present a transaction",
+    button: "Discuss your project",
   },
 };

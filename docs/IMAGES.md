@@ -6,17 +6,17 @@ Chaque emplacement visuel est servi par une **photographie d'illustration** impo
 
 | Fichier (`public/images/`) | Usage | Évocation |
 | --- | --- | --- |
-| `monaco-crepuscule` (+ `-paysage`) | ouverture de l'accueil | Monaco au crépuscule, ciel bleu nuit |
-| `costume-montre` | moment fort du financement relais (accueil) | costume bleu nuit, montre au poignet |
-| `homme-veste` | cabinet | homme boutonnant sa veste, noir et blanc |
+| `residences-mer` (+ `-portrait` pour les petits écrans) | ouverture de l'accueil | arcades de pierre claire sur la Méditerranée, ciel calme pour le titre |
+| `paris-balcons` | moment fort du financement relais (accueil) | immeuble parisien aux balcons ouvragés |
+| portrait du fondateur (à livrer) | accueil et page du cabinet | tant qu'il n'est pas livré, le monogramme tient sa place |
 | `plume-or` | approche | plume dorée d'un stylo noir |
 | `accord` | partenaires | poignée de main dans la pénombre |
 | `stylo-dossier` | contact | stylo sur une pile de documents |
-| `homme-fenetre`, `corniche`, `reflets-verre`, `villa-crepuscule`, `maquette`, `tour-doree` | vignettes des expertises (accueil, page des expertises) | relais, complexes, refinancement, acquisition, promotion, dette privée |
-| `horizon-verre`, `ville-fenetre`, `colonnade`, `residences-mer`, `chantier-crepuscule`, `tour-couchant` | bandeaux des pages d'expertise | une seconde image par expertise, jamais la même que la vignette |
-| `andorre`, `londres`, `monaco`, `emirats` | implantations (accueil) | une vue par place |
+| `villa-crepuscule`, `corniche`, `paris-lumiere`, `riviera-immeuble`, `chantier-crepuscule`, `tour-couchant` | vignettes des expertises (accueil, page des expertises) | relais, complexes, refinancement, acquisition, promotion, dette privée |
+| `fontvieille`, `ville-fenetre`, `paris-angle`, `riviera-palmiers`, `grue`, `tour-doree` | bandeaux des pages d'expertise | une seconde image par expertise, jamais la même que la vignette |
+| `andorre`, `londres`, `monaco-crepuscule`, `emirats` | marchés (accueil) | une vue par place |
 
-Chaque photographie n'apparaît qu'à un seul emplacement du site (les vignettes d'expertise sont reprises à l'identique entre l'accueil et la page des expertises).
+Chaque photographie n'apparaît qu'à un seul emplacement du site (les vignettes d'expertise sont reprises à l'identique entre l'accueil et la page des expertises). Le portrait du fondateur se déclare dans `visuals.portrait` une fois la photographie déposée dans `public/images/` (voir plus bas).
 
 Les compositions architecturales originales en SVG (`src/components/visuals/ArchitecturalPlate.tsx`, `public/plates/`) restent disponibles comme solution de repli (`kind: "plate"`).
 

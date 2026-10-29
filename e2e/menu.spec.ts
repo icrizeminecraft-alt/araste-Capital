@@ -21,8 +21,8 @@ test.describe("menu mobile", () => {
   test("les liens du menu naviguent", async ({ page }) => {
     await page.goto("/fr");
     await page.getByRole("button", { name: /ouvrir le menu/i }).click();
-    await page.getByRole("dialog").getByRole("link", { name: "Notre approche" }).click();
-    await expect(page).toHaveURL(/\/fr\/notre-approche\/?$/);
+    await page.getByRole("dialog").getByRole("link", { name: "Le cabinet" }).click();
+    await expect(page).toHaveURL(/\/fr\/le-cabinet\/?$/);
     await expect(page.getByRole("dialog")).toBeHidden();
   });
 });

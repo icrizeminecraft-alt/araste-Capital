@@ -80,6 +80,6 @@ export const privateDebt: ExpertiseContent = {
   cta: {
     title: "A need that bank credit does not cover?",
     body: "Describe the transaction to us, what sets it apart from a conventional bank file and the intended exit. We will tell you whether this segment seems relevant to us and what it would involve for you.",
-    button: "Present a transaction",
+    button: "Discuss your project",
   },
 };

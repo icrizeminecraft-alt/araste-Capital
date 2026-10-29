@@ -83,6 +83,18 @@ function labelsFor(locale: "fr" | "en", content: typeof frContact, financing: Re
           ? "Document généré automatiquement à partir de la fiche renseignée par le demandeur. Informations déclaratives, à vérifier lors de l'étude. Confidentiel."
           : "Generated automatically from the sheet completed by the applicant. Declarative information, to be verified during the review. Confidential.",
     },
+    // Premier échange : libellés du courriel du relais PHP.
+    brief: {
+      title: locale === "fr" ? "Premier échange" : "First conversation",
+      name: content.brief.fields.name.label,
+      email: content.brief.fields.email.label,
+      phone: content.brief.fields.phone.label,
+      message: content.brief.fields.message.label,
+      footer:
+        locale === "fr"
+          ? "Demande d'échange transmise depuis le site. Informations déclaratives. Confidentiel."
+          : "Conversation request sent from the website. Declarative information. Confidential.",
+    },
   };
 }
 const financing: Record<"fr" | "en", Record<string, string>> = { fr: {}, en: {} };

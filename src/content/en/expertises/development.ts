@@ -80,6 +80,6 @@ export const development: ExpertiseContent = {
   cta: {
     title: "A project to finance in stages?",
     body: "Describe the project to us, where it stands, its budget and the intended exit. We will give you a candid answer on the phase and the form of financing that seem feasible to us.",
-    button: "Present a transaction",
+    button: "Discuss your project",
   },
 };

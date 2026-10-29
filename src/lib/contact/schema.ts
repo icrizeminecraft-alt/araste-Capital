@@ -156,6 +156,66 @@ export type ContactFields = z.infer<typeof contactFieldsSchema>;
 export type ContactRequest = z.infer<typeof contactRequestSchema>;
 export type FieldErrors = Partial<Record<keyof ContactFields, FieldErrorCode>>;
 
+/**
+ * Premier échange : l'entrée courte, pour demander un échange sans remplir
+ * la fiche. Nom, moyen de contact et contexte. Mêmes protections que la fiche.
+ */
+export const briefFieldsSchema = z
+  .object({
+    name: text(LIMITS.name),
+    email: z
+      .string(required)
+      .transform(stripControls)
+      .pipe(z.string().min(1, { error: "required" }).max(LIMITS.email, { error: "tooLong" }))
+      .pipe(z.email({ error: "email" })),
+    phone: z
+      .string()
+      .optional()
+      .transform((v) => stripControls(v ?? ""))
+      .pipe(z.string().max(LIMITS.phone, { error: "tooLong" }))
+      .refine((v) => v === "" || /^\+?[\d\s().-]{6,}$/.test(v), { error: "phone" }),
+    message: z
+      .string(required)
+      .transform((v) => v.replace(/[^\P{Cc}\n]+/gu, " ").trim())
+      .pipe(z.string().min(1, { error: "required" }).min(LIMITS.descriptionMin, { error: "tooShort" }).max(LIMITS.description, { error: "tooLong" })),
+  });
+
+export const briefRequestSchema = briefFieldsSchema.extend({
+  kind: z.literal("brief"),
+  locale: z.enum(["fr", "en"]),
+  token: z.string().min(1).max(200),
+  idempotencyKey: z.string().regex(/^[a-zA-Z0-9-]{8,64}$/),
+  website: z.string().max(500).optional(),
+});
+
+export type BriefFields = z.infer<typeof briefFieldsSchema>;
+export type BriefFieldErrors = Partial<Record<keyof BriefFields, FieldErrorCode>>;
+export const emptyBriefFields: Record<keyof BriefFields, string> = { name: "", email: "", phone: "", message: "" };
+
+export function isBriefField(value: unknown): value is keyof BriefFields {
+  return typeof value === "string" && value in emptyBriefFields;
+}
+
+/** Codes d'erreur par champ du premier échange (premier problème par champ). */
+export function toBriefFieldErrors(issues: z.core.$ZodIssue[]): BriefFieldErrors {
+  const errors: BriefFieldErrors = {};
+  for (const issue of issues) {
+    const field = issue.path[0];
+    if (!isBriefField(field) || field in errors) continue;
+    errors[field] = isFieldErrorCode(issue.message) ? issue.message : "required";
+  }
+  return errors;
+}
+
+export function sanitizeBriefFieldErrors(input: unknown): BriefFieldErrors {
+  const out: BriefFieldErrors = {};
+  if (!input || typeof input !== "object") return out;
+  for (const [key, value] of Object.entries(input as Record<string, unknown>)) {
+    if (isBriefField(key) && isFieldErrorCode(value)) out[key] = value;
+  }
+  return out;
+}
+
 export const knownCodes: readonly FieldErrorCode[] = ["required", "email", "amount", "tooLong", "tooShort", "phone", "phoneRequired"];
 
 export function isFieldErrorCode(value: unknown): value is FieldErrorCode {

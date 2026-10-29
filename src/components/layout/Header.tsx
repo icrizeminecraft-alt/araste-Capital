@@ -10,10 +10,10 @@ import { NavLink } from "@/components/layout/NavLink";
 export type NavLink = { label: string; href: string };
 
 export function Header({ locale, t }: { locale: Locale; t: CommonContent }) {
+  // Cinq destinations ; l'approche est présentée sur la page du cabinet.
   const links: NavLink[] = [
     { label: t.nav.firm, href: pagePath(locale, "firm") },
     { label: t.nav.expertises, href: pagePath(locale, "expertises") },
-    { label: t.nav.approach, href: pagePath(locale, "approach") },
     { label: t.nav.guides, href: pagePath(locale, "guides") },
     { label: t.nav.partners, href: pagePath(locale, "partners") },
     { label: t.nav.contact, href: pagePath(locale, "contact") },
@@ -22,8 +22,8 @@ export function Header({ locale, t }: { locale: Locale; t: CommonContent }) {
 
   return (
     <header className="sticky top-0 z-40 border-b border-silver/70 border-t-2 border-t-gold bg-porcelain">
-      <div className="container-x flex min-h-[var(--header-h)] flex-wrap items-center justify-between gap-x-6 gap-y-2 py-2">
-        <Link href={`/${locale}`} aria-label={t.nav.home} className="min-w-0 shrink">
+      <div className="container-x flex min-h-[var(--header-h)] flex-nowrap items-center justify-between gap-x-6 py-2">
+        <Link href={`/${locale}`} aria-label={t.nav.home} className="shrink-0">
           <Wordmark />
         </Link>
 
@@ -43,13 +43,14 @@ export function Header({ locale, t }: { locale: Locale; t: CommonContent }) {
           </ul>
         </nav>
 
-        <div className="flex min-w-0 flex-wrap items-center gap-x-4 gap-y-2 md:gap-x-6">
+        <div className="flex shrink-0 items-center gap-x-4 md:gap-x-6">
           <div className="hidden md:block">
             <LocaleSwitcher locale={locale} labels={t.locale} />
           </div>
+          {/* Le bouton n'apparaît que lorsque la largeur le permet sans repli ; « Contact » reste dans la navigation. */}
           <Link
             href={contactHref}
-            className="btn btn-outline hidden min-h-[2.75rem] whitespace-nowrap px-5 py-2 text-[0.875rem] md:inline-flex"
+            className="btn btn-outline hidden min-h-[2.75rem] whitespace-nowrap px-5 py-2 text-[0.875rem] md:max-lg:inline-flex 2xl:inline-flex"
           >
             {t.nav.present}
           </Link>

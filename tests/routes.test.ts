@@ -25,10 +25,10 @@ describe("routes", () => {
   });
 
   it("résout et alterne les repères", () => {
-    expect(guidePath("fr", "bridgeBasics")).toBe("/fr/reperes/comprendre-le-financement-relais");
+    expect(guidePath("fr", "bridgeBasics")).toBe("/fr/guides/comprendre-le-financement-relais");
     expect(resolvePath("/en/guides/the-exit-key-to-a-bridge")).toEqual({ locale: "en", route: { kind: "guide", key: "exitStrategy" } });
-    expect(alternatePath("/fr/reperes/preparer-un-dossier-de-financement", "en")).toBe("/en/guides/preparing-a-financing-file");
-    expect(resolvePath("/fr/reperes/inconnu")?.route.kind).toBe("unknown");
+    expect(alternatePath("/fr/guides/preparer-un-dossier-de-financement", "en")).toBe("/en/guides/preparing-a-financing-file");
+    expect(resolvePath("/fr/guides/inconnu")?.route.kind).toBe("unknown");
   });
 
   it("fournit toutes les alternatives", () => {
