@@ -62,6 +62,10 @@ Sans configuration, le formulaire fonctionne mais annonce « Mode démonstration
 
 Reconstruire (`npm run build:static`), puis remplacer le contenu de `public_html` **sauf** `api/config.php` et `api/_data/`. Le dossier `_next/` change de noms de fichiers à chaque construction : supprimer l'ancien avant de déposer le nouveau.
 
+### Mise à jour automatique par GitHub Actions
+
+Le dépôt contient un flux `.github/workflows/site-statique.yml` : à chaque poussée sur la branche de travail (hors modifications de la documentation), GitHub construit le site (`npm run build:static`) et publie le contenu de `out/` dans le dossier `site/` de la branche `hostinger-static`, accompagné d'un `package.json` minimal. Dans hPanel, un déploiement Git relié à cette branche (type Node.js sans dépendance, commande de construction `npm run build` qui ne fait rien, dossier publié `site/`) met `public_html` à jour sans dépôt manuel. La configuration du relais PHP (`api/config.php`) et le dossier `api/_data/` doivent être conservés hors de ce mécanisme, car la branche est régénérée à chaque publication.
+
 ### Vérifier après dépôt
 
 | Adresse | Attendu |

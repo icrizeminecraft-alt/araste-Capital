@@ -1,0 +1,129 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/",
+  "title": "Silver Oak Capital Case Studies",
+  "h1": "Client Mortgage Success Stories",
+  "summary": "Index/listing page of Silver Oak Capital's case studies, described by the search tool as a UK mortgage and lending firm's \"Client Mortgage Success Stories\" listing covering complex loan and mortgage deals. Deals named in the index snippet [a]: a £1m revolving credit facility for a housebuilder; a £4m bridging loan secured against a central London property; a £3.6m bridging loan on a Kensington property; a £1.46m refinance on an unencumbered residential property in Prime Central London; a £3.5m refinance; a yacht finance deal; a Manchester office financing; a purpose-built student accommodation (PBSA) lending case. The index snippet is truncated and gives no full details, outcomes or dates. Search [b] surfaced individual case-study pages with deal detail (paraphrased by the tool): £3.6m Kensington first-charge bridging facility completed within four weeks at 0.78% per month BBR-linked after two specialist lenders withdrew over intercreditor disagreements; £19m North West London bridging refinance of a partly built (c.80% complete) 25-apartment scheme at 0.75% per month, 12-month term, max 73% LTV, 15% personal guarantee; £800,000 central London bridging refinance for a Kenyan national with no UK credit profile, property originally bought at auction on a bridging loan, refinanced like-for-like onto a 5-year fixed at 4.19% and 75% LTV; Cap Ferrat villa (near Monaco) bridging of €5m at 62.5% LTV, 0.55% per month over 24 months for a repeat client who had previously used Silver Oak for a London bridging loan. A separate Cotswolds case study (/case-studies/cotsworlds-listed/) describes an £8m loan at 70% loan-to-GDV over 24 months with interest rolled up, priced at 3.95% plus Bank Base Rate with a 1% bank fee and a 1% exit fee. No meta description, FAQ, calls to action or page dates were revealed.",
+  "verbatim": [
+    "[a] Page title as returned by the search engine: \"Silver Oak Capital Case Studies\"",
+    "[a] Heading/strapline quoted by the search tool: \"Client Mortgage Success Stories\"",
+    "[a] Search-tool summary of the index snippet: \"A £1m revolving credit facility for a housebuilder.\"",
+    "[a] Search-tool summary of the index snippet: \"A £4m bridging loan secured against a central London property, and a separate £3.6m bridging loan on a Kensington property.\"",
+    "[a] Search-tool summary of the index snippet: \"A £1.46m refinance on an unencumbered residential property in Prime Central London.\"",
+    "[a] Search-tool summary of the index snippet: \"A £3.5m refinance, a yacht finance deal, a Manchester office financing, and a purpose-built student accommodation (PBSA) lending case.\"",
+    "[a] Search-tool summary of the Cotswolds case study: \"an £8m loan at 70% loan-to-GDV over 24 months, with interest rolled up. Its terms were 3.95% plus Bank Base Rate, a 1% bank fee and a 1% exit fee.\"",
+    "[a] Search-tool caveat: \"The snippet is truncated, so it doesn't give full details, outcomes, or dates for most cases.\"",
+    "[b] Search-tool summary (£3.6m Kensington): \"Silver Oak arranged a first-charge facility on a high-value residential property. It cleared existing debt after two specialist lenders withdrew over intercreditor disagreements. The loan was completed within four weeks, priced at 0.78% per month, BBR-linked.\"",
+    "[b] Search-tool summary (£19m NW London): \"A developer with a partly built 25-apartment scheme needed a refinance while the build was about 80% complete. The terms listed were 0.75% per month, a 12-month term, a maximum 73% LTV and a 15% personal guarantee.\"",
+    "[b] Search-tool summary (£800,000 central London refinance): \"A Kenyan national's rented central London property, originally bought at auction on a bridging loan, was refinanced on a like-for-like basis. The case notes that the borrower had no UK credit profile, which presented a problem for most lenders. The solution was a 5-year fixed rate at 4.19% with 75% LTV.\"",
+    "[b] Search-tool summary (Cap Ferrat): \"It is a villa near Monaco, but the client had previously used Silver Oak for a London bridging loan. The terms were €5 million at 62.5% LTV, 0.55% per month, over 24 months.\"",
+    "[b] Search-tool summary (index): \"The case study index page also lists a £1.46 million refinance on a Prime Central London property, which is a standard refinance rather than a bridging loan.\"",
+    "[b] Search-tool caveat: \"the age labels on the pages are inconsistent, so check the pages for current dates.\""
+  ],
+  "services": [
+    "Bridging loans (residential, first charge, BBR-linked)",
+    "Bridging refinance of partly built development schemes",
+    "Revolving credit facility for a housebuilder",
+    "Development / land finance (loan-to-GDV based, interest rolled up)",
+    "Senior housing development finance (Kent)",
+    "Residential refinance / large mortgages (Prime Central London)",
+    "Equity release (Mayfair, self-employed borrower)",
+    "Foreign national / non-UK-credit borrower mortgages",
+    "Commercial property finance (Manchester office)",
+    "Purpose-built student accommodation (PBSA) lending",
+    "Yacht finance (Heesen)",
+    "International property bridging (Cap Ferrat villa, euro-denominated)"
+  ],
+  "claims": [
+    {"claim": "£1m revolving credit facility arranged for a housebuilder", "kind": "deal-amount [a]"},
+    {"claim": "£4m bridging loan secured against a central London property", "kind": "deal-amount [a]"},
+    {"claim": "£3.6m bridging loan on a Kensington property", "kind": "deal-amount [a][b]"},
+    {"claim": "£1.46m refinance on an unencumbered residential property in Prime Central London", "kind": "deal-amount [a][b]"},
+    {"claim": "£3.5m refinance", "kind": "deal-amount [a]"},
+    {"claim": "£8m Cotswolds loan at 70% loan-to-GDV over 24 months, interest rolled up, 3.95% plus Bank Base Rate, 1% bank fee, 1% exit fee", "kind": "deal-terms [a]"},
+    {"claim": "£3.6m Kensington facility completed within four weeks", "kind": "timing [b]"},
+    {"claim": "£3.6m Kensington facility priced at 0.78% per month, BBR-linked", "kind": "pricing [b]"},
+    {"claim": "£3.6m Kensington facility arranged after two specialist lenders withdrew over intercreditor disagreements", "kind": "challenge/outcome [b]"},
+    {"claim": "£19m North West London bridging loan: 0.75% per month, 12-month term, maximum 73% LTV, 15% personal guarantee", "kind": "deal-terms [b]"},
+    {"claim": "£19m NW London deal: 25-apartment scheme about 80% complete at time of refinance", "kind": "deal-context [b]"},
+    {"claim": "£800,000 central London bridging refinance for a Kenyan national with no UK credit profile: 5-year fixed at 4.19%, 75% LTV", "kind": "deal-terms [b]"},
+    {"claim": "Cap Ferrat villa: €5 million at 62.5% LTV, 0.55% per month, 24 months", "kind": "deal-terms [b]"},
+    {"claim": "Cap Ferrat client was a repeat client who had previously used Silver Oak for a London bridging loan", "kind": "repeat-business [b]"}
+  ],
+  "terms": [
+    "0.78% per month, BBR-linked (£3.6m Kensington bridging) [b]",
+    "0.75% per month, 12-month term, max 73% LTV, 15% personal guarantee (£19m NW London bridging) [b]",
+    "5-year fixed at 4.19%, 75% LTV (£800k central London refinance) [b]",
+    "0.55% per month, 62.5% LTV, 24 months, €5m (Cap Ferrat villa) [b]",
+    "3.95% plus Bank Base Rate, 70% loan-to-GDV, 24 months, interest rolled up, 1% bank fee, 1% exit fee, £8m (Cotswolds) [a]",
+    "First-charge facility (Kensington) [b]",
+    "Like-for-like refinance (£800k) [b]"
+  ],
+  "eligibility": [
+    "Borrower with no UK credit profile (Kenyan national) was financed [b]",
+    "Foreign national landlord with rented central London property [b]",
+    "Developer with a partly built scheme (about 80% complete) [b]",
+    "Self-employed borrower (Mayfair equity release case title) [b]",
+    "Non-UK security (villa near Monaco) accepted [b]",
+    "Property originally bought at auction on a bridging loan, refinanced [b]"
+  ],
+  "processSteps": [
+    "Kensington: first-charge facility arranged to clear existing debt after two specialist lenders withdrew; completed within four weeks [b]",
+    "£800k refinance: existing auction bridging loan refinanced like-for-like onto a 5-year fixed term product [b]",
+    "NW London: refinance arranged mid-build at about 80% completion, 12-month term [b]"
+  ],
+  "faq": [],
+  "lenderTypes": [
+    "Specialist lenders (two withdrew on the Kensington deal) [b]",
+    "Bank (Cotswolds loan carries a 1% bank fee and Bank Base Rate pricing) [a]",
+    "BBR-linked bridging lender (Kensington) [b]"
+  ],
+  "useCases": [
+    "Clearing existing debt via bridging (Kensington) [b]",
+    "Refinancing a partly built residential development (NW London) [b]",
+    "Refinancing an auction-purchased rental property for a foreign national (£800k) [b]",
+    "Equity release for a self-employed borrower (Mayfair) [b]",
+    "Revolving credit for a housebuilder [a]",
+    "Land/development loan on loan-to-GDV basis (Cotswolds) [a]",
+    "Senior housing development (Kent) [b]",
+    "Office acquisition/finance (Manchester) [a]",
+    "PBSA lending [a]",
+    "Yacht finance (Heesen) [a][b]",
+    "Bridging on a villa near Monaco (Cap Ferrat) [b]"
+  ],
+  "geography": [
+    "Central London",
+    "Prime Central London",
+    "Kensington",
+    "North West London",
+    "Mayfair",
+    "Manchester",
+    "Kent",
+    "Cotswolds",
+    "Cap Ferrat (near Monaco), France",
+    "Kenya (borrower nationality)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/cotsworlds-listed/",
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+    "https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/mayfair-self-employed-equity-release/",
+    "https://www.silveroakcapital.co.uk/case-studies/finance-for-100-senior-housing-development-in-kent/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/",
+    "https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "https://uk.linkedin.com/company/silver-oak-capital"
+  ],
+  "sections": [
+    {"heading": "Client Mortgage Success Stories (index listing)", "content": "Listing of deals: £1m revolving credit facility for a housebuilder; £4m bridging loan on a central London property; £3.6m bridging loan on a Kensington property; £1.46m refinance on an unencumbered Prime Central London residential property; £3.5m refinance; a yacht finance deal; a Manchester office financing; a PBSA lending case. [a]"},
+    {"heading": "Case-study pages surfaced (titles as indexed)", "content": "NW London Bridging Loan; £800,000 Bridging Loan Refinance; Heesen Yacht Finance; £3.6 Million Bridging Loan; Mayfair Self Employed Equity Release; Senior Housing Development in Kent; Bridging Villa Cap Ferrat; £1.46 Million Refinance; Cotsworlds Listed (sic). [a][b]"}
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies.json",
+  "notes": "Direct fetch blocked; everything comes from two WebSearch calls. The index page itself was only partially revealed: its title ('Silver Oak Capital Case Studies') and the quoted heading/strapline 'Client Mortgage Success Stories' plus a truncated list of deals. The search tool explicitly stated that the index snippet is truncated and does not give full details, outcomes or dates. Most deal detail (rates, LTVs, terms, challenges) comes from the tool's paraphrased summaries of individual case-study sub-pages, not from the index page, and is quoted here as the tool's wording rather than confirmed page text. Query [b] used keywords 'case studies bridging loan finance London', so the sub-pages surfaced skew toward London bridging deals. New URL not in seed.json: /case-studies/cotsworlds-listed/ (title spelled 'Cotsworlds' as indexed). The tool warned that age labels on the pages are inconsistent, so no dates are recorded. No meta description, FAQ, calls to action, awards or lender-count claims were revealed on this page. Unrelated same-name companies ignored: ShipHawk 'Silver Oak', Silver Oak Services Partners, Intellisource 'Silver Oak', Silveroak Partners (India), Kellogg Silver Oak Investment Thesis Challenge, Robert E. Siegel Wikipedia. The 'h1' value is the heading quoted by the tool; it may be a subheading rather than the H1."
+}

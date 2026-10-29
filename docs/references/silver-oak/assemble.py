@@ -102,7 +102,8 @@ for g, title in GROUPS.items():
     for url, t, p in rich:
         A(f"#### {esc(t, 110)}"); A("")
         A(f"URL : <{url}>  ")
-        A(f"Confiance : {p.get('confidence') or 'non précisée'} · Recherches effectuées : {p.get('queriesRun', 0)}"); A("")
+        conf = re.split(r"[\s:.;,(]", (p.get("confidence") or "").strip())[0] or "non précisée"
+        A(f"Confiance : {conf} · Recherches effectuées : {p.get('queriesRun', 0)}"); A("")
         if p.get("h1") and not NOISE.match(p["h1"]):
             A(f"**H1 :** {esc(p['h1'], 200)}  ")
         if p.get("metaDescription") and not NOISE.match(p["metaDescription"]):

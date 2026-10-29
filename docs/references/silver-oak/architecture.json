@@ -1,0 +1,46 @@
+{
+  "note": "Architecture cible des expertises ARASTE, dérivée de l'offre Silver Oak Capital (proposition, section 9 du document de référence). Clés en camelCase ; slugs FR/EN ; chaque nouvelle expertise reçoit les pages Silver Oak sources (fusionnées quand plusieurs pages couvrent un même produit). À valider par le cabinet avant toute rédaction : périmètre réel, exclusion du crédit à la consommation et de la résidence principale, statut réglementaire par pays.",
+  "families": [
+    { "key": "bridge", "fr": "Financement relais", "en": "Bridge finance", "hub": "bridge", "members": ["auction", "belowMarket", "distressed", "refurbishment", "developmentExit", "landPostPlanning", "probate"], "plate": "vault" },
+    { "key": "development", "fr": "Promotion immobilière", "en": "Property development", "hub": "development", "members": ["seniorDevelopment", "mezzanine", "wholeLoan", "firstTimeDeveloper"], "plate": "stair" },
+    { "key": "investment", "fr": "Investissement immobilier", "en": "Property investment", "hub": "acquisition", "members": ["commercial", "hotel", "portfolio", "hmo"], "plate": "facade" },
+    { "key": "complex", "fr": "Financements complexes et internationaux", "en": "Complex and international financing", "hub": "complex", "members": ["foreignNational", "international", "offshore"], "plate": "arcade" },
+    { "key": "prime", "fr": "Résidentiel de prestige", "en": "Prime residential", "hub": "primeResidential", "members": [], "plate": "colonnade" },
+    { "key": "luxury", "fr": "Actifs d'exception", "en": "Exceptional assets", "hub": null, "members": ["yacht", "aviation"], "plate": "horizon" },
+    { "key": "wealth", "fr": "Dette privée et patrimoine", "en": "Private debt and wealth", "hub": "privateDebt", "members": ["lombard", "digitalAssets", "art"], "plate": "cornice" },
+    { "key": "refinancing", "fr": "Refinancement", "en": "Refinancing", "hub": "refinancing", "members": ["equityRelease", "secondCharge"], "plate": "horizon" }
+  ],
+  "expertises": {
+    "auction": { "fr": "financement-aux-encheres", "en": "auction-finance", "titleFr": "Financement d'acquisitions aux enchères", "titleEn": "Auction finance", "sources": ["/auction-finance/"], "plate": "vault" },
+    "belowMarket": { "fr": "acquisition-sous-valeur-de-marche", "en": "below-market-value-purchases", "titleFr": "Acquisitions sous la valeur de marché", "titleEn": "Below-market-value purchases", "sources": ["/below-market-purchases/"], "plate": "facade" },
+    "distressed": { "fr": "actifs-en-difficulte", "en": "distressed-assets", "titleFr": "Actifs en difficulté", "titleEn": "Distressed asset finance", "sources": ["/distressed-asset-finance/"], "plate": "cornice" },
+    "refurbishment": { "fr": "renovation-et-transformation", "en": "refurbishment-and-conversion", "titleFr": "Rénovation lourde et transformation", "titleEn": "Refurbishment and conversion", "sources": ["/light-to-heavy-refurbishment/", "/conversions/"], "plate": "stair" },
+    "developmentExit": { "fr": "sortie-de-promotion", "en": "development-exit", "titleFr": "Sortie de promotion", "titleEn": "Development exit finance", "sources": ["/development-exit-loans/"], "plate": "horizon" },
+    "landPostPlanning": { "fr": "foncier-avec-permis", "en": "post-planning-land", "titleFr": "Foncier avec autorisation d'urbanisme", "titleEn": "Post-planning land acquisition", "sources": ["/post-planning-land-acquisitions/"], "plate": "horizon" },
+    "probate": { "fr": "financement-successoral", "en": "probate-lending", "titleFr": "Financement successoral", "titleEn": "Probate lending", "sources": ["/probate-lending/"], "plate": "colonnade" },
+    "seniorDevelopment": { "fr": "dette-senior-de-promotion", "en": "senior-development-finance", "titleFr": "Dette senior et senior étendue de promotion", "titleEn": "Senior and stretch senior development finance", "sources": ["/senior-development-finance/", "/stretch-senior-development-finance/", "/property-development-finance/", "/development-finance-brokers/"], "plate": "stair" },
+    "mezzanine": { "fr": "mezzanine-et-dette-junior", "en": "mezzanine-and-junior-finance", "titleFr": "Mezzanine et dette junior", "titleEn": "Mezzanine and junior finance", "sources": ["/mezzanine-junior-finance/"], "plate": "cornice" },
+    "wholeLoan": { "fr": "financement-unitranche", "en": "whole-loans", "titleFr": "Financement unitranche (whole loan)", "titleEn": "Whole loans", "sources": ["/whole-loans/"], "plate": "vault" },
+    "firstTimeDeveloper": { "fr": "premier-programme", "en": "first-time-developers", "titleFr": "Premier programme de promotion", "titleEn": "First-time developer finance", "sources": ["/first-time-developer-finance/"], "plate": "facade" },
+    "commercial": { "fr": "immobilier-commercial", "en": "commercial-property", "titleFr": "Immobilier commercial et mixte", "titleEn": "Commercial and mixed-use property", "sources": ["/commercial-mortgages/", "/commercial-mortgage-broker/", "/mixed-use-property-finance/"], "plate": "facade" },
+    "hotel": { "fr": "hotellerie", "en": "hotel-finance", "titleFr": "Hôtellerie", "titleEn": "Hotel finance", "sources": ["/hotel-finance/"], "plate": "arcade" },
+    "portfolio": { "fr": "portefeuilles-locatifs", "en": "portfolio-finance", "titleFr": "Portefeuilles locatifs", "titleEn": "Portfolio and buy-to-let finance", "sources": ["/property-portfolio-mortgages/", "/buy-to-let-mortgages/"], "plate": "colonnade" },
+    "hmo": { "fr": "residences-partagees", "en": "hmo-finance", "titleFr": "Résidences partagées et colocations", "titleEn": "HMO finance", "sources": ["/hmo-finance/"], "plate": "facade" },
+    "foreignNational": { "fr": "emprunteurs-non-residents", "en": "non-resident-borrowers", "titleFr": "Emprunteurs non résidents", "titleEn": "Non-resident and foreign-national borrowers", "sources": ["/foreign-national-mortgages/"], "plate": "arcade" },
+    "international": { "fr": "immobilier-international", "en": "international-property", "titleFr": "Immobilier à l'international", "titleEn": "International property finance", "sources": ["/international-property-mortgages/", "/western-europe/"], "plate": "horizon" },
+    "offshore": { "fr": "structures-de-detention-internationales", "en": "international-holding-structures", "titleFr": "Structures de détention internationales", "titleEn": "International holding structures", "sources": ["/complex-offshore-structures/"], "plate": "cornice" },
+    "primeResidential": { "fr": "residentiel-de-prestige", "en": "prime-residential", "titleFr": "Résidentiel de prestige", "titleEn": "Prime residential finance", "sources": ["/prime-residential-mortgages/", "/prime-london-mortgages/", "/private-bank-mortgages/"], "plate": "colonnade" },
+    "yacht": { "fr": "yachts", "en": "yacht-finance", "titleFr": "Yachts et superyachts", "titleEn": "Yacht and superyacht finance", "sources": ["/yacht-mortgages/", "/superyacht-finance/", "/marine-finance/", "/marine-lease-finance/", "/pre-construction-marine-finance/"], "plate": "horizon" },
+    "aviation": { "fr": "aviation-privee", "en": "private-aviation", "titleFr": "Aviation privée", "titleEn": "Private aviation finance", "sources": ["/aviation-finance/", "/aviation-bridging-loans/", "/senior-secured-aircraft-finance-advisory/"], "plate": "horizon" },
+    "lombard": { "fr": "credit-lombard", "en": "lombard-lending", "titleFr": "Crédit lombard et prêts sur titres", "titleEn": "Lombard and securities-backed lending", "sources": ["/lombard-loan-advisory/", "/single-stock-lending-advisory/"], "plate": "cornice" },
+    "digitalAssets": { "fr": "actifs-numeriques", "en": "digital-assets", "titleFr": "Prêts adossés à des actifs numériques", "titleEn": "Digital-asset-backed lending", "sources": ["/crypto-bridging-advisory/", "/bitcoin-loans-advisory/"], "plate": "vault" },
+    "art": { "fr": "oeuvres-d-art", "en": "art-finance", "titleFr": "Œuvres d'art et collections", "titleEn": "Art and collection finance", "sources": ["/art-finance-advisory/"], "plate": "arcade" },
+    "equityRelease": { "fr": "degagement-de-fonds-propres", "en": "equity-release", "titleFr": "Dégagement de fonds propres sur actif détenu", "titleEn": "Equity release on held assets", "sources": ["/types-of-borrowing/", "/faq/"], "plate": "stair" },
+    "secondCharge": { "fr": "dette-de-second-rang", "en": "second-charge", "titleFr": "Dette de second rang", "titleEn": "Second-charge lending", "sources": ["/types-of-borrowing/", "/mezzanine-junior-finance/"], "plate": "cornice" }
+  },
+  "constraints": {
+    "noConsumerCredit": "ARASTE n'intervient que pour des emprunteurs professionnels ou des actifs détenus à titre d'investissement ou via des structures ; aucun crédit à la consommation ni financement réglementé d'une résidence principale. Les pages résidentielles doivent le dire.",
+    "noNumbers": "Aucun pourcentage, ratio, taux, montant, délai chiffré, nombre de prêteurs, référence client ni promesse d'obtention.",
+    "tests": "meta.description ≤ 160 caractères ; needs.items 4 à 6 ; approach.paragraphs exactement 3 ; analysis.items 5 à 7 ; limits.paragraphs exactement 2 ; related ≥ 1 sans la clé elle-même ; faq 3 à 5 ; aucune phrase de plus de 30 mots dans les réponses de FAQ ; FR et EN de mêmes effectifs."
+  }
+}

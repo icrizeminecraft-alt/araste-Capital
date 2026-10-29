@@ -1,0 +1,99 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+  "title": "NW London Bridging Loan",
+  "summary": "Case study of a GBP 19 million gross bridging loan (development-exit style refinance) arranged by Silver Oak Capital for a developer completing a 25-apartment luxury residential scheme in North West London. The developer had run over on the build schedule, so the scheme was only about 80% complete when the outstanding development and mezzanine (Mezz) facilities needed refinancing; the bridge was used to allow more time to market and sell the remaining units. Challenge: finding a lender willing to fund a partly finished residential scheme, which required presenting a clear exit and marketing plan backed by a strong valuation report. Terms stated on the page (per search summaries): GBP 19m gross, 0.75% per month, 12-month term, maximum 73% LTV, 15% personal guarantee. Independent trade coverage (Bridging & Commercial, dated 2 March 2020) describes it as Silver Oak Capital's largest ever bridging loan at GBP 19.1m, funded by Topland Group at 70% LTV over 12 months, including a GBP 1.2m capex facility for final finishing work. Borrower type: property developer. Lender: Topland Group (named only in trade press, not in the case-study snippets). Outcome: completed (per trade-press headline 'completes'); the case-study snippets themselves do not surface an explicit outcome sentence.",
+  "verbatim": [
+    "[a] \"NW London Bridging Loan\" (search-result title of the page; also returned identically in [b])",
+    "[a] \"Silver Oak describes a developer finishing a 25-apartment luxury residential scheme in North West London. The developer needed a refinance while the build was about 80% complete, and the loan was sized at £19 million.\"",
+    "[a][b] \"The developer had run over on their build schedule and hence required a refinance whilst the scheme was only partly complete (80%).\"",
+    "[a] \"Main challenge: Finding a lender willing to fund a partly finished residential scheme, which meant presenting a clear exit and marketing plan.\"",
+    "[a] \"The case study lists a 0.75% monthly rate, a 12-month term, a maximum 73% LTV, and a 15% personal guarantee.\"",
+    "[a] \"Bridging & Commercial reported that the lender was Topland Group, issued on 2 March 2020 at 70% LTV over 12 months. That report puts the total at £19.1m and includes a £1.2m capex facility for final finishing work.\"",
+    "[a] \"Silver Oak Capital completes its largest ever bridging loan of £19.1m\" (title of the Bridging & Commercial article returned twice in results)",
+    "[a] \"The LTV figures differ between the two sources (73% on the case study, 70% in the trade press), so check the details directly if they matter. The case study page's age metadata is also unreliable, and the trade coverage is dated March 2020.\"",
+    "[b] \"A developer finishing a 25-apartment luxury residential scheme in North West London needed a refinance.\"",
+    "[b] \"The lender required a bridging loan to refinance the outstanding development and Mezz facilities in order to allow more time to market and sell the remaining units.\" (sic: 'The lender' as rendered by the search summary; context implies the borrower/developer)",
+    "[b] \"Main difficulty: Finding a lender willing to fund a partly finished residential scheme. Silver Oak also had to present a clear exit and marketing plan, backed by a strong valuation report.\"",
+    "[b] \"The page lists a £19 million gross loan at 0.75% per month over a 12-month term, with a maximum of 73% LTV and a 15% personal guarantee.\"",
+    "[b] \"The page is about 213 days old, so the terms may have changed.\"",
+    "[b] \"Silver Oak's other case studies are also relevant if you want comparisons, such as a £3.6 million Kensington bridge priced at 0.78% per month and a €5 million Cap Ferrat villa loan at 0.55% per month.\""
+  ],
+  "services": [
+    "Bridging loan (large loan, GBP 19m)",
+    "Development exit finance: refinance of outstanding development and mezzanine (Mezz) facilities on a partly complete scheme",
+    "Refinance to allow more time to market and sell remaining units"
+  ],
+  "claims": [
+    {"claim": "Gross loan of £19 million", "kind": "loan-amount [a][b]"},
+    {"claim": "Rate of 0.75% per month", "kind": "rate [a][b]"},
+    {"claim": "12-month term", "kind": "term [a][b]"},
+    {"claim": "Maximum 73% LTV (case study page)", "kind": "ltv [a][b]"},
+    {"claim": "15% personal guarantee", "kind": "guarantee [a][b]"},
+    {"claim": "25-apartment luxury residential scheme in North West London", "kind": "asset [a][b]"},
+    {"claim": "Scheme only partly complete (80%) at time of refinance; developer had run over on build schedule", "kind": "completion-stage [a][b]"},
+    {"claim": "Loan refinanced outstanding development and Mezz facilities to allow more time to market and sell remaining units", "kind": "structure-purpose [b]"},
+    {"claim": "Silver Oak had to present a clear exit and marketing plan, backed by a strong valuation report", "kind": "process [a][b]"},
+    {"claim": "Trade press: 'Silver Oak Capital completes its largest ever bridging loan of £19.1m'", "kind": "external-press-headline [a]"},
+    {"claim": "Trade press: lender was Topland Group", "kind": "lender [a] (Bridging & Commercial, not the case-study page)"},
+    {"claim": "Trade press: issued on 2 March 2020", "kind": "date [a] (Bridging & Commercial)"},
+    {"claim": "Trade press: 70% LTV over 12 months", "kind": "ltv [a] (Bridging & Commercial; conflicts with 73% on case study)"},
+    {"claim": "Trade press: total £19.1m including a £1.2m capex facility for final finishing work", "kind": "loan-amount [a] (Bridging & Commercial)"},
+    {"claim": "Cross-reference: £3.6 million Kensington bridge priced at 0.78% per month", "kind": "cross-reference-other-case-study [b]"},
+    {"claim": "Cross-reference: €5 million Cap Ferrat villa loan at 0.55% per month", "kind": "cross-reference-other-case-study [b]"},
+    {"claim": "Page is about 213 days old (search tool metadata; [a] flags the page age metadata as unreliable)", "kind": "metadata [b]"}
+  ],
+  "confidence": "medium",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-nw-london-bridge.json",
+  "sections": [
+    {"heading": "The deal (background)", "content": "A developer finishing a 25-apartment luxury residential scheme in North West London needed a refinance. The developer had run over on their build schedule and hence required a refinance whilst the scheme was only partly complete (80%). A bridging loan was required to refinance the outstanding development and Mezz facilities in order to allow more time to market and sell the remaining units. Loan sized at £19 million. Sources: [a][b]."},
+    {"heading": "The challenge", "content": "Finding a lender willing to fund a partly finished residential scheme. Silver Oak had to present a clear exit and marketing plan, backed by a strong valuation report. Sources: [a][b]."},
+    {"heading": "Terms offered", "content": "£19 million gross loan; 0.75% per month; 12-month term; maximum 73% LTV; 15% personal guarantee. Sources: [a][b]."},
+    {"heading": "Independent coverage (not on the page)", "content": "Bridging & Commercial: 'Silver Oak Capital completes its largest ever bridging loan of £19.1m'; lender Topland Group; issued 2 March 2020; 70% LTV over 12 months; total £19.1m including a £1.2m capex facility for final finishing work. Source: [a]. Section heading names above are inferred groupings of snippet content, not confirmed page headings."}
+  ],
+  "terms": [
+    "Gross loan: £19,000,000 [a][b]",
+    "Rate: 0.75% per month [a][b]",
+    "Term: 12 months [a][b]",
+    "Maximum LTV: 73% per case study [a][b]; 70% per Bridging & Commercial trade press [a]",
+    "Security/guarantee: 15% personal guarantee [a][b]",
+    "Trade press only: total facility £19.1m including £1.2m capex facility for final finishing work [a]",
+    "Facility type: bridging loan refinancing outstanding development and Mezz facilities [b]"
+  ],
+  "eligibility": [],
+  "processSteps": [
+    "Identify a lender willing to fund a partly finished (80% complete) residential scheme [a][b]",
+    "Present a clear exit and marketing plan for the remaining units [a][b]",
+    "Support the application with a strong valuation report [b]"
+  ],
+  "faq": [],
+  "geography": [
+    "North West London",
+    "London",
+    "United Kingdom"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/ (title: NW London Bridging Loan) [a][b]",
+    "https://www.silveroakcapital.co.uk/case-studies/ (title: Silver Oak Capital Case Studies) [a][b]",
+    "https://www.silveroakcapital.co.uk/case-studies/residential-portfolio-refinance/ (title: Residential Portfolio Refinance) [a] -- NOT in seed.json case-study list",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/ (title: Bridging Villa Cap Ferrat) [a][b]",
+    "https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/ (title: £21M London Office Purchase & Upgrade) [a]",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/ (title: £3.6 Million Bridging Loan) [a][b]",
+    "https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/ (title: £800,000 Bridging Loan Refinance) [a][b]",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/ (title: Mortgage Bridging Loans UK & London) [b]",
+    "https://www.silveroakcapital.co.uk/case-studies/manchester-office/ (title: Manchester Office) [b]",
+    "https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/ (title: Top Aviation Firms) [b]",
+    "https://www.silveroakcapital.co.uk/case-studies/finance-for-100-senior-housing-development-in-kent/ (title: Senior Housing Development in Kent) [b]"
+  ],
+  "lenderTypes": [
+    "Topland Group -- named as the lender only in Bridging & Commercial trade coverage surfaced by search [a]; the case-study snippets themselves do not name the lender or lender category"
+  ],
+  "useCases": [
+    "Development exit bridge: refinancing outstanding development and mezzanine facilities on a partly complete (80%) residential scheme [b]",
+    "Build-schedule overrun requiring refinance before practical completion [a][b]",
+    "Buying time to market and sell remaining units of a luxury apartment scheme [b]"
+  ],
+  "notes": "Sources: [a] = WebSearch extended, query = exact URL; [b] = WebSearch extended, query 'site:silveroakcapital.co.uk NW London bridge case study bridging loan'. Direct page access was not attempted (blocked per task); all content is from search-tool result titles and the tool's summaries, which may paraphrase the page. Core deal facts (25 apartments, NW London, 80% complete, £19m, 0.75% pm, 12 months, 73% max LTV, 15% PG) are consistent across [a] and [b]. Not revealed by either search: the page's H1 and meta description (only the result title 'NW London Bridging Loan' is known, so h1/metaDescription are omitted rather than guessed), any calls to action, FAQ, eligibility criteria, named section headings, dates on the page itself, borrower nationality/structure, or an explicit outcome/testimonial sentence. Discrepancy: LTV is 73% on the case study vs 70% in Bridging & Commercial trade press (which also gives £19.1m total incl. £1.2m capex facility, lender Topland Group, issue date 2 March 2020). [b]'s sentence 'The lender required a bridging loan...' appears to be a rendering slip for the borrower/developer; recorded verbatim with a sic marker. Page age: [b] says about 213 days old, but [a] explicitly flags the page's age metadata as unreliable; the trade coverage dates the deal to March 2020. External URLs seen: https://bridgingandcommercial.co.uk/silver-oak-capital-completes-its-largest-ever-bridging-loan-of-pound-19-1m and https://bridgingandcommercial.co.uk/article/15803/silver-oak-capital-completes-its-largest-ever-bridging-loan-of-pound191m. New internal URL not in seed.json: /case-studies/residential-portfolio-refinance/. Unrelated results ignored: Grimshaw 'London Bridge Station: Case Study' (grimshaw.global) and Wikipedia 'West One Bridging Index'. Cross-reference figures from [b] (Kensington £3.6m at 0.78% pm; Cap Ferrat €5m at 0.55% pm) belong to sibling case studies, not this page. Search budget: exactly 2 calls used, 0 refused."
+}

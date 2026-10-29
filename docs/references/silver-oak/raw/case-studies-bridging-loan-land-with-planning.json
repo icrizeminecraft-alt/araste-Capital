@@ -1,0 +1,95 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/case-studies/bridging-loan-land-with-planning/",
+  "title": "Bridging Loan for Land with Planning",
+  "h1": "Bridging Loan for Land with Planning (link title as indexed; not confirmed as on-page H1)",
+  "metaDescription": "",
+  "summary": "Case study of a GBP 1.2 million bridging loan arranged by Silver Oak Capital on a development site in Glasgow. The site was valued at GBP 2 million WITHOUT planning consent (valuation by Knight Frank). The borrower was an offshore trust company that wanted to release value from its assets to fund the entire planning application for a proposed 220-unit residential scheme with ground-floor commercial space. Structure: GBP 1.2m loan, 60% LTV, 0.9% per month, 18-month term, interest rolled up. Challenges: unconsented land is hard to lend on (fewer lenders take 'planning risk') and the borrowers refused to give a personal guarantee; the deal was made possible by the borrowers' strong track record and experienced team. Lender identity/type, timing to completion and the later fate of the scheme are not revealed by the search results. Note: the page title says 'land with planning' but the body describes land valued without planning; both search summaries flag this inconsistency.",
+  "verbatim": [
+    "[a] \"The site was located in Glasgow and was valued at £2 million without planning (confirmed by a Knight Frank valuation report).\"",
+    "[a] \"This particular query originated from an offshore trust company that wanted to take full advantage of their assets.\"",
+    "[a] \"They needed the funds to help pay for the entire planning application.\"",
+    "[a] \"Fortunately the borrowers were able to demonstrate a strong track record of and a team with years of experience which made all the difference.\"",
+    "[a] \"£1.2 million loan 60% Loan to Value 0.9% per month 18 Month Terms Interest Rolled Up.\"",
+    "[a] (search-tool paraphrase of the site's bridging guide) \"Silver Oak's broader bridging guide says it can source bridging finance for land with or without planning. It also notes that unconsented land has fewer lenders because most do not take so called 'planning risk'.\"",
+    "[a] (search-tool paraphrase) \"The borrower was an offshore trust company, and the funds covered planning application costs for a 220-unit residential scheme with ground-floor commercial space.\"",
+    "[a] (search-tool paraphrase) \"Finding a lender for unconsented land was hard, and the borrowers would not give a personal guarantee.\"",
+    "[b] \"They can source bridging finance for land with or without planning, and the latter is more challenging as there are fewer lenders to choose from.\"",
+    "[b] (search-tool paraphrase) \"The page describes a Glasgow site valued at £2 million without planning. The borrower, an offshore trust company, needed funds to cover a planning application for 220 residential units with ground-floor commercial space. The solution was a £1.2 million loan at 60% LTV, 0.9% per month, over 18 months with interest rolled up. The borrowers wouldn't give a personal guarantee, and their track record and experienced team made the difference.\"",
+    "[b] (search-tool paraphrase of /bridging-loans-uk/) \"It says the firm secured a tailored facility for land with planning, structured around the client's exit strategy. It gives no figures.\"",
+    "[b] (search-tool paraphrase of /case-studies/nw-london-bridge/, which carries the 'Bridging Loan Land with Planning' label in preview text) \"its content is about a £19 million refinance of a partly completed 25-apartment luxury residential scheme in North West London, at 0.75% per month, 12 months, 73% LTV, with a 15% personal guarantee. It isn't a land-with-planning deal.\""
+  ],
+  "services": [
+    "Bridging loan secured on development land (unconsented / pre-planning)",
+    "Land bridging finance for offshore trust / corporate borrowers",
+    "Funding of planning application costs"
+  ],
+  "lenderTypes": [
+    "Not named in results. Site's general bridging guidance (per [a]/[b]) says fewer lenders accept land without planning because most do not take 'planning risk'."
+  ],
+  "useCases": [
+    "Raising funds against unconsented land to pay for the entire planning application",
+    "Offshore trust company releasing value from a land asset ('take full advantage of their assets')",
+    "Pre-planning funding for a 220-unit residential scheme with ground-floor commercial space"
+  ],
+  "terms": [
+    "Loan amount: £1.2 million [a][b]",
+    "Loan to Value: 60% [a][b]",
+    "Rate: 0.9% per month [a][b]",
+    "Term: 18 months [a][b]",
+    "Interest: rolled up [a][b]",
+    "Personal guarantee: none given by the borrowers [a][b]",
+    "Security: Glasgow development site valued at £2 million without planning (Knight Frank valuation report) [a][b]"
+  ],
+  "eligibility": [
+    "Borrowers were able to demonstrate 'a strong track record' and 'a team with years of experience' [a]",
+    "Offshore trust company accepted as borrower [a][b]",
+    "Land without planning consent accepted as security (described as harder, with fewer lenders) [a][b]",
+    "Deal proceeded without a personal guarantee [a][b]"
+  ],
+  "processSteps": [
+    "Independent valuation: Knight Frank valuation report confirmed the £2 million unconsented value [a]",
+    "Borrowers evidenced track record and team experience to satisfy lender on unconsented land without a personal guarantee [a]",
+    "Facility structured at 60% LTV, 18 months, interest rolled up [a][b]",
+    "(No further process detail, timeline or exit mechanics revealed by search results)"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "£1.2 million bridging loan arranged", "kind": "number"},
+    {"claim": "Site valued at £2 million without planning", "kind": "number"},
+    {"claim": "Valuation confirmed by a Knight Frank valuation report", "kind": "third-party"},
+    {"claim": "60% Loan to Value", "kind": "number"},
+    {"claim": "0.9% per month interest rate", "kind": "number"},
+    {"claim": "18-month term", "kind": "number"},
+    {"claim": "Interest rolled up", "kind": "structure"},
+    {"claim": "Planning application for 220 residential units with ground-floor commercial space", "kind": "number"},
+    {"claim": "No personal guarantee given by borrowers", "kind": "structure"},
+    {"claim": "Borrower: offshore trust company", "kind": "borrower-type"},
+    {"claim": "Silver Oak can source bridging finance for land with or without planning", "kind": "promise"},
+    {"claim": "Land without planning has fewer lenders because most do not take 'planning risk'", "kind": "market-statement"},
+    {"claim": "Page title says 'land with planning' while body describes a site valued without planning (internal inconsistency flagged by both search summaries)", "kind": "caveat"},
+    {"claim": "Related external headline seen in results (different deal): 'Silver Oak Capital completes its largest ever bridging loan of £19.1m' (bridgingandcommercial.co.uk)", "kind": "external-headline"}
+  ],
+  "geography": [
+    "Glasgow, Scotland, United Kingdom (site location)",
+    "Offshore (borrower is an offshore trust company; jurisdiction not stated)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+    "https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/",
+    "https://www.silveroakcapital.co.uk/case-studies/manchester-office/",
+    "https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/",
+    "https://www.silveroakcapital.co.uk/case-studies/miami-developer/",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "https://bridgingandcommercial.co.uk/silver-oak-capital-completes-its-largest-ever-bridging-loan-of-pound-19-1m",
+    "https://www.thelandsite.co.uk/professional-services/720-silver-oak-capital"
+  ],
+  "confidence": "medium",
+  "notes": "Direct fetch blocked; everything comes from two WebSearch 'extended' summaries, tagged [a] (exact-URL query) and [b] (site: query). Core deal facts (£1.2m, 60% LTV, 0.9% pm, 18 months, interest rolled up, Glasgow, £2m Knight Frank valuation without planning, offshore trust borrower, 220 units + ground-floor commercial, no personal guarantee, track record/experienced team) were reported consistently by both summaries, hence medium rather than low. Items marked 'search-tool paraphrase' are the tool's wording, not confirmed page text; the five [a] sentences without that marker were quoted by the tool as page text, including the grammatically odd 'a strong track record of and a team'. NOT revealed: lender name/type, completion timing, exit strategy, meta description, on-page H1, CTAs, FAQ, author/date, later outcome of the planning application. Title/body inconsistency ('with planning' vs valued 'without planning') should be checked on the live page. Seed file lists a related service page /post-planning-land-acquisitions/ but it did not appear in these results. ctas and faq left empty deliberately (none in results). 2 WebSearch calls used, 0 refused.",
+  "queriesRun": 2,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/case-studies-bridging-loan-land-with-planning.json"
+}
