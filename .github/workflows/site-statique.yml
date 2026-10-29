@@ -44,8 +44,21 @@ jobs:
       - name: Publier out/ sur la branche hostinger-static
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # La branche contient le site déjà construit dans `site/` et un
+        # package.json minimal : Hostinger (type Node.js, sans dépendances)
+        # exécute `npm run build`, qui ne fait rien, puis publie `site/`
+        # dans public_html.
         run: |
-          cd out
+          rm -rf publication && mkdir publication
+          cp -R out publication/site
+          cat > publication/package.json <<'EOF'
+          {
+            "name": "araste-capital-site-statique",
+            "private": true,
+            "scripts": { "build": "node -e \"console.log('Site statique déjà construit (dossier site/).')\"" }
+          }
+          EOF
+          cd publication
           git init -b hostinger-static
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
