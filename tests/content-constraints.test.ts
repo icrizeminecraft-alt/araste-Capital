@@ -143,6 +143,22 @@ describe("contraintes des contenus", () => {
     });
   }
 
+  for (const locale of ["fr", "en"] as const) {
+    it(`${locale} : la méthode de l'accueil reprend les libellés de la page Notre approche`, () => {
+      const dict = dicts[locale];
+      expect(dict.home.approach.steps.map((s) => s.title)).toEqual(dict.approach.steps.map((s) => s.title));
+    });
+
+    it(`${locale} : l'ouverture reste courte et le module fondateur factuel`, () => {
+      const dict = dicts[locale];
+      const words = (text: string) => text.trim().split(/\s+/).length;
+      expect(words(dict.home.hero.body)).toBeLessThanOrEqual(50);
+      const founderWords = dict.firm.founder.paragraphs.reduce((n, p) => n + words(p), 0);
+      expect(founderWords).toBeGreaterThanOrEqual(40);
+      expect(founderWords).toBeLessThanOrEqual(60);
+    });
+  }
+
   it("FR et EN sont structurellement équivalents", () => {
     for (const key of expertiseKeys) {
       const fr = dicts.fr.expertises[key];
@@ -162,7 +178,9 @@ describe("contraintes des contenus", () => {
     }
     expect(dicts.en.contact.faq.items.length).toBe(dicts.fr.contact.faq.items.length);
     expect(dicts.en.home.approach.steps.length).toBe(dicts.fr.home.approach.steps.length);
-    expect(dicts.en.home.situations.cases.length).toBe(dicts.fr.home.situations.cases.length);
+    expect(dicts.en.home.needs.items.map((n) => n.expertises)).toEqual(dicts.fr.home.needs.items.map((n) => n.expertises));
+    expect(dicts.en.home.value.parameters.length).toBe(dicts.fr.home.value.parameters.length);
+    expect(dicts.en.home.guides.featured).toEqual(dicts.fr.home.guides.featured);
     expect(dicts.en.approach.steps.length).toBe(dicts.fr.approach.steps.length);
     expect(dicts.en.legal.sections.length).toBe(dicts.fr.legal.sections.length);
     expect(dicts.en.privacy.sections.length).toBe(dicts.fr.privacy.sections.length);

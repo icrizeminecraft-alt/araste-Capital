@@ -10,7 +10,7 @@ export const partners: PartnersContent = {
   title: "Une collaboration claire avec les professionnels qui nous apportent des opérations.",
   lead: "Une part importante des opérations que nous étudions nous est présentée par des professionnels indépendants : apporteurs d'affaires, courtiers, avocats, experts-comptables, gestionnaires de patrimoine, family offices. Cet espace leur est destiné.",
   paragraphs: [
-    "Vous connaissez votre client, son opération et ses contraintes. Nous apportons la lecture d'un prêteur, la structuration du dossier et la recherche des pistes de financement. La collaboration fonctionne lorsque chacun reste à sa place et que les règles sont écrites avant le premier échange avec un prêteur.",
+    "Vous connaissez votre client, son opération et ses contraintes. Nous apportons la lecture d'un prêteur, la structuration du dossier et la recherche des pistes de financement. La collaboration repose sur des rôles définis et des échanges coordonnés, fixés par écrit avant le premier échange avec un prêteur.",
     "Vous pouvez présenter une opération pour le compte d'un client depuis la fiche d'opération, en indiquant votre rôle. Nous revenons vers vous, et non vers votre client, tant que vous ne nous demandez pas l'inverse. Les modalités de collaboration et de rémunération sont convenues par écrit, au cas par cas, avant toute démarche.",
   ],
   profiles: {
@@ -74,7 +74,7 @@ export const partners: PartnersContent = {
       answer: "Les modalités sont convenues par écrit avant toute démarche, au cas par cas, dans le respect des règles applicables à votre profession et à la nôtre. Nous ne prenons aucun engagement oral et ne demandons rien à votre client sans votre accord.",
     },
     {
-      question: "Puis-je présenter une opération située hors de vos implantations ?",
+      question: "Puis-je présenter une opération située hors de vos marchés d'intervention ?",
       answer: "Oui. Nous étudions les opérations au regard de l'actif, de la structure et des prêteurs pertinents, pas d'une carte. Nous vous dirons franchement si le pays ou le type d'actif sort de ce que nous savons faire.",
     },
     {

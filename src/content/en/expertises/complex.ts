@@ -8,7 +8,7 @@ export const complex: ExpertiseContent = {
   },
   title: "Complex financing",
   shortTitle: "Complex financing",
-  eyebrow: "Beyond standard channels",
+  eyebrow: "Holding structures and complex transactions",
   summary:
     "Support for transactions that standard banking channels struggle to assess: layered holdings, foreign structures, atypical assets, a constrained timetable or a case that calls for an in-depth presentation.",
   lead: "Some transactions fall outside the standard credit framework: multi-tier ownership, cross-holdings, a foreign structure, an asset with no reference market, a timetable too short for a conventional process. The need itself is often simple; what takes work is making it understandable. Our role is to make the transaction clear, then to take it to the lenders whose analytical approach suits this kind of structure.",

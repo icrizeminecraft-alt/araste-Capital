@@ -85,7 +85,9 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
                 ) : null}
               </address>
             ) : (
-              <p className="font-sans text-sm text-silver">{t.footer.contactPending}</p>
+              <Link href={pagePath(locale, "contact")} className={linkClass}>
+                {t.footer.contactLink}
+              </Link>
             )}
 
             <p className={`${titleClass} mt-10`}>{t.footer.legalTitle}</p>
@@ -110,12 +112,6 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           </p>
           <LocaleSwitcher locale={locale} labels={t.locale} dark />
         </div>
-
-        {!siteConfig.indexable ? (
-          <p className="mt-8 border-l-2 border-gold pl-4 font-sans text-xs leading-relaxed text-silver">
-            {t.footer.previewNotice}
-          </p>
-        ) : null}
       </div>
     </footer>
   );

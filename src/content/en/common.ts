@@ -35,16 +35,14 @@ export const common: CommonContent = {
     languagesTitle: "Language",
     legal: "Legal notice",
     privacy: "Privacy",
-    contactPending: "Direct contact details to be confirmed before publication.",
+    contactLink: "Write to us",
     rights: "All rights reserved.",
-    previewNotice:
-      "Pre-production version. Legal identity, contact details and regulatory statements to be confirmed before publication.",
     tagline: "Independent advisory in real estate finance and complex transactions",
   },
   ui: {
     allExpertises: "All areas of expertise",
     allGuides: "All guides",
-    markets: "Markets",
+    markets: "Markets served",
     breadcrumbLabel: "Breadcrumb",
     homeCrumb: "Home",
     contents: "Contents",
@@ -54,7 +52,6 @@ export const common: CommonContent = {
     faq: "Frequently asked questions",
     readingTime: "{minutes} min read",
     mobileCta: "Discuss your project",
-    addressPending: "Address to be confirmed before publication.",
   },
   notFound: {
     title: "This page does not exist.",

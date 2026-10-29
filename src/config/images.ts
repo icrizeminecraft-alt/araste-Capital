@@ -1,5 +1,6 @@
 import type { Locale } from "@/lib/i18n";
 import type { ExpertiseKey } from "@/config/routes";
+import manifest from "../../public/images/manifest.json";
 
 /**
  * Registre centralisé des visuels.
@@ -9,10 +10,15 @@ import type { ExpertiseKey } from "@/config/routes";
  * la liste `outils/photos.txt`, ou, à défaut, par une composition
  * architecturale originale en SVG (`plate`). Voir docs/IMAGES.md.
  *
+ * Les largeurs et les dimensions de chaque photographie viennent du manifeste
+ * écrit par l'import (`public/images/manifest.json`) : elles décrivent les
+ * pixels réellement présents dans les fichiers, jamais une valeur supposée.
+ * Chaque fichier existe en AVIF et en JPEG.
+ *
  * Les photographies sont des illustrations : les mentions légales le rappellent,
  * sans légende sur les pages. Chaque image n'est utilisée qu'à un seul
- * emplacement (les vignettes d'expertise sont reprises à l'identique entre
- * l'accueil et la page des expertises).
+ * emplacement. L'accueil se limite à trois images : l'ouverture, une vue
+ * d'ensemble et un détail, de la même famille de lumière.
  */
 export type PlateKind =
   | "arcade"
@@ -23,29 +29,30 @@ export type PlateKind =
   | "vault"
   | "cornice";
 
-/** Variante recadrée d'une photographie, servie selon une requête de média (direction artistique). */
-export type PhotoVariant = {
-  media: string;
-  base: string;
-  widths: readonly number[];
-  width: number;
-  height: number;
-};
+type ManifestEntry = { readonly id: string; readonly widths: readonly number[]; readonly width: number; readonly height: number };
+type ManifestName = keyof typeof manifest;
 
-export type PhotoAsset = {
-  /** Nom de base des fichiers sous /public/images : `<base>-<largeur>.jpg`. */
+/** Fichiers d'une photographie ou d'un recadrage : nom de base et dimensions réelles. */
+export type PhotoFiles = {
+  /** Nom de base des fichiers sous /public/images : `<base>-<largeur>.{avif,jpg}`. */
   base: string;
   /** Largeurs disponibles, croissantes (la dernière sert de source par défaut). */
   widths: readonly number[];
   /** Dimensions intrinsèques du plus grand fichier, pour réserver l'espace. */
   width: number;
   height: number;
+};
+
+/** Variante recadrée d'une photographie, servie selon une requête de média (direction artistique). */
+export type PhotoVariant = PhotoFiles & { media: string };
+
+export type PhotoAsset = PhotoFiles & {
   /** Point focal en pourcentage, pour object-position. */
   focal: { x: number; y: number };
   alt: Record<Locale, string>;
   /** Auteur, source et licence. */
   credit: string;
-  /** Recadrages alternatifs (par exemple un cadrage portrait pour les petits écrans). */
+  /** Recadrages alternatifs (par exemple un cadrage vertical pour le grand écran). */
   variants?: readonly PhotoVariant[];
 };
 
@@ -55,219 +62,160 @@ export type VisualSlot =
 
 const unsplash = (author: string, id: string) => `${author} — Unsplash (licence Unsplash), unsplash.com/photos/${id}`;
 
+/** Dimensions réelles d'une photographie importée, d'après le manifeste. */
+function files(name: ManifestName): PhotoFiles {
+  const entry: ManifestEntry = manifest[name];
+  return { base: name, widths: entry.widths, width: entry.width, height: entry.height };
+}
+
+function variant(name: ManifestName, media: string): PhotoVariant {
+  return { ...files(name), media };
+}
+
 /** Photographies importées (voir outils/photos.txt). */
 export const photos = {
-  residencesMer: {
-    base: "residences-mer",
-    widths: [800, 1600, 2400],
-    width: 2400,
-    height: 1600,
-    focal: { x: 62, y: 55 },
-    alt: { fr: "Immeubles aux arcades de pierre claire ouvrant sur la Méditerranée.", en: "Light-stone buildings with arched balconies opening onto the Mediterranean." },
-    credit: unsplash("Thomas K", "WuyR34c3qJA"),
-    variants: [{ media: "(max-width: 47.99rem)", base: "residences-mer-portrait", widths: [960, 1400], width: 1400, height: 1867 }],
-  },
-  monacoCrepuscule: {
-    base: "monaco-crepuscule",
-    widths: [960, 1600, 2400],
-    width: 2400,
-    height: 3200,
-    focal: { x: 50, y: 58 },
-    alt: { fr: "Monaco au crépuscule : la Principauté et la mer sous un ciel bleu nuit.", en: "Monaco at dusk: the Principality and the sea under a deep blue sky." },
-    credit: unsplash("Alexis Bens", "_0hTRmpkT5s"),
-  },
-  parisBalcons: {
-    base: "paris-balcons",
-    widths: [800, 1200, 1800],
-    width: 1800,
-    height: 2400,
-    focal: { x: 50, y: 40 },
-    alt: { fr: "Immeuble parisien aux balcons ouvragés.", en: "Parisian building with ornate balconies." },
-    credit: unsplash("Meizhi Lang", "NmrbDuAVoDk"),
-  },
-  parisLumiere: {
-    base: "paris-lumiere",
-    widths: [800, 1200, 1800],
-    width: 1800,
-    height: 2700,
+  /* Série de l'accueil : lumière douce, pierre claire, Méditerranée. */
+  altea: {
+    ...files("altea"),
     focal: { x: 50, y: 45 },
-    alt: { fr: "Façade parisienne et balcon en fer forgé dans la lumière du matin.", en: "Parisian façade and wrought-iron balcony in morning light." },
-    credit: unsplash("Ruben Hanssen", "U8Ygo0wNNZI"),
+    alt: { fr: "Balcons d'une résidence blanche ouvrant sur une mer calme, au crépuscule.", en: "Balconies of a white residence opening onto a calm sea at dusk." },
+    credit: unsplash("Miká Heming", "i9PYRSr2uBc"),
+    variants: [variant("altea-portrait", "(min-width: 64rem)")],
   },
-  parisAngle: {
-    base: "paris-angle",
-    widths: [960, 1600, 2400],
-    width: 2400,
-    height: 1609,
+  cassis: {
+    ...files("cassis"),
     focal: { x: 50, y: 45 },
-    alt: { fr: "Immeubles parisiens aux balcons ouvragés sous un ciel bleu.", en: "Parisian buildings with ornate balconies under a blue sky." },
-    credit: unsplash("Pavel Abramiankou", "qgfwU8JarIg"),
+    alt: { fr: "Villas de pierre claire sur une côte méditerranéenne.", en: "Light-stone villas on a Mediterranean coastline." },
+    credit: unsplash("Jac Alexandru", "A7SIkewdTIw"),
+    variants: [variant("cassis-large", "(min-width: 64rem)")],
   },
-  rivieraImmeuble: {
-    base: "riviera-immeuble",
-    widths: [800, 1200, 1800],
-    width: 1800,
-    height: 2700,
-    focal: { x: 50, y: 45 },
-    alt: { fr: "Immeuble Belle Époque aux façades claires, sur la Riviera.", en: "Belle Époque building with light façades on the Riviera." },
-    credit: unsplash("Shalev Cohen", "LDaMQABui7o"),
+  pierreOmbre: {
+    ...files("pierre-ombre"),
+    focal: { x: 50, y: 50 },
+    alt: { fr: "Ombres de feuillage sur un mur de pierre claire.", en: "Leaf shadows on a light stone wall." },
+    credit: unsplash("Pawel Czerwinski", "VuBzLZqAEpg"),
   },
-  rivieraPalmiers: {
-    base: "riviera-palmiers",
-    widths: [960, 1600, 2400],
-    width: 2400,
-    height: 1600,
-    focal: { x: 50, y: 45 },
-    alt: { fr: "Immeuble de la Riviera derrière des palmiers.", en: "Riviera building behind palm trees." },
-    credit: unsplash("Stevo", "oSuZIcno8qc"),
-  },
-  fontvieille: {
-    base: "fontvieille",
-    widths: [960, 1600, 2400],
-    width: 2400,
-    height: 1600,
-    focal: { x: 50, y: 55 },
-    alt: { fr: "Immeubles au bord de l'eau, vus d'en haut.", en: "Waterside buildings seen from above." },
-    credit: unsplash("Diane Picchiottino", "RuvW7a2R8HM"),
-  },
-  corniche: {
-    base: "corniche",
-    widths: [800, 1600, 2400],
-    width: 2400,
-    height: 1600,
-    focal: { x: 55, y: 50 },
-    alt: { fr: "Corniche sculptée éclairée par le soleil couchant, sur ciel bleu profond.", en: "Carved cornice lit by the setting sun against a deep blue sky." },
-    credit: unsplash("Maxim Tolchinskiy", "uL8uhUj2gMg"),
-  },
+
+  /* Vignettes des expertises (page des expertises). */
   villaCrepuscule: {
-    base: "villa-crepuscule",
-    widths: [800, 1600, 2400],
-    width: 2400,
-    height: 1867,
+    ...files("villa-crepuscule"),
     focal: { x: 50, y: 55 },
     alt: { fr: "Villa contemporaine éclairée au crépuscule.", en: "Contemporary villa lit at dusk." },
     credit: unsplash("Arthur Baudry", "4vioYQ9Nn9Y"),
   },
-  chantierCrepuscule: {
-    base: "chantier-crepuscule",
-    widths: [960, 1600, 2400],
-    width: 2400,
-    height: 1600,
+  corniche: {
+    ...files("corniche"),
+    focal: { x: 55, y: 50 },
+    alt: { fr: "Corniche sculptée éclairée par le soleil couchant, sur ciel bleu profond.", en: "Carved cornice lit by the setting sun against a deep blue sky." },
+    credit: unsplash("Maxim Tolchinskiy", "uL8uhUj2gMg"),
+  },
+  parisBalcons: {
+    ...files("paris-balcons"),
+    focal: { x: 50, y: 40 },
+    alt: { fr: "Immeuble parisien aux balcons ouvragés.", en: "Parisian building with ornate balconies." },
+    credit: unsplash("Meizhi Lang", "NmrbDuAVoDk"),
+  },
+  villaCassis: {
+    ...files("villa-cassis"),
+    focal: { x: 55, y: 45 },
+    alt: { fr: "Villa blanche sur une pointe rocheuse, au bord de la Méditerranée.", en: "White villa on a rocky headland by the Mediterranean." },
+    credit: unsplash("Denis Dimitrov", "-chZwUizQXY"),
+  },
+  chantierMer: {
+    ...files("chantier-mer"),
     focal: { x: 50, y: 55 },
-    alt: { fr: "Maison en construction au crépuscule.", en: "House under construction at twilight." },
-    credit: unsplash("Greg Rosenke", "lAyDxOCDYwI"),
+    alt: { fr: "Immeuble de pierre en construction au bord de la mer.", en: "Stone building under construction by the sea." },
+    credit: unsplash("Aleksandrs Zeltisevs", "o_QjE648MvM"),
+  },
+  travertin: {
+    ...files("travertin"),
+    focal: { x: 50, y: 50 },
+    alt: { fr: "Lumière et ombre sur un angle de pierre.", en: "Light and shadow on a stone corner." },
+    credit: unsplash("Jason Leung", "bwu6zJHrfNs"),
+  },
+
+  /* Bandeaux des pages d'expertise. */
+  fontvieille: {
+    ...files("fontvieille"),
+    focal: { x: 50, y: 55 },
+    alt: { fr: "Immeubles au bord de l'eau, vus d'en haut.", en: "Waterside buildings seen from above." },
+    credit: unsplash("Diane Picchiottino", "RuvW7a2R8HM"),
+  },
+  villeFenetre: {
+    ...files("ville-fenetre"),
+    focal: { x: 55, y: 50 },
+    alt: { fr: "Ville vue d'une haute fenêtre, en noir et blanc.", en: "City seen from a high window, in black and white." },
+    credit: unsplash("V", "sYtp3sQkqbM"),
+  },
+  parisAngle: {
+    ...files("paris-angle"),
+    focal: { x: 50, y: 45 },
+    alt: { fr: "Immeubles parisiens aux balcons ouvragés sous un ciel bleu.", en: "Parisian buildings with ornate balconies under a blue sky." },
+    credit: unsplash("Pavel Abramiankou", "qgfwU8JarIg"),
+  },
+  rivieraPalmiers: {
+    ...files("riviera-palmiers"),
+    focal: { x: 50, y: 45 },
+    alt: { fr: "Immeuble de la Riviera derrière des palmiers.", en: "Riviera building behind palm trees." },
+    credit: unsplash("Stevo", "oSuZIcno8qc"),
   },
   grue: {
-    base: "grue",
-    widths: [960, 1600, 2400],
-    width: 2400,
-    height: 3600,
+    ...files("grue"),
     focal: { x: 50, y: 42 },
     alt: { fr: "Ombre d'une grue de chantier sur une façade blanche.", en: "Shadow of a construction crane on a white façade." },
     credit: unsplash("Alexander Kaufmann", "e8dE5m7Vsf8"),
   },
-  tourCouchant: {
-    base: "tour-couchant",
-    widths: [960, 1600, 2400],
-    width: 2400,
-    height: 1600,
-    focal: { x: 50, y: 50 },
-    alt: { fr: "Immeuble de bureaux sous un ciel de couchant.", en: "Office building under a sunset sky." },
-    credit: unsplash("LEDC", "J9zND9ieE4Q"),
-  },
   tourDoree: {
-    base: "tour-doree",
-    widths: [800, 1200, 1800],
-    width: 1800,
-    height: 3200,
+    ...files("tour-doree"),
     focal: { x: 50, y: 50 },
     alt: { fr: "Tour de verre reflétant la lumière dorée du couchant.", en: "Glass tower reflecting golden sunset light." },
     credit: unsplash("Hoak Shen", "OLhtAXMgaaQ"),
   },
+
+  /* Pages approche, partenaires et contact. */
   plumeOr: {
-    base: "plume-or",
-    widths: [960, 1600, 2400],
-    width: 2400,
-    height: 1350,
+    ...files("plume-or"),
     focal: { x: 50, y: 50 },
     alt: { fr: "Plume dorée d'un stylo noir, en gros plan.", en: "Gold nib of a black fountain pen, close up." },
     credit: unsplash("Thomas Griggs", "8ylzXjzqkJQ"),
   },
   accord: {
-    base: "accord",
-    widths: [800, 1600, 2400],
-    width: 2400,
-    height: 1600,
+    ...files("accord"),
     focal: { x: 50, y: 45 },
     alt: { fr: "Poignée de main au-dessus d'une table de bois, dans la pénombre.", en: "Handshake over a wooden table, in low light." },
     credit: unsplash("Rock Staar", "NzIV4vOBA7s"),
   },
-  villeFenetre: {
-    base: "ville-fenetre",
-    widths: [960, 1600, 2400],
-    width: 2400,
-    height: 1800,
-    focal: { x: 55, y: 50 },
-    alt: { fr: "Ville vue d'une haute fenêtre, en noir et blanc.", en: "City seen from a high window, in black and white." },
-    credit: unsplash("V", "sYtp3sQkqbM"),
-  },
   styloDossier: {
-    base: "stylo-dossier",
-    widths: [800, 1200, 1800],
-    width: 1800,
-    height: 1200,
+    ...files("stylo-dossier"),
     focal: { x: 50, y: 50 },
     alt: { fr: "Stylo posé sur une pile de documents, en noir et blanc.", en: "Pen resting on a pile of documents, in black and white." },
     credit: unsplash("Andres Vera", "OJbjBsNIwjk"),
   },
-  andorre: {
-    base: "andorre",
-    widths: [640, 1200],
-    width: 1200,
-    height: 800,
-    focal: { x: 50, y: 55 },
-    alt: { fr: "Andorre-la-Vieille dans sa vallée, sommets enneigés.", en: "Andorra la Vella in its valley, snow-capped peaks." },
-    credit: unsplash("Jossuha Théophile", "txDX4b4n8AY"),
-  },
-  londres: {
-    base: "londres",
-    widths: [640, 1200],
-    width: 1200,
-    height: 1800,
-    focal: { x: 50, y: 55 },
-    alt: { fr: "Façades georgiennes et cabines téléphoniques rouges, Londres en automne.", en: "Georgian façades and red telephone boxes, London in autumn." },
-    credit: unsplash("Anthony", "zjBxPUHE_ok"),
-  },
-  emirats: {
-    base: "emirats",
-    widths: [640, 1200],
-    width: 1200,
-    height: 1600,
-    focal: { x: 50, y: 45 },
-    alt: { fr: "Tours de Dubaï illuminées la nuit.", en: "Dubai towers lit up at night." },
-    credit: unsplash("Nejc Soklič", "yFKBh1sC1ng"),
-  },
-} as const satisfies Record<string, PhotoAsset>;
+} satisfies Record<string, PhotoAsset>;
 
 export const visuals: {
+  /** Ouverture de l'accueil : cadrage vertical sur grand écran, horizontal en dessous. */
   hero: VisualSlot;
-  bridgeFeature: VisualSlot;
+  /** Vue d'ensemble (accueil) : situer un actif ou un contexte d'investissement. */
+  overview: VisualSlot;
+  /** Détail architectural (accueil) : une respiration, la pierre et l'ombre. */
+  detail: VisualSlot;
   /**
-   * Portrait du fondateur (accueil et page du cabinet). `null` tant que la
-   * photographie n'est pas livrée : le monogramme tient lieu de portrait.
+   * Portrait du fondateur (page du cabinet). `null` tant que la photographie
+   * n'est pas livrée : le module se présente alors sans image.
    */
   portrait: VisualSlot | null;
   approach: VisualSlot;
   partners: VisualSlot;
   contact: VisualSlot;
-  /** Vignette de chaque expertise (liste de l'accueil, page des expertises). */
+  /** Vignette de chaque expertise (page des expertises). */
   expertises: Record<ExpertiseKey, VisualSlot>;
   /** Bandeau de la page de chaque expertise, distinct de la vignette. */
   expertiseBanners: Record<ExpertiseKey, VisualSlot>;
-  places: Record<"andorra" | "london" | "monaco" | "uae", VisualSlot>;
 } = {
-  hero: { kind: "photo", photo: photos.residencesMer },
-  bridgeFeature: { kind: "photo", photo: photos.parisBalcons },
+  hero: { kind: "photo", photo: photos.altea },
+  overview: { kind: "photo", photo: photos.cassis },
+  detail: { kind: "photo", photo: photos.pierreOmbre },
   portrait: null,
   approach: { kind: "photo", photo: photos.plumeOr },
   partners: { kind: "photo", photo: photos.accord },
@@ -275,10 +223,10 @@ export const visuals: {
   expertises: {
     bridge: { kind: "photo", photo: photos.villaCrepuscule },
     complex: { kind: "photo", photo: photos.corniche },
-    refinancing: { kind: "photo", photo: photos.parisLumiere },
-    acquisition: { kind: "photo", photo: photos.rivieraImmeuble },
-    development: { kind: "photo", photo: photos.chantierCrepuscule },
-    privateDebt: { kind: "photo", photo: photos.tourCouchant },
+    refinancing: { kind: "photo", photo: photos.parisBalcons },
+    acquisition: { kind: "photo", photo: photos.villaCassis },
+    development: { kind: "photo", photo: photos.chantierMer },
+    privateDebt: { kind: "photo", photo: photos.travertin },
   },
   expertiseBanners: {
     bridge: { kind: "photo", photo: photos.fontvieille },
@@ -287,12 +235,6 @@ export const visuals: {
     acquisition: { kind: "photo", photo: photos.rivieraPalmiers },
     development: { kind: "photo", photo: photos.grue },
     privateDebt: { kind: "photo", photo: photos.tourDoree },
-  },
-  places: {
-    andorra: { kind: "photo", photo: photos.andorre },
-    london: { kind: "photo", photo: photos.londres },
-    monaco: { kind: "photo", photo: photos.monacoCrepuscule },
-    uae: { kind: "photo", photo: photos.emirats },
   },
 };
 

@@ -6,10 +6,9 @@ import localFont from "next/font/local";
  * (accents, œ, «  », espaces insécables, €).
  */
 export const cormorant = localFont({
-  src: [
-    { path: "../assets/fonts/cormorant-latin-wght-normal.woff2", weight: "300 700", style: "normal" },
-    { path: "../assets/fonts/cormorant-latin-wght-italic.woff2", weight: "300 700", style: "italic" },
-  ],
+  // Une seule fonte par famille : le site n'emploie pas d'italique, et seules
+  // les fontes nécessaires à l'ouverture sont préchargées.
+  src: [{ path: "../assets/fonts/cormorant-latin-wght-normal.woff2", weight: "300 700", style: "normal" }],
   variable: "--font-cormorant",
   display: "swap",
   preload: true,
@@ -17,10 +16,7 @@ export const cormorant = localFont({
 });
 
 export const dmSans = localFont({
-  src: [
-    { path: "../assets/fonts/dm-sans-latin-wght-normal.woff2", weight: "100 1000", style: "normal" },
-    { path: "../assets/fonts/dm-sans-latin-wght-italic.woff2", weight: "100 1000", style: "italic" },
-  ],
+  src: [{ path: "../assets/fonts/dm-sans-latin-wght-normal.woff2", weight: "100 1000", style: "normal" }],
   variable: "--font-dm-sans",
   display: "swap",
   preload: true,

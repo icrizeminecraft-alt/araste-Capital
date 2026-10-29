@@ -8,7 +8,7 @@ export const complex: ExpertiseContent = {
   },
   title: "Financements complexes",
   shortTitle: "Financements complexes",
-  eyebrow: "Hors des circuits standard",
+  eyebrow: "Structures de détention et opérations complexes",
   summary:
     "Un accompagnement pour les opérations que les circuits bancaires standard lisent mal : holdings en cascade, structures étrangères, actifs atypiques, calendrier contraint ou dossier qui appelle une présentation approfondie.",
   lead: "Certaines opérations échappent à la grille d'analyse standard : détention à plusieurs niveaux, participations croisées, structure étrangère, actif sans marché de référence, calendrier trop court pour une instruction classique. Le besoin lui-même est souvent simple ; c'est sa lecture qui demande un travail particulier. Notre rôle consiste à rendre l'opération lisible, puis à la porter vers les prêteurs dont le cadre d'analyse correspond à ce type de structure.",

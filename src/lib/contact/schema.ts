@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { expertiseKeys } from "@/config/routes";
+import { LIMITS, isFieldErrorCode, knownCodes, type FieldErrorCode } from "@/lib/contact/limits";
 
 /**
  * Schéma partagé client / serveur de la fiche d'opération.
@@ -18,21 +19,7 @@ export const exitTypes = ["sale", "refinancing", "receipt", "partner", "amortisa
 export const roles = ["borrower", "introducer", "adviser", "other"] as const;
 export const channels = ["email", "phone"] as const;
 
-export const LIMITS = {
-  amount: 20,
-  short: 80,
-  country: 80,
-  descriptionMin: 20,
-  description: 1500,
-  medium: 600,
-  name: 120,
-  company: 160,
-  email: 254,
-  phone: 40,
-  body: 24 * 1024,
-} as const;
-
-export type FieldErrorCode = "required" | "email" | "amount" | "tooLong" | "tooShort" | "phone" | "phoneRequired";
+export { LIMITS, isFieldErrorCode, knownCodes, type FieldErrorCode };
 
 const required = { error: "required" } as const;
 
@@ -216,11 +203,6 @@ export function sanitizeBriefFieldErrors(input: unknown): BriefFieldErrors {
   return out;
 }
 
-export const knownCodes: readonly FieldErrorCode[] = ["required", "email", "amount", "tooLong", "tooShort", "phone", "phoneRequired"];
-
-export function isFieldErrorCode(value: unknown): value is FieldErrorCode {
-  return typeof value === "string" && (knownCodes as readonly string[]).includes(value);
-}
 
 export function isContactField(value: unknown): value is keyof ContactFields {
   return typeof value === "string" && value in emptyContactFields;

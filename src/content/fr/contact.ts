@@ -8,10 +8,10 @@ export const contact: ContactContent = {
   },
   eyebrow: "Contact",
   title: "Échangeons sur votre projet.",
-  lead: "Deux façons d'entrer en relation : quelques lignes pour demander un premier échange, ou la fiche d'opération détaillée si vous souhaitez présenter votre dossier dès maintenant. Dans les deux cas, Lucas Araste reprend contact avec vous.",
+  lead: "Deux façons d'entrer en relation : quelques lignes pour demander un premier échange, ou la fiche d'opération détaillée si vous souhaitez présenter votre dossier dès maintenant.",
   brief: {
     eyebrow: "Premier échange",
-    title: "Quelques lignes suffisent.",
+    title: "Demander un premier échange.",
     lead: "Votre nom, le moyen de vous joindre et le contexte de l'opération. Aucun document n'est demandé à ce stade.",
     fields: {
       name: { label: "Votre nom" },
@@ -23,15 +23,15 @@ export const contact: ContactContent = {
     next: {
       title: "Ce qui se passe ensuite",
       items: [
-        "Lucas Araste prend connaissance de votre message et vous répond par le canal indiqué.",
+        "Nous prenons connaissance de votre message et vous répondons par le canal indiqué.",
         "Un premier échange permet de situer le besoin et de dire, simplement, si nous pouvons être utiles.",
         "Les pièces utiles ne sont demandées qu'ensuite, par un canal convenu avec vous.",
       ],
     },
-    responder: "Lucas Araste, fondateur et président, reprend personnellement contact avec vous.",
+    responder: "Votre interlocuteur est Lucas Araste, fondateur du cabinet.",
     result: {
       sentTitle: "Votre demande a été transmise.",
-      sentBody: "Lucas Araste reprend contact avec vous par le canal indiqué. Aucune pièce n'est à envoyer à ce stade.",
+      sentBody: "Nous reprenons contact avec vous par le canal indiqué. Aucune pièce n'est à envoyer à ce stade.",
       demoTitle: "Mode démonstration : votre demande n'a pas été envoyée.",
       demoBody: "L'envoi des messages n'est pas activé sur ce déploiement. Les informations saisies n'ont été ni transmises ni conservées.",
       newRequest: "Envoyer une autre demande",
@@ -53,7 +53,6 @@ export const contact: ContactContent = {
     confidentiality:
       "Ce formulaire ne demande ni pièce d'identité, ni relevé bancaire, ni document financier. Ces éléments ne seront échangés, le cas échéant, qu'après un premier contact et par un canal convenu.",
     detailsTitle: "Nous joindre directement",
-    detailsPending: "Coordonnées directes à renseigner avant publication.",
   },
   faq: {
     title: "Questions fréquentes",
@@ -77,11 +76,11 @@ export const contact: ContactContent = {
       },
       {
         question: "Comment est rémunéré le cabinet ?",
-        answer: "Les modalités de rémunération sont présentées avant tout engagement et précisées dans les informations légales. Elles sont convenues par écrit avec vous, en amont de la recherche de financement.",
+        answer: "Les modalités de rémunération vous sont présentées avant tout engagement et convenues par écrit avec vous, en amont de la recherche de financement. Aucune démarche n'est engagée avant cet accord.",
       },
       {
         question: "Garantissez-vous l'obtention d'un financement ?",
-        answer: "Non, et personne ne le peut sérieusement. La décision appartient toujours au prêteur. Notre engagement porte sur la qualité de l'analyse, la clarté du dossier et la pertinence des pistes explorées, et sur la franchise de nos retours, y compris lorsqu'ils sont négatifs.",
+        answer: "La décision de financement appartient au prêteur. Notre engagement porte sur la qualité de l'analyse et du suivi : la clarté du dossier, la pertinence des pistes explorées et la franchise de nos retours, y compris lorsqu'ils sont négatifs.",
       },
       {
         question: "Comment sont traitées les informations transmises ?",
@@ -138,7 +137,7 @@ export const contact: ContactContent = {
       },
       description: {
         label: "Bref descriptif",
-        hint: "L'actif ou l'activité, la structure, la sortie envisagée. Quelques lignes suffisent (de 20 à 1 500 caractères).",
+        hint: "L'actif ou l'activité, la structure, la sortie envisagée (de 20 à 1 500 caractères).",
       },
       assetType: {
         label: "Type d'actif",

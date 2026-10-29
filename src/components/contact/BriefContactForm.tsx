@@ -5,15 +5,8 @@ import { useEffect, useId, useRef, useState, type FormEvent } from "react";
 import type { Locale } from "@/lib/i18n";
 import type { ContactContent } from "@/content/types";
 import { pagePath } from "@/config/routes";
-import {
-  briefFieldsSchema,
-  emptyBriefFields,
-  LIMITS,
-  sanitizeBriefFieldErrors,
-  toBriefFieldErrors,
-  type BriefFieldErrors,
-  type BriefFields,
-} from "@/lib/contact/schema";
+import { LIMITS } from "@/lib/contact/limits";
+import { emptyBriefFields, sanitizeBriefFieldErrors, validateBrief, type BriefField, type BriefFieldErrors } from "@/lib/contact/brief-client";
 
 type ErrorCode = keyof ContactContent["form"]["errors"];
 type Status = { kind: "idle" } | { kind: "submitting" } | { kind: "sent" } | { kind: "demo" } | { kind: "error"; code: ErrorCode };
@@ -27,6 +20,8 @@ function newKey(): string {
  * Premier échange : nom, moyen de contact, quelques lignes. Mêmes protections
  * que la fiche d'opération (jeton signé, pot de miel, limitation de débit,
  * idempotence) ; rien n'est écrit dans le navigateur ni dans l'URL.
+ * Présent sur l'accueil et sur la page contact : la validation locale se
+ * passe de bibliothèque, le serveur reste l'autorité.
  */
 export function BriefContactForm({
   locale,
@@ -44,7 +39,7 @@ export function BriefContactForm({
   transport?: "server" | "remote" | "demo";
   endpoint?: string;
 }) {
-  const [values, setValues] = useState<Record<keyof BriefFields, string>>({ ...emptyBriefFields });
+  const [values, setValues] = useState({ ...emptyBriefFields });
   const [errors, setErrors] = useState<BriefFieldErrors>({});
   const [status, setStatus] = useState<Status>({ kind: "idle" });
   const [announcement, setAnnouncement] = useState("");
@@ -68,7 +63,7 @@ export function BriefContactForm({
 
   const focusHeading = () => requestAnimationFrame(() => headingRef.current?.focus());
 
-  const field = (name: keyof BriefFields, hinted = false) => ({
+  const field = (name: BriefField, hinted = false) => ({
     id: `${uid}-${name}`,
     name,
     value: values[name],
@@ -79,7 +74,7 @@ export function BriefContactForm({
     "aria-invalid": errors[name] ? true : undefined,
     "aria-describedby": [errors[name] ? `${uid}-${name}-error` : null, hinted ? `${uid}-${name}-hint` : null].filter(Boolean).join(" ") || undefined,
   });
-  const errorText = (name: keyof BriefFields) =>
+  const errorText = (name: BriefField) =>
     errors[name] ? (
       <p id={`${uid}-${name}-error`} className="field-error">
         {form.errors[errors[name] as ErrorCode]}
@@ -93,12 +88,12 @@ export function BriefContactForm({
 
   const submit = async (event: FormEvent) => {
     event.preventDefault();
-    const parsed = briefFieldsSchema.safeParse(values);
-    if (!parsed.success) {
-      const fieldErrors = toBriefFieldErrors(parsed.error.issues);
+    const parsed = validateBrief(values);
+    if (Object.keys(parsed.errors).length > 0) {
+      const fieldErrors = parsed.errors;
       setErrors(fieldErrors);
       setAnnouncement(form.errorSummary.replace("{count}", String(Object.keys(fieldErrors).length)));
-      const first = (Object.keys(fieldErrors) as (keyof BriefFields)[])[0];
+      const first = (Object.keys(fieldErrors) as BriefField[])[0];
       if (first) document.getElementById(`${uid}-${first}`)?.focus();
       return;
     }

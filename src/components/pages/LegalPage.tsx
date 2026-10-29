@@ -1,7 +1,6 @@
 import type { Locale } from "@/lib/i18n";
 import type { Dictionary, LegalContent } from "@/content/types";
 import { PageIntro } from "@/components/ui/PageIntro";
-import { PendingNote } from "@/components/ui/PendingNote";
 
 export function LegalPage({ locale, dict, content, crumbLabel }: { locale: Locale; dict: Dictionary; content: LegalContent; crumbLabel: string }) {
   return (
@@ -38,7 +37,6 @@ export function LegalPage({ locale, dict, content, crumbLabel }: { locale: Local
                     {p}
                   </p>
                 ))}
-                {section.pending && section.pending.length > 0 ? <PendingNote label={content.pendingLabel} items={section.pending} /> : null}
               </section>
             ))}
             <p className="mt-10 font-sans text-sm text-ink-soft">{content.updated}</p>

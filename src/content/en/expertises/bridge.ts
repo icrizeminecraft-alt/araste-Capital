@@ -8,9 +8,9 @@ export const bridge: ExpertiseContent = {
   },
   title: "Bridge finance",
   shortTitle: "Bridge finance",
-  eyebrow: "Between the need and the resource",
+  eyebrow: "Short-term funding with a defined exit",
   summary:
-    "A transitional resource for an acquisition, a debt maturity or a transaction, pending a sale, a refinancing or another identified exit.",
+    "Short-term financing for an acquisition, a debt maturity or a transaction, pending a sale, a refinancing or another identified exit.",
   lead: "Bridge finance covers the time between an immediate need and an expected resource. Its quality is judged by the strength of the intended exit, the consistency of the security and the precision of the file, far more than by its supposed speed.",
   sections: {
     needs: {

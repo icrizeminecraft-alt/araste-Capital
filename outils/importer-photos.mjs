@@ -20,8 +20,10 @@ const racine = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..
 const liste = path.join(racine, "outils", "photos.txt");
 const dossier = path.join(racine, "public", "images");
 
-const JPEG = { quality: 80, progressive: true, mozjpeg: true };
-const AVIF = { quality: 56, effort: 5 };
+// Qualité contrôlée visuellement sur la pierre et les ferronneries : l'AVIF en
+// sous-échantillonnage 4:2:0 reste net à ces réglages pour un poids bien moindre.
+const JPEG = { quality: 78, progressive: true, mozjpeg: true };
+const AVIF = { quality: 50, effort: 6, chromaSubsampling: "4:2:0" };
 
 function lireListe(texte) {
   return texte

@@ -3,7 +3,7 @@ import type { Dictionary } from "@/content/types";
 import { PageIntro } from "@/components/ui/PageIntro";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
-import { Founder } from "@/components/home/Founder";
+import { Founder } from "@/components/pages/Founder";
 import { ContactCta } from "@/components/home/ContactCta";
 import { ArrowLink } from "@/components/ui/ButtonLink";
 import { pagePath } from "@/config/routes";
@@ -22,11 +22,7 @@ export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary })
         crumbsLabel={dict.common.ui.breadcrumbLabel}
       />
 
-      <section className="container-x section-y-sm" aria-labelledby="firm-founder-title">
-        <Founder locale={locale} founder={t.founder} headingId="firm-founder-title" compact />
-      </section>
-
-      <section className="border-t border-silver" aria-labelledby="firm-about-title">
+      <section aria-labelledby="firm-about-title">
         <div className="container-x section-y-sm grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-8">
           <Reveal className="lg:col-span-4">
             <h2 id="firm-about-title" className="display-sm">
@@ -98,6 +94,13 @@ export function FirmPage({ locale, dict }: { locale: Locale; dict: Dictionary })
               ))}
             </ul>
           </Reveal>
+        </div>
+      </section>
+
+      {/* Le module fondateur, une seule fois, après le métier, les emprunteurs, les principes et le périmètre. */}
+      <section className="border-t border-silver bg-porcelain-deep/60" aria-labelledby="firm-founder-title">
+        <div className="container-x section-y-sm">
+          <Founder locale={locale} founder={t.founder} headingId="firm-founder-title" />
         </div>
       </section>
 

@@ -8,7 +8,7 @@ export const bridge: ExpertiseContent = {
   },
   title: "Financement relais",
   shortTitle: "Financement relais",
-  eyebrow: "Le temps d'une sortie identifiée",
+  eyebrow: "Financer une transition avant une vente ou un refinancement",
   summary:
     "Une ressource de transition pour une acquisition, une échéance ou une opération, dans l'attente d'une vente, d'un refinancement ou d'une autre sortie identifiée.",
   lead: "Un financement relais couvre le temps qui sépare un besoin immédiat d'une ressource attendue. Sa qualité se juge à la solidité de la sortie envisagée, à la cohérence des garanties et à la précision du dossier, bien plus qu'à sa rapidité supposée.",

@@ -9,7 +9,7 @@
 altea | i9PYRSr2uBc | https://images.unsplash.com/photo-1765212714774-9cec2e42e383 | 800,1200,1600,2040 | 4:3 | 0.5 | 0.45
 altea-portrait | i9PYRSr2uBc | https://images.unsplash.com/photo-1765212714774-9cec2e42e383 | 960,1400,2040 | 4:5 | 0.5 | 0.5
 cassis | A7SIkewdTIw | https://images.unsplash.com/photo-1604497853140-526ff6807f02 | 800,1200,1600 | 3:2 | 0.5 | 0.45
-cassis-large | A7SIkewdTIw | https://images.unsplash.com/photo-1604497853140-526ff6807f02 | 1600,2400,3200 | 21:9 | 0.5 | 0.42
+cassis-large | A7SIkewdTIw | https://images.unsplash.com/photo-1604497853140-526ff6807f02 | 1600,2400 | 21:9 | 0.5 | 0.42
 pierre-ombre | VuBzLZqAEpg | https://images.unsplash.com/photo-1789660017459-393812b0cc26 | 800,1200,1600 | 4:5 | 0.5 | 0.5
 #
 # Vignettes des expertises (page des expertises).

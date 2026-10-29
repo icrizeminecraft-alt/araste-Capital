@@ -76,14 +76,16 @@ export const siteConfig = {
   },
 
   /**
-   * Marchés d'intervention affichés (accueil, pied de page, contact) : des
-   * marchés, pas des bureaux. Une adresse ne s'affiche que si elle est
+   * Marchés d'intervention affichés (accueil, pied de page, contact, mentions
+   * légales) : des marchés, pas des bureaux. La France, pays d'immatriculation
+   * du cabinet, ouvre la liste. Une adresse ne s'affiche que si elle est
    * renseignée (un bureau réel ou un représentant).
    */
   locations: [
-    { key: "andorra", name: { fr: "Andorre", en: "Andorra" }, timeZone: "Europe/Andorra", addressLines: [] as string[] },
-    { key: "london", name: { fr: "Londres", en: "London" }, timeZone: "Europe/London", addressLines: [] as string[] },
+    { key: "france", name: { fr: "France", en: "France" }, timeZone: "Europe/Paris", addressLines: [] as string[] },
     { key: "monaco", name: { fr: "Monaco", en: "Monaco" }, timeZone: "Europe/Monaco", addressLines: [] as string[] },
+    { key: "london", name: { fr: "Londres", en: "London" }, timeZone: "Europe/London", addressLines: [] as string[] },
+    { key: "andorra", name: { fr: "Andorre", en: "Andorra" }, timeZone: "Europe/Andorra", addressLines: [] as string[] },
     { key: "uae", name: { fr: "Émirats arabes unis", en: "United Arab Emirates" }, timeZone: "Asia/Dubai", addressLines: [] as string[] },
   ],
 

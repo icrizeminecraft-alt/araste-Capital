@@ -16,13 +16,12 @@ export const firm: FirmContent = {
   ],
   founder: {
     eyebrow: "Votre interlocuteur",
-    title: "Un responsable nommé, qui suit chaque opération.",
-    cta: "Échanger avec Lucas Araste",
+    title: "Une relation directe, un suivi continu.",
+    cta: "Échanger sur votre projet",
     name: "Lucas Araste",
-    role: "Fondateur et président d'ARASTE CAPITAL",
+    role: "Fondateur et président",
     paragraphs: [
-      "Lucas Araste suit personnellement chaque opération confiée au cabinet, du premier échange jusqu'au terme des discussions. Il est l'interlocuteur unique de l'emprunteur et de ses conseils : avocat, notaire, expert-comptable, banquier ou family office.",
-      "Son approche tient en une règle : comprendre l'opération avant de chercher à la financer. Les actifs, la structure de détention, le calendrier et la sortie sont examinés avant qu'un seul prêteur ne soit sollicité.",
+      "Lucas Araste dirige ARASTE CAPITAL et assure le suivi des opérations confiées au cabinet, en coordination avec les conseils de l'emprunteur. Son rôle : définir les options de financement, organiser la consultation des prêteurs et accompagner l'analyse des propositions jusqu'à la mise en place du financement.",
     ],
     portraitAlt: "Portrait de Lucas Araste, fondateur d'ARASTE CAPITAL.",
   },
@@ -74,7 +73,7 @@ export const firm: FirmContent = {
   scope: {
     eyebrow: "Périmètre",
     title: "Ce que nous faisons, et ce que nous ne faisons pas.",
-    body: "Notre activité est celle d'un conseil et d'un intermédiaire en financements professionnels. Le périmètre exact des prestations et le statut réglementaire applicable seront précisés dans les mentions légales.",
+    body: "Notre activité est celle d'un conseil et d'un intermédiaire en financements professionnels, du côté de l'emprunteur. Le conseil juridique, fiscal et comptable reste celui de vos conseils habituels.",
     items: [
       "Analyse d'un besoin de financement professionnel et de sa faisabilité.",
       "Préparation et structuration de la présentation du dossier.",

@@ -16,13 +16,12 @@ export const firm: FirmContent = {
   ],
   founder: {
     eyebrow: "Your contact",
-    title: "A named principal who follows every transaction.",
-    cta: "Talk to Lucas Araste",
+    title: "A direct relationship, continuous follow-up.",
+    cta: "Discuss your project",
     name: "Lucas Araste",
-    role: "Founder and President of ARASTE CAPITAL",
+    role: "Founder and President",
     paragraphs: [
-      "Lucas Araste personally follows every transaction entrusted to the firm, from the first conversation to the close of discussions. He is the single point of contact for the borrower and its advisers: lawyer, notary, accountant, banker or family office.",
-      "His approach comes down to one rule: understand the transaction before seeking to finance it. The assets, the holding structure, the timetable and the exit are examined before a single lender is approached.",
+      "Lucas Araste leads ARASTE CAPITAL and personally follows the transactions entrusted to the firm, in coordination with the borrower's advisers. His role: defining the financing options, organising the approach to the relevant lenders and supporting the analysis of their proposals through to completion.",
     ],
     portraitAlt: "Portrait of Lucas Araste, founder of ARASTE CAPITAL.",
   },
@@ -74,7 +73,7 @@ export const firm: FirmContent = {
   scope: {
     eyebrow: "Scope",
     title: "What we do, and what we do not do.",
-    body: "Our activity is that of an adviser and intermediary in professional financing. The precise scope of services and the applicable regulatory status will be set out in the legal notice.",
+    body: "Our activity is that of an adviser and intermediary in professional financing, on the borrower's side. Legal, tax and accounting advice remains that of your usual advisers.",
     items: [
       "Analysis of a professional financing need and of its feasibility.",
       "Preparation and structuring of the presentation file.",

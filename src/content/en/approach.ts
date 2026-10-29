@@ -4,10 +4,10 @@ export const approach: ApproachContent = {
   meta: {
     title: "Our approach",
     description:
-      "Understand the transaction, prepare its presentation, source and compare routes, support the discussions through to their outcome: ARASTE CAPITAL's method in four stages.",
+      "Understand the transaction, prepare the file, approach and compare lenders, support through to completion: ARASTE CAPITAL's method in four stages.",
   },
   eyebrow: "Our approach",
-  title: "A method in four stages, from the first conversation to the outcome of discussions.",
+  title: "From the analysis of the need to the comparison of proposals.",
   lead: "The quality of any financing rests first on the quality of its preparation. Our path is the same for every transaction; its content depends entirely on yours.",
   steps: [
     {
@@ -21,7 +21,7 @@ export const approach: ApproachContent = {
       ],
     },
     {
-      title: "Prepare its presentation",
+      title: "Prepare the file",
       body: "A lender decides on concrete facts. We build a clear, quantified and documented file that anticipates questions and avoids needless back-and-forth.",
       details: [
         "Summary of the transaction and of its economic rationale.",
@@ -31,7 +31,7 @@ export const approach: ApproachContent = {
       ],
     },
     {
-      title: "Source and compare routes",
+      title: "Approach and compare",
       body: "We identify the lenders relevant to the transaction, present the file and compare the terms offered against your priorities, with no preconception as to the type of lender.",
       details: [
         "Selection of routes consistent with the transaction and its timetable.",
@@ -41,7 +41,7 @@ export const approach: ApproachContent = {
       ],
     },
     {
-      title: "Support through to the outcome",
+      title: "Support through to completion",
       body: "Once a route is chosen, we follow the discussions through to their conclusion, in coordination with your legal, tax and accounting advisers.",
       details: [
         "Monitoring of conditions precedent and further requests.",

@@ -4,10 +4,10 @@ export const approach: ApproachContent = {
   meta: {
     title: "Notre approche",
     description:
-      "Comprendre l'opération, préparer sa présentation, rechercher et comparer les pistes, accompagner les échanges jusqu'à leur issue : la méthode d'ARASTE CAPITAL en quatre temps.",
+      "Comprendre l'opération, préparer le dossier, consulter et comparer les prêteurs, accompagner jusqu'à l'issue : la méthode d'ARASTE CAPITAL en quatre temps.",
   },
   eyebrow: "Notre approche",
-  title: "Une méthode en quatre temps, du premier échange à l'issue des discussions.",
+  title: "De l'analyse du besoin à la comparaison des propositions.",
   lead: "La qualité d'un financement tient d'abord à la qualité de sa préparation. Notre parcours est le même pour chaque opération ; son contenu dépend entièrement de la vôtre.",
   steps: [
     {
@@ -21,7 +21,7 @@ export const approach: ApproachContent = {
       ],
     },
     {
-      title: "Préparer sa présentation",
+      title: "Préparer le dossier",
       body: "Un prêteur décide sur des éléments concrets. Nous construisons un dossier lisible, chiffré et documenté, qui anticipe les questions et évite les allers-retours inutiles.",
       details: [
         "Synthèse de l'opération et de sa logique économique.",
@@ -31,7 +31,7 @@ export const approach: ApproachContent = {
       ],
     },
     {
-      title: "Rechercher et comparer les pistes",
+      title: "Consulter et comparer",
       body: "Nous identifions les interlocuteurs pertinents pour l'opération, présentons le dossier et comparons les conditions proposées au regard de vos priorités, sans a priori sur la nature du prêteur.",
       details: [
         "Sélection des pistes cohérentes avec l'opération et son calendrier.",

@@ -1,7 +1,7 @@
 import type { Locale } from "@/lib/i18n";
 import type { Dictionary } from "@/content/types";
 import { PageIntro } from "@/components/ui/PageIntro";
-import { ContactForm } from "@/components/contact/ContactForm";
+import { SheetFormLoader } from "@/components/contact/SheetFormLoader";
 import { BriefContactForm } from "@/components/contact/BriefContactForm";
 import { createFormToken } from "@/lib/contact/token";
 import { enabledExpertises, siteConfig, hasContactDetails } from "@/config/site";
@@ -92,28 +92,28 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
             </ol>
             <p className="mt-8 border-l border-gold pl-4 font-sans text-sm leading-relaxed text-ink-soft">{t.brief.responder}</p>
 
-            <h3 className="eyebrow mb-4 mt-12">{t.aside.detailsTitle}</h3>
             {hasContactDetails() ? (
-              <address className="not-italic font-sans text-[0.9375rem] text-ink">
-                {c.addressLines.map((line) => (
-                  <span key={line} className="block">
-                    {line}
-                  </span>
-                ))}
-                {c.email ? (
-                  <a href={`mailto:${c.email}`} className="link-line mt-3 block text-navy">
-                    {c.email}
-                  </a>
-                ) : null}
-                {c.phone ? (
-                  <a href={`tel:${c.phone.replace(/\s+/g, "")}`} className="link-line mt-1 block text-navy">
-                    {c.phone}
-                  </a>
-                ) : null}
-              </address>
-            ) : (
-              <p className="font-sans text-sm text-ink-soft">{t.aside.detailsPending}</p>
-            )}
+              <>
+                <h3 className="eyebrow mb-4 mt-12">{t.aside.detailsTitle}</h3>
+                <address className="not-italic font-sans text-[0.9375rem] text-ink">
+                  {c.addressLines.map((line) => (
+                    <span key={line} className="block">
+                      {line}
+                    </span>
+                  ))}
+                  {c.email ? (
+                    <a href={`mailto:${c.email}`} className="link-line mt-3 block text-navy">
+                      {c.email}
+                    </a>
+                  ) : null}
+                  {c.phone ? (
+                    <a href={`tel:${c.phone.replace(/\s+/g, "")}`} className="link-line mt-1 block text-navy">
+                      {c.phone}
+                    </a>
+                  ) : null}
+                </address>
+              </>
+            ) : null}
 
             <h3 className="eyebrow mb-4 mt-12">{dict.common.ui.markets}</h3>
             <p className="font-serif text-lg leading-snug text-navy">{siteConfig.locations.map((l) => l.name[locale]).join(" · ")}</p>
@@ -168,7 +168,10 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
                 {t.form.result.demoBanner}
               </p>
             ) : null}
-            <ContactForm locale={locale} t={t.form} token={token} financingOptions={financingOptions} transport={transport} endpoint={endpoint} />
+            <noscript>
+              <p className="mb-8 border-l-2 border-gold bg-porcelain-deep/60 px-4 py-3 font-sans text-sm text-ink">{t.form.noscript}</p>
+            </noscript>
+            <SheetFormLoader locale={locale} t={t.form} token={token} financingOptions={financingOptions} transport={transport} endpoint={endpoint} loading={dict.common.loading} />
           </div>
         </div>
       </section>

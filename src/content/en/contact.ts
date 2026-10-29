@@ -8,10 +8,10 @@ export const contact: ContactContent = {
   },
   eyebrow: "Contact",
   title: "Let's discuss your project.",
-  lead: "Two ways to get in touch: a few lines to request a first conversation, or the detailed transaction sheet if you wish to present your case right away. Either way, Lucas Araste gets back to you.",
+  lead: "Two ways to get in touch: a few lines to request a first conversation, or the detailed transaction sheet if you wish to present your case right away.",
   brief: {
     eyebrow: "First conversation",
-    title: "A few lines are enough.",
+    title: "Request a first conversation.",
     lead: "Your name, how to reach you and the context of the transaction. No documents are requested at this stage.",
     fields: {
       name: { label: "Your name" },
@@ -23,15 +23,15 @@ export const contact: ContactContent = {
     next: {
       title: "What happens next",
       items: [
-        "Lucas Araste reads your message and replies through the channel you indicated.",
+        "We read your message and reply through the channel you indicated.",
         "A first conversation allows us to understand where the need sits and to say, simply, whether we can be useful.",
         "Useful documents are requested only afterwards, through a channel agreed with you.",
       ],
     },
-    responder: "Lucas Araste, founder and President, personally gets back to you.",
+    responder: "Your contact is Lucas Araste, founder of the firm.",
     result: {
       sentTitle: "Your request has been sent.",
-      sentBody: "Lucas Araste gets back to you through the channel you indicated. No documents need to be sent at this stage.",
+      sentBody: "We get back to you through the channel you indicated. No documents need to be sent at this stage.",
       demoTitle: "Demonstration mode: your request was not sent.",
       demoBody: "Message sending is not enabled on this deployment. The information entered was neither transmitted nor stored.",
       newRequest: "Send another request",
@@ -53,7 +53,6 @@ export const contact: ContactContent = {
     confidentiality:
       "This form asks for no identity document, bank statement or financial document. Such elements will only be exchanged, where relevant, after a first contact and through an agreed channel.",
     detailsTitle: "Reach us directly",
-    detailsPending: "Direct contact details to be confirmed before publication.",
   },
   faq: {
     title: "Frequently asked questions",
@@ -77,11 +76,11 @@ export const contact: ContactContent = {
       },
       {
         question: "How is the firm remunerated?",
-        answer: "Remuneration arrangements are presented before any commitment and set out in the legal notice. They are agreed with you in writing, ahead of the search for financing.",
+        answer: "Remuneration arrangements are presented to you before any commitment and agreed with you in writing, ahead of the search for financing. No step is taken before that agreement.",
       },
       {
         question: "Do you guarantee that financing will be obtained?",
-        answer: "No, and nobody seriously can. The decision always rests with the lender. Our commitment concerns the quality of the analysis, the clarity of the file, the relevance of the routes explored and the candour of our feedback, including when it is negative.",
+        answer: "The financing decision rests with the lender. Our commitment concerns the quality of the analysis and of the follow-up: the clarity of the file, the relevance of the routes explored and the candour of our feedback, including when it is negative.",
       },
       {
         question: "How is the information you provide handled?",
@@ -138,7 +137,7 @@ export const contact: ContactContent = {
       },
       description: {
         label: "Brief description",
-        hint: "The asset or the business, the structure, the intended exit. A few lines are enough (20 to 1,500 characters).",
+        hint: "The asset or the business, the structure, the intended exit (20 to 1,500 characters).",
       },
       assetType: {
         label: "Type of asset",

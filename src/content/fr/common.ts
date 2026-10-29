@@ -35,10 +35,8 @@ export const common: CommonContent = {
     languagesTitle: "Langue",
     legal: "Mentions légales",
     privacy: "Confidentialité",
-    contactPending: "Coordonnées directes à renseigner avant publication.",
+    contactLink: "Nous écrire",
     rights: "Tous droits réservés.",
-    previewNotice:
-      "Version de préproduction. Identité juridique, coordonnées et mentions réglementaires à confirmer avant publication.",
     tagline: "Conseil indépendant en financement immobilier et opérations complexes",
   },
   ui: {
@@ -54,7 +52,6 @@ export const common: CommonContent = {
     faq: "Questions fréquentes",
     readingTime: "{minutes} min de lecture",
     mobileCta: "Échanger sur votre projet",
-    addressPending: "Adresse à renseigner avant publication.",
   },
   notFound: {
     title: "Cette page n'existe pas.",

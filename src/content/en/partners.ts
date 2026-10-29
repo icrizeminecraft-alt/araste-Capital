@@ -10,7 +10,7 @@ export const partners: PartnersContent = {
   title: "A clear collaboration with the professionals who bring us transactions.",
   lead: "A significant share of the transactions we review is presented to us by independent professionals: introducers, brokers, lawyers, accountants, wealth managers, family offices. This area is for them.",
   paragraphs: [
-    "You know your client, the transaction and its constraints. We bring a lender's reading, the structuring of the file and the search for financing routes. The collaboration works when everyone stays in their role and the rules are written down before the first conversation with a lender.",
+    "You know your client, the transaction and its constraints. We bring a lender's reading, the structuring of the file and the search for financing routes. The collaboration rests on defined roles and coordinated discussions, set out in writing before the first conversation with a lender.",
     "You can present a transaction on behalf of a client from the transaction sheet, indicating your role. We come back to you, not to your client, unless you ask us otherwise. The terms of collaboration and remuneration are agreed in writing, case by case, before any step is taken.",
   ],
   profiles: {
@@ -74,7 +74,7 @@ export const partners: PartnersContent = {
       answer: "The terms are agreed in writing before any step is taken, case by case, in compliance with the rules applicable to your profession and to ours. We make no oral commitments and ask nothing of your client without your agreement.",
     },
     {
-      question: "Can I present a transaction located outside your offices?",
+      question: "Can I present a transaction located outside the markets you serve?",
       answer: "Yes. We review transactions in the light of the asset, the structure and the relevant lenders, not of a map. We will tell you plainly if the country or the type of asset falls outside what we know how to do.",
     },
     {

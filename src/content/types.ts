@@ -40,9 +40,9 @@ export type CommonContent = {
     languagesTitle: string;
     legal: string;
     privacy: string;
-    contactPending: string;
+    /** Sans coordonnées directes renseignées : lien vers la page contact. */
+    contactLink: string;
     rights: string;
-    previewNotice: string;
     tagline: string;
   };
   ui: {
@@ -59,7 +59,6 @@ export type CommonContent = {
     faq: string;
     readingTime: string; // "{minutes} min de lecture"
     mobileCta: string;
-    addressPending: string;
   };
   notFound: { title: string; body: string; cta: string };
   error: { eyebrow: string; title: string; body: string; retry: string; home: string };
@@ -68,6 +67,7 @@ export type CommonContent = {
 
 export type HomeContent = {
   meta: Meta;
+  /** Ouverture : le métier, la cible, l'action principale. */
   hero: {
     eyebrow: string;
     title: string;
@@ -75,25 +75,22 @@ export type HomeContent = {
     cta: string;
     secondary: string;
   };
-  expertises: {
+  /** Les besoins : acquérir, refinancer, dégager des liquidités ; chaque entrée ouvre une réponse. */
+  needs: {
     eyebrow: string;
     title: string;
-    body: string;
+    items: { title: string; body: string; expertises: ExpertiseKey[] }[];
     all: string;
   };
-  bridge: {
+  /** La valeur du conseil : les paramètres d'une proposition, au-delà du taux. */
+  value: {
     eyebrow: string;
     title: string;
     body: string;
-    points: { title: string; body: string }[];
+    parameters: string[];
     cta: string;
   };
-  /** Bloc fondateur de l'accueil ; le nom, la fonction et les paragraphes viennent de `firm.founder`. */
-  founder: {
-    eyebrow: string;
-    title: string;
-    cta: string;
-  };
+  /** La méthode en quatre temps ; mêmes libellés que la page Notre approche. */
   approach: {
     eyebrow: string;
     title: string;
@@ -101,11 +98,13 @@ export type HomeContent = {
     steps: { title: string; body: string }[];
     cta: string;
   };
-  situations: {
+  /** Les conseils du client et la coordination des échanges. */
+  advisers: {
     eyebrow: string;
     title: string;
-    note: string;
-    cases: { title: string; body: string; expertise: ExpertiseKey }[];
+    body: string;
+    cta: string;
+    secondary: string;
   };
   guides: {
     eyebrow: string;
@@ -114,24 +113,14 @@ export type HomeContent = {
     all: string;
     featured: GuideKey[];
   };
-  /** Marchés d'intervention (et non des bureaux). */
-  markets: {
-    eyebrow: string;
-    title: string;
-    body: string;
-  };
-  partners: {
-    eyebrow: string;
-    title: string;
-    body: string;
-    cta: string;
-  };
+  /** La prise de contact : premier échange bref, accès secondaire à la fiche. */
   contact: {
     eyebrow: string;
     title: string;
     body: string;
     cta: string;
     secondary: string;
+    sheetLead: string;
   };
 };
 
@@ -150,6 +139,7 @@ export type FirmContent = {
   title: string;
   lead: string;
   paragraphs: string[];
+  /** Module fondateur, présent une seule fois, sur la page du cabinet. */
   founder: { eyebrow: string; title: string; cta: string } & FounderContent;
   clients: { eyebrow: string; title: string; body: string; groups: { title: string; body: string }[] };
   principles: { eyebrow: string; title: string; items: { title: string; body: string }[] };
@@ -265,7 +255,6 @@ export type ContactContent = {
     items: string[];
     confidentiality: string;
     detailsTitle: string;
-    detailsPending: string;
   };
   faq: { title: string; lead: string; items: FaqItem[] };
   form: {
@@ -346,16 +335,17 @@ export type ContactContent = {
 export type LegalSection = {
   title: string;
   paragraphs: string[];
-  /** Champs à compléter avant publication, affichés comme tels. */
-  pending?: string[];
 };
 
+/**
+ * Pages d'information (mentions légales, confidentialité). Les éléments encore
+ * à renseigner ne sont pas publiés : ils figurent dans docs/AVANT-PUBLICATION.md.
+ */
 export type LegalContent = {
   meta: Meta;
   eyebrow: string;
   title: string;
   lead: string;
-  pendingLabel: string;
   sections: LegalSection[];
   updated: string;
 };

@@ -2,7 +2,10 @@
 
 ## Principes rédactionnels
 
-- Ton précis, calme, assuré, accessible. Phrases courtes ou moyennes, peu de superlatifs.
+- Ton précis, calme, assuré, accessible. Phrases courtes ou moyennes, peu de superlatifs. Chaque phrase ajoute une information ; chaque section de l'accueil répond à une question nouvelle (l'analyse détaillée reste dans les pages spécialisées).
+- Le fondateur est présenté une seule fois, sur la page du cabinet : nom, fonction exacte, 40 à 60 mots factuels et le moyen d'entrer en relation. Son nom n'est pas répété dans les textes de contact.
+- Les étapes de la méthode portent les mêmes libellés sur l'accueil et sur la page Notre approche (vérifié par les tests).
+- Aucun renseignement « à compléter » n'est publié : ce qui manque est listé dans `docs/AVANT-PUBLICATION.md`.
 - Le cabinet est un conseil et un intermédiaire côté emprunteur : il ne prête pas, ne gère pas d'actifs, ne commercialise pas de fonds, n'assure pas de maîtrise d'ouvrage, ne donne pas de conseil juridique ou fiscal.
 - Interdits : « leader », « garanti », « exclusif », « toutes les banques », « en 48 heures », taux, durées, délais, montants, pourcentages, opérations réalisées, clients, partenaires, agréments, témoignages, portraits ou biographies inventés.
 - Les situations décrites sont des illustrations pédagogiques et doivent rester présentées comme telles.
@@ -13,14 +16,14 @@
 | Élément | Fichier |
 | --- | --- |
 | Interface, navigation, pied de page, 404 | `src/content/{fr,en}/common.ts` |
-| Accueil (toutes sections) | `src/content/{fr,en}/home.ts` |
+| Accueil (ouverture, besoins, valeur du conseil, méthode, conseils, guides, contact) | `src/content/{fr,en}/home.ts` |
 | Le cabinet | `src/content/{fr,en}/firm.ts` |
 | Index des expertises | `src/content/{fr,en}/expertises-index.ts` |
 | Une expertise | `src/content/{fr,en}/expertises/<clé>.ts` |
 | Notre approche | `src/content/{fr,en}/approach.ts` |
 | Contact et fiche d'opération (étapes, libellés, options, erreurs, résultats) | `src/content/{fr,en}/contact.ts` ; listes de valeurs dans `src/lib/contact/schema.ts` |
 | Partenaires indépendants (profils, méthode, engagements, FAQ) | `src/content/{fr,en}/partners.ts` |
-| Implantations et heures locales | `siteConfig.locations` dans `src/config/site.ts` |
+| Marchés d'intervention (ligne sous l'ouverture, pied de page, contact) | `siteConfig.locations` dans `src/config/site.ts` ; phrase correspondante dans `legal.ts` |
 | Mentions légales, confidentialité | `src/content/{fr,en}/legal.ts`, `privacy.ts` |
 | Un repère (guide) | `src/content/{fr,en}/guides/<clé>.ts` |
 | Index des repères | `src/content/{fr,en}/guides-index.ts` |
