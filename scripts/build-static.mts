@@ -124,6 +124,7 @@ AddDefaultCharset UTF-8
 AddType application/manifest+json .webmanifest
 AddType font/woff2 .woff2
 AddType image/svg+xml .svg
+AddType image/avif .avif
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
@@ -152,6 +153,9 @@ ${headerLines}
   </FilesMatch>
   <FilesMatch "\\.(css|js|woff2)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\\.(jpg|avif)$">
+    Header set Cache-Control "public, max-age=2592000"
   </FilesMatch>
   <FilesMatch "\\.(svg|png|ico|webmanifest|xml|txt)$">
     Header set Cache-Control "public, max-age=86400"

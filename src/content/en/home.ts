@@ -37,8 +37,8 @@ export const home: HomeContent = {
   },
   value: {
     eyebrow: "The value of advice",
-    title: "A financing proposal is judged beyond the rate.",
-    body: "Amount available, overall cost, security, repayment schedule and repayment terms: we organise the analysis of these parameters so that you can compare the options proposed.",
+    title: "Beyond the rate.",
+    body: "A financing proposal is judged on five parameters: amount available, overall cost, security, repayment schedule and repayment terms. We organise the analysis of these parameters so that you can compare the options proposed.",
     parameters: ["Amount available", "Overall cost", "Security required", "Repayment schedule", "Repayment terms"],
     cta: "Our approach",
   },

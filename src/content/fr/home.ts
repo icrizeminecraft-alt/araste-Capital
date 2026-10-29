@@ -37,8 +37,8 @@ export const home: HomeContent = {
   },
   value: {
     eyebrow: "La valeur du conseil",
-    title: "Une proposition de financement s'apprécie au-delà du taux.",
-    body: "Montant disponible, coût global, garanties, échéancier et conditions de remboursement : nous organisons l'analyse de ces paramètres afin de vous permettre de comparer les options proposées.",
+    title: "Au-delà du taux.",
+    body: "Une proposition de financement s'apprécie sur cinq paramètres : montant disponible, coût global, garanties, échéancier et conditions de remboursement. Nous organisons l'analyse de ces paramètres afin de vous permettre de comparer les options proposées.",
     parameters: ["Montant disponible", "Coût global", "Garanties demandées", "Échéancier", "Conditions de remboursement"],
     cta: "Notre approche",
   },
