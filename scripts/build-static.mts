@@ -36,7 +36,9 @@ function step(title: string) {
 
 step("Construction Next.js (output: export)");
 rmSync(out, { recursive: true, force: true });
-const build = spawnSync(process.platform === "win32" ? "npx.cmd" : "npx", ["next", "build"], { stdio: "inherit", env });
+// Webpack plutôt que Turbopack : sur l'hébergement web Hostinger, le processus
+// annexe que Turbopack lance pour PostCSS est tué et la construction échoue.
+const build = spawnSync(process.platform === "win32" ? "npx.cmd" : "npx", ["next", "build", "--webpack"], { stdio: "inherit", env });
 if (build.status !== 0) {
   console.error("La construction a échoué.");
   process.exit(build.status ?? 1);
