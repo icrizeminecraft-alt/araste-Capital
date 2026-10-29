@@ -9,25 +9,25 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 
 /**
- * Ouverture : photographie en pleine page, voilée d'un dégradé bleu nuit, et
- * texte posé à gauche, à hauteur du regard. C'est le seul moment spectaculaire
- * du site ; tout ce qui suit reste sobre, sur fond blanc.
+ * Ouverture : à gauche, le métier et la cible sur bleu nuit, dans une zone
+ * calme ; à droite, la photographie en pleine hauteur jusqu'au bord de
+ * l'écran. Sur petit écran, le texte précède l'image. C'est le seul moment
+ * spectaculaire du site ; tout ce qui suit reste sobre, sur fond blanc.
  */
 export function Hero({ locale, t }: { locale: Locale; t: HomeContent["hero"] }) {
   const ticket = siteConfig.ticketSize;
-  const slot = visuals.hero;
   return (
     <section className="on-dark relative isolate overflow-hidden bg-navy text-porcelain" aria-labelledby="hero-title">
-      <div className="absolute inset-0 -z-10" aria-hidden="true">
-        <Visual slot={slot} locale={locale} priority decorative sizes="100vw" />
-        <div className="absolute inset-0 bg-linear-to-r from-navy/85 via-navy/45 to-navy/10" />
-        <div className="absolute inset-x-0 bottom-0 h-1/3 bg-linear-to-t from-navy/70 to-transparent" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-1/2 lg:block" aria-hidden="true">
+        <Visual slot={visuals.hero} locale={locale} priority decorative sizes="50vw" />
+        <div className="absolute inset-y-0 left-0 w-40 bg-linear-to-r from-navy to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-32 bg-linear-to-t from-navy/60 to-transparent" />
       </div>
 
-      <div className="container-x flex min-h-[calc(100svh-var(--header-h))] max-h-[56rem] flex-col justify-center py-24 md:py-28">
-        <div className="max-w-3xl">
+      <div className="container-x grid grid-cols-1 lg:min-h-[calc(100svh-var(--header-h))] lg:max-h-[56rem] lg:grid-cols-12">
+        <div className="flex flex-col justify-center py-20 md:py-24 lg:col-span-6 lg:pr-12 lg:py-28">
           <Eyebrow dark className="mb-6">{t.eyebrow}</Eyebrow>
-          <h1 id="hero-title" className="display-xl text-porcelain">
+          <h1 id="hero-title" className="display-lg text-porcelain">
             {t.title}
           </h1>
           <div aria-hidden="true" className="mt-8 h-px w-16 bg-gold" />
@@ -42,6 +42,10 @@ export function Hero({ locale, t }: { locale: Locale; t: HomeContent["hero"] }) 
             </Link>
           </div>
         </div>
+      </div>
+
+      <div className="relative aspect-[4/5] w-full sm:aspect-[3/2] lg:hidden" aria-hidden="true">
+        <Visual slot={visuals.hero} locale={locale} priority decorative sizes="100vw" className="absolute inset-0" />
       </div>
     </section>
   );

@@ -17,7 +17,7 @@ plume-or | 8ylzXjzqkJQ | https://images.unsplash.com/photo-1620080207549-60efab2
 accord | NzIV4vOBA7s | https://images.unsplash.com/photo-1638262052640-82e94d64664a | 800,1600,2400
 stylo-dossier | OJbjBsNIwjk | https://images.unsplash.com/photo-1732408433038-73d2f6741fc5 | 800,1200,1800
 residences-mer-portrait | WuyR34c3qJA | https://images.unsplash.com/photo-1791719422920-e4a9c0881cec | 960,1400 | 3:4 | 0.62 | 0.5
-paris-balcons | NmrbDuAVoDk | https://images.unsplash.com/photo-1762117863541-35fc6df17102 | 800,1200,1800
+paris-balcons | NmrbDuAVoDk | https://images.unsplash.com/photo-1762117863541-35fc6df17102 | 800,1200,1800 | 3:4 | 0.5 | 0.3
 paris-lumiere | U8Ygo0wNNZI | https://images.unsplash.com/photo-1657129208507-7005dfc5b36a | 800,1200,1800
 paris-angle | qgfwU8JarIg | https://images.unsplash.com/photo-1772119065264-490a6ff55e63 | 960,1600,2400
 riviera-immeuble | LDaMQABui7o | https://images.unsplash.com/photo-1772544553393-9754cadd4089 | 800,1200,1800
