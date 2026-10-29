@@ -28,3 +28,4 @@ npm-debug.log*
 # relais PHP (hébergement statique) : configuration et données locales
 deploy/hostinger/api/config.php
 deploy/hostinger/api/_data/
+outils/.deps/

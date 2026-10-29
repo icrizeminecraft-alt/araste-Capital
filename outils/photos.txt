@@ -1,27 +1,34 @@
 # Photographies retenues (Unsplash, licence Unsplash : usage commercial libre, sans attribution obligatoire).
-# Le workflow .github/workflows/import-photos.yml télécharge chaque image aux largeurs indiquées
-# dans public/images/<nom>-<largeur>.jpg (JPEG progressif, qualité 82). Les crédits sont dans src/config/images.ts.
-# Format : nom | identifiant Unsplash | URL de base | largeurs (px) | [ratio l:h | point focal x | point focal y] (recadrage facultatif)
-monaco-crepuscule | _0hTRmpkT5s | https://images.unsplash.com/photo-1778328989282-c758e25c6037 | 960,1600,2400
-monaco-crepuscule-paysage | _0hTRmpkT5s | https://images.unsplash.com/photo-1778328989282-c758e25c6037 | 1600,2400 | 16:9 | 0.5 | 0.58
-corniche | uL8uhUj2gMg | https://images.unsplash.com/photo-1777138388903-685004a7ea93 | 800,1600,2400
-residences-mer | WuyR34c3qJA | https://images.unsplash.com/photo-1791719422920-e4a9c0881cec | 800,1600,2400
-andorre | txDX4b4n8AY | https://images.unsplash.com/photo-1611917436955-d21c1999520c | 640,1200
-londres | zjBxPUHE_ok | https://images.unsplash.com/photo-1692820338246-11cb8571f696 | 640,1200
-emirats | yFKBh1sC1ng | https://images.unsplash.com/photo-1739900292622-a7f860175aad | 640,1200
-villa-crepuscule | 4vioYQ9Nn9Y | https://images.unsplash.com/photo-1748063578185-3d68121b11ff | 800,1600,2400
-tour-doree | OLhtAXMgaaQ | https://images.unsplash.com/photo-1776417659908-c7c97e210e9f | 800,1200,1800
-chantier-crepuscule | lAyDxOCDYwI | https://images.unsplash.com/photo-1608619769165-25647672335f | 960,1600,2400
-tour-couchant | J9zND9ieE4Q | https://images.unsplash.com/photo-1764885517888-df0d43d82d39 | 960,1600,2400
-plume-or | 8ylzXjzqkJQ | https://images.unsplash.com/photo-1620080207549-60efab274c16 | 960,1600,2400
-accord | NzIV4vOBA7s | https://images.unsplash.com/photo-1638262052640-82e94d64664a | 800,1600,2400
-stylo-dossier | OJbjBsNIwjk | https://images.unsplash.com/photo-1732408433038-73d2f6741fc5 | 800,1200,1800
-residences-mer-portrait | WuyR34c3qJA | https://images.unsplash.com/photo-1791719422920-e4a9c0881cec | 960,1400 | 3:4 | 0.62 | 0.5
-paris-balcons | NmrbDuAVoDk | https://images.unsplash.com/photo-1762117863541-35fc6df17102 | 800,1200,1800 | 3:4 | 0.5 | 0.3
-paris-lumiere | U8Ygo0wNNZI | https://images.unsplash.com/photo-1657129208507-7005dfc5b36a | 800,1200,1800
-paris-angle | qgfwU8JarIg | https://images.unsplash.com/photo-1772119065264-490a6ff55e63 | 960,1600,2400
-riviera-immeuble | LDaMQABui7o | https://images.unsplash.com/photo-1772544553393-9754cadd4089 | 800,1200,1800
-riviera-palmiers | oSuZIcno8qc | https://images.unsplash.com/photo-1722515177905-930b3e2bcea6 | 960,1600,2400
+# Le workflow .github/workflows/import-photos.yml exécute outils/importer-photos.mjs : une seule descente par
+# photographie (la plus grande largeur demandée, recadrée par Unsplash si un ratio est indiqué), puis les autres
+# largeurs sont produites localement, en AVIF et en JPEG, dans public/images/<nom>-<largeur>.{avif,jpg}.
+# Les dimensions réelles sont consignées dans public/images/manifest.json, lu par src/config/images.ts.
+# Format : nom | identifiant Unsplash | URL de base | largeurs (px) | [ratio l:h | point focal x | point focal y]
+#
+# Série de l'accueil (lumière douce, pierre claire, Méditerranée) : ouverture, vue d'ensemble, détail.
+altea | i9PYRSr2uBc | https://images.unsplash.com/photo-1765212714774-9cec2e42e383 | 800,1200,1600,2040 | 4:3 | 0.5 | 0.45
+altea-portrait | i9PYRSr2uBc | https://images.unsplash.com/photo-1765212714774-9cec2e42e383 | 960,1400,2040 | 4:5 | 0.5 | 0.5
+cassis | A7SIkewdTIw | https://images.unsplash.com/photo-1604497853140-526ff6807f02 | 800,1200,1600 | 3:2 | 0.5 | 0.45
+cassis-large | A7SIkewdTIw | https://images.unsplash.com/photo-1604497853140-526ff6807f02 | 1600,2400,3200 | 21:9 | 0.5 | 0.42
+pierre-ombre | VuBzLZqAEpg | https://images.unsplash.com/photo-1789660017459-393812b0cc26 | 800,1200,1600 | 4:5 | 0.5 | 0.5
+#
+# Vignettes des expertises (page des expertises).
+villa-crepuscule | 4vioYQ9Nn9Y | https://images.unsplash.com/photo-1748063578185-3d68121b11ff | 800,1200,1600
+corniche | uL8uhUj2gMg | https://images.unsplash.com/photo-1777138388903-685004a7ea93 | 800,1200,1600
+paris-balcons | NmrbDuAVoDk | https://images.unsplash.com/photo-1762117863541-35fc6df17102 | 800,1200,1600 | 3:4 | 0.5 | 0.3
+villa-cassis | -chZwUizQXY | https://images.unsplash.com/photo-1629199159634-28a88785cee5 | 800,1200,1600
+chantier-mer | o_QjE648MvM | https://images.unsplash.com/photo-1776707738428-5f36ec674afe | 800,1200,1600 | 4:3 | 0.5 | 0.55
+travertin | bwu6zJHrfNs | https://images.unsplash.com/photo-1747583283555-ff19a0dfdbea | 800,1200,1600 | 4:5 | 0.5 | 0.5
+#
+# Bandeaux des pages d'expertise.
 fontvieille | RuvW7a2R8HM | https://images.unsplash.com/photo-1631173384324-6716de52d8bb | 960,1600,2400
-grue | e8dE5m7Vsf8 | https://images.unsplash.com/photo-1783947119562-3f940999dafe | 960,1600,2400
 ville-fenetre | sYtp3sQkqbM | https://images.unsplash.com/photo-1788587351653-5024b4fe11cd | 960,1600,2400
+paris-angle | qgfwU8JarIg | https://images.unsplash.com/photo-1772119065264-490a6ff55e63 | 960,1600,2400
+riviera-palmiers | oSuZIcno8qc | https://images.unsplash.com/photo-1722515177905-930b3e2bcea6 | 960,1600,2400
+grue | e8dE5m7Vsf8 | https://images.unsplash.com/photo-1783947119562-3f940999dafe | 960,1600,2400
+tour-doree | OLhtAXMgaaQ | https://images.unsplash.com/photo-1776417659908-c7c97e210e9f | 800,1200,1800
+#
+# Pages approche, partenaires et contact.
+plume-or | 8ylzXjzqkJQ | https://images.unsplash.com/photo-1620080207549-60efab274c16 | 960,1600,2400
+accord | NzIV4vOBA7s | https://images.unsplash.com/photo-1638262052640-82e94d64664a | 800,1200,1600
+stylo-dossier | OJbjBsNIwjk | https://images.unsplash.com/photo-1732408433038-73d2f6741fc5 | 800,1200,1600

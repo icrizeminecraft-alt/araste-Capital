@@ -1,8 +1,9 @@
 name: Importer les photographies
 
-# Télécharge les photographies listées dans outils/photos.txt (Unsplash) aux
-# largeurs demandées, les enregistre dans public/images/ et les commet sur la
-# branche courante. Se déclenche quand la liste change, ou à la demande.
+# Télécharge les photographies listées dans outils/photos.txt (Unsplash), produit
+# toutes les largeurs en AVIF et en JPEG (outils/importer-photos.mjs), consigne
+# les dimensions réelles dans public/images/manifest.json et commet le tout sur
+# la branche courante. Se déclenche quand la liste ou l'outil change, ou à la demande.
 
 on:
   workflow_dispatch:
@@ -10,6 +11,7 @@ on:
     branches: [claude/araste-capital-site-lcw2cv, main]
     paths:
       - "outils/photos.txt"
+      - "outils/importer-photos.mjs"
       - ".github/workflows/import-photos.yml"
 
 permissions:
@@ -25,39 +27,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Télécharger les photographies
-        shell: bash
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Installer sharp (hors du projet)
         run: |
-          set -u
-          mkdir -p public/images
-          : > public/images/journal-import.txt
-          grep -v '^#' outils/photos.txt | grep '|' | while IFS='|' read -r nom id url largeurs ratio fpx fpy; do
-            nom=$(echo "$nom" | xargs); url=$(echo "$url" | xargs); largeurs=$(echo "$largeurs" | xargs)
-            ratio=$(echo "${ratio:-}" | xargs); fpx=$(echo "${fpx:-0.5}" | xargs); fpy=$(echo "${fpy:-0.5}" | xargs)
-            for w in ${largeurs//,/ }; do
-              cible="public/images/$nom-$w.jpg"
-              if [ -n "$ratio" ]; then
-                rw=${ratio%%:*}; rh=${ratio##*:}; h=$(( (w * rh + rw / 2) / rw ))
-                params="w=$w&h=$h&fit=crop&crop=focalpoint&fp-x=$fpx&fp-y=$fpy&q=82&fm=jpg"
-              else
-                params="w=$w&q=82&fm=jpg&fit=max"
-              fi
-              if curl -fsSL --retry 3 "$url?$params" -o "$cible"; then
-                echo "ok    $cible $(stat -c%s "$cible") octets" | tee -a public/images/journal-import.txt
-              else
-                echo "échec $cible" | tee -a public/images/journal-import.txt; rm -f "$cible"
-              fi
-            done
-          done
-          # Dimensions réelles, pour les attributs width/height.
-          sudo apt-get install -y -qq imagemagick > /dev/null 2>&1 || true
-          for f in public/images/*.jpg; do identify -format "%f %w %h\n" "$f"; done | tee public/images/dimensions.txt
+          mkdir -p outils/.deps && cd outils/.deps
+          npm init -y > /dev/null
+          npm install --no-audit --no-fund sharp@0.34
+
+      - name: Télécharger et produire les variantes
+        run: node outils/importer-photos.mjs
 
       - name: Commettre les images sur la branche
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/images
+          git add -A public/images
           git diff --cached --quiet && echo "Rien à commettre" && exit 0
           git commit -q -m "Photographies importées depuis Unsplash (outils/photos.txt)"
           git push origin HEAD:${GITHUB_REF_NAME}
