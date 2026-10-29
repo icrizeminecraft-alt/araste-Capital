@@ -27,9 +27,9 @@ monaco-crepuscule-paysage-2400.jpg 2400 1350
 paris-angle-1600.jpg 1600 1072
 paris-angle-2400.jpg 2400 1609
 paris-angle-960.jpg 960 643
-paris-balcons-1200.jpg 1200 1800
-paris-balcons-1800.jpg 1800 2700
-paris-balcons-800.jpg 800 1200
+paris-balcons-1200.jpg 1200 1600
+paris-balcons-1800.jpg 1800 2400
+paris-balcons-800.jpg 800 1067
 paris-lumiere-1200.jpg 1200 1800
 paris-lumiere-1800.jpg 1800 2700
 paris-lumiere-800.jpg 800 1200

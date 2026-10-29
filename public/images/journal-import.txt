@@ -38,9 +38,9 @@ ok    public/images/stylo-dossier-1200.jpg 50253 octets
 ok    public/images/stylo-dossier-1800.jpg 91864 octets
 ok    public/images/residences-mer-portrait-960.jpg 245012 octets
 ok    public/images/residences-mer-portrait-1400.jpg 453269 octets
-ok    public/images/paris-balcons-800.jpg 307354 octets
-ok    public/images/paris-balcons-1200.jpg 639609 octets
-ok    public/images/paris-balcons-1800.jpg 1291223 octets
+ok    public/images/paris-balcons-800.jpg 278015 octets
+ok    public/images/paris-balcons-1200.jpg 578570 octets
+ok    public/images/paris-balcons-1800.jpg 1170466 octets
 ok    public/images/paris-lumiere-800.jpg 281947 octets
 ok    public/images/paris-lumiere-1200.jpg 555313 octets
 ok    public/images/paris-lumiere-1800.jpg 1081369 octets
