@@ -1,0 +1,132 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/distressed-asset-finance/",
+  "title": "Distressed Asset Finance UK",
+  "h1": "Not revealed by the search results. Only the search-result title 'Distressed Asset Finance UK' was returned [a][b]; the on-page H1 may differ.",
+  "metaDescription": "Probable meta description (two-sentence summary line returned by [a], not confirmed as the meta tag): \"Secure funding for distressed assets including property and businesses. Fast, flexible finance solutions for turnaround and recovery situations.\"",
+  "summary": "Silver Oak Capital's /distressed-asset-finance/ page presents the firm as a UK/London debt-advisory broker arranging finance for distressed assets, covering both property and businesses, for 'turnaround and recovery situations'. The snippets define distressed assets as those undergoing financial hardship due to the owner's standing (foreclosure, bankruptcy, default, poor management), list common types (foreclosures, bank-mandated sales, part-complete developments, underperforming assets), state that purchasers are often offered a substantial discount, and say the financing process mirrors ordinary asset finance but can be quicker: within days for the right asset and borrower, generally 4-6 weeks. No loan sizes, LTVs, rates, fees or lender names were revealed for this page. Query (c) surfaced no page content at all.",
+  "verbatim": [
+    "[a] \"Secure funding for distressed assets including property and businesses. Fast, flexible finance solutions for turnaround and recovery situations.\"",
+    "[a] \"Purchasers of distressed assets are often offered a substantial discount, creating interesting opportunities.\"",
+    "[a] \"For the right distressed asset (and borrower), finance can be arranged within days, although generally we would allow for 4–6 weeks to arrange.\"",
+    "[b] \"Distressed assets are those that are undergoing some form of financial hardship. This may be due to the owner's financial standing, such as a foreclosure, bankruptcy, or default.\"",
+    "[b] \"for the right distressed asset (and borrower), finance can be arranged within days, although generally we would allow for 4–6 weeks\" (search tool attributed this to 'the FAQ'; [a] attributed the same sentence to the distressed-asset page itself)",
+    "[b] (/below-market-purchases/, related page) \"deploy bridging finance in days to secure the asset and then refinance you onto a long-term mortgage at a later stage\"",
+    "[b] (/faq/, related page) \"database of hundreds of specialist lenders who generally have much more flexibility\" (context given: when traditional lenders decline)",
+    "[b] (another silveroakcapital.co.uk page, unspecified) \"network of over 800 lenders, both in the UK and internationally\"",
+    "[a] (Ts-and-Cs.pdf) \"offers a comprehensive range of first charge & second charge financial facilities from across the market\"",
+    "[a] (homepage) \"expert commercial mortgage brokerage services, property development finance, bridging loans, and development finance solutions\"",
+    "[c] (LinkedIn company page snippet) \"independent, whole-of-market advice across bridging and development finance, commercial and buy-to-let mortgages, and marine and aviation finance\"",
+    "[c] (LinkedIn post snippet) \"time-sensitive £4m refinance secured against a prime residential asset in Kensington\"",
+    "[seed] Page listed in the Services > Bridging menu as 'Distressed Asset Finance', alongside 'Bridging Loans UK', 'Auction Finance', 'Below Market Value Purchases', 'Light to Heavy Refurbishment', 'Conversions', 'Development Exit Loans', 'Post Planning Land Acquisitions'."
+  ],
+  "sections": [
+    {
+      "heading": "Intro / positioning (heading not revealed)",
+      "content": "[a] Financing for distressed property and businesses, aimed at turnaround and recovery situations. 'Secure funding for distressed assets including property and businesses. Fast, flexible finance solutions for turnaround and recovery situations.'"
+    },
+    {
+      "heading": "What are distressed assets? (heading inferred from content, not revealed)",
+      "content": "[a][b] Distressed assets are those 'undergoing some form of financial hardship', which 'may be due to the owner's financial standing, such as a foreclosure, bankruptcy, or default' [b]; [a] adds 'poor management' as a cause. Purchasers 'are often offered a substantial discount, creating interesting opportunities' [a]."
+    },
+    {
+      "heading": "Types of distressed assets (heading inferred, not revealed)",
+      "content": "[a] Search tool paraphrase: the page lists foreclosures, bank-mandated sales, part-complete developments, and underperforming assets as common types."
+    },
+    {
+      "heading": "How long does it take? / process (heading inferred, possibly a FAQ item)",
+      "content": "[a][b] The process mirrors ordinary asset finance, with quicker timelines possible in some cases. 'For the right distressed asset (and borrower), finance can be arranged within days, although generally we would allow for 4–6 weeks to arrange.'"
+    }
+  ],
+  "services": [
+    "Distressed asset finance for property [a][b]",
+    "Distressed asset finance for businesses [a]",
+    "Finance for turnaround and recovery situations [a]",
+    "Bridging finance (page sits in the Bridging services menu) [seed]; related page: below-market-value purchase bridging followed by refinance onto a long-term mortgage [b]",
+    "Debt advisory / brokerage, not direct lending [a]",
+    "First charge and second charge facilities from across the market (Ts&Cs) [a]"
+  ],
+  "useCases": [
+    "Purchasing a distressed asset at a substantial discount [a]",
+    "Foreclosures [a]",
+    "Bank-mandated sales [a]",
+    "Part-complete developments [a]",
+    "Underperforming assets [a]",
+    "Turnaround and recovery situations for property or businesses [a]",
+    "Owner in financial hardship: foreclosure, bankruptcy, default, poor management [a][b]",
+    "Related (/below-market-purchases/): secure a below-market-value asset in days with bridging, then refinance onto a long-term mortgage [b]"
+  ],
+  "terms": [
+    "Timescale: 'finance can be arranged within days' for the right distressed asset and borrower; 'generally we would allow for 4–6 weeks to arrange' [a][b]",
+    "Loan sizes: NOT revealed for this page (firm-level seed claims: 'over £500,000' on home and /lenders/; '£500k to £20m' on /about-us/) [seed]",
+    "LTV: NOT revealed for this page",
+    "Rates: NOT revealed",
+    "Fees: NOT revealed for this page (firm-level seed: lender commission disclosed during process; blog ~£1,500 application + 0.5% at offer + 0.5% at completion) [seed]",
+    "Duration: NOT revealed for this page (seed /bridging-loans-uk/: bridging typically 12 to 24 months) [seed]",
+    "Security: first charge and second charge facilities offered per Ts&Cs [a]; bridging in this menu is secured on property [seed]"
+  ],
+  "eligibility": [
+    "Speed depends on 'the right distressed asset (and borrower)' [a][b]; no explicit borrower criteria revealed",
+    "Related /faq/: when traditional lenders decline, the firm has 'a database of hundreds of specialist lenders who generally have much more flexibility' [b]"
+  ],
+  "lenderTypes": [
+    "Specialist lenders ('database of hundreds of specialist lenders') [b, /faq/]",
+    "Network of 'over 800 lenders, both in the UK and internationally' [b, page unspecified]",
+    "No lender names revealed for this page"
+  ],
+  "processSteps": [
+    "The financing process 'mirrors ordinary asset finance' [a, tool paraphrase]",
+    "Quicker timelines possible in some cases: within days for the right asset/borrower, otherwise allow 4-6 weeks [a][b]",
+    "Related (/below-market-purchases/): deploy bridging finance in days to secure the asset, then refinance onto a long-term mortgage later [b]"
+  ],
+  "faq": [
+    {
+      "q": "How long does it take to arrange distressed asset finance? (question wording inferred; [b] called this source 'the FAQ')",
+      "a": "The process is much like financing an ordinary asset. 'For the right distressed asset (and borrower), finance can be arranged within days, although generally we would allow for 4–6 weeks to arrange.' [a][b]"
+    },
+    {
+      "q": "What are distressed assets? (question wording inferred)",
+      "a": "'Distressed assets are those that are undergoing some form of financial hardship. This may be due to the owner's financial standing, such as a foreclosure, bankruptcy, or default.' [b]"
+    }
+  ],
+  "claims": [
+    {"claim": "Finance for distressed assets 'can be arranged within days' for the right asset and borrower [a][b]", "kind": "timescale promise"},
+    {"claim": "Generally allow 4-6 weeks to arrange [a][b]", "kind": "timescale"},
+    {"claim": "Purchasers of distressed assets 'are often offered a substantial discount' [a]", "kind": "market claim"},
+    {"claim": "'Fast, flexible finance solutions for turnaround and recovery situations' [a]", "kind": "marketing promise"},
+    {"claim": "Covers both property and businesses [a]", "kind": "scope"},
+    {"claim": "'database of hundreds of specialist lenders' [b, /faq/]", "kind": "number / lender count"},
+    {"claim": "'network of over 800 lenders, both in the UK and internationally' [b, page unspecified]", "kind": "number / lender count"},
+    {"claim": "'comprehensive range of first charge & second charge financial facilities from across the market' [a, Ts&Cs]", "kind": "scope"},
+    {"claim": "'independent, whole-of-market advice' [c, LinkedIn]", "kind": "positioning"},
+    {"claim": "'time-sensitive £4m refinance secured against a prime residential asset in Kensington' [c, LinkedIn post]", "kind": "deal example (not on this page)"},
+    {"claim": "No testimonials, awards or credentials were revealed for this page", "kind": "absence"}
+  ],
+  "geography": [
+    "UK (page title 'Distressed Asset Finance UK') [a][b]",
+    "London-based firm, 91 Wimpole St, London [a]",
+    "Lender network 'both in the UK and internationally' [b]"
+  ],
+  "ctas": [
+    "None revealed for this page by the snippets. Firm-level contact routes from seed: enquiry form, enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp [seed]"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/distressed-asset-finance/",
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/below-market-purchases/",
+    "https://www.silveroakcapital.co.uk/complex-offshore-structures/",
+    "https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/",
+    "https://www.silveroakcapital.co.uk/wp-content/uploads/2026/02/Ts-and-Cs.pdf"
+  ],
+  "externalLinksSeen": [
+    "https://silveroakcapital.odoo.com/",
+    "https://uk.linkedin.com/company/silver-oak-capital",
+    "https://www.instagram.com/silveroakcapitaluk/",
+    "https://uk.linkedin.com/in/joe-berk"
+  ],
+  "notes": "Seed had no snippetsFromFirstPass entry for this path; only the navigation listing applied. Query (a) and (b) both surfaced the page; (c) surfaced zero page content (only generic distressed-asset articles, unrelated Oaktree/Silver Point/Silverleaf items, and a Silver Oak LinkedIn snippet) and the tool even said it could not confirm the service exists, which contradicts (a)/(b) where the page is directly indexed; treat (c)'s doubt as a search limitation, not a fact. Attribution contradiction: the '4–6 weeks' sentence was attributed to the page in (a) and to 'the FAQ' in (b); it may be an on-page FAQ accordion or the /faq/ page. Several structural elements (H1, section headings, FAQ question wording, CTAs) are inferred or absent, not revealed. The phrase 'poor management' / 'mismanagement' appears only in the tool's paraphrase, not in a quoted sentence. Unrelated firms excluded: Silver Point Capital, Silverfleet Capital, Assetz Capital, UK Asset Resolution, Oaktree, Silver Oak Capital LLC (US SEC Form D), NewOak.",
+  "confidence": "medium-low: page confirmed and core definition/timing sentences captured verbatim, but no terms (sizes, LTV, rates, fees), no CTAs, no headings and no lender names were revealed; (c) added nothing from the page",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/distressed-asset-finance.json"
+}

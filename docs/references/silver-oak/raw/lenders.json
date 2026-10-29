@@ -1,0 +1,140 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/lenders/",
+  "title": "Lenders (navigation label per seed; actual <title> not revealed by any search result)",
+  "h1": "Not revealed. Nav label is 'Lenders' [seed]; no result returned the page's H1.",
+  "metaDescription": "Not revealed. Search (a) for the exact URL did not return the page; search (b) with site: operator did not return it either.",
+  "summary": "The /lenders/ page could not be surfaced directly: search (a) on the exact URL returned the homepage, /commercial-mortgage-broker/, /property-development-finance/, /about-us/, LinkedIn, Instagram and a Letting Agent Today directory listing but stated 'I couldn't find the exact page at that URL in the results'; search (b) (site: + lenders panel commission unrestricted) returned other site pages and the Ts&Cs PDF; search (c) returned only unrelated US 'Silver Oak' wealth-management firms. The only content specific to /lenders/ comes from the seed first-pass snippet: the firm 'generally focuses on transactions upwards of £500,000', 'works with an unrestricted number of lenders' and 'typically receives commission from lenders, with details disclosed during the process'. Indirect material gathered: lender-count claims that vary by page (300+, 500+, 700+, 800+), lender-type lists (private banks, investment banks, specialist lenders, private debt funds, debt funds), the Ts&Cs statement that the firm offers products from across the market but not deals obtainable only by going direct to a lender, and introducer-page wording on commissions, discretion, transparency and strict non-circumvention.",
+  "sections": [
+    {
+      "heading": "Transaction focus [seed /lenders/]",
+      "content": "The firm 'generally focuses on transactions upwards of £500,000'. Consistent with the homepage claim 'over £500,000' [seed loanSizeClaims] and the about page '£500K to £20m' [seed]."
+    },
+    {
+      "heading": "Lender relationships / scope of market [seed /lenders/, b]",
+      "content": "Works with 'an unrestricted number of lenders' [seed /lenders/]. The Ts&Cs document (2026/02) says the firm 'offers products from across the market, but not deals that you can only obtain by going direct to a lender' [b]. Another site page says the firm draws on 'deep relationships with banks, specialist lenders, debt funds and private banks' [b] (source page not identified by the search summary)."
+    },
+    {
+      "heading": "Remuneration / commission disclosure [seed /lenders/, b]",
+      "content": "The firm 'typically receives commission from lenders, with details disclosed during the process' [seed /lenders/]. The introducers page describes a network that lets partners 'earn commissions through trusted referrals and flexible lending solutions' and says the process rests on 'discretion, transparency, and strict non-circumvention' [b]; the search summary noted it 'does not say whether commission is capped or restricted' and that the snippet was truncated with no fee schedule."
+    },
+    {
+      "heading": "Size of lender network (contradictory across pages) [a, seed]",
+      "content": "Homepage: 'arranges debt on loans through our network of over 800 lenders' [a]. About page: '800+ Lenders' [a]. Commercial mortgage broker page: '700+ Lenders' [a]. Property development finance page: '300+ Lenders' [a]. LinkedIn: '500+ different private banks, investment banks, specialist lenders & private debt funds' [a]. Letting Agent Today directory (older): 'through our network of over 300 lenders' [a]. The search tool's own remark: 'The inconsistency suggests the count has changed over time, so the current figure is best confirmed directly with the firm.' [a]. Seed attributes 800+ to home, /faq/, Trustpilot and Property Week; search (a) additionally attributes 800+ to the about page."
+    },
+    {
+      "heading": "Panel valuers (valuation context, not commission) [b]",
+      "content": "Several site pages (post-planning land, conversions) mention lenders 'whose panel valuers' understand a particular value basis such as residual land value or local conversion demand [b]. The jewellery loans page says 'lenders typically commission an independent valuer' [b] - the word 'commission' here refers to valuations, not broker fees."
+    }
+  ],
+  "verbatim": [
+    "[seed /lenders/] generally focuses on transactions upwards of £500,000",
+    "[seed /lenders/] works with an unrestricted number of lenders and typically receives commission from lenders, with details disclosed during the process",
+    "[a homepage] arranges debt on loans through our network of over 800 lenders",
+    "[a LinkedIn] 500+ different private banks, investment banks, specialist lenders & private debt funds",
+    "[a /commercial-mortgage-broker/] 700+ Lenders",
+    "[a /property-development-finance/] 300+ Lenders",
+    "[a /about-us/] 800+ Lenders",
+    "[a Letting Agent Today directory, older] through our network of over 300 lenders",
+    "[a search-tool remark] I couldn't find the exact page at that URL in the results.",
+    "[b /introducers/] earn commissions through trusted referrals and flexible lending solutions",
+    "[b /introducers/] discretion, transparency, and strict non-circumvention",
+    "[b unspecified site page] deep relationships with banks, specialist lenders, debt funds and private banks",
+    "[b Ts-and-Cs.pdf 2026/02] offers products from across the market, but not deals that you can only obtain by going direct to a lender",
+    "[b /post-planning-land-acquisitions/ and /conversions/] whose panel valuers",
+    "[b /jewellery-diamonds-gemstones-loans-advisory/] lenders typically commission an independent valuer",
+    "[b search-tool remark] The search didn't find any page on Silver Oak Capital's site that addresses unrestricted lender panel commission.",
+    "[c search-tool remark] The search didn't turn up anything about Silver Oak Capital as a lender or about lender commissions or loan fees.",
+    "[seed /introducers/] a competitive percentage of our procurement fee upon the successful completion of the loan"
+  ],
+  "services": [
+    "Debt advisory / brokerage arranging loans through a lender network [a, seed]",
+    "Commercial mortgages [seed /introducers/]",
+    "Buy-to-let mortgages [seed /introducers/]",
+    "Bridging loans [seed /introducers/]",
+    "Development finance [seed /introducers/]",
+    "Marine finance [seed /introducers/]",
+    "Aviation finance [seed /introducers/]",
+    "Jewellery, diamonds and gemstones loans advisory [b - new URL, not in seed]"
+  ],
+  "useCases": [
+    "No use cases specific to the /lenders/ page were revealed. Seed snippet of /lenders/ concerns transaction size, lender scope and commission disclosure only."
+  ],
+  "terms": [
+    "Minimum focus: transactions upwards of £500,000 [seed /lenders/]",
+    "Remuneration: commission typically received from lenders, details disclosed during the process [seed /lenders/]",
+    "Number of lenders: unrestricted [seed /lenders/]; counts cited elsewhere 300+/500+/700+/800+ [a]",
+    "Market scope: products from across the market, excluding direct-only lender deals [b Ts&Cs]",
+    "Cross-reference (other pages, not /lenders/): fee claims of 1.00% UK commercial / 1.50% outside UK / 1.00% prime residential (old /types-of-borrowing/), blog ~£1,500 application + 0.5% at offer + 0.5% at completion, Ts&Cs client-specific fee agreement, introducers paid a competitive percentage of the procurement fee [seed feesClaims]",
+    "No LTV, rate, duration or timescale figures appeared in any of the three results for this page"
+  ],
+  "eligibility": [
+    "Transactions generally upwards of £500,000 [seed /lenders/]",
+    "No other eligibility criteria for the /lenders/ page were revealed"
+  ],
+  "lenderTypes": [
+    "private banks [a LinkedIn; b]",
+    "investment banks [a LinkedIn]",
+    "specialist lenders [a LinkedIn; b]",
+    "private debt funds / debt funds [a LinkedIn; b]",
+    "banks [b]",
+    "senior debt, mezzanine debt and equity lenders [seed /property-development-finance/ - cross-reference]",
+    "whole-loan providers [seed /faq/ - cross-reference]"
+  ],
+  "processSteps": [
+    "Commission details are disclosed during the process [seed /lenders/]",
+    "Cross-reference (not /lenders/): the firm typically narrows lenders to as many as 3 or 4 potential partners per deal [seed /commercial-mortgage-broker/, /property-development-finance/]",
+    "Cross-reference (not /lenders/): once indicative terms are provided, introducers introduce the borrower directly [seed /introducers/]"
+  ],
+  "faq": [
+    {
+      "q": "No FAQ items were revealed for the /lenders/ page.",
+      "a": "None of the three results returned question/answer content from this page."
+    }
+  ],
+  "claims": [
+    {"claim": "generally focuses on transactions upwards of £500,000", "kind": "number [seed /lenders/]"},
+    {"claim": "works with an unrestricted number of lenders", "kind": "promise/positioning [seed /lenders/]"},
+    {"claim": "typically receives commission from lenders, with details disclosed during the process", "kind": "disclosure [seed /lenders/]"},
+    {"claim": "network of over 800 lenders", "kind": "number [a homepage; a about page]"},
+    {"claim": "700+ Lenders", "kind": "number [a /commercial-mortgage-broker/]"},
+    {"claim": "300+ Lenders", "kind": "number [a /property-development-finance/]"},
+    {"claim": "500+ different private banks, investment banks, specialist lenders & private debt funds", "kind": "number [a LinkedIn]"},
+    {"claim": "network of over 300 lenders", "kind": "number [a Letting Agent Today directory, older]"},
+    {"claim": "offers products from across the market, but not deals that you can only obtain by going direct to a lender", "kind": "scope disclosure [b Ts&Cs]"},
+    {"claim": "deep relationships with banks, specialist lenders, debt funds and private banks", "kind": "positioning [b]"},
+    {"claim": "introducers earn commissions through trusted referrals; discretion, transparency, and strict non-circumvention", "kind": "promise [b /introducers/]"},
+    {"claim": "CONTRADICTION: lender count stated as 300+, 500+, 700+ and 800+ depending on page/source", "kind": "contradiction [a, seed]"},
+    {"claim": "No testimonials, awards or credentials were surfaced for the /lenders/ page", "kind": "absence"}
+  ],
+  "geography": [
+    "London-based [a]",
+    "UK-wide lender network implied; no geography specific to /lenders/ page revealed",
+    "Cross-reference [seed]: offices London (91 Wimpole Street), Monaco, Dubai, Cape Town; markets UK, Western Europe, Middle East, United States"
+  ],
+  "ctas": [
+    "None revealed for the /lenders/ page. Cross-reference [seed /contact/]: enquiry form, direct email enquiry@silveroakcapital.co.uk, WhatsApp, +44 207 459 4440"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/ [a]",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/ [a]",
+    "https://www.silveroakcapital.co.uk/property-development-finance/ [a]",
+    "https://www.silveroakcapital.co.uk/about-us/ [a]",
+    "https://www.silveroakcapital.co.uk/post-planning-land-acquisitions/ [b]",
+    "https://www.silveroakcapital.co.uk/introducers/ [b]",
+    "https://www.silveroakcapital.co.uk/conversions/ [b]",
+    "https://www.silveroakcapital.co.uk/jewellery-diamonds-gemstones-loans-advisory/ [b] (NEW - not in seed)",
+    "https://www.silveroakcapital.co.uk/single-stock-lending-advisory/ [b]",
+    "https://www.silveroakcapital.co.uk/wp-content/uploads/2026/02/Ts-and-Cs.pdf [b]",
+    "https://www.silveroakcapital.co.uk/regulating-bridging-loans-through-fca-rules/amp/ [b] (AMP variant)",
+    "https://www.silveroakcapital.co.uk/development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/ [b]",
+    "https://www.silveroakcapital.co.uk/why-lenders-reject-70-of-london-resi-led-development-deals/ [b] (NEW - not in seed; title 'Why 70% of London Development Finance Deals Get Rejected')",
+    "EXTERNAL: https://uk.linkedin.com/company/silver-oak-capital [a]",
+    "EXTERNAL: https://www.instagram.com/silveroakcapitaluk/ [a] (NEW - not in seed)",
+    "EXTERNAL: https://www.lettingagenttoday.co.uk/trades-directory/silver-oak-capital/ [a] (NEW - not in seed)"
+  ],
+  "confidence": "low",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "notes": "Query (a) [extended, exact URL] did not return the /lenders/ page; its summary explicitly said the exact page was not found and instead compiled lender-count claims from other pages. Query (b) [extended, 'site:silveroakcapital.co.uk lenders panel commission unrestricted'] did not return /lenders/ either; it yielded Ts&Cs wording, introducers wording and two previously unknown URLs (/jewellery-diamonds-gemstones-loans-advisory/, /why-lenders-reject-70-of-london-resi-led-development-deals/). Query (c) [standard, '\"Silver Oak Capital\" lenders commission fees'] returned only unrelated US 'Silver Oak' wealth-management firms (Silver Oak Securities, Silver Oak LLC) - ignored per rules. Also ignored: Silver Oak Capital Partners (silveroakcp.com, US) and SilverOak Capital (silveroakcapitalfunding.com, US). Everything specific to /lenders/ therefore rests on the seed first-pass snippet, whose wording may itself be paraphrased. Search summaries are second-hand paraphrases of snippets; quoted phrases are as the tool reported them.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/lenders.json"
+}

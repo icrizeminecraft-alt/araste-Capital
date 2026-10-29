@@ -1,0 +1,135 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/western-europe/",
+  "title": "Property Finance Western Europe",
+  "summary": "Country/region landing page of Silver Oak Capital (title tag seen in search results: 'Property Finance Western Europe'). The only page-specific text available comes from the first-pass seed snippet and one search summary sentence: the firm regularly acts for clients from Africa, Asia and the Middle East buying property in Europe and the UK, is popular with investors from volatile-currency countries such as South Africa or Turkey, and frequently arranges facilities for offshore trusts and overseas owners, describing deal-making across multiple jurisdictions. No H1, meta description, FAQ, process steps, fees, LTV or rate figures for this page were revealed. Firm-level geography claims (UK, Western Europe, Southern Africa, Middle East; later UK, US, Western Europe, Middle East) and lender/loan-size claims (300+ lenders in 100 countries vs 800+; £2m-£20m vs over £500,000) were surfaced from the homepage, Spear's and LinkedIn, with contradictions noted.",
+  "h1": null,
+  "metaDescription": null,
+  "sections": [
+    {
+      "heading": "Overseas clients purchasing in Europe and the UK [seed]",
+      "content": "[seed] The firm 'regularly act for clients from Africa, Asia and the Middle East who are purchasing properties in Europe and the UK'; the service is 'popular with investors from countries with volatile currencies, such as South Africa or Turkey'."
+    },
+    {
+      "heading": "Offshore trusts and overseas owners [seed][b]",
+      "content": "[seed] The firm 'frequently arranges facilities for offshore trusts and overseas owners'. [b] Search summary of the page: 'The main page says the firm frequently arranges facilities for offshore trusts and overseas owners, and it describes deal-making across multiple jurisdictions.'"
+    },
+    {
+      "heading": "Geographic coverage (firm-level, not page-specific) [a][c]",
+      "content": "[a] Current homepage: the firm 'arranges debt across the UK, US, Western Europe and the Middle East'; older listings 'name Western Europe alongside the UK, the Middle East and Southern Africa'; key locations 'London, Monaco, Dubai and Cape Town'. [c] Spear's profile: 'With an extensive network of more than 300 lenders in 100 different countries, Silver Oak arranges real estate debt for transactions in the UK, Western Europe, Southern Africa and the Middle East.' [b] About page: 'experience arranging debt in offshore jurisdictions such as France, Spain, Dubai & South Africa'. [b] Yacht mortgages page: 'active across the entire Western European market, mainly in Mediterranean hubs such as Monaco and the Cote d'Azur'."
+    },
+    {
+      "heading": "Related offshore/trust pages surfaced by the same query [b]",
+      "content": "[b] /complex-offshore-structures/: 'network of over 800 lenders, both in the UK and internationally'; 'has advised on a number of cases involving trust- and estate-held assets, both onshore and offshore'. [b] /case-studies/bvi-trust-refinance/: 'A UK borrower's property was held in a British Virgin Islands trust, with trustees in Guernsey. The firm matched the client with a private bank that had a UK, Channel Islands, and BVI presence, and the goal was a 10-year interest-only facility.' [b] /case-studies/bridging-loan-land-with-planning/: 'an offshore trust company seeking funds for a planning application for a 220-unit residential scheme'."
+    },
+    {
+      "heading": "Products mentioned in third-party profiles [c]",
+      "content": "[c] LinkedIn (Joe Berk): 'With access to an extensive network of over 800 lenders, they offer independent, whole-of-market advice across bridging and development finance, commercial and buy-to-let mortgages, and marine and aviation finance.' 'Alongside prime residential and commercial mortgages, they also advise on raising debt for luxury assets, short-term bridging loans, and marine and aviation finance.'"
+    }
+  ],
+  "verbatim": [
+    "[seed] regularly act for clients from Africa, Asia and the Middle East who are purchasing properties in Europe and the UK",
+    "[seed] popular with investors from countries with volatile currencies, such as South Africa or Turkey",
+    "[seed] frequently arranges facilities for offshore trusts and overseas owners",
+    "[b] Property Finance Western Europe (search-result title of https://www.silveroakcapital.co.uk/western-europe/)",
+    "[b] The main page says the firm frequently arranges facilities for offshore trusts and overseas owners, and it describes deal-making across multiple jurisdictions.",
+    "[b] The firm says it has a network of over 800 lenders, both in the UK and internationally. It also states it has advised on a number of cases involving trust- and estate-held assets, both onshore and offshore. (/complex-offshore-structures/)",
+    "[b] A UK borrower's property was held in a British Virgin Islands trust, with trustees in Guernsey. The firm matched the client with a private bank that had a UK, Channel Islands, and BVI presence, and the goal was a 10-year interest-only facility. (/case-studies/bvi-trust-refinance/)",
+    "[b] This involved an offshore trust company seeking funds for a planning application for a 220-unit residential scheme. (/case-studies/bridging-loan-land-with-planning/)",
+    "[b] The firm is active across the entire Western European market, mainly in Mediterranean hubs such as Monaco and the Cote d'Azur. (/yacht-mortgages/)",
+    "[b] The firm says it has experience arranging debt in offshore jurisdictions such as France, Spain, Dubai & South Africa. (/about-us/)",
+    "[a] Its current homepage says it arranges debt across the UK, US, Western Europe and the Middle East. Older listings name Western Europe alongside the UK, the Middle East and Southern Africa.",
+    "[a] Older profiles describe loans of £2m to £20m, while the current homepage refers to loans over £500,000. The lender network is described as 300+ in older listings and 800+ on the current homepage.",
+    "[a] The homepage lists London, Monaco, Dubai and Cape Town as key locations.",
+    "[a] The firm was founded in 2019 by Jimmy Baillie.",
+    "[c] With an extensive network of more than 300 lenders in 100 different countries, Silver Oak arranges real estate debt for transactions in the UK, Western Europe, Southern Africa and the Middle East. (Spear's)",
+    "[c] With access to an extensive network of over 800 lenders, they offer independent, whole-of-market advice across bridging and development finance, commercial and buy-to-let mortgages, and marine and aviation finance. (LinkedIn)",
+    "[c] Alongside prime residential and commercial mortgages, they also advise on raising debt for luxury assets, short-term bridging loans, and marine and aviation finance. (LinkedIn)"
+  ],
+  "services": [
+    "Property finance in Western Europe for overseas / international clients [seed][b]",
+    "Facilities for offshore trusts and overseas owners [seed][b]",
+    "Real estate debt advisory for transactions in the UK, Western Europe, Southern Africa and the Middle East [c]",
+    "Finance for assets held in complex offshore structures (trust- and estate-held, onshore and offshore) [b, related page]",
+    "Yacht / marine finance across the Western European market, Mediterranean hubs (Monaco, Cote d'Azur) [b, related page]",
+    "Bridging and development finance, commercial and buy-to-let mortgages, prime residential mortgages, luxury asset, marine and aviation finance [c, firm-level]"
+  ],
+  "useCases": [
+    "Clients from Africa, Asia and the Middle East purchasing properties in Europe and the UK [seed]",
+    "Investors from countries with volatile currencies (e.g. South Africa, Turkey) acquiring European/UK property [seed]",
+    "Facilities for offshore trusts and overseas owners [seed][b]",
+    "Refinance of a UK property held in a BVI trust with Guernsey trustees via a private bank with UK, Channel Islands and BVI presence; 10-year interest-only facility sought [b, case study]",
+    "Offshore trust company raising bridging funds for a planning application on a 220-unit residential scheme [b, case study]"
+  ],
+  "terms": [
+    "No loan size, LTV, rate, duration, fee or timescale specific to the Western Europe page was revealed [a][b][c]",
+    "Firm-level loan size: 'loans over £500,000' (current homepage) vs '£2m to £20m' (older profiles) [a]",
+    "Case study target structure: '10-year interest-only facility' (BVI trust refinance) [b]",
+    "Security type implied: real estate (property purchases in Europe and the UK; trust-held property) [seed][b]"
+  ],
+  "eligibility": [
+    "Clients from Africa, Asia and the Middle East buying in Europe and the UK [seed]",
+    "Investors from volatile-currency countries such as South Africa or Turkey [seed]",
+    "Offshore trusts and overseas owners [seed][b]",
+    "Trust- and estate-held assets, onshore and offshore [b, /complex-offshore-structures/]"
+  ],
+  "lenderTypes": [
+    "Private banks with multi-jurisdiction presence (UK, Channel Islands, BVI) [b, case study]",
+    "Network of over 800 lenders, both in the UK and internationally [b][c]",
+    "Network of more than 300 lenders in 100 different countries [c, Spear's, older]"
+  ],
+  "processSteps": [],
+  "faq": [],
+  "claims": [
+    {"kind": "geography", "claim": "Arranges real estate debt for transactions in the UK, Western Europe, Southern Africa and the Middle East [c, Spear's]"},
+    {"kind": "geography", "claim": "Current homepage: arranges debt across the UK, US, Western Europe and the Middle East [a]"},
+    {"kind": "geography", "claim": "Key locations: London, Monaco, Dubai and Cape Town [a]"},
+    {"kind": "geography", "claim": "Experience arranging debt in offshore jurisdictions such as France, Spain, Dubai & South Africa [b, /about-us/]"},
+    {"kind": "geography", "claim": "Active across the entire Western European market, mainly in Mediterranean hubs such as Monaco and the Cote d'Azur [b, /yacht-mortgages/]"},
+    {"kind": "number", "claim": "Network of more than 300 lenders in 100 different countries [c, Spear's]"},
+    {"kind": "number", "claim": "Network of over 800 lenders, both in the UK and internationally [b, /complex-offshore-structures/; c, LinkedIn]"},
+    {"kind": "contradiction", "claim": "Lender count 300+ (older listings / Spear's) vs 800+ (current homepage / LinkedIn / complex offshore structures page) [a][b][c]"},
+    {"kind": "contradiction", "claim": "Loan size £2m to £20m (older profiles) vs over £500,000 (current homepage) [a]"},
+    {"kind": "contradiction", "claim": "Geography: older 'UK, Western Europe, Southern Africa, Middle East' vs current homepage 'UK, US, Western Europe, Middle East' (Southern Africa dropped, US added) [a][c]"},
+    {"kind": "credential", "claim": "Founded in 2019 by Jimmy Baillie [a]"},
+    {"kind": "credential", "claim": "Spear's 500 adviser profile exists for Jimmy Baillie (spears500.com/adviser/6519 and /22953) [c]"},
+    {"kind": "promise", "claim": "Independent, whole-of-market advice [c, LinkedIn]"},
+    {"kind": "experience", "claim": "Has advised on a number of cases involving trust- and estate-held assets, both onshore and offshore [b, /complex-offshore-structures/]"},
+    {"kind": "experience", "claim": "Regularly acts for clients from Africa, Asia and the Middle East purchasing in Europe and the UK; frequently arranges facilities for offshore trusts and overseas owners [seed]"}
+  ],
+  "geography": [
+    "Western Europe", "Europe", "United Kingdom", "France", "Spain", "Monaco", "Cote d'Azur", "Mediterranean", "Middle East", "Dubai", "Africa", "Southern Africa", "South Africa", "Cape Town", "Asia", "Turkey", "United States", "British Virgin Islands", "Guernsey", "Channel Islands", "London"
+  ],
+  "ctas": [
+    "No page-specific call to action revealed by the search results [a][b][c]",
+    "[seed, site-wide] enquiry form (name, contact details, finance type, amount, country of residence, brief overview, consent); email enquiry@silveroakcapital.co.uk; +44 207 459 4440; WhatsApp"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/western-europe/",
+    "https://www.silveroakcapital.co.uk/complex-offshore-structures/",
+    "https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/",
+    "https://www.silveroakcapital.co.uk/yacht-mortgages/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-loan-land-with-planning/",
+    "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/",
+    "https://www.silveroakcapital.co.uk/about-us/",
+    "https://www.silveroakcapital.co.uk/what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/ [seed, Western Europe case study not surfaced by searches]"
+  ],
+  "externalSources": [
+    "https://spears500.com/adviser/6519/jimmy-baillie",
+    "https://spears500.com/adviser/22953/jimmy-baillie",
+    "https://uk.linkedin.com/in/joe-berk",
+    "https://uk.linkedin.com/company/silver-oak-capital",
+    "https://bridgingandcommercial.co.uk/silver-oak-capital-to-grow-team-following-increased-volume-in-pound-2m-20m-space",
+    "https://www.crunchbase.com/organization/silver-oak-capital",
+    "https://www.lettingagenttoday.co.uk/trades-directory/silver-oak-capital/",
+    "https://www.thelandsite.co.uk/articles/silver-oak-capital-in-the-news",
+    "https://www.gosimples.com/listing/england/london-151/financial-advisors/silver-oak-capital-debit-advisory",
+    "https://silveroakcapital.weebly.com/"
+  ],
+  "confidence": "low-medium: the page itself was only confirmed via its search-result title [b] and one summary sentence [b] matching the seed snippet; all other content is firm-level or from related pages. No H1, meta description, section headings, FAQ, process, fees, LTV or rates for /western-europe/ were revealed.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "notes": "Query (a) (exact URL, extended) did not return the page; it returned the homepage and third-party listings (plus unrelated Silverfleet Capital, ignored). Query (b) (site: search, extended) returned the page with title 'Property Finance Western Europe' and a one-sentence summary consistent with the seed snippet, plus related offshore/trust pages. Query (c) (standard) returned Spear's and LinkedIn profiles plus unrelated European lender news (GreenOak, M&G, AXA, Duet, Fidelity European Trust), all ignored. Ignored unrelated firms: Silverfleet Capital, Fidelity European Trust, Stoneleigh Capital. Contradictions recorded in claims. Verbatim strings are reproduced as given by the search tool summaries; the tool renders 'Côte d'Azur' with accent in one place, normalised here to 'Cote d'Azur' in tags but original wording otherwise preserved.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/western-europe.json"
+}

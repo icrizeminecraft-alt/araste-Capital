@@ -1,0 +1,152 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/below-market-purchases/",
+  "title": "Below Market Value Purchases",
+  "h1": "",
+  "metaDescription": "",
+  "summary": "Silver Oak Capital's Below Market Value (BMV) Purchases page (a Bridging sub-page in the site nav) explains that a BMV purchase is one where the buyer pays less than open market value; a high-street bank lends against the lower purchase price while a specialist BMV/bridging lender can lend against the higher open market valuation. The page uses a worked example (house worth £200,000 bought for £150,000: 75% of price = £112,500 leaving a £37,500 deposit, whereas 75% of value = £150,000 covers the whole price). It names three buyer situations (family sale at a discount, sitting tenant buying their rented home, professional investor buying from a distressed seller), says bridging lenders do not apply the six-month refinance restriction that mainstream mortgage lenders do, and stresses that the reason for the discount (the 'story') matters to lenders. H1, meta description, rates, fees, loan sizes, durations, process and CTAs were not revealed by the search results.",
+  "sections": [
+    {
+      "heading": "What is a below market value (BMV) purchase",
+      "content": "[a] A BMV purchase is a deal where the buyer pays less than the open market value of the property. The page is described as 'a specialist lending service for buying property below its open market value'."
+    },
+    {
+      "heading": "How lenders treat BMV purchases: high street vs specialist",
+      "content": "[a] A high-street bank typically lends against the lower purchase price, while a specialist BMV lender can lend against the higher valuation. [b] A specialist BMV lender can often lend against the open market value rather than the discounted price. [b] Search summary across Silver Oak pages: 'offering lending on open market value, with bridging funds arranged in days'."
+    },
+    {
+      "heading": "Worked example (£200,000 value / £150,000 price)",
+      "content": "[a] A £200,000 house bought for £150,000. A 75% loan on the purchase price gives a £112,500 mortgage, which leaves a £37,500 deposit to find. A 75% loan on the £200,000 value covers the whole £150,000 price. [b] 'A specialist BMV lender can often lend based on the £200,000 open market value.'"
+    },
+    {
+      "heading": "Who uses BMV finance",
+      "content": "[a] Three target buyer situations are named: family sales at a discount, sitting tenants buying the home they rent, and professional investors buying from distressed sellers."
+    },
+    {
+      "heading": "Six-month refinance restriction",
+      "content": "[b] Bridging lenders don't apply the six-month refinance restriction that mainstream mortgage lenders do."
+    },
+    {
+      "heading": "The 'story' behind the discount",
+      "content": "[b] The page stresses that the reason for the discount, or 'story', matters to lenders."
+    },
+    {
+      "heading": "Legality (from sibling /faq/ page, surfaced in [b])",
+      "content": "[b] The FAQ page says the practice is legal, but misrepresenting the price to a lender is mortgage fraud: 'Buying a house for any agreed price is legal, but misleading a lender about the price is mortgage fraud.'"
+    },
+    {
+      "heading": "Related bridging pages surfaced with this one",
+      "content": "[b] /distressed-asset-finance/ covers repossessed properties and part-complete developments bought below value and recommends a clear asset management plan; /auction-finance/ describes bridging loans built around auction completion deadlines; /bridging-loans-for-prime-central-london-purchases/ and /post-planning-land-acquisitions/ also appeared. [seed] Nav places 'Below Market Value Purchases' under Bridging alongside Bridging Loans UK, Auction Finance, Distressed Asset Finance, Light to Heavy Refurbishment, Conversions, Development Exit Loans, Post Planning Land Acquisitions."
+    }
+  ],
+  "verbatim": [
+    "[a] (search result title) \"Below Market Value Purchases\"",
+    "[a] (search-tool summary) \"a specialist lending service for buying property below its open market value\"",
+    "[a] (search-tool summary) \"a BMV purchase is a deal where the buyer pays less than the open market value. A high-street bank typically lends against the lower purchase price, while a specialist BMV lender can lend against the higher valuation.\"",
+    "[a] (search-tool summary, worked example) \"a £200,000 house bought for £150,000. A 75% loan on the purchase price gives a £112,500 mortgage, which leaves a £37,500 deposit to find. A 75% loan on the £200,000 value covers the whole £150,000 price.\"",
+    "[a] (search-tool summary, target buyers) \"family sales at a discount, sitting tenants buying the home they rent, and professional investors buying from distressed sellers\"",
+    "[a] (search-tool caveat) \"I did not retrieve the full page text, so the page's terms, fees, and eligibility criteria are unverified.\"",
+    "[b] (search result title) \"Below Market Value Purchases\"",
+    "[b] (search-tool summary) \"a specialist BMV lender can often lend against the open market value rather than the discounted price, and bridging lenders don't apply the six-month refinance restriction that mainstream mortgage lenders do\"",
+    "[b] (search-tool summary) \"It also stresses that the reason for the discount, or 'story,' matters to lenders.\"",
+    "[b] (quoted sentence in search-tool summary, closest to page text) \"A specialist BMV lender can often lend based on the £200,000 open market value.\"",
+    "[b] (search-tool summary about /faq/) \"the practice is legal, but misrepresenting the price to a lender is mortgage fraud\"",
+    "[b] (quoted sentence in search-tool summary about /faq/) \"Buying a house for any agreed price is legal, but misleading a lender about the price is mortgage fraud.\"",
+    "[b] (search-tool summary about /distressed-asset-finance/) \"covers repossessed properties and part-complete developments bought below value, and recommends a clear asset management plan\"",
+    "[b] (search-tool summary about /auction-finance/) \"describes bridging loans built around auction completion deadlines\"",
+    "[b] (search-tool summary, site-wide) \"Silver Oak's pages describe the company as offering lending on open market value, with bridging funds arranged in days.\"",
+    "[b] (search-tool freshness note) \"the pages date from roughly 4 to 7 months ago\"",
+    "[seed] navigation label under Bridging: \"Below Market Value Purchases\"",
+    "[seed] sibling /bridging-loans-uk/ (not this page): \"loans typically set up for 12 to 24 months and secured on property; interest is rolled up rather than paid monthly, so no affordability check is needed; principal and interest repaid as one sum on expiry, usually via refinancing or sale; cites 700+ Lenders\""
+  ],
+  "services": [
+    "Below market value (BMV) purchase finance: bridging/specialist lending sized against open market value rather than the discounted purchase price [a][b]",
+    "Bridging finance for BMV purchases free of the six-month refinance restriction applied by mainstream mortgage lenders [b]",
+    "Related Silver Oak bridging products surfaced alongside this page: Auction Finance, Distressed Asset Finance, Post Planning Land Acquisitions, Bridging Loans for Prime Central London Purchases [b]"
+  ],
+  "useCases": [
+    "Family sale at a discount [a]",
+    "Sitting tenant buying the home they rent [a]",
+    "Professional investor buying from a distressed seller [a]",
+    "Buying below open market value where a high-street bank would lend only on the purchase price, leaving a deposit gap (£37,500 in the worked example) [a]",
+    "Related sibling pages [b]: repossessed properties and part-complete developments bought below value (/distressed-asset-finance/); auction purchases with completion deadlines (/auction-finance/)"
+  ],
+  "terms": [
+    "LTV (worked example only): 75% of £150,000 purchase price = £112,500 (deposit £37,500); 75% of £200,000 open market value = £150,000, covering the full purchase price [a][b]. No general maximum LTV stated.",
+    "Lending basis: specialist BMV lender lends against open market value, not discounted price [a][b]",
+    "Refinance: bridging lenders do not apply the six-month refinance restriction used by mainstream mortgage lenders [b]",
+    "Timescale: 'bridging funds arranged in days' (search summary attributes this to Silver Oak pages generally, not confirmed on this specific page) [b]",
+    "NOT revealed for this page: interest rates, broker/lender fees, minimum/maximum loan size, loan duration, security/charge details. [a] states explicitly that terms, fees and eligibility criteria are unverified.",
+    "[seed] sibling /bridging-loans-uk/: 12 to 24 months, secured on property, interest rolled up, repaid via refinance or sale (not confirmed on BMV page)"
+  ],
+  "eligibility": [
+    "The reason for the discount ('story') matters to lenders [b]",
+    "Buyer situations named: family discount sales, sitting tenants, professional investors buying from distressed sellers [a]",
+    "Legality caveat (from /faq/ via [b]): buying at any agreed price is legal, but misleading a lender about the price is mortgage fraud",
+    "No explicit criteria (credit, residency, minimum loan, property type, experience) revealed in results"
+  ],
+  "lenderTypes": [
+    "Specialist BMV lenders: lend against open market value [a][b]",
+    "Bridging lenders: no six-month refinance restriction [b]",
+    "Contrast: high-street banks / mainstream mortgage lenders: lend against the lower purchase price and apply the six-month rule [a][b]",
+    "[seed] firm-level lender-network claims not seen on this page: 700+ (/bridging-loans-uk/), 800+ (home, /faq/)"
+  ],
+  "processSteps": [
+    "None revealed for this page by the results.",
+    "[seed] firm-wide: contact via enquiry form, email or WhatsApp; lender shortlist typically narrowed to 3 or 4 potential partners (/commercial-mortgage-broker/, /property-development-finance/)"
+  ],
+  "faq": [
+    {
+      "q": "Is buying a property below market value legal?",
+      "a": "[b] from /faq/: 'Buying a house for any agreed price is legal, but misleading a lender about the price is mortgage fraud.'"
+    },
+    {
+      "q": "How much can be borrowed on a BMV purchase?",
+      "a": "[a][b] worked example only: 75% of the £200,000 open market value (£150,000) covers the full discounted purchase price, whereas a high-street 75% on the £150,000 price gives £112,500. No general LTV cap stated."
+    },
+    {
+      "q": "Can a BMV purchase be refinanced within six months?",
+      "a": "[b]: bridging lenders don't apply the six-month refinance restriction that mainstream mortgage lenders do."
+    },
+    {
+      "q": "What do lenders want to know about a BMV deal?",
+      "a": "[b]: the reason for the discount, or 'story', matters to lenders."
+    }
+  ],
+  "claims": [
+    {"claim": "A specialist BMV lender can lend against the higher open market valuation whereas a high-street bank lends against the lower purchase price", "kind": "product-positioning [a][b]"},
+    {"claim": "Worked example: £200,000 value, £150,000 price, 75% LTV: £112,500 (on price) vs £150,000 (on value); £37,500 deposit gap eliminated", "kind": "number / worked-example [a][b]"},
+    {"claim": "Bridging lenders don't apply the six-month refinance restriction that mainstream mortgage lenders do", "kind": "product-feature [b]"},
+    {"claim": "Lending on open market value, with bridging funds arranged in days", "kind": "speed promise (search summary attributes to Silver Oak pages generally) [b]"},
+    {"claim": "The 'story' behind the discount matters to lenders", "kind": "advice / criteria [b]"},
+    {"claim": "Buying at any agreed price is legal; misleading a lender about the price is mortgage fraud", "kind": "legal caveat (from /faq/) [b]"},
+    {"claim": "Pages date from roughly 4 to 7 months ago (approx. March to June 2026)", "kind": "freshness metadata from search tool [b]"},
+    {"claim": "LinkedIn and Crunchbase profiles confirm Silver Oak Capital is a London-based real estate debt firm", "kind": "credential / third-party confirmation [a]"},
+    {"claim": "No testimonials, awards, credentials, lender-count figures, rates or fees surfaced for this page", "kind": "absence"}
+  ],
+  "geography": [
+    "UK (page sits under UK bridging in the site nav; no geography stated specifically for this page in results) [seed]",
+    "London-based firm per LinkedIn/Crunchbase [a]"
+  ],
+  "ctas": [
+    "None revealed for this page in results.",
+    "[seed] site-wide: enquiry form, enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/below-market-purchases/ [a][b]",
+    "https://www.silveroakcapital.co.uk/faq/ [b]",
+    "https://www.silveroakcapital.co.uk/auction-finance/ [b]",
+    "https://www.silveroakcapital.co.uk/bridging-loans-for-prime-central-london-purchases/ [b] (NEW, not in seed)",
+    "https://www.silveroakcapital.co.uk/post-planning-land-acquisitions/ [b]",
+    "https://www.silveroakcapital.co.uk/distressed-asset-finance/ [b]",
+    "https://www.silveroakcapital.co.uk/property-investment-strategies-to-get-maximum-roi/ [b] (NEW, not in seed)",
+    "https://www.silveroakcapital.co.uk/ [b]",
+    "https://www.silveroakcapital.co.uk/different-ways-to-add-value-to-the-property-before-selling/ [b]",
+    "https://uk.linkedin.com/company/silver-oak-capital [a] (external)",
+    "https://www.crunchbase.com/organization/silver-oak-capital [a] (external, not in seed)"
+  ],
+  "notes": "Seed had no snippetsFromFirstPass entry for /below-market-purchases/; only the nav label 'Below Market Value Purchases' under Bridging. The 'verbatim' items are the search tool's summaries, not confirmed page text; only two sentences appeared quoted in the summaries ('A specialist BMV lender can often lend based on the £200,000 open market value.' and the /faq/ mortgage-fraud sentence). Both [a] and [b] give consistent content (OMV lending, £200k/£150k/75% example); no contradictions found between results or with the seed. [b]'s 'bridging funds arranged in days' is attributed to Silver Oak's pages collectively, not specifically this page. Query [c] returned NO Silver Oak-specific results; it surfaced only third-party UK industry context, recorded here for reference and NOT attributable to Silver Oak: a broker (Clifton Private Finance) says most bridging lenders lend 70% to 75% of open market value on BMV purchases, occasionally 80% on strong cases with a clean exit; MS Lending Group launched (Aug 2026) a BMV bridge at up to 90% of purchase price capped at 70% LTV against market value; commentary warns 'an asking price is not a valuation'. Unrelated entities ignored: Silver Oak Securities Inc., Silver Oak Services Partners, Silver Oak Capital LLC (US Form D), Silverfleet Capital, Montello Bridging Finance. Two new silveroakcapital.co.uk URLs discovered: /bridging-loans-for-prime-central-london-purchases/ and /property-investment-strategies-to-get-maximum-roi/.",
+  "confidence": "medium-low: page title and core explanation (OMV lending vs purchase price, £200k/£150k/75% worked example, three buyer types, six-month refinance rule, 'story' matters) surfaced consistently across [a] and [b]; H1, meta description, rates, fees, loan sizes, durations, process steps and CTAs were not revealed; verbatim wording is the search tool's paraphrase rather than confirmed page text",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/below-market-purchases.json"
+}

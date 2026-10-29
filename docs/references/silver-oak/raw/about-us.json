@@ -1,0 +1,131 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/about-us/",
+  "title": "About Us - Jimmy Baillie",
+  "h1": "Not revealed by snippets. The page <title> seen in results [a] and [b] is 'About Us - Jimmy Baillie'; the on-page H1 is probably 'About Us' but this is not confirmed.",
+  "metaDescription": "Not revealed by any snippet or summary.",
+  "summary": "Company/founder page of Silver Oak Capital (UK real estate debt brokerage). It profiles Jimmy Baillie, Founder & Managing Director, who founded the firm in 2019 to advise on loans between GBP 500k and GBP 20m secured on UK and overseas assets; it lists the debt advisory team (Connor Dooley, Senior Associate, Debt Advisory; Joe Berk, Associate, Debt Advisory; Sophia De Stefano, Relationship Manager) with bios covering education and experience, and (per seed) a 'Types Of Properties' list and the positioning 'one of Europe's leading large loan brokers'. Full body text was NOT retrieved: search results only exposed the title, the founder sentence, the founder's education and the team roles. Third-party sources (LinkedIn, Spear's, Weebly) give a different loan range (GBP 2m-20m) and different lender counts (500+ / 800+).",
+  "sections": [
+    {
+      "heading": "Jimmy Baillie - Founder & Managing Director (bio)",
+      "content": "[a][b][seed] Founded Silver Oak Capital in 2019; 'focussing on providing advice for loans between £500k – £20m' secured on UK and overseas assets. [b] Graduated from the University of Cape Town in 2010 with a BCom Honours Degree in Economics. [seed] Described as Managing Director; firm 'has focused on loans between £500K to £20m'. Rest of the bio (career history before 2019) not revealed."
+    },
+    {
+      "heading": "Our Team (debt advisory team)",
+      "content": "[a] The page lists a Senior Associate in Debt Advisory, an Associate in Debt Advisory and a Relationship Manager, 'along with bios of their education and experience'. [b] Names Connor Dooley and Joe Berk. [seed] Connor Dooley = Senior Associate, Debt Advisory (also Data Protection Officer per Ts&Cs); Joe Berk = Associate, Debt Advisory; Sophia De Stefano = Relationship Manager. Content of the individual bios not revealed."
+    },
+    {
+      "heading": "Types Of Properties",
+      "content": "[seed] A 'Types Of Properties' list exists on the page; 'student accommodation' is the only item confirmed. [seed, home page] sectors listed elsewhere on the site: retail, office, logistics, care homes, student accommodation, hotels; residential line 'Main home mortgages, Buy to Lets, Holiday Lets and HMO's'. No search result in this pass exposed the list itself."
+    },
+    {
+      "heading": "Positioning / who we are",
+      "content": "[seed] 'one of Europe's leading large loan brokers'. [a, LinkedIn] 'specialising in real estate debt solutions'; the firm 'does not operate as a high street mortgage broker but offers a bespoke solution for larger, more complex real estate transactions'. [b, home] commercial mortgage broker and property development finance provider arranging deals for borrowers who want to borrow, develop, refinance or acquire; offices London, Monaco, Dubai, Cape Town."
+    }
+  ],
+  "verbatim": [
+    "[a] 'He founded Silver Oak Capital in 2019 – focussing on providing advice for loans between £500k – £20m'",
+    "[a] page <title>: 'About Us - Jimmy Baillie'",
+    "[a] (search-tool summary of the page) 'names Jimmy Baillie as Managing Director and says he started the firm in 2019 to advise on loans of £500k to £20m, secured on UK and overseas assets'",
+    "[a] (search-tool summary of the page) 'lists staff including a Senior Associate in Debt Advisory, an Associate in Debt Advisory, and a Relationship Manager, along with bios of their education and experience'",
+    "[a] (LinkedIn company profile) 'specialising in real estate debt solutions' ; 'does not operate as a high street mortgage broker but offers a bespoke solution for larger, more complex real estate transactions' ; 'relationships with 500+ different private banks, investment banks, specialist lenders & private debt funds'",
+    "[b] (search-tool summary of the page) 'Jimmy graduated from the University of Cape Town in 2010 with a BCom Honours Degree in Economics'",
+    "[b] (search-tool summary of the page) 'The firm was founded in 2019 to advise on large loans. Its advice covers loans between £500K and £20m, secured on assets in the UK and abroad.'",
+    "[b] (search-tool summary of the page) 'profiles Jimmy Baillie as Managing Director and founder. It also lists a debt advisory team, including Connor Dooley and Joe Berk.'",
+    "[b] (home page, via summary) 'arranges debt across the UK, US, Western Europe and the Middle East. Its offices are listed as London, Monaco, Dubai and Cape Town.'",
+    "[b] (home page / commercial-mortgage-broker page, via summary) 'The homepage cites over 800 lenders, while the commercial mortgage broker page cites 700+ lenders.'",
+    "[b] (Ts&Cs PDF, via summary) 'Silver Oak Capital Limited, incorporated in England and Wales, with company number 08551479' ; 'does not provide regulated mortgage and insurance advice' ; 'does not handle client money' ; registered office '11 Honiton Road, London, NW6 6QE'",
+    "[b] (contact details, via summary) 'head office is at 91 Wimpole Street, London, W1G 0EE, phone 0207 459 4440, email enquiry@silveroakcapital.co.uk'",
+    "[c] (Spear's 500 profile, via summary) 'the debt advisory firm, which launched in 2019 and focuses on secured loans from £2 million to £20 million for ultra-high-net-worth clients'",
+    "[c] (Spear's 500 profile, via summary) 'works with more than 800 lenders and arranges real estate debt mainly in the UK, Western Europe, Southern Africa and the Middle East'",
+    "[c] (via summary) 'The team reportedly arranged a £19.1 million bridging loan in 2020 for international real estate developments.'",
+    "[c] (LinkedIn post, via summary) 'a £4 million bridging loan to refinance a prime Kensington residential property'",
+    "[seed] 'has focused on loans between £500K to £20m'",
+    "[seed] 'one of Europe's leading large loan brokers'",
+    "[seed] (Spear's profile) 'run from London and South Africa; advises UHNW clients on secured loans £2m–£20m; deals in UK, Western Europe, Southern Africa, Middle East; clients from UK, France, Spain, Dubai, South Africa'"
+  ],
+  "services": [
+    "Debt advisory / brokerage of large secured loans (GBP 500k-20m) on UK and overseas real estate [a][b][seed]",
+    "Real estate debt solutions for larger, more complex transactions (not a high street mortgage broker) [a, LinkedIn]",
+    "Commercial mortgage broking [b, home]",
+    "Property development finance [b, home]",
+    "Bridging loans (deal examples: GBP 19.1m bridging loan 2020; GBP 4m Kensington refinance) [c]",
+    "Advice to ultra-high-net-worth clients on secured loans [c, Spear's]"
+  ],
+  "useCases": [
+    "Borrow, develop, refinance or acquire real estate [b, home]",
+    "Refinance of a prime Kensington residential property (GBP 4m bridging loan) [c]",
+    "International real estate developments (GBP 19.1m bridging loan, 2020) [c]",
+    "Larger, more complex real estate transactions unsuited to high street brokers [a, LinkedIn]"
+  ],
+  "terms": [
+    "Loan size on this page: GBP 500k to GBP 20m [a][b][seed]",
+    "Loan size per Spear's / old Weebly homepage / commercial-mortgage-broker page: GBP 2m to GBP 20m (contradiction) [a][c][seed]",
+    "Security: loans secured on UK and overseas assets [a][b]",
+    "Lender network: 500+ (LinkedIn) [a]; 700+ (commercial-mortgage-broker page) [b]; 800+ (home page, Spear's) [b][c] (contradiction)",
+    "No LTV, interest rate, duration, fee or timescale figures revealed for this page",
+    "Firm does not provide regulated mortgage and insurance advice and does not handle client money (Ts&Cs, not this page) [b]"
+  ],
+  "eligibility": [
+    "Larger, more complex real estate transactions (bespoke rather than high street) [a, LinkedIn]",
+    "Ultra-high-net-worth clients [c, Spear's]",
+    "Loans from GBP 500k [a][b] (GBP 2m per Spear's [c])",
+    "UK and overseas assets accepted as security [a][b]"
+  ],
+  "lenderTypes": [
+    "Private banks [a, LinkedIn]",
+    "Investment banks [a, LinkedIn]",
+    "Specialist lenders [a, LinkedIn]",
+    "Private debt funds [a, LinkedIn]"
+  ],
+  "processSteps": [],
+  "faq": [],
+  "claims": [
+    {"claim": "Founded in 2019 by Jimmy Baillie (seed notes one page says 2018)", "kind": "founding date"},
+    {"claim": "Advice for loans between GBP 500k and GBP 20m", "kind": "loan size"},
+    {"claim": "Loans secured on UK and overseas assets", "kind": "scope"},
+    {"claim": "Jimmy Baillie: BCom Honours in Economics, University of Cape Town, 2010", "kind": "credential"},
+    {"claim": "Team: Senior Associate Debt Advisory (Connor Dooley), Associate Debt Advisory (Joe Berk), Relationship Manager (Sophia De Stefano)", "kind": "team"},
+    {"claim": "'one of Europe's leading large loan brokers'", "kind": "positioning (seed)"},
+    {"claim": "Relationships with 500+ private banks, investment banks, specialist lenders and private debt funds (LinkedIn)", "kind": "lender count"},
+    {"claim": "Over 800 lenders (home page, Spear's); 700+ (commercial-mortgage-broker page)", "kind": "lender count (contradiction)"},
+    {"claim": "Secured loans GBP 2m-20m for UHNW clients (Spear's)", "kind": "loan size (contradiction)"},
+    {"claim": "GBP 19.1m bridging loan arranged in 2020 (Spear's, self-reported)", "kind": "deal size"},
+    {"claim": "GBP 4m bridging loan to refinance a prime Kensington property (LinkedIn post)", "kind": "deal example"},
+    {"claim": "Added to Spear's 500 list for 2022", "kind": "award/recognition"},
+    {"claim": "Silver Oak Capital Limited, company number 08551479, England and Wales", "kind": "legal entity"},
+    {"claim": "Does not provide regulated mortgage and insurance advice; does not handle client money (Ts&Cs)", "kind": "regulatory disclaimer"},
+    {"claim": "Offices: London (91 Wimpole Street W1G 0EE), Monaco, Dubai, Cape Town; registered office 11 Honiton Road NW6 6QE", "kind": "locations"}
+  ],
+  "geography": [
+    "United Kingdom (London-based head office, 91 Wimpole Street) [b]",
+    "Overseas / abroad assets [a][b]",
+    "UK, US, Western Europe, Middle East (home page) [b]",
+    "UK, Western Europe, Southern Africa, Middle East (Spear's) [c][seed]",
+    "Offices: London, Monaco, Dubai, Cape Town [b]",
+    "Run from London and South Africa (Spear's, seed)",
+    "Clients from UK, France, Spain, Dubai, South Africa (seed)"
+  ],
+  "ctas": [
+    "No call-to-action text revealed for this page. Site-wide contact routes (seed/[b]): enquiry form, email enquiry@silveroakcapital.co.uk, phone 0207 459 4440 / +44 207 459 4440, WhatsApp."
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/about-us/",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/",
+    "https://www.silveroakcapital.co.uk/which-mortgage-company-is-right-for-you/",
+    "https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/",
+    "https://www.silveroakcapital.co.uk/wp-content/uploads/2026/02/Ts-and-Cs.pdf",
+    "external: https://uk.linkedin.com/company/silver-oak-capital",
+    "external: https://www.crunchbase.com/organization/silver-oak-capital",
+    "external: https://silveroakcapital.weebly.com/",
+    "external: https://spears500.com/adviser/22953/jimmy-baillie",
+    "external: https://spears500.com/adviser/6519/jimmy-baillie",
+    "external: https://linktr.ee/silveroakcapital",
+    "external: https://uk.linkedin.com/in/joe-berk"
+  ],
+  "confidence": "medium-low: page title, founder sentence, founder education and team roles confirmed by two independent result sets; full page body (bios, Types Of Properties list, any CTA/meta) was not retrievable. Third-party figures (Spear's, LinkedIn) are self-reported and contradict the page on loan range and lender count.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "notes": "Searches: (a) extended, exact URL; (b) extended, 'site:silveroakcapital.co.uk about us'; (c) standard, '\"Silver Oak Capital\" large loan broker lenders'. Direct fetch not attempted (blocked). Contradictions: loan range GBP 500k-20m (about-us) vs GBP 2m-20m (Spear's, Weebly old homepage, commercial-mortgage-broker page); lender count 500+ (LinkedIn) vs 700+ (commercial-mortgage-broker) vs 800+ (home, Spear's); founded 2019 vs 2018 (seed); head office 91 Wimpole Street W1G 0EE (W1G 0EF also seen in seed) vs registered office 11 Honiton Road NW6 6QE (Ts&Cs). No process steps, FAQ, fees, LTV or rates appear on this page per the retrieved material. Ignored unrelated results: Silver Oak Capital L.L.C. (New York, LEI 549300OBZ6YT3TQC2105), Silver Oak Multifamily Capital, Silver Oak Securities, silveroaksp.com, Silverfleet Capital, Silver Point Capital, SilverDoor, Oak Capital (Australia), The Real Deal 2014 article on NY brokerages.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/about-us.json"
+}

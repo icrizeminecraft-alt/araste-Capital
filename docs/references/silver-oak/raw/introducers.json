@@ -1,0 +1,140 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/introducers/",
+  "title": "Property Finance Introducers UK",
+  "summary": "Introducer / referral-partner page of Silver Oak Capital (London commercial mortgage broker). Intermediaries can refer borrowers for commercial mortgages, buy-to-let mortgages, bridging loans, development finance, marine finance or aviation finance. The firm positions itself as structuring bespoke debt solutions across the UK and Western Europe (residential and commercial mortgages, bridging, development finance, complex structures, special situations). Introducers are paid 'a competitive percentage of our procurement fee upon the successful completion of the loan', with terms agreed upfront; the actual percentage is not published. Process: Silver Oak issues indicative terms; once the client agrees to proceed, the introducer puts Silver Oak in direct contact with the borrower so it can run the formal application; the introducer keeps receiving milestone updates (valuation, legals, completion) and is paid as agreed on completion. The page stresses discretion, transparency and strict non-circumvention. Contact block: enquiry@silveroakcapital.co.uk, +44 207 459 4440, 91 Wimpole Street, London W1G 0EE. H1 and meta description were not revealed by the search results.",
+  "h1": "",
+  "metaDescription": "",
+  "sections": [
+    {
+      "heading": "Scope / positioning (page intro)",
+      "content": "[a] page text: 'We specialise in structuring bespoke debt solutions across the UK and Western Europe, navigating the complexities of residential and commercial mortgages, bridging, development finance, complex structures, and special situations.' Tool summary [a] frames the page as describing 'a referral program for intermediaries' run by 'a London commercial mortgage broker'."
+    },
+    {
+      "heading": "What introducers can refer (products)",
+      "content": "[b] page wording: products are listed as 'commercial mortgages, buy-to-let mortgages, bridging loans, development finance, marine finance, or aviation finance'. Consistent with [seed] snippet: 'can arrange commercial mortgages, buy-to-let mortgages, bridging loans, development finance, marine finance, or aviation finance'."
+    },
+    {
+      "heading": "How introducers are paid (fee sharing)",
+      "content": "[a][b][seed] page wording: the firm pays 'a competitive percentage of our procurement fee upon the successful completion of the loan'. [a] 'The terms are set in advance.' [b] 'the details are agreed at the outset'; 'The specific percentage isn't given publicly, and full terms are agreed up front.' [b] tool summary: 'Silver Oak describes its introducer arrangement as fee-sharing, with a share of its procurement fee paid on completion.' Nothing in the results gives the percentage, a minimum fee, or payment timing other than completion."
+    },
+    {
+      "heading": "How the process works",
+      "content": "[b] 'After indicative terms are issued and the client agrees to proceed, the introducer is asked to put Silver Oak in direct contact with the borrower. The introducer still receives milestone updates and is paid as agreed.' [b] 'The introducer is asked to connect Silver Oak directly with the borrower so it can run the formal application.' [a] 'regular progress updates through valuation, legals, and completion'. [seed] 'once indicative terms are provided, introducers introduce the borrower directly'."
+    },
+    {
+      "heading": "Commitments to introducers",
+      "content": "[a] 'The page promises discretion and non-circumvention'. [b] 'The page says the programme relies on discretion, transparency and strict non-circumvention.' [b] (second paraphrase) 'Its introducer process rests on discretion, openness and a firm non-circumvention rule.'"
+    },
+    {
+      "heading": "Contact block",
+      "content": "[a] 'enquiry@silveroakcapital.co.uk, +44 207 459 4440, 91 Wimpole Street, London W1G 0EE (from the page's contact block)'. Matches [seed] firm.contact and firm.office (W1G 0EE variant)."
+    },
+    {
+      "heading": "Related evidence from other site pages (not the introducers page itself)",
+      "content": "[b] /aviation-finance/: 'The typical broker fee for aviation finance is 1.50% of the loan amount.' (tool flags it as 'a general broker benchmark, not confirmed introducer fee terms'). [b] case studies: 'Several case studies describe deals sourced through overseas introducers, including one from Monaco and one from Geneva.' /case-studies/country-estate-refinance/: 'A Monaco-based introducer approached Silver Oak for help finding a private bank to refinance debt on a large English country estate.'"
+    },
+    {
+      "heading": "Third-party directory context",
+      "content": "[a] 'Introducer Today says it arranges large loans of £2-£20m, and Crunchbase lists it as specializing in development finance and commercial mortgage services. Those listings are older, so the introducers page is the more current source.' Source: https://www.introducertoday.co.uk/trades-directory/silver-oak-capital/ (listing, not the firm's site)."
+    }
+  ],
+  "verbatim": [
+    "[a] (SERP title, also [b]) \"Property Finance Introducers UK\"",
+    "[a] (page text) \"We specialise in structuring bespoke debt solutions across the UK and Western Europe, navigating the complexities of residential and commercial mortgages, bridging, development finance, complex structures, and special situations.\"",
+    "[a][b][seed] (page text) \"a competitive percentage of our procurement fee upon the successful completion of the loan\"",
+    "[b] (page wording as listed by tool) \"commercial mortgages, buy-to-let mortgages, bridging loans, development finance, marine finance, or aviation finance\"",
+    "[a] (tool summary) \"The terms are set in advance.\"",
+    "[b] (tool summary) \"the details are agreed at the outset\"",
+    "[b] (tool summary) \"The specific percentage isn't given publicly, and full terms are agreed up front.\"",
+    "[b] (tool summary) \"After indicative terms are issued and the client agrees to proceed, the introducer is asked to put Silver Oak in direct contact with the borrower. The introducer still receives milestone updates and is paid as agreed.\"",
+    "[b] (tool summary) \"The introducer is asked to connect Silver Oak directly with the borrower so it can run the formal application.\"",
+    "[a] (tool summary) \"The page promises discretion and non-circumvention, and regular progress updates through valuation, legals, and completion.\"",
+    "[b] (tool summary) \"The page says the programme relies on discretion, transparency and strict non-circumvention.\"",
+    "[b] (tool summary) \"Its introducer process rests on discretion, openness and a firm non-circumvention rule.\"",
+    "[a] (tool summary) \"The introducers page for Silver Oak Capital, a London commercial mortgage broker, describes a referral program for intermediaries.\"",
+    "[a] (contact block) \"enquiry@silveroakcapital.co.uk, +44 207 459 4440, 91 Wimpole Street, London W1G 0EE\"",
+    "[b] (other page: /aviation-finance/) \"The typical broker fee for aviation finance is 1.50% of the loan amount.\"",
+    "[b] (other page: /case-studies/country-estate-refinance/) \"A Monaco-based introducer approached Silver Oak for help finding a private bank to refinance debt on a large English country estate.\"",
+    "[b] (tool summary on case studies) \"Several case studies describe deals sourced through overseas introducers, including one from Monaco and one from Geneva.\"",
+    "[a] (third party, Introducer Today) \"arranges large loans of £2-£20m\"",
+    "[a] (third party, Crunchbase) \"specializing in development finance and commercial mortgage services\"",
+    "[seed] \"can arrange commercial mortgages, buy-to-let mortgages, bridging loans, development finance, marine finance, or aviation finance; pays 'a competitive percentage of our procurement fee upon the successful completion of the loan', details agreed upfront; once indicative terms are provided, introducers introduce the borrower directly.\""
+  ],
+  "services": [
+    "Commercial mortgages (referable by introducers) [b][seed]",
+    "Buy-to-let mortgages (referable by introducers) [b][seed]",
+    "Bridging loans (referable by introducers) [b][seed]",
+    "Development finance (referable by introducers) [b][seed]",
+    "Marine finance (referable by introducers) [b][seed]",
+    "Aviation finance (referable by introducers) [b][seed]",
+    "Residential mortgages (scope statement) [a]",
+    "Complex structures (scope statement) [a]",
+    "Special situations (scope statement) [a]",
+    "Introducer / referral partnership programme with fee sharing [a][b]"
+  ],
+  "useCases": [
+    "Intermediary (introducer) refers a borrower needing commercial, buy-to-let, bridging, development, marine or aviation finance and earns a share of the procurement fee on completion [a][b][seed]",
+    "Overseas introducers (Monaco, Geneva) sourcing deals for the firm, e.g. a Monaco-based introducer seeking a private bank to refinance debt on a large English country estate [b, case studies]"
+  ],
+  "terms": [
+    "Introducer remuneration: 'a competitive percentage of our procurement fee' [a][b][seed]",
+    "Payment timing: 'upon the successful completion of the loan' [a][b][seed]",
+    "Terms: agreed upfront / set in advance; actual percentage not published [a][b]",
+    "No loan sizes, LTV, rates, durations, security or timescales are stated on this page in the results obtained",
+    "Other page benchmark (not introducer terms): typical broker fee for aviation finance 1.50% of the loan amount [b, /aviation-finance/]",
+    "Third-party listing (Introducer Today): large loans of £2-£20m [a]"
+  ],
+  "eligibility": [
+    "Intermediaries / introducers (described by tool summary [a] as 'a referral program for intermediaries'); no qualifying criteria, regulatory status or minimum deal size for introducers revealed in results"
+  ],
+  "lenderTypes": [
+    "None named on the introducers page in results; a case study surfaced in [b] mentions a 'private bank' as the refinancing lender for a Monaco-introduced country estate deal"
+  ],
+  "processSteps": [
+    "1. Introducer refers a borrower/enquiry to Silver Oak Capital [a][b]",
+    "2. Silver Oak issues indicative terms [b][seed]",
+    "3. Client agrees to proceed [b]",
+    "4. Introducer puts Silver Oak in direct contact with the borrower so it can run the formal application [b][seed]",
+    "5. Introducer receives regular milestone/progress updates through valuation, legals and completion [a][b]",
+    "6. On successful completion, introducer is paid the agreed percentage of the procurement fee [a][b][seed]"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "Pays introducers 'a competitive percentage of our procurement fee upon the successful completion of the loan' [a][b][seed]", "kind": "promise/fee"},
+    {"claim": "Fee-share details agreed upfront / terms set in advance [a][b][seed]", "kind": "promise"},
+    {"claim": "Discretion, transparency and strict non-circumvention [a][b]", "kind": "promise"},
+    {"claim": "Regular progress updates through valuation, legals and completion [a]", "kind": "promise"},
+    {"claim": "'We specialise in structuring bespoke debt solutions across the UK and Western Europe' [a]", "kind": "positioning"},
+    {"claim": "Introducer Today directory: arranges large loans of £2-£20m [a]", "kind": "third-party/number"},
+    {"claim": "Crunchbase: specializing in development finance and commercial mortgage services [a] (Crunchbase slug 'silver-oak-capital' may be ambiguous with other Silver Oak entities; tool attributed it to this firm)", "kind": "third-party"},
+    {"claim": "Case studies describe deals sourced through overseas introducers in Monaco and Geneva [b]", "kind": "evidence/testimonial-like"},
+    {"claim": "Typical broker fee for aviation finance 1.50% of the loan amount [b, /aviation-finance/, not this page]", "kind": "number/other-page"}
+  ],
+  "geography": [
+    "United Kingdom [a]",
+    "Western Europe [a]",
+    "London office: 91 Wimpole Street, London W1G 0EE [a]",
+    "Introducers based in Monaco and Geneva mentioned in case studies [b]"
+  ],
+  "ctas": [
+    "Contact block on page: email enquiry@silveroakcapital.co.uk, phone +44 207 459 4440, address 91 Wimpole Street, London W1G 0EE [a]",
+    "No button/link wording (e.g. 'Become an introducer', 'Register') revealed by the results"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/introducers/",
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/wp-content/uploads/2026/02/Ts-and-Cs.pdf",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/",
+    "https://www.silveroakcapital.co.uk/aviation-finance/",
+    "https://www.silveroakcapital.co.uk/case-studies/manchester-office/",
+    "https://www.silveroakcapital.co.uk/case-studies/cotsworlds-listed/",
+    "https://www.silveroakcapital.co.uk/pre-construction-marine-finance/"
+  ],
+  "confidence": "medium",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/introducers.json",
+  "notes": "SERP title for the page is 'Property Finance Introducers UK' (seen in [a] and [b] link lists); H1 and meta description were NOT revealed, so h1/metaDescription are left empty rather than invented. Only one sentence of page text was returned verbatim ([a] scope sentence) plus the fee phrase; most other content is the search tool's paraphrase of the page, tagged '(tool summary)'. The percentage of the procurement fee shared with introducers is not public ([b]: 'I didn't find the actual percentage'). No contradictions between [a], [b] and the seed; minor wording variance in tool paraphrases ('transparency' vs 'openness'). Query [c] ('\"Silver Oak Capital\" introducers fees', standard) returned only unrelated US entities (Silver Oak Advisory Group, Silver Oak Wealth Advisors, Silver Oak LLC, Silver Oak Securities, Warmer referral platform, generic Law Insider introducer-fee clauses) and contributed nothing; all ignored. Query [a] also returned unrelated results ignored per rules: Silver Oak Capital LLC SEC Form D (StreetInsider), silveroak.capital, Silver Oak Services Partners, Kellogg Silver Oak thesis challenge, Wikipedia 'Capital introduction'. External relevant URLs seen: https://www.introducertoday.co.uk/trades-directory/silver-oak-capital/ (directory listing) and a Crunchbase profile (attribution to this UK firm not verified). New site URL not present in seed: https://www.silveroakcapital.co.uk/case-studies/cotsworlds-listed/ (title 'Cotsworlds Listed', sic). Direct fetching was not attempted, per task instructions (network blocked)."
+}

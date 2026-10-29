@@ -1,0 +1,109 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/lender-calculator/",
+  "title": "Mortgage & Development Finance Calculator UK",
+  "h1": "",
+  "metaDescription": "",
+  "summary": "Page body was not retrievable (direct fetch blocked; the URL-exact search [a] did not surface the page). Search [b] confirmed the page exists with the SERP title 'Mortgage & Development Finance Calculator UK' and summarised it as a tool for estimating borrowing capacity, loan terms and repayments for commercial and development finance deals across the UK: the user picks a project type and a loan type (seed adds loan size and term) and the tool shows how many lenders might back the project. Search [c] returned no Silver Oak Capital results at all. No form field labels, output format, lender names, rates or H1/meta text were revealed. Related leverage benchmarks surfaced from sibling pages (first-time developer 60-65% LTGDV max; stretch senior ~90% LTC cap; residential 75% LTGDV / 90% LTC) are recorded as context, not as calculator content.",
+  "verbatim": [
+    "[seed] tool estimating borrowing capacity, loan terms and repayments for commercial and development finance across the UK; select project type, loan type, loan size and term; shows how many lenders are willing to lend on a particular project.",
+    "[b] SERP title for /lender-calculator/: \"Mortgage & Development Finance Calculator UK\"",
+    "[b] \"Its main page is a tool for estimating borrowing capacity, loan terms, and repayments for commercial and development finance deals across the UK. You pick a project type and loan type, and it shows how many lenders might back the project. It also offers senior development finance, mezzanine, stretch senior, and first-time developer options.\" (search-tool summary, not page text; the last sentence may refer to sibling service pages rather than calculator options)",
+    "[b] \"For first-time developers, one page cites a maximum of 60% to 65% LTGDV, plus a larger deposit and higher contingency.\" (summary of /first-time-developer-finance/, not the calculator page)",
+    "[b] \"A stretch senior page gives a typical loan-to-cost cap of around 90%, with the residential figures of 75% LTGDV and 90% LTC noted.\" (summary of /stretch-senior-development-finance/)",
+    "[b] \"A separate article defines loan-to-cost and loan-to-gross-development-value with worked examples, which helps when reading the calculator's outputs.\" (refers to /development-finance-ltv-ltc-and-ltgdv-explained-.../)",
+    "[b] \"A separate Development Finance Scorecard tool scores a project across five metrics in under ten minutes, with a follow-up report and an optional consultation.\" (refers to https://developerscorecard.silveroakcapital.co.uk/)",
+    "[b] \"the search results show page ages ranging from about 8 days to several years\"",
+    "[a] \"I couldn't find the exact page at that URL in the results.\"",
+    "[a] Yacht finance calculator case study: \"a tool for estimating yacht loan repayments and comparing terms. It notes that a longer term normally means smaller monthly payments, while a shorter term means higher monthly payments.\" (sibling page /case-studies/yacht-finance-calculator/, not the lender calculator)",
+    "[a] \"The main site lists a 'Lender Calculator' link in its menu, so the page exists as part of the site's structure.\"",
+    "[a] \"The firm says it provides direct access to mortgage-only luxury asset lenders.\" (home page, per summary)",
+    "[a] \"None of the results describe what the lender calculator actually computes or what fields it asks for.\"",
+    "[c] \"I didn't find any results about Silver Oak Capital itself\" (query returned only unrelated third-party development-finance pages; nothing recorded from them)"
+  ],
+  "sections": [
+    {"heading": "Purpose of the tool (seed + [b])", "content": "Estimates borrowing capacity, loan terms and repayments for commercial and development finance deals across the UK. Positioned in the top navigation as 'Lender Calculator'; SERP title reads 'Mortgage & Development Finance Calculator UK'."},
+    {"heading": "Inputs (seed + [b])", "content": "Project type, loan type, loan size and term (seed). [b] confirms project type and loan type. Exact field labels, option lists and units were not revealed."},
+    {"heading": "Output (seed + [b])", "content": "Shows how many lenders are willing to lend / might back the particular project. Whether lender names, indicative rates or repayment figures are displayed was not revealed."},
+    {"heading": "Loan types possibly covered ([b], ambiguous)", "content": "Search summary mentions senior development finance, mezzanine, stretch senior and first-time developer options alongside the calculator; this may describe the calculator's loan-type dropdown or simply the sibling service pages that ranked for the query."},
+    {"heading": "Related leverage benchmarks from sibling pages ([b])", "content": "First-time developers: maximum 60% to 65% LTGDV, larger deposit and higher contingency (/first-time-developer-finance/). Stretch senior: typical loan-to-cost cap around 90%; residential figures 75% LTGDV and 90% LTC (/stretch-senior-development-finance/). LTV / LTC / LTGDV definitions with worked examples in the dedicated article."},
+    {"heading": "Companion tools ([a], [b])", "content": "Yacht Finance Calculator (case study page and a standalone /yacht-finance-calculator/ URL) for estimating yacht loan repayments and comparing terms. Development Finance Scorecard (developerscorecard.silveroakcapital.co.uk) scoring a project across five metrics in under ten minutes, with a follow-up report and optional consultation."},
+    {"heading": "Not revealed", "content": "H1, meta description, on-page copy, form field labels, disclaimers, CTA wording, lender list, rate assumptions, testimonials, FAQ blocks."}
+  ],
+  "services": [
+    "Lender / development finance calculator (borrowing capacity, loan terms, repayments)",
+    "Commercial finance",
+    "Property development finance",
+    "Senior development finance ([b], possibly as calculator option)",
+    "Stretch senior development finance ([b])",
+    "Mezzanine finance ([b])",
+    "First-time developer finance ([b])",
+    "Yacht finance calculator (sibling tool, [a]/[b])",
+    "Development Finance Scorecard (sibling tool, [b])"
+  ],
+  "useCases": [
+    "Estimating how much a developer or commercial borrower could raise for a given project (seed, [b])",
+    "Checking how many lenders in the broker's panel would consider a given project type / loan type / size / term before applying (seed, [b])",
+    "Estimating loan terms and repayments for commercial and development finance (seed, [b])"
+  ],
+  "terms": [
+    "Inputs: project type, loan type, loan size, term (seed; [b] confirms project type and loan type)",
+    "Geography: UK-wide deals (seed, [b])",
+    "First-time developer leverage: max 60-65% LTGDV, larger deposit, higher contingency (/first-time-developer-finance/ via [b], not calculator text)",
+    "Stretch senior leverage: typical LTC cap ~90%; residential 75% LTGDV and 90% LTC (/stretch-senior-development-finance/ via [b])",
+    "Yacht calculator principle: longer term normally means smaller monthly payments, shorter term higher monthly payments ([a], sibling page)",
+    "No rates, fees, minimum/maximum loan sizes, durations or security requirements were revealed for the lender calculator itself"
+  ],
+  "eligibility": [
+    "Not revealed for this page. Sibling-page context only: first-time developers face lower leverage (60-65% LTGDV) and need larger deposit and higher contingency ([b])."
+  ],
+  "lenderTypes": [
+    "Commercial and development finance lenders (count of willing lenders is the calculator's output; seed, [b])",
+    "Senior development finance lenders ([b], ambiguous whether calculator option)",
+    "Stretch senior lenders ([b])",
+    "Mezzanine lenders ([b])",
+    "First-time developer lenders ([b])",
+    "Mortgage-only luxury asset lenders (home page, per [a] summary; not calculator-specific)"
+  ],
+  "processSteps": [
+    "Select project type (seed, [b])",
+    "Select loan type (seed, [b])",
+    "Select loan size (seed)",
+    "Select term (seed)",
+    "View how many lenders are willing to lend on the project (seed, [b])"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "Tool estimates borrowing capacity, loan terms and repayments for commercial and development finance across the UK", "kind": "feature (seed, [b])"},
+    {"claim": "Shows how many lenders are willing to lend / might back a particular project", "kind": "feature (seed, [b])"},
+    {"claim": "SERP title: Mortgage & Development Finance Calculator UK", "kind": "metadata ([b])"},
+    {"claim": "First-time developers: maximum 60% to 65% LTGDV", "kind": "number (sibling page /first-time-developer-finance/, [b])"},
+    {"claim": "Stretch senior: typical loan-to-cost cap around 90%; residential 75% LTGDV and 90% LTC", "kind": "number (sibling page /stretch-senior-development-finance/, [b])"},
+    {"claim": "Development Finance Scorecard scores a project across five metrics in under ten minutes, with a follow-up report and an optional consultation", "kind": "feature/timescale (developerscorecard subdomain, [b])"},
+    {"claim": "Firm provides direct access to mortgage-only luxury asset lenders", "kind": "positioning (home page, [a])"},
+    {"claim": "Why 70% of London Development Finance Deals Get Rejected", "kind": "article title / statistic (new blog URL, [b])"}
+  ],
+  "geography": ["United Kingdom (across the UK)", "London (article title about London resi-led development deals, [b])"],
+  "ctas": [
+    "Not revealed for this page.",
+    "Sibling-page CTA wording seen: 'Development Finance Brokers - Get a Instant Quote Now' (SERP title of /development-finance-brokers/, [b])",
+    "Scorecard: follow-up report and optional consultation after scoring ([b])"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+    "https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/",
+    "https://www.silveroakcapital.co.uk/yacht-finance-calculator/",
+    "https://www.silveroakcapital.co.uk/first-time-developer-finance/",
+    "https://www.silveroakcapital.co.uk/development-finance-brokers/",
+    "https://www.silveroakcapital.co.uk/selecting-the-ideal-property-finance-specialist-for-successful-developments/",
+    "https://www.silveroakcapital.co.uk/stretch-senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/why-lenders-reject-70-of-london-resi-led-development-deals/",
+    "https://www.silveroakcapital.co.uk/development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/",
+    "https://developerscorecard.silveroakcapital.co.uk/"
+  ],
+  "notes": "Search (a) (extended, exact URL) did not return the target page; it returned the home page, a NW London bridge case study and the yacht finance calculator case study, plus unrelated US 'Silver Oak' entities (silveroakcp.com, Silver Oak Funding) which were ignored. Search (b) (extended, site:) returned the target page as first result with SERP title 'Mortgage & Development Finance Calculator UK' and a paraphrased description consistent with the seed; it also surfaced two URLs not in the seed: /yacht-finance-calculator/ (standalone, distinct from the case-study URL) and /why-lenders-reject-70-of-london-resi-led-development-deals/ (SERP title 'Why 70% of London Development Finance Deals Get Rejected'). Search (c) (standard) returned zero Silver Oak Capital results; all hits were unrelated third parties (Commercial Trust, Swoop, Capitalise, Oblix, etc.) and nothing from them was recorded. Contradiction with seed: seed labels developerscorecard.silveroakcapital.co.uk a 'placeholder template site', whereas search [b] describes it as a working Development Finance Scorecard (five metrics, under ten minutes, follow-up report, optional consultation). Ambiguity: [b]'s sentence 'It also offers senior development finance, mezzanine, stretch senior, and first-time developer options' may describe calculator dropdown options or merely the sibling pages ranked. SERP titles observed: 'First Time Developer Finance UK', 'Development Finance Brokers - Get a Instant Quote Now', 'Stretch Senior Development Finance UK', 'Choosing the Right Development Finance Broker for Your Property', 'Yacht Finance Calculator UK', 'Development Finance LTV, LTC & LTGDV Explained', 'NW London Bridging Loan', 'Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions' (home).",
+  "confidence": "low",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/lender-calculator.json"
+}

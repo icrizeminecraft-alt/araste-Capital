@@ -1,0 +1,105 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/conversions/",
+  "title": "Property Conversion Finance UK",
+  "h1": "Property Conversion Finance UK (search-result title; H1 not confirmed by snippets)",
+  "summary": "The /conversions/ page presents Silver Oak Capital's 'conversion finance': short-term (bridging-type) funding for projects where the use class of a building changes. Two routes are described: (1) commercial-to-residential conversions under permitted development rights and (2) residential title-splitting, turning one large house into several flats. Lenders size the loan on the post-conversion value: the page cites borrowing of up to 65-70% of gross development value (GDV), said to cover most construction costs. The page also mentions the creation of new leases for each unit. Only partial excerpts were surfaced; no verbatim page text, meta description, FAQ, fees, rates, durations or CTA wording were revealed. Related site pages (refurbishment, HMO, mixed-use, bridging) carry adjacent detail.",
+  "verbatim": [
+    "[a] search-tool summary: \"its conversions page is about financing for property conversions. The page covers two categories: commercial-to-residential projects under permitted development rights, and residential title-splitting projects that turn one house into several flats.\"",
+    "[a] search-tool summary: \"The excerpt says lenders base the loan on the post-conversion value, and it cites borrowing up to 65–70% of that gross development value, which can cover most construction costs.\"",
+    "[a] search-tool summary: \"The page also says the firm handles the legal work of creating new leases for each unit.\"",
+    "[a] search-tool summary (homepage): \"Its homepage lists development finance, bridging loans, and residential and commercial mortgages, and says it focuses on loans over £500,000.\"",
+    "[a] search-tool summary: \"Silver Oak Capital is a London-based real estate debt firm\"",
+    "[a][b] SERP title of the page: \"Property Conversion Finance UK\"",
+    "[b] search-tool summary: \"The main conversions page describes conversion finance as a form of short-term funding designed for projects where the use class of a building is changing. It covers two routes: commercial-to-residential conversions under permitted development, and title-splitting a large house into flats.\"",
+    "[b] search-tool summary (related page /light-to-heavy-refurbishment/): \"a short-term bridging loan that covers the purchase price of a property and typically 100% of the build costs. Funds are released in stages, with a monitoring surveyor checking progress\" and \"Funds are released in tranches, overseen by a monitoring surveyor who visits the site to verify progress.\"",
+    "[b] search-tool summary (related pages /mixed-use-property-finance/ and /hmo-finance/): \"the firm can arrange short-term bridging finance to facilitate the works and title splitting on mixed-use buildings, and bridging finance for HMO conversions.\"",
+    "[b] search-tool summary (homepage): \"a commercial mortgage broker that arranges debt through a network of over 800 lenders.\"",
+    "[c] search-tool summary (Silver Oak odoo blog, not the conversions page): a bridging loan is \"a short term facility that gives a borrower fast access to finance.\"",
+    "[c] search-tool summary: \"I found no source on 'conversion finance' as a product, and no detailed Silver Oak application steps, fees, or eligibility.\"",
+    "[seed] navigation: 'Conversions' sits under the Bridging service group alongside Bridging Loans UK, Auction Finance, Below Market Value Purchases, Distressed Asset Finance, Light to Heavy Refurbishment, Development Exit Loans, Post Planning Land Acquisitions.",
+    "[seed] /property-development-finance/ snippet: loans fund real estate schemes \"(either ground-up or conversions) of any nature\"."
+  ],
+  "sections": [
+    {"heading": "What conversion finance is", "content": "Short-term funding designed for projects where the use class of a building is changing [b]. Positioned under the Bridging services group in site navigation [seed]."},
+    {"heading": "Commercial to residential (permitted development)", "content": "Conversions of commercial buildings into residential use under permitted development rights [a][b]."},
+    {"heading": "Residential title splitting", "content": "Projects that turn one large house into several flats, with titles split per unit [a][b]."},
+    {"heading": "How the loan is sized", "content": "Lenders base the loan on the post-conversion value; the page cites borrowing of up to 65-70% of gross development value, which can cover most construction costs [a]."},
+    {"heading": "New leases per unit", "content": "The page mentions the legal work of creating new leases for each unit; the search summary attributes this to the firm, which may be a paraphrase of a process description [a]."},
+    {"heading": "Related pages surfaced", "content": "Refurbishment finance (purchase price + typically 100% of build costs, tranche drawdown with monitoring surveyor), HMO finance (bridging for HMO conversions), mixed-use finance (bridging for works and title splitting), bridging loans UK, and two blog articles on bridging [b]."}
+  ],
+  "services": [
+    "Property conversion finance (short-term / bridging-type funding)",
+    "Commercial-to-residential conversion finance under permitted development rights",
+    "Residential title-splitting finance (one house into several flats)",
+    "Related on site: refurbishment finance, HMO conversion bridging, mixed-use works and title-splitting bridging [b]"
+  ],
+  "useCases": [
+    "Converting a commercial building to residential under permitted development rights [a][b]",
+    "Title-splitting a large house into several flats [a][b]",
+    "Projects where the use class of a building is changing [b]",
+    "Related: HMO conversions (/hmo-finance/) [b]",
+    "Related: works and title splitting on mixed-use buildings (/mixed-use-property-finance/) [b]"
+  ],
+  "terms": [
+    "Short-term funding [b]",
+    "Loan based on post-conversion value (gross development value) [a]",
+    "Up to 65-70% of GDV [a]",
+    "Said to cover most construction costs [a]",
+    "Not revealed for this page: rates, fees, loan sizes, durations, timescales, security wording",
+    "Site-wide context: firm focuses on loans over £500,000 [a][seed]",
+    "Related page (/light-to-heavy-refurbishment/): purchase price plus typically 100% of build costs; funds released in tranches overseen by a monitoring surveyor [b]"
+  ],
+  "eligibility": [
+    "Project must involve a change of use class of the building [b]",
+    "Commercial-to-residential schemes under permitted development rights [a][b]",
+    "Title-splitting schemes (large house into flats) [a][b]",
+    "No explicit borrower criteria (experience, deposit, credit, residency) revealed in results"
+  ],
+  "lenderTypes": [
+    "Not specified on the conversions page in the surfaced excerpts",
+    "Site-wide: network of over 800 lenders (homepage) [b]; 700+ on /bridging-loans-uk/ and 300+ on /property-development-finance/ [seed]"
+  ],
+  "processSteps": [
+    "Loan sized against the post-conversion value (GDV) rather than current value [a]",
+    "New leases created for each unit as part of title splitting [a]",
+    "No application sequence, timescale or drawdown steps revealed for this page; related refurbishment page describes tranche release verified by a monitoring surveyor [b]"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "Borrowing of up to 65-70% of gross development value on conversion projects", "kind": "number / LTGDV"},
+    {"claim": "Loan can cover most construction costs", "kind": "promise"},
+    {"claim": "Lenders base the loan on the post-conversion value", "kind": "lending mechanic"},
+    {"claim": "The firm handles the legal work of creating new leases for each unit (as summarised by the search tool; possibly a paraphrase)", "kind": "service claim (unverified wording)"},
+    {"claim": "London-based real estate debt firm", "kind": "positioning"},
+    {"claim": "Focuses on loans over £500,000 (homepage)", "kind": "number"},
+    {"claim": "Arranges debt through a network of over 800 lenders (homepage)", "kind": "number"},
+    {"claim": "No testimonials, awards or credentials surfaced for this page", "kind": "absence"}
+  ],
+  "geography": [
+    "UK (page title 'Property Conversion Finance UK') [a][b]",
+    "London-based firm [a]"
+  ],
+  "ctas": [
+    "Not revealed in snippets for this page",
+    "Site-wide contact routes [seed]: enquiry form, enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/conversions/",
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/light-to-heavy-refurbishment/",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "https://www.silveroakcapital.co.uk/hmo-finance/",
+    "https://www.silveroakcapital.co.uk/mixed-use-property-finance/",
+    "https://www.silveroakcapital.co.uk/common-uses-for-property-bridging-loans-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/importance-of-bridging-loans-for-property-development/",
+    "external: https://uk.linkedin.com/company/silver-oak-capital",
+    "external: https://linktr.ee/silveroakcapital",
+    "external: https://silveroakcapital.odoo.com/blog/finance-1/bridging-loan-vs-traditional-mortgage-3",
+    "external: https://silveroakcapital.odoo.com/blog/finance-1/property-bridging-loan-in-uk-2",
+    "external: https://uk.linkedin.com/in/joe-berk"
+  ],
+  "confidence": "medium-low: the page was surfaced only as partial excerpts paraphrased by the search tool; the 65-70% GDV figure and the two conversion routes are consistent across [a] and [b], but no exact page text, meta description, FAQ, fees, rates or CTA wording was obtained",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "notes": "SERP titles for related pages: 'Refurbishment Finance UK' (/light-to-heavy-refurbishment/), 'Mortgage Bridging Loans UK & London' (/bridging-loans-uk/), 'HMO Finance UK' (/hmo-finance/), 'Mixed Use Property Finance UK' (/mixed-use-property-finance/), 'Property Bridging Loans UK Guide: Purchase, Sale & Refurbishment Finance' (blog). All 'verbatim' entries are the search tool's summary wording of snippets, not confirmed page text. The statement that 'the firm handles the legal work of creating new leases' is likely a paraphrase of a process description (brokers do not normally do conveyancing); verify before reuse. Query [c] returned no conversions-page content; its Silver Oak hits were odoo blog posts and a Linktree. Unrelated results ignored: Silver Oak Capital LLC (SEC Form D), Silver Oak Services Partners / Smile Partners, Oaktree Capital, Crunchbase 'silver-oak-capital' (entity not confirmed), Assetz Capital. Lender-count claims differ by page (300+/700+/800+ per seed); homepage figure of 800+ reconfirmed in [b]. No meta description obtained."
+}

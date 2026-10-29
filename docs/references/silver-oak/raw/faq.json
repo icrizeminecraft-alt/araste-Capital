@@ -1,0 +1,135 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/faq/",
+  "title": "Property Finance FAQs",
+  "h1": "NOT CONFIRMED - only the search-result title 'Property Finance FAQs' [b] was revealed; the on-page H1 was not surfaced by any result.",
+  "metaDescription": "NOT CONFIRMED - the search tool's summary [b] says the page 'covers commercial mortgages, development finance, bridging loans, and property funding, with sections on buy-to-let, foreign national, Prime London, international, and portfolio mortgages', which may paraphrase the meta description but is not verbatim page text.",
+  "summary": "The /faq/ page is titled 'Property Finance FAQs' [b]. Per the search tool's summary [b] it covers commercial mortgages, development finance, bridging loans and property funding, with sections on buy-to-let, foreign national, Prime London, international and portfolio mortgages. Only one verbatim sentence from the page was surfaced: 'Most BTL products will max out at 75% LTV, requiring a deposit from the borrower of 25% of the property's value.' [b]. The seed (first-pass snippet) adds paraphrased FAQ content on HMO LTV (typically 75%, some lenders 80% in exceptional circumstances), Article 4 directions helping valuations, Consumer Buy-to-Let falling under FCA rules, the 40% owner/family occupation threshold making a loan regulated, non-resident lending needing stronger documentation / more conservative LTV / path-of-funds AML-KYC evidence, portfolio loans sitting alongside existing individual mortgages, a narrowed premium on portfolio products, sector-agnostic whole-loan providers (PBSA, hotels, BTR, industrial), some lenders accepting first-time HMO buyers with strong personal income and a clear management plan, and a 'network of over 800 lenders'. Search [a] (exact URL) did not return the FAQ page at all and only returned secondhand directory/profile pages; search [c] returned nothing about Silver Oak Capital (only other UK lenders' HMO criteria, ignored). The actual question wording, number of FAQ entries, page structure, CTAs and any FAQ on commercial mortgages/development/bridging remain unrevealed.",
+  "sections": [
+    {"heading": "Buy-to-Let mortgages (section confirmed by [b])", "content": "[b] verbatim: 'Most BTL products will max out at 75% LTV, requiring a deposit from the borrower of 25% of the property's value.' [b] summary: 'most products cap lending at 75% loan-to-value, though lenders vary'. [seed] paraphrase: Consumer Buy-to-Let can fall under FCA rules; 'If you or a family member occupies more than 40% of the property, it becomes a regulated loan'."},
+    {"heading": "HMO finance (section inferred from [seed] snippet; not named in [b] section list)", "content": "[seed] paraphrase: HMO max LTV typically 75%, some lenders 80% in exceptional circumstances; an Article 4 direction can help valuations; some lenders allow first-time HMO buyers with strong personal income and a clear management plan."},
+    {"heading": "Foreign national / international / non-resident mortgages (sections 'foreign national' and 'international' confirmed by [b])", "content": "[seed] paraphrase: non-resident lending needs stronger documentation, more conservative LTV, and evidence of path of funds (AML/KYC). No verbatim text surfaced."},
+    {"heading": "Prime London mortgages (section confirmed by [b])", "content": "Section named in the [b] summary only; no content surfaced from any result or the seed."},
+    {"heading": "Portfolio mortgages (section confirmed by [b])", "content": "[seed] paraphrase: 'A portfolio loan can sit alongside existing individual mortgages'; the premium on portfolio products has narrowed."},
+    {"heading": "Commercial mortgages / development finance / bridging loans / property funding (topics named in [b] summary)", "content": "[b] summary says the page 'covers commercial mortgages, development finance, bridging loans, and property funding'. [seed] paraphrase possibly belonging here: whole-loan providers are often sector-agnostic (PBSA, hotels, BTR, industrial). No verbatim FAQ text on these topics surfaced."},
+    {"heading": "Lender network (placement on page unknown)", "content": "[seed] paraphrase: 'network of over 800 lenders'. Contradiction: other site pages cite 300+ (/property-development-finance/), 500+ (LinkedIn) and 700+ (/commercial-mortgage-broker/, /bridging-loans-uk/)."}
+  ],
+  "verbatim": [
+    "[b] (search-result title of /faq/) \"Property Finance FAQs\"",
+    "[b] (page text, buy-to-let answer) \"Most BTL products will max out at 75% LTV, requiring a deposit from the borrower of 25% of the property's value.\"",
+    "[b] (search tool summary, not page text) \"It covers commercial mortgages, development finance, bridging loans, and property funding, with sections on buy-to-let, foreign national, Prime London, international, and portfolio mortgages.\"",
+    "[b] (search tool summary, not page text) \"most products cap lending at 75% loan-to-value, though lenders vary\"",
+    "[seed] (first-pass snippet of /faq/) \"If you or a family member occupies more than 40% of the property, it becomes a regulated loan\"",
+    "[seed] (first-pass snippet of /faq/) \"A portfolio loan can sit alongside existing individual mortgages\"",
+    "[seed] (first-pass snippet of /faq/, paraphrase) \"HMO max LTV typically 75%, some lenders 80% in exceptional circumstances; Article 4 direction can help valuations; BTL products max out at 75% LTV (25% deposit); Consumer Buy-to-Let can fall under FCA rules\"",
+    "[seed] (first-pass snippet of /faq/, paraphrase) \"non-resident lending needs stronger documentation, more conservative LTV, path of funds (AML/KYC)\"",
+    "[seed] (first-pass snippet of /faq/, paraphrase) \"premium on portfolio products has narrowed; whole-loan providers often sector-agnostic: PBSA, hotels, BTR, industrial; some lenders allow first-time HMO buyers with strong personal income and clear management plan; network of over 800 lenders\"",
+    "[a] (secondhand directory/profile pages, NOT the FAQ page) \"debt advisory firm located in London, UK\"",
+    "[a] (secondhand, NOT the FAQ page) \"does not operate as a high street mortgage broker but offers a bespoke solution for larger, more complex real estate transactions\"",
+    "[a] (secondhand founder profile, NOT the FAQ page) \"founded Silver Oak Capital in 2019 with a focus on loans between £2m and £20m\"",
+    "[a] (directory listing) \"enquiry@silveroakcapital.co.uk\" and \"0207 459 4440\"",
+    "[b] (other site page /hotel-finance/, FAQ-style answer) \"Silver Oak Capital can structure the application to rely on their experience rather than yours to satisfy the lender.\"",
+    "[b] (other site page /superyacht-finance/, FAQ-style answer) \"We can arrange separate asset finance for tenders, toys, and helicopters, or in some cases, wrap them into the main superyacht facility\"",
+    "[b] (other site page /post-planning-land-acquisitions/, FAQ-style answer on term) \"Typically 12 to 18 months.\"",
+    "[b] (other site page /auction-finance/, FAQ-style answer on decision in principle) \"Typically within 1 to 4 hours.\""
+  ],
+  "services": [
+    "Commercial mortgages [b]",
+    "Development finance [b]",
+    "Bridging loans [b]",
+    "Property funding [b]",
+    "Buy-to-let mortgages [b][seed]",
+    "HMO finance [seed]",
+    "Foreign national mortgages [b][seed]",
+    "Prime London mortgages [b]",
+    "International (property) mortgages [b]",
+    "Portfolio mortgages [b][seed]",
+    "Non-resident lending [seed]",
+    "Whole loans (via sector-agnostic whole-loan providers) [seed]"
+  ],
+  "useCases": [
+    "Landlord buying a buy-to-let with a 25% deposit (75% LTV cap) [b]",
+    "First-time HMO buyer with strong personal income and a clear management plan (accepted by some lenders) [seed]",
+    "Non-resident / foreign national borrowing against UK property with path-of-funds evidence [seed]",
+    "Portfolio landlord adding a portfolio loan alongside existing individual mortgages [seed]",
+    "Owner or family member occupying more than 40% of the property (loan becomes regulated) [seed]",
+    "Whole-loan funding for PBSA, hotels, BTR and industrial assets [seed]"
+  ],
+  "terms": [
+    "BTL: 'Most BTL products will max out at 75% LTV, requiring a deposit from the borrower of 25% of the property's value.' [b]; lenders vary [b]",
+    "HMO: max LTV typically 75%; some lenders 80% in exceptional circumstances [seed]",
+    "Non-resident lending: more conservative LTV than resident lending [seed]",
+    "Portfolio products: the premium (pricing) has narrowed [seed] - no figure given",
+    "No interest rates, fees, loan sizes, durations, timescales or security details for the FAQ page were revealed by [a], [b] or [c]",
+    "Firm-level, secondhand [a]: focus on loans between £2m and £20m (contradicts home/lenders pages 'over £500,000' and about-us '£500k to £20m' per seed)"
+  ],
+  "eligibility": [
+    "BTL borrower needs a 25% deposit for most products (75% LTV cap) [b]",
+    "HMO borrowers: up to 75% LTV typically, 80% only with some lenders in exceptional circumstances [seed]",
+    "First-time HMO buyers accepted by some lenders if they have strong personal income and a clear management plan [seed]",
+    "Non-residents: stronger documentation, more conservative LTV, path of funds (AML/KYC) required [seed]",
+    "If the borrower or a family member occupies more than 40% of the property, the loan becomes regulated [seed]",
+    "Consumer Buy-to-Let can fall under FCA rules [seed]"
+  ],
+  "lenderTypes": [
+    "'network of over 800 lenders' [seed /faq/] (contradicts 300+/500+/700+ cited on other pages per seed)",
+    "Whole-loan providers, often sector-agnostic: PBSA, hotels, BTR, industrial [seed]",
+    "Unnamed 'some lenders' offering 80% LTV on HMO in exceptional circumstances [seed]",
+    "Unnamed 'some lenders' accepting first-time HMO buyers [seed]",
+    "No private banks, challenger banks or specific lender names revealed for this page"
+  ],
+  "processSteps": [
+    "No process steps revealed for the FAQ page by [a], [b] or [c]. Only process-related item: non-resident borrowers must evidence path of funds for AML/KYC [seed]."
+  ],
+  "faq": [
+    {"q": "[topic inferred; question wording not confirmed] What is the maximum LTV on a buy-to-let mortgage?", "a": "[b] verbatim: 'Most BTL products will max out at 75% LTV, requiring a deposit from the borrower of 25% of the property's value.' Lenders vary [b]."},
+    {"q": "[topic inferred from seed] What is the maximum LTV for HMO finance?", "a": "[seed] paraphrase: typically 75%; some lenders go to 80% in exceptional circumstances."},
+    {"q": "[topic inferred from seed] Does an Article 4 direction affect an HMO?", "a": "[seed] paraphrase: an Article 4 direction can help valuations."},
+    {"q": "[topic inferred from seed] Can a first-time buyer get HMO finance?", "a": "[seed] paraphrase: some lenders allow first-time HMO buyers with strong personal income and a clear management plan."},
+    {"q": "[topic inferred from seed] Is buy-to-let regulated by the FCA?", "a": "[seed] paraphrase: Consumer Buy-to-Let can fall under FCA rules; verbatim: 'If you or a family member occupies more than 40% of the property, it becomes a regulated loan'."},
+    {"q": "[topic inferred from seed] Can non-residents / foreign nationals borrow?", "a": "[seed] paraphrase: non-resident lending needs stronger documentation, more conservative LTV, and path of funds evidence (AML/KYC)."},
+    {"q": "[topic inferred from seed] Can I take a portfolio loan if I already have individual mortgages?", "a": "[seed] verbatim: 'A portfolio loan can sit alongside existing individual mortgages'. Paraphrase: the premium on portfolio products has narrowed."},
+    {"q": "[topic inferred from seed] Which sectors do whole-loan providers fund?", "a": "[seed] paraphrase: whole-loan providers are often sector-agnostic: PBSA, hotels, BTR, industrial."},
+    {"q": "[topic inferred from seed] How many lenders does Silver Oak Capital work with?", "a": "[seed] paraphrase: a network of over 800 lenders."},
+    {"q": "[unrevealed] Any FAQ entries on commercial mortgages, development finance, bridging loans, Prime London or international mortgages", "a": "The [b] summary says these topics/sections exist on the page, but no question or answer text was surfaced."}
+  ],
+  "claims": [
+    {"claim": "Network of over 800 lenders [seed /faq/]; contradiction: 300+ on /property-development-finance/, 500+ on LinkedIn, 700+ on /commercial-mortgage-broker/ and /bridging-loans-uk/ (seed)", "kind": "number"},
+    {"claim": "Most BTL products max out at 75% LTV (25% deposit) [b]", "kind": "term"},
+    {"claim": "HMO LTV typically 75%, some lenders 80% in exceptional circumstances [seed]", "kind": "term"},
+    {"claim": "Occupation of more than 40% of the property by the borrower or a family member makes the loan regulated [seed]", "kind": "regulatory"},
+    {"claim": "Consumer Buy-to-Let can fall under FCA rules [seed]", "kind": "regulatory"},
+    {"claim": "An Article 4 direction can help HMO valuations [seed]", "kind": "statement"},
+    {"claim": "The premium on portfolio products has narrowed [seed]", "kind": "market"},
+    {"claim": "Whole-loan providers are often sector-agnostic (PBSA, hotels, BTR, industrial) [seed]", "kind": "market"},
+    {"claim": "Secondhand [a], not from FAQ page: founded in 2019 with a focus on loans between £2m and £20m; contradicts 'over £500,000' (home, /lenders/) and '£500k to £20m' (/about-us/) per seed; seed also notes one page says 2018", "kind": "credential"},
+    {"claim": "Secondhand [a], not from FAQ page: 'does not operate as a high street mortgage broker but offers a bespoke solution for larger, more complex real estate transactions'", "kind": "positioning"},
+    {"claim": "No testimonials, awards, named lenders or statistics were revealed for the FAQ page", "kind": "absence"}
+  ],
+  "geography": [
+    "United Kingdom (BTL/HMO, FCA regulation, Article 4 directions imply England/UK) [b][seed]",
+    "Prime London (named section) [b]",
+    "International / foreign national / non-resident borrowers (named sections) [b][seed]",
+    "Firm located in London, UK [a secondhand]; office 91 Wimpole Street, London W1G 0EE [seed]"
+  ],
+  "ctas": [
+    "No calls to action from the FAQ page were revealed by [a], [b] or [c]",
+    "Site-level contact routes per seed (not confirmed on /faq/): enquiry form, enquiry@silveroakcapital.co.uk, WhatsApp, +44 207 459 4440; [a] directory lists enquiry@silveroakcapital.co.uk and 0207 459 4440"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/faq/ [b]",
+    "https://www.silveroakcapital.co.uk/hotel-finance/ [b]",
+    "https://www.silveroakcapital.co.uk/aviation-operating-lease-finance-advisory/ [b] - NEW, not in seed page list",
+    "https://www.silveroakcapital.co.uk/superyacht-finance/ [b]",
+    "https://www.silveroakcapital.co.uk/post-planning-land-acquisitions/ [b]",
+    "https://www.silveroakcapital.co.uk/auction-finance/ [b]",
+    "https://www.silveroakcapital.co.uk/development-finance-ltv-ltc-and-ltgdv-explained-how-lenders-decide-what-you-can-borrow/ [b]",
+    "https://developerscorecard.silveroakcapital.co.uk/ [b] - described by the search tool as 'a questionnaire rather than an FAQ'",
+    "External, same firm: https://silveroakcapital.odoo.com/ [a], https://silveroakcapital.weebly.com/ [a], https://uk.linkedin.com/company/silver-oak-capital [a]",
+    "External, unverified whether same firm: https://www.crunchbase.com/organization/silver-oak-capital [a]"
+  ],
+  "confidence": "low-medium: page title and section list confirmed by [b]; exactly one verbatim on-page sentence (BTL 75% LTV) obtained; the rest of the FAQ content rests on the first-pass seed paraphrase; [a] returned no FAQ content and [c] returned nothing about Silver Oak Capital.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "notes": "Searches performed: (a) extended, exact URL - FAQ page not returned, only secondhand profiles and unrelated US/Indian 'Silver Oak' firms (ignored: silveroakcapital.in, silveroakmultifamily.com, silveroaksp.com, Form D Silver Oak Capital LLC, Oaktree, Silverfleet); (b) extended, 'site:silveroakcapital.co.uk faq frequently asked questions' - returned the FAQ page title, section list and one verbatim BTL sentence, plus FAQ-style answers from other product pages; (c) standard, '\"Silver Oak Capital\" FAQ HMO buy-to-let \"loan to value\"' - zero Silver Oak results; the market HMO LTV figures it returned (YBS, Family BS, MoneyHelper, MT Finance) are NOT Silver Oak claims and were not recorded. Contradictions logged: lender count (800+ on /faq/ vs 300+/500+/700+ elsewhere); loan-size focus (£2m-£20m secondhand vs £500k+ / £500k-£20m on site); founding year 2019 vs 2018 (seed). Unrevealed: H1, meta description, question wording, FAQ count, CTAs, any text on commercial/development/bridging/Prime London/international FAQ entries. The relayed user request mentions a 403 error when transferring a folder; that is outside this extraction step and was not acted on here - flagged for the orchestrator.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/faq.json"
+}

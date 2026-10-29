@@ -1,0 +1,151 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/light-to-heavy-refurbishment/",
+  "title": "Refurbishment Finance UK",
+  "summary": "Service page for Silver Oak Capital's refurbishment finance, presented as a short-term bridging loan covering the purchase price of a property and typically 100% of build costs, with works funds released in stages/in arrears after inspection and interest rolled up or retained until sale or refinance. The page segments works into light (cosmetic, no building regs or planning), medium (beyond cosmetic, usually under Permitted Development Rights, often needing building regs approval) and heavy (extending the footprint or changing the roofline, e.g. dormer loft conversion). Search excerpts reveal no rates, fees, minimum loan size or LTV for this page; the heavy tier text was truncated in results. Search (c) surfaced nothing about the firm.",
+  "sections": [
+    {
+      "heading": "Overview / bespoke refurbishment finance (light, medium, heavy)",
+      "content": "[a][b] 'Silver Oak Capital specialises in securing bespoke refurbishment finance solutions across the entire spectrum – light, medium, and heavy.' [a][b] The firm says it can fund up to 100% of build costs, released in stages. [a] The product is described as a short-term bridging loan that 'covers the purchase price of a property and typically 100% of the build costs'."
+    },
+    {
+      "heading": "Light refurbishment",
+      "content": "[a] 'purely cosmetic updates that do not require building regulations or planning permission' - examples given: kitchens, bathrooms, decorating, flooring. [b] Examples repeated: kitchens, bathrooms, redecorating; the page notes these loans are typically quick to arrange with light monitoring (tool paraphrase)."
+    },
+    {
+      "heading": "Medium refurbishment",
+      "content": "[a][b] Works that go beyond cosmetic changes but stop short of major structural work; they 'often require building regulations approval but usually rely on Permitted Development Rights (PDRs)' rather than full planning permission."
+    },
+    {
+      "heading": "Heavy refurbishment",
+      "content": "[a] Attributed by the search tool to 'the firm's FAQ': 'extending the footprint (extension) or changing the roofline (dormer loft conversion), it is Heavy.' [b] The heavy tier's details were cut off in results; nothing further revealed."
+    },
+    {
+      "heading": "Interest and repayment",
+      "content": "[a] 'the interest is typically rolled up or retained' - interest is generally not paid monthly and is settled when the property is sold or refinanced at the end of the project. [b] (FAQ page per tool) no monthly payments are due during works."
+    },
+    {
+      "heading": "Drawdowns / release of build costs",
+      "content": "[a] 'most lenders will advance 100% of the build costs. These are released in arrears' - build costs are reimbursed in arrears after an inspection, provided the end value supports the loan. [b] The lender reimburses after an inspection; funds released in stages."
+    },
+    {
+      "heading": "Loan term",
+      "content": "[b] Described as a bridging loan that is a short-term facility (up to 12-24 months). [b] Another site page puts general bridging terms at between 1 and 36 months."
+    },
+    {
+      "heading": "Related: HMO refurbishment bridging (from /hmo-finance/)",
+      "content": "[b] The HMO finance page says Silver Oak arranges refurbishment bridging finance for the purchase and works, and pre-agrees the exit onto a long-term HMO mortgage (tool paraphrase)."
+    }
+  ],
+  "verbatim": [
+    "[a][b] \"Silver Oak Capital specialises in securing bespoke refurbishment finance solutions across the entire spectrum – light, medium, and heavy.\"",
+    "[a] \"covers the purchase price of a property and typically 100% of the build costs\"",
+    "[a] \"purely cosmetic updates that do not require building regulations or planning permission\"",
+    "[a] \"often require building regulations approval but usually rely on Permitted Development Rights (PDRs)\"",
+    "[a] \"extending the footprint (extension) or changing the roofline (dormer loft conversion), it is Heavy.\" (search tool attributes this to the firm's FAQ)",
+    "[a] \"the interest is typically rolled up or retained\"",
+    "[a] \"most lenders will advance 100% of the build costs. These are released in arrears\"",
+    "[a][b] Search-result page title: \"Refurbishment Finance UK\"",
+    "[a][b] Search-result title of /faq/: \"Property Finance FAQs\"",
+    "[a] Search-result title of /conversions/: \"Property Conversion Finance UK\"",
+    "[b] Search-result title of /hmo-finance/: \"HMO Finance UK\"",
+    "[b] Search-result title of /bridging-loans-uk/: \"Mortgage Bridging Loans UK & London\"",
+    "[b] Search-result title of /common-uses-for-property-bridging-loans-in-the-uk/: \"Property Bridging Loans UK Guide: Purchase, Sale & Refurbishment Finance\"",
+    "[b] Search-result title of /understanding-short-term-property-funding-for-uk-real-estate/: \"Fast & Flexible Bridging Loans UK\"",
+    "[seed] /bridging-loans-uk/: \"loans typically set up for 12 to 24 months and secured on property; interest is rolled up rather than paid monthly, so no affordability check is needed\" (context from a sibling page, not this page)"
+  ],
+  "services": [
+    "Refurbishment finance across light, medium and heavy works [a][b]",
+    "Short-term refurbishment bridging loan covering purchase price plus typically 100% of build costs [a]",
+    "Staged / in-arrears release of build-cost funding after inspection [a][b]",
+    "Rolled-up or retained interest structure (no monthly payments during works) [a][b]",
+    "Related: refurbishment bridging for HMO purchase and works with pre-agreed exit onto long-term HMO mortgage (/hmo-finance/) [b]",
+    "Related sibling product: property conversion finance (/conversions/) [a]"
+  ],
+  "useCases": [
+    "Cosmetic updates: kitchens, bathrooms, decorating, flooring (light) [a][b]",
+    "Works beyond cosmetic but not major structural, carried out under Permitted Development Rights (medium) [a][b]",
+    "Extensions / extending the footprint (heavy) [a]",
+    "Changing the roofline, e.g. dormer loft conversion (heavy) [a]",
+    "Buying a property and funding its refurbishment with exit via sale or refinance [a]",
+    "Purchase and refurbishment to HMO, then refinance onto a long-term HMO mortgage [b]"
+  ],
+  "terms": [
+    "Loan type: short-term bridging loan [a][b]",
+    "Term: short-term facility up to 12-24 months [b]; another site page cites general bridging terms of 1 to 36 months [b]",
+    "Advance: covers purchase price of the property and typically 100% of build costs [a]",
+    "Build costs: 'most lenders will advance 100% of the build costs', released in arrears / in stages after inspection [a][b]",
+    "Condition on drawdowns: provided the end value supports the loan [a]",
+    "Interest: typically rolled up or retained; no monthly payments during works [a][b]",
+    "Repayment: principal and interest settled when the property is sold or refinanced at the end of the project [a]",
+    "Monitoring: light refurbishment loans typically quick to arrange with light monitoring [b] (tool paraphrase)",
+    "NOT revealed for this page: interest rates, fees, minimum/maximum loan size, LTV / loan-to-value limits, security details [a][b][c]"
+  ],
+  "eligibility": [
+    "Light works: purely cosmetic updates that do not require building regulations or planning permission [a]",
+    "Medium works: often require building regulations approval but usually rely on Permitted Development Rights (PDRs) rather than full planning permission [a][b]",
+    "Heavy works: extending the footprint (extension) or changing the roofline (dormer loft conversion) [a]",
+    "Drawdown of build costs conditional on the end value supporting the loan [a]",
+    "No borrower eligibility criteria (status, nationality, experience, credit) revealed in the excerpts [a][b][c]"
+  ],
+  "lenderTypes": [
+    "Not named on this page; generic reference only: 'most lenders will advance 100% of the build costs' [a]",
+    "[seed] Sibling page /bridging-loans-uk/ cites '700+ Lenders'; home and /faq/ cite 800+; not stated in this page's excerpts"
+  ],
+  "processSteps": [
+    "1. Bridging loan arranged to cover the property purchase price (and typically 100% of build costs) [a] - reconstructed order",
+    "2. Refurbishment works carried out; interest rolls up / is retained rather than paid monthly [a][b]",
+    "3. Lender inspects completed works [a][b]",
+    "4. Build costs reimbursed in arrears / released in stages after inspection, provided end value supports the loan [a][b]",
+    "5. Loan repaid at the end of the project through sale or refinance [a]; for HMO projects the exit onto a long-term HMO mortgage is pre-agreed [b]"
+  ],
+  "faq": [
+    {
+      "q": "What counts as heavy refurbishment? (question reconstructed)",
+      "a": "[a] 'extending the footprint (extension) or changing the roofline (dormer loft conversion), it is Heavy.' - attributed by the search tool to the firm's FAQ (unclear whether on-page FAQ block or /faq/)"
+    },
+    {
+      "q": "How is interest paid during the works? (question reconstructed)",
+      "a": "[a][b] 'the interest is typically rolled up or retained' - no monthly payments are due during works; settled on sale or refinance"
+    },
+    {
+      "q": "How are build costs released? (question reconstructed)",
+      "a": "[a][b] 'most lenders will advance 100% of the build costs. These are released in arrears' - the lender reimburses after an inspection"
+    }
+  ],
+  "claims": [
+    {"claim": "Specialises in securing bespoke refurbishment finance solutions across the entire spectrum – light, medium, and heavy [a][b]", "kind": "positioning"},
+    {"claim": "Can fund up to 100% of build costs, released in stages [a][b]", "kind": "number/funding"},
+    {"claim": "Loan covers the purchase price of a property and typically 100% of the build costs [a]", "kind": "number/funding"},
+    {"claim": "Most lenders will advance 100% of the build costs, released in arrears [a]", "kind": "number/market statement"},
+    {"claim": "Interest is typically rolled up or retained; no monthly payments during works [a][b]", "kind": "product feature"},
+    {"claim": "Short-term facility, up to 12-24 months [b]", "kind": "duration"},
+    {"claim": "Light refurbishment loans typically quick to arrange with light monitoring [b] (tool paraphrase)", "kind": "promise/speed"},
+    {"claim": "Light works need no building regulations or planning permission; medium works usually rely on Permitted Development Rights [a][b]", "kind": "definition"},
+    {"claim": "No testimonials, awards, credentials, rates, fees or LTV figures revealed in the excerpts for this page [a][b][c]", "kind": "absence"}
+  ],
+  "geography": [
+    "United Kingdom (page title 'Refurbishment Finance UK') [a][b]",
+    "[seed] Firm: London-based, UK-wide bridging with strong London focus (/bridging-loans-uk/); not stated in this page's excerpts"
+  ],
+  "ctas": [
+    "None revealed in the search excerpts for this page [a][b][c]",
+    "[seed] Firm-wide contact routes: enquiry form, enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/light-to-heavy-refurbishment/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/conversions/",
+    "https://www.silveroakcapital.co.uk/hmo-finance/",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "https://www.silveroakcapital.co.uk/common-uses-for-property-bridging-loans-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/",
+    "https://www.silveroakcapital.co.uk/different-ways-to-grow-and-develop-property-value/",
+    "https://www.silveroakcapital.co.uk/what-are-bridging-loans-and-how-do-they-work/",
+    "https://www.silveroakcapital.co.uk/understanding-short-term-property-funding-for-uk-real-estate/"
+  ],
+  "confidence": "medium",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/light-to-heavy-refurbishment.json",
+  "notes": "Seed file holds no snippet for /light-to-heavy-refurbishment/; everything page-specific comes from searches (a) and (b). H1 and meta description were not revealed; 'Refurbishment Finance UK' is the search-result title and may be the page <title> (possibly truncated). Search (c) ('Silver Oak Capital' light to heavy refurbishment finance 'loan to value') returned only unrelated UK lenders/brokers (Finbri, MFB, Clifton PF, London Credit, Funding 365, Paragon, etc.) with no mention of the firm; their LTV figures (50-70%, 65-75%) are NOT Silver Oak claims and were excluded. Unrelated entities excluded: Silver Oak Remodel (US contractor), Silver Oak Capital L.L.C. (US LEI/OpenCorporates). Attribution ambiguity: the tool attributed the 'Heavy' definition and the rolled-up interest statement to 'the firm's FAQ' / 'the FAQ page' - could be an FAQ block on this page or the /faq/ page. Possible tension on term length: 'up to 12-24 months' [b, this product] vs 'between 1 and 36 months' [b, another site page, general bridging]; the seed's /bridging-loans-uk/ snippet says 12 to 24 months. The heavy tier content was cut off in results; medium tier appears as a distinct third category (light/medium/heavy) even though the slug says 'light to heavy'."
+}

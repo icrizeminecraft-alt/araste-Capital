@@ -1,0 +1,158 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/types-of-borrowing/",
+  "title": "Types of Borrowing - Silver Oak Capital",
+  "h1": "Not revealed by search results. Search-result title tag reads \"Types of Borrowing - Silver Oak Capital\" [a][b].",
+  "metaDescription": "Not revealed by search results.",
+  "summary": "Older overview page (search tool reports its cached copy is roughly 1,600 days old, i.e. circa 2022) grouping Silver Oak Capital's lending into three blocks. (1) Development finance: senior, stretched senior, mezzanine / 2nd charge and joint venture equity, typical broker fee 1% of the loan, with a worked example of a GBP 10m loan at 6.5% fixed over 18 months at 75% loan-to-GDV. (2) Bridging finance: bridge to purchase, bridge to sell, equity release, 2nd charge and refinance; typical broker fee 1%, or 1.5% for loans outside the UK; quick to arrange, no affordability assessment, interest paid as a lump sum at end of term. (3) Other: high net worth / prime residential mortgages (seed: GBP 5m and above, policies vary by private bank branch, 1.00% fee), wealth management (\"We can help with your wealth management.\") and marine finance for superyacht purchases. No raw page text, H1, meta description, CTA, process steps or FAQ were surfaced; everything comes from search-engine summaries plus the seed file.",
+  "sections": [
+    {
+      "heading": "Development finance",
+      "content": "[a] Options listed: senior, stretched senior, mezzanine / 2nd charge, joint venture equity. Typical broker fee: 1% of the loan. Worked example: GBP 10 million loan, 6.5% fixed rate, 18 months, 75% loan-to-GDV. [seed] Confirms the same list (senior, stretched senior, mezzanine/second charge, joint venture equity), broker fees around 1%, worked example at 6.5% fixed. Related page /property-development-finance/ (seen in [a]) says development loans accrue interest that is rolled up and repaid on completion through sales or refinancing."
+    },
+    {
+      "heading": "Bridging finance",
+      "content": "[a][b] Variants listed: bridge to purchase, bridge to sell, equity release, 2nd charge, refinance. [a] Typical broker fees 1%, or 1.5% for loans outside the UK. [a][b][seed] Loans are quick to arrange, need no affordability assessment, and interest is paid as a lump sum at the end of the term."
+    },
+    {
+      "heading": "Prime residential / high net worth mortgages",
+      "content": "[a] The page mentions high net worth mortgages. [seed] Prime residential mortgages GBP 5m and above; policies vary by private bank branch; broker fee 1.00% prime residential."
+    },
+    {
+      "heading": "Wealth management",
+      "content": "[a] The page mentions wealth management. [seed] Verbatim: \"We can help with your wealth management.\""
+    },
+    {
+      "heading": "Marine finance",
+      "content": "[a] The page mentions marine finance for superyacht purchases. No figures surfaced."
+    },
+    {
+      "heading": "Lender appetite / asset classes (seed only)",
+      "content": "[seed] Retail outlets cited as an income-producing asset class; each lender has its own appetite for property types."
+    }
+  ],
+  "verbatim": [
+    "[a] \"The search returned the Types of Borrowing page itself, though its cached copy is about 1,600 days old, so its figures may be out of date.\"",
+    "[a] \"Development finance: The page lists senior, stretched senior, mezzanine/2nd charge, and joint venture equity options, with a typical broker fee of 1% of the loan.\"",
+    "[a] \"A worked example shows a £10 million loan at a 6.5% fixed rate over 18 months, with a 75% loan-to-GDV ratio.\"",
+    "[a] \"Bridging finance: The page lists bridge to purchase, bridge to sell, equity release, 2nd charge, and refinance options. Typical broker fees are 1%, or 1.5% for loans outside the UK.\"",
+    "[a] \"It says these loans need no affordability assessment and pay interest as a lump sum at the end of the term.\"",
+    "[a] \"Other services: The page also mentions high net worth mortgages, wealth management, and marine finance for superyacht purchases.\"",
+    "[a] (related page /property-development-finance/) \"its development loans accrue interest that is rolled up and repaid on completion, through sales or refinancing.\"",
+    "[a] (related page /lenders/) \"the firm generally focuses on transactions above £500,000.\"",
+    "[b] \"The 'Types of Borrowing' page lists bridge to purchase, bridge to sell, equity release, 2nd charge and refinance as bridging variants.\"",
+    "[b] \"It notes that bridging loans are quick to arrange and do not require any affordability assessment, with the loan interest paid as a lump sum at the end of the term.\"",
+    "[b] \"Note that the 'Types of Borrowing' page is roughly 1,600 days old, so the product list may have changed. The site's other pages are more recent.\"",
+    "[b] (related page /faq/) \"The FAQ describes releasing cash through a bridge, then refinancing onto a standard buy-to-let mortgage. It says that this is a very common use of equity release bridging, and that lenders generally fund tax bills if there is a clear exit strategy (Corporation Tax, VAT, or an Inheritance Tax bill).\"",
+    "[b] (related page /mezzanine-junior-finance/) \"a second charge sits behind the senior lender and covers an additional 10% to 20% of the total development costs. The senior lender has to consent, and not all senior lenders allow this.\"",
+    "[b] (related page /development-exit-loans/) \"short-term bridges secured on completed developments that repay the construction lender. They can also release equity early to fund your next project.\"",
+    "[b] (related case study, Kensington) \"One Kensington deal avoided a second charge entirely. Two lenders had withdrawn over intercreditor disagreements, and the eventual solution used a first-charge bridge.\"",
+    "[c] (silveroakcapital.odoo.com blog, not the page) \"bridging loans can offer high LTVs to borrowers, allowing them to release the maximum amount of equity from the property.\"",
+    "[c] \"I couldn't find a Silver Oak Capital page that lists its types of borrowing or its bridge-to-purchase and equity release fees.\"",
+    "[seed] \"We can help with your wealth management.\"",
+    "[seed] bridging: \"quick to arrange and do not require any affordability assessment\"",
+    "[seed] fees: \"1.00% UK commercial / 1.50% outside UK and 1.00% prime residential (/types-of-borrowing/, old page)\""
+  ],
+  "services": [
+    "Development finance - senior",
+    "Development finance - stretched senior",
+    "Development finance - mezzanine / 2nd charge",
+    "Development finance - joint venture equity",
+    "Bridging finance - bridge to purchase",
+    "Bridging finance - bridge to sell",
+    "Bridging finance - equity release",
+    "Bridging finance - 2nd charge",
+    "Bridging finance - refinance",
+    "High net worth / prime residential mortgages",
+    "Wealth management",
+    "Marine finance (superyacht purchases)"
+  ],
+  "useCases": [
+    "[a][b] Bridge to purchase",
+    "[a][b] Bridge to sell",
+    "[a][b] Equity release",
+    "[a][b] Second charge borrowing",
+    "[a][b] Refinance",
+    "[a] Superyacht purchase (marine finance)",
+    "[a] Residential, commercial or mixed-use development (ground-up or conversion) via development finance (from related page /property-development-finance/)",
+    "[b] (related /faq/) Release cash via a bridge then refinance onto a standard buy-to-let mortgage",
+    "[b] (related /faq/) Fund a tax bill (Corporation Tax, VAT, Inheritance Tax) where there is a clear exit strategy",
+    "[b] (related /development-exit-loans/) Repay construction lender on a completed development and release equity early for the next project"
+  ],
+  "terms": [
+    "[a][seed] Development finance broker fee: typically 1% of the loan",
+    "[a] Development worked example: GBP 10 million loan, 6.5% fixed rate, 18 months, 75% loan-to-GDV",
+    "[a] Bridging broker fee: typically 1%; 1.5% for loans outside the UK",
+    "[a][b][seed] Bridging: no affordability assessment",
+    "[a][b][seed] Bridging interest paid as a lump sum at the end of the term",
+    "[seed] Prime residential mortgages: GBP 5m and above; broker fee 1.00%",
+    "[a] (related /property-development-finance/) Development loan interest rolled up and repaid on completion via sales or refinancing",
+    "[a] (related /lenders/) Firm generally focuses on transactions above GBP 500,000",
+    "[b] (related /mezzanine-junior-finance/) Second charge / mezzanine covers an additional 10% to 20% of total development costs, behind the senior lender, subject to senior lender consent",
+    "Security: bridging and development loans secured on property (bridging variants are property-backed per site context); no explicit security wording surfaced for this page"
+  ],
+  "eligibility": [
+    "[a][b][seed] Bridging loans require no affordability assessment",
+    "[seed] Prime residential: policies vary by private bank branch",
+    "[seed] Each lender has its own appetite for property types",
+    "[b] (related /faq/) Lenders generally fund tax bills if there is a clear exit strategy",
+    "[b] (related /mezzanine-junior-finance/) Second charge requires senior lender consent; not all senior lenders allow it",
+    "No explicit borrower eligibility criteria (nationality, income, credit) surfaced for this page"
+  ],
+  "lenderTypes": [
+    "[a] Senior development lenders",
+    "[a] Stretched senior lenders",
+    "[a] Mezzanine / 2nd charge lenders",
+    "[a] Joint venture equity providers",
+    "[seed] Private banks (prime residential; policies vary by branch)",
+    "[b] (related case study) First-charge bridge lenders"
+  ],
+  "processSteps": [
+    "Not revealed: no application or arrangement steps for this page appeared in any result or in the seed."
+  ],
+  "faq": [
+    {
+      "q": "Not on this page: no FAQ block surfaced for /types-of-borrowing/.",
+      "a": "The only FAQ-style content seen comes from the separate /faq/ page [b]: releasing cash through a bridge then refinancing onto a standard buy-to-let mortgage is described as a very common use of equity release bridging; lenders generally fund tax bills (Corporation Tax, VAT, Inheritance Tax) if there is a clear exit strategy."
+    }
+  ],
+  "claims": [
+    {"kind": "fee", "claim": "[a][seed] Typical broker fee 1% of the loan for development finance"},
+    {"kind": "fee", "claim": "[a] Bridging broker fee typically 1%, or 1.5% for loans outside the UK"},
+    {"kind": "fee", "claim": "[seed] 1.00% prime residential"},
+    {"kind": "number", "claim": "[a] Worked example: GBP 10m loan, 6.5% fixed, 18 months, 75% loan-to-GDV"},
+    {"kind": "number", "claim": "[seed] Prime residential mortgages GBP 5m and above"},
+    {"kind": "promise", "claim": "[a][b][seed] Bridging loans are quick to arrange and do not require any affordability assessment"},
+    {"kind": "promise", "claim": "[seed] \"We can help with your wealth management.\""},
+    {"kind": "page-age", "claim": "[a][b] Search tool states the cached copy of this page is about 1,600 days old (circa 2022); figures may be out of date"},
+    {"kind": "credential", "claim": "None surfaced on this page. Spear's 500 adviser profile for Jimmy Baillie (spears500.com) appeared as an external link in [c] only."},
+    {"kind": "testimonial", "claim": "None surfaced for this page."},
+    {"kind": "award", "claim": "None surfaced for this page."}
+  ],
+  "geography": [
+    "[a] UK (1% bridging fee)",
+    "[a] Outside the UK (1.5% bridging fee)"
+  ],
+  "ctas": [
+    "Not revealed: no call-to-action wording for this page appeared in any result or the seed."
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/types-of-borrowing/",
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/lenders/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/mezzanine-junior-finance/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/development-exit-loans/",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+    "https://www.silveroakcapital.co.uk/what-is-smart-financing-innovative-funding-options-for-todays-investors/",
+    "external: https://silveroakcapital.odoo.com/blog/finance-1/bridging-loan-vs-traditional-mortgage-3",
+    "external: https://uk.linkedin.com/company/silver-oak-capital",
+    "external: https://spears500.com/adviser/22953/jimmy-baillie",
+    "external: https://uk.linkedin.com/in/joe-berk"
+  ],
+  "notes": "Source quality: no raw page text was obtained; [a] and [b] are the search tool's summaries of a cached copy it describes as ~1,600 days old; [c] returned nothing from the page itself (only an odoo.com blog by the firm and unrelated generic bridging guides, all ignored except the one odoo sentence quoted). Contradictions / tensions: (1) [a] says the page mentions 'high net worth mortgages' while the seed records 'prime residential mortgages (GBP 5m and above)' for the same page - likely the same section paraphrased differently, not confirmed. (2) '2nd charge' is listed under both development finance (mezzanine/2nd charge) and bridging finance on the page [a][b]; [b]'s own commentary says second charge 'appears mainly under development finance', which is inconsistent with its listing it as a bridging variant. (3) Fee figures on this old page (1% / 1.5%) differ from the seed's blog-derived figure (~GBP 1,500 application + 0.5% at offer + 0.5% at completion) and from the Ts&Cs (client-specific fee agreement) - cross-page, time-separated claims. (4) Seed loan-size claims vary across pages (over GBP 500k, GBP 500k-20m, GBP 2m-20m, GBP 5m+ prime residential); only the GBP 5m+ prime residential figure is attributed to this page. Unrelated firms excluded: silveroakcp.com (Silver Oak Capital Partners), silveroakfunding.com, sofunding.net, syob.net listing, Silver Point / Sweet Oak Bloomberg items, Australian 'Assetline' guides, finbri, mt-finance, etc.",
+  "confidence": "medium - product lists and fee/example figures are consistently reported by two independent search summaries and the seed, but all derive from an approximately 1,600-day-old cached copy and no raw page text, H1, meta, CTA or process copy was obtained",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/types-of-borrowing.json"
+}

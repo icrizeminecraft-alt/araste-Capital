@@ -1,0 +1,134 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/auction-finance/",
+  "title": "Auction Finance UK",
+  "summary": "Search-result title of the page is 'Auction Finance UK' [a][b]. The page presents auction finance as a short-term bridging loan built around auction deadlines: a 10% deposit is paid on auction day, the remaining 90% must be completed within 28 days, and the loan gives 6 to 12 months to refinance onto a standard mortgage or sell the property for a profit [a][b]. Only two sentences of the page itself surfaced verbatim [b]. Supporting statements come from other site pages surfaced alongside it: /faq/ (terms indication by lunchtime if lot number sent in the morning; indicative terms usually within 1 to 4 hours; lenders lend on value as-is with a clear schedule of works; network of over 800 lenders UK and international) and /bridging-loans-uk/ (completion in as little as 5-14 days subject to lender approval). The search tool states the page does not reveal fees, rates or minimum loan sizes [a]. Search (c) returned no Silver Oak content at all.",
+  "verbatim": [
+    "[b] (/auction-finance/) \"Typically, you need to pay a 10% deposit on the day of the auction and must complete the remaining 90% within 28 days.\"",
+    "[b] (/auction-finance/) \"Auction finance bridges this gap, providing the funds to complete the purchase quickly, giving you 6 to 12 months to either refinance onto a standard mortgage or sell the property for a profit.\"",
+    "[a] (/auction-finance/, search-tool summary wording) \"a specific type of short-term bridging loan tailored to the logistics of buying under the time pressure of auctions\"",
+    "[a] (/auction-finance/, search-tool summary wording) \"Buyers typically put down a deposit on auction day and then have 28 days to complete.\"",
+    "[a] (/auction-finance/, search-tool summary wording) \"the bridge gives you 6 to 12 months to either refinance onto a standard mortgage or sell the property\"",
+    "[a] (/auction-finance/, search-tool negative statement) \"The page does not state fees, rates, or minimum loan sizes in the results I saw.\"",
+    "[b] (/auction-finance/, search-tool summary wording) \"a short-term bridging product built around auction deadlines\"",
+    "[b] (/faq/) \"If you send us the auction lot number and your details in the morning, we can often give you a solid indication of terms by lunchtime.\"",
+    "[a] (/faq/, search-tool summary wording) \"indicative terms usually arrive within 1 to 4 hours\"",
+    "[a] (/faq/, search-tool summary wording) \"lenders will lend on the property's value as is, provided you have a clear schedule of works and the budget to fix the issues\"",
+    "[a] (/faq/, search-tool summary wording) \"the firm has a network of over 800 lenders, both in the UK and internationally\"",
+    "[a] (Letting Agent Today trades directory, search-tool summary wording) \"An older directory listing cites over 300 lenders, so the figure may be outdated or inconsistent.\"",
+    "[b] (/bridging-loans-uk/) \"Our bridging loans across the UK, including London, can complete in as little as 5–14 days, subject to lender approval.\"",
+    "[b] (/regulating-bridging-loans-through-fca-rules/amp/, search-tool summary wording) \"regulated bridging loans can be used for auction purchases, since they help meet the 28-day payment timeline\"; the article \"also explains the difference between open-ended and close-ended loans\"",
+    "[c] No Silver Oak Capital result; search tool: \"I couldn't find any results about Silver Oak Capital specifically.\"",
+    "[seed] (/bridging-loans-uk/) \"loans typically set up for 12 to 24 months and secured on property; interest is rolled up rather than paid monthly, so no affordability check is needed\"",
+    "[seed] (/lenders/) \"generally focuses on transactions upwards of £500,000\""
+  ],
+  "services": [
+    "Auction finance (short-term bridging loan to complete an auction purchase within the 28-day deadline) [a][b]",
+    "Bridging loans UK & London (parent product; page title 'Mortgage Bridging Loans UK & London') [b]",
+    "Sibling 'Bridging' menu services per seed: Below Market Value Purchases, Distressed Asset Finance, Light to Heavy Refurbishment, Conversions, Development Exit Loans, Post Planning Land Acquisitions [seed]",
+    "Below Market Value Property Finance UK (page surfaced alongside) [b]",
+    "Post Planning Land Finance UK (page surfaced alongside) [a][b]"
+  ],
+  "useCases": [
+    "Buying property at auction where a 10% deposit is paid on the day and the remaining 90% must be completed within 28 days [b]",
+    "Completing the purchase quickly, then refinancing onto a standard mortgage within 6 to 12 months [a][b]",
+    "Completing the purchase quickly, then selling the property for a profit within 6 to 12 months [b]",
+    "Properties needing works: lenders lend on the value as-is provided there is a clear schedule of works and budget to fix the issues [a, /faq/]",
+    "Auction purchases via regulated bridging loans to meet the 28-day payment timeline [b, FCA article]"
+  ],
+  "terms": [
+    "Deposit: 10% on the day of the auction [b]",
+    "Completion: remaining 90% within 28 days [a][b]",
+    "Loan duration: 6 to 12 months [a][b]",
+    "Exit: refinance onto a standard mortgage or sale of the property [a][b]",
+    "Indicative terms: usually within 1 to 4 hours [a, /faq/]; 'solid indication of terms by lunchtime' if lot number and details sent in the morning [b, /faq/]",
+    "Completion speed (bridging generally): 'as little as 5–14 days, subject to lender approval' [b, /bridging-loans-uk/]",
+    "Valuation basis: lend on the property's value as is, with a clear schedule of works and budget [a, /faq/]",
+    "Fees, rates, minimum loan size: NOT stated in results [a]",
+    "Security: not stated for this page; seed says bridging loans are 'secured on property' [seed, /bridging-loans-uk/]",
+    "Contradiction to note: auction page says 6 to 12 months [a][b] whereas seed snippet for /bridging-loans-uk/ says bridging loans are 'typically set up for 12 to 24 months' [seed]",
+    "Firm-level minimum per seed: 'generally focuses on transactions upwards of £500,000' [seed, /lenders/]; not confirmed on this page"
+  ],
+  "eligibility": [
+    "No eligibility criteria revealed for /auction-finance/ in the results",
+    "Property condition: lenders accept value as-is if borrower has a clear schedule of works and the budget to fix the issues [a, /faq/]",
+    "Regulated bridging loans can be used for auction purchases [b, FCA article]; seed /faq/: 'If you or a family member occupies more than 40% of the property, it becomes a regulated loan' [seed]"
+  ],
+  "lenderTypes": [
+    "'network of over 800 lenders, both in the UK and internationally' [a, /faq/]",
+    "Letting Agent Today directory listing: over 300 lenders (older, flagged as possibly outdated/inconsistent by the search tool) [a]",
+    "Seed: 700+ lenders cited on /bridging-loans-uk/; 300+/500+/800+ cited elsewhere [seed]",
+    "Lender types (bank, specialist, private) not named in results for this page"
+  ],
+  "processSteps": [
+    "Send the auction lot number and your details in the morning; a solid indication of terms can often be given by lunchtime [b, /faq/]",
+    "Indicative terms usually arrive within 1 to 4 hours [a, /faq/]",
+    "Pay a 10% deposit on the day of the auction [b]",
+    "Complete the remaining 90% within 28 days, funded by the auction finance bridge [b]",
+    "Bridging loans can complete in as little as 5–14 days, subject to lender approval [b, /bridging-loans-uk/]",
+    "Within 6 to 12 months, refinance onto a standard mortgage or sell the property for a profit [a][b]",
+    "Seed (not confirmed on this page): enquiry form fields are name, contact details, finance type, amount, country of residence, brief overview, consent; firm typically narrows lenders to 3 or 4 potential partners [seed]"
+  ],
+  "faq": [
+    {
+      "q": "(reconstructed from /faq/, not from /auction-finance/) How quickly can you give terms for an auction lot?",
+      "a": "\"If you send us the auction lot number and your details in the morning, we can often give you a solid indication of terms by lunchtime.\" [b]; indicative terms usually within 1 to 4 hours [a]"
+    },
+    {
+      "q": "(reconstructed from /faq/) Will lenders lend on a property that needs work?",
+      "a": "Lenders will lend on the property's value as is, provided you have a clear schedule of works and the budget to fix the issues [a]"
+    },
+    {
+      "q": "(reconstructed from /faq/) How many lenders do you work with?",
+      "a": "A network of over 800 lenders, both in the UK and internationally [a]"
+    }
+  ],
+  "claims": [
+    {"claim": "Network of over 800 lenders, both in the UK and internationally [a, /faq/]", "kind": "number"},
+    {"claim": "Over 300 lenders per Letting Agent Today trades directory listing (older, inconsistent with 800+) [a]", "kind": "number-contradiction"},
+    {"claim": "Indicative terms usually within 1 to 4 hours [a, /faq/]", "kind": "promise-timescale"},
+    {"claim": "Solid indication of terms by lunchtime if auction lot number and details sent in the morning [b, /faq/]", "kind": "promise-timescale"},
+    {"claim": "Bridging loans across the UK, including London, can complete in as little as 5–14 days, subject to lender approval [b, /bridging-loans-uk/]", "kind": "promise-timescale"},
+    {"claim": "Auction finance gives 6 to 12 months to refinance or sell [a][b]", "kind": "product-term"},
+    {"claim": "10% deposit on auction day, remaining 90% within 28 days [b]", "kind": "market-fact-stated-on-page"},
+    {"claim": "No testimonials, awards, credentials, fees, rates or minimum loan sizes revealed for this page [a][b][c]", "kind": "absence"}
+  ],
+  "geography": [
+    "United Kingdom (page title 'Auction Finance UK') [a][b]",
+    "London (bridging loans page: 'across the UK, including London') [b]",
+    "Lenders 'both in the UK and internationally' [a, /faq/]",
+    "Seed: London-based broker, UK wide with strong focus on London property market [seed]"
+  ],
+  "ctas": [
+    "No call to action revealed for /auction-finance/ in the results",
+    "Implicit CTA from /faq/: send the auction lot number and your details [b]",
+    "Seed (site-wide, not confirmed on this page): enquiry form, enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp [seed]"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/auction-finance/ (title: Auction Finance UK) [a][b]",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/ (title: Mortgage Bridging Loans UK & London) [b]",
+    "https://www.silveroakcapital.co.uk/faq/ (title: Property Finance FAQs) [a][b]",
+    "https://www.silveroakcapital.co.uk/case-studies/ (title: Silver Oak Capital Case Studies) [a][b]",
+    "https://www.silveroakcapital.co.uk/post-planning-land-acquisitions/ (title: Post Planning Land Finance UK) [a][b]",
+    "https://www.silveroakcapital.co.uk/below-market-purchases/ (title: Below Market Value Property Finance UK) [b]",
+    "https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/ (title: £800,000 Bridging Loan Refinance) [b]",
+    "https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/ (title: £21M London Office Purchase & Upgrade) [a]",
+    "https://www.silveroakcapital.co.uk/regulating-bridging-loans-through-fca-rules/amp/ (title: FCA Bridging Loan Regulations Explained - Silver Oak Capital; AMP variant of a known article URL) [b]",
+    "External profiles seen: https://www.crunchbase.com/organization/silver-oak-capital [a]; https://www.lettingagenttoday.co.uk/trades-directory/silver-oak-capital/ [a]"
+  ],
+  "sections": [
+    {"heading": "(inferred topic; page headings not revealed) What auction finance is", "content": "Search tool [a]: 'a specific type of short-term bridging loan tailored to the logistics of buying under the time pressure of auctions'. Search tool [b]: 'a short-term bridging product built around auction deadlines'."},
+    {"heading": "(inferred topic) Auction timeline: deposit and 28-day completion", "content": "Verbatim [b]: \"Typically, you need to pay a 10% deposit on the day of the auction and must complete the remaining 90% within 28 days.\""},
+    {"heading": "(inferred topic) How the bridge works and exit routes", "content": "Verbatim [b]: \"Auction finance bridges this gap, providing the funds to complete the purchase quickly, giving you 6 to 12 months to either refinance onto a standard mortgage or sell the property for a profit.\""},
+    {"heading": "(related page /faq/) Speed of indicative terms for auction lots", "content": "Verbatim [b]: \"If you send us the auction lot number and your details in the morning, we can often give you a solid indication of terms by lunchtime.\" Search tool [a]: indicative terms usually arrive within 1 to 4 hours."},
+    {"heading": "(related page /faq/) Lending on property condition", "content": "Search tool [a]: lenders will lend on the property's value as is, provided you have a clear schedule of works and the budget to fix the issues."},
+    {"heading": "(related page /faq/) Lender network", "content": "Search tool [a]: network of over 800 lenders, both in the UK and internationally. Contradiction: Letting Agent Today directory cites over 300 lenders [a]; seed cites 700+ on /bridging-loans-uk/ [seed]."},
+    {"heading": "(related page /bridging-loans-uk/) Completion speed", "content": "Verbatim [b]: \"Our bridging loans across the UK, including London, can complete in as little as 5–14 days, subject to lender approval.\""},
+    {"heading": "(related article) FCA regulation and auction purchases", "content": "Search tool [b]: an FCA-focused article notes regulated bridging loans can be used for auction purchases, since they help meet the 28-day payment timeline; it also explains the difference between open-ended and close-ended loans."},
+    {"heading": "(not revealed) Fees, rates, minimum loan size", "content": "Search tool [a]: 'The page does not state fees, rates, or minimum loan sizes in the results I saw.' Nothing in [b] or [c] fills this gap."}
+  ],
+  "confidence": "low-medium: the page title and two verbatim sentences are confirmed by two independent searches [a][b]; all other content comes from neighbouring site pages (/faq/, /bridging-loans-uk/, FCA article) or search-tool paraphrase, and search (c) returned nothing on the firm. H1, meta description, section headings, fees, rates, LTV, loan sizes and CTAs for this page remain unknown.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/auction-finance.json",
+  "notes": "Seed file holds no snippetsFromFirstPass entry for /auction-finance/; the page is listed under navigation.services.Bridging as 'Auction Finance'. Queries: (a) extended, exact URL; (b) extended, 'site:silveroakcapital.co.uk auction finance bridging loan'; (c) standard, '\"Silver Oak Capital\" auction finance \"how it works\"' -> no Silver Oak results, only generic auction-finance guides (Kandoo, iwoca, Capitalise, Finbri, Together, Commercial Trust, MFB, etc.), which were NOT recorded as Silver Oak content. Ignored unrelated results: Excellion Capital and Silverfleet Capital (Wikipedia), Wikipedia 'Bridge loan'. Contradictions: lender count 800+ (/faq/) vs 300+ (Letting Agent Today directory) vs 700+ (/bridging-loans-uk/ per seed); auction bridge term 6-12 months vs seed's 12-24 months typical bridging term. H1 and meta description were not revealed; 'Auction Finance UK' is the search-result title (likely the <title> tag). Section headings in 'sections' are inferred topic labels, not page headings. Direct fetching was not attempted per instructions."
+}
