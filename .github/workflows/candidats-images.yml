@@ -22,22 +22,34 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Installer ImageMagick
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick > /dev/null
+
       - name: Télécharger les aperçus et assembler les planches
+        shell: bash
         run: |
-          set -euo pipefail
           mkdir -p candidats/apercus candidats/planches
-          grep -v '^#' outils/candidats-images.txt | grep '|' | while IFS='|' read -r groupe id url; do
-            groupe=$(echo "$groupe" | xargs); id=$(echo "$id" | xargs); url=$(echo "$url" | xargs)
-            mkdir -p "candidats/apercus/$groupe"
-            curl -fsSL --retry 3 "$url?w=420&q=70&fm=jpg&fit=max" -o "candidats/apercus/$groupe/$id.jpg" || echo "échec : $groupe $id"
-          done
-          for d in candidats/apercus/*/; do
-            g=$(basename "$d")
-            montage "$d"/*.jpg -tile 5x -geometry 300x300+8+8 -background '#111' -fill '#eee' -pointsize 16 -label '%t' "candidats/planches/$g.jpg"
-          done
-          ls -la candidats/planches
+          {
+            grep -v '^#' outils/candidats-images.txt | grep '|' | while IFS='|' read -r groupe id url; do
+              groupe=$(echo "$groupe" | xargs); id=$(echo "$id" | xargs); url=$(echo "$url" | xargs)
+              mkdir -p "candidats/apercus/$groupe"
+              if curl -fsSL --retry 2 "$url?w=420&q=70&fm=jpg&fit=max" -o "candidats/apercus/$groupe/$id.jpg"; then
+                echo "ok    $groupe $id"
+              else
+                echo "échec $groupe $id"; rm -f "candidats/apercus/$groupe/$id.jpg"
+              fi
+            done
+            for d in candidats/apercus/*/; do
+              g=$(basename "$d")
+              if ls "$d"/*.jpg > /dev/null 2>&1; then
+                montage "$d"/*.jpg -tile 5x -geometry 300x300+8+8 -background '#111111' -fill '#eeeeee' -pointsize 16 -label '%t' "candidats/planches/$g.jpg" 2>&1 && echo "planche $g" || echo "montage KO $g"
+              fi
+            done
+            ls -la candidats/planches
+          } 2>&1 | tee candidats/journal.txt
 
       - name: Publier sur la branche candidats-images
+        if: always()
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
