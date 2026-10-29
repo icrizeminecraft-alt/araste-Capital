@@ -59,3 +59,6 @@ tour-doree-800.jpg 800 1422
 villa-crepuscule-1600.jpg 1600 1244
 villa-crepuscule-2400.jpg 2400 1867
 villa-crepuscule-800.jpg 800 622
+ville-fenetre-1600.jpg 1600 1200
+ville-fenetre-2400.jpg 2400 1800
+ville-fenetre-960.jpg 960 720
