@@ -1,0 +1,45 @@
+name: Planches de candidats photographiques
+
+# Outil de sélection : télécharge en petite taille les candidats listés dans
+# outils/candidats-images.txt, assemble une planche-contact par groupe
+# (vignettes étiquetées par identifiant) et publie le tout sur la branche
+# orpheline `candidats-images`, consultable depuis l'environnement de travail.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  planches:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Télécharger les aperçus et assembler les planches
+        run: |
+          set -euo pipefail
+          mkdir -p candidats/apercus candidats/planches
+          grep -v '^#' outils/candidats-images.txt | grep '|' | while IFS='|' read -r groupe id url; do
+            groupe=$(echo "$groupe" | xargs); id=$(echo "$id" | xargs); url=$(echo "$url" | xargs)
+            mkdir -p "candidats/apercus/$groupe"
+            curl -fsSL --retry 3 "$url?w=420&q=70&fm=jpg&fit=max" -o "candidats/apercus/$groupe/$id.jpg" || echo "échec : $groupe $id"
+          done
+          for d in candidats/apercus/*/; do
+            g=$(basename "$d")
+            montage "$d"/*.jpg -tile 5x -geometry 300x300+8+8 -background '#111' -fill '#eee' -pointsize 16 -label '%t' "candidats/planches/$g.jpg"
+          done
+          ls -la candidats/planches
+
+      - name: Publier sur la branche candidats-images
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd candidats
+          git init -b candidats-images
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Planches de candidats ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" candidats-images
