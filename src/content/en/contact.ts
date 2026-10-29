@@ -80,7 +80,7 @@ export const contact: ContactContent = {
       },
       {
         question: "Do you guarantee that financing will be obtained?",
-        answer: "The financing decision rests with the lender. Our commitment concerns the quality of the analysis and of the follow-up: the clarity of the file, the relevance of the routes explored and the candour of our feedback, including when it is negative.",
+        answer: "The financing decision rests with the lender. Our commitment concerns the quality of the analysis and of the follow-up: the clarity of the file and the relevance of the routes explored. Our feedback is candid, including when it is negative.",
       },
       {
         question: "How is the information you provide handled?",

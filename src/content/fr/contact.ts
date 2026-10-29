@@ -80,7 +80,7 @@ export const contact: ContactContent = {
       },
       {
         question: "Garantissez-vous l'obtention d'un financement ?",
-        answer: "La décision de financement appartient au prêteur. Notre engagement porte sur la qualité de l'analyse et du suivi : la clarté du dossier, la pertinence des pistes explorées et la franchise de nos retours, y compris lorsqu'ils sont négatifs.",
+        answer: "La décision de financement appartient au prêteur. Notre engagement porte sur la qualité de l'analyse et du suivi : la clarté du dossier et la pertinence des pistes explorées. Nos retours sont francs, y compris lorsqu'ils sont négatifs.",
       },
       {
         question: "Comment sont traitées les informations transmises ?",
