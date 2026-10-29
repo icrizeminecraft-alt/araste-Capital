@@ -30,6 +30,8 @@ monaco-640.jpg 640 800
 monaco-crepuscule-1600.jpg 1600 2133
 monaco-crepuscule-2400.jpg 2400 3200
 monaco-crepuscule-960.jpg 960 1280
+monaco-crepuscule-paysage-1600.jpg 1600 900
+monaco-crepuscule-paysage-2400.jpg 2400 1350
 residences-mer-1600.jpg 1600 1067
 residences-mer-2400.jpg 2400 1600
 residences-mer-800.jpg 800 533
