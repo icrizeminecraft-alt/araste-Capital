@@ -1,0 +1,115 @@
+
+> araste-capital@0.1.0 check
+> npm run typecheck && npm run lint && npm run test
+
+
+> araste-capital@0.1.0 typecheck
+> tsc --noEmit
+
+
+> araste-capital@0.1.0 lint
+> eslint .
+
+
+> araste-capital@0.1.0 test
+> vitest run
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.0.1 [39m[90m/home/runner/work/araste-Capital/araste-Capital[39m
+
+ [32m✓[39m tests/contact-protections.test.ts [2m([22m[2m10 tests[22m[2m)[22m[32m 37[2mms[22m[39m
+ [32m✓[39m tests/contact-schema.test.ts [2m([22m[2m19 tests[22m[2m)[22m[32m 28[2mms[22m[39m
+ [32m✓[39m tests/routes.test.ts [2m([22m[2m5 tests[22m[2m)[22m[32m 7[2mms[22m[39m
+ [31m❯[39m tests/content-constraints.test.ts [2m([22m[2m33 tests[22m[2m | [22m[31m2 failed[39m[2m)[22m[32m 61[2mms[22m[39m
+   [31m❯[39m contraintes des contenus [2m(33)[22m
+     [32m✓[39m fr : aucune expression interdite par le brief[32m 13[2mms[22m[39m
+     [32m✓[39m fr/bridge : structure éditoriale conforme[32m 2[2mms[22m[39m
+     [32m✓[39m fr/complex : structure éditoriale conforme[32m 1[2mms[22m[39m
+     [32m✓[39m fr/refinancing : structure éditoriale conforme[32m 1[2mms[22m[39m
+     [32m✓[39m fr/acquisition : structure éditoriale conforme[32m 1[2mms[22m[39m
+     [32m✓[39m fr/development : structure éditoriale conforme[32m 1[2mms[22m[39m
+     [32m✓[39m fr/privateDebt : structure éditoriale conforme[32m 1[2mms[22m[39m
+     [32m✓[39m fr/bridgeBasics : structure du repère conforme[32m 1[2mms[22m[39m
+     [32m✓[39m fr/exitStrategy : structure du repère conforme[32m 3[2mms[22m[39m
+     [32m✓[39m fr/preparingFile : structure du repère conforme[32m 1[2mms[22m[39m
+     [32m✓[39m fr/refinancingSignals : structure du repère conforme[32m 0[2mms[22m[39m
+     [32m✓[39m fr/developmentPhases : structure du repère conforme[32m 0[2mms[22m[39m
+     [32m✓[39m fr/privateDebtWhen : structure du repère conforme[32m 1[2mms[22m[39m
+     [32m✓[39m en : aucune expression interdite par le brief[32m 5[2mms[22m[39m
+     [32m✓[39m en/bridge : structure éditoriale conforme[32m 0[2mms[22m[39m
+     [32m✓[39m en/complex : structure éditoriale conforme[32m 0[2mms[22m[39m
+     [32m✓[39m en/refinancing : structure éditoriale conforme[32m 0[2mms[22m[39m
+     [32m✓[39m en/acquisition : structure éditoriale conforme[32m 0[2mms[22m[39m
+     [32m✓[39m en/development : structure éditoriale conforme[32m 4[2mms[22m[39m
+     [32m✓[39m en/privateDebt : structure éditoriale conforme[32m 0[2mms[22m[39m
+     [32m✓[39m en/bridgeBasics : structure du repère conforme[32m 0[2mms[22m[39m
+     [32m✓[39m en/exitStrategy : structure du repère conforme[32m 0[2mms[22m[39m
+     [32m✓[39m en/preparingFile : structure du repère conforme[32m 0[2mms[22m[39m
+     [32m✓[39m en/refinancingSignals : structure du repère conforme[32m 0[2mms[22m[39m
+     [32m✓[39m en/developmentPhases : structure du repère conforme[32m 0[2mms[22m[39m
+     [32m✓[39m en/privateDebtWhen : structure du repère conforme[32m 0[2mms[22m[39m
+[31m     [31m×[31m fr : aucune phrase de plus de 30 mots dans les repères et les FAQ[39m[32m 13[2mms[22m[39m
+[31m     [31m×[31m en : aucune phrase de plus de 30 mots dans les repères et les FAQ[39m[32m 5[2mms[22m[39m
+     [32m✓[39m fr : la méthode de l'accueil reprend les libellés de la page Notre approche[32m 0[2mms[22m[39m
+     [32m✓[39m fr : l'ouverture reste courte et le module fondateur factuel[32m 0[2mms[22m[39m
+     [32m✓[39m en : la méthode de l'accueil reprend les libellés de la page Notre approche[32m 0[2mms[22m[39m
+     [32m✓[39m en : l'ouverture reste courte et le module fondateur factuel[32m 0[2mms[22m[39m
+     [32m✓[39m FR et EN sont structurellement équivalents[32m 2[2mms[22m[39m
+ [32m✓[39m tests/typography.test.ts [2m([22m[2m7 tests[22m[2m)[22m[32m 8[2mms[22m[39m
+ [32m✓[39m tests/contact-cors.test.ts [2m([22m[2m3 tests[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32m✓[39m tests/contact-sheet.test.ts [2m([22m[2m4 tests[22m[2m)[22m[32m 149[2mms[22m[39m
+
+[31m⎯⎯⎯⎯⎯⎯⎯[39m[1m[41m Failed Tests 2 [49m[22m[31m⎯⎯⎯⎯⎯⎯⎯[39m
+
+[41m[1m FAIL [22m[49m tests/content-constraints.test.ts[2m > [22mcontraintes des contenus[2m > [22mfr : aucune phrase de plus de 30 mots dans les repères et les FAQ
+[31m[1mAssertionError[22m: Notre engagement porte sur la qualité de l'analyse et du suivi : la clarté du dossier, la pertinence des pistes explorées et la franchise de nos retours, y compris lorsqu'ils sont négatifs.: expected [ Array(1) ] to deeply equal [][39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- [][39m
+[31m+ [[39m
+[31m+   "Notre engagement porte sur la qualité de l'analyse et du suivi : la clarté du dossier, la pertinence des pistes explorées et la franchise de nos retours, y compris lorsqu'ils sont négatifs.",[39m
+[31m+ ][39m
+
+[36m [2m❯[22m tests/content-constraints.test.ts:[2m142:37[22m[39m
+    [90m140|[39m       texts.push(...dict.contact.faq.items.map((f) => f.answer));
+    [90m141|[39m       const hits = texts.flatMap((t) => longSentences(t));
+    [90m142|[39m       expect(hits, hits.join("\n")).toEqual([]);
+    [90m   |[39m                                     [31m^[39m
+    [90m143|[39m     });
+    [90m144|[39m   }
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯[22m[39m
+
+[41m[1m FAIL [22m[49m tests/content-constraints.test.ts[2m > [22mcontraintes des contenus[2m > [22men : aucune phrase de plus de 30 mots dans les repères et les FAQ
+[31m[1mAssertionError[22m: Our commitment concerns the quality of the analysis and of the follow-up: the clarity of the file, the relevance of the routes explored and the candour of our feedback, including when it is negative.: expected [ Array(1) ] to deeply equal [][39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- [][39m
+[31m+ [[39m
+[31m+   "Our commitment concerns the quality of the analysis and of the follow-up: the clarity of the file, the relevance of the routes explored and the candour of our feedback, including when it is negative.",[39m
+[31m+ ][39m
+
+[36m [2m❯[22m tests/content-constraints.test.ts:[2m142:37[22m[39m
+    [90m140|[39m       texts.push(...dict.contact.faq.items.map((f) => f.answer));
+    [90m141|[39m       const hits = texts.flatMap((t) => longSentences(t));
+    [90m142|[39m       expect(hits, hits.join("\n")).toEqual([]);
+    [90m   |[39m                                     [31m^[39m
+    [90m143|[39m     });
+    [90m144|[39m   }
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯[22m[39m
+
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[2m | [22m[1m[32m6 passed[39m[22m[90m (7)[39m
+[2m      Tests [22m [1m[31m2 failed[39m[22m[2m | [22m[1m[32m79 passed[39m[22m[90m (81)[39m
+[2m   Start at [22m 20:11:32
+[2m   Duration [22m 1.09s[2m (transform 44%, import 36%, tests 18%, worker 2%)[22m
+
+
+::error file=/home/runner/work/araste-Capital/araste-Capital/tests/content-constraints.test.ts,title=tests/content-constraints.test.ts > contraintes des contenus > fr %3A aucune phrase de plus de 30 mots dans les repères et les FAQ,line=142,column=37::AssertionError: Notre engagement porte sur la qualité de l'analyse et du suivi : la clarté du dossier, la pertinence des pistes explorées et la franchise de nos retours, y compris lorsqu'ils sont négatifs.: expected [ Array(1) ] to deeply equal []%0A%0A- Expected%0A+ Received%0A%0A- []%0A+ [%0A+   "Notre engagement porte sur la qualité de l'analyse et du suivi : la clarté du dossier, la pertinence des pistes explorées et la franchise de nos retours, y compris lorsqu'ils sont négatifs.",%0A+ ]%0A%0A ❯ tests/content-constraints.test.ts:142:37%0A%0A
+
+::error file=/home/runner/work/araste-Capital/araste-Capital/tests/content-constraints.test.ts,title=tests/content-constraints.test.ts > contraintes des contenus > en %3A aucune phrase de plus de 30 mots dans les repères et les FAQ,line=142,column=37::AssertionError: Our commitment concerns the quality of the analysis and of the follow-up: the clarity of the file, the relevance of the routes explored and the candour of our feedback, including when it is negative.: expected [ Array(1) ] to deeply equal []%0A%0A- Expected%0A+ Received%0A%0A- []%0A+ [%0A+   "Our commitment concerns the quality of the analysis and of the follow-up: the clarity of the file, the relevance of the routes explored and the candour of our feedback, including when it is negative.",%0A+ ]%0A%0A ❯ tests/content-constraints.test.ts:142:37%0A%0A
