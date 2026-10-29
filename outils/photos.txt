@@ -24,3 +24,4 @@ riviera-immeuble | LDaMQABui7o | https://images.unsplash.com/photo-1772544553393
 riviera-palmiers | oSuZIcno8qc | https://images.unsplash.com/photo-1722515177905-930b3e2bcea6 | 960,1600,2400
 fontvieille | RuvW7a2R8HM | https://images.unsplash.com/photo-1631173384324-6716de52d8bb | 960,1600,2400
 grue | e8dE5m7Vsf8 | https://images.unsplash.com/photo-1783947119562-3f940999dafe | 960,1600,2400
+ville-fenetre | sYtp3sQkqbM | https://images.unsplash.com/photo-1788587351653-5024b4fe11cd | 960,1600,2400
