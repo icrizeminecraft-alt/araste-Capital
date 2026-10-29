@@ -1,0 +1,147 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/lombard-loan-advisory/",
+  "title": "Lombard Loans UK",
+  "summary": "Service page of Silver Oak Capital (London debt advisory) describing Lombard lending: borrowing against liquid assets (bonds, equities, cash, mutual funds, ETFs) while retaining ownership of the holdings and continuing to benefit from capital appreciation, dividends and income. Search snippets reveal indicative LTV ranges by collateral type (bonds 70-90%, equities 50-70%, cash 90-100%), a statement that these loans suit short- to medium-term needs rather than long-term ones, and a claim of access to a network of hundreds of lenders including private banks. No fees, rates, loan sizes, timescales, process steps, H1 or meta description were revealed by the searches. The seed file held no snippet for this page. Page indexed title: 'Lombard Loans UK'; the search tool noted the page was last indexed ~213 days before 2026-10-29.",
+  "verbatim": [
+    "[a] \"Bonds are a common choice of collateral for Lombard loans due to their predictable cash flow. Lenders generally offer an LTV of between 70–90% on bonds\"",
+    "[a] \"Loan-to-value ratios on equity-backed loans are slightly lower than those on bonds, roughly between 50–70%.\"",
+    "[a] \"Loan-to-value ratios associated with cash loans are very high, typically between 90–100%.\"",
+    "[a] \"Lombard loans enable the borrower to access short-term liquidity while retaining ownership of their assets.\"",
+    "[a] (search-tool summary, not confirmed verbatim) \"The firm says it has access to a network of hundreds of lenders, including private banks.\"",
+    "[a] (search-tool summary) \"better suited to short or medium-term needs\"",
+    "[a] (contact page) \"Silver Oak Capital is a debt advisory firm located in London, UK\"; phone \"+44 207 459 4440\"; email \"enquiry@silveroakcapital.co.uk\"",
+    "[b] (search-tool summary of target page) \"describes Lombard lending as a way to borrow against liquid assets, with the borrower keeping ownership of the holdings. Borrowers can benefit from capital appreciation, dividends, and income from their assets while still accessing liquidity, without having to sell their holdings.\"",
+    "[b] (search-tool summary of target page) \"about 70–90% for bonds, roughly 50–70% for equities, and 90–100% for cash. Mutual funds and ETFs are also listed as collateral.\"",
+    "[b] (search-tool summary of target page) \"The page says these loans suit short- to medium-term needs more than long-term ones.\"",
+    "[b] (from /faq/, not the target page) \"Lombard loans can be secured against cash, bonds, mutual funds, ETFs, and equities. If collateral value falls, the lender can ask the borrower to top up security, or the borrower can reduce the loan-to-value ratio by partially repaying.\"",
+    "[b] (from /single-stock-lending-advisory/, not the target page) \"large-cap, liquid shares may support LTVs of up to 60%, while smaller or illiquid stocks may reach only about 20%.\"",
+    "[b] (search-tool note) \"The search results don't include a Silver Oak fee schedule or a formal eligibility checklist\"",
+    "[c] (LinkedIn, not the target page) \"specialist debt advisory firm providing tailored funding solutions\"; \"recently arranged a £1,139,000 revolving credit facility for a private client\"",
+    "[seed] No snippet for /lombard-loan-advisory/ in seed.json; the page is listed under services group 'Securities and alternative' alongside Single Stock Lending Advisory, Crypto Bridging Advisory, Bitcoin Loans Advisory, Art Finance Advisory."
+  ],
+  "services": [
+    "Lombard loan advisory (securities-backed lending against liquid assets)",
+    "Lending against bonds",
+    "Lending against equities / equity portfolios",
+    "Lending against cash deposits",
+    "Lending against mutual funds and ETFs",
+    "Sibling services on the site: Single Stock Lending Advisory, Jewellery / Diamond / Gemstone loans advisory (new URL seen in [b]), Crypto Bridging Advisory, Bitcoin Loans Advisory, Art Finance Advisory (seed)"
+  ],
+  "useCases": [
+    "Access short-term liquidity without selling investment holdings [a][b]",
+    "Retain ownership of assets and continue to benefit from capital appreciation, dividends and income while borrowing [b]",
+    "Short- to medium-term funding needs (page says less suited to long-term needs) [a][b]"
+  ],
+  "terms": [
+    "LTV on bonds: 70–90% (\"Lenders generally offer an LTV of between 70–90% on bonds\") [a][b]",
+    "LTV on equity-backed loans: roughly 50–70%, \"slightly lower than those on bonds\" [a][b]",
+    "LTV on cash-backed loans: typically 90–100%, described as \"very high\" [a][b]",
+    "Mutual funds and ETFs accepted as collateral; LTV for these NOT stated in results [b]",
+    "Duration: suited to short- or medium-term needs rather than long-term [a][b]",
+    "Security: liquid financial assets (bonds, equities, cash, mutual funds, ETFs); borrower retains ownership [a][b]",
+    "Margin mechanics (from /faq/): if collateral value falls, lender may require top-up of security, or borrower can partially repay to reduce LTV [b]",
+    "NOT revealed by searches: interest rates, arrangement/broker fees, minimum or maximum loan size, timescales, currencies, jurisdictions of custody",
+    "Firm-level context from seed (not this page): generally focuses on transactions upwards of £500,000; fee structures vary by page (see seed feesClaims)"
+  ],
+  "eligibility": [
+    "No formal eligibility checklist revealed by the searches [b notes this explicitly]",
+    "Implied requirement: ownership of eligible liquid collateral (cash, bonds, mutual funds, ETFs, equities) [b, via /faq/]",
+    "Seed context (not this page): firm serves private individuals, family offices, UHNW, expats, foreign nationals, offshore trusts"
+  ],
+  "lenderTypes": [
+    "\"a network of hundreds of lenders, including private banks\" (search-tool summary of target page) [a]",
+    "Seed context: site-wide lender count claims range from 300+ to 800+ depending on page; this page's wording is only 'hundreds'"
+  ],
+  "processSteps": [
+    "No process steps for Lombard loans revealed by the searches",
+    "Only mechanic described (from /faq/): on a fall in collateral value, top up security or partially repay to restore LTV [b]"
+  ],
+  "faq": [
+    {
+      "q": "What can Lombard loans be secured against? (source: /faq/ page, [b])",
+      "a": "Cash, bonds, mutual funds, ETFs, and equities."
+    },
+    {
+      "q": "What happens if the collateral value falls? (source: /faq/ page, [b])",
+      "a": "The lender can ask the borrower to top up security, or the borrower can reduce the loan-to-value ratio by partially repaying."
+    },
+    {
+      "q": "What LTV can I expect by collateral type? (reconstructed from target-page snippets, [a][b])",
+      "a": "Bonds 70–90%; equities roughly 50–70%; cash typically 90–100%. Mutual funds and ETFs accepted, LTV not stated."
+    },
+    {
+      "q": "Does the borrower keep ownership of the assets? (reconstructed, [a][b])",
+      "a": "Yes: \"Lombard loans enable the borrower to access short-term liquidity while retaining ownership of their assets\" and the borrower continues to benefit from capital appreciation, dividends and income."
+    }
+  ],
+  "claims": [
+    {"claim": "Lenders generally offer an LTV of between 70–90% on bonds", "kind": "number"},
+    {"claim": "Equity-backed loan LTVs roughly between 50–70%", "kind": "number"},
+    {"claim": "Cash-backed loan LTVs typically between 90–100%", "kind": "number"},
+    {"claim": "Access to a network of hundreds of lenders, including private banks (search-tool summary wording)", "kind": "credential"},
+    {"claim": "Borrower retains ownership of assets and benefits from capital appreciation, dividends and income while borrowing", "kind": "promise"},
+    {"claim": "Lombard loans suit short- to medium-term needs more than long-term ones", "kind": "statement"},
+    {"claim": "Bonds are a common choice of collateral due to their predictable cash flow", "kind": "statement"},
+    {"claim": "Silver Oak Capital is a debt advisory firm located in London, UK (contact page)", "kind": "credential"},
+    {"claim": "LinkedIn [c]: recently arranged a £1,139,000 revolving credit facility for a private client (not Lombard-specific)", "kind": "number"},
+    {"claim": "No testimonials, awards or case studies specific to Lombard loans surfaced in the three searches", "kind": "absence"}
+  ],
+  "geography": [
+    "United Kingdom (page title 'Lombard Loans UK') [a][b]",
+    "London (firm location, contact page) [a]",
+    "Seed context: firm also lists Western Europe, Middle East, United States; offices Monaco, Dubai, Cape Town — not confirmed on this page"
+  ],
+  "ctas": [
+    "No page-specific CTA wording revealed by searches",
+    "Contact routes seen in [a] via /contact/: phone +44 207 459 4440; email enquiry@silveroakcapital.co.uk",
+    "Seed: enquiry form, WhatsApp"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/contact/ [a]",
+    "https://www.silveroakcapital.co.uk/faq/ [b]",
+    "https://www.silveroakcapital.co.uk/single-stock-lending-advisory/ [b]",
+    "https://www.silveroakcapital.co.uk/western-europe/ [b]",
+    "https://www.silveroakcapital.co.uk/jewellery-diamonds-gemstones-loans-advisory/ [b] (NEW — not in seed.json page list)",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/ [b]",
+    "https://www.silveroakcapital.co.uk/complex-offshore-structures/ [b]",
+    "https://silveroakcapital.odoo.com/ [a] (external, in seed)",
+    "https://silveroakcapital.weebly.com/ [a] (external, in seed)",
+    "https://uk.linkedin.com/company/silver-oak-capital [a][c] (external, in seed)",
+    "https://uk.linkedin.com/in/joe-berk [c] (team member per seed)"
+  ],
+  "sections": [
+    {
+      "heading": "Overview — what a Lombard loan is (heading reconstructed, not confirmed)",
+      "content": "Lombard lending is described as a way to borrow against liquid assets while the borrower keeps ownership of the holdings. \"Lombard loans enable the borrower to access short-term liquidity while retaining ownership of their assets.\" Borrowers can benefit from capital appreciation, dividends and income from their assets while still accessing liquidity, without having to sell their holdings. [a][b]"
+    },
+    {
+      "heading": "Bonds as collateral (heading reconstructed)",
+      "content": "\"Bonds are a common choice of collateral for Lombard loans due to their predictable cash flow. Lenders generally offer an LTV of between 70–90% on bonds\" [a]"
+    },
+    {
+      "heading": "Equities as collateral (heading reconstructed)",
+      "content": "\"Loan-to-value ratios on equity-backed loans are slightly lower than those on bonds, roughly between 50–70%.\" [a]"
+    },
+    {
+      "heading": "Cash as collateral (heading reconstructed)",
+      "content": "\"Loan-to-value ratios associated with cash loans are very high, typically between 90–100%.\" [a]"
+    },
+    {
+      "heading": "Mutual funds and ETFs (heading reconstructed)",
+      "content": "Listed as accepted collateral; no LTV range revealed in results. [b]"
+    },
+    {
+      "heading": "Term suitability (heading reconstructed)",
+      "content": "The page says these loans suit short- to medium-term needs more than long-term ones. [a][b]"
+    },
+    {
+      "heading": "Lender network (heading reconstructed)",
+      "content": "The firm says it has access to a network of hundreds of lenders, including private banks. [a, search-tool summary]"
+    }
+  ],
+  "confidence": "medium: the LTV figures and ownership/liquidity messaging came through consistently in two independent searches, with four sentences in apparent verbatim form; but H1, meta description, section headings, fees, rates, sizes, process and CTAs were not revealed. Search [c] returned nothing from the target page.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "notes": "Seed.json contained no snippetsFromFirstPass entry for this path. Search [a] (extended, exact URL) returned the page as result #3 titled 'Lombard Loans UK' with LTV snippets; the tool flagged the page as last indexed ~213 days before 2026-10-29 (approx. late March 2026). Search [b] (extended, site: query) confirmed the same figures and surfaced a previously unknown site URL: /jewellery-diamonds-gemstones-loans-advisory/. Search [c] (standard, 'Silver Oak Capital' Lombard loan 'loan to value') returned no target-page content, only generic Lombard lending material from UBS, VP Bank, Enness etc. (ignored as unrelated) plus the firm's LinkedIn. Section headings above are reconstructed from snippet topics and are NOT confirmed headings. Items marked 'search-tool summary' are the WebSearch tool's paraphrase rather than guaranteed page wording. Unrelated firms ignored: Silver Oak Capital Partners (silveroakcp.com), Silver Oak Securities, silveroak.net. No contradictions found between [a] and [b]; the 'hundreds of lenders' wording is vaguer than, but not contradictory to, the seed's 300+/500+/700+/800+ claims.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/lombard-loan-advisory.json"
+}

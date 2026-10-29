@@ -1,0 +1,151 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/commercial-mortgages/",
+  "title": "Commercial Mortgages UK",
+  "summary": "The /commercial-mortgages/ page was not retrievable directly; search (a) could not fetch it, search (b) indexed it under the title 'Commercial Mortgages UK' and summarised its content, search (c) returned nothing about Silver Oak. What the results state about the page: it addresses two audiences, owner-occupiers (business owners buying the premises they trade from, gaining security of tenure, avoiding rent reviews and building a tangible balance-sheet asset) and property investors (buying commercial property to let to third-party tenants, often seeking finance that maximises leverage to amplify Return on Equity), and it states that LTVs for commercial mortgages are usually between 65% and 75% depending on the property and circumstances. Related site pages add: an 8-12 week application-to-completion timescale and a cost list (lender arrangement fee, valuation fee, legal fee, broker fee) from the FAQ; sectors covered (retail, office, logistics, care homes, student accommodation, hotels) from the home page; and conflicting loan-size (over GBP 500,000 vs GBP 2-20m) and lender-count (300 / 700+ / 800+) claims across pages. H1, meta description, rates, fees specific to this page, process steps and CTAs were not revealed.",
+  "h1": "",
+  "metaDescription": "",
+  "sections": [
+    {
+      "heading": "Owner-occupiers",
+      "content": "[b] (search-tool summary of the page) Owner-occupiers are described as business owners buying the premises they trade from. Owning the premises gives them security of tenure, avoids rent reviews, and builds a tangible asset on the company balance sheet. [seed] The site navigation labels this segment 'Commercial Mortgages (Owner-Occupiers regulated, Investors)', i.e. owner-occupier commercial mortgages are flagged as regulated."
+    },
+    {
+      "heading": "Property investors",
+      "content": "[b] (search-tool summary of the page) Property investors are described as buyers who purchase commercial property specifically to let out to third-party tenants. The page says investors often seek commercial finance that maximises leverage to amplify their Return on Equity (ROE)."
+    },
+    {
+      "heading": "Loan to value",
+      "content": "[b] (search-tool summary of the page) LTVs for commercial mortgages are usually between 65% and 75% depending on the property and circumstances."
+    },
+    {
+      "heading": "Core uses and positioning (attribution uncertain: 'its commercial page')",
+      "content": "[a] The search-tool summary says 'its commercial page lists borrowing, developing, refinancing and acquiring as core uses, and states that it aims for speed and transparency', and that the firm 'positions itself as an independent commercial mortgage broker for UK commercial real estate'. The summary does not say whether 'its commercial page' means /commercial-mortgages/ or /commercial-mortgage-broker/ (the latter is the URL actually listed in result (a))."
+    },
+    {
+      "heading": "Sectors covered (home page, not this page)",
+      "content": "[a] Home page wording: 'For commercial we cover – Retail, Office, Logistics, Care Homes, Student Accommodation and Hotels.'"
+    },
+    {
+      "heading": "Costs and timescales (FAQ page, not this page)",
+      "content": "[a] The FAQ says fees are set out at the outset, and lists common costs as the lender arrangement fee, valuation fee, legal fee and broker fee. [b] The FAQ adds that a commercial mortgage application typically takes 8 to 12 weeks from application to completion."
+    },
+    {
+      "heading": "Loan size and lender network (contradictions across sources)",
+      "content": "[a] A third-party directory describes the firm as 'specializing in large loans of £2-£20m'; the firm's own homepage instead says it works on loans over £500,000. [a] Lender count varies: older listings mention 300 lenders, the commercial mortgage broker page cites 700+, the homepage and a 2026 award listing cite 800+. [seed] /about-us/ says 'has focused on loans between £500K to £20m'; /commercial-mortgage-broker/ says 'the firm also focuses on larger loan sizes of £2-£20 million which sets us apart from the majority of the commercial bridging loan market'."
+    }
+  ],
+  "verbatim": [
+    "[b] Page title as indexed: \"Commercial Mortgages UK\"",
+    "[b] (search-tool summary wording) \"The commercial mortgages page describes them as business owners buying the premises they trade from. Owning the premises gives them security of tenure, avoids rent reviews, and builds a tangible asset on the company balance sheet.\"",
+    "[b] (search-tool summary wording) \"The same page describes them as buyers who purchase commercial property specifically to let out to third-party tenants. It says investors often seek commercial finance that maximises leverage to amplify their Return on Equity (ROE).\"",
+    "[b] (search-tool summary wording) \"The page says LTVs for commercial mortgages are usually between 65% and 75% depending on the property and circumstances.\"",
+    "[b] (search-tool summary wording, FAQ page) \"a commercial mortgage application typically takes 8 to 12 weeks from application to completion\"",
+    "[b] (search-tool summary wording, FAQ page) \"bridging loans as a short-term facility (up to 12-24 months) designed for active investors and business owners\"",
+    "[b] (search-tool summary wording, blog page) \"investors looking to switch lenders when better deals arise may benefit from ERC-free products\"",
+    "[b] (search-tool summary wording, /international-property-mortgages/) \"expert guidance for UK and overseas investors buying residential or commercial real estate\"",
+    "[b] (search-tool note) \"The Silver Oak pages were indexed roughly 200 to 500 days ago, so current rates and terms may differ.\"",
+    "[a] (home page) \"For commercial we cover – Retail, Office, Logistics, Care Homes, Student Accommodation and Hotels.\"",
+    "[a] (search-tool summary wording) \"The firm positions itself as an independent commercial mortgage broker for UK commercial real estate.\"",
+    "[a] (search-tool summary wording) \"Its commercial page lists borrowing, developing, refinancing and acquiring as core uses, and states that it aims for speed and transparency.\"",
+    "[a] (search-tool summary wording, FAQ) \"Its FAQ says fees are set out at the outset, and it lists common costs as the lender arrangement fee, valuation fee, legal fee and broker fee.\"",
+    "[a] (third-party directory) \"specializing in large loans of £2-£20m\"",
+    "[a] (search-tool summary wording) \"The firm's own homepage instead says it works on loans over £500,000.\"",
+    "[a] (search-tool summary wording) \"Older listings mention 300 lenders, its commercial mortgage broker page cites 700+, and its homepage and a 2026 award listing cite 800+.\"",
+    "[a] (search-tool summary wording) \"Crunchbase lists the firm as founded in 2019, based in London, with 11–50 employees.\"",
+    "[a] Result title: \"Commercial Property Awards 2026 - Private\" (awards.propertyweek.com organisation page for Silver Oak Capital)",
+    "[a] Result title: \"Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions\" (home page title)",
+    "[seed] Navigation label: \"Commercial Mortgages (Owner-Occupiers regulated, Investors)\"",
+    "[seed] (/commercial-mortgage-broker/) \"the firm also focuses on larger loan sizes of £2-£20 million which sets us apart from the majority of the commercial bridging loan market\"",
+    "[seed] (/faq/) \"If you or a family member occupies more than 40% of the property, it becomes a regulated loan\"",
+    "[seed] (/types-of-borrowing/) \"each lender has its own appetite for property types\"",
+    "[c] No Silver Oak Capital result returned; search-tool note: \"The search didn't turn up any results about Silver Oak Capital's commercial mortgage lending or its loan-to-value standards.\""
+  ],
+  "services": [
+    "Commercial mortgages for owner-occupiers (business owners buying the premises they trade from) [b]; flagged 'regulated' in site navigation [seed]",
+    "Commercial mortgages for property investors (commercial property let to third-party tenants) [b]",
+    "Independent commercial mortgage broking for UK commercial real estate [a]",
+    "Refinancing and acquisition finance for commercial property ('borrowing, developing, refinancing and acquiring' listed as core uses) [a]",
+    "Related pages surfaced: commercial mortgage broker service (/commercial-mortgage-broker/) [a][b], international property mortgages for UK and overseas investors [b], mortgages without early redemption charges (blog) [b]"
+  ],
+  "useCases": [
+    "Business owner buying its own trading premises to gain security of tenure, avoid rent reviews and build a tangible asset on the company balance sheet [b]",
+    "Investor purchasing commercial property to let to third-party tenants [b]",
+    "Investor seeking finance that maximises leverage to amplify Return on Equity (ROE) [b]",
+    "Refinancing or acquiring commercial property [a] (attribution to this exact page uncertain)",
+    "Investor switching lenders when better deals arise via ERC-free products (blog page, not this page) [b]"
+  ],
+  "terms": [
+    "LTV: usually between 65% and 75% depending on the property and circumstances [b, this page]",
+    "Timescale: typically 8 to 12 weeks from application to completion [b, FAQ page]",
+    "Loan size (contradictory): over £500,000 (homepage) [a][seed]; £500K to £20m (/about-us/) [seed]; £2-£20m (third-party directory [a]; /commercial-mortgage-broker/ [seed])",
+    "Costs: lender arrangement fee, valuation fee, legal fee, broker fee; fees set out at the outset [a, FAQ page]",
+    "Broker fee (seed only, not from this page): 1.00% UK commercial / 1.50% outside UK (old /types-of-borrowing/); blog: ~£1,500 application + 0.5% at offer + 0.5% at completion; Ts&Cs: client-specific fee agreement [seed]",
+    "Rates: not revealed in any result for this page",
+    "Duration / term length: not revealed for commercial mortgages (bridging only: up to 12-24 months [b, FAQ])",
+    "Security: not stated in results for this page"
+  ],
+  "eligibility": [
+    "Owner-occupier businesses buying the premises they trade from [b]",
+    "Property investors letting commercial property to third-party tenants [b]",
+    "Owner-occupier commercial mortgages flagged as regulated in site navigation [seed]; FAQ: 'If you or a family member occupies more than 40% of the property, it becomes a regulated loan' [seed]",
+    "UK and overseas investors served (international property mortgages page) [b]; non-resident lending needs stronger documentation, more conservative LTV and path-of-funds AML/KYC (FAQ) [seed]",
+    "Explicit criteria (income, trading history, deposit, credit) for this page: not revealed"
+  ],
+  "lenderTypes": [
+    "Not stated in results for this page",
+    "Related: lender-network size cited as 300 (older listings), 700+ (/commercial-mortgage-broker/), 800+ (homepage, 2026 award listing) [a][seed]",
+    "Related: 'each lender has its own appetite for property types' (/types-of-borrowing/) [seed]",
+    "Related: /commercial-mortgage-broker/ typically narrows lenders to as many as 3 or 4 potential partners [seed]"
+  ],
+  "processSteps": [
+    "Not revealed for this page",
+    "Related (FAQ): fees set out at the outset [a]; application to completion typically 8 to 12 weeks [b]",
+    "Related (/commercial-mortgage-broker/): narrows lenders to as many as 3 or 4 potential partners [seed]",
+    "Related (/introducers/): once indicative terms are provided, introducers introduce the borrower directly [seed]"
+  ],
+  "faq": [
+    {"q": "What loan-to-value is available on a commercial mortgage?", "a": "Usually between 65% and 75% depending on the property and circumstances [b, this page]"},
+    {"q": "How long does a commercial mortgage take?", "a": "Typically 8 to 12 weeks from application to completion [b, FAQ page]"},
+    {"q": "What costs are involved?", "a": "Fees are set out at the outset; common costs are the lender arrangement fee, valuation fee, legal fee and broker fee [a, FAQ page]"},
+    {"q": "Why would an owner-occupier buy rather than rent?", "a": "Security of tenure, no rent reviews, a tangible asset on the company balance sheet [b, this page]"},
+    {"q": "When is a commercial loan regulated?", "a": "'If you or a family member occupies more than 40% of the property, it becomes a regulated loan' [seed, FAQ page]"},
+    {"q": "FAQ block on this page itself?", "a": "Not revealed by the results"}
+  ],
+  "claims": [
+    {"claim": "LTVs for commercial mortgages are usually between 65% and 75% depending on the property and circumstances", "kind": "number/term [b] this page"},
+    {"claim": "Commercial mortgage application typically takes 8 to 12 weeks from application to completion", "kind": "timescale [b] FAQ page"},
+    {"claim": "Investors often seek commercial finance that maximises leverage to amplify their Return on Equity (ROE)", "kind": "positioning [b] this page"},
+    {"claim": "Aims for speed and transparency", "kind": "promise [a] 'its commercial page' (attribution uncertain)"},
+    {"claim": "Independent commercial mortgage broker for UK commercial real estate", "kind": "positioning [a]"},
+    {"claim": "Specializing in large loans of £2-£20m", "kind": "number [a] third-party directory; contradicts homepage 'over £500,000'"},
+    {"claim": "Lender network: 300 (older listings) / 700+ (/commercial-mortgage-broker/) / 800+ (homepage, 2026 award listing)", "kind": "number/contradiction [a][seed]"},
+    {"claim": "Fees set out at the outset", "kind": "promise [a] FAQ page"},
+    {"claim": "Covers Retail, Office, Logistics, Care Homes, Student Accommodation and Hotels", "kind": "scope [a] home page"},
+    {"claim": "Listed as an organisation at Property Week 'Commercial Property Awards 2026 - Private'", "kind": "award listing [a]; whether shortlisted or won is not stated"},
+    {"claim": "Founded 2019, based in London, 11-50 employees", "kind": "credential [a] Crunchbase"},
+    {"claim": "Testimonials on this page", "kind": "none surfaced"}
+  ],
+  "geography": [
+    "United Kingdom (page title 'Commercial Mortgages UK') [b]",
+    "London-based broker [a][seed]; a directory (mortgage118.com) lists 'Silver Oak Capital, Hackney', which differs from the seed's 91 Wimpole Street W1 office [a]",
+    "Overseas investors buying UK real estate served via /international-property-mortgages/ [b]"
+  ],
+  "ctas": [
+    "Not revealed for this page",
+    "Seed contact routes: enquiry form (name, contact details, finance type, amount, country of residence, brief overview, consent), enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp [seed]"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/commercial-mortgages/",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/",
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/unlock-financial-freedom-mortgages-without-early-redemption-charges/",
+    "https://www.silveroakcapital.co.uk/international-property-mortgages/",
+    "https://www.silveroakcapital.co.uk/how-do-the-rates-for-commercial-mortgages-differ-from-residential-mortgages/"
+  ],
+  "notes": "Search (a) with the exact URL did not retrieve the page ('I couldn't retrieve the exact page at that URL') and drew on related pages; search (b) listed the URL with title 'Commercial Mortgages UK' and summarised its content, but all content lines are the search tool's paraphrase, not confirmed page text, so nothing from this page can be quoted as literal website wording; search (c) returned only unrelated SEC/CMBS/Wikipedia results and no Silver Oak content. H1 and meta description were not revealed (title field is the indexed result title; h1/metaDescription left empty). Attribution uncertainty: the (a) summary's 'its commercial page' (core uses: borrowing, developing, refinancing, acquiring; speed and transparency) may refer to /commercial-mortgage-broker/ rather than /commercial-mortgages/. Contradictions: loan size (over £500,000 vs £500K-£20m vs £2-£20m), lender count (300 / 700+ / 800+), office location (Hackney directory listing vs 91 Wimpole Street W1). New URL not in seed: /unlock-financial-freedom-mortgages-without-early-redemption-charges/. Staleness: search tool notes the Silver Oak pages were indexed roughly 200 to 500 days ago. Unrelated results ignored: LendInvest, Landbay, CMSA, Silverpeak, Red Oak Capital, WFRBS.",
+  "confidence": "medium-low: owner-occupier/investor framing and the 65-75% LTV figure are attributed to this page by one search summary only; everything else comes from related site pages or the seed; no literal page text was retrieved",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/commercial-mortgages.json"
+}

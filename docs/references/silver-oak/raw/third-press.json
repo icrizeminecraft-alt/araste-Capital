@@ -1,0 +1,279 @@
+{
+  "subject": "Silver Oak Capital (UK finance brokerage, silveroakcapital.co.uk)",
+  "focus": "Press, awards, deals, interviews and quotes from Jimmy Baillie - sources other than the firm's own site",
+  "method": "WebSearch only (direct fetch blocked). 7 calls run, 0 refused. Facts recorded only from result snippets / search-tool summaries; verbatim wording in quotes where the tool returned it.",
+  "queriesRun": 7,
+  "queriesRefused": 0,
+  "queries": [
+    {"n": 1, "mode": "extended", "query": "\"Silver Oak Capital\" \"Jimmy Baillie\" broker interview", "outcome": "Hits: Spear's 500 profile, Bridging & Commercial £19.1m article (exclusive interview), David Bell LinkedIn video post, thelandsite 'in the News' article, LinkedIn pages, directories (contactout, rocketreach)."},
+    {"n": 2, "mode": "standard", "query": "\"Silver Oak Capital\" Property Week finance broker", "outcome": "No Property Week coverage found. Hits: Trustpilot, Linktree, odoo microsite, two Spear's profile URLs, unrelated US/AU 'Silver Oak'/'Oak Capital' firms."},
+    {"n": 3, "mode": "standard", "query": "\"Silver Oak Capital\" bridging loan completes deal Bridging & Commercial OR \"Mortgage Introducer\"", "outcome": "One relevant hit: LinkedIn post announcing £4,000,000 Kensington bridging refinance (Connor Dooley). No Mortgage Introducer item found. Rest unrelated (Octane, Reim, Silver Point)."},
+    {"n": 4, "mode": "extended", "query": "\"Silver Oak Capital\" UK thelandsite OR \"Letting Agent Today\" OR \"Spear's\" brokerage", "outcome": "Hits: Letting Agent Today trades directory, thelandsite June 2021 profile, Mortgage118 directory, LinkedIn company page, Slideshare deck, odoo microsite, own-site pages."},
+    {"n": 5, "mode": "standard", "query": "\"Silver Oak Capital\" award finalist winner broker awards UK", "outcome": "No award/finalist mention of Silver Oak Capital found (results were UK Broker Awards / British Mortgage Awards lists for other firms)."},
+    {"n": 6, "mode": "standard", "query": "\"Jimmy Baillie\" Silver Oak Capital podcast OR interview OR quote", "outcome": "Nothing relevant - all results were Baillie Gifford (unrelated Edinburgh fund manager). No podcast found."},
+    {"n": 7, "mode": "extended", "query": "\"Silver Oak Capital\" development finance arranged lender funding secured £ million property", "outcome": "Returned only the firm's own case-study pages (own site - out of focus, recorded separately for cross-reference) plus unrelated Excellion Capital wiki."}
+  ],
+  "notFound": [
+    "No Property Week article mentioning Silver Oak Capital surfaced.",
+    "No Mortgage Introducer article surfaced.",
+    "No award, shortlist or finalist listing for Silver Oak Capital or Jimmy Baillie surfaced.",
+    "No podcast featuring Jimmy Baillie surfaced (query polluted by Baillie Gifford).",
+    "No lender was named for the £19.1m or £4m Kensington bridging deals in the snippets."
+  ],
+  "contradictions": [
+    "Loan range: Spear's profile / Letting Agent Today say £2m-£20m; another snippet (likely own site) says founded 2019 to advise on loans between £500k and £20m.",
+    "Lender-panel size: thelandsite (2021) says more than 300 lenders; current own site says 700+; About Us page says 800+. Marketing claims that have grown over time.",
+    "Location: own/third-party sources give 91 Wimpole Street, Marylebone W1G 0EF; Mortgage118 directory lists the firm under Hackney.",
+    "£4m Kensington bridge: a LinkedIn post attributes the deal to Silver Oak Capital (Connor Dooley); an Octane Capital item in the same results describes a £4m bridge for a Kensington refinance - search tool could not confirm whether Octane was the lender on the same deal or whether snippets were mixed."
+  ],
+  "facts": [
+    {
+      "fact": "Bridging & Commercial published an article titled 'Silver Oak Capital completes its largest ever bridging loan of £19.1m'.",
+      "source": "Bridging & Commercial (bridgingandcommercial.co.uk) - result title",
+      "url": "https://bridgingandcommercial.co.uk/article/15803/silver-oak-capital-completes-its-largest-ever-bridging-loan-of-pound191m",
+      "verbatim": "Silver Oak Capital completes its largest ever bridging loan of £19.1m",
+      "confidence": "high"
+    },
+    {
+      "fact": "Alternate URL for the same Bridging & Commercial £19.1m article.",
+      "source": "Bridging & Commercial - result title",
+      "url": "https://bridgingandcommercial.co.uk/silver-oak-capital-completes-its-largest-ever-bridging-loan-of-pound-19-1m",
+      "verbatim": "Silver Oak Capital completes its largest ever bridging loan of £19.1m",
+      "confidence": "high"
+    },
+    {
+      "fact": "In an exclusive interview with Bridging & Commercial, Jimmy Baillie said Silver Oak Capital was positioning itself as specialists in the large loan market.",
+      "source": "Bridging & Commercial £19.1m article - search tool summary",
+      "url": "https://bridgingandcommercial.co.uk/article/15803/silver-oak-capital-completes-its-largest-ever-bridging-loan-of-pound191m",
+      "verbatim": "specialists in the large loan market",
+      "confidence": "medium-high (quoted fragment returned by search summary; full article not fetched)"
+    },
+    {
+      "fact": "In the same Bridging & Commercial piece, Baillie credited the £19.1m deal's timing to the UK general election, saying that after the December election many people in the UK property market breathed a sigh of relief.",
+      "source": "Bridging & Commercial £19.1m article - search tool summary (paraphrase, not confirmed verbatim)",
+      "url": "https://bridgingandcommercial.co.uk/article/15803/silver-oak-capital-completes-its-largest-ever-bridging-loan-of-pound191m",
+      "verbatim": "",
+      "confidence": "medium (paraphrased by search tool; the December election reference implies the article dates from early 2020)"
+    },
+    {
+      "fact": "Jimmy Baillie has a Spear's 500 adviser profile in the Debt Advisory index.",
+      "source": "Spear's 500 (spears500.com) - result title",
+      "url": "https://spears500.com/adviser/22953/jimmy-baillie",
+      "verbatim": "Jimmy Baillie - Spear's 500 Adviser Profile - Debt Advisory Index",
+      "confidence": "high"
+    },
+    {
+      "fact": "A second Spear's 500 profile URL exists for Jimmy Baillie (adviser id 6519).",
+      "source": "Spear's 500 - result URL",
+      "url": "https://spears500.com/adviser/6519/jimmy-baillie",
+      "verbatim": "",
+      "confidence": "high (URL surfaced; content not read)"
+    },
+    {
+      "fact": "Jimmy Baillie is the founder and managing director of debt advisory firm Silver Oak Capital, which was established in 2019 and specialises in advising UHNW clients on secured loans between £2 million and £20 million.",
+      "source": "Business/adviser profile (most likely Spear's 500) - search tool summary",
+      "url": "https://spears500.com/adviser/22953/jimmy-baillie",
+      "verbatim": "",
+      "confidence": "medium-high (summary attributes to a 'business profile'; wording consistent with Spear's listing)"
+    },
+    {
+      "fact": "Spear's adviser profile lists Jimmy Baillie as founder and managing director, in debt advisory.",
+      "source": "Spear's 500 - search tool summary (query 2)",
+      "url": "https://spears500.com/adviser/22953/jimmy-baillie",
+      "verbatim": "",
+      "confidence": "high"
+    },
+    {
+      "fact": "David Bell published a LinkedIn video post titled 'Get to Know Jimmy Baillie: Debt Financing Options, UK Real Estate Outlook…' - a conversation covering debt options, the outlook for UK real estate, refinancing or reviewing debt arrangements, why clients sometimes opt for high bridge rates, and family office tips. The post lists Baillie as affiliated with Spear's 500 and Silver Oak Capital.",
+      "source": "LinkedIn post by David Bell - result title + search tool summary",
+      "url": "https://za.linkedin.com/posts/dtbell_get-to-know-jimmy-baillie-debt-financing-activity-7062704278661931008-Mpg9",
+      "verbatim": "Get to Know Jimmy Baillie: Debt Financing Options, UK Real Estate Outlook…",
+      "confidence": "medium-high (title verbatim; topic list from summary; activity id suggests circa 2023)"
+    },
+    {
+      "fact": "thelandsite.co.uk published an article titled 'Silver Oak Capital in the News' (profile dated June 2021 per search summary).",
+      "source": "thelandsite.co.uk - result title + summary",
+      "url": "https://www.thelandsite.co.uk/articles/silver-oak-capital-in-the-news",
+      "verbatim": "Silver Oak Capital in the News",
+      "confidence": "high"
+    },
+    {
+      "fact": "In the 2021 thelandsite profile, founder Jimmy Baillie described the firm's main markets as London, Monaco, Dubai and Cape Town.",
+      "source": "thelandsite.co.uk - search tool summary",
+      "url": "https://www.thelandsite.co.uk/articles/silver-oak-capital-in-the-news",
+      "verbatim": "",
+      "confidence": "medium-high"
+    },
+    {
+      "fact": "The 2021 thelandsite article mentions a panel of more than 300 lenders (vs 700+ / 800+ claimed on the firm's current site).",
+      "source": "thelandsite.co.uk - search tool summary",
+      "url": "https://www.thelandsite.co.uk/articles/silver-oak-capital-in-the-news",
+      "verbatim": "",
+      "confidence": "medium-high (contradiction with current own-site figures noted)"
+    },
+    {
+      "fact": "A 2021 company piece says Baillie launched the firm after working at several brokerages, having held consultancy, associate and advisory roles at Knight Frank, Enness and Arc & Co, which he said prepared him to start his own company.",
+      "source": "'2021 company piece' per search tool summary (most likely the thelandsite 'in the News' article; attribution not confirmed)",
+      "url": "https://www.thelandsite.co.uk/articles/silver-oak-capital-in-the-news",
+      "verbatim": "",
+      "confidence": "medium (career facts clear; exact source attribution uncertain)"
+    },
+    {
+      "fact": "Letting Agent Today lists Silver Oak Capital in its trades directory as a London-based commercial mortgage broker specialising in large loans of £2-£20m.",
+      "source": "Letting Agent Today trades directory - result + search tool summary",
+      "url": "https://www.lettingagenttoday.co.uk/trades-directory/silver-oak-capital/",
+      "verbatim": "",
+      "confidence": "high"
+    },
+    {
+      "fact": "Snippet: 'The brokerage focuses on arranging development finance and bridging loans along with residential and commercial mortgages in the UK and western Europe.'",
+      "source": "Third-party listing snippet (LinkedIn company page or directory; exact page not identified) - query 4",
+      "url": "https://uk.linkedin.com/company/silver-oak-capital",
+      "verbatim": "The brokerage focuses on arranging development finance and bridging loans along with residential and commercial mortgages in the UK and western Europe.",
+      "confidence": "medium (verbatim snippet; source URL attribution probable, not confirmed)"
+    },
+    {
+      "fact": "Snippet: 'The firm was founded in 2019 to advise on loans between £500k and £20m, secured on assets in the UK and abroad.'",
+      "source": "Snippet returned in query 4 (likely own site / LinkedIn; attribution not confirmed) - contradicts £2m-£20m range elsewhere",
+      "url": "https://uk.linkedin.com/company/silver-oak-capital",
+      "verbatim": "The firm was founded in 2019 to advise on loans between £500k and £20m, secured on assets in the UK and abroad.",
+      "confidence": "medium"
+    },
+    {
+      "fact": "Team: Jimmy Baillie listed as Managing Director; Sophia De Stefano listed as Relationship Manager.",
+      "source": "Search tool summary (query 4), likely from LinkedIn company page / thelandsite",
+      "url": "https://uk.linkedin.com/company/silver-oak-capital",
+      "verbatim": "",
+      "confidence": "medium"
+    },
+    {
+      "fact": "Office address: 91 Wimpole Street, Marylebone, London W1G 0EF.",
+      "source": "Search tool summary (query 4)",
+      "url": "https://www.thelandsite.co.uk/articles/silver-oak-capital-in-the-news",
+      "verbatim": "",
+      "confidence": "medium-high"
+    },
+    {
+      "fact": "Mortgage118 directory lists Silver Oak Capital (under Hackney, London) as an unverified broker with a 5/5 rating from 9 reviews.",
+      "source": "Mortgage118 broker directory",
+      "url": "https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital",
+      "verbatim": "",
+      "confidence": "medium-high (small sample; Hackney location conflicts with Marylebone address)"
+    },
+    {
+      "fact": "Trustpilot has a review page for silveroakcapital.co.uk describing the firm as a London mortgage broker: 'Silver Oak Capital specialises in real estate debt solutions.'",
+      "source": "Trustpilot UK",
+      "url": "https://uk.trustpilot.com/review/silveroakcapital.co.uk",
+      "verbatim": "Silver Oak Capital specialises in real estate debt solutions.",
+      "confidence": "high"
+    },
+    {
+      "fact": "Silver Oak Capital has a Linktree page pointing to its development finance, bridging loans and commercial mortgage broker pages.",
+      "source": "Linktree",
+      "url": "https://linktr.ee/silveroakcapital",
+      "verbatim": "",
+      "confidence": "high"
+    },
+    {
+      "fact": "An Odoo-hosted microsite exists titled 'Silver Oak Capital - Real Estate & Finance Professionals'.",
+      "source": "silveroakcapital.odoo.com - result title",
+      "url": "https://silveroakcapital.odoo.com/",
+      "verbatim": "Silver Oak Capital - Real Estate & Finance Professionals",
+      "confidence": "high (title only)"
+    },
+    {
+      "fact": "A Slideshare deck titled 'Property Development Finance in Uk, London' is associated with Silver Oak Capital.",
+      "source": "Slideshare - result title",
+      "url": "https://www.slideshare.net/slideshow/property-development-finance-in-uk-london/282306113",
+      "verbatim": "Property Development Finance in Uk, London",
+      "confidence": "medium (surfaced for the firm's name; content not read)"
+    },
+    {
+      "fact": "LinkedIn company page exists: 'Silver Oak Capital'. Jimmy Baillie personal LinkedIn: 'Jimmy Baillie - Silver Oak Capital'.",
+      "source": "LinkedIn - result titles",
+      "url": "https://uk.linkedin.com/company/silver-oak-capital",
+      "verbatim": "",
+      "confidence": "high"
+    },
+    {
+      "fact": "Jimmy Baillie personal LinkedIn profile URL.",
+      "source": "LinkedIn - result",
+      "url": "https://www.linkedin.com/in/jimmy-baillie-00833a50/",
+      "verbatim": "Jimmy Baillie - Silver Oak Capital",
+      "confidence": "high"
+    },
+    {
+      "fact": "Deal announcement (LinkedIn post): 'Silver Oak Capital has successfully arranged a £4,000,000 bridging loan to refinance a prime residential property in Kensington.' The post credits senior associate Connor Dooley: 'Another deal completed, driven by Connor Dooley's excellent work.'",
+      "source": "LinkedIn post surfaced via profile of 'joe berk' (uk.linkedin.com/in/joe-berk) - search tool summary",
+      "url": "https://uk.linkedin.com/in/joe-berk",
+      "verbatim": "Silver Oak Capital has successfully arranged a £4,000,000 bridging loan to refinance a prime residential property in Kensington. | Another deal completed, driven by Connor Dooley's excellent work.",
+      "confidence": "medium-high (verbatim snippets; lender not named; possible link to Octane Capital unconfirmed)"
+    },
+    {
+      "fact": "Connor Dooley is described as a Silver Oak Capital senior associate.",
+      "source": "LinkedIn post - search tool summary",
+      "url": "https://uk.linkedin.com/in/joe-berk",
+      "verbatim": "",
+      "confidence": "medium"
+    },
+    {
+      "fact": "Staff/company directories list Silver Oak Capital: ContactOut 'Company Profile & Staff Directory' and RocketReach profile.",
+      "source": "ContactOut; RocketReach - result titles",
+      "url": "https://contactout.com/company/Silver-Oak-Capital-17115",
+      "verbatim": "",
+      "confidence": "high (existence only; RocketReach: https://rocketreach.co/silver-oak-capital-profile_b7975e47c24e4dd0)"
+    },
+    {
+      "fact": "OWN-SITE (out of focus, for cross-reference with the £19.1m B&C article): NW London bridge case study - developer with a partly finished luxury residential scheme in North West London, ~80% complete, build overrun forced refinance; bridging loan of £19 million; terms 0.75% per month, 12-month term, max 73% LTV, 15% personal guarantee.",
+      "source": "silveroakcapital.co.uk case study (own site) - search tool summary",
+      "url": "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+      "verbatim": "A bridging loan of £19million GBP was required.",
+      "confidence": "medium-high (own-site marketing; likely the same deal as the £19.1m press article but not confirmed)"
+    },
+    {
+      "fact": "OWN-SITE (out of focus): £3.6 million bridging loan on a prime Kensington residential property, placed with a first-charge lender after two other specialist lenders withdrew over intercreditor terms; completed within four weeks; priced at 0.78% per month, BBR-linked.",
+      "source": "silveroakcapital.co.uk case study (own site) - search tool summary",
+      "url": "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/",
+      "verbatim": "",
+      "confidence": "medium-high (own-site)"
+    },
+    {
+      "fact": "OWN-SITE (out of focus): £4.55 million country estate refinance at 65% LTV, 2.89% variable, 5-year term, full interest only, 0.50% bank fee.",
+      "source": "silveroakcapital.co.uk case study (own site) - search tool summary",
+      "url": "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/",
+      "verbatim": "",
+      "confidence": "medium-high (own-site)"
+    },
+    {
+      "fact": "OWN-SITE (out of focus): £21 million central London office purchase & upgrade financed at 68% LTV, 4.75% fixed, three-year interest-only.",
+      "source": "silveroakcapital.co.uk case study (own site) - search tool summary",
+      "url": "https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/",
+      "verbatim": "",
+      "confidence": "medium-high (own-site)"
+    },
+    {
+      "fact": "OWN-SITE (out of focus): £4.5 million Manchester office mortgage at 65% LTV, 3.00% + Bank Base Rate, 7 years.",
+      "source": "silveroakcapital.co.uk case study (own site) - search tool summary",
+      "url": "https://www.silveroakcapital.co.uk/case-studies/manchester-office/",
+      "verbatim": "",
+      "confidence": "medium-high (own-site)"
+    },
+    {
+      "fact": "OWN-SITE (out of focus): $10 million Miami waterfront purchase loan arranged at 70% LTV ('Miami Developer' case study).",
+      "source": "silveroakcapital.co.uk case study (own site) - search tool summary",
+      "url": "https://www.silveroakcapital.co.uk/case-studies/miami-developer/",
+      "verbatim": "",
+      "confidence": "medium-high (own-site)"
+    },
+    {
+      "fact": "OWN-SITE (out of focus): further case-study titles surfaced - '£1.46 Million Refinance' (prime central London property), 'Residential Portfolio Refinance'; a £1 million revolving credit facility for a housebuilder was mentioned but page content was truncated (unconfirmed).",
+      "source": "silveroakcapital.co.uk case studies index (own site) - result titles + summary",
+      "url": "https://www.silveroakcapital.co.uk/case-studies/",
+      "verbatim": "",
+      "confidence": "medium (titles only)"
+    }
+  ],
+  "unrelatedIgnored": [
+    "Silver Oak Securities (US broker-dealer)", "SilverOak Wealth Management (US)", "Oak Capital (Australia)", "Northmarq 'Silver Oaks' retail refinance (US)", "Silver Point Finance / Sweet Oak (US)", "Baillie Gifford (Edinburgh fund manager - name collision on 'Baillie')", "Octane Capital deals not attributed to Silver Oak", "Excellion Capital (Wikipedia)"
+  ]
+}

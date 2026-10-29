@@ -1,0 +1,156 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/prime-residential-mortgages/",
+  "title": "Residential Mortgages UK",
+  "summary": "Page harvested via 3 WebSearch calls only (direct fetch blocked). SERP title of the URL is \"Residential Mortgages UK\" in both [a] and [b]. What the search summaries state about this page: Silver Oak Capital says it has found/arranged mortgages for prime residential properties of GBP 1m and above since 2019; its knowledge of the Private Banking industry pairs clients with a suitable banker; the page lists fixed and variable products and a typical broker fee of 1.00%; it gives an indicative example of a GBP 7 million, five-year, interest-only loan; and it lists deals such as the Notting Hill Large Residential Mortgage and a buy-to-let mortgage with a second-charge bridging loan on a Surrey property. Firm-wide context surfaced alongside: network of over 800 lenders (older profile: 300+ in 100 countries), transactions generally above GBP 500,000, Spear's profile of founder Jimmy Baillie (debt advisory, est. 2019, UHNW secured loans GBP 2m-20m), independent whole-of-market advice, links with offshore banks for foreign investors. Contradiction: this page says GBP 1m+ while /types-of-borrowing/ says GBP 5m and above for prime residential. Not revealed: H1, meta description, LTV, rates, timescales, security wording, lender names, FAQ, CTAs of this page.",
+  "verbatim": [
+    "[a] SERP title for the URL: \"Residential Mortgages UK\"",
+    "[a] \"The prime residential page describes finding a mortgage for a prime residential property (£1m+). The firm says it has found mortgages for prime residential properties (£1m+) since 2019.\"",
+    "[a] \"One snippet says the firm's knowledge of the Private Banking industry pairs clients with a suitable banker.\"",
+    "[a] \"The page lists deals such as a Notting Hill Large Residential Mortgage and a buy-to-let mortgage with a second-charge bridging loan on a Surrey property.\"",
+    "[a] (homepage, not this page) \"the firm handles Main home mortgages, Buy to Lets, Holiday Lets and HMO's on the residential side. It also notes that lending rates changing almost daily, so real-time rate access is a selling point.\"",
+    "[a] (Estate Agent Today trades directory, not this page) \"the firm is perfectly positioned to assist foreign investors seeking prime residential mortgages, through links with offshore banks.\"",
+    "[a] (case study /case-studies/1-46-million-refinance-prime-central-london-property/) \"a £1.46 million, 5-year interest-only facility on a Prime Central London property, arranged with a lender that accepted a non-standard loan purpose and combined household income.\"",
+    "[b] SERP title for the URL: \"Residential Mortgages UK\"",
+    "[b] \"Silver Oak says it has arranged mortgages on prime residential properties of £1m and above since 2019. The page lists fixed and variable products and a typical broker fee of 1.00%. It also gives an indicative example of a £7 million, five-year, interest-only loan.\"",
+    "[b] (/types-of-borrowing/, SERP title \"Wealth Management\") \"This page describes prime residential mortgages as covering properties worth £5m and above, and it stresses that private bank lending policies vary by branch.\"",
+    "[b] (/prime-london-mortgages/) \"This page targets high-value London homes and describes lender selection, a lender-ready case summary, and negotiation and coordination with valuers and solicitors. It is aimed at high-net-worth buyers, entrepreneurs, and internationally mobile clients.\"",
+    "[b] (case studies) \"Silver Oak describes a £1.46 million, five-year interest-only refinance on a Prime Central London property, and a Notting Hill private bank case for a client with oil and gas income.\"",
+    "[b] (homepage and /lenders/, SERP title \"Property Finance Lenders UK\") \"The firm says it works with a network of over 800 lenders and generally focuses on transactions above £500,000.\"",
+    "[b] \"The £1m and £5m thresholds conflict across the site, so check with the firm which applies. The pages are also undated in terms of their most recent update, and the search tool only shows relative ages (roughly 127 to 1,610 days old).\"",
+    "[c] (Spear's adviser profile of Jimmy Baillie) \"Founder Jimmy Baillie describes the firm as a debt advisory business. It was established in 2019 and specialises in advising UHNW clients on secured loans between £2 million and £20 million.\"",
+    "[c] (Spear's) \"Alongside prime residential and commercial mortgages, they also advise on raising debt for luxury assets\" ; the summary adds \"short-term bridging loans, and marine and aviation finance\".",
+    "[c] \"One profile cites more than 800 lenders across the world, while an older profile cites more than 300 lenders in 100 different countries. A LinkedIn post repeats the 800-plus figure and describes the firm as offering independent, whole-of-market advice.\"",
+    "[c] \"Its deals cover the UK, Western Europe, Southern Africa and the Middle East.\"",
+    "[c] \"I found no lender names or specific prime mortgage products for Silver Oak Capital, so those would need the firm's own website or direct contact.\"",
+    "[c] Irrelevant results discarded: Five Oaks Investment Corp. SEC filings; \"Silver Oak Mortgage\" (New Mexico lender, unrelated).",
+    "[seed] loanSizeClaims: \"£1m+\" attributed to prime residential; \"£5m and above\" attributed to /types-of-borrowing/ prime residential.",
+    "[seed] feesClaims: \"1.00% UK commercial / 1.50% outside UK and 1.00% prime residential (/types-of-borrowing/, old page)\".",
+    "[seed] /types-of-borrowing/ snippet: \"prime residential mortgages (£5m and above; policies vary by private bank branch)\".",
+    "[seed] homeResidentialLine: \"Main home mortgages, Buy to Lets, Holiday Lets and HMO's\".",
+    "[seed] navigation places \"Prime Residential Mortgages\" under Services > Residential / Wealth, next to Prime London Mortgages, Private Bank Mortgages, Foreign National Mortgages, International Property Mortgages, Complex Offshore Structures, Buy-to-Let Mortgages, HMO Finance, Portfolio Mortgages, Probate Lending."
+  ],
+  "sections": [
+    {
+      "heading": "Overview (heading inferred, not revealed)",
+      "content": "Silver Oak Capital arranges mortgages for prime residential properties of GBP 1m and above, and states it has done so since 2019. [a][b]"
+    },
+    {
+      "heading": "Private banking relationships (heading inferred)",
+      "content": "The firm's knowledge of the Private Banking industry is used to pair the client with a suitable banker. [a] Sibling page /types-of-borrowing/ adds that private bank lending policies vary by branch. [b][seed]"
+    },
+    {
+      "heading": "Products and fees (heading inferred)",
+      "content": "The page lists fixed and variable products and states a typical broker fee of 1.00%. [b] The seed's older /types-of-borrowing/ page also quotes 1.00% for prime residential. [seed]"
+    },
+    {
+      "heading": "Indicative example (heading inferred)",
+      "content": "An indicative example of a GBP 7 million, five-year, interest-only loan is given on the page. [b] Figures for rate, LTV or total cost of that example were not surfaced."
+    },
+    {
+      "heading": "Related deals / case studies (heading inferred)",
+      "content": "The page lists deals such as the Notting Hill Large Residential Mortgage (a private bank case for a client with oil and gas income [b]) and a buy-to-let mortgage with a second-charge bridging loan on a Surrey property. [a] A separate case study describes a GBP 1.46 million, 5-year interest-only refinance of a Prime Central London property with a lender that accepted a non-standard loan purpose and combined household income. [a][b]"
+    }
+  ],
+  "services": [
+    "Prime residential mortgages for properties of GBP 1m and above [a][b]",
+    "Fixed-rate and variable-rate mortgage products [b]",
+    "Interest-only large loans (example GBP 7m over five years) [b]",
+    "Pairing clients with a suitable private banker [a]",
+    "Large residential mortgages via private banks (Notting Hill case) [a][b]",
+    "Buy-to-let mortgage combined with a second-charge bridging loan (Surrey deal listed on page) [a]",
+    "Refinance of prime central London property, interest-only (case study) [a][b]",
+    "Prime residential mortgages for foreign investors through links with offshore banks (directory listing) [a]",
+    "Firm-wide: main home mortgages, buy to lets, holiday lets and HMOs (homepage) [a][seed]",
+    "Firm-wide: commercial mortgages, luxury asset finance, short-term bridging, marine and aviation finance (Spear's) [c]"
+  ],
+  "useCases": [
+    "Purchase of a prime residential property worth GBP 1m+ [a][b]",
+    "Large residential mortgage in Notting Hill for a client with oil and gas income, via a private bank [a][b]",
+    "Refinance of a Prime Central London property, GBP 1.46m, 5-year interest-only, non-standard loan purpose, combined household income [a][b]",
+    "Buy-to-let purchase supported by a second-charge bridging loan on a Surrey property [a]",
+    "Foreign investors seeking UK prime residential mortgages via offshore banks (directory) [a]",
+    "High-net-worth buyers, entrepreneurs and internationally mobile clients buying high-value London homes (sibling page /prime-london-mortgages/) [b]"
+  ],
+  "terms": [
+    "Property value threshold on this page: GBP 1m and above [a][b]",
+    "Contradicting threshold on /types-of-borrowing/: GBP 5m and above [b][seed]",
+    "Typical broker fee: 1.00% [b] (seed: 1.00% prime residential on old /types-of-borrowing/ page) [seed]",
+    "Indicative example: GBP 7 million, five-year term, interest-only [b]",
+    "Rate types: fixed and variable products [b]",
+    "Case study terms: GBP 1.46 million, 5-year, interest-only, Prime Central London [a][b]",
+    "Firm-wide minimum: transactions generally above GBP 500,000 (/lenders/, homepage) [b][seed]",
+    "Spear's profile: secured loans between GBP 2 million and GBP 20 million for UHNW clients [c]",
+    "Not surfaced for this page: LTV, interest rates, arrangement timescales, security/charge wording, early repayment terms"
+  ],
+  "eligibility": [
+    "Property of GBP 1m+ (this page) [a][b]",
+    "High-net-worth / UHNW individuals (Spear's; sibling prime London page) [b][c]",
+    "Foreign investors / non-UK buyers, via links with offshore banks (directory listing) [a]",
+    "Clients with complex or non-standard income, e.g. oil and gas income (Notting Hill case) [b]",
+    "Non-standard loan purpose and combined household income accepted by lender in the GBP 1.46m case [a]",
+    "Private bank lending policies vary by branch (/types-of-borrowing/) [b][seed]",
+    "No explicit criteria list (minimum income, assets under management, residency, age) was surfaced for this page"
+  ],
+  "lenderTypes": [
+    "Private banks / private bankers (client paired with a suitable banker) [a][b]",
+    "Offshore banks, for foreign investors (directory) [a]",
+    "Whole-of-market network of over 800 lenders (homepage, /lenders/, LinkedIn); older Spear's profile cites 300+ lenders in 100 countries [b][c][seed]",
+    "Lender accepting non-standard loan purpose and combined household income (case study) [a]",
+    "No lender names revealed [c]"
+  ],
+  "processSteps": [
+    "Pair the client with a suitable private banker using knowledge of the Private Banking industry (this page) [a]",
+    "Sibling page /prime-london-mortgages/: lender selection, preparation of a lender-ready case summary, negotiation, coordination with valuers and solicitors [b]",
+    "No step-by-step process was surfaced for this page itself"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "Has found/arranged mortgages for prime residential properties of GBP 1m+ since 2019 [a][b]", "kind": "track-record"},
+    {"claim": "Typical broker fee of 1.00% [b]", "kind": "fee"},
+    {"claim": "Indicative example: GBP 7 million, five-year, interest-only loan [b]", "kind": "worked-example"},
+    {"claim": "Lists fixed and variable products [b]", "kind": "product"},
+    {"claim": "Knowledge of the Private Banking industry pairs clients with a suitable banker [a]", "kind": "promise"},
+    {"claim": "Network of over 800 lenders (homepage, /lenders/, Spear's, LinkedIn) vs 300+ lenders in 100 countries (older Spear's profile) [b][c]", "kind": "number-contradiction"},
+    {"claim": "Generally focuses on transactions above GBP 500,000 (/lenders/) [b]", "kind": "number"},
+    {"claim": "Prime residential threshold: GBP 1m+ on this page vs GBP 5m and above on /types-of-borrowing/ [b][seed]", "kind": "contradiction"},
+    {"claim": "Debt advisory business established in 2019, advising UHNW clients on secured loans GBP 2m-20m (Spear's) [c]; seed notes one page says 2018 [seed]", "kind": "credential"},
+    {"claim": "Independent, whole-of-market advice (LinkedIn) [c]", "kind": "positioning"},
+    {"claim": "Perfectly positioned to assist foreign investors seeking prime residential mortgages, through links with offshore banks (Estate Agent Today directory) [a]", "kind": "promise"},
+    {"claim": "Lending rates changing almost daily; real-time rate access as selling point (homepage) [a]", "kind": "selling-point"},
+    {"claim": "Case study: GBP 1.46m, 5-year interest-only refinance, Prime Central London, lender accepted non-standard loan purpose and combined household income [a][b]", "kind": "case-study"},
+    {"claim": "Case study: Notting Hill Large Residential Mortgage, private bank, client with oil and gas income [a][b]", "kind": "case-study"},
+    {"claim": "Deal listed: buy-to-let mortgage with second-charge bridging loan on a Surrey property [a]", "kind": "case-study"},
+    {"claim": "Spear's 500 adviser profile exists for Jimmy Baillie (spears500.com/adviser/22953 and /6519) [c]; seed records Spear's 500 list 2022 [seed]", "kind": "award"},
+    {"claim": "No testimonials, star ratings or award badges were surfaced for this page", "kind": "absence"}
+  ],
+  "geography": [
+    "United Kingdom (SERP title \"Residential Mortgages UK\") [a][b]",
+    "London: Prime Central London, Notting Hill, Kensington (case studies) [a][b]",
+    "Surrey (buy-to-let with second-charge bridging deal) [a]",
+    "Foreign investors / international clients via offshore banks [a]",
+    "Firm-wide deal coverage: UK, Western Europe, Southern Africa, Middle East (Spear's) [c]"
+  ],
+  "ctas": [
+    "No call-to-action wording from this page was surfaced by the searches",
+    "[seed] firm-wide contact routes: enquiry form (name, contact details, finance type, amount, country of residence, brief overview, consent), enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/prime-residential-mortgages/ (SERP title: Residential Mortgages UK) [a][b]",
+    "https://www.silveroakcapital.co.uk/ (SERP titles: \"Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions\" [a]; \"Residential & Commercial Mortgages\" [b])",
+    "https://www.silveroakcapital.co.uk/prime-london-mortgages/ (SERP title: Prime London Mortgages) [b]",
+    "https://www.silveroakcapital.co.uk/types-of-borrowing/ (SERP title: Wealth Management) [b]",
+    "https://www.silveroakcapital.co.uk/lenders/ (SERP title: Property Finance Lenders UK) [b]",
+    "https://www.silveroakcapital.co.uk/below-market-purchases/ (SERP title: Below Market Value Property Finance UK) [b]",
+    "https://www.silveroakcapital.co.uk/bridging-loans-for-prime-central-london-purchases/ (SERP title: Bridging Loans in the UK for Prime Central London Purchases) [b] -- NOT in seed.json",
+    "https://www.silveroakcapital.co.uk/case-studies/ (SERP title: Silver Oak Capital Case Studies) [a]",
+    "https://www.silveroakcapital.co.uk/case-studies/1-46-million-refinance-prime-central-london-property/ (SERP title: £1.46 Million Refinance) [a][b]",
+    "https://www.silveroakcapital.co.uk/case-studies/notting-hill-large-residential-mortgage/ (SERP title: Notting Hill Large Residential Mortgage) [b]",
+    "https://www.silveroakcapital.co.uk/case-studies/3-6-million-bridging-loan-prime-kensington-property/ (SERP title: £3.6 Million Bridging Loan) [b]",
+    "External seen: https://www.estateagenttoday.co.uk/trades-directory/silver-oak-capital/ [a]; https://uk.linkedin.com/company/silver-oak-capital [a]; https://spears500.com/adviser/22953/jimmy-baillie and https://spears500.com/adviser/6519/jimmy-baillie [c]; https://uk.linkedin.com/in/joe-berk [c]"
+  ],
+  "confidence": "low-medium: the page's own text was never fetched; all content comes from search-engine summaries and SERP titles. The GBP 1m+ since 2019, private-banker pairing, fixed/variable products, 1.00% typical fee, GBP 7m 5-year interest-only example, and the Notting Hill / Surrey deal mentions are stated by the search tool as being on this page [a][b]. Everything else is firm-wide context or sibling pages. H1, meta description, LTV, rates, timescales, FAQ and CTAs of this page were not revealed.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "notes": "Searches: (a) extended, exact URL; (b) extended, site:silveroakcapital.co.uk prime residential mortgages; (c) standard, \"Silver Oak Capital\" prime residential mortgages lenders. (c) returned mostly irrelevant Five Oaks/SEC and Silver Oak Mortgage (New Mexico) results, ignored. Verbatim entries quote the search tool's summary wording, not necessarily the page's literal sentences, except SERP titles and the fragments the tool itself presented as quotes. The relayed user message mentions a 403 error when fetching; this is consistent with the NETWORK constraint (direct fetch blocked), so no direct fetch was attempted. One new site URL discovered that is absent from seed.json: /bridging-loans-for-prime-central-london-purchases/. Contradictions to resolve on the owner's side: GBP 1m+ vs GBP 5m+ prime residential threshold; 800+ vs 300+ lenders; founded 2019 vs 2018.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/prime-residential-mortgages.json"
+}

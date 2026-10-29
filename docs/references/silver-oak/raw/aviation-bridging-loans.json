@@ -1,0 +1,161 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/aviation-bridging-loans/",
+  "title": "Aviation Bridging Loans",
+  "h1": "Aviation Bridging Loans",
+  "summary": "Silver Oak Capital's aviation bridging loans page (as surfaced only through search-engine summaries, never fetched directly) presents aircraft bridging loans as a well-established, short-term (0-24 months) and more expensive form of aircraft finance, used when a buyer needs fast funds for a time-limited opportunity such as an open-market aircraft sale, with a longer-term facility (up to 25 years) arranged afterwards. The firm states it has worked on a number of aircraft bridging loans over the years. Search results also surfaced related FAQ-style statements (LTV depends on borrower profile and aircraft; newer popular models may reach +75% LTV; bridging can refinance an existing aircraft purchase if the asset is strong and the borrower low-risk) and two non-bridging aviation case studies (Falcon 900: 70% LTV, 4.45% fixed, 72 months; G650: $40m, 80% LTV, 10 years). No aircraft bridging rates, fees, minimum loan size, calls to action, H1/meta text or process steps were revealed.",
+  "verbatim": [
+    "[a] \"Silver Oak says it has worked on a number of aircraft bridging loans over the years.\" (search tool summary of page text)",
+    "[a] \"It describes these loans as a well-established form of aircraft finance.\" (search tool summary of page text)",
+    "[a] \"Bridging loans are typically short-term and cost more. The page gives a term of between 0 and 24 months, compared with long-term aircraft finance that can run up to 25 years.\" (search tool summary of page text)",
+    "[a] \"The page says aircraft bridging loans are more expensive than longer term aircraft mortgage.\" (search tool summary of page text)",
+    "[a] \"They are usually used when a buyer needs fast funds for a time-limited opportunity, such as an open market sale, with longer-term financing arranged afterward.\" (search tool summary of page text)",
+    "[a] \"A case study for a Falcon 900 jet describes an aircraft loan at 70% LTV with a 4.45% fixed rate and 72-month term. This is a term loan, not a bridging loan.\" (about /case-studies/aircraft-loan-falcon-900/)",
+    "[a] \"A LinkedIn profile lists aviation among the firm's services, alongside development, bridging, and residential and commercial mortgages.\"",
+    "[a] \"A 2026 Commercial Property Awards listing describes the firm as offering independent, whole-of-market advice across bridging and development finance, commercial and buy-to-let mortgages, and marine and aviation finance. Its lender network is given as 800+, while other listings say 300+ or 500+, so the figures vary by source.\"",
+    "[b] \"The main aviation bridging page presents these loans as a way to move faster than conventional mortgage finance, which suits time-limited purchases such as open-market aircraft sales.\" (search tool summary of page text)",
+    "[b] \"Bridging loans are generally used in aviation transactions when the borrower needs fast access to funds, with a longer-term facility usually arranged afterward.\" (search tool summary of page text)",
+    "[b] \"The firm says bridging loans last between 0 and 24 months, compared with up to 25 years for long-term finance. It also says aircraft bridging loans cost more than long-term aircraft mortgages, partly because of the higher lender risk.\" (search tool summary of page text)",
+    "[b] \"The FAQ says loan-to-value depends on the borrower's profile and the aircraft. Newer, more popular models are likely to secure higher LTV loans (+75%).\" (FAQ source ambiguous: /faq/ appears in result links, but this may be an FAQ block on an aviation page)",
+    "[b] \"The FAQ says bridging loans can refinance existing aircraft purchases, provided the underlying asset is strong and the borrower is seen as low risk.\" (same FAQ source ambiguity)",
+    "[b] \"The introducer page lists aviation bridging loans alongside senior secured aircraft finance, operating leases and finance leases. The senior secured page describes that product as the lowest-risk form of aircraft finance.\"",
+    "[b] \"The case studies include a Falcon 900 loan at 70% LTV with a 4.45% fixed rate over 72 months, and a G650 financing of $40m at 80% LTV over 10 years. Neither is a bridging loan.\"",
+    "[b] \"The results don't include the firm's bridging rates or fees for aircraft. The FAQ also gives timelines for senior secured aircraft finance, not for bridging: for a simple transaction in a familiar jurisdiction, aircraft finance can take 4-8 weeks.\"",
+    "[c] \"The search didn't turn up anything specific to Silver Oak Capital's aviation bridging loans\" (search tool statement; query returned generic bridging-loan pages)",
+    "[c] \"A LinkedIn post from Joe Berk's account reports that Silver Oak Capital has successfully arranged a £4,000,000 bridging loan to refinance a prime residential property in Kensington. That is a property deal, not aviation.\"",
+    "[c] \"A separate profile notes that a UK adviser with a network of over 800 lenders covers marine and aviation finance.\" (result link: spears500.com/adviser/22953/jimmy-baillie; the search tool said it could not clearly tie this to Silver Oak, but the seed identifies Jimmy Baillie as Silver Oak's founder)",
+    "[seed] Navigation, Aviation group: \"Aviation Finance (secured loan, operating lease, finance lease)\", \"Aviation Bridging Loans\", \"Senior Secured Aircraft Finance Advisory\"",
+    "[seed] /introducers/: \"can arrange commercial mortgages, buy-to-let mortgages, bridging loans, development finance, marine finance, or aviation finance\"",
+    "[seed] Aviation case studies listed: /case-studies/g650/, /case-studies/aircraft-loan-falcon-900/, /case-studies/top-aviation-firms/"
+  ],
+  "services": [
+    "Aviation bridging loans (aircraft bridging loans) [a][b][seed]",
+    "Senior secured aircraft finance advisory (described as the lowest-risk form of aircraft finance) [b][seed]",
+    "Aviation finance: secured loan, operating lease, finance lease [b][seed]",
+    "Longer-term aircraft mortgage / long-term aircraft finance up to 25 years, arranged after the bridge [a][b]",
+    "Refinancing of existing aircraft purchases via bridging [b, FAQ]"
+  ],
+  "useCases": [
+    "Fast access to funds for a time-limited opportunity, e.g. an open-market aircraft sale [a][b]",
+    "Moving faster than conventional (aircraft) mortgage finance allows [b]",
+    "Short-term bridge until a longer-term facility is arranged afterwards [a][b]",
+    "Refinancing an existing aircraft purchase, if the underlying asset is strong and the borrower is seen as low risk [b, FAQ]"
+  ],
+  "terms": [
+    "Term: between 0 and 24 months (page wording as summarised by search tool) [a][b]",
+    "Comparison: long-term aircraft finance can run up to 25 years [a][b]",
+    "Cost: aircraft bridging loans are more expensive than a longer-term aircraft mortgage, partly because of higher lender risk [a][b]",
+    "LTV: depends on the borrower's profile and the aircraft; newer, more popular models are likely to secure higher LTV loans (+75%) [b, FAQ]",
+    "Security: the aircraft (implied by LTV and 'underlying asset' wording); no explicit security clause revealed [b]",
+    "Rates and fees for aircraft bridging: NOT revealed by any result [b]",
+    "Minimum / maximum loan size for aircraft bridging: NOT revealed",
+    "Timescale: 4-8 weeks for a simple senior secured aircraft finance transaction in a familiar jurisdiction (stated for senior secured finance, NOT for bridging) [b, FAQ]",
+    "Reference deals (non-bridging): Falcon 900 at 70% LTV, 4.45% fixed, 72 months; G650 $40m at 80% LTV over 10 years [a][b]"
+  ],
+  "eligibility": [
+    "LTV offered depends on the borrower's profile and the aircraft [b, FAQ]",
+    "Newer, more popular aircraft models are more likely to secure higher LTV (+75%) [b, FAQ]",
+    "Refinancing via bridging requires a strong underlying asset and a borrower seen as low risk [b, FAQ]",
+    "No stated nationality, residency, minimum net worth or minimum loan criteria revealed for this page"
+  ],
+  "lenderTypes": [
+    "Not specified on this page in any result",
+    "Firm-level claim: lender network of 800+ (Commercial Property Awards 2026 listing; Spear's adviser profile 'over 800 lenders'), versus 300+ or 500+ in other listings [a][c][seed]",
+    "Firm-level: 'independent, whole-of-market advice' across bridging, development, commercial, buy-to-let, marine and aviation finance (awards listing) [a]"
+  ],
+  "processSteps": [
+    "Bridging loan arranged to provide fast funds for a time-limited purchase (e.g. open-market sale) [a][b]",
+    "Longer-term facility (aircraft mortgage, up to 25 years) usually arranged afterwards to repay/replace the bridge [a][b]",
+    "No further application, valuation, documentation or completion steps were revealed for this page"
+  ],
+  "faq": [
+    {
+      "q": "What loan-to-value can be obtained on aircraft finance / bridging?",
+      "a": "LTV depends on the borrower's profile and the aircraft; newer, more popular models are likely to secure higher LTV loans (+75%). [b] Source page ambiguous (/faq/ or an FAQ block on an aviation page)."
+    },
+    {
+      "q": "Can a bridging loan refinance an existing aircraft purchase?",
+      "a": "Yes, provided the underlying asset is strong and the borrower is seen as low risk. [b] Same source ambiguity."
+    },
+    {
+      "q": "How long does aircraft finance take?",
+      "a": "For a simple transaction in a familiar jurisdiction, aircraft finance can take 4-8 weeks; stated for senior secured aircraft finance, not bridging. [b]"
+    },
+    {
+      "q": "How do aircraft bridging loans compare with long-term aircraft finance?",
+      "a": "Bridging: 0-24 months and more expensive (higher lender risk); long-term aircraft finance: up to 25 years. [a][b]"
+    }
+  ],
+  "claims": [
+    {"claim": "Silver Oak has worked on a number of aircraft bridging loans over the years", "kind": "experience / track record [a]"},
+    {"claim": "Aircraft bridging loans are a well-established form of aircraft finance", "kind": "product positioning [a]"},
+    {"claim": "Bridging term 0-24 months versus up to 25 years for long-term aircraft finance", "kind": "number / term [a][b]"},
+    {"claim": "Aircraft bridging loans cost more than long-term aircraft mortgages, partly because of higher lender risk", "kind": "pricing statement [a][b]"},
+    {"claim": "Newer, more popular aircraft models are likely to secure higher LTV loans (+75%)", "kind": "number / LTV [b, FAQ]"},
+    {"claim": "Simple senior secured aircraft finance in a familiar jurisdiction can take 4-8 weeks", "kind": "timescale (not bridging) [b, FAQ]"},
+    {"claim": "Falcon 900 aircraft loan: 70% LTV, 4.45% fixed rate, 72-month term (term loan, not bridging)", "kind": "case study [a][b]"},
+    {"claim": "G650 financing: $40m at 80% LTV over 10 years (not bridging)", "kind": "case study [b]"},
+    {"claim": "Lender network of 800+ (Commercial Property Awards 2026 listing; Spear's adviser profile 'over 800 lenders'); other listings state 300+ or 500+", "kind": "number / contradiction across sources [a][c][seed]"},
+    {"claim": "Independent, whole-of-market advice across bridging and development finance, commercial and buy-to-let mortgages, and marine and aviation finance", "kind": "positioning (Commercial Property Awards 2026 listing) [a]"},
+    {"claim": "Senior secured aircraft finance is the lowest-risk form of aircraft finance", "kind": "product positioning (senior secured page) [b]"},
+    {"claim": "Silver Oak Capital added to Spear's 500 list for 2022", "kind": "recognition (case-study URL surfaced) [b][seed]"},
+    {"claim": "Silver Oak arranged a £4,000,000 bridging loan to refinance a prime residential property in Kensington (LinkedIn post, Joe Berk)", "kind": "deal claim, property not aviation [c]"},
+    {"claim": "Silver Oak Capital listed in Commercial Property Awards 2026 (awards.propertyweek.com organisation node)", "kind": "awards / recognition [a]"}
+  ],
+  "geography": [
+    "Not stated for this page in any result",
+    "Firm-level: London, England (Nextdoor listing 'Debt Advisory - London, England') [a]",
+    "Firm-level: UK adviser (Spear's profile) [c]",
+    "FAQ mention of 'a familiar jurisdiction' implies aircraft finance across multiple jurisdictions [b]",
+    "Seed: international coverage United Kingdom, Western Europe, Middle East, United States; offices London, Monaco, Dubai, Cape Town [seed]"
+  ],
+  "ctas": [
+    "Not revealed by any result for this page",
+    "Seed (site-wide): enquiry form, email enquiry@silveroakcapital.co.uk, phone +44 207 459 4440, WhatsApp [seed]"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/aviation-bridging-loans/",
+    "https://www.silveroakcapital.co.uk/senior-secured-aircraft-finance-advisory/",
+    "https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/",
+    "https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/",
+    "https://www.silveroakcapital.co.uk/case-studies/g650/",
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/introducers/",
+    "EXTERNAL: https://uk.linkedin.com/company/silver-oak-capital",
+    "EXTERNAL: https://www.thelandsite.co.uk/professional-services/720-silver-oak-capital",
+    "EXTERNAL: https://www.thelandsite.co.uk/articles/silver-oak-capital-in-the-news",
+    "EXTERNAL: https://nextdoor.co.uk/pages/silver-oak-capital-debit-advisory-london-england/",
+    "EXTERNAL: https://awards.propertyweek.com/live/en/node/organisation-silver-oak-capital",
+    "EXTERNAL: https://spears500.com/adviser/22953/jimmy-baillie",
+    "EXTERNAL: https://uk.linkedin.com/in/joe-berk"
+  ],
+  "sections": [
+    {
+      "heading": "Aviation Bridging Loans (page title as shown in search results; H1 not confirmed)",
+      "content": "Silver Oak says it has worked on a number of aircraft bridging loans over the years and describes them as a well-established form of aircraft finance. [a]"
+    },
+    {
+      "heading": "Why use an aircraft bridging loan (inferred section; heading not revealed)",
+      "content": "Bridging loans let a buyer move faster than conventional mortgage finance, suiting time-limited purchases such as open-market aircraft sales. They are used when the borrower needs fast access to funds, with a longer-term facility usually arranged afterwards. [a][b]"
+    },
+    {
+      "heading": "Term and cost versus long-term aircraft finance (inferred section; heading not revealed)",
+      "content": "Bridging loans are short-term, between 0 and 24 months, compared with long-term aircraft finance that can run up to 25 years. Aircraft bridging loans are more expensive than a longer-term aircraft mortgage, partly because of the higher lender risk. [a][b]"
+    },
+    {
+      "heading": "FAQ-style statements surfaced (source page ambiguous: /faq/ or an aviation page FAQ block)",
+      "content": "LTV depends on the borrower's profile and the aircraft; newer, more popular models are likely to secure higher LTV loans (+75%). Bridging loans can refinance existing aircraft purchases provided the underlying asset is strong and the borrower is seen as low risk. Simple senior secured aircraft finance in a familiar jurisdiction can take 4-8 weeks (not stated for bridging). [b]"
+    },
+    {
+      "heading": "Related aviation pages and case studies (context, not page text)",
+      "content": "Introducer page lists aviation bridging loans alongside senior secured aircraft finance, operating leases and finance leases; the senior secured page calls that product the lowest-risk form of aircraft finance. Case studies: Falcon 900 (70% LTV, 4.45% fixed, 72 months) and G650 ($40m, 80% LTV, 10 years), neither a bridging loan; also 'Top Aviation Firms' case-study page (content not revealed). [a][b][seed]"
+    }
+  ],
+  "confidence": "low-medium: the page itself was never fetched; all page content comes from the search tool's paraphrased summaries of partial page text in results [a] and [b], which agree with each other on term (0-24 months vs up to 25 years), higher cost, and use for time-limited open-market purchases. No confirmed verbatim page sentences, no H1/meta, no rates, fees, loan sizes, lender types, process or CTAs. Query [c] returned nothing page-specific.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/aviation-bridging-loans.json",
+  "notes": "CAVEATS: (1) All 'verbatim' entries tagged [a]/[b]/[c] are the search tool's own summary sentences, not confirmed page text; the task required quoting what the tool stated. (2) 'Aviation Bridging Loans' is the result-link title in [a] and [b]; whether it is the exact <title> or H1 is unconfirmed; meta description not revealed, so metaDescription omitted. (3) The lower bound '0 months' in '0 and 24 months' appears in both [a] and [b] and is reported as given. (4) FAQ statements in [b] (LTV +75% for newer models; refinancing of existing aircraft purchases; 4-8 weeks) are attributed by the tool to 'the FAQ'; /faq/ ('Property Finance FAQs') appears in the links, but the seed snippet for /faq/ contains no aviation content, so these may come from an FAQ block on /aviation-bridging-loans/ or /senior-secured-aircraft-finance-advisory/. (5) CONTRADICTION (firm-level, pre-existing in seed): lender network 800+ (awards listing, Spear's profile) vs 300+ or 500+ (other listings). (6) The Falcon 900 and G650 deals are explicitly described as term loans, not bridging loans; do not present them as bridging examples. (7) Query [c] ('how it works') surfaced only generic bridging pages, a Joe Berk LinkedIn post about a £4m Kensington residential bridge (not aviation) and the Spear's adviser profile of Jimmy Baillie; the tool declined to tie that profile to Silver Oak, but the seed names Jimmy Baillie as Silver Oak's founder. (8) Unrelated 'oak' results in [c] (Live Oak Banking Company loan agreement, White Oak, Archer Wealth) were ignored as instructed. (9) Nothing revealed about: aircraft bridging rates, arrangement fees, minimum/maximum loan size, lender types for aviation, application process, security documentation, jurisdictions, testimonials or CTAs on this page."
+}

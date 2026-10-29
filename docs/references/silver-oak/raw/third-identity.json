@@ -1,0 +1,193 @@
+{
+  "agent": "third-identity",
+  "subject": "Silver Oak Capital (silveroakcapital.co.uk) - legal identity, people, regulatory status, memberships",
+  "method": "WebSearch only (direct fetch blocked). Facts recorded only from search-tool summaries and result titles/URLs. Own-site pages used only where the search summary cited them; flagged as such.",
+  "queriesRun": 7,
+  "queriesRefused": 0,
+  "queries": [
+    {"n": 1, "mode": "standard", "query": "\"Silver Oak Capital\" 08551479 Companies House"},
+    {"n": 2, "mode": "extended", "query": "Jimmy Baillie \"Silver Oak Capital\" founder background"},
+    {"n": 3, "mode": "standard", "query": "\"Silver Oak Capital\" \"Sophia De Stefano\" OR \"Connor Dooley\" OR \"Joe Berk\""},
+    {"n": 4, "mode": "standard", "query": "\"Silver Oak Capital\" UK finance broker FCA register authorised OR exempt"},
+    {"n": 5, "mode": "extended", "query": "\"Silver Oak Capital\" NACFB OR FIBA OR ASTL member broker"},
+    {"n": 6, "mode": "standard", "query": "\"Silver Oak Capital\" Spear's 500 property finance adviser"},
+    {"n": 7, "mode": "extended", "query": "\"Silver Oak Capital Limited\" London finance brokerage team employees LinkedIn"}
+  ],
+  "facts": [
+    {
+      "fact": "Companies House number 08551479: NO record surfaced in search results. Registered name, incorporation date, officers and registered office could NOT be confirmed via WebSearch. Needs a direct lookup on find-and-update.company-information.service.gov.uk/company/08551479.",
+      "source": "WebSearch summary, query 1",
+      "url": "",
+      "verbatim": "I couldn't find a Companies House record for company number 08551479 in these results, so I can't confirm its name, status, or registered address.",
+      "confidence": "high (negative result - not found, not disproved)"
+    },
+    {
+      "fact": "Companies House 'Silver Oak' hits returned by the search are DIFFERENT companies and must be ignored: SILVER OAK (ASTON 1) LIMITED 03912902, SILVER OAK (ASTON 2) LIMITED 03912918, SILVER OAK (REDDITCH) LIMITED 03545770, SILVER OAK (WIMBLEDON) LIMITED 03670551, SILVER OAK (HARLEY) LIMITED 03662661, SILVER OAK ENTERPRISES LIMITED 04334039, SILVER COAST CAPITAL (UK) LIMITED 10058904, SILVEROAK PRIVATE LTD 14021011.",
+      "source": "Result titles, query 1",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/04334039",
+      "verbatim": "",
+      "confidence": "high (different company numbers)"
+    },
+    {
+      "fact": "Jimmy Baillie is the founder and managing director of Silver Oak Capital, described as a debt advisory firm.",
+      "source": "Spear's 500 adviser profile (two profile IDs: 6519 and 22953)",
+      "url": "https://spears500.com/adviser/22953/jimmy-baillie",
+      "verbatim": "Jimmy Baillie is the founder and managing director of debt advisory firm Silver Oak Capital.",
+      "confidence": "high"
+    },
+    {
+      "fact": "Silver Oak Capital was founded / set up in 2019.",
+      "source": "Spear's 500 profile 6519; Bridging & Commercial 2019 trade article says the firm was started by Jimmy Baillie",
+      "url": "https://spears500.com/adviser/6519/jimmy-baillie",
+      "verbatim": "The firm was set up in 2019 and advises wealthy clients on secured loans, mainly in the £2 million to £20 million range.",
+      "confidence": "high"
+    },
+    {
+      "fact": "Target loan size - CONTRADICTION between sources: Spear's cites £2m to £20m; the firm's own profile (per search summary) describes £500k to £20m; a directory listing describes 'large loans of £2-£20m'.",
+      "source": "Spear's 500 profile vs firm's own profile (as reported in WebSearch summary, query 2 and 7)",
+      "url": "https://spears500.com/adviser/6519/jimmy-baillie",
+      "verbatim": "The firm's own profile describes loans from £500k to £20m, while a Spear's listing cites £2m to £20m.",
+      "confidence": "medium (contradiction noted)"
+    },
+    {
+      "fact": "Lender network - CONTRADICTION: Spear's profile says more than 800 lenders; an older article says 300+. Geographic reach per Spear's: UK, Western Europe, Southern Africa and the Middle East.",
+      "source": "Spear's 500 profile 22953; older article (unnamed in summary, likely 2019 trade press)",
+      "url": "https://spears500.com/adviser/22953/jimmy-baillie",
+      "verbatim": "Silver Oak says it works with a network of more than 800 lenders and arranges real estate debt in the UK, Western Europe, Southern Africa and the Middle East.",
+      "confidence": "medium (contradiction noted; 800+ is the more recent figure)"
+    },
+    {
+      "fact": "Services attributed to the firm: residential and commercial mortgages, bridging loans, marine and aviation finance.",
+      "source": "WebSearch summary, query 2 (mix of Spear's, own About Us page, aggregators)",
+      "url": "https://spears500.com/adviser/22953/jimmy-baillie",
+      "verbatim": "Its services include residential and commercial mortgages, bridging loans, and marine and aviation finance.",
+      "confidence": "medium"
+    },
+    {
+      "fact": "Jimmy Baillie's prior career: worked for several London real estate debt brokers before founding Silver Oak; earlier roles reportedly at Knight Frank, Enness Private Office and Arc & Co. Reported motivation: a gap in specialist advice for loans above £2m.",
+      "source": "WebSearch summary, query 2 (Spear's profile + own About Us page + aggregators RocketReach/ContactOut/AeroLeads)",
+      "url": "https://spears500.com/adviser/22953/jimmy-baillie",
+      "verbatim": "Earlier roles included Knight Frank, Enness Private Office, and Arc & Co. He reportedly decided to start his own business after seeing a gap in specialist advice for loans above £2m.",
+      "confidence": "medium (summary notes aggregators may be outdated; Spear's/About Us are the stronger sources)"
+    },
+    {
+      "fact": "Jimmy Baillie education: University of Cape Town, B.Com Honours in Economics (around 2010). One aggregator profile also lists Nelson Mandela University; dates conflict between sources.",
+      "source": "Aggregator profiles (RocketReach / ContactOut / AeroLeads / Crunchbase) as reported in WebSearch summary, query 2",
+      "url": "https://rocketreach.co/jimmy-baillie-email_49807510",
+      "verbatim": "He studied at the University of Cape Town, where he earned a B.Com. Honours in Economics around 2010. One profile lists a further degree from Nelson Mandela University, but the dates in the sources conflict.",
+      "confidence": "low-medium (aggregator data, conflicting dates)"
+    },
+    {
+      "fact": "Crunchbase has a person profile titled 'Jimmy Baillie - Wealth Management @ Wilton Group'. Unclear whether this is a past role or a different person; not corroborated elsewhere.",
+      "source": "Result title, query 2",
+      "url": "https://www.crunchbase.com/person/jimmy-baillie",
+      "verbatim": "Jimmy Baillie - Wealth Management @ Wilton Group - Crunchbase Person Profile",
+      "confidence": "low (title only, unverified link to Silver Oak)"
+    },
+    {
+      "fact": "Spear's 500: Jimmy Baillie / Silver Oak Capital included in the Spear's 500 Debt Advisory index for 2022/2023. The firm also published its own case-study page 'Silver Oak Capital added to Spear's 500 list for 2022'. Baillie appears under two separate Spear's adviser profile IDs (6519 and 22953); reason for duplication not stated. Specific rank position in Spear's property index NOT confirmed.",
+      "source": "Spear's 500 (spears500.com) + firm's own case-study URL (own site, flagged)",
+      "url": "https://spears500.com/adviser/6519/jimmy-baillie",
+      "verbatim": "He was included in Spear's 500 Debt Advisory index for 2022/2023.",
+      "confidence": "high (listing exists); low for any ranking position"
+    },
+    {
+      "fact": "Spear's profile personal note: Jimmy Baillie described as a keen amateur cyclist and snowboarder.",
+      "source": "Spear's 500 profile",
+      "url": "https://spears500.com/adviser/22953/jimmy-baillie",
+      "verbatim": "A Spear's profile says he is a keen amateur cyclist and snowboarder.",
+      "confidence": "medium"
+    },
+    {
+      "fact": "Connor Dooley and Joe Berk are members of Silver Oak Capital's debt advisory team; they represented the firm at MIPIM 2026 in Cannes (9-13 March 2026).",
+      "source": "LinkedIn posts (self-reported) via WebSearch summary, query 3",
+      "url": "https://uk.linkedin.com/in/joe-berk",
+      "verbatim": "Connor Dooley and Joe Berk will be representing our debt advisory team at MIPIM from the 9th to the 13th of March.",
+      "confidence": "medium (LinkedIn, self-reported)"
+    },
+    {
+      "fact": "Connor Dooley is credited (LinkedIn) with arranging a £4,000,000 bridging loan to refinance a prime residential property in Kensington.",
+      "source": "LinkedIn post via WebSearch summary, queries 1 and 3",
+      "url": "https://uk.linkedin.com/in/joe-berk",
+      "verbatim": "Silver Oak Capital has successfully arranged a £4,000,000 bridging loan to refinance a prime residential property in Kensington.",
+      "confidence": "medium (LinkedIn, self-reported)"
+    },
+    {
+      "fact": "Joe Berk has a LinkedIn profile (uk.linkedin.com/in/joe-berk) tied to Silver Oak Capital; it describes the firm as a specialist debt advisory firm providing tailored funding solutions. No job title for him surfaced in the snippets.",
+      "source": "LinkedIn profile via WebSearch summary, query 1",
+      "url": "https://uk.linkedin.com/in/joe-berk",
+      "verbatim": "specialist debt advisory firm providing tailored funding solutions",
+      "confidence": "medium"
+    },
+    {
+      "fact": "Sophia De Stefano: NO third-party source found in a name-targeted search. The only mention is the firm's own About Us page (as reported by the search summary), which names her as a relationship manager.",
+      "source": "WebSearch summary, query 3 (negative) and query 7 (own-site About Us page, flagged as own site)",
+      "url": "https://www.silveroakcapital.co.uk/about-us/",
+      "verbatim": "The firm's About Us page lists him as Managing Director and also names a relationship manager, Sophia De Stefano.",
+      "confidence": "medium (own-site only; no independent corroboration)"
+    },
+    {
+      "fact": "Headcount: the company's LinkedIn page lists 11-50 employees and a London headquarters. The firm's About Us page names Jimmy Baillie as Managing Director. A Bridging & Commercial trade article is titled 'Silver Oak Capital to grow team following increased volume in £2m-20m space'.",
+      "source": "LinkedIn company page + Bridging & Commercial, via WebSearch summary, query 7",
+      "url": "https://uk.linkedin.com/company/silver-oak-capital",
+      "verbatim": "The company's LinkedIn page lists 11-50 employees and a London headquarters.",
+      "confidence": "medium (LinkedIn size band is self-declared)"
+    },
+    {
+      "fact": "FCA status: NO FCA Financial Services Register entry for 'Silver Oak Capital' surfaced in search results; status (authorised / appointed representative / exempt) is UNCONFIRMED. No FRN found. Needs direct check on register.fca.org.uk.",
+      "source": "WebSearch summary, query 4",
+      "url": "",
+      "verbatim": "I found no FCA Financial Services Register entry for \"Silver Oak Capital\" itself, so its status is unconfirmed.",
+      "confidence": "high (negative result - not found, not disproved)"
+    },
+    {
+      "fact": "A third-party directory (Unbiased.co.uk mortgage-adviser profile for Silver Oak Capital) states the firm is FCA registered. This is a directory claim, not the register itself.",
+      "source": "Unbiased.co.uk profile",
+      "url": "https://www.unbiased.co.uk/profile/mortgage-adviser/silver-oak-capital-702017",
+      "verbatim": "An Unbiased.co.uk mortgage-adviser profile for \"Silver Oak Capital\" states the firm is FCA registered.",
+      "confidence": "low-medium (unverified directory claim)"
+    },
+    {
+      "fact": "No FCA scam/clone warning naming Silver Oak Capital was found. FCA warnings in results concern OTHER firms (Loan Oak clone, Silver Capital Management LLC, Sliverleaf/Silver Leaf Capital Group, Evergreen Oak Capital, Silverhouse Finance, Silvergrove Capital Group) and are unrelated.",
+      "source": "WebSearch summary and result titles, query 4",
+      "url": "https://www.fca.org.uk/news/warnings/evergreen-oak-capital",
+      "verbatim": "The results include warnings about other \"Silver\" and \"Oak\" named firms, but none about Silver Oak Capital.",
+      "confidence": "medium"
+    },
+    {
+      "fact": "'Silver Oak Financial Solutions' (Unbiased listing 728403, established by Ben Warren in 2017) is a SEPARATE business with no evident link to Silver Oak Capital - ignore.",
+      "source": "Unbiased.co.uk, via WebSearch summary query 4",
+      "url": "https://www.unbiased.co.uk/profile/financial-adviser/silver-oak-financial-solutions-728403",
+      "verbatim": "Silver Oak Financial Solutions, is a separate business that was established by Ben Warren in 2017.",
+      "confidence": "high (distinct entity)"
+    },
+    {
+      "fact": "Trade memberships (NACFB / FIBA / ASTL): NO source found stating Silver Oak Capital is a member of any of the three. Search returned only unrelated US entities (Silver Oak Securities, Jackson, Tennessee; Silver Oak Leasing Inc, California).",
+      "source": "WebSearch summary, query 5",
+      "url": "",
+      "verbatim": "The search didn't turn up any source that says Silver Oak Capital is a member of NACFB, FIBA, or ASTL.",
+      "confidence": "high (negative result - not found, not disproved)"
+    },
+    {
+      "fact": "Office location - possible CONTRADICTION: the firm's own site (per summary) says the office is in Marylebone, London; a broker directory lists 'Silver Oak Capital, Hackney' (mortgage118.com). May reflect an older or registered address vs. trading address.",
+      "source": "Own site (as reported in WebSearch summary, query 7) vs mortgage118.com directory title",
+      "url": "https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital",
+      "verbatim": "The company's own site describes it as a debt advisory firm located in London, UK, and its office is in Marylebone.",
+      "confidence": "low-medium (contradiction unresolved)"
+    },
+    {
+      "fact": "Third-party pages that reference Silver Oak Capital and could be used for cross-checking: Bridging & Commercial article; The Landsite 'Silver Oak Capital in the News'; Letting Agent Today trades directory; mortgage118 broker directory; RocketReach, ContactOut and AeroLeads company/staff profiles; an Odoo-hosted page 'Silver Oak Capital - Real Estate & Finance Professionals' (silveroakcapital.odoo.com).",
+      "source": "Result titles/URLs, queries 2 and 7",
+      "url": "https://bridgingandcommercial.co.uk/silver-oak-capital-to-grow-team-following-increased-volume-in-pound-2m-20m-space",
+      "verbatim": "",
+      "confidence": "high (pages exist); content not read"
+    },
+    {
+      "fact": "Unrelated entities surfaced and to be IGNORED: Silver Oak Securities (US broker-dealer, Jackson TN), Silver Oak Services Partners LLC (US private equity), SilverOak Financial Group Ltd (Houston), Silverfleet Capital, Excellion Capital, Silver Lake.",
+      "source": "Result titles, queries 3, 5, 7",
+      "url": "",
+      "verbatim": "",
+      "confidence": "high"
+    }
+  ]
+}

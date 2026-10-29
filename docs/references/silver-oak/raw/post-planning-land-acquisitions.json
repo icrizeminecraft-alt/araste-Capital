@@ -1,0 +1,124 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/post-planning-land-acquisitions/",
+  "title": "Post Planning Land Finance UK",
+  "h1": "Not confirmed. Search-result title is 'Post Planning Land Finance UK'; seed navigation label under Bridging is 'Post Planning Land Acquisitions'. Either could be the on-page H1.",
+  "metaDescription": "Not revealed by any snippet. Closest candidate (snippet text, [a]): 'Silver Oak Capital offers bridging finance for land that already has planning consent, such as full permission, outline permission, or permitted development rights.'",
+  "summary": "Service page under the Bridging menu. Silver Oak Capital (London broker) presents post-planning land acquisition finance as a short-term bridging loan secured against land that already carries some form of planning consent (full permission, outline permission or permitted development rights). It is paid as a single lump sum used purely to complete the site purchase, which the page contrasts with staged/tranched development finance. Stated timeline: purchase completed in about 2-4 weeks, with a loan term of roughly 6-12 months to arrange build finance and discharge planning conditions before refinancing onto a development loan. A related FAQ entry (apparently on /faq/) gives a typical term of 12-18 months as a 'safety buffer' (contradiction with 6-12 months), says developer experience is less critical for a pure land bridge than for development finance but the lender will still want the exit strategy, and says the firm has access to niche pre-planning bridge lenders for unconsented land where location and planning logic are sound. Snippets only; full page text, meta description, H1, rates, LTV, fees and CTAs for this page were not revealed.",
+  "verbatim": [
+    "[a] (snippet) \"Silver Oak Capital offers bridging finance for land that already has planning consent, such as full permission, outline permission, or permitted development rights.\"",
+    "[a] (snippet) \"It provides specialised bridging solutions tailored to post planning land acquisitions.\"",
+    "[a] (snippet) \"It is a short-term bridging loan secured against land with some form of planning consent. Unlike development finance, it is a single lump sum used purely to complete the purchase.\"",
+    "[a] (search-tool summary of page) \"The page says the land can be bought in about 2 to 4 weeks, with a term of roughly 6 to 12 months to arrange build finance and discharge planning conditions.\"",
+    "[a] (snippet, FAQ entry - most likely /faq/) \"Typically 12 to 18 months. This provides a safety buffer. It gives you time to buy the land, discharge pre-commencement planning conditions, and finalise your tender pack for contractors before refinancing onto a development loan.\"",
+    "[a] (snippet, FAQ entry - most likely /faq/) \"For a pure land bridge, experience is less critical than for development finance because you aren't building yet. They will still want to know your exit strategy.\"",
+    "[a] (snippet, FAQ entry - most likely /faq/) \"Silver Oak Capital has access to niche pre-planning bridge lenders who will consider unconsented land if the location is strong and the planning logic is sound.\"",
+    "[b] (search-tool summary of page) \"The page describes a short-term bridging loan secured against land that already has some planning consent. It is a single lump sum for the purchase, which the page contrasts with staged development finance. The stated timeline is buying within about 2-4 weeks, followed by 6-12 months to finish build costs and planning conditions before refinancing\"",
+    "[b] (search-tool summary of /faq/) \"The FAQ says a pure land bridge needs less track record than development finance. It also says the lender still wants a credible exit plan, and that the typical term is 12 to 18 months to allow a buffer\"",
+    "[b] (search-tool summary of /senior-development-finance/) \"For sites with planning approval that still need buying, the page says senior lenders usually limit land-acquisition funding to roughly 50-60% of market value\"",
+    "[b] (search-tool summary of /how-does-a-bridging-loan-work/) \"A bridging-loans guide lists land purchases before planning as a common use\"",
+    "[b] (search-tool summary of /stamp-duty-changes-in-the-uk-from-april-2025/) \"A stamp duty article from April 2025 notes higher upfront acquisition costs for developers\"",
+    "[seed] Navigation, Bridging sub-menu: \"Post Planning Land Acquisitions\" listed alongside \"Bridging Loans UK\", \"Auction Finance\", \"Below Market Value Purchases\", \"Distressed Asset Finance\", \"Light to Heavy Refurbishment\", \"Conversions\", \"Development Exit Loans\"",
+    "[seed] Related case study URL in seed: https://www.silveroakcapital.co.uk/case-studies/bridging-loan-land-with-planning/"
+  ],
+  "services": [
+    "Post planning land acquisition bridging finance (land bridge) for sites with full planning permission, outline planning permission or permitted development rights",
+    "Referral to niche pre-planning bridge lenders for unconsented land (per FAQ snippet, where location is strong and planning logic is sound)",
+    "Implied follow-on: refinancing onto a development loan (senior development finance) once planning conditions are discharged"
+  ],
+  "useCases": [
+    "Buying a site that already has planning consent quickly (about 2-4 weeks) before build finance is in place",
+    "Holding the site for roughly 6-12 months (page) or 12-18 months (FAQ) while arranging build finance, discharging pre-commencement planning conditions and finalising the contractor tender pack",
+    "Exit by refinancing onto a development loan",
+    "Unconsented land purchase via niche pre-planning bridge lenders (related offering mentioned in FAQ)"
+  ],
+  "terms": [
+    "Structure: short-term bridging loan, single lump sum used purely to complete the purchase (not drawn in tranches like development finance) [a][b]",
+    "Security: secured against land with some form of planning consent (full, outline, or permitted development rights) [a]",
+    "Timescale to complete purchase: about 2 to 4 weeks [a][b]",
+    "Term (page): roughly 6 to 12 months [a][b]",
+    "Term (FAQ entry): 'Typically 12 to 18 months' as a safety buffer [a][b] - CONTRADICTS the 6-12 month figure",
+    "Loan size: not stated for this page (seed: firm generally focuses on transactions over £500,000; £500k-£20m on /about-us/)",
+    "LTV: not stated on this page. Related snippet from /senior-development-finance/ [b]: senior lenders usually limit land-acquisition funding to roughly 50-60% of market value for sites with planning that still need buying",
+    "Rates: not revealed",
+    "Fees: not revealed for this page (seed: firm-level fee claims vary; commission from lenders disclosed during process)",
+    "Interest treatment: not revealed for this page (seed /bridging-loans-uk/: interest typically rolled up on bridging)"
+  ],
+  "eligibility": [
+    "Land must have some form of planning consent: full permission, outline permission, or permitted development rights [a]",
+    "Developer experience/track record: 'less critical than for development finance because you aren't building yet' [a FAQ]",
+    "Exit strategy: lenders 'will still want to know your exit strategy' / want a credible exit plan [a][b FAQ]",
+    "Unconsented land: considered only by niche pre-planning bridge lenders 'if the location is strong and the planning logic is sound' [a FAQ]"
+  ],
+  "lenderTypes": [
+    "Bridging lenders lending against consented land (implied by product description) [a]",
+    "Niche pre-planning bridge lenders willing to consider unconsented land [a FAQ]",
+    "Senior development lenders as the refinance exit (limit land acquisition funding to roughly 50-60% of market value per /senior-development-finance/) [b]"
+  ],
+  "processSteps": [
+    "1. Buy the consented land with the bridging loan, completing in about 2-4 weeks [a][b]",
+    "2. During the term (6-12 months per page; 12-18 months per FAQ): discharge pre-commencement planning conditions [a]",
+    "3. Finalise the tender pack for contractors [a FAQ]",
+    "4. Arrange build/development finance [a]",
+    "5. Refinance onto a development loan to repay the bridge [a FAQ]"
+  ],
+  "faq": [
+    {
+      "q": "How long is a post planning land bridge typically? (question wording not revealed; answer snippet below)",
+      "a": "[a] \"Typically 12 to 18 months. This provides a safety buffer. It gives you time to buy the land, discharge pre-commencement planning conditions, and finalise your tender pack for contractors before refinancing onto a development loan.\" NOTE: page body gives 6-12 months."
+    },
+    {
+      "q": "Do I need development experience for a land bridge? (question wording not revealed)",
+      "a": "[a] \"For a pure land bridge, experience is less critical than for development finance because you aren't building yet. They will still want to know your exit strategy.\""
+    },
+    {
+      "q": "Can you finance land without planning permission? (question wording not revealed)",
+      "a": "[a] \"Silver Oak Capital has access to niche pre-planning bridge lenders who will consider unconsented land if the location is strong and the planning logic is sound.\""
+    }
+  ],
+  "claims": [
+    {"claim": "Offers bridging finance for land that already has planning consent, such as full permission, outline permission, or permitted development rights", "kind": "product-scope [a]"},
+    {"claim": "Provides specialised bridging solutions tailored to post planning land acquisitions", "kind": "positioning [a]"},
+    {"claim": "Loan is a single lump sum used purely to complete the purchase, unlike development finance", "kind": "structure [a][b]"},
+    {"claim": "Land can be bought in about 2 to 4 weeks", "kind": "timescale [a][b]"},
+    {"claim": "Term of roughly 6 to 12 months to arrange build finance and discharge planning conditions", "kind": "duration - page body [a][b]"},
+    {"claim": "Typically 12 to 18 months, providing a safety buffer", "kind": "duration - FAQ entry [a][b]; contradicts 6-12 months"},
+    {"claim": "For a pure land bridge, experience is less critical than for development finance", "kind": "eligibility [a][b]"},
+    {"claim": "Lenders will still want to know your exit strategy", "kind": "eligibility [a][b]"},
+    {"claim": "Access to niche pre-planning bridge lenders who will consider unconsented land if the location is strong and the planning logic is sound", "kind": "lender-access [a]"},
+    {"claim": "Senior lenders usually limit land-acquisition funding to roughly 50-60% of market value for sites with planning that still need buying", "kind": "ltv - from /senior-development-finance/, not this page [b]"},
+    {"claim": "No testimonials, awards, credentials, lender counts or loan-size figures were revealed for this specific page", "kind": "absence-note"}
+  ],
+  "geography": [
+    "UK (page title 'Post Planning Land Finance UK') [a][b]",
+    "No regional detail revealed for this page; seed: firm is London-based with UK-wide focus"
+  ],
+  "ctas": [
+    "None revealed in snippets. Seed firm-level: enquiry form, enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/post-planning-land-acquisitions/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/case-studies/cotsworlds-listed/ (NEW - not in seed; title 'Cotsworlds Listed')",
+    "https://www.silveroakcapital.co.uk/case-studies/miami-developer/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "https://www.silveroakcapital.co.uk/senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/stamp-duty-changes-in-the-uk-from-april-2025/",
+    "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/how-does-property-development-finance-work-a-step-by-step-guide/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridging-loan-work/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-loan-land-with-planning/ [seed]"
+  ],
+  "sections": [
+    {"heading": "Intro / what it is (heading not revealed)", "content": "[a] Silver Oak Capital offers bridging finance for land that already has planning consent, such as full permission, outline permission, or permitted development rights. It provides specialised bridging solutions tailored to post planning land acquisitions."},
+    {"heading": "How it differs from development finance (heading not revealed)", "content": "[a][b] A short-term bridging loan secured against land with some form of planning consent. Unlike development finance, it is a single lump sum used purely to complete the purchase; the page contrasts this with staged (tranched) development finance."},
+    {"heading": "Timeline (heading not revealed)", "content": "[a][b] Land can be bought in about 2 to 4 weeks, with a term of roughly 6 to 12 months to arrange build finance and discharge planning conditions before refinancing."},
+    {"heading": "FAQ (location uncertain: likely /faq/ page, possibly on-page FAQ)", "content": "[a] Term typically 12 to 18 months as a safety buffer to buy the land, discharge pre-commencement planning conditions and finalise the contractor tender pack before refinancing onto a development loan. Experience is less critical for a pure land bridge than for development finance, but lenders still want the exit strategy. Access to niche pre-planning bridge lenders for unconsented land where the location is strong and the planning logic is sound."}
+  ],
+  "notes": "Direct fetching blocked; everything above comes from WebSearch snippets and the tool's summaries. Query (a) and (b) both returned the target page (result title 'Post Planning Land Finance UK') and /faq/. Query (c) returned no Silver Oak Capital content at all (only other lenders such as Hope Capital and a LinkedIn profile for team member Joe Berk) and was discarded per the rule to ignore unrelated companies. CONTRADICTION: page body term 6-12 months vs FAQ 'Typically 12 to 18 months'; the search tool itself flagged the two figures differ. AMBIGUITY: the three FAQ snippets are attributed to 'Property Finance FAQs' (/faq/) by result ordering in (b), but (a) presents them alongside the page; they may be an on-page FAQ block or /faq/ entries. Not revealed: H1, meta description, rates, LTV for this product, loan sizes, fees, lender count, testimonials, CTAs, case-study links. New URL discovered: /case-studies/cotsworlds-listed/. Search tool also warned that snippets showed differing age stamps, so terms may have changed.",
+  "confidence": "medium-low: product definition, structure and 2-4 week / 6-12 month timeline are supported by two independent search results; FAQ details rest on single snippets with uncertain page attribution; nothing on rates, LTV, fees or sizes for this page.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/post-planning-land-acquisitions.json"
+}

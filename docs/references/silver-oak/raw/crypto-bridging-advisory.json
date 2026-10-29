@@ -1,0 +1,127 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/crypto-bridging-advisory/",
+  "title": "Crypto Bridging Advisory - Bitcoin Loans",
+  "summary": "Silver Oak Capital's Crypto Bridging Advisory page (SERP title 'Crypto Bridging Advisory - Bitcoin Loans') presents crypto bridging as a short-term loan secured against a portfolio of cryptocurrencies, letting the borrower raise cash without selling and keep the upside. Search results state it suits high-net-worth individuals, crypto investors and businesses holding digital assets; Bitcoin and Ethereum are the most commonly accepted assets; lenders often cap LTV at 60% or lower on strong portfolios because of volatility; and the product carries lower LTVs, higher rates and stricter margin-call requirements than traditional asset-backed lending. No pricing, fees, process steps, lender names, CTAs or regulatory wording for this page surfaced. The sibling Bitcoin Loans Advisory page gives a more conservative 30-50% LTV range, which contradicts the 60% figure. All wording below comes from the search tool's summaries of snippets, not from a direct read of the page.",
+  "h1": "",
+  "metaDescription": "",
+  "sections": [
+    {
+      "heading": "What crypto bridging is (as described in search results)",
+      "content": "[a] 'short-term loans secured against cryptocurrency holdings, so the borrower can raise cash without selling the assets'. [b] 'a short-term lending solution where loans are secured against a portfolio of cryptocurrencies'. [b] 'Borrowers keep their holdings and their upside'."
+    },
+    {
+      "heading": "Who it suits",
+      "content": "[a] 'particularly suited to high-net-worth individuals, crypto investors, and businesses holding digital assets who need short-term funding'. [b] 'the firm says the product suits high-net-worth individuals, crypto investors, and businesses holding digital assets'."
+    },
+    {
+      "heading": "Accepted assets",
+      "content": "[a] 'Bitcoin and Ethereum are the most commonly accepted assets'."
+    },
+    {
+      "heading": "Loan to value and risk",
+      "content": "[a] 'lenders often limit LTVs to 60% or lower on strong portfolios because of volatility'. [b] 'due to high volatility, lenders often limit LTVs to 60% or lower on strong portfolios'. [a] 'crypto bridging generally brings lower LTVs, higher rates, and stricter margin call requirements than traditional asset-backed lending'. [b] 'lower LTV ratios, higher interest rates, and stricter margin call requirements compared with traditional asset-backed lending'."
+    },
+    {
+      "heading": "Sibling page: Bitcoin Loans Advisory (/bitcoin-loans-advisory/, SERP title 'Bitcoin Loans Uk') - NOT text of this page",
+      "content": "[a] 'puts typical LTVs at conservative (30-50%) due to Bitcoin's volatility'. [b] 'the firm sources the best Bitcoin lending products from specialist lenders'; 'facilities are generally short term, often not exceeding 12 months'; 'loans are available in USD, EUR, or GBP'; 'repayment is usually bullet-style at maturity'."
+    },
+    {
+      "heading": "Site FAQ mention (/faq/) - NOT text of this page",
+      "content": "[b] 'crypto bridging is commonly used by founders, early investors, and HNW individuals to access liquidity while retaining ownership and upside exposure'."
+    },
+    {
+      "heading": "Not revealed",
+      "content": "H1, meta description, pricing/interest rates, arrangement or broker fees, loan size range, loan term for crypto bridging specifically, security/custody mechanics, lender names, process steps, calls to action, testimonials, regulatory status. [a] states: 'The excerpts don't show pricing, fees, or the advisory process itself'. [b] states: 'none of them list specific crypto loan rates or the firm's regulatory status'. Search [c] returned no Silver Oak content at all."
+    }
+  ],
+  "verbatim": [
+    "[a] SERP title: 'Crypto Bridging Advisory - Bitcoin Loans'",
+    "[a] 'short-term loans secured against cryptocurrency holdings, so the borrower can raise cash without selling the assets'",
+    "[a] 'It is particularly suited to high-net-worth individuals, crypto investors, and businesses holding digital assets who need short-term funding'",
+    "[a] 'Bitcoin and Ethereum are the most commonly accepted assets'",
+    "[a] 'lenders often limit LTVs to 60% or lower on strong portfolios because of volatility'",
+    "[a] 'crypto bridging generally brings lower LTVs, higher rates, and stricter margin call requirements than traditional asset-backed lending'",
+    "[a] (sibling /bitcoin-loans-advisory/) 'puts typical LTVs at conservative (30-50%) due to Bitcoin's volatility, so the two pages don't fully agree on LTV levels'",
+    "[b] 'The advisory page describes the product as a short-term lending solution where loans are secured against a portfolio of cryptocurrencies'",
+    "[b] 'Borrowers keep their holdings and their upside, and the firm says the product suits high-net-worth individuals, crypto investors, and businesses holding digital assets'",
+    "[b] 'The page notes that due to high volatility, lenders often limit LTVs to 60% or lower on strong portfolios'",
+    "[b] 'It also flags lower LTV ratios, higher interest rates, and stricter margin call requirements compared with traditional asset-backed lending'",
+    "[b] (sibling /bitcoin-loans-advisory/) 'This page says the firm sources the best Bitcoin lending products from specialist lenders. It states that facilities are generally short term, often not exceeding 12 months, that loans are available in USD, EUR, or GBP, and that repayment is usually bullet-style at maturity'",
+    "[b] (/faq/) 'The FAQ page says crypto bridging is commonly used by founders, early investors, and HNW individuals to access liquidity while retaining ownership and upside exposure'",
+    "[b] 'none of them list specific crypto loan rates or the firm's regulatory status'",
+    "[seed] Navigation group 'Securities and alternative': 'Lombard Loan Advisory', 'Single Stock Lending Advisory', 'Crypto Bridging Advisory', 'Bitcoin Loans Advisory', 'Art Finance Advisory'",
+    "[seed] No snippetsFromFirstPass entry exists for /crypto-bridging-advisory/"
+  ],
+  "services": [
+    "Crypto Bridging Advisory (short-term loans secured against a cryptocurrency portfolio) [a][b]",
+    "Bitcoin Loans Advisory (sibling page /bitcoin-loans-advisory/) [a][b][seed]",
+    "Sibling 'Securities and alternative' services per seed navigation: Lombard Loan Advisory, Single Stock Lending Advisory, Art Finance Advisory [seed]"
+  ],
+  "useCases": [
+    "Raise cash without selling crypto assets [a]",
+    "Short-term funding for HNW individuals, crypto investors and businesses holding digital assets [a][b]",
+    "Keep holdings and upside while borrowing [b]",
+    "Founders, early investors and HNW individuals accessing liquidity while retaining ownership and upside exposure (site FAQ, [b])"
+  ],
+  "terms": [
+    "LTV: lenders often limit LTVs to 60% or lower on strong portfolios, due to volatility [a][b]",
+    "Relative terms: lower LTV ratios, higher interest rates, stricter margin call requirements than traditional asset-backed lending [a][b]",
+    "Duration: short-term (no figure given on this page) [a][b]; sibling Bitcoin page: generally short term, often not exceeding 12 months [b]",
+    "Security: a portfolio of cryptocurrencies / cryptocurrency holdings; Bitcoin and Ethereum most commonly accepted [a][b]",
+    "Sibling Bitcoin page LTV: conservative 30-50% [a] (contradicts the 60% figure)",
+    "Sibling Bitcoin page currencies: USD, EUR or GBP [b]",
+    "Sibling Bitcoin page repayment: usually bullet-style at maturity [b]",
+    "Rates, fees, minimum/maximum loan size, timescales: NOT revealed for this page [a][b]"
+  ],
+  "eligibility": [
+    "High-net-worth individuals [a][b]",
+    "Crypto investors [a][b]",
+    "Businesses holding digital assets [a][b]",
+    "Holders of Bitcoin and Ethereum (most commonly accepted assets) [a]",
+    "'Strong portfolios' referenced as the condition for LTVs up to 60% [a][b]"
+  ],
+  "lenderTypes": [
+    "Not named on this page in the results; sibling Bitcoin page refers to 'specialist lenders' [b]"
+  ],
+  "processSteps": [],
+  "faq": [
+    {
+      "q": "Who commonly uses crypto bridging? (from site /faq/ page, not this page) [b]",
+      "a": "'commonly used by founders, early investors, and HNW individuals to access liquidity while retaining ownership and upside exposure'"
+    }
+  ],
+  "claims": [
+    {"claim": "Lenders often limit LTVs to 60% or lower on strong portfolios because of volatility [a][b]", "kind": "ltv"},
+    {"claim": "Crypto bridging brings lower LTVs, higher rates and stricter margin call requirements than traditional asset-backed lending [a][b]", "kind": "risk-disclosure"},
+    {"claim": "Bitcoin and Ethereum are the most commonly accepted assets [a]", "kind": "collateral"},
+    {"claim": "Borrowers keep their holdings and their upside [b]", "kind": "benefit"},
+    {"claim": "Suited to high-net-worth individuals, crypto investors and businesses holding digital assets who need short-term funding [a][b]", "kind": "audience"},
+    {"claim": "CONTRADICTION: sibling /bitcoin-loans-advisory/ states typical LTVs are conservative 30-50% vs this page's 60% or lower [a]", "kind": "contradiction"},
+    {"claim": "Sibling page: facilities generally short term, often not exceeding 12 months; USD/EUR/GBP; bullet repayment at maturity; sourced from specialist lenders [b]", "kind": "sibling-page-terms"},
+    {"claim": "External (not this page): bridgingandcommercial.co.uk headline 'Silver Oak Capital completes its largest ever bridging loan of £19.1m' [a]", "kind": "external-press"},
+    {"claim": "External (not this page): bridgingandcommercial.co.uk headline 'Silver Oak Capital to grow team following increased volume in £2m-20m space' [a]", "kind": "external-press"},
+    {"claim": "No testimonials, awards, credentials, lender counts or numeric promises surfaced for this page [a][b][c]", "kind": "absence"}
+  ],
+  "geography": [
+    "Not stated for this page in the results",
+    "Sibling page SERP title 'Bitcoin Loans Uk' and loans in USD, EUR or GBP [a][b]",
+    "Firm is London-based debt advisory [a]; seed lists UK, Western Europe, Middle East, United States [seed]"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/crypto-bridging-advisory/",
+    "https://www.silveroakcapital.co.uk/bitcoin-loans-advisory/",
+    "https://www.silveroakcapital.co.uk/art-finance-advisory/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/case-studies/800k-bridging-loan-refinance/",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/",
+    "https://www.silveroakcapital.co.uk/different-types-of-interest-options-with-bridging-loans/",
+    "https://www.silveroakcapital.co.uk/do-i-need-income-for-a-bridging-loan/",
+    "https://www.silveroakcapital.co.uk/how-much-does-a-bridging-loan-cost/"
+  ],
+  "confidence": "low-medium: all page content comes from the search tool's prose summaries of snippets (two extended searches agreed on the core facts), not from raw snippet text or a direct page read; third search returned no Silver Oak content.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/crypto-bridging-advisory.json",
+  "notes": "H1 and meta description not revealed; the only title seen is the SERP title 'Crypto Bridging Advisory - Bitcoin Loans'. Quoted wording is the search tool's summary phrasing and may paraphrase the page. Search (c) ('Silver Oak Capital' crypto bridging loan 'loan to value', standard mode) returned only unrelated generic crypto-lending sites (ennessglobal.com, archlending.com, etc.) and explicitly stated no Silver Oak result; nothing from it is used. New site URL not in seed: /do-i-need-income-for-a-bridging-loan/. External URLs seen in (a): silveroakcapital.odoo.com, silveroakcapital.weebly.com, bridgingandcommercial.co.uk (two headlines), nextdoor.co.uk, syob.net; 'Silver Oak Securities' (joinsilveroaksecurities.com) is an unrelated company and ignored. LTV contradiction between this page (60% or lower) and sibling Bitcoin page (30-50%) should be reconciled before reuse."
+}

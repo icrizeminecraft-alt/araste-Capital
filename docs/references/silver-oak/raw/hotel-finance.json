@@ -1,0 +1,160 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/hotel-finance/",
+  "title": "Hotel Finance UK",
+  "h1": "",
+  "metaDescription": "",
+  "summary": "Hotel Finance is listed under Silver Oak Capital's Commercial services. Search [b] confirmed the page exists with the listing title 'Hotel Finance UK' and revealed its core framing: hotel finance is commercial lending secured against a hotel or guest house; repayment depends on trading profit rather than tenant rent; lenders often size the maximum loan as a multiple of adjusted net profit (EBITDA); typical hotel LTVs are 60% to 70%. The rest of what the searches surfaced about hotel lending comes from other silveroakcapital.co.uk pages (FAQ, homepage, whole-loans page, Cap Ferrat case study), not from the hotel-finance page itself. The actual H1, meta description, section headings, calls to action and any fee/rate/term wording on the page were NOT revealed. Search [c] returned only unrelated third-party hotel-lending articles and nothing about Silver Oak.",
+  "verbatim": [
+    "[b] (search tool summary of /hotel-finance/) 'The hotel finance page describes it as commercial lending secured against a hotel or guest house.'",
+    "[b] (search tool summary of /hotel-finance/) 'Repayment depends on trading profit rather than tenant rent, and the page says lenders often determine the maximum loan amount based on a multiple of your adjusted net profit (EBITDA).'",
+    "[b] (search tool summary of /hotel-finance/) 'The same page puts typical hotel LTVs at between 60% and 70%.'",
+    "[b] (listing title for https://www.silveroakcapital.co.uk/hotel-finance/) 'Hotel Finance UK'",
+    "[a] (from /faq/) 'lenders generally want prior hotel experience. A first-time buyer can still qualify if the application leans on an experienced general manager or management company.'",
+    "[a] (from /faq/) 'For a trading hotel, lenders typically review the last two to three years of accounts.'",
+    "[a] (from /faq/) 'For a closed hotel or a changed business model, projections can be used, but the LTV is likely lower (around 50–60%) and the rate higher.'",
+    "[a] (from /faq/) 'Lenders usually require at least 50-60 years remaining on the lease after the mortgage term ends for leasehold hotels.'",
+    "[b] (from /faq/) 'for a hotel currently trading, lenders will look at the last 2-3 years of accounts. For a closed hotel or a changed business model, projections may be used, but the LTV will likely be lower (around 50-60%).'",
+    "[b] (from /faq/) 'Lenders typically want a long remaining lease. Lenders usually require at least 50-60 years remaining on the lease after the mortgage term ends.'",
+    "[a] (from /) 'The firm lists Retail, Office, Logistics, Care Homes, Student Accommodation and Hotels among its commercial mortgage coverage.'",
+    "[b] (from /) 'arranges debt on a wide range of real estate and luxury assets transactions across the UK, US, Western Europe and the Middle East through our network of over 800 lenders'",
+    "[b] (from /whole-loans/) 'whole loan providers are comfortable funding student accommodation (PBSA), hotels, Build-to-Rent (BTR), and industrial schemes, provided the exit yields and demand are proven.'",
+    "[a] (from /case-studies/bridging-villa-cap-ferrat/) 'A bridging loan of €5 million at 62.5% LTV, on a Côte d'Azur villa planned for conversion into a boutique hotel, was arranged.'",
+    "[a] (from /case-studies/bridging-villa-cap-ferrat/) 'many lenders have pulled out of the hotel lending market since the pandemic, and it used niche lenders to structure the deal.'",
+    "[b] (from /case-studies/bridging-villa-cap-ferrat/) 'many lenders have pulled out of the hotel lending market since the pandemic, and that it has a number of relationships with these niche lenders.'",
+    "[a] (from /about-us/) 'from 2019 to the present day, Silver Oak Capital has focused on providing advice for loans between £500K to £20m.'",
+    "[seed] (/faq/ first-pass snippet) 'whole-loan providers often sector-agnostic: PBSA, hotels, BTR, industrial'",
+    "[seed] (home) sectors listed: 'retail, office, logistics, care homes, student accommodation, hotels'"
+  ],
+  "sections": [
+    {
+      "heading": "What hotel finance is (topic revealed by [b]; actual page heading not revealed)",
+      "content": "Commercial lending secured against a hotel or guest house. Repayment depends on trading profit rather than tenant rent. Lenders often determine the maximum loan amount based on a multiple of the borrower's adjusted net profit (EBITDA). [b]"
+    },
+    {
+      "heading": "Loan to value (topic revealed by [b]; actual page heading not revealed)",
+      "content": "Typical hotel LTVs are between 60% and 70%. [b] The FAQ page adds that for a closed hotel or a changed business model, where projections are used, the LTV is likely lower, around 50-60%, and the rate higher. [a][b]"
+    },
+    {
+      "heading": "Experience and trading history (from /faq/, not confirmed on /hotel-finance/)",
+      "content": "Lenders generally want prior hotel experience; a first-time buyer can still qualify if the application leans on an experienced general manager or management company. For a trading hotel, lenders typically review the last two to three years of accounts. [a][b]"
+    },
+    {
+      "heading": "Leasehold hotels (from /faq/, not confirmed on /hotel-finance/)",
+      "content": "Lenders typically want a long remaining lease, usually at least 50-60 years remaining after the mortgage term ends. [a][b]"
+    },
+    {
+      "heading": "Lender market context (from /case-studies/bridging-villa-cap-ferrat/ and /whole-loans/)",
+      "content": "The firm states that many lenders have pulled out of the hotel lending market since the pandemic and that it has a number of relationships with niche lenders that remain active. Whole-loan providers are described as comfortable funding hotels (alongside PBSA, BTR and industrial) provided exit yields and demand are proven. [a][b]"
+    },
+    {
+      "heading": "Firm-level framing (from homepage / about-us)",
+      "content": "Hotels are listed among the firm's commercial sectors (Retail, Office, Logistics, Care Homes, Student Accommodation, Hotels). The firm arranges debt across the UK, US, Western Europe and the Middle East through a network of over 800 lenders, and has focused on loans between £500K and £20m since 2019. [a][b][seed]"
+    }
+  ],
+  "services": [
+    "Hotel finance / hotel mortgages (commercial lending secured against a hotel or guest house) [b]",
+    "Commercial mortgages covering Retail, Office, Logistics, Care Homes, Student Accommodation and Hotels [a][seed]",
+    "Bridging loans for hotel conversion projects (Cap Ferrat villa to boutique hotel case study) [a][b]",
+    "Whole loans for hotel schemes (via /whole-loans/) [b][seed]",
+    "Debt advisory across UK, US, Western Europe and the Middle East [b]"
+  ],
+  "useCases": [
+    "Purchase or refinance of a trading hotel or guest house, sized on trading profit (EBITDA multiple) [b]",
+    "Financing a closed hotel or a hotel with a changed business model, on projections, at lower LTV and higher rate [a][b]",
+    "First-time hotel buyer relying on an experienced general manager or management company [a]",
+    "Leasehold hotel finance where sufficient lease term remains [a][b]",
+    "Conversion of a residential property into a boutique hotel via bridging loan (€5m, 62.5% LTV, Côte d'Azur) [a]"
+  ],
+  "terms": [
+    "LTV: typical hotel LTVs between 60% and 70% (/hotel-finance/) [b]",
+    "LTV: around 50-60% when lending on projections for a closed hotel or changed business model (/faq/) [a][b]",
+    "Rate: higher when lending on projections rather than trading accounts (/faq/); no numeric rates revealed [a]",
+    "Sizing: maximum loan often determined as a multiple of adjusted net profit (EBITDA) (/hotel-finance/) [b]",
+    "Security: loan secured against the hotel or guest house itself (/hotel-finance/) [b]",
+    "Trading history: last two to three years of accounts for a trading hotel (/faq/) [a][b]",
+    "Leasehold: at least 50-60 years remaining on the lease after the mortgage term ends (/faq/) [a][b]",
+    "Firm loan range: £500K to £20m (/about-us/) [a][seed]",
+    "Case study data point: €5 million bridging loan at 62.5% LTV for a boutique hotel conversion [a]",
+    "Fees, durations/terms, timescales: NOT revealed for this page by any search"
+  ],
+  "eligibility": [
+    "Prior hotel experience generally wanted by lenders [a]",
+    "First-time buyers can qualify if backed by an experienced general manager or management company [a]",
+    "Trading hotels: 2-3 years of accounts reviewed [a][b]",
+    "Closed hotels / changed business model: projections accepted at lower LTV (around 50-60%) and higher rate [a][b]",
+    "Leasehold hotels: at least 50-60 years of lease remaining after the mortgage term ends [a][b]"
+  ],
+  "lenderTypes": [
+    "Niche lenders still active in hotel lending after many pulled out post-pandemic (firm states it has a number of relationships with them) [a][b]",
+    "Whole-loan providers comfortable with hotels, PBSA, BTR and industrial where exit yields and demand are proven [b][seed]",
+    "Firm-wide network described as over 800 lenders (homepage) [b][seed]; no individual lender names revealed [b]"
+  ],
+  "processSteps": [
+    "No process steps for the hotel-finance page were revealed by any search. (Seed, other pages: firm typically narrows lenders to as many as 3 or 4 potential partners per deal; commission from lenders disclosed during the process.) [seed]"
+  ],
+  "faq": [
+    {
+      "q": "Do I need hotel experience to get hotel finance? (/faq/)",
+      "a": "Lenders generally want prior hotel experience. A first-time buyer can still qualify if the application leans on an experienced general manager or management company. [a]"
+    },
+    {
+      "q": "What trading history do lenders want for a hotel? (/faq/)",
+      "a": "For a trading hotel, lenders typically review the last two to three years of accounts. For a closed hotel or a changed business model, projections can be used, but the LTV is likely lower (around 50-60%) and the rate higher. [a][b]"
+    },
+    {
+      "q": "Can I finance a leasehold hotel? (/faq/)",
+      "a": "Lenders typically want a long remaining lease; they usually require at least 50-60 years remaining on the lease after the mortgage term ends. [a][b]"
+    },
+    {
+      "q": "How is a hotel loan sized? (/hotel-finance/)",
+      "a": "Repayment depends on trading profit rather than tenant rent, and lenders often determine the maximum loan amount based on a multiple of adjusted net profit (EBITDA). Typical hotel LTVs are between 60% and 70%. [b]"
+    }
+  ],
+  "claims": [
+    { "kind": "number", "claim": "Typical hotel LTVs between 60% and 70% (/hotel-finance/) [b]" },
+    { "kind": "number", "claim": "LTV around 50-60% for closed hotels / changed business model financed on projections (/faq/) [a][b]" },
+    { "kind": "number", "claim": "At least 50-60 years remaining lease after mortgage term for leasehold hotels (/faq/) [a][b]" },
+    { "kind": "number", "claim": "Last 2-3 years of accounts reviewed for trading hotels (/faq/) [a][b]" },
+    { "kind": "number", "claim": "Network of over 800 lenders (homepage) [b][seed]" },
+    { "kind": "number", "claim": "Loans between £500K to £20m since 2019 (/about-us/) [a][seed]" },
+    { "kind": "case-study", "claim": "€5 million bridging loan at 62.5% LTV on a Côte d'Azur villa to be converted into a boutique hotel (/case-studies/bridging-villa-cap-ferrat/) [a]" },
+    { "kind": "market-statement", "claim": "Many lenders have pulled out of the hotel lending market since the pandemic; the firm has a number of relationships with the remaining niche lenders (/case-studies/bridging-villa-cap-ferrat/) [a][b]" },
+    { "kind": "coverage", "claim": "Hotels listed among commercial sectors covered alongside Retail, Office, Logistics, Care Homes, Student Accommodation (homepage) [a][seed]" },
+    { "kind": "coverage", "claim": "Whole-loan providers comfortable funding hotels, PBSA, BTR and industrial provided exit yields and demand are proven (/whole-loans/) [b]" },
+    { "kind": "absence", "claim": "No testimonials, awards, credentials, fees, rates or timescales specific to the hotel-finance page were revealed by any search" }
+  ],
+  "geography": [
+    "UK (page title 'Hotel Finance UK') [b]",
+    "UK, US, Western Europe and the Middle East (homepage debt-arranging footprint) [b]",
+    "Côte d'Azur / Cap Ferrat, France (boutique hotel conversion case study) [a]"
+  ],
+  "ctas": [
+    "No calls to action from the hotel-finance page were revealed. [seed] Firm-wide contact routes: enquiry form, direct email enquiry@silveroakcapital.co.uk, WhatsApp, phone +44 207 459 4440; office 91 Wimpole Street, London W1G 0EE."
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/hotel-finance/",
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/contact/",
+    "https://www.silveroakcapital.co.uk/about-us/",
+    "https://www.silveroakcapital.co.uk/bridging-loans-uk/",
+    "https://www.silveroakcapital.co.uk/commercial-mortgages/",
+    "https://www.silveroakcapital.co.uk/western-europe/",
+    "https://www.silveroakcapital.co.uk/senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/whole-loans/",
+    "https://www.silveroakcapital.co.uk/case-studies/bridging-villa-cap-ferrat/"
+  ],
+  "externalLinksSeen": [
+    "https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital (third-party broker directory; lists the firm under Hackney, which does not match the Wimpole Street W1 office in the seed) [a]",
+    "https://contactout.com/company/Silver-Oak-Capital-17115 (third-party staff directory) [a]"
+  ],
+  "confidence": "medium-low: the page's existence and title are confirmed, and three substantive statements (secured on hotel/guest house, EBITDA-multiple sizing, 60-70% LTV) are attributed to the page by search [b]'s summary, but no direct snippet of page text, H1, meta description, headings, fees, rates, terms or CTAs was returned. Supporting hotel content is from other site pages.",
+  "contradictions": [
+    "None within hotel content. The 60-70% LTV (/hotel-finance/) and the 50-60% LTV (/faq/) apply to different scenarios (trading hotel vs closed hotel/projections), so they are complementary, not conflicting.",
+    "Seed-level inconsistencies carried over: lender count varies across pages (300+/500+/700+/800+); founding year 2019 vs 2018; postcode W1G 0EE vs W1G 0EF. Third-party directory mortgage118.com lists the firm under Hackney."
+  ],
+  "notes": "Search (a) with the raw URL did not return the page; the tool said it searched the company name instead and returned FAQ, homepage, contact, about-us, bridging, commercial-mortgages, Cap Ferrat case study and two third-party directories. Search (b) 'site:silveroakcapital.co.uk hotel finance lenders' was the only one to surface /hotel-finance/ (listing title 'Hotel Finance UK') and gave the three page-attributed statements; the tool noted 'the page metadata shows the content is several months old'. Search (c) '\"Silver Oak Capital\" hotel finance loan to value' returned only SEC filings, HVS, Hospitality Net and Hotelier Magazine articles about generic hotel LTVs (55-65%, 60%, 65-70%) with no mention of Silver Oak; those figures are industry context and have been deliberately excluded from the firm's claims. Nothing was invented; headings in 'sections' are topic labels, not the page's real headings. Budget: 3 WebSearch calls run, 0 refused.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/hotel-finance.json"
+}

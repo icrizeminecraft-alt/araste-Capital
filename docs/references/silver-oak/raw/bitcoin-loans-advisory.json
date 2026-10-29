@@ -1,0 +1,147 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/bitcoin-loans-advisory/",
+  "title": "Bitcoin Loans Uk (SERP title shown in [a] and [b]); the search tool's summary in [a] calls the page \"Bitcoin Loans Advisory\". Navigation label in seed: \"Bitcoin Loans Advisory\".",
+  "h1": "NOT REVEALED. Only the SERP title \"Bitcoin Loans Uk\" was surfaced; the tool summary refers to the page as \"Bitcoin Loans Advisory\".",
+  "metaDescription": "NOT REVEALED. Closest paraphrase from [a]: a Bitcoin-backed loan is a facility where the borrower pledges Bitcoin to raise funds while keeping ownership of the coins; typically short-term bridging; LTV typically 30-50%.",
+  "summary": "Silver Oak Capital's Bitcoin Loans Advisory page describes Bitcoin-backed loans: the borrower pledges Bitcoin to raise funds while keeping ownership of the coins; the facilities are typically short-term bridging loans (some lenders may offer longer terms); LTV is conservative at 30-50% because of Bitcoin's volatility; interest rates are higher than traditional asset-backed loans; the Bitcoin is typically held in third-party custody or a lender-controlled wallet; funds are advanced in fiat (USD, EUR, GBP) or occasionally stablecoins. The sister page /crypto-bridging-advisory/ quotes an LTV cap of 60% or lower and flags margin calls. No H1, meta, fees, loan sizes, process steps, FAQ or CTA text for this specific page was surfaced. Search (c) returned no Silver Oak Capital content at all.",
+  "sections": [
+    {
+      "heading": "[inferred] What a Bitcoin-backed loan is",
+      "content": "[a] A Bitcoin-backed loan is described as a facility where the borrower pledges Bitcoin to raise funds, and the borrower keeps ownership of the coins. [b] Bitcoin-backed loans are described as short-term bridging facilities, with the borrower keeping ownership of the coins."
+    },
+    {
+      "heading": "[inferred] Term / structure",
+      "content": "[a] Bitcoin loans are typically short-term bridging facilities, although some lenders may offer longer-term options."
+    },
+    {
+      "heading": "[inferred] Loan-to-value",
+      "content": "[a] Loan-to-value (LTV) ratios are typically conservative (30-50%) due to Bitcoin's volatility. [b] Loan-to-value ratios are listed at 30-50%. CONTRADICTION with sister page /crypto-bridging-advisory/: [a] gives a 60% LTV cap; [b] says lenders often cap LTVs at 60% or lower for strong portfolios."
+    },
+    {
+      "heading": "[inferred] Pricing",
+      "content": "[b] The page notes higher interest rates than traditional asset-backed loans. No rate figures, fees or arrangement costs surfaced."
+    },
+    {
+      "heading": "[inferred] Custody / security",
+      "content": "[b] The Bitcoin is typically held in third-party custody or a lender-controlled wallet. [a]/[b] (crypto-bridging page) stricter margin call requirements apply because of volatility."
+    },
+    {
+      "heading": "[inferred] Currency of advance",
+      "content": "[a] Funds may come in fiat currencies (USD, EUR, GBP) or, occasionally, stablecoins."
+    },
+    {
+      "heading": "[inferred] Who uses these loans",
+      "content": "[b] (attributed by the tool to the /faq/ page, not to this page) founders, early investors, and high-net-worth individuals are the typical users of these loans."
+    }
+  ],
+  "verbatim": [
+    "[a] \"It describes a Bitcoin-backed loan as a facility where the borrower pledges Bitcoin to raise funds, and the borrower keeps ownership of the coins.\"",
+    "[a] \"Bitcoin loans are typically short-term bridging facilities, although some lenders may offer longer-term options.\"",
+    "[a] \"The page says loan-to-value (LTV) ratios are typically conservative (30–50%) due to Bitcoin's volatility.\"",
+    "[a] \"It also notes that funds may come in fiat currencies (USD, EUR, GBP) or, occasionally, stablecoins.\"",
+    "[a] (crypto-bridging page) \"A separate crypto bridging page on the same site gives a similar picture, with an 60% LTV cap, and it notes that stricter margin call requirements apply because of volatility. Its wording differs from the Bitcoin page, which uses 30–50%.\"",
+    "[a] (external listings) \"The firm is described as a debt advisory firm located in London, UK.\"",
+    "[a] (external listings) \"Other listings describe it as a broker that acquires loans from our 300+ Lenders.\"",
+    "[a] \"the page metadata shows the content was indexed about 213 days ago\"",
+    "[b] \"The site describes bitcoin-backed loans as short-term bridging facilities, with the borrower keeping ownership of the coins.\"",
+    "[b] \"The bitcoin is typically held in third-party custody or a lender-controlled wallet.\"",
+    "[b] \"Loan-to-value ratios are listed at 30–50%, and the page notes higher interest rates than traditional asset-backed loans.\"",
+    "[b] (crypto-bridging page) \"It mentions that lenders often cap LTVs at 60% or lower for strong portfolios, and it flags stricter margin call requirements as a key risk.\"",
+    "[b] (FAQ page) \"It says founders, early investors, and high-net-worth individuals are the typical users of these loans.\"",
+    "[b] (About Us page) \"Silver Oak Capital was founded in 2019 by Jimmy Baillie and focuses on advice for loans between £500k and £20m.\"",
+    "[b] \"The pages are about 213 days old, so the terms may have changed.\"",
+    "[c] \"The search didn't return anything about Silver Oak Capital's bitcoin lending or its loan-to-value terms. None of the results mention the firm\"",
+    "[seed] navigation group \"Securities and alternative\": \"Lombard Loan Advisory\", \"Single Stock Lending Advisory\", \"Crypto Bridging Advisory\", \"Bitcoin Loans Advisory\", \"Art Finance Advisory\"",
+    "[seed] \"International Debt Advisory l Expert Finance Solutions\""
+  ],
+  "services": [
+    "Bitcoin Loans Advisory (Bitcoin-backed loans / Bitcoin-backed bridging facilities) [a][b]",
+    "Crypto Bridging Advisory (sister page, same product family) [a][b][seed]",
+    "Lombard Loan Advisory [seed]",
+    "Single Stock Lending Advisory [seed]",
+    "Art Finance Advisory [seed]"
+  ],
+  "useCases": [
+    "Raising funds by pledging Bitcoin without selling it; borrower keeps ownership of the coins [a][b]",
+    "Short-term bridging liquidity secured on Bitcoin [a][b]",
+    "Longer-term borrowing against Bitcoin with some lenders [a]",
+    "Typical users per /faq/ (not this page): founders, early investors, high-net-worth individuals [b]"
+  ],
+  "terms": [
+    "LTV: typically conservative, 30-50%, due to Bitcoin's volatility [a][b]",
+    "LTV on sister page /crypto-bridging-advisory/: lenders often cap at 60% or lower for strong portfolios [a][b] (contradicts 30-50%)",
+    "Duration: typically short-term bridging facilities; some lenders may offer longer-term options [a][b]; no month figures surfaced",
+    "Rates: higher interest rates than traditional asset-backed loans [b]; no percentage figures surfaced",
+    "Currency of funds: fiat (USD, EUR, GBP) or occasionally stablecoins [a]",
+    "Security: Bitcoin pledged as collateral, typically held in third-party custody or a lender-controlled wallet [b]",
+    "Risk: stricter margin call requirements because of volatility (stated on crypto-bridging page) [a][b]",
+    "Loan sizes: not stated for this page; firm-level claim is advice on loans between £500k and £20m (/about-us/) [b][seed]",
+    "Fees: not surfaced for this page; firm-level fee claims only in seed",
+    "Timescales: not surfaced"
+  ],
+  "eligibility": [
+    "Not stated for this page in any result",
+    "Per /faq/ (attributed by [b]): founders, early investors and high-net-worth individuals are the typical users of these loans"
+  ],
+  "lenderTypes": [
+    "Not named on this page; wording implies multiple lenders with differing appetite (\"some lenders may offer longer-term options\") [a]",
+    "Custody arrangements: third-party custodian or lender-controlled wallet [b]",
+    "Firm-level: \"300+ Lenders\" per external listings [a]; seed records 300+/500+/700+/800+ claims across sources"
+  ],
+  "processSteps": [
+    "Not revealed in any result for this page"
+  ],
+  "faq": [
+    {
+      "q": "What LTV do Bitcoin-backed loans offer?",
+      "a": "[a][b] typically conservative, 30-50% due to Bitcoin's volatility (sister crypto-bridging page: 60% or lower). Question wording is reconstructed, not confirmed as an on-page FAQ."
+    },
+    {
+      "q": "Does the borrower keep ownership of the Bitcoin?",
+      "a": "[a][b] yes, the borrower keeps ownership of the coins; the Bitcoin is typically held in third-party custody or a lender-controlled wallet. Question wording reconstructed."
+    },
+    {
+      "q": "In what currency are funds advanced?",
+      "a": "[a] fiat currencies (USD, EUR, GBP) or, occasionally, stablecoins. Question wording reconstructed."
+    }
+  ],
+  "claims": [
+    {"claim": "LTV typically conservative at 30-50% due to Bitcoin's volatility", "kind": "number [a][b]"},
+    {"claim": "Sister page states LTV cap of 60% or lower for strong portfolios (contradiction)", "kind": "number/contradiction [a][b]"},
+    {"claim": "Higher interest rates than traditional asset-backed loans", "kind": "pricing statement [b]"},
+    {"claim": "Funds may come in USD, EUR, GBP or occasionally stablecoins", "kind": "product feature [a]"},
+    {"claim": "Borrower keeps ownership of the coins", "kind": "product promise [a][b]"},
+    {"claim": "Bitcoin typically held in third-party custody or a lender-controlled wallet", "kind": "security arrangement [b]"},
+    {"claim": "Debt advisory firm located in London, UK", "kind": "firm description via external listings [a]"},
+    {"claim": "Broker that acquires loans from 300+ Lenders", "kind": "firm claim via external listings [a]"},
+    {"claim": "Founded in 2019 by Jimmy Baillie; advice on loans between £500k and £20m", "kind": "firm credential via /about-us/ [b][seed]"},
+    {"claim": "Page content indexed about 213 days before the search", "kind": "freshness note [a][b]"},
+    {"claim": "No testimonials, awards, or regulatory statements surfaced for this page", "kind": "absence"}
+  ],
+  "geography": [
+    "London, UK (firm location) [a][seed]",
+    "Funds in USD, EUR, GBP implies US/Eurozone/UK borrowers or lenders [a]",
+    "Seed firm-level markets: United Kingdom, Western Europe, Middle East, United States [seed]"
+  ],
+  "ctas": [
+    "None revealed for this page",
+    "[seed] firm-level contact routes: enquiry form, enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/crypto-bridging-advisory/ (SERP title: \"Bitcoin Loans\") [a][b]",
+    "https://www.silveroakcapital.co.uk/faq/ (SERP title: \"Property Finance FAQs\") [b]",
+    "https://www.silveroakcapital.co.uk/private-bank-mortgages/ (SERP title: \"Private Bank Mortgages UK\") [b]",
+    "https://www.silveroakcapital.co.uk/western-europe/ (SERP title: \"Property Finance Western Europe\") [b]",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/ (SERP title: \"How Bridging Loans Help Property Developers\") [b]",
+    "https://www.silveroakcapital.co.uk/complex-offshore-structures/ (SERP title: \"Complex Offshore Structures & International Finance Solution\") [b]",
+    "https://www.silveroakcapital.co.uk/about-us/ (SERP title: \"About Us - Jimmy Baillie\") [b]",
+    "external: https://silveroakcapital.odoo.com/ (SERP title: \"Silver Oak Capital - Real Estate & Finance Professionals\") [a]",
+    "external: https://nextdoor.co.uk/pages/silver-oak-capital-debit-advisory-london-england/ [a]",
+    "external: https://www.syob.net/company/Silver%20Oak%20Capital%20-%20Debit%20Advisory/38582 [a]"
+  ],
+  "confidence": "low-medium: all page content comes from search-tool summaries of snippets, not the live page. The LTV (30-50%), short-term bridging nature, borrower-keeps-ownership, custody, fiat/stablecoin and higher-rate statements are each corroborated by two independent searches ([a] and [b]). H1, meta, fees, loan sizes, process, FAQ and CTA are not revealed. Content is ~213 days old per the tool.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "notes": "Search (a) extended on the exact URL: surfaced the page (SERP title \"Bitcoin Loans Uk\") plus the sister crypto-bridging page, odoo mirror, Nextdoor and syob.net listings; also unrelated Silvergate Capital SEC filings and the US firm Silver Oak Capital Partners (silveroakcp.com), both ignored. Search (b) extended site: query: surfaced the same two pages plus /faq/, /private-bank-mortgages/, /western-europe/, /how-does-a-bridge-loan-work-for-developers/, /complex-offshore-structures/, /about-us/, and an unrelated Wikipedia page (ignored). Search (c) standard \"Silver Oak Capital\" bitcoin loans \"loan to value\": zero Silver Oak Capital results; only generic third-party bitcoin-loan articles (viabtc, saltlending, nasdaq, decrypt, nexo, lightspark, defirate), none recorded as page content. Contradictions: (1) this page LTV 30-50% vs sister /crypto-bridging-advisory/ LTV 60% or lower; (2) SERP title \"Bitcoin Loans Uk\" vs tool summary naming the page \"Bitcoin Loans Advisory\" vs seed nav label \"Bitcoin Loans Advisory\"; (3) sister page's SERP title is \"Bitcoin Loans\", suggesting both pages may share near-identical title tags. The \"verbatim\" entries are verbatim from the search tool's summaries, not confirmed on-page sentences. The user-relayed message about a 403 error is consistent with the harness note that direct fetching is blocked; no direct fetch was attempted.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/bitcoin-loans-advisory.json"
+}

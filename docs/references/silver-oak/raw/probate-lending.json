@@ -1,0 +1,144 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/probate-lending/",
+  "title": "Probate Loans UK",
+  "h1": "",
+  "metaDescription": "",
+  "summary": "Silver Oak Capital's probate-lending page (search-result title 'Probate Loans UK') presents probate lending as a way to obtain funds during estate administration, often to cover inheritance tax. The product is described as a lender providing finance to the heirs, secured against their future inheritance, with inheritance tax bridging loans described as the most common type; the loan is repaid after the inheritance arrives. The page also states that probate is not always required, depending on the value and class of the assets. Related detail came from the firm's /faq/ page: loans can be arranged before or after a grant of probate (post-probate is more common and likely cheaper); lenders will generally fund Corporation Tax, VAT or Inheritance Tax bills payable before probate is granted if there is a clear exit strategy; some probate loans are FCA-regulated and others are not, and the firm offers to check a client's case before engaging a lender. No fees, rates, LTV, loan sizes, durations, timescales, eligibility criteria, process steps, testimonials or calls to action for this page were revealed by any search. Search (c) returned nothing about Silver Oak Capital at all.",
+  "sections": [
+    {
+      "heading": "[inferred topic, heading not revealed] What probate lending is",
+      "content": "[a] 'The firm presents probate lending as a way to get funds during estate administration, often to cover inheritance tax.' [a][b] 'Probate lending involves a lender providing finance to the heirs, secured against their future inheritance.'"
+    },
+    {
+      "heading": "[inferred topic, heading not revealed] Inheritance tax bridging loans",
+      "content": "[a] 'The page describes inheritance tax bridging loans as the most common type. The security is the incoming inheritance.'"
+    },
+    {
+      "heading": "[inferred topic, heading not revealed] Repayment",
+      "content": "[b] 'In the page's words, the loan is repaid after the inheritance arrives.' [a] (FAQ page) 'the loan is repaid once the inheritance has been received.'"
+    },
+    {
+      "heading": "[inferred topic, heading not revealed] Is probate always required?",
+      "content": "[b] The probate page explains that 'probate is not always required, and this generally varies depending on the value and class of the assets involved.'"
+    },
+    {
+      "heading": "[from /faq/, not the probate page] Timing: before or after grant of probate",
+      "content": "[a] FAQ: 'the loans can be arranged before or after a grant of probate'; 'post-probate lending is more common and will likely be cheaper.'"
+    },
+    {
+      "heading": "[from /faq/, not the probate page] Tax bills payable before probate",
+      "content": "[b] FAQ: 'lenders are generally happy to fund Corporation Tax, VAT, or Inheritance Tax bills payable before probate is granted, provided there is a clear exit strategy.'"
+    },
+    {
+      "heading": "[from /faq/, not the probate page] Regulation",
+      "content": "[a] FAQ: 'the regulatory position is mixed. Some loans fall under FCA oversight and others do not, and the firm offers to help a borrower check their own case before engaging a lender.' [b] FAQ: 'some loans regulated by the FCA and others falling outside of their remit. The firm offers to help clients check whether a specific case is FCA-regulated before they engage a lender.'"
+    }
+  ],
+  "verbatim": [
+    "[a] Search-result title for the page URL: 'Probate Loans UK'",
+    "[a] 'The firm presents probate lending as a way to get funds during estate administration, often to cover inheritance tax.' (search-tool summary of the page)",
+    "[a] 'Probate lending involves a lender providing finance to the heirs, secured against their future inheritance.'",
+    "[a] 'The page describes inheritance tax bridging loans as the most common type. The security is the incoming inheritance.'",
+    "[a] (FAQ page) 'the loans can be arranged before or after a grant of probate. The FAQ notes that post-probate lending is more common and will likely be cheaper.'",
+    "[a] (FAQ page) 'the loan is repaid once the inheritance has been received.'",
+    "[a] (FAQ page) 'the regulatory position is mixed. Some loans fall under FCA oversight and others do not, and the firm offers to help a borrower check their own case before engaging a lender.'",
+    "[a] 'Sources disagree on the size of the panel. The firm's About Us page cites 800+ lenders, a LinkedIn profile cites 500+, and an older directory listing cites 300+. The 800+ figure is the most recent in the results.'",
+    "[a] 'The results don't include the page's fees, interest rates, or eligibility criteria'",
+    "[b] 'The probate page describes the product as a lender providing finance to the heirs, secured against their future inheritance. In the page's words, the loan is repaid after the inheritance arrives.'",
+    "[b] (FAQ page) 'lenders are generally happy to fund Corporation Tax, VAT, or Inheritance Tax bills payable before probate is granted, provided there is a clear exit strategy.'",
+    "[b] (FAQ page) 'some loans regulated by the FCA and others falling outside of their remit. The firm offers to help clients check whether a specific case is FCA-regulated before they engage a lender.'",
+    "[b] (probate page) 'probate is not always required, and this generally varies depending on the value and class of the assets involved.'",
+    "[b] (About Us page) 'the firm was founded in 2019 and focuses on advice for loans between £500K – £20m, secured on assets throughout the UK and abroad. Probate lending is listed as one of its special situations services.'",
+    "[b] 'The search returned no specific fees, rates, or eligibility criteria for probate loans'",
+    "[c] 'The search didn't return anything about Silver Oak Capital specifically. Every result was about probate lending in general, and several looked like low-quality SEO pages'",
+    "[seed] Navigation lists 'Probate Lending' as the last item of the 'Residential / Wealth' services group; no snippetsFromFirstPass entry exists for /probate-lending/."
+  ],
+  "services": [
+    "Probate lending / probate loans UK (brokered; firm is a debt advisory / broker)",
+    "Inheritance tax bridging loans (described on the page as the most common type of probate loan)",
+    "Funding of Corporation Tax, VAT or Inheritance Tax bills payable before probate is granted, with a clear exit strategy (FAQ)",
+    "Help checking whether a specific probate-loan case is FCA-regulated before engaging a lender (FAQ)"
+  ],
+  "useCases": [
+    "Obtaining funds during estate administration",
+    "Covering an inheritance tax bill (cited as the frequent purpose)",
+    "Paying Corporation Tax, VAT or Inheritance Tax bills that fall due before probate is granted (FAQ)",
+    "Borrowing against a future inheritance before it is received"
+  ],
+  "terms": [
+    "Security: the heirs' future / incoming inheritance ([a][b])",
+    "Repayment: as one event once the inheritance has been received / after the inheritance arrives ([a][b])",
+    "Timing: can be arranged before or after a grant of probate; post-probate lending is more common and will likely be cheaper (FAQ, [a])",
+    "Exit: a clear exit strategy is required for pre-probate tax-bill funding (FAQ, [b])",
+    "Firm-level loan range (not probate-specific): £500K – £20m (About Us, [b]); seed also records 'over £500,000' (home, /lenders/)",
+    "NOT REVEALED for this page: minimum/maximum loan size, LTV or advance rate against inheritance, interest rates, durations, fees, timescales"
+  ],
+  "eligibility": [
+    "Heirs / beneficiaries expecting an inheritance (implied by 'finance to the heirs, secured against their future inheritance')",
+    "Probate is not always required; whether it is depends on the value and class of the assets involved (page, [b])",
+    "Pre-probate tax-bill funding requires a clear exit strategy (FAQ, [b])",
+    "Regulatory status depends on the case: some loans FCA-regulated, others outside FCA remit (FAQ, [a][b])",
+    "NOT REVEALED: credit, income, residency, estate-value thresholds, executor consent requirements"
+  ],
+  "lenderTypes": [
+    "Not specified for probate lending in any result",
+    "Firm-level panel claims (contradictory): 800+ lenders (About Us per [a]; seed: home, /faq/, Trustpilot, Property Week), 500+ (LinkedIn per [a]), 300+ (older directory listing per [a]; seed: /property-development-finance/, SlideShare, Spear's), 700+ (seed: /commercial-mortgage-broker/, /bridging-loans-uk/)",
+    "Some probate lenders operate under FCA regulation, others outside its remit (FAQ, [a][b])"
+  ],
+  "processSteps": [
+    "[reconstructed from FAQ statements, not a page-stated numbered process] 1. Establish whether probate is required (depends on value and class of assets).",
+    "2. Check whether the specific case is FCA-regulated; the firm offers to help with this before engaging a lender.",
+    "3. Arrange the loan either before or after the grant of probate (post-probate more common and likely cheaper); pre-probate tax-bill funding needs a clear exit strategy.",
+    "4. Loan is secured against the heirs' future inheritance.",
+    "5. Repay the loan once the inheritance has been received."
+  ],
+  "faq": [
+    {"q": "[question wording reconstructed] Can a probate loan be arranged before or after a grant of probate?", "a": "[a] FAQ: loans 'can be arranged before or after a grant of probate'; 'post-probate lending is more common and will likely be cheaper.'"},
+    {"q": "[question wording reconstructed] How is a probate loan repaid?", "a": "[a] FAQ: 'the loan is repaid once the inheritance has been received.' [b] page: 'the loan is repaid after the inheritance arrives.'"},
+    {"q": "[question wording reconstructed] Is probate lending regulated by the FCA?", "a": "[a][b] FAQ: mixed position, 'some loans regulated by the FCA and others falling outside of their remit'; the firm 'offers to help clients check whether a specific case is FCA-regulated before they engage a lender.'"},
+    {"q": "[question wording reconstructed] Will lenders fund tax bills due before probate is granted?", "a": "[b] FAQ: 'lenders are generally happy to fund Corporation Tax, VAT, or Inheritance Tax bills payable before probate is granted, provided there is a clear exit strategy.'"},
+    {"q": "[question wording reconstructed] Is probate always required?", "a": "[b] page: 'probate is not always required, and this generally varies depending on the value and class of the assets involved.'"},
+    {"q": "[question wording reconstructed] What is the most common type of probate loan?", "a": "[a] page: 'inheritance tax bridging loans as the most common type. The security is the incoming inheritance.'"}
+  ],
+  "claims": [
+    {"claim": "Inheritance tax bridging loans are the most common type of probate loan (page, per [a])", "kind": "statement"},
+    {"claim": "Probate lending is a lender providing finance to the heirs, secured against their future inheritance (page, per [a][b])", "kind": "definition"},
+    {"claim": "Post-probate lending is more common and will likely be cheaper (FAQ, per [a])", "kind": "statement"},
+    {"claim": "The firm offers to help a borrower check whether their case is FCA-regulated before engaging a lender (FAQ, per [a][b])", "kind": "promise"},
+    {"claim": "Lenders are generally happy to fund Corporation Tax, VAT or Inheritance Tax bills payable before probate is granted, provided there is a clear exit strategy (FAQ, per [b])", "kind": "statement"},
+    {"claim": "800+ lenders (About Us page, per [a])", "kind": "number"},
+    {"claim": "500+ lenders (LinkedIn profile, per [a])", "kind": "number"},
+    {"claim": "300+ lenders (older directory listing, per [a])", "kind": "number"},
+    {"claim": "CONTRADICTION: lender-panel size cited as 300+, 500+, 700+ (seed) and 800+ across sources", "kind": "contradiction"},
+    {"claim": "Founded in 2019 (About Us, per [b]; seed notes one page says 2018)", "kind": "credential"},
+    {"claim": "Focuses on advice for loans between £500K – £20m, secured on assets throughout the UK and abroad (About Us, per [b])", "kind": "number"},
+    {"claim": "Probate lending is listed as one of the firm's 'special situations' services (About Us, per [b]); the seed navigation files it under 'Residential / Wealth'", "kind": "positioning"},
+    {"claim": "Appears in Property Week 'Commercial Property Awards 2026' organisation listing (link title only, per [a]; content not revealed)", "kind": "award-mention"},
+    {"claim": "No testimonials, timescales, rate figures, fee figures or LTV figures were revealed for this page", "kind": "absence"}
+  ],
+  "geography": [
+    "United Kingdom (search-result title 'Probate Loans UK')",
+    "Firm-level: assets 'throughout the UK and abroad' (About Us, per [b])"
+  ],
+  "ctas": [
+    "NOT REVEALED for this page by any search result",
+    "[seed] Firm-wide contact routes: enquiry form (name, contact details, finance type, amount, country of residence, brief overview, consent), enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/probate-lending/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/about-us/",
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/country-estate-refinance/",
+    "https://www.silveroakcapital.co.uk/case-studies/cotsworlds-listed/ (NEW - not in seed; title 'Cotsworlds Listed')",
+    "https://www.silveroakcapital.co.uk/below-market-purchases/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/auction-finance/"
+  ],
+  "confidence": "low-medium: the page's existence and title are confirmed; only five statements are attributed to the probate page itself (purpose during estate administration / IHT; finance to heirs secured on future inheritance; IHT bridging loans most common; repaid after inheritance arrives; probate not always required). Everything else comes from /faq/ or /about-us/ via search-tool summaries, which paraphrase rather than quote the site. H1, meta description, fees, rates, LTV, sizes, timescales, eligibility, process and CTAs are unknown.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/probate-lending.json",
+  "notes": "Direct fetching was not attempted (blocked per task; this is the 403 situation referred to in the user request). Query (a) extended on the exact URL; query (b) extended 'site:silveroakcapital.co.uk probate lending loan estate'; query (c) standard '\"Silver Oak Capital\" probate lending how it works' returned only generic/SEO probate-loan pages (svn.com, toky.co, njcleanenergy.com, yalelawjournal.org, pennlawreview.com, lawvex.com) with nothing about the firm - discarded. 'Verbatim' entries tagged [a]/[b] are the search tool's summary wording; where the summary explicitly attributed phrasing to the page ('In the page's words', 'The probate page explains that') this is flagged. Section headings are inferred topics, not confirmed H2s. Unrelated results ignored: silveroakcp.com (Silver Oak Capital Partners, US commercial lending advisory), Silver Point Capital (Wikipedia). External references seen: uk.linkedin.com/company/silver-oak-capital, crunchbase.com/organization/silver-oak-capital, lettingagenttoday.co.uk/trades-directory/silver-oak-capital/, awards.propertyweek.com/live/en/node/organisation-silver-oak-capital. One new internal URL discovered: /case-studies/cotsworlds-listed/. Observed inconsistency: About Us (per [b]) files probate lending under 'special situations' while the seed navigation files it under 'Residential / Wealth'."
+}

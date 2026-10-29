@@ -1,0 +1,118 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/marine-finance/",
+  "title": "Boat Finance UK",
+  "h1": "NOT REVEALED by search results. Only the SERP/page title 'Boat Finance UK' was returned; the on-page H1 was not visible in any snippet.",
+  "metaDescription": "NOT REVEALED by search results. Closest paraphrase from the search tool summary [a]: 'tailored financing for superyacht purchases'.",
+  "summary": "The /marine-finance/ page is titled 'Boat Finance UK' in search results. According to the search tool summaries of results (a) and (b), it describes tailored financing for superyacht purchases, lists the firm's services as borrow, develop, refinance and acquire, and offers boat finance for yachts typically over 20m in length. Financed yachts are usually registered in the UK, Cayman Islands, BVI or Malta; commercial vessels are mentioned but must be enquired about directly. Two product types are named: Pre-build Payment Financing and Senior Secured Mortgage (Post-build). Sample terms cited: up to 70% LTV based on an independent valuation, 48-month term, interest-only payments. A typical broker fee of 1.00% of the loan amount is cited (attribution to this page vs the /types-of-borrowing/ page is inconsistent between results). Stated advantages: '300+ Lenders' and 'independent whole-of-market advice'. Contact details on the page: London W1 and enquiry@silveroakcapital.co.uk. No meta description, H1, FAQ, process steps, testimonials or awards were revealed for this page. Search (c) returned only unrelated marine-industry results.",
+  "verbatim": [
+    "[a] Page title as indexed: \"Boat Finance UK\"",
+    "[a] (search-tool summary wording) \"It describes tailored financing for superyacht purchases and lists the firm's services as borrow, develop, refinance and acquire.\"",
+    "[a] (search-tool summary wording) \"It says the firm offers boat finance for yachts typically over 20m in length, and it covers Pre-build Payment Financing, Senior Secured Mortgage (Post-build).\"",
+    "[a] (search-tool summary wording) \"Its stated advantages include 300+ Lenders, and it promises independent whole-of-market advice.\"",
+    "[a] (search-tool summary wording) \"The page's contact details list London's W1 area and the enquiry email address enquiry@silveroakcapital.co.uk.\"",
+    "[b] (search-tool summary wording) \"The main marine finance page says the firm typically lends on yachts over 20m, and that financed yachts are usually registered in the UK, Cayman Islands, BVI, or Malta.\"",
+    "[b] (search-tool summary wording) \"It also mentions commercial vessels, to be enquired about directly.\"",
+    "[b] (search-tool summary wording) \"Listed options are pre-build payment financing and a senior secured mortgage after the build.\"",
+    "[b] (search-tool summary wording) \"A typical broker fee is 1.00% of the loan amount.\" (cited by the tool to the marine-finance result; result [a] attributes the same 1.00% figure to /types-of-borrowing/)",
+    "[b] (search-tool summary wording) \"The sample terms include up to 70% LTV based on an independent valuation, a 48-month term, and interest-only payments.\"",
+    "[a] RELATED PAGE /yacht-mortgages/: \"defines the product as a secured loan used to buy or refinance a yacht, where the yacht is the collateral.\"",
+    "[b] RELATED PAGE /yacht-mortgages/: \"It says it works with specialist marine lenders for cross-border cases.\"",
+    "[a] RELATED PAGE /marine-lease-finance/: \"covers leasing structures in France, Italy and Malta, with terms that typically run between 5 to 15 years.\"",
+    "[b] RELATED PAGE /marine-lease-finance/: \"mainly for buyers in France, Italy, and Malta, with the firm working with French and Italian leasing banks.\"",
+    "[a] RELATED PAGE /pre-construction-marine-finance/: \"explains funding for new builds before the hull exists, since standard marine mortgages cannot be used because the asset (the boat) does not legally exist yet.\"",
+    "[b] RELATED PAGE /pre-construction-marine-finance/: \"This covers funding shipyard stage payments during a new build.\"",
+    "[b] RELATED PAGE /superyacht-finance/: \"The firm targets vessels typically over 30 metres, and these are usually held through special purpose vehicles with a personal guarantee from the owner.\"",
+    "[b] RELATED PAGE /case-studies/heesen-yacht-finance/: \"One published example describes $14m of finance at 60% LTV for a 50m Heesen yacht, with a 10-year term.\"",
+    "[a] Caveat from the search tool: \"the 'age' metadata shows some pages are 700+ days old.\"",
+    "[seed] Navigation 'Marine' group: Marine / Boat Finance, Yacht Mortgages, Superyacht Finance, Marine Lease Finance, Pre-Construction Marine Finance.",
+    "[seed] /introducers/ snippet: the firm can arrange '... marine finance, or aviation finance'.",
+    "[c] No sentence about Silver Oak Capital was returned; the tool stated: \"The search didn't turn up anything about Silver Oak Capital as a marine finance lender. None of the results mention the firm.\""
+  ],
+  "sections": [
+    {"heading": "[inferred] Overview / Boat Finance UK", "content": "Tailored financing for superyacht purchases. Firm services listed as: borrow, develop, refinance and acquire. [a]"},
+    {"heading": "[inferred] Vessel criteria", "content": "Boat finance for yachts typically over 20m in length. Financed yachts usually registered in the UK, Cayman Islands, BVI or Malta. Commercial vessels: enquire directly. [a][b]"},
+    {"heading": "[inferred] Products", "content": "Pre-build Payment Financing; Senior Secured Mortgage (Post-build). [a][b]"},
+    {"heading": "[inferred] Example / sample terms", "content": "Up to 70% LTV based on an independent valuation; 48-month term; interest-only payments. [b]"},
+    {"heading": "[inferred] Fees", "content": "Typical broker fee 1.00% of the loan amount. Attribution ambiguous: [b] cites it to this page, [a] to /types-of-borrowing/. [a][b]"},
+    {"heading": "[inferred] Why Silver Oak Capital", "content": "300+ Lenders; independent whole-of-market advice. [a]"},
+    {"heading": "[inferred] Contact", "content": "London W1; enquiry@silveroakcapital.co.uk. [a]"}
+  ],
+  "services": [
+    "Boat / marine finance for yachts typically over 20m [a][b]",
+    "Pre-build Payment Financing [a][b]",
+    "Senior Secured Mortgage (Post-build) [a][b]",
+    "Commercial vessel finance (enquire directly) [b]",
+    "Borrow / develop / refinance / acquire (firm-level service list shown on page) [a]",
+    "Independent whole-of-market advice [a]",
+    "Related (own pages, linked from search): Yacht Mortgages, Superyacht Finance (30m+), Marine Lease Finance (France/Italy/Malta), Pre-Construction Marine Finance [a][b]"
+  ],
+  "useCases": [
+    "Superyacht purchase [a]",
+    "Pre-build / shipyard stage payment funding for a new build [a][b]",
+    "Post-build senior secured mortgage on a completed yacht [a][b]",
+    "Refinance of a yacht (from 'refinance' in service list; explicit on /yacht-mortgages/) [a]",
+    "Commercial vessels (enquire directly) [b]"
+  ],
+  "terms": [
+    "Vessel size: yachts typically over 20m in length [a][b]",
+    "LTV: up to 70% based on an independent valuation (sample terms) [b]",
+    "Term: 48 months (sample terms) [b]",
+    "Repayment: interest-only payments (sample terms) [b]",
+    "Broker fee: typically 1.00% of the loan amount (attribution to this page uncertain) [a][b]",
+    "Security: senior secured mortgage on the vessel post-build; pre-build payment financing before completion [a][b]",
+    "Registration: yachts usually registered in UK, Cayman Islands, BVI or Malta [b]",
+    "Related page /superyacht-finance/: vessels typically over 30 metres, usually held via SPV with personal guarantee from owner [b]",
+    "Related page /marine-lease-finance/: terms typically 5 to 15 years [a]",
+    "Related case study (Heesen): $14m, 60% LTV, 50m yacht, 10-year term [b]",
+    "NOT REVEALED on this page: interest rates, minimum/maximum loan size, timescales, arrangement/valuation fees, currency"
+  ],
+  "eligibility": [
+    "Yachts typically over 20m in length [a][b]",
+    "Yachts usually registered in UK, Cayman Islands, BVI or Malta [b]",
+    "Commercial vessels considered on direct enquiry [b]",
+    "NOT REVEALED: borrower residency, nationality, net worth, ownership structure requirements (SPV/personal guarantee appears only on /superyacht-finance/) [b]"
+  ],
+  "lenderTypes": [
+    "'300+ Lenders' stated on this page (count only, no lender type named) [a]",
+    "Specialist marine lenders for cross-border cases (from /yacht-mortgages/, related page) [b]",
+    "French and Italian leasing banks (from /marine-lease-finance/, related page) [b]"
+  ],
+  "processSteps": [],
+  "faq": [],
+  "claims": [
+    {"claim": "300+ Lenders (stated advantage on this page)", "kind": "number"},
+    {"claim": "Independent whole-of-market advice", "kind": "promise"},
+    {"claim": "Boat finance for yachts typically over 20m in length", "kind": "criteria"},
+    {"claim": "Up to 70% LTV based on an independent valuation (sample terms)", "kind": "number"},
+    {"claim": "48-month term, interest-only payments (sample terms)", "kind": "number"},
+    {"claim": "Typical broker fee 1.00% of the loan amount (attribution ambiguous between this page and /types-of-borrowing/)", "kind": "fee"},
+    {"claim": "Financed yachts usually registered in UK, Cayman Islands, BVI or Malta", "kind": "criteria"},
+    {"claim": "Related case study: $14m at 60% LTV for a 50m Heesen yacht, 10-year term (/case-studies/heesen-yacht-finance/)", "kind": "case-study"},
+    {"claim": "Contradiction with seed: this page cites 300+ lenders while /bridging-loans-uk/ and /commercial-mortgage-broker/ cite 700+ and home//faq/ cite 800+", "kind": "contradiction"},
+    {"claim": "No testimonials, awards, credentials or FCA statements revealed for this page", "kind": "absence"}
+  ],
+  "geography": [
+    "London W1 (contact details on page) [a]",
+    "Yacht registration jurisdictions: UK, Cayman Islands, BVI, Malta [b]",
+    "Related page /marine-lease-finance/: France, Italy, Malta [a][b]"
+  ],
+  "ctas": [
+    "Email enquiry@silveroakcapital.co.uk [a]",
+    "Commercial vessels: enquire directly [b]",
+    "NOT REVEALED: button labels, phone number placement, enquiry form on this page"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/yacht-mortgages/",
+    "https://www.silveroakcapital.co.uk/superyacht-finance/",
+    "https://www.silveroakcapital.co.uk/marine-lease-finance/",
+    "https://www.silveroakcapital.co.uk/pre-construction-marine-finance/",
+    "https://www.silveroakcapital.co.uk/types-of-borrowing/",
+    "https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/",
+    "https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/"
+  ],
+  "confidence": "medium-low",
+  "notes": "Seed file had no snippetsFromFirstPass entry for /marine-finance/; only navigation (Marine group) and the /introducers/ mention of marine finance were usable. All page-specific content comes from the search tool's prose summaries of results (a) and (b), not raw page text, so 'verbatim' lines are summary wording except the title 'Boat Finance UK'. H1, meta description, section headings, FAQ, process steps and rates were NOT revealed; section headings in 'sections' are inferred groupings, flagged [inferred]. Contradictions: (1) the 1.00% broker fee is attributed to this page by [b] but to /types-of-borrowing/ by [a]; (2) '300+ Lenders' on this page vs 700+/800+ on other pages per seed. Search (a) warned some indexed pages are 700+ days old, so figures may be stale. Search (c) ('Silver Oak Capital' marine finance lenders, standard mode) returned zero relevant results. Exactly 3 WebSearch calls were made; none refused.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/marine-finance.json"
+}

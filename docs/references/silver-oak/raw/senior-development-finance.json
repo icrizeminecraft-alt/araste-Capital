@@ -1,0 +1,136 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/senior-development-finance/",
+  "title": "Senior Development Finance UK",
+  "h1": "Not revealed by search results. The indexed page title is \"Senior Development Finance UK\" (seen identically in results [a] and [b]); the H1 is likely the same or close, but this is not confirmed.",
+  "metaDescription": "Not revealed. The search tool returned paraphrased summaries, not the meta description.",
+  "summary": "Product page of the UK broker Silver Oak Capital describing senior development finance: a first-charge loan secured on the development site, presented as the main funding source for large construction projects (from a single bespoke build to a multi-unit housing scheme). It covers a large share of the land purchase and most of the construction costs. The loan is structured in two parts: a day-one tranche to buy the site or refinance an existing bridging loan, and a held-back portion paid out in stages as construction progresses, after certification by a monitoring surveyor. The page positions the firm as focusing on leverage, cash flow and control rather than interest rate alone, and says specialist lenders fill the gap left by high-street banks. No figures (LTV, LTGDV, rates, fees, loan sizes, durations) specific to THIS page were surfaced; the only leverage figure (65-75% of GDV) comes from a separate Silver Oak blog page. Search (c) surfaced nothing about Silver Oak at all.",
+  "sections": [
+    {
+      "heading": "What senior development finance is (page summary [a][b])",
+      "content": "Described as the main funding source for large construction projects, from a single bespoke build to a multi-unit housing scheme. It is a first-charge loan / first-charge facility secured on the development site. It covers a large share of the land purchase and most of the construction costs ([a]); [b] phrases it as covering construction and, if needed, the land purchase."
+    },
+    {
+      "heading": "How the loan is structured: two parts (page summary [a][b])",
+      "content": "A portion is released on day one to buy the site or refinance an existing bridge loan. The rest is held back and paid out in stages as construction progresses, after a monitoring surveyor certifies the work."
+    },
+    {
+      "heading": "Firm's approach (page summary [a])",
+      "content": "The firm says it focuses on leverage, cash flow, and control rather than the interest rate alone. It also says specialist lenders fill the gap left by high-street banks; the summary attaches 'which assess projects on viability' to this sentence (ambiguous whether it refers to specialist lenders or banks; most plausibly the specialist lenders assess on project viability)."
+    },
+    {
+      "heading": "Related leverage figure (NOT from this page) [b][seed]",
+      "content": "A separate Silver Oak page (the Scotland development finance blog) puts standard senior development loans at roughly 65-75% of Gross Development Value. The stretch senior page says stretch senior can reach up to 75% of GDV or 90% loan-to-cost, usually with tighter covenants."
+    },
+    {
+      "heading": "Related process (NOT from this page) [a][b][seed]",
+      "content": "The general property development finance page describes an initial consultation, a shortlist of around three or four lenders, then formal heads of terms for the client to review; loans are rolled up and repaid on completion through sales or refinancing."
+    },
+    {
+      "heading": "Related worked example (NOT from this page) [a][seed]",
+      "content": "The older /types-of-borrowing/ page lists senior, stretched senior, mezzanine and joint venture equity options and gives an indicative example of a GBP 10 million loan at a 6.5% fixed rate over 18 months with a typical broker fee of 1.00%. The search tool flagged that page as about 1,600 days old."
+    }
+  ],
+  "verbatim": [
+    "[a] \"Senior development finance is described as the main funding source for large construction projects, from a single bespoke build to a multi-unit housing scheme.\"",
+    "[a] \"It is a first-charge loan secured on the development site. It covers a large share of the land purchase and most of the construction costs.\"",
+    "[a] \"The loan has two parts. A portion is released on day one to buy the site or refinance an existing bridge loan. The rest is held back and paid out in stages as construction progresses, after a monitoring surveyor certifies the work.\"",
+    "[a] \"The page says the firm focuses on leverage, cash flow, and control rather than the interest rate alone. It also says specialist lenders fill the gap left by high-street banks, which assess projects on viability.\"",
+    "[b] \"Their main page describes senior development finance as a first-charge facility secured on the development site, covering construction and, if needed, the land purchase.\"",
+    "[b] \"Part of the loan is paid out up front, often to buy the site or repay a bridge. The rest is held back and paid in stages as building work is certified by a monitoring surveyor.\"",
+    "[b] \"A separate Silver Oak page puts standard senior loans at roughly 65-75% of gross development value.\"",
+    "[b] \"Stretch senior: This is a higher-leverage single-lender version. The page says it can reach up to 75% of GDV or 90% of loan-to-cost, and it usually comes with tighter covenants.\"",
+    "[b] \"Silver Oak says it works with more than 800 lenders in the UK and abroad.\"",
+    "[b] \"Their development finance page describes an initial consultation, a shortlist of around three or four lenders, and then formal heads of terms for the client to review.\"",
+    "[b] \"One example is a 100-unit affordable housing scheme in Kent with a GBP 45 million GDV, where the client needed to fund the build and refinance an existing bridging loan.\"",
+    "[a] \"The types-of-borrowing page lists senior, stretched senior, mezzanine, and joint venture equity options. Its indicative example is a GBP 10 million loan at a 6.5% fixed rate over 18 months, with a typical broker fee of 1.00%.\"",
+    "[a] \"The homepage says the firm specialises in loans over GBP 500,000 and works through a network of more than 800 lenders.\"",
+    "[seed] \"Senior development loans cover a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value.\" (from /how-does-property-development-finance-in-scotland/)",
+    "[seed] \"secured against the available land and drawn in line with the business plan and construction schedule; interest rolled up; repaid at practical completion through sales or refinance\" (from /property-development-finance/)",
+    "[seed] \"development finance (senior, stretched senior, mezzanine/second charge, joint venture equity; broker fees around 1%; worked example at 6.5% fixed)\" (from /types-of-borrowing/)"
+  ],
+  "services": [
+    "Senior development finance (first-charge development loan) - this page",
+    "Stretch senior development finance (related page)",
+    "Mezzanine / junior finance (related, listed on /types-of-borrowing/)",
+    "Joint venture equity (related, listed on /types-of-borrowing/)",
+    "Whole loans (related page seen in results)",
+    "Property development finance brokerage generally (related page)",
+    "Refinancing an existing bridging loan into development finance (use stated on this page)"
+  ],
+  "useCases": [
+    "Large construction projects, from a single bespoke build to a multi-unit housing scheme [a]",
+    "Buying the development site (day-one tranche) [a][b]",
+    "Refinancing / repaying an existing bridge loan on the site (day-one tranche) [a][b]",
+    "Funding construction costs in stages as works are certified [a][b]",
+    "Related case study: 100-unit affordable housing scheme in Kent, GBP 45m GDV, funding the build and refinancing an existing bridging loan [b]"
+  ],
+  "terms": [
+    "Security: first charge over the development site [a][b]",
+    "Coverage: a large share of the land purchase and most of the construction costs [a]; construction and, if needed, the land purchase [b]",
+    "Drawdown: part released on day one; remainder held back and released in stages against monitoring surveyor certification [a][b]",
+    "Leverage (NOT stated on this page; from Silver Oak Scotland blog): standard senior loans typically up to 65-75% of GDV [b][seed]",
+    "Leverage (related stretch senior page): up to 75% GDV or 90% loan-to-cost, tighter covenants [b]",
+    "Rate / fee / duration (NOT from this page; older /types-of-borrowing/ example): GBP 10m at 6.5% fixed over 18 months, broker fee 1.00% [a][seed]",
+    "Repayment (related /property-development-finance/ page): interest rolled up, repaid on completion via sales or refinance [a][seed]",
+    "Minimum loan size (firm-wide, homepage): over GBP 500,000 [a][seed]",
+    "No loan size, LTV/LTGDV/LTC cap, interest rate, arrangement fee, exit fee, term length or timescale specific to this page was surfaced"
+  ],
+  "eligibility": [
+    "Not stated in surfaced content for this page. The only hint is the market framing: specialist lenders assess projects on viability (ambiguous attribution) [a]. No experience, deposit, planning or nationality criteria were revealed."
+  ],
+  "lenderTypes": [
+    "Specialist development lenders, described as filling the gap left by high-street banks [a]",
+    "High-street banks (mentioned by contrast) [a]",
+    "Firm-wide claim: network of more than 800 lenders in the UK and abroad [a][b]"
+  ],
+  "processSteps": [
+    "Day one: a portion of the loan is released to buy the site or refinance an existing bridge loan [a][b]",
+    "During construction: remaining funds held back and paid out in stages as construction progresses [a]",
+    "Each stage released after a monitoring surveyor certifies the work [a][b]",
+    "Related (from /property-development-finance/, not this page): initial consultation -> shortlist of around three or four lenders -> formal heads of terms for the client to review [b]"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "Senior development finance is the main funding source for large construction projects, from a single bespoke build to a multi-unit housing scheme", "kind": "product-definition [a]"},
+    {"claim": "First-charge loan secured on the development site", "kind": "security [a][b]"},
+    {"claim": "Covers a large share of the land purchase and most of the construction costs", "kind": "coverage [a]"},
+    {"claim": "Two-part structure: day-one release plus staged drawdowns certified by a monitoring surveyor", "kind": "mechanism [a][b]"},
+    {"claim": "The firm focuses on leverage, cash flow and control rather than the interest rate alone", "kind": "positioning / promise [a]"},
+    {"claim": "Specialist lenders fill the gap left by high-street banks", "kind": "market claim [a]"},
+    {"claim": "Works with more than 800 lenders in the UK and abroad", "kind": "number (firm-wide; attribution to this page uncertain) [a][b]"},
+    {"claim": "Firm specialises in loans over GBP 500,000", "kind": "number (homepage, not this page) [a]"},
+    {"claim": "Standard senior loans roughly 65-75% of GDV", "kind": "number (Scotland blog, not this page) [b][seed]"},
+    {"claim": "Stretch senior up to 75% GDV or 90% LTC with tighter covenants", "kind": "number (stretch senior page, not this page) [b]"},
+    {"claim": "Indicative example GBP 10m at 6.5% fixed over 18 months, broker fee 1.00%", "kind": "number (old /types-of-borrowing/ page, ~1,600 days old) [a]"},
+    {"claim": "Case study: 100-unit affordable housing scheme in Kent, GBP 45m GDV, build funding plus bridge refinance", "kind": "case study (separate case-study page) [b]"},
+    {"claim": "Lender shortlist of around three or four per deal", "kind": "process (development finance page) [a][b][seed]"},
+    {"claim": "Company founded 2019, London, 11-50 employees", "kind": "credential (third-party profiles Crunchbase/LinkedIn) [a]"}
+  ],
+  "geography": [
+    "UK (page title 'Senior Development Finance UK') [a][b]",
+    "Lender network described as UK and abroad [b]",
+    "Kent (related case study) [b]"
+  ],
+  "ctas": [
+    "None revealed for this page. Site-wide: /contact/ page titled 'Silver Oak Capital Speak to Experts' appeared in results [a]."
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/stretch-senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/whole-loans/",
+    "https://www.silveroakcapital.co.uk/types-of-borrowing/",
+    "https://www.silveroakcapital.co.uk/how-does-property-development-finance-in-scotland/",
+    "https://www.silveroakcapital.co.uk/case-studies/",
+    "https://www.silveroakcapital.co.uk/case-studies/finance-for-100-senior-housing-development-in-kent/",
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+    "https://www.silveroakcapital.co.uk/complex-offshore-structures/",
+    "https://www.silveroakcapital.co.uk/commercial-Mortgage-Broker/ (capitalised variant of /commercial-mortgage-broker/ seen in results)",
+    "https://www.silveroakcapital.co.uk/contact/",
+    "https://www.silveroakcapital.co.uk/"
+  ],
+  "confidence": "medium-low",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "notes": "Direct fetch blocked; everything comes from the WebSearch tool's paraphrased summaries of indexed snippets, not from the page HTML. 'Verbatim' entries are the summary's wording, not guaranteed page wording. Searches (a) and (b) both surfaced the page and agree on the core mechanism (first charge, two-part drawdown, monitoring surveyor). Search (c) (\"Silver Oak Capital\" senior development finance \"loan to value\") returned zero Silver Oak results; everything it returned (Silbury Finance, Oaktree, Live Oak, Hodge Bank, Clifton PF) is unrelated and was ignored. Contradictions/uncertainties: (1) [a] says the loan covers 'a large share of the land purchase', [b] says 'if needed, the land purchase' (land coverage may be optional); (2) the '800+ lenders' figure in [b] is reported as a general Silver Oak claim, unclear whether it appears on this page (seed shows 300+/500+/700+/800+ across pages); (3) the 65-75% GDV leverage is explicitly attributed to a different Silver Oak page, not this one; (4) the sentence about 'which assess projects on viability' has ambiguous attribution. No FAQ, testimonials, awards, meta description, H1 or explicit CTAs for this page were surfaced. Search (a)'s summary also stated it 'searched on the company name rather than the URL' and that page text was 'partly truncated'."
+}

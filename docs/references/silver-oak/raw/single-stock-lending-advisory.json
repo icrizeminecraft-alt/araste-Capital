@@ -1,0 +1,110 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/single-stock-lending-advisory/",
+  "title": "Single Stock Lending UK",
+  "h1": "Single Stock Lending UK (search-result title as shown in [a] and [b]; may be the <title> rather than the on-page H1 - not independently confirmed)",
+  "summary": "Silver Oak Capital's single stock lending advisory page describes a loan secured against one specific equity holding (rather than a diversified portfolio) that lets the borrower raise money against a concentrated shareholding without selling the shares and while keeping ownership. Typical clients named are family offices, founders and majority shareholders who want to keep control of their stake. Structurally, shares are pledged to a third-party trustee; the borrower generally keeps voting rights (and upside) if covenants are met; loan-to-value ratios are lower and margin requirements stricter than for portfolio (Lombard) lending because of concentration risk. The page's FAQ states founders/insiders can use the product subject to insider-trading rules, pre-clearance requirements and contractual covenants, and lists risks: extra collateral may be required, shares may have to be partly sold to repay, and borrowing costs may be higher. The firm positions its network of specialist lenders as what gives clients access to this financing. No LTV percentage, rate, fee, loan size, duration or timescale was revealed for this page; no raw snippet text surfaced - all content arrived as the search tool's paraphrase.",
+  "verbatim": [
+    "[a] (search-tool summary wording, not raw page text) \"the firm's network of specialist lenders is what gives clients access to financing\"",
+    "[a] (search-tool summary wording) \"borrowers pledge shares to a third-party trustee, keep voting rights and upside, and usually face lower loan-to-value ratios and stricter margin rules than portfolio-based loans\"",
+    "[a] (search-tool summary wording) \"a way to raise money against a concentrated holding without selling shares\"",
+    "[b] (search-tool summary wording) \"a loan secured against one equity holding, with the borrower keeping ownership of the shares\"",
+    "[b] (search-tool summary wording, presented as what the page 'refers to') \"a loan secured against a specific equity holding, rather than a diversified portfolio\"",
+    "[b] (search-tool summary wording) \"Family offices, founders, and majority shareholders are the usual clients, often wanting to keep control of their stake.\"",
+    "[b] (search-tool summary wording) \"Shares are typically pledged to a third-party trustee, and the borrower generally keeps voting rights if covenants are met.\"",
+    "[b] (search-tool summary wording) \"Loan-to-value ratios are lower and margin requirements are stricter than for portfolio lending, because of concentration risk.\"",
+    "[b] (search-tool summary wording) \"A FAQ says founders and insiders can use the product, but they must comply with insider trading rules, pre-clearance requirements, and their contractual covenants.\"",
+    "[b] (search-tool summary wording) \"The FAQ notes borrowers may need to post extra collateral, may have to partly sell shares to repay, and may face higher borrowing costs.\"",
+    "[b] (about sibling page /lombard-loan-advisory/, not this page) \"Its Lombard page puts equity-backed LTVs at roughly 50-70%.\"",
+    "[b] (about sibling page /about-us/, not this page) \"The About Us page says the firm was founded in 2019, advises on loans of £500k to £20m, and cites access to 800+ lenders.\"",
+    "[a] SERP title for the page: \"Single Stock Lending UK\"",
+    "[seed] navigation group \"Securities and alternative\": \"Lombard Loan Advisory\", \"Single Stock Lending Advisory\", \"Crypto Bridging Advisory\", \"Bitcoin Loans Advisory\", \"Art Finance Advisory\"",
+    "[seed] firm positioning: \"International Debt Advisory l Expert Finance Solutions\"; \"one of Europe's leading large loan brokers\""
+  ],
+  "sections": [
+    {"heading": "What single stock lending is (reconstructed heading)", "content": "A loan secured against a specific / single equity holding rather than a diversified portfolio. The borrower keeps ownership of the shares and raises money against a concentrated holding without selling. [a][b]"},
+    {"heading": "Who it is for (reconstructed heading)", "content": "Family offices, founders and majority shareholders are described as the usual clients, often wanting to keep control of their stake. [b]"},
+    {"heading": "Structure and terms (reconstructed heading)", "content": "Shares are typically pledged to a third-party trustee. The borrower generally keeps voting rights (and upside, per [a]) provided covenants are met. Loan-to-value ratios are lower and margin requirements stricter than for portfolio-based / Lombard lending, because of concentration risk. No LTV figure is given for this page. [a][b]"},
+    {"heading": "Lender access (reconstructed heading)", "content": "The firm's network of specialist lenders is presented as what gives clients access to this financing. [a]"},
+    {"heading": "FAQ (page has an FAQ block per [b])", "content": "Founders and insiders can use the product but must comply with insider trading rules, pre-clearance requirements and their contractual covenants. Risks listed: borrowers may need to post extra collateral, may have to partly sell shares to repay, and may face higher borrowing costs. [b]"}
+  ],
+  "services": [
+    "Single stock lending advisory - arranging loans secured against a single / concentrated equity holding [a][b]",
+    "Related securities-backed advisory on the same site: Lombard loan advisory (/lombard-loan-advisory/, SERP title 'Lombard Loans UK') [b][seed]",
+    "Related: IPO & pre-IPO finance advisory for growth companies (/ipo-and-pre-ipo-finance-advisory/) - URL newly discovered in [b], not in seed",
+    "Related: crypto bridging / bitcoin loans advisory (/crypto-bridging-advisory/, SERP title 'Bitcoin Loans') [b][seed]",
+    "Related: art finance advisory (/art-finance-advisory/) [b][seed]"
+  ],
+  "useCases": [
+    "Raising liquidity against a concentrated shareholding without selling the shares [a][b]",
+    "Founders / majority shareholders who want to keep control of their stake while borrowing [b]",
+    "Family offices borrowing against a single equity position [b]",
+    "Founders and insiders borrowing against company stock (subject to insider-trading rules, pre-clearance and covenants) [b]"
+  ],
+  "terms": [
+    "Security: shares pledged to a third-party trustee [a][b]",
+    "Borrower generally retains voting rights (and upside per [a]) if covenants are met [a][b]",
+    "LTV: lower than portfolio-based / Lombard lending because of concentration risk - no percentage stated for this page [a][b]",
+    "Margin requirements: stricter than portfolio lending [a][b]",
+    "Risk terms (FAQ): possible requirement to post additional collateral; possible partial sale of shares to repay; potentially higher borrowing costs [b]",
+    "Cross-reference only (sibling page /lombard-loan-advisory/): equity-backed Lombard LTVs roughly 50-70% [b]",
+    "Firm-level (sibling page /about-us/ via [b]; matches seed): loans £500k to £20m",
+    "Not revealed for this page: interest rates, fees, loan sizes, durations, timescales, currencies, minimum share liquidity / listing requirements"
+  ],
+  "eligibility": [
+    "Family offices, founders, majority shareholders named as usual clients [b]",
+    "Founders and insiders eligible, subject to insider trading rules, pre-clearance requirements and contractual covenants [b]",
+    "Borrower must hold a specific / single equity holding to pledge (implicit from product definition) [a][b]",
+    "Not revealed: minimum holding value, listing/exchange requirements, residency requirements"
+  ],
+  "lenderTypes": [
+    "'Specialist lenders' - the firm's network of specialist lenders (no lender names or categories given) [a]",
+    "Firm-level (seed / [b] about-us): claims access to 800+ lenders (seed records other pages citing 300+, 500+, 700+)"
+  ],
+  "processSteps": [
+    "Only structural step revealed: shares are pledged to a third-party trustee as security; borrower keeps voting rights while covenants are met [a][b]",
+    "Not revealed: enquiry, term-sheet, valuation, documentation or drawdown steps for this page"
+  ],
+  "faq": [
+    {"q": "Can founders and insiders use single stock lending? (question wording reconstructed; page FAQ existence stated in [b])", "a": "Yes, but they must comply with insider trading rules, pre-clearance requirements and their contractual covenants. [b]"},
+    {"q": "What are the risks of single stock lending? (question wording reconstructed)", "a": "Borrowers may need to post extra collateral, may have to partly sell shares to repay, and may face higher borrowing costs. [b]"}
+  ],
+  "claims": [
+    {"claim": "The firm's network of specialist lenders gives clients access to single stock financing [a]", "kind": "capability"},
+    {"claim": "Borrower keeps ownership of the shares and generally keeps voting rights (and upside) if covenants are met [a][b]", "kind": "product-feature"},
+    {"claim": "Single-stock LTVs are lower and margin requirements stricter than portfolio lending, due to concentration risk [a][b]", "kind": "product-term (qualitative, no figure)"},
+    {"claim": "Founders and insiders can use the product subject to insider-trading rules, pre-clearance and covenants [b]", "kind": "eligibility"},
+    {"claim": "Risks: extra collateral, partial forced sale to repay, higher borrowing costs [b]", "kind": "risk-disclosure"},
+    {"claim": "Sibling Lombard page: equity-backed LTVs roughly 50-70% [b]", "kind": "number (other page)"},
+    {"claim": "About Us (via [b]): founded 2019; loans £500k to £20m; 800+ lenders - consistent with seed /about-us/ and seed home//faq/ lender count", "kind": "number / credential (other page)"},
+    {"claim": "Silver Oak Capital has an organisation entry on awards.propertyweek.com titled 'Commercial Property Awards 2026 - Private' [a] - a listing only; result does not say the firm won anything", "kind": "award-listing (external)"},
+    {"claim": "No testimonials, case studies, numeric figures, timescales or credentials were revealed for this specific page", "kind": "absence"}
+  ],
+  "geography": [
+    "UK (SERP title 'Single Stock Lending UK') [a][b]",
+    "Firm-level (seed): London based (91 Wimpole Street, W1G 0EE); other offices Monaco, Dubai, Cape Town; international coverage UK, Western Europe, Middle East, United States",
+    "No country-specific wording revealed for this page beyond the title"
+  ],
+  "ctas": [
+    "None revealed in the search results for this page",
+    "[seed] firm-level contact routes: enquiry form (name, contact details, finance type, amount, country of residence, brief overview, consent), enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/single-stock-lending-advisory/ (SERP title: Single Stock Lending UK) [a][b]",
+    "https://www.silveroakcapital.co.uk/lombard-loan-advisory/ (SERP title: Lombard Loans UK) [b]",
+    "https://www.silveroakcapital.co.uk/ipo-and-pre-ipo-finance-advisory/ (SERP title: IPO & Pre-IPO Finance Advisory for Growth Companies) [b] - NEW, not in seed",
+    "https://www.silveroakcapital.co.uk/aviation-finance-lease-advisory/ (SERP title: Aviation Finance & Leasing) [b] - NEW, not in seed (seed lists /aviation-finance/)",
+    "https://www.silveroakcapital.co.uk/crypto-bridging-advisory/ (SERP title: Bitcoin Loans) [b]",
+    "https://www.silveroakcapital.co.uk/art-finance-advisory/ (SERP title: Art Finance Advisory) [b]",
+    "https://www.silveroakcapital.co.uk/faq/ (SERP title: Property Finance FAQs) [b]",
+    "https://www.silveroakcapital.co.uk/western-europe/ (SERP title: Property Finance Western Europe) [b]",
+    "https://www.silveroakcapital.co.uk/about-us/ (SERP title: About Us - Jimmy Baillie) [b]",
+    "https://www.silveroakcapital.co.uk/development-finance-brokers/ (SERP title: Development Finance Brokers - Get a Instant Quote Now) [b]",
+    "External seen in [a]: https://uk.linkedin.com/company/silver-oak-capital ; https://awards.propertyweek.com/live/en/node/organisation-silver-oak-capital"
+  ],
+  "metaDescription": "",
+  "notes": "METHOD: seed had no snippet for /single-stock-lending-advisory/; only navigation placement (group 'Securities and alternative') and firm-level facts were usable. Exactly 3 WebSearch calls run, 0 refused. (a) extended, exact URL: confirmed page exists, title 'Single Stock Lending UK', gave paraphrased content. (b) extended, site: query: gave the richest paraphrase incl. the FAQ and surfaced two site URLs absent from the seed (/ipo-and-pre-ipo-finance-advisory/, /aviation-finance-lease-advisory/). (c) standard, '\"Silver Oak Capital\" single stock lending \"loan to value\"': returned ZERO Silver Oak results - only Enness Global and arc-group.com pages about single stock loans in general (Enness case-study LTVs 30-65%); this third-party material is NOT attributed to Silver Oak and is excluded from the fields above. LIMITATIONS: no raw page text or meta description surfaced in any result; every 'verbatim' line is the search tool's summary wording, flagged as such; H1 unconfirmed (SERP title used); FAQ question wording reconstructed from the answers; no numeric terms (LTV %, rates, fees, sizes, durations, timescales) revealed for this page. CONTRADICTIONS: none found within this page's results. Firm-level lender count via [b] (800+) matches seed home//faq/ but seed records other pages citing 300+/500+/700+. UNRELATED FIRMS IGNORED: Silver Oak Securities Inc (US, Bloomberg/joinsilveroaksecurities.com/cbinsights), Silver Oak Capital Partners (silveroakcp.com, US commercial lending), silveroak.net, silveroakinvestments.com (US advisory).",
+  "confidence": "medium-low: page existence, title and core product description confirmed by two independent extended results, but all content is search-tool paraphrase (no raw snippet), H1/meta unconfirmed, and no numeric terms for this page",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/single-stock-lending-advisory.json"
+}

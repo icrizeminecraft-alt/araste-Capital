@@ -1,0 +1,134 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/stretch-senior-development-finance/",
+  "title": "Stretch Senior Development Finance UK",
+  "summary": "Product page for Silver Oak Capital's stretch senior development finance. Search results reveal the core description: a single high-leverage facility from one lender that combines the leverage of senior debt and mezzanine finance, 'stretching' higher than a standard senior development loan. The firm says it can help secure up to 75% of Gross Development Value (GDV) or 90% Loan to Cost (LTC) in a single transaction; the product often carries tighter controls and covenants, and avoids a second lender (so no Intercreditor Deed between senior and junior lenders). The site FAQ adds that stretch senior lenders typically have a minimum loan size of about £1m-£2m, can fund projects up to £50m+, and may cap commercial schemes at 65% LTGDV. H1, meta description, process steps and CTAs were not revealed by search snippets. Contradictions noted: an older /types-of-borrowing/ example shows 75% LTGDV / 85% LTC and the Scotland article says up to 85% of total costs, versus 90% LTC on this page.",
+  "verbatim": [
+    "[a] The product combines senior and mezzanine debt into one facility from one lender.",
+    "[a] It \"stretches\" higher than a standard senior development loan, effectively combining the leverage provided by a mixture of senior debt and mezzanine finance into one single facility from one lender.",
+    "[a] The firm says it can secure up to 75% of the Gross Development Value (GDV) or 90% of Loan to Cost (LTC) in a single transaction.",
+    "[a] This product often includes tighter controls and covenants to get comfortable at higher leverage.",
+    "[a] Per the FAQ, Stretch Senior lenders typically have a minimum loan size of around £1m – £2m, as the work involved in setting up the facility doesn't justify smaller loans. However, they can scale up significantly, funding projects up to £50m+.",
+    "[a] The FAQ notes that using it for commercial development is possible, though the leverage might be lower.",
+    "[a] Another page from the same firm lists a Loan to GDV 75% (Loan to Cost 85%) example, which is older and conflicts with the 90% LTC figure on the stretch page.",
+    "[b] a single high-leverage loan from one lender",
+    "[b] combining the leverage provided by a mixture of senior debt and mezzanine finance into one single facility from one lender",
+    "[b] They say they can help you secure up to 75% of the Gross Development Value (GDV) or 90% of Loan to Cost (LTC), and the product often includes tighter controls and covenants.",
+    "[b] A key selling point is avoiding a second lender. Their page notes this eliminates the \"Intercreditor Deed\", which is the agreement between senior and junior lenders.",
+    "[b] Lenders typically have a minimum loan size of around £1m – £2m, but can fund projects up to £50m+. For commercial schemes, leverage is lower: lenders may cap the leverage at 65% LTGDV.",
+    "[b] a Scotland-focused article describes stretched senior loans as finance up to 85% of total costs, which differs from the 90% LTC figure on the main product page",
+    "[c] The search didn't turn up anything about Silver Oak Capital specifically. None of the results mention that lender, so I can't confirm its stretch senior terms or LTV limits.",
+    "[seed] /types-of-borrowing/: development finance (senior, stretched senior, mezzanine/second charge, joint venture equity; broker fees around 1%; worked example at 6.5% fixed)",
+    "[seed] /how-does-property-development-finance-in-scotland/: types: senior loans, mezzanine finance, bridging loans, stretched senior loans, joint venture finance",
+    "[seed] 'Senior development loans cover a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value.'",
+    "[seed] mezzanine 'a secondary loan that sits behind senior debt, reducing the developer's equity requirement'"
+  ],
+  "services": [
+    "Stretch senior development finance: one facility from one lender combining the leverage of senior debt and mezzanine finance [a][b]",
+    "Brokerage/advisory to secure the facility ('can help you secure up to 75% GDV or 90% LTC') [a][b]",
+    "Related development products on the site: Senior Development Finance, Mezzanine / Junior Finance, Whole Loans, Property Development Finance, Post Planning Land Acquisitions [seed][a][b]"
+  ],
+  "useCases": [
+    "Development projects needing higher leverage than a standard senior development loan [a]",
+    "Developers wanting a single lender instead of a separate senior and mezzanine lender, avoiding an Intercreditor Deed [b]",
+    "Commercial development schemes (possible, but with lower leverage, e.g. capped at 65% LTGDV per FAQ) [a][b]",
+    "Larger schemes: FAQ says lenders can fund projects up to £50m+ [a][b]"
+  ],
+  "terms": [
+    "Leverage: up to 75% of Gross Development Value (GDV) [a][b]",
+    "Leverage: up to 90% Loan to Cost (LTC) 'in a single transaction' [a][b]",
+    "Structure: single facility from one lender combining senior and mezzanine leverage [a][b]",
+    "Controls: 'often includes tighter controls and covenants to get comfortable at higher leverage' [a]",
+    "No Intercreditor Deed because there is no second (junior) lender [b]",
+    "Minimum loan size (site FAQ): around £1m – £2m [a][b]",
+    "Maximum (site FAQ): projects up to £50m+ [a][b]",
+    "Commercial schemes (site FAQ): leverage may be capped at 65% LTGDV [b]",
+    "Contradiction: older /types-of-borrowing/ example shows Loan to GDV 75% / Loan to Cost 85% [a]; Scotland article says stretched senior finances up to 85% of total costs [b]",
+    "Rates, fees, duration, timescales and security for this product: NOT revealed by search results for this page (seed only gives general firm-level fee claims, e.g. ~1% broker fee on /types-of-borrowing/)"
+  ],
+  "eligibility": [
+    "Loan size typically at least around £1m – £2m, as 'the work involved in setting up the facility doesn't justify smaller loans' (site FAQ) [a]",
+    "Borrower must accept tighter controls and covenants at higher leverage [a]",
+    "Commercial development eligible but at lower leverage (FAQ: may cap at 65% LTGDV) [a][b]",
+    "Developer experience / track record requirements: NOT revealed in results"
+  ],
+  "lenderTypes": [
+    "'Stretch Senior lenders' - single lenders providing a combined senior + mezzanine facility [a][b]",
+    "Contrasted with the alternative of a senior lender plus a separate junior/mezzanine lender bound by an Intercreditor Deed [b]",
+    "Firm-level lender network claims (seed, not from this page): 300+ on /property-development-finance/, 800+ on home and /faq/"
+  ],
+  "processSteps": [],
+  "faq": [
+    {
+      "q": "What is the minimum loan size for stretch senior development finance?",
+      "a": "Site FAQ (as surfaced by [a][b]): 'Stretch Senior lenders typically have a minimum loan size of around £1m – £2m, as the work involved in setting up the facility doesn't justify smaller loans. However, they can scale up significantly, funding projects up to £50m+.'"
+    },
+    {
+      "q": "Can stretch senior finance be used for commercial development?",
+      "a": "Site FAQ (as surfaced by [a][b]): possible, 'though the leverage might be lower'; 'lenders may cap the leverage at 65% LTGDV'."
+    },
+    {
+      "q": "How is stretch senior different from senior plus mezzanine?",
+      "a": "Page content per [b]: one facility from one lender, which 'eliminates the Intercreditor Deed, which is the agreement between senior and junior lenders'."
+    }
+  ],
+  "claims": [
+    {"claim": "Can help secure up to 75% of Gross Development Value (GDV) [a][b]", "kind": "number"},
+    {"claim": "Can help secure up to 90% Loan to Cost (LTC) in a single transaction [a][b]", "kind": "number"},
+    {"claim": "Combines senior debt and mezzanine finance into one single facility from one lender [a][b]", "kind": "structure"},
+    {"claim": "Stretches higher than a standard senior development loan [a]", "kind": "promise"},
+    {"claim": "Often includes tighter controls and covenants at higher leverage [a][b]", "kind": "caveat"},
+    {"claim": "Avoiding a second lender eliminates the Intercreditor Deed [b]", "kind": "benefit"},
+    {"claim": "FAQ: minimum loan size around £1m – £2m [a][b]", "kind": "number"},
+    {"claim": "FAQ: can fund projects up to £50m+ [a][b]", "kind": "number"},
+    {"claim": "FAQ: commercial schemes may be capped at 65% LTGDV [b]", "kind": "number"},
+    {"claim": "Contradiction: /types-of-borrowing/ older example 75% LTGDV / 85% LTC vs 90% LTC on this page [a]", "kind": "contradiction"},
+    {"claim": "Contradiction: Scotland article 'up to 85% of total costs' vs 90% LTC on this page [b]", "kind": "contradiction"},
+    {"claim": "No testimonials, awards, credentials or case-study references for this specific page were surfaced", "kind": "absence"}
+  ],
+  "geography": [
+    "United Kingdom (page title 'Stretch Senior Development Finance UK') [a][b]"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/stretch-senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/mezzanine-junior-finance/",
+    "https://www.silveroakcapital.co.uk/whole-loans/",
+    "https://www.silveroakcapital.co.uk/post-planning-land-acquisitions/",
+    "https://www.silveroakcapital.co.uk/complex-offshore-structures/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/types-of-borrowing/",
+    "https://www.silveroakcapital.co.uk/how-does-property-development-finance-in-scotland/",
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+    "https://www.silveroakcapital.co.uk/case-studies/purchase-and-upgrade-21-million-office-in-london/",
+    "https://www.silveroakcapital.co.uk/"
+  ],
+  "sections": [
+    {
+      "heading": "What is stretch senior development finance (heading inferred, not revealed)",
+      "content": "A single high-leverage loan from one lender. It 'stretches' higher than a standard senior development loan, effectively combining the leverage provided by a mixture of senior debt and mezzanine finance into one single facility from one lender. [a][b]"
+    },
+    {
+      "heading": "Leverage available (heading inferred)",
+      "content": "Silver Oak Capital says it can help you secure up to 75% of the Gross Development Value (GDV) or 90% of Loan to Cost (LTC) in a single transaction. [a][b]"
+    },
+    {
+      "heading": "Controls and covenants (heading inferred)",
+      "content": "The product often includes tighter controls and covenants to get comfortable at higher leverage. [a][b]"
+    },
+    {
+      "heading": "One lender, no Intercreditor Deed (heading inferred)",
+      "content": "A key selling point is avoiding a second lender; the page notes this eliminates the 'Intercreditor Deed', the agreement between senior and junior lenders. [b]"
+    },
+    {
+      "heading": "Related FAQ answers from /faq/ (not on this page)",
+      "content": "Stretch Senior lenders typically have a minimum loan size of around £1m – £2m, as the work involved in setting up the facility doesn't justify smaller loans; they can scale up significantly, funding projects up to £50m+. Commercial development is possible though leverage might be lower; lenders may cap the leverage at 65% LTGDV. [a][b]"
+    }
+  ],
+  "confidence": "medium",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/stretch-senior-development-finance.json",
+  "notes": "Seed file has no snippetsFromFirstPass entry for this path; only navigation (Development > Stretch Senior Development Finance) and related-page snippets apply. Search [a] (extended, exact URL) and [b] (extended, site: query) both surfaced the page with title 'Stretch Senior Development Finance UK' and the same core paragraph; the search tool reported the page is 'only partly visible'. Search [c] (standard) returned no Silver Oak Capital results at all (only Wikipedia, Finbri, Hodge Bank, Enness, BLG etc.), so market-context figures from [c] are deliberately excluded. Verbatim items are the search tool's exact wording, which in part paraphrases the page; only the fragments in inner quotes ('stretches', 'Intercreditor Deed', the FAQ minimum-size sentence) are confirmed page wording. Not revealed: H1, meta description, section headings, process steps, CTAs, rates/fees/term/security for this product, testimonials, case studies. Section headings in 'sections' are inferred groupings, not page headings. Contradictions: 90% LTC (this page) vs 85% LTC on older /types-of-borrowing/ example [a] and 'up to 85% of total costs' in Scotland article [b]. Competitor BLG Development Finance appeared in [a] results (75% GDV incl. rolled-up interest) and was ignored as unrelated. Crunchbase profile for Silver Oak Capital appeared in [a] but gave no page content."
+}

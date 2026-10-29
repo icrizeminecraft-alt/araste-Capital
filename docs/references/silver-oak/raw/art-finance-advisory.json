@@ -1,0 +1,125 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/art-finance-advisory/",
+  "title": "Art Finance Advisory",
+  "h1": "Art Finance Advisory (search-result page title; actual H1 tag not confirmed by any snippet)",
+  "metaDescription": "NOT REVEALED by search results.",
+  "summary": "Service page of Silver Oak Capital (UK finance brokerage, 91 Wimpole Street, London W1G 0EE) presenting art-backed lending advisory: using fine art, paintings or sculptures as security to raise liquidity while the owner keeps the works. Search summaries state that lenders weigh independent valuation, rarity/provenance, condition, authenticity and liquidity/saleability; that single high-value pieces are generally preferred over portfolios of smaller items; that art supports lower loan-to-value ratios than other asset-backed lending, with an FAQ figure of typically 30% to 60% LTV depending on collection quality, value and liquidity; that lenders monitor value and may request additional security if values fall; and that borrowers can be private collectors, family offices and galleries. The page sits in the site's 'Luxury Asset Finance' navigation group alongside jewellery finance and classic car loans. No fees, rates, loan sizes, durations, lender names, process steps, case studies or testimonials for this page were revealed. Query (c) returned only unrelated industry sources (no Silver Oak content).",
+  "sections": [
+    {
+      "heading": "What art finance / art-backed lending is (summary of page, not literal heading)",
+      "content": "[a] 'It describes art-backed lending as a way for owners to raise funds using paintings or sculptures as security while keeping ownership.' [b] 'The main page describes art-backed lending, where fine art, paintings, or sculptures are used as security to access liquidity. It is pitched as a way for owners to raise funds without giving up the works.'"
+    },
+    {
+      "heading": "What lenders assess (summary of page, not literal heading)",
+      "content": "[a] 'Lenders typically weigh the artwork's valuation, rarity and provenance, condition, authenticity, and liquidity.' [b] 'Lenders look at an independent valuation, provenance, condition, authenticity, and how easily a piece sells. The page says single high-value pieces are generally preferred over portfolios of smaller items.'"
+    },
+    {
+      "heading": "Loan-to-value (summary, not literal heading)",
+      "content": "[a] 'The snippet also notes that art usually supports lower loan-to-value ratios than other asset-backed lending.' [b] 'The FAQ says LTVs vary by collection quality, value, and liquidity, typically between 30% and 60%. If values fall, lenders monitor artwork value and may request additional security.' Note: the summary says 'The FAQ' without stating whether this is an FAQ block on the art page or the site-wide /faq/ page."
+    },
+    {
+      "heading": "Who can borrow (summary, not literal heading)",
+      "content": "[b] 'According to the FAQ, loans are available to private collectors, family offices, and galleries.'"
+    },
+    {
+      "heading": "Navigation context",
+      "content": "[a] 'The site's navigation lists \"Art Finance Advisory\" under its Luxury Asset Finance services, alongside jewelry finance and classic car loans.' [b] '(listed under the Luxury Asset Finance section, alongside jewellery finance and classic car loans)'. [seed] The seed's reconstructed navigation placed Art Finance Advisory under a 'Securities and alternative' grouping together with Lombard Loan Advisory, Single Stock Lending Advisory, Crypto Bridging Advisory and Bitcoin Loans Advisory; that grouping was the first pass's own label, whereas the site's own label per [a]/[b] is 'Luxury Asset Finance'."
+    },
+    {
+      "heading": "Contact",
+      "content": "[a] 'The company's contact page gives a London number, +44 207 459 4440.' [b] 'The site lists the firm at 91 Wimpole Street, London, W1G 0EE, with phone +44 207 459 4440'."
+    }
+  ],
+  "verbatim": [
+    "[a] \"It is a UK art finance advisory page. It describes art-backed lending as a way for owners to raise funds using paintings or sculptures as security while keeping ownership.\"",
+    "[a] \"Lenders typically weigh the artwork's valuation, rarity and provenance, condition, authenticity, and liquidity.\"",
+    "[a] \"The snippet also notes that art usually supports lower loan-to-value ratios than other asset-backed lending.\"",
+    "[a] \"The site's navigation lists 'Art Finance Advisory' under its Luxury Asset Finance services, alongside jewelry finance and classic car loans.\"",
+    "[a] \"The company's contact page gives a London number, +44 207 459 4440.\"",
+    "[a] \"The snippets don't show the full page, so I can't confirm its fees, lender panel, or terms.\"",
+    "[b] \"The main page describes art-backed lending, where fine art, paintings, or sculptures are used as security to access liquidity. It is pitched as a way for owners to raise funds without giving up the works.\"",
+    "[b] \"Lenders look at an independent valuation, provenance, condition, authenticity, and how easily a piece sells. The page says single high-value pieces are generally preferred over portfolios of smaller items.\"",
+    "[b] \"The FAQ says LTVs vary by collection quality, value, and liquidity, typically between 30% and 60%. If values fall, lenders monitor artwork value and may request additional security.\"",
+    "[b] \"According to the FAQ, loans are available to private collectors, family offices, and galleries.\"",
+    "[b] \"The site lists the firm at 91 Wimpole Street, London, W1G 0EE, with phone +44 207 459 4440 (listed under the Luxury Asset Finance section, alongside jewellery finance and classic car loans).\"",
+    "[b] \"The search results don't include any pricing, fees, or case studies from the art page itself.\"",
+    "[c] \"The search didn't turn up anything about Silver Oak Capital specifically, so I can't confirm its art finance business or its loan-to-value terms.\"",
+    "[seed] Navigation entry: \"Art Finance Advisory\" listed under the seed grouping \"Securities and alternative\" (no snippet for this path in snippetsFromFirstPass).",
+    "[seed] Firm contact: \"enquiry@silveroakcapital.co.uk ; +44 207 459 4440 ; WhatsApp ; enquiry form (name, contact details, finance type, amount, country of residence, brief overview, consent)\""
+  ],
+  "services": [
+    "Art finance advisory / art-backed lending advisory (fine art, paintings, sculptures used as security to access liquidity) [a][b]",
+    "Sibling Luxury Asset Finance services named in navigation: jewellery finance (jewellery, diamonds, gemstones loans advisory) and classic car loans [a][b]"
+  ],
+  "useCases": [
+    "Owners raising funds against paintings or sculptures while keeping ownership of the works [a][b]",
+    "Accessing liquidity without selling the art [b]"
+  ],
+  "terms": [
+    "Security: fine art, paintings or sculptures pledged as collateral [a][b]",
+    "LTV: art usually supports lower loan-to-value ratios than other asset-backed lending [a]",
+    "LTV: typically between 30% and 60%, varying by collection quality, value and liquidity (attributed by [b] to 'the FAQ') [b]",
+    "Monitoring: if values fall, lenders monitor artwork value and may request additional security [b]",
+    "Collateral preference: single high-value pieces generally preferred over portfolios of smaller items [b]",
+    "Valuation basis: independent valuation [b]",
+    "Loan sizes, rates, fees, durations, timescales: NOT REVEALED for this page"
+  ],
+  "eligibility": [
+    "Private collectors [b]",
+    "Family offices [b]",
+    "Galleries [b]",
+    "Assessment criteria applied by lenders: independent valuation, rarity and provenance, condition, authenticity, liquidity / how easily a piece sells [a][b]"
+  ],
+  "lenderTypes": [
+    "NOT REVEALED: results say 'lenders' generically; no lender names or lender categories (private banks, specialist art lenders, etc.) stated for this page. [a] explicitly: 'I can't confirm its fees, lender panel, or terms.'"
+  ],
+  "processSteps": [
+    "NOT REVEALED: no application / valuation / offer / completion sequence surfaced for this page."
+  ],
+  "faq": [
+    {
+      "q": "What loan-to-value can be achieved on art? (question wording inferred; answer as summarised by [b])",
+      "a": "[b] 'LTVs vary by collection quality, value, and liquidity, typically between 30% and 60%. If values fall, lenders monitor artwork value and may request additional security.'"
+    },
+    {
+      "q": "Who can borrow against art? (question wording inferred; answer as summarised by [b])",
+      "a": "[b] 'loans are available to private collectors, family offices, and galleries.'"
+    }
+  ],
+  "claims": [
+    {"claim": "Art-backed lending lets owners raise funds using paintings or sculptures as security while keeping ownership [a][b]", "kind": "promise"},
+    {"claim": "LTVs typically between 30% and 60%, varying by collection quality, value and liquidity [b]", "kind": "number"},
+    {"claim": "Art usually supports lower loan-to-value ratios than other asset-backed lending [a]", "kind": "statement"},
+    {"claim": "Single high-value pieces are generally preferred over portfolios of smaller items [b]", "kind": "statement"},
+    {"claim": "Lenders monitor artwork value and may request additional security if values fall [b]", "kind": "statement"},
+    {"claim": "Loans available to private collectors, family offices and galleries [b]", "kind": "eligibility"},
+    {"claim": "Office: 91 Wimpole Street, London, W1G 0EE; phone +44 207 459 4440 [a][b]", "kind": "contact"},
+    {"claim": "Art Finance Advisory is grouped under 'Luxury Asset Finance' with jewellery finance and classic car loans [a][b]", "kind": "navigation"},
+    {"claim": "No testimonials, awards, credentials, lender counts or case studies were surfaced for this page", "kind": "absence"}
+  ],
+  "geography": [
+    "UK ('It is a UK art finance advisory page') [a]",
+    "London office, 91 Wimpole Street, W1G 0EE [b]",
+    "No country-specific lending scope stated for art finance in the results"
+  ],
+  "ctas": [
+    "NOT REVEALED on the art page itself. Site-level routes per [seed]: enquiry form, direct email enquiry@silveroakcapital.co.uk, WhatsApp, phone +44 207 459 4440; contact page title per [a]/[b]: 'Silver Oak Capital Speak to Experts'."
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/art-finance-advisory/ [a][b]",
+    "https://www.silveroakcapital.co.uk/contact/ (title: 'Silver Oak Capital Speak to Experts') [a][b]",
+    "https://www.silveroakcapital.co.uk/jewellery-diamonds-gemstones-loans-advisory/ (title: 'Jewellery & Diamond Loans') [b] - NEW, not in seed",
+    "https://www.silveroakcapital.co.uk/faq/ (title: 'Property Finance FAQs') [b]",
+    "https://www.silveroakcapital.co.uk/western-europe/ (title: 'Property Finance Western Europe') [b]",
+    "https://www.silveroakcapital.co.uk/complex-offshore-structures/ (title: 'Complex Offshore Structures & International Finance Solution') [b]",
+    "https://www.silveroakcapital.co.uk/development-finance-brokers/ (title: 'Development Finance Brokers - Get a Instant Quote Now') [b]",
+    "https://www.silveroakcapital.co.uk/how-london-property-investment-advisors-help-maximise-roi/ (title: 'London Property Advisors Maximise ROI') [b]",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/ (title: 'How Bridging Loans Help Property Developers') [b]",
+    "Classic car loans page: named in navigation per [a][b] but URL NOT REVEALED"
+  ],
+  "confidence": "low-medium: the page's existence, topic, lender criteria, 30-60% LTV range, borrower types and Luxury Asset Finance grouping are each stated by the search tool's summaries of snippets ([a] and/or [b]); none of the wording is confirmed literal page text, and the full page body, H1, meta description, fees, loan sizes, process and lender panel were not revealed.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "notes": "Queries: (a) extended, exact URL; (b) extended, 'site:silveroakcapital.co.uk art finance advisory'; (c) standard, '\"Silver Oak Capital\" art finance \"loan to value\"'. (c) surfaced no Silver Oak content at all (only generic industry pages: Enness Global 30-50% LTV, Citi ~50%, momaa.org 50-70%); those third-party figures are NOT Silver Oak claims and were excluded from the fields above. Ambiguity: [b] attributes the 30-60% LTV range and the borrower types to 'the FAQ' without saying whether that is an FAQ block on /art-finance-advisory/ or the site-wide /faq/ page; the seed's /faq/ snippet contains no art content, which weakly suggests an on-page FAQ, but this is not confirmed. Contradiction with seed: the seed's reconstructed navigation groups Art Finance Advisory under 'Securities and alternative' (first-pass label), whereas [a] and [b] both state the site groups it under 'Luxury Asset Finance' alongside jewellery finance and classic car loans. New site pages discovered: /jewellery-diamonds-gemstones-loans-advisory/ (not in seed) and an unnamed classic-car-loans page (URL unknown). Unrelated firms seen and ignored: Silver Oak Advisory Group (Portland, silveroak.net), Silver Oak Capital Partners (silveroakcp.com), Owler/RocketReach profiles of Silver Oak Advisory Group. Verbatim entries are the search tool's summary sentences quoted exactly; they are paraphrases of page snippets, not guaranteed literal page copy.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/art-finance-advisory.json"
+}

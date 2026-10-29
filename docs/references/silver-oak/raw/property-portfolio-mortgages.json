@@ -1,0 +1,146 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/property-portfolio-mortgages/",
+  "title": "Portfolio Mortgages UK",
+  "h1": "",
+  "metaDescription": "",
+  "summary": "Silver Oak Capital's portfolio mortgage page (search-result title 'Portfolio Mortgages UK', listed in site navigation under Residential / Wealth as 'Portfolio Mortgages') presents a portfolio mortgage as a facility that lets a landlord consolidate multiple investment properties under a single loan, secured against the aggregate value of the entire portfolio. It is open to individuals and limited companies (SPVs); any landlord with more than one property can apply, but the page says the true benefits are usually realised with four or more properties. A related FAQ passage says a property sold from the portfolio can often be replaced with a new purchase without redeeming the loan, provided value and rental income still cover the debt, and that Silver Oak can negotiate such substitution terms upfront. A related case study ('Residential Portfolio Refinance') describes a GBP 5.3m refinance of 10 London flats at 70% LTV, 2.50% five-year fixed, interest-only, structured as ten separate mortgages at the client's request rather than one portfolio facility. Firm-wide claims seen alongside: network of over 800 lenders, focus on loans over GBP 500,000. No rates, fees, LTV caps, timescales, process steps, H1 or meta description specific to this page were surfaced; search (c) returned nothing relevant.",
+  "verbatim": [
+    "[a] \"A portfolio mortgage allows a landlord to consolidate multiple investment properties under a single loan facility.\"",
+    "[a][b] \"The true benefits of portfolio finance are usually realised by those with four or more properties.\"",
+    "[b] \"the loan is secured against the aggregate value of the entire portfolio\"",
+    "[a] search summary paraphrase (not confirmed verbatim): the facility is open to both individuals and limited companies, and the real benefits usually show up at around four or more properties.",
+    "[b] search summary paraphrase (not confirmed verbatim): the product is open to both individuals and limited companies (SPVs); any landlord with more than one property can apply.",
+    "[b] search summary paraphrase attributed to 'the FAQ' (not confirmed verbatim): if you sell a property within the portfolio, you can often replace it with a new purchase without redeeming the loan, provided value and rental income still cover the debt; the firm says it can negotiate these substitution terms upfront.",
+    "[a][b] Case study 'Residential Portfolio Refinance' (search summary paraphrase): GBP 5.3m refinance of 10 London flats at 70% LTV, with a 2.50% five-year fixed rate and individual interest-only mortgages; the client had asked for ten separate mortgages rather than one loan.",
+    "[b] Homepage fragment: \"specialising in loans over £500,000, arranging debt through our network of over 800 lenders\"",
+    "[a] Search summary: the firm says it works with a network of over 800 lenders, and it generally focuses on deals above £500,000 (sources: homepage and 'Lenders' page).",
+    "[seed] /faq/: \"A portfolio loan can sit alongside existing individual mortgages\"",
+    "[seed] /faq/: premium on portfolio products has narrowed",
+    "[seed] /faq/: BTL products max out at 75% LTV (25% deposit); HMO max LTV typically 75%, some lenders 80% in exceptional circumstances",
+    "[seed] /faq/: \"If you or a family member occupies more than 40% of the property, it becomes a regulated loan\"",
+    "[seed] navigation: 'Portfolio Mortgages' listed under Residential / Wealth services alongside Buy-to-Let Mortgages and HMO Finance",
+    "[c] Linktree profile (https://linktr.ee/silveroakcapital): account has been a member since July 2024; no lending information."
+  ],
+  "sections": [
+    {
+      "heading": "What is a portfolio mortgage (page definition)",
+      "content": "[a] \"A portfolio mortgage allows a landlord to consolidate multiple investment properties under a single loan facility.\" [b] Security: \"the loan is secured against the aggregate value of the entire portfolio\"."
+    },
+    {
+      "heading": "Who can apply",
+      "content": "[a][b] Open to both individuals and limited companies (SPVs). [b] Any landlord with more than one property can apply. [a][b] \"The true benefits of portfolio finance are usually realised by those with four or more properties.\""
+    },
+    {
+      "heading": "Selling and substituting properties within the portfolio (FAQ passage)",
+      "content": "[b] If you sell a property within the portfolio, you can often replace it with a new purchase without redeeming the loan, provided value and rental income still cover the debt. The firm says it can negotiate these substitution terms upfront. Attribution ambiguous: the search summary says 'The FAQ' - this may be an on-page FAQ block or the site's /faq/ page."
+    },
+    {
+      "heading": "Related case study: Residential Portfolio Refinance",
+      "content": "[a][b] https://www.silveroakcapital.co.uk/case-studies/residential-portfolio-refinance/ - GBP 5.3m refinance of 10 London flats at 70% LTV, 2.50% five-year fixed rate, individual interest-only mortgages. The client asked for ten separate mortgages rather than one loan, so the arrangement was not a single portfolio facility. This URL is NOT in the seed's caseStudies list."
+    },
+    {
+      "heading": "Firm-wide context seen alongside",
+      "content": "[a][b] Network of over 800 lenders; focus on loans over GBP 500,000 (homepage, /lenders/). [seed] /faq/: a portfolio loan can sit alongside existing individual mortgages; premium on portfolio products has narrowed; BTL max LTV 75%."
+    },
+    {
+      "heading": "Not revealed",
+      "content": "[a][b][c] No H1, meta description, pricing, rates, fees, LTV caps, loan size bands, term lengths, timescales, lender names, process steps or calls to action specific to the portfolio page were surfaced. Search (b) summary explicitly: 'The search didn't surface pricing, eligibility criteria, or current rates for portfolio mortgages'. Search (c) returned only unrelated firms (Angel Oak, Oak Capital, YBS) plus a Linktree profile."
+    }
+  ],
+  "services": [
+    "Portfolio mortgages: consolidating multiple investment properties under a single loan facility [a][b]",
+    "Portfolio finance for individuals and limited companies (SPVs) [a][b]",
+    "Residential portfolio refinance (case study: 10 London flats, GBP 5.3m) [a][b]",
+    "Negotiating property-substitution terms upfront within a portfolio facility [b]",
+    "Firm-wide: real estate debt advisory arranging loans over GBP 500,000 via a network of over 800 lenders [a][b]"
+  ],
+  "useCases": [
+    "Landlord consolidating several investment properties under one loan [a][b]",
+    "Landlords with four or more properties seeking the full benefit of portfolio finance [a][b]",
+    "Limited company / SPV landlords [a][b]",
+    "Refinancing an existing residential portfolio (case study: GBP 5.3m, 10 London flats, 70% LTV) [a][b]",
+    "Selling one property in the portfolio and replacing it with a new purchase without redeeming the loan [b]",
+    "Running a portfolio loan alongside existing individual mortgages [seed /faq/]"
+  ],
+  "terms": [
+    "Security: loan secured against the aggregate value of the entire portfolio [a][b]",
+    "Minimum portfolio: more than one property to apply; benefits realised at four or more [a][b]",
+    "Substitution: sold property can often be replaced by a new purchase without redeeming the loan if value and rental income still cover the debt [b]",
+    "Case study terms (deal-specific, not stated page terms): GBP 5.3m, 70% LTV, 2.50% five-year fixed, interest-only, ten separate mortgages [a][b]",
+    "Firm-wide minimum: generally deals above GBP 500,000 [a][b]",
+    "[seed /faq/] BTL products max out at 75% LTV (25% deposit); HMO max LTV typically 75%, some lenders 80%",
+    "[seed /faq/] premium on portfolio products has narrowed",
+    "Not surfaced: portfolio-specific rates, fees, max LTV, loan size band, term length, timescales [a][b][c]"
+  ],
+  "eligibility": [
+    "Individuals and limited companies (SPVs) [a][b]",
+    "Any landlord with more than one property can apply [b]",
+    "True benefits usually realised by those with four or more properties [a][b]",
+    "[seed /faq/] occupation of more than 40% of a property by borrower or family member makes the loan regulated",
+    "No further criteria (income, experience, nationality, credit) surfaced [a][b][c]"
+  ],
+  "lenderTypes": [
+    "Not stated for this page; firm-wide claim of a network of over 800 lenders [a][b] (contradicted elsewhere: 300+, 500+, 700+ per seed and [a])",
+    "[seed /faq/] 'A portfolio loan can sit alongside existing individual mortgages' - implies portfolio lenders alongside standard BTL lenders"
+  ],
+  "processSteps": [
+    "Substitution terms for selling/replacing properties within the portfolio negotiated upfront by Silver Oak [b]",
+    "No other process steps surfaced for this page [a][b][c]"
+  ],
+  "faq": [
+    {
+      "q": "If I sell a property within the portfolio, do I have to redeem the loan? [b]",
+      "a": "You can often replace it with a new purchase without redeeming the loan, provided value and rental income still cover the debt; Silver Oak says it can negotiate these substitution terms upfront. (Source attribution ambiguous: 'the FAQ' - on-page or /faq/.)"
+    },
+    {
+      "q": "Who is portfolio finance for? [a][b]",
+      "a": "Any landlord with more than one property can apply, both individuals and limited companies (SPVs); the true benefits are usually realised by those with four or more properties."
+    },
+    {
+      "q": "Can a portfolio loan sit alongside existing individual mortgages? [seed /faq/]",
+      "a": "\"A portfolio loan can sit alongside existing individual mortgages\""
+    }
+  ],
+  "claims": [
+    {"claim": "Network of over 800 lenders [a][b][seed] - contradicted by 500+ (LinkedIn, older profile), 700+ (/commercial-mortgage-broker/, /bridging-loans-uk/), 300+ (/property-development-finance/, Spear's)", "kind": "number"},
+    {"claim": "Generally focuses on deals above GBP 500,000 / 'specialising in loans over £500,000' [a][b]", "kind": "number"},
+    {"claim": "The true benefits of portfolio finance are usually realised by those with four or more properties [a][b]", "kind": "number"},
+    {"claim": "Case study: GBP 5.3m refinance of 10 London flats at 70% LTV, 2.50% five-year fixed, individual interest-only mortgages; client asked for ten separate mortgages rather than one loan [a][b]", "kind": "case-study"},
+    {"claim": "Can negotiate portfolio substitution terms upfront [b]", "kind": "promise"},
+    {"claim": "Silver Oak Capital added to Spear's 500 list for 2022 (case study URL seen) [a]", "kind": "credential"},
+    {"claim": "Organisation page on Property Week Commercial Property Awards 2026 (awards.propertyweek.com/live/en/node/organisation-silver-oak-capital), cited by [a] as a 2026 award listing stating 800+ lenders", "kind": "award-listing"},
+    {"claim": "Linktree profile member since July 2024 [c]", "kind": "misc"}
+  ],
+  "geography": [
+    "UK (page title 'Portfolio Mortgages UK') [a][b]",
+    "London (case study: 10 London flats) [a][b]"
+  ],
+  "ctas": [
+    "No page-specific call-to-action text surfaced [a][b][c]",
+    "[seed] firm-wide contact routes: enquiry form, enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/property-portfolio-mortgages/ [a][b]",
+    "https://www.silveroakcapital.co.uk/case-studies/residential-portfolio-refinance/ [a][b] (NEW - not in seed)",
+    "https://www.silveroakcapital.co.uk/international-property-mortgages/ [a][b]",
+    "https://www.silveroakcapital.co.uk/ [a][b]",
+    "https://www.silveroakcapital.co.uk/lenders/ [a]",
+    "https://www.silveroakcapital.co.uk/mixed-use-property-finance/ [a][b]",
+    "https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/ [a]",
+    "https://www.silveroakcapital.co.uk/prime-london-mortgages/ [b]",
+    "https://www.silveroakcapital.co.uk/case-studies/bvi-trust-refinance/ [b]",
+    "https://www.silveroakcapital.co.uk/prime-residential-mortgages/ [b]",
+    "https://www.silveroakcapital.co.uk/faq/ [b]",
+    "https://www.silveroakcapital.co.uk/what-you-need-to-know-about-high-net-worth-property-funding-in-the-uk/ [b]",
+    "external [a]: https://uk.linkedin.com/company/silver-oak-capital",
+    "external [a]: https://awards.propertyweek.com/live/en/node/organisation-silver-oak-capital",
+    "external [c]: https://linktr.ee/silveroakcapital",
+    "external [c]: https://spears500.com/adviser/22953/jimmy-baillie",
+    "external [c]: https://uk.linkedin.com/in/joe-berk"
+  ],
+  "confidence": "medium-low. Core definition, security basis and the four-or-more-properties line are confirmed by two independent searches with verbatim fragments; individuals/SPV eligibility and the substitution FAQ come only from search-tool summaries (paraphrase). H1, meta, rates, fees, LTV caps, process and CTAs for this page were not surfaced. Search (c) yielded nothing on Silver Oak portfolio criteria.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "notes": "Direct fetch blocked; all content from WebSearch snippets/summaries. Contradictions: lender-network size varies (300+/500+/700+/800+ across sources; [a] itself flags 500+ on LinkedIn vs 800+ on homepage and 2026 award listing). The 'Residential Portfolio Refinance' case study is linked to the portfolio page by search relevance but describes ten separate mortgages, not a single portfolio facility - do not present it as an example of the product. The substitution FAQ in [b] is attributed to 'the FAQ' without clarifying whether it is on the portfolio page or /faq/; the seed /faq/ snippet does not contain it, suggesting it may be an on-page FAQ. Search (c) ('Silver Oak Capital' portfolio mortgages criteria) returned only unrelated firms (Angel Oak Capital, Oak Capital AU, YBS portfolio BTL criteria of 6+ properties - ignored as not Silver Oak) and a Linktree profile. h1 and metaDescription left empty because they were not revealed. Property Week awards page title 'Commercial Property Awards 2026 - Private' seen as a result title only; its content was not read.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/property-portfolio-mortgages.json"
+}

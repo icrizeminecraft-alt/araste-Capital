@@ -1,0 +1,145 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/aviation-finance/",
+  "title": "Aviation Finance",
+  "h1": "Aviation Finance (search-result title in [a] and [b]; H1 not directly observed)",
+  "metaDescription": "Not revealed by any of the 3 searches.",
+  "summary": "Silver Oak Capital's /aviation-finance/ page presents the firm (a London-based debt broker/adviser, not a lender) as an intermediary arranging aircraft finance. Per the search tool's summaries ([a],[b]), the page explains that most aircraft transactions are financed via two principal routes: (1) a secured loan where the borrower takes a facility from a bank secured by a mortgage over the aircraft, or (2) a lease, either an operating lease or a finance lease. It states the firm also provides finance for commercial aircraft. It lists a typical broker fee of 1.50% of the loan amount and indicative terms of up to 90% LTV, a 5-12 year term and quarterly amortising payments; a representative example shows a GBP 25 million loan at up to 90% LTV with a 30% balloon at a rate of 3.00% plus a margin (text truncated in the snippet). The page cites '300+ Lenders'. Search metadata indicates the indexed copy is ~700 days old. The page is part of an aviation cluster with sibling pages for aviation bridging loans, aviation finance & lease advisory and senior secured aircraft finance advisory, plus G650 and Falcon 900 case studies. Full page text, exact headings, FAQ and CTAs were not surfaced.",
+  "verbatim": [
+    "[a] \"Most aircraft transactions are financed through two principle means – a secured loan where the borrower incurs a facility from a bank, secured by a mortgage over the aircraft.\"",
+    "[a] \"The other route is a lease, either an operating lease or a financing lease.\"",
+    "[a] The firm also says it \"provide[s] finance for commercial aircraft\" (bracketed verb as rendered by the search summary).",
+    "[a] \"The page lists typical broker fees for aviation finance at 1.50% of the loan amount.\"",
+    "[a] \"One representative example on the page is a £25 million loan at up to 90% LTV with a 30% balloon, and the rate is shown as 3.00% plus a margin (the text cuts off there).\"",
+    "[a] \"The firm claims 300+ Lenders in its aviation pitch.\"",
+    "[a] \"Silver Oak Capital describes itself as a London real estate debt broker.\"",
+    "[a] \"the aviation page's metadata shows it as about 701 days old\"",
+    "[b] \"It describes two main routes, a bank loan secured by a mortgage over the aircraft or a lease, and it lists typical broker fees of 1.50% of the loan amount.\"",
+    "[b] \"It also gives indicative terms of up to 90% LTV, a 5–12 year term, and quarterly amortising payments.\"",
+    "[b] \"This page's metadata shows it was last indexed about 700 days ago, so the terms may be outdated.\"",
+    "[b] (sibling /aviation-bridging-loans/) \"Page says these are short-term, faster than traditional finance, and used to buy new or used aircraft. It notes traditional aircraft finance usually takes 4–8 weeks.\"",
+    "[b] (sibling /aviation-finance-lease-advisory/) \"Explains finance leases, where the lessor buys the aircraft and the lessee pays rent, and notes wide-body aircraft generally carry lower LTVs.\"",
+    "[b] (sibling /senior-secured-aircraft-finance-advisory/) \"Describes this as the lowest-risk form of aircraft lending, backed by a first-ranking mortgage. It notes that aircraft aged 20–25 years are harder and more expensive to finance.\"",
+    "[b] (/faq/) \"The FAQ page gives timelines of 4–8 weeks for simple deals and 8–12 weeks for complex ones.\"",
+    "[a] (case study G650) \"A separate case study describes a $40 million loan at 80% LTV, 10-year term, and a fee of 1.5%.\"",
+    "[b] (case study G650) \"A Gulfstream G650 deal was reported at $40m and 80% LTV over 10 years.\"",
+    "[a] (case study Falcon 900) \"Another describes a private jet loan at 70% LTV with a 4.45% fixed rate over 72 months.\"",
+    "[b] (case study Falcon 900) \"A Falcon 900 deal was reported at 70% LTV, a 4.45% fixed rate, and a 72-month term.\"",
+    "[c] (Spear's adviser profile, spears500.com/adviser/22953/jimmy-baillie) \"With an extensive network of more than 800 lenders across the world, Silver Oak arranges real estate debt for transactions in the UK, Western Europe, Southern Africa and the Middle East.\"",
+    "[c] (Spear's adviser profile) the firm \"advise[s] on raising debt for luxury assets, short-term bridging loans, and marine and aviation finance.\"",
+    "[seed] navigation entry: \"Aviation Finance (secured loan, operating lease, finance lease)\"; sibling entries \"Aviation Bridging Loans\", \"Senior Secured Aircraft Finance Advisory\".",
+    "[seed] /introducers/: the firm \"can arrange commercial mortgages, buy-to-let mortgages, bridging loans, development finance, marine finance, or aviation finance\"."
+  ],
+  "sections": [
+    {
+      "heading": "Overview / how aircraft are financed (heading wording not observed)",
+      "content": "[a][b] Most aircraft transactions are financed through two principal means: a secured loan where the borrower incurs a facility from a bank, secured by a mortgage over the aircraft; or a lease, either an operating lease or a financing (finance) lease."
+    },
+    {
+      "heading": "Commercial aircraft (heading wording not observed)",
+      "content": "[a] The firm says it provides finance for commercial aircraft."
+    },
+    {
+      "heading": "Fees (heading wording not observed)",
+      "content": "[a][b] Typical broker fees for aviation finance: 1.50% of the loan amount."
+    },
+    {
+      "heading": "Indicative terms / representative example (heading wording not observed)",
+      "content": "[b] Up to 90% LTV, 5-12 year term, quarterly amortising payments. [a] Representative example: GBP 25 million loan, up to 90% LTV, 30% balloon, rate shown as 3.00% plus a margin (snippet truncated after 'margin')."
+    },
+    {
+      "heading": "Lender network (heading wording not observed)",
+      "content": "[a] '300+ Lenders' cited in the aviation pitch."
+    }
+  ],
+  "services": [
+    "Aviation finance brokerage / debt advisory (intermediary, not a lender) [a][b][c]",
+    "Secured aircraft loans (bank facility secured by a mortgage over the aircraft) [a][b]",
+    "Aircraft operating leases [a][seed]",
+    "Aircraft finance leases [a][b][seed]",
+    "Finance for commercial aircraft [a]",
+    "Aviation bridging loans (sibling page) [b]",
+    "Aviation finance & lease advisory (sibling page) [b]",
+    "Senior secured aircraft finance advisory (sibling page) [a][b]"
+  ],
+  "useCases": [
+    "Financing an aircraft purchase via a bank loan secured on the aircraft [a][b]",
+    "Leasing an aircraft (operating or finance lease) instead of borrowing [a][b]",
+    "Commercial aircraft finance [a]",
+    "Private jet finance (case studies: Gulfstream G650, Falcon 900) [a][b]",
+    "Buying new or used aircraft quickly via a bridging loan (sibling page) [b]"
+  ],
+  "terms": [
+    "Broker fee: 1.50% of the loan amount (typical, aviation) [a][b]",
+    "LTV: up to 90% [a][b]",
+    "Term: 5-12 years [b]",
+    "Repayment profile: quarterly amortising payments [b]",
+    "Representative example: GBP 25m loan, up to 90% LTV, 30% balloon, rate 3.00% plus a margin (truncated) [a]",
+    "Security: mortgage over the aircraft (secured loan route) [a][b]; first-ranking mortgage for senior secured lending (sibling page) [b]",
+    "Timescale: traditional aircraft finance usually takes 4-8 weeks (sibling /aviation-bridging-loans/) [b]; FAQ: 4-8 weeks simple deals, 8-12 weeks complex [b]",
+    "Case study G650: USD 40m loan, 80% LTV, 10-year term, fee 1.5% [a][b]",
+    "Case study Falcon 900: 70% LTV, 4.45% fixed rate, 72 months [a][b]",
+    "Wide-body aircraft generally carry lower LTVs (sibling lease advisory page) [b]",
+    "Aircraft aged 20-25 years are harder and more expensive to finance (sibling senior secured page) [b]"
+  ],
+  "eligibility": [
+    "Not explicitly stated for /aviation-finance/ in any result.",
+    "Indirect, from sibling pages [b]: older aircraft (20-25 years) are harder and more expensive to finance; wide-body aircraft attract lower LTVs."
+  ],
+  "lenderTypes": [
+    "Banks (secured loan route: 'a facility from a bank') [a]",
+    "Lessors (lease route: lessor buys the aircraft, lessee pays rent) [a][b]",
+    "Network cited as '300+ Lenders' on the aviation pitch [a]; '500+' on LinkedIn [a]; 'more than 800 lenders across the world' on Spear's profile [c]"
+  ],
+  "processSteps": [
+    "Not revealed for this page. Only timing indications: traditional aircraft finance usually 4-8 weeks [b]; FAQ 4-8 weeks simple / 8-12 weeks complex [b]."
+  ],
+  "faq": [
+    {
+      "q": "No FAQ content for /aviation-finance/ was surfaced by the searches.",
+      "a": "Related timing from the site FAQ page [b]: 4-8 weeks for simple deals, 8-12 weeks for complex ones."
+    }
+  ],
+  "claims": [
+    {"claim": "Typical broker fee for aviation finance is 1.50% of the loan amount", "kind": "fee"},
+    {"claim": "Up to 90% LTV available", "kind": "term"},
+    {"claim": "5-12 year loan terms", "kind": "term"},
+    {"claim": "Quarterly amortising payments", "kind": "term"},
+    {"claim": "Representative example: GBP 25m loan, up to 90% LTV, 30% balloon, 3.00% plus margin", "kind": "example"},
+    {"claim": "300+ Lenders (aviation pitch)", "kind": "credential/number"},
+    {"claim": "Provides finance for commercial aircraft", "kind": "promise/scope"},
+    {"claim": "Case study: USD 40m loan, 80% LTV, 10-year term, 1.5% fee (G650)", "kind": "case study"},
+    {"claim": "Case study: private jet loan at 70% LTV, 4.45% fixed, 72 months (Falcon 900)", "kind": "case study"},
+    {"claim": "More than 800 lenders across the world (Spear's profile)", "kind": "credential/number (external, contradicts 300+)"},
+    {"claim": "Spear's 500 adviser profile for Jimmy Baillie exists", "kind": "recognition"},
+    {"claim": "Indexed copy of the page is ~700 days old; rates/fees may be out of date", "kind": "caveat (search tool)"}
+  ],
+  "geography": [
+    "London-based firm [a]",
+    "Spear's profile [c]: arranges debt for transactions in the UK, Western Europe, Southern Africa and the Middle East; network 'across the world'",
+    "Case studies denominated in USD (G650) and GBP (representative example) [a][b]",
+    "No aviation-specific jurisdiction statement observed on the page itself"
+  ],
+  "ctas": [
+    "None observed in search results for this page. Firm-wide contact routes per seed: enquiry form, enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp."
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/aviation-finance/",
+    "https://www.silveroakcapital.co.uk/aviation-bridging-loans/",
+    "https://www.silveroakcapital.co.uk/aviation-finance-lease-advisory/ (NEW - not in seed)",
+    "https://www.silveroakcapital.co.uk/senior-secured-aircraft-finance-advisory/",
+    "https://www.silveroakcapital.co.uk/top-aviation-firms/ (seed lists it under /case-studies/top-aviation-firms/; search shows it at root)",
+    "https://www.silveroakcapital.co.uk/case-studies/g650/",
+    "https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://uk.linkedin.com/company/silver-oak-capital (external)",
+    "https://www.instagram.com/silveroakcapitaluk/ (external)",
+    "https://spears500.com/adviser/22953/jimmy-baillie (external)",
+    "https://www.lettingagenttoday.co.uk/trades-directory/silver-oak-capital/ (external directory)",
+    "https://www.syob.net/company/Silver%20Oak%20Capital%20-%20Debit%20Advisory/38582 (external directory)"
+  ],
+  "notes": "Searches: (a) extended, exact URL; (b) extended, 'site:silveroakcapital.co.uk aviation finance aircraft loan'; (c) standard, '\"Silver Oak Capital\" aviation finance lenders'. (c) returned nothing from the page itself; only a Spear's adviser profile mentioning aviation finance, the rest unrelated (White Oak, Silver Point etc. ignored). Core facts (two financing routes, 1.50% fee, up to 90% LTV, 300+ lenders) corroborated independently by (a) and (b); 5-12 year term and quarterly amortising only in (b); GBP 25m/30% balloon/3.00%+margin example only in (a) and truncated. The quoted text is as rendered by the search tool's summaries, which may paraphrase; the sentence 'Most aircraft transactions are financed through two principle means ...' reads as page text (note the site's spelling 'principle'). CONTRADICTIONS: lender count 300+ (aviation page) vs 500+ (LinkedIn) vs 800+ (Spear's, home, FAQ); aviation fee 1.50% vs seed's 1.00% UK commercial / 1.50% outside UK on old /types-of-borrowing/; page says 'commercial aircraft' while both case studies are private jets. URL discrepancy: top-aviation-firms at root vs under /case-studies/ in seed. Page age caveat (~700 days) from search metadata. Not surfaced: exact H1/meta, section headings, FAQ, CTAs, process steps, testimonials, eligibility criteria.",
+  "confidence": "medium",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/aviation-finance.json"
+}

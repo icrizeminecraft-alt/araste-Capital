@@ -1,0 +1,137 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/development-finance-brokers/",
+  "title": "Development Finance Brokers - Get a Instant Quote Now (SERP title seen in [b]); same URL also listed as \"Development Finance Broker - Silver Oak Capital\" in [a]",
+  "summary": "Service page positioning Silver Oak Capital as a London-based development finance broker. Only partial page text surfaced via search. What is visible: the page explains the broker's role in general terms (intermediary between developer and lender; draws on a network of banks, private lenders and other institutions; assesses project documents; advises on available development finance products), and describes a process of initial consultation, lender shortlist, market review and formal heads of terms. One verbatim sentence from the site (attributed by the search tool to 'its own website', page not pinpointed): 'As a leading development finance broker, we offer comprehensive advisory services to help you secure the funding needed for your residential, commercial, or mixed-use developments.' No H1, meta description, FAQ, fees, rates or page-specific LTV figures were revealed. Lender-count claims differ by source (300+ / 500+ / 700+ / 800+).",
+  "verbatim": [
+    "[c] \"As a leading development finance broker, we offer comprehensive advisory services to help you secure the funding needed for your residential, commercial, or mixed-use developments.\" (search tool attributes this to 'Its own website'; exact page not pinpointed - likely this page or /development-finance-broker-find-the-best-funding-partner-for-your-project/)",
+    "[c] search-tool summary: \"It also lists independent commercial mortgage brokerage, refinancing, and debt restructuring.\"",
+    "[a] search-tool summary (page 'only partial text was visible'): \"The page describes a broker's role in general terms: brokers draw on lender networks, assess project documents, and act as the go-between for borrower and lender.\"",
+    "[a] search-tool summary: \"Brokers can tap their network of banks, private lenders and other institutions to find a suitable development lender.\"",
+    "[a] search-tool summary: \"It describes itself as a specialist in development finance and commercial mortgage services, based in London, and it also covers bridging loans.\"",
+    "[a] search-tool summary: \"It describes an initial consultation, then a shortlist of lenders, then formal heads of terms after a market review.\"",
+    "[a] search-tool summary: \"The office is at 91 Wimpole St, Marylebone, London W1G 0EF, with the phone number +44 207 459 4440.\"",
+    "[b] search-tool summary: \"The site describes a development finance broker as an intermediary who advises property developers on funding. Brokers can draw on industry knowledge and experience to advise clients on the available development finance products.\"",
+    "[b] search-tool summary (site-level, page not pinpointed): \"The company says it operates across a network of over 800 lenders. A separate page on property development finance cites 300+ Lenders, so the two figures differ.\"",
+    "[b] search-tool summary (firm-level, page not pinpointed): \"The firm says it works on larger deals, focusing on loan sizes of £2-£20 million.\"",
+    "[b] search-tool summary about /first-time-developer-finance/ (NOT the target page): \"it helps newer developers package applications for specialist lenders, and notes that a maximum of 60% to 65% LTGDV is typical for first-time applicants.\"",
+    "[b] search-tool summary about /how-does-property-development-finance-in-scotland/ (NOT the target page): \"covers how brokers help with negotiation on your behalf and access to specialist lenders.\"",
+    "[c] Spear's adviser profile (external): \"arranges real estate debt for transactions in the UK, Western Europe, Southern Africa and the Middle East through a network of more than 800 lenders.\"",
+    "[c] Spear's adviser profile (external): \"brokers and advises on loans to (U)HNWs through its strong relationships with private banks around the world.\"",
+    "[c] LinkedIn snippet (firm name not confirmed in snippet): \"over 800 lenders offering whole-of-market advice on development finance, among other products.\"",
+    "[seed] /property-development-finance/: \"flexible property development finance for residential, commercial, or mixed-use projects; loans fund real estate schemes (either ground-up or conversions) of any nature; secured against the available land and drawn in line with the business plan and construction schedule; interest rolled up; repaid at practical completion through sales or refinance; access to a vast network of senior debt, mezzanine debt and equity lenders; 300+ lenders; as many as 3 or 4 potential partners per deal.\"",
+    "[seed] /commercial-mortgage-broker/: \"typically narrows lenders to as many as 3 or 4 potential partners.\"",
+    "[seed] /how-does-property-development-finance-in-scotland/: \"Senior development loans cover a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value.\"",
+    "[seed] /about-us/: \"has focused on loans between £500K to £20m\"; \"one of Europe's leading large loan brokers\"."
+  ],
+  "services": [
+    "Development finance brokerage / advisory for residential, commercial and mixed-use developments [c]",
+    "Intermediary role between property developer and development lender; sourcing a suitable lender from a network of banks, private lenders and other institutions [a][b]",
+    "Advice on the range of available development finance products [b]",
+    "Assessment of project documents on the borrower's behalf [a]",
+    "Independent commercial mortgage brokerage [c]",
+    "Refinancing [c]",
+    "Debt restructuring [c]",
+    "Bridging loans [a]",
+    "Related development products in site navigation [seed]: Property Development Finance, Senior Development Finance, Stretch Senior Development Finance, Mezzanine / Junior Finance, Whole Loans, First-Time Developer Finance"
+  ],
+  "claims": [
+    {"claim": "'As a leading development finance broker' - self-described leadership positioning [c]", "kind": "positioning"},
+    {"claim": "Specialist in development finance and commercial mortgage services, based in London; also covers bridging loans [a]", "kind": "positioning"},
+    {"claim": "Network of over 800 lenders [b, site-level; c Spear's and LinkedIn]", "kind": "lender-count"},
+    {"claim": "300+ lenders cited on /property-development-finance/ [a][b][seed]", "kind": "lender-count"},
+    {"claim": "700+ lenders cited on /commercial-mortgage-broker/ [a][seed]", "kind": "lender-count"},
+    {"claim": "500+ lenders cited on LinkedIn [a][seed]", "kind": "lender-count"},
+    {"claim": "CONTRADICTION: lender count varies 300+ / 500+ / 700+ / 800+ across pages and profiles; search tool flags 'verify it before relying on it' [a][b]", "kind": "contradiction"},
+    {"claim": "Focus on larger deals, loan sizes £2-£20 million [b, firm-level]; seed also records 'over £500,000' (home, /lenders/) and '£500k to £20m' (/about-us/)", "kind": "loan-size"},
+    {"claim": "Process: initial consultation, shortlist of lenders, market review, formal heads of terms [a]", "kind": "process"},
+    {"claim": "Typically narrows lenders to as many as 3 or 4 potential partners per deal [seed, sibling pages]", "kind": "process"},
+    {"claim": "Office: 91 Wimpole St, Marylebone, London W1G 0EF; phone +44 207 459 4440 [a]. Seed records postcode W1G 0EE on /contact/ - minor contradiction (0EE vs 0EF)", "kind": "contact"},
+    {"claim": "Arranges real estate debt in the UK, Western Europe, Southern Africa and the Middle East [c, Spear's]", "kind": "geography"},
+    {"claim": "Brokers and advises on loans to (U)HNWs through strong relationships with private banks around the world [c, Spear's]", "kind": "credential"},
+    {"claim": "First-time developers: maximum of 60% to 65% LTGDV typical [b, /first-time-developer-finance/, NOT target page]", "kind": "ltv"},
+    {"claim": "Senior development loans typically up to 65-75% of GDV [seed, Scotland blog, NOT target page]", "kind": "ltv"},
+    {"claim": "SERP title variant 'Get a Instant Quote Now' implies an instant-quote CTA on the page [b]; not otherwise confirmed", "kind": "cta"},
+    {"claim": "Sibling blog title: 'Why 70% of London Development Finance Deals Get Rejected' (URL /why-lenders-reject-70-of-london-resi-led-development-deals/) [b] - headline figure only, body not seen", "kind": "statistic"},
+    {"claim": "No testimonials, awards, fees, rates or timescales revealed for this page by any of the three searches", "kind": "absence"}
+  ],
+  "confidence": "low-medium: the target URL was returned by searches [a] and [b] but with only partial text; most content is search-tool paraphrase rather than confirmed page wording; one verbatim sentence [c] is attributed to the site without a pinpointed page. H1, meta description, FAQ, fees and page-specific terms were NOT revealed.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/development-finance-brokers.json",
+  "sections": [
+    {"heading": "[reconstructed - no page headings revealed] What a development finance broker does", "content": "An intermediary who advises property developers on funding [b]. Brokers draw on lender networks, assess project documents, and act as the go-between for borrower and lender [a]. They can tap a network of banks, private lenders and other institutions to find a suitable development lender [a], and draw on industry knowledge and experience to advise clients on the available development finance products [b]."},
+    {"heading": "[reconstructed] Silver Oak Capital positioning", "content": "'As a leading development finance broker, we offer comprehensive advisory services to help you secure the funding needed for your residential, commercial, or mixed-use developments.' [c]. Specialist in development finance and commercial mortgage services, based in London; also covers bridging loans [a]. Also lists independent commercial mortgage brokerage, refinancing and debt restructuring [c]."},
+    {"heading": "[reconstructed] Lender network", "content": "Network of over 800 lenders [b site-level; c Spear's]; 300+ on the property development finance page [a][b][seed]; 700+ on the commercial mortgage broker page [a][seed]; 500+ on LinkedIn [a][seed]. Lender types named: banks, private lenders, other institutions [a]; specialist lenders [b]; senior debt, mezzanine debt and equity lenders [seed]; private banks [c]."},
+    {"heading": "[reconstructed] Process", "content": "Initial consultation, then a shortlist of lenders, then formal heads of terms after a market review [a]. Seed sibling pages add that the firm typically narrows lenders to as many as 3 or 4 potential partners."},
+    {"heading": "[reconstructed] Deal size and geography", "content": "Larger deals, loan sizes £2-£20 million [b]; seed records 'over £500,000' and '£500k to £20m' elsewhere. London-based [a]; transactions in the UK, Western Europe, Southern Africa and the Middle East [c Spear's]."},
+    {"heading": "[reconstructed] Contact", "content": "91 Wimpole St, Marylebone, London W1G 0EF; +44 207 459 4440 [a]. Seed: enquiry@silveroakcapital.co.uk, WhatsApp, enquiry form."}
+  ],
+  "useCases": [
+    "Funding residential developments [c]",
+    "Funding commercial developments [c]",
+    "Funding mixed-use developments [c]",
+    "Ground-up schemes or conversions [seed, /property-development-finance/]",
+    "First-time / newer developers needing applications packaged for specialist lenders [b, /first-time-developer-finance/]",
+    "Financing new build homes [b, blog title only]",
+    "Refinancing and debt restructuring [c]"
+  ],
+  "terms": [
+    "Loan size focus £2-£20 million [b, firm-level, page not pinpointed]",
+    "Other seed loan-size claims: transactions upwards of £500,000 (home, /lenders/); £500k to £20m (/about-us/)",
+    "Lender network: over 800 [b][c]; 300+ on development finance page [a][b][seed]",
+    "First-time developers: max 60%-65% LTGDV typical [b, /first-time-developer-finance/, NOT target page]",
+    "Senior development loans typically up to 65-75% of GDV [seed, Scotland blog, NOT target page]",
+    "Interest rolled up; repaid at practical completion through sales or refinance; loan secured against the land and drawn in line with business plan and construction schedule [seed, /property-development-finance/, NOT target page]",
+    "Fees, rates, durations and timescales for this page: NOT revealed"
+  ],
+  "eligibility": [
+    "No page-specific eligibility criteria revealed",
+    "Related [b, /first-time-developer-finance/]: first-time applicants typically capped at 60%-65% LTGDV",
+    "Related [seed, /about-us/, /lenders/]: firm generally focuses on transactions upwards of £500,000"
+  ],
+  "lenderTypes": [
+    "Banks [a]",
+    "Private lenders [a]",
+    "Other institutions [a]",
+    "Specialist lenders [b]",
+    "Senior debt lenders [seed]",
+    "Mezzanine debt lenders [seed]",
+    "Equity lenders [seed]",
+    "Private banks around the world [c, Spear's]"
+  ],
+  "processSteps": [
+    "1. Initial consultation [a]",
+    "2. Shortlist of lenders [a]",
+    "3. Market review [a]",
+    "4. Formal heads of terms [a]",
+    "Seed (sibling pages): lenders typically narrowed to as many as 3 or 4 potential partners"
+  ],
+  "faq": [],
+  "geography": [
+    "London-based [a]",
+    "Office: 91 Wimpole St, Marylebone, London W1G 0EF [a] (seed: W1G 0EE)",
+    "UK [c]",
+    "Western Europe [c, Spear's]",
+    "Southern Africa [c, Spear's]",
+    "Middle East [c, Spear's]",
+    "Scotland covered by a sibling guide [b]"
+  ],
+  "ctas": [
+    "'Get a Instant Quote Now' (SERP title wording for this URL) [b]",
+    "Phone +44 207 459 4440 [a]",
+    "Seed: enquiry form, direct email enquiry@silveroakcapital.co.uk, WhatsApp"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/",
+    "https://www.silveroakcapital.co.uk/commercial-Mortgage-Broker/ (capitalised variant of the same path, seen in [b])",
+    "https://www.silveroakcapital.co.uk/development-finance-broker-find-the-best-funding-partner-for-your-project/ (NEW - not in seed; SERP title 'Expert Development Finance Broker') [b]",
+    "https://www.silveroakcapital.co.uk/why-lenders-reject-70-of-london-resi-led-development-deals/ (NEW - not in seed; SERP title 'Why 70% of London Development Finance Deals Get Rejected') [b]",
+    "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/ (SERP title 'Best Finance Options for New Build Homes') [b]",
+    "https://www.silveroakcapital.co.uk/how-does-property-development-finance-in-scotland/ [b]",
+    "https://www.silveroakcapital.co.uk/first-time-developer-finance/ (SERP title 'First Time Developer Finance UK') [b]",
+    "EXTERNAL: https://silveroakcapital.odoo.com/ ; https://silveroakcapital.odoo.com/our-services ; https://silveroakcapital.weebly.com/ ; https://uk.linkedin.com/company/silver-oak-capital ; https://uk.linkedin.com/in/joe-berk ; https://www.crunchbase.com/organization/silver-oak-capital ; https://www.slideshare.net/slideshow/property-development-finance-in-uk-london/282306113 ; https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital ; https://www.spears500.com/adviser/6519/jimmy-baillie ; https://spears500.com/adviser/22953/jimmy-baillie ; https://linktr.ee/silveroakcapital"
+  ],
+  "notes": "Seed file has no snippet keyed to /development-finance-brokers/; seed material used comes from sibling development-finance pages and is tagged [seed]. Search [a] returned the target URL but the tool stated 'only partial text was visible'; the broker-role description and the 4-step process are the only items the tool attributes to the page itself. Search [b] returned the target URL with a different SERP title ('Development Finance Brokers - Get a Instant Quote Now' vs 'Development Finance Broker - Silver Oak Capital' in [a]) - likely title-tag vs crawl-date variation; grammatical error 'a Instant' is as shown. Search [c] yielded one verbatim sentence attributed to the firm's website without a page, plus external Spear's/LinkedIn profiles; most of [c]'s results were unrelated firms (Silver Oak Partners, Silver Point Capital, Oak Capital Australia, Silbury Finance, Octane Capital, Oaktree) and were ignored. H1, meta description, FAQ, fees, rates, timescales, testimonials and awards were NOT revealed for this page. Contradictions recorded: lender counts 300+/500+/700+/800+; postcode W1G 0EF [a] vs W1G 0EE [seed]; loan-size focus £2-£20m [b] vs £500k+ / £500k-£20m [seed]. Two silveroakcapital.co.uk URLs not present in the seed were discovered: /development-finance-broker-find-the-best-funding-partner-for-your-project/ and /why-lenders-reject-70-of-london-resi-led-development-deals/."
+}

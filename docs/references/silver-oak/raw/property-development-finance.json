@@ -1,0 +1,171 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/property-development-finance/",
+  "title": "Property Development Finance",
+  "h1": "Property Development Finance — this is the SERP title returned for the URL in searches [a] and [b]; whether it is the on-page H1 or only the <title> tag is not confirmed.",
+  "metaDescription": "Not revealed verbatim. Search summary [a] paraphrases the page opening as 'flexible funding for residential, commercial, or mixed-use projects, covering borrowing, development, refinancing, and acquisition'; the seed first-pass snippet gives 'flexible property development finance for residential, commercial, or mixed-use projects'. Probably the meta description / intro line, unconfirmed.",
+  "summary": "Service page of Silver Oak Capital (London-based debt advisory / finance broker) for property development finance. The page positions the firm as a source of flexible funding for residential, commercial or mixed-use projects (borrowing, development, refinancing, acquisition). Development finance is described as funding for property developers and property investors building real estate schemes 'of any nature', ground-up or conversions. Mechanics stated on the page: the loan is secured against the available land, drawn down in line with the business plan and construction schedule, interest is not serviced but rolled up on top of the principal, and the loan is repaid at practical completion through sales proceeds or refinance. The page claims '300+ Lenders' and 'access to the largest network of lenders in the market' (seed adds: vast network of senior debt, mezzanine debt and equity lenders; typically 3 or 4 potential partners per deal). Other pages of the same site give different lender counts (800+ on home and in a LinkedIn post, 500+ on the LinkedIn profile) and a minimum deal size of £500,000 (home, /lenders/) versus 'over £2m' on an older cached page. No page headings, FAQ block, calls to action, rates, LTV/LTGDV figures, fees or timescales from this specific page were surfaced by the searches; the LTGDV ranges (65-70%, 65-75%) and durations (18-24 months) recorded below come from sibling pages (/conversions/, /faq/, Scotland guide).",
+  "sections": [
+    {
+      "heading": "[inferred] Intro / positioning",
+      "content": "Silver Oak presents itself as a provider of flexible funding for residential, commercial, or mixed-use projects, covering borrowing, development, refinancing, and acquisition [a]. Described as a broker covering residential and commercial projects across the UK that can access a large lender panel for whole-of-market advice [b]."
+    },
+    {
+      "heading": "[inferred] What is development finance",
+      "content": "'Development finance is used to assist property developers and property investors who require funding to build real estate schemes (either ground-up or conversions) of any nature.' [a][b][seed]"
+    },
+    {
+      "heading": "[inferred] How the loan works / security and drawdown",
+      "content": "'these loans are secured against the available land and are drawn in line with the business plan and construction schedule of the proposed project.' [a][seed]. 'The interest for this loan is not serviced but is instead rolled up on top of the principal amount.' [a]; 'interest is rolled up rather than paid monthly' [b]."
+    },
+    {
+      "heading": "[inferred] Repayment",
+      "content": "'The loan is repaid upon practical completion of the project – either through sales proceeds or via refinance.' [a][seed]"
+    },
+    {
+      "heading": "[inferred] Lender network",
+      "content": "'300+ Lenders – we have access to the largest network of lenders in the market.' [a][seed]. Seed: 'access to a vast network of senior debt, mezzanine debt and equity lenders'; 'as many as 3 or 4 potential partners per deal' [seed]."
+    }
+  ],
+  "verbatim": [
+    "[a] \"flexible funding for residential, commercial, or mixed-use projects, covering borrowing, development, refinancing, and acquisition\" (search summary wording describing the page)",
+    "[a] \"Development finance is used to assist property developers and property investors who require funding to build real estate schemes (either ground-up or conversions) of any nature.\"",
+    "[b] \"Development finance is used to assist property developers and property investors who require funding to build real estate schemes (either ground-up or conversions) of any nature.\" (same sentence surfaced again)",
+    "[a] \"these loans are secured against the available land and are drawn in line with the business plan and construction schedule of the proposed project.\"",
+    "[a] \"The interest for this loan is not serviced but is instead rolled up on top of the principal amount.\"",
+    "[a] \"The loan is repaid upon practical completion of the project – either through sales proceeds or via refinance.\"",
+    "[a] \"300+ Lenders – we have access to the largest network of lenders in the market.\"",
+    "[a] homepage: \"over 800 lenders\"; LinkedIn profile: \"500+ different private banks, investment banks, specialist lenders & private debt funds\"",
+    "[a] /lenders/: \"generally focus on transactions upwards of £500,000\"; older-looking cached page: \"loans over £2m\"",
+    "[b] main development finance page: \"broker covering residential and commercial projects across the UK\"; \"can access a large lender panel for whole-of-market advice\"; \"the loans are secured against land and interest is rolled up rather than paid monthly\" (search summary wording)",
+    "[b] homepage: \"specialising in loans over £500,000\"; \"works through a network of over 800 lenders\"; \"offers senior debt, mezzanine and equity finance, plus bridging loans\"",
+    "[b] /conversions/: \"covers office-to-residential and HMO projects\"; \"stated lending ceiling is 65–70% of gross development value (GDV), though the figure is given as a typical range\"",
+    "[b] /faq/: \"Development loans usually run 18–24 months. If units are unsold at term end, the firm can arrange a Development Exit Bridge, which gives a further 12 months at a lower rate. Mezzanine lenders often have minimum loan sizes of roughly £150,000–£250,000.\"",
+    "[b] Scotland guide: \"Senior loans are typically up to 65–75% of GDV\"",
+    "[c] Linktree (linktr.ee/silveroakcapital) \"lists pages on UK property development finance and bridging loans\"; a LinkedIn post tagged #SilverOakCapital describes \"a firm with a network of over 800 lenders that offers independent, whole-of-market advice\" and links it to Jimmy Baillie and a Connor",
+    "[c] \"The search didn't turn up a list of lenders that Silver Oak Capital works with\" (all lender names in [c] — Silbury Finance, OakNorth, Octane Capital, Silver Point Capital, Silver Oak Partners — are unrelated firms and are ignored)",
+    "[seed] \"flexible property development finance for residential, commercial, or mixed-use projects; loans fund real estate schemes (either ground-up or conversions) of any nature; secured against the available land and drawn in line with the business plan and construction schedule; interest rolled up; repaid at practical completion through sales or refinance; access to a vast network of senior debt, mezzanine debt and equity lenders; 300+ lenders; as many as 3 or 4 potential partners per deal.\""
+  ],
+  "services": [
+    "Property development finance for residential projects",
+    "Property development finance for commercial projects",
+    "Property development finance for mixed-use projects",
+    "Ground-up development funding",
+    "Conversion / refurbishment-to-development funding",
+    "Funding for borrowing, development, refinancing and acquisition (as listed in the page intro per [a])",
+    "Whole-of-market brokerage / debt advisory across a large lender panel",
+    "Senior debt, mezzanine debt and equity sourcing (seed, homepage [b])",
+    "Related site services surfaced: Development Finance Brokers (instant quote), Development Exit Bridge (/faq/), Conversions finance, Bridging loans for developers"
+  ],
+  "useCases": [
+    "Property developers needing funding to build a real estate scheme",
+    "Property investors needing funding to build a real estate scheme",
+    "Ground-up new build schemes",
+    "Conversion schemes (sibling /conversions/ page: office-to-residential, HMO)",
+    "Residential, commercial or mixed-use projects",
+    "Acquisition of a site and development of it (page intro lists 'acquisition' and 'development')",
+    "Refinancing of a development (page intro lists 'refinancing')",
+    "Exit at practical completion via sales or refinance; unsold units at term end handled with a Development Exit Bridge (/faq/)"
+  ],
+  "terms": [
+    "Security: loan secured against the available land [a][seed]",
+    "Drawdown: drawn in line with the business plan and construction schedule of the project (staged drawdowns) [a][seed]",
+    "Interest: not serviced monthly, rolled up on top of the principal [a][b]",
+    "Repayment: at practical completion, from sales proceeds or refinance [a][seed]",
+    "Minimum deal size (site-level, not this page): transactions upwards of £500,000 (/lenders/, home) [a][b]; contradiction: an older cached page says 'loans over £2m' [a]; seed also records £500k–£20m (/about-us/) and £2m–£20m (/commercial-mortgage-broker/)",
+    "Leverage (sibling pages, not this page): conversions typically 65–70% of GDV (/conversions/) [b]; senior development loans typically up to 65–75% of GDV (Scotland guide) [b][seed]",
+    "Duration (sibling /faq/, not this page): development loans usually 18–24 months; Development Exit Bridge adds a further 12 months at a lower rate [b]",
+    "Mezzanine minimums (sibling /faq/): roughly £150,000–£250,000 [b]",
+    "Rates, arrangement fees, broker fees, timescales to offer/completion: NOT revealed for this page by any search (seed: site-wide fee claims exist on /types-of-borrowing/ and a blog, approx 1% broker fee)"
+  ],
+  "eligibility": [
+    "Property developers [a][b][seed]",
+    "Property investors [a][b][seed]",
+    "Schemes 'of any nature', ground-up or conversions [a][b]",
+    "Residential, commercial or mixed-use projects [a][seed]",
+    "Projects across the UK [b]",
+    "No experience, credit, deposit/equity or planning-status criteria for this page were surfaced (the site has a separate /first-time-developer-finance/ page per seed navigation)"
+  ],
+  "lenderTypes": [
+    "Senior debt lenders [seed]",
+    "Mezzanine debt lenders [seed]; homepage lists mezzanine finance [b]",
+    "Equity lenders / equity finance [seed][b]",
+    "Site-level description of the panel (LinkedIn profile per [a]): private banks, investment banks, specialist lenders and private debt funds",
+    "No individual lender names for Silver Oak's panel were surfaced [c]"
+  ],
+  "processSteps": [
+    "Loan is secured against the available land [a]",
+    "Funds are drawn in line with the business plan and construction schedule of the proposed project [a]",
+    "Interest is rolled up on top of the principal rather than serviced during the build [a][b]",
+    "Loan is repaid at practical completion through sales proceeds or refinance [a]",
+    "Broker process (seed, same page): lender search across 300+ lenders narrowed to as many as 3 or 4 potential partners per deal [seed]",
+    "Sibling step-by-step guide (seed, other page): buy land/existing property, obtain planning approval, fund in a series of tranches"
+  ],
+  "faq": [
+    {
+      "q": "Does the page itself contain an FAQ block?",
+      "a": "Not revealed by any of the three searches. The items below come from the site-wide /faq/ page surfaced in [b]."
+    },
+    {
+      "q": "How long do development loans run? (/faq/)",
+      "a": "Development loans usually run 18–24 months [b]."
+    },
+    {
+      "q": "What if units are unsold at term end? (/faq/)",
+      "a": "The firm can arrange a Development Exit Bridge, which gives a further 12 months at a lower rate [b]."
+    },
+    {
+      "q": "Minimum size for mezzanine lenders? (/faq/)",
+      "a": "Mezzanine lenders often have minimum loan sizes of roughly £150,000–£250,000 [b]."
+    },
+    {
+      "q": "How is interest handled on a development loan? (this page)",
+      "a": "Interest is not serviced but rolled up on top of the principal amount [a]."
+    },
+    {
+      "q": "How is the loan repaid? (this page)",
+      "a": "Upon practical completion, through sales proceeds or via refinance [a]."
+    }
+  ],
+  "claims": [
+    {"claim": "300+ Lenders (this page) [a][seed]", "kind": "number"},
+    {"claim": "we have access to the largest network of lenders in the market (this page) [a]", "kind": "promise/superlative"},
+    {"claim": "over 800 lenders (homepage [a][b]; LinkedIn post [c])", "kind": "number — contradicts the 300+ figure on this page"},
+    {"claim": "500+ different private banks, investment banks, specialist lenders & private debt funds (LinkedIn profile) [a]", "kind": "number — third differing lender count"},
+    {"claim": "generally focus on transactions upwards of £500,000 (/lenders/) [a]; specialising in loans over £500,000 (home) [b]", "kind": "number"},
+    {"claim": "loans over £2m (older-looking cached page) [a]", "kind": "number — contradiction with £500,000 minimum; minimum may have changed"},
+    {"claim": "independent, whole-of-market advice (LinkedIn post) [c]; whole-of-market advice via a large lender panel (this page per [b])", "kind": "promise"},
+    {"claim": "typically narrows lenders to as many as 3 or 4 potential partners per deal (this page per seed)", "kind": "process/promise"},
+    {"claim": "offers senior debt, mezzanine and equity finance, plus bridging loans (home) [b]", "kind": "service scope"},
+    {"claim": "conversions lending ceiling typically 65–70% of GDV (/conversions/) [b]; senior loans typically up to 65–75% of GDV (Scotland guide) [b]", "kind": "number — sibling pages, slightly differing ranges"},
+    {"claim": "No testimonials, awards, credentials or named case studies were surfaced for this page by the searches", "kind": "absence"}
+  ],
+  "geography": [
+    "United Kingdom — 'residential and commercial projects across the UK' [b]",
+    "London-based firm [a]",
+    "Scotland covered by a dedicated guide (/how-does-property-development-finance-in-scotland/) [b]",
+    "Offshore / overseas borrowers addressed in a blog (/how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/) [b]",
+    "Seed (firm-level): offices in London (91 Wimpole Street), Monaco, Dubai, Cape Town; markets UK, Western Europe, Middle East, United States"
+  ],
+  "ctas": [
+    "No call-to-action wording from this page was revealed by the searches",
+    "Sibling page SERP title: 'Development Finance Brokers - Get a Instant Quote Now' (/development-finance-brokers/) [a][b]",
+    "Seed (site-level): enquiry form, enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp; Lender Calculator tool (/lender-calculator/)"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/ (SERP title: 'Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions') [a][b]",
+    "https://www.silveroakcapital.co.uk/lenders/ (SERP title: 'Property Finance Lenders UK') [a]",
+    "https://www.silveroakcapital.co.uk/development-finance-brokers/ (SERP title: 'Development Finance Brokers - Get a Instant Quote Now') [a][b]",
+    "https://www.silveroakcapital.co.uk/conversions/ (SERP title: 'Property Conversion Finance UK') [b]",
+    "https://www.silveroakcapital.co.uk/faq/ (SERP title: 'Property Finance FAQs') [b]",
+    "https://www.silveroakcapital.co.uk/how-does-property-development-finance-in-scotland/ [b]",
+    "https://www.silveroakcapital.co.uk/how-does-property-development-finance-work-a-step-by-step-guide/ [b]",
+    "https://www.silveroakcapital.co.uk/how-does-a-bridge-loan-work-for-developers/ (SERP title: 'How Bridging Loans Help Property Developers') [b]",
+    "https://www.silveroakcapital.co.uk/how-can-offshore-borrowers-secure-fast-uk-property-development-finance-and-bridging-loans/ [b]",
+    "External profiles seen: https://silveroakcapital.odoo.com/ ; https://silveroakcapital.weebly.com/ ; https://www.linkedin.com/company/silver-oak-capital/ ; https://www.crunchbase.com/organization/silver-oak-capital ; https://www.syob.net/company/Silver%20Oak%20Capital%20-%20Debit%20Advisory/38582 ; https://linktr.ee/silveroakcapital ; https://www.spears500.com/adviser/6519/jimmy-baillie ; https://uk.linkedin.com/in/joe-berk [a][c]"
+  ],
+  "confidence": "medium for the core loan mechanics (security on land, staged drawdown, rolled-up interest, repayment at practical completion, 300+ lenders) — these are consistent across [a], [b] and the seed; low for page structure (headings, H1, meta description, CTA wording, on-page FAQ) which no search revealed; LTGDV ranges, durations and mezzanine minimums are from sibling pages, not this page. Search [c] produced nothing new about Silver Oak beyond the Linktree and a LinkedIn post, and its lender results were unrelated firms.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "notes": "Direct fetching was blocked, as the task states; all content is from search snippets/summaries plus the seed. Contradictions recorded: lender count 300+ (this page) vs 500+ (LinkedIn) vs 800+ (home, LinkedIn post); minimum loan £500,000 (home, /lenders/) vs 'over £2m' (older cached page) vs seed's £500k–£20m and £2m–£20m; GDV leverage 65–70% (/conversions/) vs 65–75% (Scotland guide). Search [b] noted the indexed pages are dated roughly 150–225 days before 2026-10-29. Unrelated firms deliberately ignored: Silbury Finance, OakNorth, Octane Capital, Silver Point Capital, Silver Oak Partners, Silver Heights Capital, Kellogg Silver Oak challenge. The relayed user message mentions a 403 error when transferring the folder; that is consistent with the blocked direct-fetch channel and did not affect this search-only step.",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/property-development-finance.json"
+}

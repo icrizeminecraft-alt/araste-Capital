@@ -1,0 +1,125 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/whole-loans/",
+  "title": "Whole Loans UK",
+  "metaDescription": "",
+  "summary": "The /whole-loans/ page (search-result title 'Whole Loans UK') presents a whole loan as a single facility from one lender covering a developer's entire debt requirement, combining what would otherwise be senior plus mezzanine finance, usually secured by one first charge over the property. The lender may still split the loan internally into senior and junior tranches, but the structure avoids an intercreditor deed and a separate credit committee for each tranche. Silver Oak Capital says it works with a select group of private debt funds and specialist lenders who offer whole loans. No pricing, fees, rates, LTV/LTC/LTGDV limits, loan sizes, durations, eligibility criteria, process steps, FAQ items, testimonials or calls to action specific to this page were revealed by any of the three searches. Firm-level figures surfacing alongside are contradictory (300+ vs 800+ lenders; GBP 500k-20m vs GBP 2m-20m loan focus).",
+  "verbatim": [
+    "[a] Whole Loans UK  (search-result title of https://www.silveroakcapital.co.uk/whole-loans/)",
+    "[a] It describes a whole loan as one lender providing the entire debt requirement, combining senior and mezzanine finance, usually with one first charge over the property.",
+    "[a] Silver Oak Capital works with a select group of private debt funds and specialist lenders who offer whole loans.",
+    "[a] The page presents this as a single-lender alternative that avoids an intercreditor deed and a separate credit committee for each tranche.",
+    "[b] Silver Oak describes a whole loan as a single facility from one lender that covers the full debt requirement, often reaching leverage that would otherwise need senior and mezzanine debt combined.",
+    "[b] It says the firm works with a select group of private debt funds and specialist lenders offering them.",
+    "[b] The page notes that a lender may still split the loan internally into senior and junior tranches, and that the structure avoids the need for an intercreditor deed.",
+    "[b] The results give no pricing, fees or current rates for whole loans",
+    "[b] (stretch-senior-development-finance page, not /whole-loans/) A related product, the page says these can reach up to 75% of GDV or 90% of loan-to-cost in one transaction.",
+    "[b] (property-development-finance page) Silver Oak says it has access to a network of more than 300 lenders and aims to narrow options to three or four suitable partners for each project.",
+    "[b] (homepage) The homepage cites a network of over 800 lenders and says the firm arranges debt across the UK, US, Western Europe and the Middle East.",
+    "[b] (commercial-mortgage-broker page) The commercial mortgage broker page says the firm focuses on loans of £2 million to £20 million",
+    "[a] (about-us page) It says the firm focuses on loans of £500K to £20m and has access to 800+ Lenders.",
+    "[a] (third-party directory, lettingagenttoday / thelandsite) A third-party directory listing describes the firm as a London-based commercial mortgage broker specializing in large loans of £2-£20m.",
+    "[a] The directory and the firm's own pages differ on lender count and loan size, so treat those figures as unverified.",
+    "[c] The search didn't turn up anything about Silver Oak Capital's whole loan development lending or its loan-to-value policies.",
+    "[seed] (/faq/ snippet) whole-loan providers often sector-agnostic: PBSA, hotels, BTR, industrial",
+    "[seed] (/how-does-property-development-finance-in-scotland/) Senior development loans cover a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value.",
+    "[seed] (/how-does-property-development-finance-in-scotland/) mezzanine 'a secondary loan that sits behind senior debt, reducing the developer's equity requirement'",
+    "[seed] (/property-development-finance/) access to a vast network of senior debt, mezzanine debt and equity lenders; 300+ lenders; as many as 3 or 4 potential partners per deal"
+  ],
+  "h1": "",
+  "sections": [
+    {
+      "heading": "What is a whole loan (as the page defines it)",
+      "content": "[a] one lender providing the entire debt requirement, combining senior and mezzanine finance. [b] a single facility from one lender that covers the full debt requirement, often reaching leverage that would otherwise need senior and mezzanine debt combined. Page title per search results: 'Whole Loans UK' [a][b]. Actual H1 and meta description not revealed."
+    },
+    {
+      "heading": "Structure and security",
+      "content": "[a] usually with one first charge over the property. [b] a lender may still split the loan internally into senior and junior tranches. [a][b] the structure avoids the need for an intercreditor deed; [a] also avoids a separate credit committee for each tranche. Presented as a 'single-lender alternative' [a] to a separate senior + mezzanine stack."
+    },
+    {
+      "heading": "Lender panel for whole loans",
+      "content": "[a][b] Silver Oak Capital works with a select group of private debt funds and specialist lenders who offer whole loans. No lender names revealed."
+    },
+    {
+      "heading": "Context from sibling development pages (not text of /whole-loans/)",
+      "content": "[b] /stretch-senior-development-finance/: up to 75% of GDV or 90% of loan-to-cost in one transaction. [seed] senior development loans typically up to 65-75% of GDV; mezzanine sits behind senior debt, reducing the developer's equity requirement. [seed] /faq/: whole-loan providers often sector-agnostic: PBSA, hotels, BTR, industrial. [b]/[seed] /property-development-finance/: network of 300+ lenders, narrowed to three or four suitable partners per project. Whole Loans sits in the 'Development' services menu alongside Property Development Finance, Development Finance Brokers, Senior Development Finance, Stretch Senior Development Finance, Mezzanine / Junior Finance and First-Time Developer Finance [seed navigation]."
+    },
+    {
+      "heading": "Firm-level claims surfacing alongside (contradictory)",
+      "content": "Lender count: 800+ Lenders on about-us page per [a] and on homepage per [b]; more than 300 lenders on property-development-finance page per [b] (seed first pass also recorded 300+ there and 700+ on /bridging-loans-uk/ and /commercial-mortgage-broker/). Loan size: £500K to £20m on about-us per [a]; £2 million to £20 million on commercial-mortgage-broker per [b]; third-party directory £2-£20m per [a]. [a] explicitly flags these as differing and unverified. Geography: UK, US, Western Europe and the Middle East (homepage) [b]; London-based [a]."
+    },
+    {
+      "heading": "Not revealed by any result for this page",
+      "content": "Pricing, interest rates, arrangement/broker fees, exit fees, maximum LTV / LTC / LTGDV for whole loans, minimum and maximum loan size specific to whole loans, loan duration/term, drawdown mechanics, eligibility criteria (experience, sector, location), step-by-step process, FAQ entries, testimonials, case-study links, calls to action, H1 text, meta description. [b] states explicitly: 'The results give no pricing, fees or current rates for whole loans'. [c] returned nothing about Silver Oak Capital at all."
+    }
+  ],
+  "services": [
+    "Whole loans: single-lender facility covering a development's entire debt requirement, combining senior and mezzanine finance [a][b]",
+    "Placement of whole loans with a select group of private debt funds and specialist lenders [a][b]",
+    "[seed navigation, sibling pages] Property Development Finance, Development Finance Brokers, Senior Development Finance, Stretch Senior Development Finance, Mezzanine / Junior Finance, First-Time Developer Finance"
+  ],
+  "useCases": [
+    "Developer seeking leverage that would otherwise require combining senior and mezzanine debt from separate lenders [b]",
+    "Avoiding an intercreditor deed between senior and mezzanine lenders [a][b]",
+    "Avoiding a separate credit committee for each tranche of the debt stack [a]",
+    "[seed /faq/, not this page] whole-loan providers often sector-agnostic: PBSA, hotels, BTR, industrial"
+  ],
+  "terms": [
+    "Security: usually one first charge over the property [a]",
+    "Structure: one lender provides the entire debt requirement as a single facility; lender may split internally into senior and junior tranches [a][b]",
+    "Leverage: 'often reaching leverage that would otherwise need senior and mezzanine debt combined' — no percentage stated for whole loans [b]",
+    "Pricing / fees / rates: not revealed; [b] 'The results give no pricing, fees or current rates for whole loans'",
+    "LTV / LTC / LTGDV for whole loans: not revealed; [c] found nothing on Silver Oak loan-to-value policy",
+    "Duration / term: not revealed",
+    "Loan size (firm-level, not page-specific): £500K to £20m (about-us) [a]; £2 million to £20 million (commercial-mortgage-broker) [b]; £2-£20m (third-party directory) [a]",
+    "Comparative only (stretch-senior page): up to 75% of GDV or 90% of loan-to-cost in one transaction [b]"
+  ],
+  "eligibility": [
+    "Not revealed in any result for /whole-loans/ (no borrower experience, sector, location or minimum equity requirement surfaced)"
+  ],
+  "lenderTypes": [
+    "private debt funds [a][b]",
+    "specialist lenders [a][b]",
+    "described as 'a select group' [a][b]; no lender names given"
+  ],
+  "processSteps": [
+    "Not revealed for /whole-loans/ itself",
+    "[b] (property-development-finance page) firm 'aims to narrow options to three or four suitable partners for each project'"
+  ],
+  "faq": [],
+  "claims": [
+    {"claim": "800+ Lenders (about-us page per [a]; homepage 'over 800 lenders' per [b])", "kind": "lender-count"},
+    {"claim": "more than 300 lenders (property-development-finance page) [b]; contradicts 800+", "kind": "lender-count"},
+    {"claim": "focuses on loans of £500K to £20m (about-us page) [a]", "kind": "loan-size"},
+    {"claim": "focuses on loans of £2 million to £20 million (commercial-mortgage-broker page) [b]; third-party directory: large loans of £2-£20m [a]; contradicts £500K floor", "kind": "loan-size"},
+    {"claim": "works with a select group of private debt funds and specialist lenders who offer whole loans [a][b]", "kind": "lender-panel"},
+    {"claim": "whole loan avoids an intercreditor deed and a separate credit committee for each tranche [a]; avoids the need for an intercreditor deed [b]", "kind": "product-benefit"},
+    {"claim": "whole loan often reaches leverage that would otherwise need senior and mezzanine debt combined [b]", "kind": "product-benefit"},
+    {"claim": "arranges debt across the UK, US, Western Europe and the Middle East (homepage) [b]", "kind": "geography"},
+    {"claim": "aims to narrow options to three or four suitable partners for each project (property-development-finance page) [b]", "kind": "process"},
+    {"claim": "stretch senior loans can reach up to 75% of GDV or 90% of loan-to-cost in one transaction (stretch-senior page) [b]", "kind": "comparative-terms"},
+    {"claim": "No testimonials, awards, credentials, numbers or promises specific to /whole-loans/ were revealed", "kind": "absence"}
+  ],
+  "geography": [
+    "United Kingdom (page title 'Whole Loans UK') [a][b]",
+    "London-based broker [a]",
+    "Firm-level: UK, US, Western Europe and the Middle East (homepage) [b]"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/whole-loans/",
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/about-us/",
+    "https://www.silveroakcapital.co.uk/commercial-mortgage-broker/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/types-of-borrowing/",
+    "https://www.silveroakcapital.co.uk/stretch-senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/",
+    "https://www.silveroakcapital.co.uk/your-trusted-local-finance-brokers-for-smart-lending-solutions/"
+  ],
+  "notes": "QUERIES: (a) extended, exact URL; (b) extended, 'site:silveroakcapital.co.uk whole loans development finance'; (c) standard, '\"Silver Oak Capital\" whole loans development \"loan to value\"'. 3 run, 0 refused. SOURCE NATURE: the WebSearch tool returns a summary, not raw page text; 'verbatim' entries tagged [a]/[b]/[c] are the tool's own summary sentences paraphrasing the page and are NOT confirmed page copy. Only the result title 'Whole Loans UK' is a literal string from the site. H1 and meta description were not revealed (left empty). FAQ and CTA arrays are empty because nothing was revealed, not because the page has none. UNRELATED RESULTS IGNORED: SEC filings on 'Oak Street' whole loans in US CMBS deals (a); Red Oak Capital Fund II/IV, White Oak, LaSalle whole-loan platform, US CFR/Wisconsin LTV rules (c) — none concern Silver Oak Capital. CONTRADICTIONS: lender count 300+ (/property-development-finance/) vs 800+ (home, about-us); loan-size focus £500K-£20m (about-us) vs £2m-£20m (commercial-mortgage-broker, directory); [a] itself flags these as unverified. Result [a] attributes '800+ Lenders' to the about-us page, whereas the seed first pass attributed 800+ to home, /faq/, Trustpilot and Property Week — possible new data point for /about-us/. [b] notes 'inconsistent page ages' in search metadata, so content currency is uncertain. NEW EXTERNAL URLS: https://www.thelandsite.co.uk/professional-services/720-silver-oak-capital (not in seed; seed had thelandsite articles URL); https://www.lettingagenttoday.co.uk/trades-directory/silver-oak-capital/ (not in seed). Page titles observed: home = 'Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions'; /faq/ = 'Property Finance FAQs'; /types-of-borrowing/ = 'Wealth Management'; /stretch-senior-development-finance/ = 'Stretch Senior Development Finance UK'; /about-us/ = 'About Us - Jimmy Baillie'; /commercial-mortgage-broker/ = 'Commercial Mortgage Brokers - Silver Oak Capital'; /property-development-finance/ = 'Property Development Finance'.",
+  "confidence": "medium-low: the core product definition (single lender, entire debt requirement, senior+mezzanine combined, one first charge, no intercreditor deed, select private debt funds and specialist lenders) is corroborated by two independent extended searches; everything else about the page (terms, LTV, pricing, fees, eligibility, process, FAQ, CTA, H1, meta) is unrevealed.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/whole-loans.json"
+}

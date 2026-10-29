@@ -1,0 +1,150 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/buy-to-let-mortgages/",
+  "title": "Buy-to-Let Mortgages (page <title> not revealed by search; navigation label in seed is 'Buy-to-Let Mortgages')",
+  "h1": "",
+  "metaDescription": "",
+  "summary": "The target page /buy-to-let-mortgages/ was NOT surfaced by any of the 3 searches (exact-URL extended search, site: extended search, or the standard criteria search). Nothing on this page's own H1, meta, headings, body text, rates or product list was recovered. All buy-to-let content below comes from OTHER silveroakcapital.co.uk pages returned by the searches (/faq/, Ts-and-Cs.pdf, home page, /introducers/) plus the seed file, and from third-party listings (Property Week Commercial Property Awards 2026, mortgage118.com, LinkedIn). Recovered facts: BTL products typically max at 75% LTV (25% deposit), varying by lender, borrower profile and property type; most lenders prefer 12 months' ownership of a standard BTL before HMO lending, though some lenders accept first-time landlords with strong personal income and a clear management plan; BTL mortgages are not normally FCA-regulated except 'consumer buy-to-let' (determined by whether the borrower intends to live in the property; seed adds the 40% occupation rule); fees are set in a client-specific fee agreement; the firm positions itself as independent, whole-of-market, with a network of over 800 lenders, and lists 'Main home mortgages, Buy to Lets, Holiday Lets and HMO's' as its residential offering. Search (c) returned 19 results, none mentioning Silver Oak Capital.",
+  "verbatim": [
+    "[a] /faq/: \"most BTL products will max out at 75% LTV, requiring a deposit from the borrower of 25% of the property's value\"",
+    "[a] /faq/: \"This varies by lender however\" (on the BTL deposit requirement; the lender, borrower profile and property type can push the deposit higher)",
+    "[a] /faq/ (search summary paraphrase, not quoted): most lenders prefer you to have owned a standard buy-to-let for at least 12 months; the firm works with several lenders who permit first-time landlords to buy HMOs, provided the borrower has strong personal income and a clear management plan",
+    "[a] Ts-and-Cs.pdf (search summary paraphrase, with one quoted phrase): buy-to-let mortgages are not normally regulated by the FCA, though some are \"consumer buy-to-let\" and the firm will advise if that applies",
+    "[a] Ts-and-Cs.pdf: \"All details surrounding fees and charges will be highlighted in the Client specific Fee Agreement.\"",
+    "[a] Ts-and-Cs.pdf (search summary paraphrase): the firm will provide independent recommendations and arrange services for a fee",
+    "[a] home page: \"Main home mortgages, Buy to Lets, Holiday Lets and HMO's\"",
+    "[a] Property Week Commercial Property Awards 2026 listing (search summary paraphrase): provides independent, whole-of-market advice across buy-to-let and other lending, drawing on a network of over 800 lenders",
+    "[b] /faq/ on consumer buy-to-let (search summary paraphrase): the major determining factor is whether the borrower intends to live in the property after the mortgage has been signed and completed",
+    "[b] Ts-and-Cs.pdf (search summary paraphrase): buy-to-let mortgages are not normally regulated by the FCA, but some are \"consumer buy-to-let,\" which it says it will flag during the application",
+    "[b] /introducers/ (search summary paraphrase): the firm can arrange commercial mortgages, buy-to-let mortgages, bridging loans, development finance, marine finance, or aviation finance for clients referred by introducers",
+    "[b] home page (search summary paraphrase): handles Main home mortgages, Buy to Lets, Holiday Lets and HMO's on the residential side, and works with a network of over 800 lenders",
+    "[c] No result mentioned Silver Oak Capital; all 19 results were other lenders/brokers (LendInvest, YBS, Charcol, MFS, Pepper Money, Nottingham, Tipton, Landbay, Commercial Trust, Bank of England). Not usable for this page.",
+    "[seed] /faq/: \"If you or a family member occupies more than 40% of the property, it becomes a regulated loan\"",
+    "[seed] /faq/: \"A portfolio loan can sit alongside existing individual mortgages\"",
+    "[seed] /faq/: BTL products max out at 75% LTV (25% deposit); Consumer Buy-to-Let can fall under FCA rules; premium on portfolio products has narrowed; HMO max LTV typically 75%, some lenders 80% in exceptional circumstances; Article 4 direction can help valuations",
+    "[seed] /faq/: non-resident lending needs stronger documentation, more conservative LTV, path of funds (AML/KYC)",
+    "[seed] home: \"Main home mortgages, Buy to Lets, Holiday Lets and HMO's\"",
+    "[seed] /introducers/: can arrange commercial mortgages, buy-to-let mortgages, bridging loans, development finance, marine finance, or aviation finance",
+    "[seed] /lenders/: generally focuses on transactions upwards of £500,000; works with an unrestricted number of lenders and typically receives commission from lenders, with details disclosed during the process"
+  ],
+  "sections": [
+    {
+      "heading": "[NOT RECOVERED] Page's own headings and body",
+      "content": "No search result returned the /buy-to-let-mortgages/ page, so its H1, meta description, section headings, body copy, product list and any rates are unknown. Everything else in this record is from sibling pages and third-party listings."
+    },
+    {
+      "heading": "Buy-to-let deposit and LTV (from /faq/, [a][b][seed])",
+      "content": "Most BTL products max out at 75% LTV, requiring a 25% deposit from the borrower. This varies by lender; lender, borrower profile and property type can push the deposit higher. HMO products: typically 75% LTV, some lenders 80% in exceptional circumstances (seed)."
+    },
+    {
+      "heading": "Regulation / consumer buy-to-let (from Ts&Cs and /faq/, [a][b][seed])",
+      "content": "Buy-to-let mortgages are not normally regulated by the FCA; some are 'consumer buy-to-let', which the firm says it will advise on / flag during the application. The major determining factor is whether the borrower intends to live in the property after the mortgage has completed. Seed adds: if the borrower or a family member occupies more than 40% of the property, it becomes a regulated loan."
+    },
+    {
+      "heading": "Landlord experience / first-time landlords (from /faq/, [a][seed])",
+      "content": "Most lenders prefer the borrower to have owned a standard buy-to-let for at least 12 months (context: before buying an HMO). The firm works with several lenders who permit first-time landlords to buy HMOs provided strong personal income and a clear management plan."
+    },
+    {
+      "heading": "Portfolio landlords (from /faq/, [seed])",
+      "content": "A portfolio loan can sit alongside existing individual mortgages; the premium on portfolio products has narrowed. (From seed only; not re-surfaced in this run.)"
+    },
+    {
+      "heading": "Fees and remuneration (from Ts&Cs, /lenders/, [a][seed])",
+      "content": "Fees and charges are set out in a client-specific Fee Agreement. The firm typically receives commission from lenders, disclosed during the process (seed /lenders/). No BTL-specific fee figure recovered."
+    },
+    {
+      "heading": "Positioning (home, Property Week listing, [a][b][seed])",
+      "content": "Residential line: 'Main home mortgages, Buy to Lets, Holiday Lets and HMO's'. Independent, whole-of-market advice across buy-to-let and other lending; network of over 800 lenders (home page, FAQ, Property Week 2026 awards listing)."
+    }
+  ],
+  "services": [
+    "Buy-to-let mortgages (brokered, whole-of-market)",
+    "Holiday let mortgages (home page residential line)",
+    "HMO finance (sibling page /hmo-finance/)",
+    "Portfolio mortgages (seed /faq/ and navigation)",
+    "Main home / prime residential mortgages (sibling page /prime-residential-mortgages/)",
+    "Consumer buy-to-let identification/advice (Ts&Cs, FAQ)",
+    "Arranging BTL mortgages for introducer-referred clients (/introducers/)"
+  ],
+  "useCases": [
+    "Standard buy-to-let purchase or remortgage (FAQ context)",
+    "First-time landlord buying an HMO with strong personal income and a management plan (FAQ)",
+    "Portfolio landlord adding a portfolio loan alongside existing individual mortgages (seed FAQ)",
+    "Holiday lets (home page line)",
+    "Non-resident / overseas borrowers (seed FAQ: stronger documentation, more conservative LTV, AML/KYC path of funds)"
+  ],
+  "terms": [
+    "LTV: most BTL products max out at 75% LTV (25% deposit); varies by lender, borrower profile and property type, which can push the deposit higher [a][b][seed]",
+    "HMO LTV: typically 75%, some lenders 80% in exceptional circumstances [seed]",
+    "Experience: most lenders prefer 12 months' ownership of a standard BTL (before HMO) [a]",
+    "Fees: client-specific Fee Agreement; commission from lenders disclosed during the process [a][seed]",
+    "Minimum deal size (firm-wide, not BTL-specific): generally transactions upwards of £500,000 [seed /lenders/]",
+    "Rates, loan sizes, durations, timescales and security for BTL specifically: NOT recovered"
+  ],
+  "eligibility": [
+    "Deposit of at least 25% of property value for most BTL products (higher depending on lender, borrower profile, property type) [a][b][seed]",
+    "Most lenders prefer at least 12 months' ownership of a standard buy-to-let before lending on an HMO; some lenders accept first-time landlords with strong personal income and a clear management plan [a][seed]",
+    "Consumer buy-to-let test: whether borrower intends to live in the property after completion; occupation of more than 40% by borrower or family makes the loan regulated [b][seed]",
+    "Non-residents: stronger documentation, more conservative LTV, path of funds (AML/KYC) [seed]"
+  ],
+  "lenderTypes": [
+    "Network of over 800 lenders (home page, FAQ, Property Week 2026 listing) [a][b][seed]",
+    "Whole-of-market / independent (Property Week listing, Ts&Cs) [a]",
+    "Several lenders permitting first-time landlords on HMOs [a][seed]",
+    "Unrestricted number of lenders; commission received from lenders (seed /lenders/)",
+    "Specific BTL lender names: NOT recovered"
+  ],
+  "processSteps": [
+    "Firm advises whether a BTL falls under 'consumer buy-to-let' / flags it during the application (Ts&Cs) [a][b]",
+    "Fees and charges highlighted in a client-specific Fee Agreement (Ts&Cs) [a]",
+    "Independent recommendations provided and services arranged for a fee (Ts&Cs) [a]",
+    "For introducer-referred clients: once indicative terms are provided, introducers introduce the borrower directly (seed /introducers/)",
+    "Page-specific BTL process steps: NOT recovered"
+  ],
+  "faq": [
+    {"q": "How much deposit do I need for a buy-to-let mortgage?", "a": "Most BTL products will max out at 75% LTV, requiring a deposit from the borrower of 25% of the property's value. This varies by lender however; the lender, borrower profile and property type can push the deposit higher. (/faq/, [a][b][seed])"},
+    {"q": "Can a first-time landlord buy an HMO?", "a": "Most lenders prefer you to have owned a standard buy-to-let for at least 12 months, but the firm works with several lenders who permit first-time landlords to buy HMOs provided strong personal income and a clear management plan. (/faq/, [a][seed])"},
+    {"q": "Is a buy-to-let mortgage regulated by the FCA?", "a": "Not normally; some are 'consumer buy-to-let' and the firm will advise/flag if that applies. The major determining factor is whether the borrower intends to live in the property after the mortgage has been signed and completed. If you or a family member occupies more than 40% of the property, it becomes a regulated loan. (Ts&Cs + /faq/, [a][b][seed])"},
+    {"q": "Can a portfolio loan sit alongside existing mortgages?", "a": "Yes, a portfolio loan can sit alongside existing individual mortgages; the premium on portfolio products has narrowed. (/faq/, [seed])"},
+    {"q": "What are the fees?", "a": "All details surrounding fees and charges will be highlighted in the Client specific Fee Agreement. (Ts&Cs, [a])"}
+  ],
+  "claims": [
+    {"claim": "Network of over 800 lenders", "kind": "number (home page, /faq/, Property Week 2026 listing) [a][b][seed]"},
+    {"claim": "Independent, whole-of-market advice across buy-to-let and other lending", "kind": "positioning (Property Week Commercial Property Awards 2026 listing) [a]"},
+    {"claim": "Most BTL products max out at 75% LTV / 25% deposit", "kind": "number (/faq/) [a][b][seed]"},
+    {"claim": "Most lenders prefer 12 months' ownership of a standard BTL before HMO", "kind": "criteria (/faq/) [a]"},
+    {"claim": "Works with several lenders permitting first-time landlords on HMOs", "kind": "promise/capability (/faq/) [a][seed]"},
+    {"claim": "Will advise/flag whether a mortgage is consumer buy-to-let", "kind": "promise (Ts&Cs) [a][b]"},
+    {"claim": "Listed in Property Week Commercial Property Awards 2026 (organisation page)", "kind": "award/recognition (awards.propertyweek.com) [a]"},
+    {"claim": "Listed on mortgage118.com broker directory under Hackney, London", "kind": "directory listing (third-party) [a]; note possible contradiction with seed office at 91 Wimpole Street W1G"},
+    {"claim": "Generally focuses on transactions upwards of £500,000", "kind": "number (seed /lenders/)"},
+    {"claim": "Receives commission from lenders, disclosed during the process", "kind": "disclosure (seed /lenders/)"},
+    {"claim": "Testimonials, named BTL lenders, BTL rates, BTL case studies", "kind": "NOT recovered for this page"}
+  ],
+  "geography": [
+    "UK (buy-to-let is a UK product; home page and FAQ) [a][b]",
+    "London (home page title 'Commercial Mortgage Broker'; mortgage118 lists Hackney, London; seed office 91 Wimpole Street W1G) [a][seed]",
+    "Non-resident / overseas borrowers served (seed /faq/, /western-europe/)"
+  ],
+  "ctas": [
+    "Page-specific CTAs: NOT recovered",
+    "Seed-wide: enquiry form, direct email enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp (/contact/)"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/ [a][b]",
+    "https://www.silveroakcapital.co.uk/faq/ [a][b]",
+    "https://www.silveroakcapital.co.uk/prime-residential-mortgages/ [a][b]",
+    "https://www.silveroakcapital.co.uk/hmo-finance/ [a]",
+    "https://www.silveroakcapital.co.uk/introducers/ [b]",
+    "https://www.silveroakcapital.co.uk/commercial-mortgages/ [b]",
+    "https://www.silveroakcapital.co.uk/different-ways-to-finance-new-build-homes-in-the-uk/ [b]",
+    "https://www.silveroakcapital.co.uk/wp-content/uploads/2026/02/Ts-and-Cs.pdf [a][b]",
+    "External: https://uk.linkedin.com/company/silver-oak-capital [a]",
+    "External: https://awards.propertyweek.com/live/en/node/organisation-silver-oak-capital (Commercial Property Awards 2026) [a]",
+    "External: https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital [a]"
+  ],
+  "confidence": "low for the target page itself (not surfaced; no H1/meta/body recovered); medium for the buy-to-let facts, which come from the firm's own /faq/, Ts&Cs PDF, home page and /introducers/ as relayed by search summaries, and are consistent with the seed",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "notes": "Search (a) and (b) both returned sibling pages but not /buy-to-let-mortgages/. Search (c) returned 19 generic UK BTL results with zero mention of Silver Oak Capital. Search (b) summary flagged its snippets as roughly 180 to 340 days old. Contradiction to note: mortgage118.com lists the firm under Hackney, London, whereas the seed records the office at 91 Wimpole Street, London W1G 0EE/0EF. The 12-month ownership preference appears in the FAQ in the HMO context (owning a standard BTL before an HMO), not as a general BTL rule. Several verbatim entries are search-summary paraphrases rather than direct quotes and are labelled as such. Unrelated results ignored: Landbay (Wikipedia), Buy to let (Wikipedia), and all lender/broker sites in search (c).",
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/buy-to-let-mortgages.json"
+}

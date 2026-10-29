@@ -1,0 +1,384 @@
+{
+  "facts": [
+    {
+      "fact": "A LinkedIn company page for Silver Oak Capital exists (surfaced in searches 4, 5 and 7; the LinkedIn-targeted search 1 did not return it).",
+      "source": "LinkedIn company page (search result listing)",
+      "confidence": "high",
+      "url": "https://uk.linkedin.com/company/silver-oak-capital"
+    },
+    {
+      "fact": "LinkedIn company page states the firm has relationships with 500+ lenders of several kinds.",
+      "source": "LinkedIn company page (via search summary)",
+      "confidence": "high",
+      "url": "https://uk.linkedin.com/company/silver-oak-capital",
+      "verbatim": "500+ different private banks, investment banks, specialist lenders & private debt funds"
+    },
+    {
+      "fact": "LinkedIn company page lists operating locations as UK, Western Europe, Middle East, South & West Africa.",
+      "source": "LinkedIn company page (via search summary)",
+      "confidence": "high",
+      "url": "https://uk.linkedin.com/company/silver-oak-capital",
+      "verbatim": "Locations - UK / Western Europe / Middle East / South & West Africa"
+    },
+    {
+      "fact": "LinkedIn specialties list includes Monaco (no physical Monaco office is stated in any result).",
+      "source": "LinkedIn company page (via search summary, paraphrased)",
+      "confidence": "medium",
+      "url": "https://uk.linkedin.com/company/silver-oak-capital"
+    },
+    {
+      "fact": "Positioning: the firm says it is not a high-street mortgage broker and instead handles larger, more complex real estate transactions.",
+      "source": "LinkedIn company page (search 5 attributes this to LinkedIn; search 4 attributes it to 'the firm')",
+      "confidence": "medium",
+      "url": "https://uk.linkedin.com/company/silver-oak-capital",
+      "verbatim": "does not operate as a high street mortgage broker"
+    },
+    {
+      "fact": "Positioning wording: offers a bespoke solution for larger, more complex deals.",
+      "source": "LinkedIn company page / firm self-description (via search summary)",
+      "confidence": "medium",
+      "url": "https://uk.linkedin.com/company/silver-oak-capital",
+      "verbatim": "bespoke solution for larger, more complex real estate transactions"
+    },
+    {
+      "fact": "Trustpilot profile for silveroakcapital.co.uk exists but has no reviews: 0.0 rating, zero reviews in the last 12 months.",
+      "source": "Trustpilot UK (via search summary)",
+      "confidence": "high",
+      "url": "https://uk.trustpilot.com/review/silveroakcapital.co.uk",
+      "verbatim": "This company hasn't received any reviews yet."
+    },
+    {
+      "fact": "Trustpilot profile description fragment lists mortgages, marine & aviation finance and a locations line naming UK / Western Europe / Middle East / South Africa.",
+      "source": "Trustpilot UK company description (fragment quoted in search summary)",
+      "confidence": "high",
+      "url": "https://uk.trustpilot.com/review/silveroakcapital.co.uk",
+      "verbatim": "Mortgages -Marine & Aviation Finance -Locations - UK / Western Europe / Middle East / South Africa"
+    },
+    {
+      "fact": "No Instagram profile for Silver Oak Capital surfaced in search (absence in results, not proof of non-existence).",
+      "source": "WebSearch result set (search 3)",
+      "confidence": "high"
+    },
+    {
+      "fact": "Linktree page exists at linktr.ee/silveroakcapital with a two-part tagline describing the firm as an independent London mortgage broker and a development finance broker.",
+      "source": "Linktree (via search summary)",
+      "confidence": "high",
+      "url": "https://linktr.ee/silveroakcapital",
+      "verbatim": "Independent Mortgage Broker in London, UK • Trusted Development Finance Broker for Property Projects"
+    },
+    {
+      "fact": "Linktree lists the firm as a commercial mortgage broker, development finance broker and London-based independent mortgage broker.",
+      "source": "Linktree (via search summary, paraphrased)",
+      "confidence": "medium",
+      "url": "https://linktr.ee/silveroakcapital"
+    },
+    {
+      "fact": "Linktree link titles include bridging-finance and bridging-loan articles.",
+      "source": "Linktree (via search summary)",
+      "confidence": "high",
+      "url": "https://linktr.ee/silveroakcapital",
+      "verbatim": "Mortgage Bridging Finance in London; Get Cash Fast with Bridging Loans UK - Silver Oak Capital; Trusted Development Finance Broker for Property Projects"
+    },
+    {
+      "fact": "Linktree links to a Medium article dated December 2025.",
+      "source": "Linktree (via search summary)",
+      "confidence": "medium",
+      "url": "https://linktr.ee/silveroakcapital"
+    },
+    {
+      "fact": "SlideShare deck uploaded by Silver Oak Capital: 'Property Development Finance in Uk, London'.",
+      "source": "SlideShare (search result title)",
+      "confidence": "high",
+      "url": "https://www.slideshare.net/slideshow/property-development-finance-in-uk-london/282306113"
+    },
+    {
+      "fact": "SlideShare deck uploaded by Silver Oak Capital: 'Silver Oak Capital Bridging Loans UK Fast Track Your Property Goals'.",
+      "source": "SlideShare (search result title)",
+      "confidence": "high",
+      "url": "https://www.slideshare.net/slideshow/silver-oak-capital-bridging-loans-uk-fast-track-your-property-goals/284124074"
+    },
+    {
+      "fact": "SlideShare deck self-description of services: commercial mortgage brokerage, property development finance, bridging loans, development finance.",
+      "source": "SlideShare deck (via search summary)",
+      "confidence": "high",
+      "url": "https://www.slideshare.net/slideshow/property-development-finance-in-uk-london/282306113",
+      "verbatim": "Silver Oak Capital provides expert commercial mortgage brokerage services, property development finance, bridging loans, and development finance solutions."
+    },
+    {
+      "fact": "SlideShare deck selling point: access to 300+ lenders for whole-of-market advice.",
+      "source": "SlideShare deck (via search summary)",
+      "confidence": "high",
+      "url": "https://www.slideshare.net/slideshow/property-development-finance-in-uk-london/282306113",
+      "verbatim": "access to 300+ lenders for whole-of-market advice"
+    },
+    {
+      "fact": "Further SlideShare deck titles attributed to Silver Oak Capital (not opened, no URLs returned): 'Development Finance Brokers in United Kingdom', 'Property Bridging Loans in United Kingdom', and a 'Why Choose' pitch.",
+      "source": "SlideShare (via search summary)",
+      "confidence": "medium"
+    },
+    {
+      "fact": "Odoo-hosted mirror site exists; page title 'Silver Oak Capital - Real Estate & Finance Professionals'.",
+      "source": "silveroakcapital.odoo.com (search result title)",
+      "confidence": "high",
+      "url": "https://silveroakcapital.odoo.com/"
+    },
+    {
+      "fact": "Odoo site self-description (development finance variant).",
+      "source": "silveroakcapital.odoo.com (via search summary)",
+      "confidence": "high",
+      "url": "https://silveroakcapital.odoo.com/",
+      "verbatim": "Our debt advisory firm specializes in providing tailored property development finance solutions"
+    },
+    {
+      "fact": "Odoo site self-description (bridging variant, second snippet).",
+      "source": "silveroakcapital.odoo.com (via search summary)",
+      "confidence": "high",
+      "url": "https://silveroakcapital.odoo.com/",
+      "verbatim": "debt advisory firm specializes in providing tailored property bridging loans"
+    },
+    {
+      "fact": "Odoo site presents the firm as a London debt advisory firm offering short-term bridging finance and property development finance brokerage, lists mortgage bridging loans among services, and shows a London W1G 0EF address.",
+      "source": "silveroakcapital.odoo.com (via search summary)",
+      "confidence": "medium",
+      "url": "https://silveroakcapital.odoo.com/",
+      "verbatim": "London W1G 0EF, UK"
+    },
+    {
+      "fact": "Weebly-hosted mirror site exists; page title 'Silver Oak Capital - Real Estate & Finance Professionals - Home'.",
+      "source": "silveroakcapital.weebly.com (search result title)",
+      "confidence": "high",
+      "url": "https://silveroakcapital.weebly.com/"
+    },
+    {
+      "fact": "Weebly site focuses on development finance and property bridging and states the firm works with over 300 lenders on loans over £2m.",
+      "source": "silveroakcapital.weebly.com (via search summary, paraphrased)",
+      "confidence": "medium",
+      "url": "https://silveroakcapital.weebly.com/"
+    },
+    {
+      "fact": "Nextdoor business page exists, titled 'Silver Oak Capital - Debt Advisory - London, England' (URL slug spells 'debit-advisory').",
+      "source": "Nextdoor UK (search result title)",
+      "confidence": "high",
+      "url": "https://nextdoor.co.uk/pages/silver-oak-capital-debit-advisory-london-england/"
+    },
+    {
+      "fact": "Nextdoor self-description calls the firm a wealth management business supporting CEOs in the UK.",
+      "source": "Nextdoor UK (via search summary)",
+      "confidence": "high",
+      "url": "https://nextdoor.co.uk/pages/silver-oak-capital-debit-advisory-london-england/",
+      "verbatim": "wealth management business that has supported CEO'S in the UK for a good couple of years"
+    },
+    {
+      "fact": "Nextdoor lists the address as 91 Wimpole Street, W1G 0EF (Marylebone, London).",
+      "source": "Nextdoor UK (via search summary)",
+      "confidence": "high",
+      "url": "https://nextdoor.co.uk/pages/silver-oak-capital-debit-advisory-london-england/",
+      "verbatim": "91 Wimpole Street, W1G 0EF"
+    },
+    {
+      "fact": "Nextdoor lists a loan-size focus of £2m to £20m across six finance areas.",
+      "source": "Nextdoor UK (via search summary)",
+      "confidence": "high",
+      "url": "https://nextdoor.co.uk/pages/silver-oak-capital-debit-advisory-london-england/",
+      "verbatim": "finance of £2m to £20m across property development, bridging, prime residential, commercial, marine and aviation finance"
+    },
+    {
+      "fact": "GoSimples directory listing exists, titled 'Silver Oak Capital - Debt Advisory - GoSimples UK Business Listing Directory'; same Wimpole Street address and phone number as Nextdoor.",
+      "source": "GoSimples UK (search result title + summary)",
+      "confidence": "high",
+      "url": "https://www.gosimples.com/listing/england/london-151/financial-advisors/silver-oak-capital-debit-advisory"
+    },
+    {
+      "fact": "GoSimples self-description: real estate finance professionals specialising in £2m–£20m loans.",
+      "source": "GoSimples UK (via search summary)",
+      "confidence": "high",
+      "url": "https://www.gosimples.com/listing/england/london-151/financial-advisors/silver-oak-capital-debit-advisory",
+      "verbatim": "Real Estate Finance professionals, specialising in loans of £2m – £20m"
+    },
+    {
+      "fact": "GoSimples states it checked the listing's phone number; last-checked date shown as 19 May 2026.",
+      "source": "GoSimples UK (via search summary)",
+      "confidence": "medium",
+      "url": "https://www.gosimples.com/listing/england/london-151/financial-advisors/silver-oak-capital-debit-advisory",
+      "verbatim": "Go Simples carried out the following checks on its data"
+    },
+    {
+      "fact": "Nextdoor and GoSimples descriptive text is nearly identical, so they likely derive from one submission rather than being independent confirmations.",
+      "source": "Search summary observation (search 6)",
+      "confidence": "medium"
+    },
+    {
+      "fact": "mortgage118 listing files the firm as a mortgage broker based in Hackney with postcode W1G 0EF.",
+      "source": "mortgage118 (via search summary)",
+      "confidence": "high",
+      "url": "https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital",
+      "verbatim": "mortgage broker based in Hackney, W1G 0EF"
+    },
+    {
+      "fact": "mortgage118 specialisms line: Bridging, Buy-to-Let, Care Homes and 6 other areas.",
+      "source": "mortgage118 (via search summary)",
+      "confidence": "high",
+      "url": "https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital",
+      "verbatim": "specialising in Bridging, Buy-to-Let, Care Homes and 6 other areas"
+    },
+    {
+      "fact": "mortgage118 shows a 5/5 rating from 9 reviews, marked unverified; one review describes help arranging a bridging loan on a Central London property.",
+      "source": "mortgage118 (via search summary)",
+      "confidence": "high",
+      "url": "https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital",
+      "verbatim": "Rated 5/5 from 9 reviews"
+    },
+    {
+      "fact": "No SYOB listing for Silver Oak Capital surfaced in search.",
+      "source": "WebSearch result set (search 6)",
+      "confidence": "high"
+    },
+    {
+      "fact": "Bridging & Commercial article (circa 2020): Silver Oak Capital completed its largest ever bridging loan of £19.1m.",
+      "source": "bridgingandcommercial.co.uk (search result title)",
+      "confidence": "high",
+      "url": "https://bridgingandcommercial.co.uk/silver-oak-capital-completes-its-largest-ever-bridging-loan-of-pound-19-1m",
+      "verbatim": "Silver Oak Capital completes its largest ever bridging loan of £19.1m"
+    },
+    {
+      "fact": "Bridging & Commercial article: firm to grow team after increased volume in the £2m-20m space.",
+      "source": "bridgingandcommercial.co.uk (search result title)",
+      "confidence": "high",
+      "url": "https://bridgingandcommercial.co.uk/silver-oak-capital-to-grow-team-following-increased-volume-in-pound-2m-20m-space",
+      "verbatim": "Silver Oak Capital to grow team following increased volume in £2m-20m space"
+    },
+    {
+      "fact": "2020 trade coverage describes a network of more than 300 lenders, loans between £2m and £20m, and coverage of the UK, western Europe, the Middle East and southern Africa; describes the firm as specialists in the large loan market.",
+      "source": "bridgingandcommercial.co.uk (via search summary)",
+      "confidence": "medium",
+      "url": "https://bridgingandcommercial.co.uk/silver-oak-capital-completes-its-largest-ever-bridging-loan-of-pound-19-1m",
+      "verbatim": "specialists in the large loan market"
+    },
+    {
+      "fact": "Jimmy Baillie is managing director and founded Silver Oak Capital in 2019; a founder profile states he graduated from the University of Cape Town in 2010 (profile source not identified by the search summary).",
+      "source": "Search summary (search 7), source page unspecified",
+      "confidence": "medium"
+    },
+    {
+      "fact": "Spear's 500 adviser profile pages exist for Jimmy Baillie (two URLs); no content was extracted from snippets.",
+      "source": "Spear's 500 (search result listing)",
+      "confidence": "medium",
+      "url": "https://spears500.com/adviser/22953/jimmy-baillie"
+    },
+    {
+      "fact": "Second Spear's 500 adviser URL for Jimmy Baillie.",
+      "source": "Spear's 500 (search result listing)",
+      "confidence": "medium",
+      "url": "https://www.spears500.com/adviser/6519/jimmy-baillie"
+    },
+    {
+      "fact": "A LinkedIn profile for 'Joe Berk' (debt advisor, real estate debt structuring across UK and Europe, bridging and development finance) appeared in results, but the snippet does not name Silver Oak Capital; connection unconfirmed.",
+      "source": "LinkedIn personal profile (via search summary)",
+      "confidence": "low",
+      "url": "https://uk.linkedin.com/in/joe-berk"
+    },
+    {
+      "fact": "Offshore deal experience is stated as France, Spain, Dubai & South Africa (attributed to 'the firm'; search summary did not say which page).",
+      "source": "Firm self-description, page unspecified (search 7 summary)",
+      "confidence": "low",
+      "verbatim": "France, Spain, Dubai & South Africa"
+    },
+    {
+      "fact": "No search result confirms physical offices in Monaco, Dubai or Cape Town: Monaco appears only as a LinkedIn specialty, Dubai only as offshore deal experience, Cape Town only as the founder's university; London (W1G 0EF) is the only address given.",
+      "source": "Cross-source observation (searches 1-7)",
+      "confidence": "medium"
+    },
+    {
+      "fact": "Services list attributed to the firm: development finance, residential and commercial mortgages and bridging loans, private banking mortgages and complex/special situation lending (page unspecified by summary).",
+      "source": "Firm self-description, page unspecified (search 7 summary)",
+      "confidence": "low",
+      "verbatim": "development finance, residential and commercial mortgages and bridging loans, private banking mortgages and complex/special situation lending"
+    },
+    {
+      "fact": "OWN-SITE CROSS-REFERENCE (outside focus): silveroakcapital.co.uk cites a network of over 800 lenders and a focus on loans over £500,000; its lenders page says it generally focuses on deals above £500,000; a NW London case study quotes 'Rate 0.75% per month Term 12 Months Max 73% LTV 15% Personal Guarantee'; the 'approvals in 5–14 days' claim appears only in the firm's own marketing copy.",
+      "source": "silveroakcapital.co.uk (via search summaries 5 and 7)",
+      "confidence": "medium",
+      "url": "https://www.silveroakcapital.co.uk/"
+    },
+    {
+      "fact": "CONTRADICTION - lender count: 300+ (SlideShare deck, Weebly mirror, 2020 trade press) vs 500+ (LinkedIn) vs over 800 (current own site). Older mirrors/press likely outdated.",
+      "source": "Cross-source comparison (searches 4, 5, 7)",
+      "confidence": "high"
+    },
+    {
+      "fact": "CONTRADICTION - loan size: £2m–£20m (Weebly, Nextdoor, GoSimples, 2020 press) vs over £500,000 (current own site).",
+      "source": "Cross-source comparison (searches 5, 6, 7)",
+      "confidence": "high"
+    },
+    {
+      "fact": "CONTRADICTION - location: Nextdoor and GoSimples give 91 Wimpole Street (Marylebone); mortgage118 files the firm under Hackney, yet all share postcode W1G 0EF.",
+      "source": "Cross-source comparison (search 6)",
+      "confidence": "high"
+    },
+    {
+      "fact": "CONTRADICTION - self-description: 'wealth management business' (Nextdoor) vs 'Real Estate Finance professionals' (GoSimples) vs 'mortgage broker' (mortgage118) vs 'debt advisory firm' (Odoo) vs 'Independent Mortgage Broker' (Linktree).",
+      "source": "Cross-source comparison (searches 1, 3, 5, 6)",
+      "confidence": "high"
+    },
+    {
+      "fact": "CONTRADICTION (minor) - Africa coverage wording: 'South Africa' (Trustpilot) vs 'South & West Africa' (LinkedIn) vs 'southern Africa' (2020 press).",
+      "source": "Cross-source comparison (searches 2, 7)",
+      "confidence": "medium"
+    }
+  ],
+  "queriesRun": 7,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/third-profiles.json",
+  "queries": [
+    {
+      "n": 1,
+      "mode": "standard",
+      "query": "\"Silver Oak Capital\" linkedin finance broker London bridging development",
+      "refused": false
+    },
+    {
+      "n": 2,
+      "mode": "standard",
+      "query": "\"Silver Oak Capital\" trustpilot silveroakcapital.co.uk reviews",
+      "refused": false
+    },
+    {
+      "n": 3,
+      "mode": "standard",
+      "query": "\"Silver Oak Capital\" instagram OR linktree OR linktr.ee bridging loans development finance UK",
+      "refused": false
+    },
+    {
+      "n": 4,
+      "mode": "extended",
+      "query": "\"Silver Oak Capital\" slideshare finance brokers presentation",
+      "refused": false
+    },
+    {
+      "n": 5,
+      "mode": "extended",
+      "query": "\"Silver Oak Capital\" odoo OR weebly finance brokers bridging loans lenders",
+      "refused": false
+    },
+    {
+      "n": 6,
+      "mode": "extended",
+      "query": "\"Silver Oak Capital\" nextdoor OR gosimples OR mortgage118 OR syob finance brokers London",
+      "refused": false
+    },
+    {
+      "n": 7,
+      "mode": "extended",
+      "query": "\"Silver Oak Capital\" London Monaco Dubai \"Cape Town\" lenders bridging loans finance brokers",
+      "refused": false
+    }
+  ],
+  "excludedUnrelated": [
+    "Silver Oak Securities (US broker-dealer, joinsilveroaksecurities.com)",
+    "silver-oak.co.uk (builder, Trustpilot)",
+    "SilverOaks Companion (silveroakscompanion.co.uk)",
+    "Red Oak Capital Partners, Silverstone Financial, Oakridge Capital Partners, Oakstone Finance (Trustpilot noise)",
+    "Silver Oak Investment Thesis Challenge (Kellogg, Northwestern)"
+  ],
+  "notes": "Direct fetching blocked; all facts derive from WebSearch snippets/summaries only. 'verbatim' fields reproduce wording as quoted by the search tool; paraphrased items are marked medium/low. Own-site data included only as a flagged cross-reference to anchor contradictions."
+}

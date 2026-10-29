@@ -1,0 +1,139 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/marine-lease-finance/",
+  "title": "Marine Lease Finance",
+  "h1": "",
+  "metaDescription": "",
+  "summary": "Search snippets (not the full page) show that Silver Oak Capital's Marine Lease Finance page presents yacht leasing as a common financing route in continental Europe (France, Italy, Malta), mainly for vessels bought in the Mediterranean. The firm arranges marine lease structures and works with major French and Italian leasing banks, positioning the lease as an alternative to a traditional marine mortgage. Under a lease the bank buys the boat (rather than holding a charge over a boat the client owns); at the end of the term the lessee has an 'Option to Purchase' the vessel outright for a nominal fee, often about 1% of value. The page says leasing has historically offered significant VAT advantages and flexibility for owners navigating EU waters. Pricing, eligibility criteria, lease durations, LTV for leases and process steps are NOT revealed by the results for this page; related figures (1.00% broker fee, up to 70% LTV, 5-7 year mortgages with ~25% balloon, >20m vessels) come from OTHER Silver Oak pages surfaced alongside. Query (c) returned nothing about Silver Oak at all.",
+  "verbatim": [
+    "[a] Search-result title for the URL: \"Marine Lease Finance\"",
+    "[a] (tool summary) \"Silver Oak presents leasing as a common way to finance yachts in continental Europe, mainly France, Italy and Malta.\"",
+    "[a] (tool summary) \"The firm arranges marine lease structures and works with major French and Italian leasing banks, positioning this as an alternative to a traditional marine mortgage.\"",
+    "[a] (tool summary) \"Under a lease, the lender buys the boat rather than holding a charge over one you already own.\"",
+    "[a] (tool summary) \"At the end of the term, the lessee can take an option to purchase the vessel for a nominal fee, often cited as about 1% of value.\"",
+    "[b] (tool summary) \"Silver Oak says it arranges marine leases and works with major French and Italian leasing banks, mainly for vessels bought in the Mediterranean.\"",
+    "[b] (tool summary) \"Unlike a mortgage where you own the boat and the bank has a charge over it, in a marine lease, the bank buys the boat.\"",
+    "[b] (tool summary, page phrase quoted by tool) \"At the end, the lessee can \\\"Option to Purchase\\\" the vessel outright for a nominal fee (often 1% of the value).\"",
+    "[b] (tool summary) \"The page describes leasing as common in France, Italy and Malta, and says it has historically offered significant VAT advantages and flexibility for owners navigating EU waters.\"",
+    "[a] (FAQ page, not target page) \"The FAQ says leasing for commercial use can allow VAT reclaim on running costs, but the lease contract must be specifically drafted for \\\"Commercial Use\\\" rather than \\\"Private Pleasure Use.\\\"\"",
+    "[a] (FAQ page, not target page) \"It also notes that early settlement is more involved than with a mortgage, because a lease termination involves buying the asset from the bank ahead of schedule.\"",
+    "[b] (FAQ page, not target page; question wording not shown) \"On marine leases, the site says \\\"Yes, but it requires bank permission.\\\" Commercial leasing is possible and can allow you to reclaim VAT on running costs.\"",
+    "[a] (yacht-finance-calculator case study, not target page) \"standard yacht mortgages, typically 5 to 7 years with a balloon payment of around 25% of the original loan, and leases, which operate similarly to car finance or hire purchase agreements.\"",
+    "[b] (yacht-mortgages page, not target page) \"The firm also offers standard loans for vessels over about 20m. A yacht mortgage is a secured loan used to buy or refinance a yacht, where the yacht is the collateral.\"",
+    "[b] (unspecified 'marine finance page', not target page) \"One marine finance page lists typical broker fees for marine finance of 1.00% of the loan amount. Its indicative example is up to 70% LTV on an independent valuation.\"",
+    "[a] (firm positioning, page unspecified) \"Silver Oak Capital describes itself as specialising in real estate debt solutions, and does not operate as a high street mortgage broker but offers a bespoke solution for larger, more complex real estate transactions.\"",
+    "[a] (tool caveat) \"The results don't show lease pricing, eligibility criteria, or the regulatory status of the firm\"",
+    "[b] (tool caveat) \"Some pages in the results are older (one is about 700 days old), so current terms should be confirmed directly with Silver Oak.\"",
+    "[c] (tool statement) \"The search didn't turn up anything specific to Silver Oak Capital\"",
+    "[seed] Navigation group 'Marine': \"Marine / Boat Finance\", \"Yacht Mortgages\", \"Superyacht Finance\", \"Marine Lease Finance\", \"Pre-Construction Marine Finance\"",
+    "[seed] /introducers/: \"can arrange commercial mortgages, buy-to-let mortgages, bridging loans, development finance, marine finance, or aviation finance\""
+  ],
+  "sections": [
+    {
+      "heading": "What marine lease finance is (reconstructed topic, page heading not revealed)",
+      "content": "[a][b] Leasing is presented as a common way to finance yachts in continental Europe, mainly France, Italy and Malta. It is positioned as an alternative to a traditional marine mortgage. Unlike a mortgage, where the client owns the boat and the bank holds a charge over it, in a marine lease the bank buys the boat."
+    },
+    {
+      "heading": "What Silver Oak arranges (reconstructed topic)",
+      "content": "[a][b] Silver Oak arranges marine lease structures and works with major French and Italian leasing banks, mainly for vessels bought in the Mediterranean."
+    },
+    {
+      "heading": "End of term / Option to Purchase (reconstructed topic)",
+      "content": "[a][b] At the end of the lease term the lessee can exercise an 'Option to Purchase' the vessel outright for a nominal fee, often cited as about 1% of the value."
+    },
+    {
+      "heading": "VAT and EU-waters angle (reconstructed topic)",
+      "content": "[b] The page says leasing has historically offered significant VAT advantages and flexibility for owners navigating EU waters. [a] Related FAQ content (other page): leasing for commercial use can allow VAT reclaim on running costs, but the lease contract must be drafted for 'Commercial Use' rather than 'Private Pleasure Use'."
+    },
+    {
+      "heading": "Early settlement (from FAQ page, not target page)",
+      "content": "[a] Early settlement of a lease is more involved than with a mortgage because terminating a lease means buying the asset from the bank ahead of schedule. [b] A FAQ answer on marine leases reads 'Yes, but it requires bank permission.' (the question wording was not shown in the snippet)."
+    },
+    {
+      "heading": "Comparison with yacht mortgages (from other Silver Oak pages)",
+      "content": "[a] Yacht finance calculator case study: standard yacht mortgages typically 5 to 7 years with a balloon payment of around 25% of the original loan; leases operate similarly to car finance or hire purchase agreements. [b] Yacht mortgages page: standard loans for vessels over about 20m; a yacht mortgage is a secured loan to buy or refinance a yacht with the yacht as collateral. [b] An unspecified marine finance page: typical broker fee 1.00% of loan amount; indicative example up to 70% LTV on an independent valuation."
+    }
+  ],
+  "services": [
+    "Marine lease finance / yacht leasing arrangement (lease structures with French and Italian leasing banks) [a][b]",
+    "Alternative to traditional marine (yacht) mortgage [a]",
+    "Related on-site services: Marine / Boat Finance, Yacht Mortgages, Superyacht Finance, Pre-Construction Marine Finance [seed]"
+  ],
+  "useCases": [
+    "Financing a yacht bought in the Mediterranean through a lease rather than a mortgage [b]",
+    "Owners navigating EU waters seeking VAT advantages and flexibility (historically) [b]",
+    "Commercial-use leasing to reclaim VAT on running costs (FAQ page; contract must be drafted for 'Commercial Use') [a][b]",
+    "Acquiring the vessel outright at the end of the lease via Option to Purchase for a nominal fee [a][b]"
+  ],
+  "terms": [
+    "End-of-term Option to Purchase for a nominal fee, often about 1% of the vessel's value [a][b]",
+    "Lease pricing, lease duration, deposit/LTV for leases: NOT revealed for this page [a]",
+    "Other pages (not this one): typical marine finance broker fee 1.00% of loan amount; indicative up to 70% LTV on independent valuation [b]",
+    "Other pages (not this one): standard yacht mortgages typically 5 to 7 years with ~25% balloon of original loan [a]",
+    "Other pages (not this one): standard loans for vessels over about 20m [b]",
+    "Security/ownership: under a lease the bank owns (buys) the boat; under a mortgage the client owns it and the bank holds a charge [a][b]",
+    "Early termination of a lease requires buying the asset from the bank ahead of schedule; more involved than mortgage settlement (FAQ page) [a]; 'Yes, but it requires bank permission.' (FAQ page, question not shown) [b]"
+  ],
+  "eligibility": [
+    "Not revealed by the results for this page [a]",
+    "Implied scope: vessels bought in the Mediterranean; leasing common in France, Italy, Malta [a][b]",
+    "VAT reclaim on running costs only if the lease is drafted for 'Commercial Use' not 'Private Pleasure Use' (FAQ page) [a]"
+  ],
+  "lenderTypes": [
+    "Major French leasing banks [a][b]",
+    "Major Italian leasing banks [a][b]"
+  ],
+  "processSteps": [
+    "Not revealed by the results. Only the structure is described: the bank buys the boat and leases it; at the end of the term the lessee can exercise an Option to Purchase for a nominal fee (~1% of value) [a][b]"
+  ],
+  "faq": [
+    {
+      "q": "(FAQ page) Can a marine lease be used for commercial use / to reclaim VAT?",
+      "a": "[a][b] Leasing for commercial use can allow VAT reclaim on running costs, but the lease contract must be specifically drafted for 'Commercial Use' rather than 'Private Pleasure Use'. Snippet [b] pairs this with the answer 'Yes, but it requires bank permission.' (exact question wording not shown)."
+    },
+    {
+      "q": "(FAQ page) Can a marine lease be settled early?",
+      "a": "[a] Early settlement is more involved than with a mortgage, because a lease termination involves buying the asset from the bank ahead of schedule."
+    }
+  ],
+  "claims": [
+    {"claim": "Leasing is a common way to finance yachts in continental Europe, mainly France, Italy and Malta [a][b]", "kind": "market-statement"},
+    {"claim": "Silver Oak works with major French and Italian leasing banks [a][b]", "kind": "lender-relationship"},
+    {"claim": "Option to Purchase at end of term for a nominal fee, often 1% of the value [a][b]", "kind": "number"},
+    {"claim": "Leasing has historically offered significant VAT advantages and flexibility for owners navigating EU waters [b]", "kind": "benefit"},
+    {"claim": "Commercial-use leases can allow VAT reclaim on running costs (FAQ page) [a][b]", "kind": "benefit"},
+    {"claim": "Typical marine finance broker fee 1.00% of loan amount (unspecified marine finance page, not target page) [b]", "kind": "fee"},
+    {"claim": "Indicative example up to 70% LTV on an independent valuation (unspecified marine finance page, not target page) [b]", "kind": "number"},
+    {"claim": "Standard yacht mortgages typically 5 to 7 years with balloon of around 25% of original loan (yacht-finance-calculator case study) [a]", "kind": "number"},
+    {"claim": "Standard loans for vessels over about 20m (yacht-mortgages page) [b]", "kind": "number"},
+    {"claim": "Firm specialises in real estate debt solutions; not a high street mortgage broker; bespoke solution for larger, more complex real estate transactions [a]", "kind": "positioning"},
+    {"claim": "No testimonials, awards or credentials surfaced for this page [a][b][c]", "kind": "absence"}
+  ],
+  "geography": [
+    "Continental Europe: France, Italy, Malta (where leasing is common) [a][b]",
+    "Mediterranean (vessels bought there) [b]",
+    "EU waters (VAT/flexibility angle) [b]",
+    "French and Italian leasing banks [a][b]"
+  ],
+  "ctas": [
+    "Not revealed by the results for this page. Site-wide contact routes per seed: enquiry form, enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp [seed]"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/marine-lease-finance/ [a][b]",
+    "https://www.silveroakcapital.co.uk/yacht-mortgages/ (title: Yacht Mortgages & Marine Finance for Luxury Vessels) [a][b]",
+    "https://www.silveroakcapital.co.uk/marine-finance/ (title: Boat Finance UK) [b]",
+    "https://www.silveroakcapital.co.uk/pre-construction-marine-finance/ [a][b]",
+    "https://www.silveroakcapital.co.uk/faq/ (title: Property Finance FAQs) [a][b]",
+    "https://www.silveroakcapital.co.uk/types-of-borrowing/ (title: Wealth Management) [b]",
+    "https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/ [a][b]",
+    "https://www.silveroakcapital.co.uk/case-studies/yacht-finance-calculator/ [a][b]",
+    "https://www.silveroakcapital.co.uk/aviation-finance-lease-advisory/ (title: Aviation Finance & Leasing) [b] - NOT in seed page list",
+    "External: https://uk.linkedin.com/company/silver-oak-capital [a]",
+    "External: https://www.instagram.com/silveroakcapitaluk/ [a] - not in seed",
+    "External: https://www.lettingagenttoday.co.uk/trades-directory/silver-oak-capital/ [a] - not in seed"
+  ],
+  "confidence": "medium-low",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/marine-lease-finance.json",
+  "notes": "Queries: (a) extended, exact URL; (b) extended, 'site:silveroakcapital.co.uk marine lease finance yacht'; (c) standard, '\"Silver Oak Capital\" marine lease finance how it works' - (c) returned only generic shipping-lease articles (KKR, Reed Smith, etc.) and nothing about Silver Oak; ignored. H1 and meta description were not revealed; 'Marine Lease Finance' is the search-engine result title. Section headings above are reconstructed topics, not confirmed page headings. Most text is the search tool's summary of snippets rather than verbatim page copy; only 'Option to Purchase', 'Commercial Use', 'Private Pleasure Use' and 'Yes, but it requires bank permission.' appear as direct page quotes. Facts attributed to the target page itself: leasing common in France/Italy/Malta; Silver Oak arranges leases with major French and Italian leasing banks; mainly Mediterranean purchases; bank buys the boat vs mortgage charge; Option to Purchase ~1%; historic VAT advantages/flexibility in EU waters. The 1.00% fee / 70% LTV figures are from an unspecified 'marine finance page' (likely /marine-finance/ or /types-of-borrowing/), the 5-7 yr / 25% balloon from the yacht-finance-calculator case study, and the >20m vessel size from /yacht-mortgages/ - none confirmed as on the target page. Tool [b] warns some surfaced pages are ~700 days old. No contradictions found within these results; seed has no snippet for this path. New URL discovered: /aviation-finance-lease-advisory/ (not in seed)."
+}

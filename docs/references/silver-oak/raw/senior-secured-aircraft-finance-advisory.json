@@ -1,0 +1,136 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/senior-secured-aircraft-finance-advisory/",
+  "title": "Aircraft Finance Advisory",
+  "summary": "Service page for Silver Oak Capital's senior secured aircraft finance advisory. Search results (a) and (b) both returned the page under the title 'Aircraft Finance Advisory' but only in truncated/summarised form. According to the search tool's summaries, the page describes senior secured aircraft finance as a loan where the borrower pledges the aircraft as first-ranking security, presents it as the lowest-risk form of aircraft finance sitting at the top of the capital stack, lists lender types (commercial banks, specialist aviation lenders, institutional lenders, private credit funds), says cost depends on aircraft age and type, borrower financial standing and how the aircraft is used, notes that older aircraft (roughly 20 to 25 years old) are harder and more expensive to finance, and lists uses as acquisitions, refinancing and debt restructuring. Related aviation pages surfaced: /aviation-finance/, /aviation-finance-lease-advisory/, /aviation-operating-lease-finance-advisory/, /case-studies/aircraft-loan-falcon-900/ (70% LTV, 4.45% fixed, 72 months, Dubai-based client) and /case-studies/top-aviation-firms/. Age-based LTV bands, 3-12 year terms and 4-12 week timelines were attributed by the search tool to 'the FAQ page', not confirmed as text of the target page. Search (c) returned no Silver Oak Capital content at all. No H1, meta description, literal page sentences, fees, process steps, testimonials or calls to action were revealed. The seed file contains no first-pass snippet for this path.",
+  "h1": "",
+  "metaDescription": "",
+  "sections": [
+    {
+      "heading": "What senior secured aircraft finance is (inferred from search summary [a][b])",
+      "content": "A loan where the borrower pledges the aircraft as first-ranking security. Presented as the lowest-risk form of aircraft finance, sitting at the top of the capital stack. Heading wording not revealed."
+    },
+    {
+      "heading": "Who lends (inferred from search summary [a][b])",
+      "content": "Commercial banks, specialist aviation lenders, institutional lenders, and private credit funds. Heading wording not revealed."
+    },
+    {
+      "heading": "What drives the cost (inferred from search summary [a])",
+      "content": "The aircraft's age and type, the borrower's financial standing, and how the aircraft is used. Older aircraft, roughly 20 to 25 years old, are harder and more expensive to finance. Heading wording not revealed."
+    },
+    {
+      "heading": "Uses (inferred from search summary [a])",
+      "content": "Acquisitions, refinancing, and debt restructuring. Heading wording not revealed."
+    }
+  ],
+  "verbatim": [
+    "[a] Page title as listed by the search tool: \"Aircraft Finance Advisory\"",
+    "[a] \"It describes senior secured aircraft finance as a loan where the borrower pledges the aircraft as first-ranking security, and it presents this as the lowest-risk form of aircraft finance, sitting at the top of the capital stack\" (search tool summary, not literal page text)",
+    "[a] \"Lenders include commercial banks, specialist aviation lenders, institutional lenders, and private credit funds\" (search tool summary)",
+    "[a] \"The page also says the cost depends on factors such as the aircraft's age and type, the borrower's financial standing, and how the aircraft is used.\" (search tool summary)",
+    "[a] \"It notes that older aircraft, roughly 20 to 25 years old, are harder and more expensive to finance\" (search tool summary)",
+    "[a] \"Uses include acquisitions, refinancing, and debt restructuring\" (search tool summary)",
+    "[a] Related page /aviation-finance/: \"Its aviation finance page describes secured bank loans and leases as the two main routes\" (search tool summary)",
+    "[a] Related page /case-studies/aircraft-loan-falcon-900/: \"reports a deal at 70% loan-to-value with a 4.45% fixed rate over 72 months\" (search tool summary)",
+    "[a] \"The site's dates and 'age' metadata are inconsistent, so the current terms shown on these pages may not be up to date.\" (search tool caveat)",
+    "[b] \"The advisory page describes senior secured lending as the lowest-risk form of aircraft finance, sitting at the top of the capital stack. Lenders include commercial banks, specialist aviation lenders, institutional lenders, and private credit funds.\" (search tool summary)",
+    "[b] Attributed to the FAQ page, not the target page: \"loan-to-value ratios depend on age, with younger aircraft (0-5 years) potentially reaching 85%, and older aircraft (12-20 years) often capped at 40-55%. Loan terms usually run three to twelve years.\" (search tool summary)",
+    "[b] Attributed to the FAQ page, not the target page: \"a simple transaction in a familiar jurisdiction could take 4-8 weeks, while complex deals may need 8-12 weeks.\" (search tool summary)",
+    "[b] Related case study: \"A Falcon 900 case study reports financing at 70% LTV with a 4.45% fixed rate over a 72-month term for a Dubai-based client.\" (search tool summary)",
+    "[b] \"The site also covers operating leases, finance leases, and aviation bridging loans.\" (search tool summary)",
+    "[b] \"The advisory page was indexed about 213 days ago, and the Falcon 900 case study about 37 days ago\" (search tool metadata, relative to 2026-10-29)",
+    "[c] \"The search didn't turn up anything about Silver Oak Capital. None of the results mention the firm\" (search tool summary; results were US Airways SEC filings, AFME paper, AIN, Aircraft Value News, White Oak/CIT - all unrelated)",
+    "[seed] Navigation lists the Aviation service group as: \"Aviation Finance (secured loan, operating lease, finance lease)\", \"Aviation Bridging Loans\", \"Senior Secured Aircraft Finance Advisory\"",
+    "[seed] /introducers/ snippet: the firm \"can arrange commercial mortgages, buy-to-let mortgages, bridging loans, development finance, marine finance, or aviation finance\""
+  ],
+  "services": [
+    "Senior secured aircraft finance advisory (loan secured by first-ranking security over the aircraft) [a][b]",
+    "Aircraft acquisition finance [a]",
+    "Aircraft refinancing [a]",
+    "Aircraft debt restructuring [a]",
+    "Related on site: aviation finance via secured bank loans and leases [a]",
+    "Related on site: aircraft operating lease finance (/aviation-operating-lease-finance-advisory/) [b]",
+    "Related on site: aviation finance lease advisory (/aviation-finance-lease-advisory/) [a][b]",
+    "Related on site: aviation bridging loans [b][seed]"
+  ],
+  "useCases": [
+    "Aircraft acquisitions [a]",
+    "Refinancing an existing aircraft loan [a]",
+    "Debt restructuring [a]",
+    "Case study context: Falcon 900 loan for a Dubai-based client at 70% LTV [a][b]"
+  ],
+  "terms": [
+    "Security: first-ranking security over the aircraft (senior, top of the capital stack) [a][b]",
+    "Cost drivers: aircraft age and type, borrower financial standing, how the aircraft is used [a]",
+    "Aircraft aged roughly 20-25 years: harder and more expensive to finance [a]",
+    "Case study (Falcon 900, separate page): 70% LTV, 4.45% fixed rate, 72-month term [a][b]",
+    "Attributed by search tool to the FAQ page (not confirmed on target page): LTV up to 85% for aircraft 0-5 years old; 40-55% cap for aircraft 12-20 years old [b]",
+    "Attributed by search tool to the FAQ page (not confirmed on target page): loan terms usually 3 to 12 years [b]",
+    "Attributed by search tool to the FAQ page (not confirmed on target page): timescale 4-8 weeks for a simple transaction in a familiar jurisdiction, 8-12 weeks for complex deals [b]",
+    "Fees: not revealed by any result",
+    "Minimum/maximum loan size: not revealed for this page (seed: firm generally focuses on transactions upwards of GBP 500,000 per /lenders/)"
+  ],
+  "eligibility": [
+    "Borrower financial standing is a pricing/eligibility factor [a]",
+    "Aircraft age and type affect availability and cost; aircraft roughly 20-25 years old are harder to finance [a]",
+    "Aircraft usage (how the aircraft is used) is a factor [a]",
+    "No explicit eligibility list, jurisdiction restrictions or borrower types were revealed for this page"
+  ],
+  "lenderTypes": [
+    "Commercial banks [a][b]",
+    "Specialist aviation lenders [a][b]",
+    "Institutional lenders [a][b]",
+    "Private credit funds [a][b]"
+  ],
+  "processSteps": [],
+  "faq": [
+    {
+      "q": "What loan-to-value can be achieved on an aircraft? (attributed by search tool to the site's FAQ page, not confirmed on target page)",
+      "a": "Depends on age: younger aircraft (0-5 years) potentially up to 85%; older aircraft (12-20 years) often capped at 40-55%. [b]"
+    },
+    {
+      "q": "How long are aircraft loan terms? (attributed by search tool to the site's FAQ page)",
+      "a": "Usually three to twelve years. [b]"
+    },
+    {
+      "q": "How long does an aircraft financing take? (attributed by search tool to the site's FAQ page)",
+      "a": "4-8 weeks for a simple transaction in a familiar jurisdiction; 8-12 weeks for complex deals. [b]"
+    }
+  ],
+  "claims": [
+    {"claim": "Senior secured aircraft finance is presented as the lowest-risk form of aircraft finance, sitting at the top of the capital stack [a][b]", "kind": "positioning"},
+    {"claim": "The borrower pledges the aircraft as first-ranking security [a]", "kind": "product-definition"},
+    {"claim": "Lenders include commercial banks, specialist aviation lenders, institutional lenders, and private credit funds [a][b]", "kind": "lender-network"},
+    {"claim": "Cost depends on aircraft age and type, borrower financial standing, and how the aircraft is used [a]", "kind": "pricing-factor"},
+    {"claim": "Older aircraft, roughly 20 to 25 years old, are harder and more expensive to finance [a]", "kind": "market-statement"},
+    {"claim": "Uses include acquisitions, refinancing, and debt restructuring [a]", "kind": "use-case"},
+    {"claim": "Falcon 900 case study (separate page): 70% LTV, 4.45% fixed rate, 72-month term, Dubai-based client [a][b]", "kind": "case-study-number"},
+    {"claim": "LTV up to 85% (0-5 yr aircraft), 40-55% (12-20 yr aircraft); terms 3-12 years; 4-8 or 8-12 week timelines - attributed by search tool to the FAQ page [b]", "kind": "terms-from-related-page"},
+    {"claim": "Target page indexed about 213 days before 2026-10-29; search tool warns site date/age metadata is inconsistent [a][b]", "kind": "metadata"},
+    {"claim": "No lender-count figure, testimonial, award, credential or guarantee was revealed for this page", "kind": "absence"}
+  ],
+  "geography": [
+    "Case study client Dubai-based (Falcon 900, separate page) [b]",
+    "'Familiar jurisdiction' vs complex/other jurisdictions affects timescale (attributed to FAQ page) [b]",
+    "No geography stated for the target page itself; seed: firm covers UK, Western Europe, Middle East, United States"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/senior-secured-aircraft-finance-advisory/ [a][b]",
+    "https://www.silveroakcapital.co.uk/aviation-finance/ [a][b]",
+    "https://www.silveroakcapital.co.uk/aviation-finance-lease-advisory/ [a][b] (NEW - not in seed; title 'Aviation Finance & Leasing')",
+    "https://www.silveroakcapital.co.uk/aviation-operating-lease-finance-advisory/ [b] (NEW - not in seed; title 'Aircraft Operating Lease Finance')",
+    "https://www.silveroakcapital.co.uk/case-studies/aircraft-loan-falcon-900/ [a][b]",
+    "https://www.silveroakcapital.co.uk/case-studies/top-aviation-firms/ [a][b]",
+    "https://www.silveroakcapital.co.uk/types-of-borrowing/ [a] (title 'Wealth Management')",
+    "https://www.silveroakcapital.co.uk/distressed-asset-finance/ [b] (title 'Distressed Asset Finance UK')",
+    "https://www.silveroakcapital.co.uk/faq/ [b] (title 'Property Finance FAQs')",
+    "https://www.silveroakcapital.co.uk/case-studies/silver-oak-capital-added-to-spears-500-list-for-2022/ [b]",
+    "https://www.silveroakcapital.co.uk/introducers/ [b] (title 'Property Finance Introducers UK')",
+    "https://uk.linkedin.com/company/silver-oak-capital [a] (external)"
+  ],
+  "notes": "Seed file has no 'snippetsFromFirstPass' entry for this path; only navigation context applies. The search tool returned paraphrased summaries rather than literal snippets, so the 'verbatim' entries quote the tool's wording exactly but are NOT confirmed page sentences. H1 and meta description were not revealed (title tag appears to be 'Aircraft Finance Advisory'). Contradiction/ambiguity: search (b) attributes the age-banded LTV figures (85% / 40-55%), 3-12 year terms and 4-12 week timelines to 'the FAQ page' - the seed's /faq/ snippet contains only property content, so these may actually come from an FAQ block on the target page or a related aviation page; treat the attribution as unverified. Search (a) says older aircraft '20 to 25 years old' are harder to finance while (b) FAQ bands cite '12-20 years' capped at 40-55% - consistent in direction but different age brackets. Search (c) was useless for this firm (US Airways SEC filings, AFME, AIN, White Oak Commercial Aviation - all ignored as unrelated). Two new on-site URLs surfaced that are absent from the seed: /aviation-finance-lease-advisory/ and /aviation-operating-lease-finance-advisory/. Search tool warned the target page was indexed ~213 days ago and that site date metadata is inconsistent; figures may be stale. Process steps, fees, CTAs, testimonials and awards: none revealed.",
+  "confidence": "low-medium: page existence, title and four content themes (definition/first-ranking security, lender types, cost drivers incl. 20-25 yr aircraft, uses) are corroborated across two searches, but all wording is search-tool paraphrase, no literal page text or H1/meta was obtained, and the numeric terms are attributed to a different page",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/senior-secured-aircraft-finance-advisory.json"
+}

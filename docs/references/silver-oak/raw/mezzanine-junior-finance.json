@@ -1,0 +1,125 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/mezzanine-junior-finance/",
+  "title": "Mezzanine Finance UK",
+  "h1": "",
+  "metaDescription": "",
+  "summary": "Silver Oak Capital's mezzanine / junior finance page (search-result title 'Mezzanine Finance UK') sits under the Development menu as 'Mezzanine / Junior Finance'. Per the search tool's summary of the page [b], it describes mezzanine as a junior loan placed behind senior debt where the lender takes a second charge, explains that the second-charge position carries higher risk and therefore a higher interest rate than the senior facility, and gives an example capital stack of roughly 65% senior debt, 10-20% mezzanine and a small developer equity share. Related site pages seen in the same results position stretch senior and whole loans as single-lender alternatives combining senior and mezzanine debt, and the FAQ frames mezzanine as debt (borrower keeps remaining profit) rather than a profit-share. H1, meta description, loan sizes, durations, fees, timescales and process steps for the mezzanine page itself were NOT revealed by any of the 3 searches. Direct fetching was blocked; everything comes from search snippets/summaries.",
+  "sections": [
+    {
+      "heading": "What is mezzanine / junior finance (as described on the page)",
+      "content": "[b] Silver Oak describes mezzanine as a junior loan placed behind senior debt, with the lender taking a second charge. [seed, Scotland blog] mezzanine is 'a secondary loan that sits behind senior debt, reducing the developer's equity requirement'. [seed, /types-of-borrowing/] the development finance options listed are senior, stretched senior, mezzanine/second charge and joint venture equity."
+    },
+    {
+      "heading": "Risk and pricing",
+      "content": "[b] 'Because the Mezzanine lender is in a second charge position, the risk is higher, and therefore the interest rate is higher than the senior facility.' No numeric mezzanine rate was revealed. For comparison, the stretch senior page [b] puts the blended cost of a stretch senior loan at 'typically between 8% and 10% per annum (plus execution fees)'."
+    },
+    {
+      "heading": "Example capital stack",
+      "content": "[b] The page gives an example capital stack of roughly 65% senior debt, 10-20% mezzanine, and a small developer equity share. [seed, Scotland blog] 'Senior development loans cover a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value.'"
+    },
+    {
+      "heading": "Mezzanine vs profit share (from /faq/)",
+      "content": "[b] Mezzanine is presented as debt rather than a profit-sharing partnership, so the borrower keeps the remaining profit. 'If your project is highly profitable, mezzanine finance is usually cheaper than giving away half your profit.'"
+    },
+    {
+      "heading": "Alternatives promoted on the site: stretch senior and whole loans",
+      "content": "[b] Silver Oak promotes stretch senior and whole loans as single-lender options that combine senior and mezzanine debt. [a] The whole-loans page frames mezzanine as a separate layer that sits alongside a bank's senior loan in a high-leverage deal, says Silver Oak has direct relationships with pension funds, hedge funds and private equity managers, and claims a whole loan can cut legal costs because the borrower pays for two sets of lawyers instead of three."
+    },
+    {
+      "heading": "Broker positioning (homepage, seen in same results)",
+      "content": "[b] The homepage says the firm 'arranges debt on a wide range of real estate and luxury assets transactions across the UK, US, Western Europe and the Middle East through our network of over 800 lenders'. [seed, /property-development-finance/] access to a vast network of senior debt, mezzanine debt and equity lenders; typically narrows to 3 or 4 potential lending partners per deal."
+    }
+  ],
+  "verbatim": [
+    "[b] Search-result title of the page: \"Mezzanine Finance UK\"",
+    "[b] \"Because the Mezzanine lender is in a second charge position, the risk is higher, and therefore the interest rate is higher than the senior facility.\"",
+    "[b] (/faq/) \"If your project is highly profitable, mezzanine finance is usually cheaper than giving away half your profit.\"",
+    "[b] (/stretch-senior-development-finance/) blended cost \"typically between 8% and 10% per annum (plus execution fees)\"",
+    "[b] (homepage) \"arranges debt on a wide range of real estate and luxury assets transactions across the UK, US, Western Europe and the Middle East through our network of over 800 lenders\"",
+    "[a] (/whole-loans/, search-tool wording, not confirmed verbatim) mezzanine is \"a separate layer that sits alongside a bank's senior loan in a high-leverage deal\"; whole loan means \"the borrower pays for two sets of lawyers instead of three\"",
+    "[c] (LinkedIn, Joe Berk) firm described as a finance arranger \"with access to over 800 lenders\"; \"arranged a £4 million bridging loan on a Kensington residential property\"",
+    "[seed] (/how-does-property-development-finance-in-scotland/) mezzanine: \"a secondary loan that sits behind senior debt, reducing the developer's equity requirement\"",
+    "[seed] (/how-does-property-development-finance-in-scotland/) \"Senior development loans cover a percentage of land purchase and construction costs, typically up to 65-75% of Gross Development Value.\"",
+    "[seed] (navigation) menu label under Development: \"Mezzanine / Junior Finance\""
+  ],
+  "services": [
+    "Mezzanine / junior development finance (second-charge loan behind senior debt) [b][seed]",
+    "Stretch senior development finance (single-lender alternative combining senior + mezzanine) [b]",
+    "Whole loans (single-lender alternative combining senior + mezzanine) [a][b]",
+    "Senior development finance [seed]",
+    "Joint venture equity (listed on older /types-of-borrowing/ page) [seed]"
+  ],
+  "useCases": [
+    "Reducing the developer's equity requirement on a development scheme [seed]",
+    "Topping up a senior development facility (example stack ~65% senior + 10-20% mezzanine + small developer equity) [b]",
+    "Retaining project profit instead of giving away a profit share to a JV partner [b, /faq/]",
+    "High-leverage development deals where a mezzanine layer sits alongside a bank's senior loan [a, /whole-loans/]"
+  ],
+  "terms": [
+    "Security: second charge behind the senior lender [b]",
+    "Pricing: interest rate higher than the senior facility; no mezzanine rate figure revealed [b]",
+    "Example capital stack: roughly 65% senior debt, 10-20% mezzanine, small developer equity share [b]",
+    "Comparison: stretch senior blended cost typically 8%-10% per annum plus execution fees [b, related page]",
+    "Comparison: senior development loans typically up to 65-75% of GDV [seed, Scotland blog]",
+    "Broker fees around 1% (older /types-of-borrowing/ page; not confirmed for mezzanine page) [seed]",
+    "NOT revealed for this page: loan sizes, durations, timescales, arrangement/exit fees, max LTGDV/LTC for mezzanine"
+  ],
+  "eligibility": [
+    "Not revealed on the mezzanine page by any search.",
+    "Firm-level (seed): generally focuses on transactions upwards of £500,000 (/lenders/); 'loans between £500K to £20m' (/about-us/)."
+  ],
+  "lenderTypes": [
+    "Senior debt, mezzanine debt and equity lenders (network) [seed, /property-development-finance/]",
+    "Pension funds, hedge funds, private equity managers (direct relationships, per /whole-loans/) [a]",
+    "Banks providing the senior loan alongside a mezzanine layer [a]",
+    "Lender count: 'over 800 lenders' [b homepage, c LinkedIn]; seed also records 300+/500+/700+ on other pages (contradiction)"
+  ],
+  "processSteps": [
+    "Not revealed for this page.",
+    "Firm-level (seed): typically narrows lenders to as many as 3 or 4 potential partners per deal (/property-development-finance/, /commercial-mortgage-broker/)."
+  ],
+  "faq": [
+    {
+      "q": "Is mezzanine finance cheaper than giving away a share of profit?",
+      "a": "[b, /faq/] Mezzanine is debt rather than a profit-sharing partnership, so the borrower keeps the remaining profit. 'If your project is highly profitable, mezzanine finance is usually cheaper than giving away half your profit.'"
+    },
+    {
+      "q": "Why is mezzanine more expensive than senior debt?",
+      "a": "[b] 'Because the Mezzanine lender is in a second charge position, the risk is higher, and therefore the interest rate is higher than the senior facility.'"
+    }
+  ],
+  "claims": [
+    {"kind": "number", "claim": "Network of over 800 lenders [b homepage][c LinkedIn]; seed shows 300+ (/property-development-finance/), 500+ (LinkedIn), 700+ (/bridging-loans-uk/) on other pages"},
+    {"kind": "number", "claim": "Example capital stack ~65% senior / 10-20% mezzanine / small developer equity [b]"},
+    {"kind": "number", "claim": "Stretch senior blended cost typically 8%-10% p.a. plus execution fees [b, related page]"},
+    {"kind": "credential", "claim": "Direct relationships with pension funds, hedge funds and private equity managers [a, /whole-loans/]"},
+    {"kind": "promise", "claim": "Whole loan can cut legal costs: two sets of lawyers instead of three [a, /whole-loans/]"},
+    {"kind": "track-record", "claim": "£4 million bridging loan arranged on a Kensington residential property [c, LinkedIn post by Joe Berk]; seed case-study URL says '3-6-million-bridging-loan-prime-kensington-property' (£3.6m) - possible contradiction or different deal"},
+    {"kind": "geography", "claim": "Arranges debt across the UK, US, Western Europe and the Middle East [b homepage]"}
+  ],
+  "geography": [
+    "United Kingdom (page title 'Mezzanine Finance UK') [b]",
+    "UK, US, Western Europe, Middle East (homepage) [b]"
+  ],
+  "ctas": [
+    "Not revealed for this page.",
+    "Firm-level (seed): enquiry form, direct email enquiry@silveroakcapital.co.uk, WhatsApp, +44 207 459 4440"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/mezzanine-junior-finance/",
+    "https://www.silveroakcapital.co.uk/whole-loans/",
+    "https://www.silveroakcapital.co.uk/stretch-senior-development-finance/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/property-development-finance/",
+    "https://www.silveroakcapital.co.uk/post-planning-land-acquisitions/",
+    "https://www.silveroakcapital.co.uk/complex-offshore-structures/",
+    "https://www.silveroakcapital.co.uk/your-trusted-local-finance-brokers-for-smart-lending-solutions/",
+    "https://www.silveroakcapital.co.uk/how-does-property-development-finance-in-scotland/"
+  ],
+  "confidence": "low-medium",
+  "notes": "Query (a) [extended, exact URL] did NOT return the mezzanine page; it returned /whole-loans/ plus unrelated Oaktree Capital results (ignored). Query (b) [extended, site: search] was the only one to surface the page, and the content is the search tool's summary with two sentences that read as verbatim. Query (c) [standard] returned nothing on Silver Oak's mezzanine terms; only a LinkedIn post (Joe Berk) with 800+ lenders and a £4m Kensington bridge; Bloomberg 'Silver Point / Sweet Oak' results are unrelated and ignored. The search tool noted result ages of roughly 183 to 617 days for query (b). H1 and meta description not revealed. Contradictions: lender count (300+/500+/700+/800+ across pages); Kensington bridge £4m (LinkedIn) vs £3.6m (case-study slug). No loan sizes, durations, fees or LTGDV caps specific to mezzanine were found.",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/mezzanine-junior-finance.json"
+}

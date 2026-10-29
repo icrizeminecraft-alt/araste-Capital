@@ -1,0 +1,148 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/pre-construction-marine-finance/",
+  "title": "Pre-Construction Marine Finance",
+  "h1": "NOT CONFIRMED - the search link title for the page is 'Pre-Construction Marine Finance' [a][b]; the H1 itself was not revealed",
+  "metaDescription": "NOT REVEALED by search results",
+  "summary": "Silver Oak Capital's page describes funding arranged before physical construction starts on a new-build vessel (usually a yacht or superyacht). The facility covers early costs - shipyard signing deposit, design and project-management fees, long-lead equipment ordered early, yard slot reservations - because a standard marine mortgage cannot be used while the asset does not legally exist yet. The firm says it specialises in this and provides the liquidity to fund shipyard stage payments; once the build starts the facility often rolls into stage-payment (construction) finance drawn in tranches. A separate /faq/ answer says pre-construction finance is typically interest only, with monthly interest serviced on funds drawn and capital repaid or refinanced into a mortgage on delivery. No loan sizes, rates, durations, timescales, lender counts, testimonials or CTAs for this page were revealed. Related marine pages add: export credit market for new builds, yachts typically over 20m, British/Cayman/BVI/Maltese registers, 1.00% broker fee and an old 'up to 70% LTV' indicative example (dated ~700 days old, possibly outdated).",
+  "sections": [
+    {
+      "heading": "What pre-construction marine finance is (heading reconstructed, not confirmed)",
+      "content": "Funding arranged before physical construction starts on a new-build vessel, usually a yacht or superyacht [a]. The firm states it specialises in pre-construction marine finance and provides the liquidity to fund the shipyard stage payments during the build [b]."
+    },
+    {
+      "heading": "What the facility covers (heading reconstructed)",
+      "content": "Early costs such as the shipyard / signing deposit, design work and project-management fees, long-lead equipment ordered early, and yard slot reservations [a][b]."
+    },
+    {
+      "heading": "Why a standard marine mortgage cannot be used (heading reconstructed)",
+      "content": "Standard marine mortgages cannot be used because the asset (the boat) does not legally exist yet, so a different structure is required [a][b]."
+    },
+    {
+      "heading": "Transition into stage-payment / construction finance (heading reconstructed)",
+      "content": "Once the build starts, the pre-construction facility often rolls into stage-payment (construction) finance, where money is drawn in tranches as the build progresses [a][b]."
+    },
+    {
+      "heading": "Interest and repayment (from /faq/ page, not the target page)",
+      "content": "Pre-construction finance is typically interest only. The borrower services the monthly interest on the funds drawn, and the capital is either repaid or refinanced into a mortgage upon delivery of the vessel [a]; (b) independently confirms 'typically interest only'."
+    },
+    {
+      "heading": "Context from related marine pages (not the target page)",
+      "content": "/marine-finance/ ('Boat Finance UK'): the firm can also use the export credit market to help fund a brand-new yacht build; boat finance for yachts typically over 20m in length; yachts financed are typically registered on the British, Cayman, BVI and Maltese registers [b]. /types-of-borrowing/ ('Wealth Management'): typical broker fee for marine finance of 1.00% of the loan amount [b]. An older marine finance page (~700 days old) lists 'Pre-build Payment Financing', 'Senior Secured Mortgage (Post-build)', a broker fee of 1.00% of the loan amount and an indicative example of up to 70% LTV, which may no longer reflect current terms [a]. /marine-lease-finance/: new-build or stage-payment leasing, where the lessor funds the shipyard in stages as build milestones are reached [b]."
+    }
+  ],
+  "verbatim": [
+    "[a] \"funding arranged before physical construction starts on a new-build vessel (usually a yacht or superyacht)\"",
+    "[a] \"The money covers early costs such as the shipyard deposit, design work, and long-lead equipment ordered early.\"",
+    "[a] \"The page says standard marine mortgages cannot be used because the asset (the boat) does not legally exist yet.\"",
+    "[a] \"Once the build starts, this pre-construction facility often rolls into stage-payment (construction) finance, where money is drawn in tranches as the build progresses.\"",
+    "[a] \"A separate FAQ page says pre-construction finance is typically interest only. You service the monthly interest on the funds drawn, and the capital is either repaid or refinanced into a mortgage upon delivery of the vessel.\"",
+    "[a] \"An older marine finance page, dated about 700 days ago, lists Pre-build Payment Financing, Senior Secured Mortgage (Post-build) and a broker fee of 1.00% of the loan amount. Its indicative example is up to 70% LTV, which may no longer reflect current terms.\"",
+    "[b] \"The firm says it specialises in pre-construction marine finance and provides the liquidity to fund the shipyard stage payments during the build.\"",
+    "[b] \"The facility typically pays early costs such as the signing deposit, design and project-management fees, long-lead equipment, and yard slot reservations. Once construction begins, it often rolls into stage-payment finance, with money drawn in tranches as the build progresses.\"",
+    "[b] \"standard marine mortgages cannot be used because the asset does not legally exist yet\" (given in parentheses by the search tool, likely close to page wording)",
+    "[b] \"An FAQ answer says pre-construction finance is typically interest only.\"",
+    "[b] \"The marine finance page notes that the firm can also use the export credit market to help fund a brand-new yacht build.\"",
+    "[b] \"The firm says it offers boat finance for yachts typically over 20m in length. Yachts it finances are typically registered on the British, Cayman, BVI and Maltese registers.\"",
+    "[b] \"The Wealth Management page lists a typical broker fee for marine finance of 1.00% of the loan amount.\"",
+    "[b] \"A separate marine lease page describes new-build or stage-payment leasing, where the lessor funds the shipyard in stages as build milestones are reached.\"",
+    "[b] \"Some search results carry older metadata dates (one is about 1,600 days old)\"",
+    "[c] No Silver Oak Capital content returned; the tool stated: \"I couldn't find any information about a company called 'Silver Oak Capital' in these results\"",
+    "[seed] navigation lists under Marine: \"Marine / Boat Finance\", \"Yacht Mortgages\", \"Superyacht Finance\", \"Marine Lease Finance\", \"Pre-Construction Marine Finance\"",
+    "[seed] /introducers/: the firm \"can arrange commercial mortgages, buy-to-let mortgages, bridging loans, development finance, marine finance, or aviation finance\""
+  ],
+  "services": [
+    "Pre-construction marine finance (funding before physical construction of a new-build yacht/superyacht) [a][b]",
+    "Liquidity to fund shipyard stage payments during the build [b]",
+    "Stage-payment (construction) finance drawn in tranches as the build progresses [a][b]",
+    "Refinance of the facility into a (marine) mortgage upon delivery of the vessel [a, via /faq/]",
+    "Export credit market funding for a brand-new yacht build [b, via /marine-finance/]",
+    "Pre-build Payment Financing [a, older marine finance page]",
+    "Senior Secured Mortgage (Post-build) [a, older marine finance page]",
+    "Marine lease finance - new-build / stage-payment leasing where the lessor funds the shipyard in stages [b, via /marine-lease-finance/]"
+  ],
+  "useCases": [
+    "Paying the shipyard signing deposit before construction starts [a][b]",
+    "Funding design work and project-management fees [a][b]",
+    "Ordering long-lead equipment early [a][b]",
+    "Reserving a yard slot [b]",
+    "Funding shipyard stage payments as build milestones are reached [b]",
+    "Commissioning a new-build yacht or superyacht when a standard marine mortgage is not available because the vessel does not legally exist yet [a][b]"
+  ],
+  "terms": [
+    "Interest: typically interest only [a][b] (from /faq/ page)",
+    "Interest serviced monthly on the funds drawn [a]",
+    "Capital repaid or refinanced into a mortgage upon delivery of the vessel [a]",
+    "Drawdown: in tranches as the build progresses once it rolls into stage-payment finance [a][b]",
+    "Broker fee: 1.00% of the loan amount (older marine finance page [a] and /types-of-borrowing/ 'Wealth Management' page [b]) - may be outdated",
+    "LTV: indicative example up to 70% LTV on an older marine finance page (~700 days old) [a] - 'may no longer reflect current terms'; no current LTV revealed",
+    "Vessel size: boat finance typically for yachts over 20m in length [b, /marine-finance/]",
+    "Registers: British, Cayman, BVI and Maltese [b, /marine-finance/]",
+    "NOT REVEALED: loan sizes, interest rates, loan durations, arrangement timescales, security package for the pre-construction phase (e.g. refund guarantees / assignment of build contract), minimum deposit"
+  ],
+  "eligibility": [
+    "No eligibility criteria for pre-construction finance were revealed by the search results",
+    "Related: yachts typically over 20m in length [b, /marine-finance/]",
+    "Related: vessels typically registered on the British, Cayman, BVI or Maltese registers [b, /marine-finance/]",
+    "Search tool caveat [a]: 'Current rates, fees, and eligibility aren't confirmed by these results'"
+  ],
+  "lenderTypes": [
+    "Not stated for this page in the search results",
+    "Export credit market (for a brand-new yacht build) [b, /marine-finance/]",
+    "Lessor funding the shipyard in stages (leasing alternative) [b, /marine-lease-finance/]",
+    "No lender count was given in these results (seed records 300+/500+/700+/800+ claims on other pages, none on this page)"
+  ],
+  "processSteps": [
+    "Reconstructed from [a][b], order not confirmed as page wording:",
+    "1. Pre-construction facility is arranged before physical construction starts and funds early costs (signing deposit, design/project-management fees, long-lead equipment, yard slot reservation) [a][b]",
+    "2. Once construction begins, the facility often rolls into stage-payment (construction) finance, drawn in tranches as the build progresses [a][b]",
+    "3. Borrower services monthly interest on the funds drawn (interest only) [a, /faq/]",
+    "4. On delivery of the vessel, the capital is repaid or refinanced into a mortgage [a, /faq/]"
+  ],
+  "faq": [
+    {
+      "q": "Is pre-construction marine finance interest only? (question wording reconstructed; answer from the /faq/ page per [a][b])",
+      "a": "Pre-construction finance is typically interest only. You service the monthly interest on the funds drawn, and the capital is either repaid or refinanced into a mortgage upon delivery of the vessel. [a]"
+    },
+    {
+      "q": "Why can't a standard marine mortgage be used for a new build? (question wording reconstructed)",
+      "a": "Standard marine mortgages cannot be used because the asset does not legally exist yet, so a different structure is required. [a][b]"
+    }
+  ],
+  "claims": [
+    {"claim": "The firm specialises in pre-construction marine finance [b]", "kind": "positioning"},
+    {"claim": "Provides the liquidity to fund the shipyard stage payments during the build [b]", "kind": "capability"},
+    {"claim": "Can also use the export credit market to help fund a brand-new yacht build [b, /marine-finance/]", "kind": "capability"},
+    {"claim": "Typical broker fee for marine finance of 1.00% of the loan amount [a][b, older pages]", "kind": "fee"},
+    {"claim": "Indicative example of up to 70% LTV on an older marine finance page (~700 days old), may be outdated [a]", "kind": "ltv"},
+    {"claim": "Boat finance typically for yachts over 20m in length [b, /marine-finance/]", "kind": "eligibility"},
+    {"claim": "Yachts financed typically registered on the British, Cayman, BVI and Maltese registers [b, /marine-finance/]", "kind": "eligibility"},
+    {"claim": "Pre-construction finance is typically interest only [a][b, /faq/]", "kind": "terms"},
+    {"claim": "No testimonials, awards, lender counts, loan-size figures or timescales were revealed for this page", "kind": "absence"}
+  ],
+  "geography": [
+    "Registers: British, Cayman, BVI, Maltese [b, /marine-finance/]",
+    "UK (related page titled 'Boat Finance UK') [a][b]",
+    "[seed] firm-level international coverage: United Kingdom, Western Europe, Middle East, United States - not confirmed on this page"
+  ],
+  "ctas": [
+    "No call to action revealed by the search results for this page",
+    "[seed] firm-wide contact routes: enquiry form (name, contact details, finance type, amount, country of residence, brief overview, consent), enquiry@silveroakcapital.co.uk, +44 207 459 4440, WhatsApp"
+  ],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/pre-construction-marine-finance/ (title: Pre-Construction Marine Finance) [a][b]",
+    "https://www.silveroakcapital.co.uk/marine-finance/ (title: Boat Finance UK) [a][b]",
+    "https://www.silveroakcapital.co.uk/yacht-mortgages/ (title: Yacht Mortgages & Marine Finance for Luxury Vessels) [a][b]",
+    "https://www.silveroakcapital.co.uk/marine-lease-finance/ (title: Marine Lease Finance) [b]",
+    "https://www.silveroakcapital.co.uk/yacht-finance-calculator/ (title: Yacht Finance Calculator UK) [b] - NOT in seed; seed lists /case-studies/yacht-finance-calculator/ instead",
+    "https://www.silveroakcapital.co.uk/case-studies/heesen-yacht-finance/ (title: Heesen Yacht Finance) [b]",
+    "https://www.silveroakcapital.co.uk/faq/ (title: Property Finance FAQs) [a][b]",
+    "https://www.silveroakcapital.co.uk/types-of-borrowing/ (title: Wealth Management) [a][b]",
+    "https://www.silveroakcapital.co.uk/ (title: Silver Oak Capital - Commercial Mortgage Broker & Property Development Finance Solutions) [a][b]",
+    "External [a]: https://uk.linkedin.com/company/silver-oak-capital ; https://www.instagram.com/silveroakcapitaluk/ ; https://www.lettingagenttoday.co.uk/trades-directory/silver-oak-capital/"
+  ],
+  "notes": "Direct fetch blocked; all content comes from the WebSearch tool's summaries of snippets, not from confirmed page HTML, so 'verbatim' entries are the tool's wording and may paraphrase the page. Section headings and FAQ question wordings are reconstructed. Query (c) (standard mode) returned zero Silver Oak Capital results - only generic yacht-finance industry pages and an unrelated 'Silver Oak Cellars' vessel - and was discarded. Contradictions / cautions: (1) the 1.00% broker fee and 70% LTV come from an older marine page (~700 days) and the /types-of-borrowing/ page the seed already flags as old; the search tool itself warns they 'may no longer reflect current terms'; (2) interest-only / repayment-on-delivery details come from /faq/, not the target page; (3) a URL https://www.silveroakcapital.co.uk/yacht-finance-calculator/ appeared that is not in the seed (seed has it under /case-studies/); (4) no lender count, loan size, rate, duration or timescale was revealed for this page, so none should be attributed to it. Seed had no snippetsFromFirstPass entry for this path.",
+  "confidence": "medium-low: core concept (pre-construction funding of early costs, mortgage impossible before the asset exists, roll into stage-payment finance in tranches, interest-only) is corroborated by two independent extended searches [a][b]; everything else is from related pages or old content; no verbatim page text or headings confirmed; one of three searches yielded nothing",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/pre-construction-marine-finance.json"
+}

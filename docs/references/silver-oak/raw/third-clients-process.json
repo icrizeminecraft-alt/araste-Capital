@@ -1,0 +1,250 @@
+{
+  "agent": "third-clients-process",
+  "subject": "Silver Oak Capital (silveroakcapital.co.uk) - how third parties describe its clients and process: client types, fees, speed, enquiry-to-completion steps, introducer/partner programme, lender calculator / developer scorecard tools",
+  "method": "WebSearch only (direct fetch blocked). Facts recorded only from search-tool summaries and result titles/URLs. Own-site pages used only where the search summary cited them; flagged as 'OWN-SITE' in source. Verbatim strings are copied from the search summaries as given; where the summary paraphrased, 'verbatim' is empty.",
+  "queriesRun": 7,
+  "queriesRefused": 0,
+  "queries": [
+    {"n": 1, "mode": "extended", "query": "\"Silver Oak Capital\" UK finance broker clients developers investors high net worth expats foreign nationals"},
+    {"n": 2, "mode": "standard", "query": "\"Silver Oak Capital\" introducer partner programme brokers UK commission referral"},
+    {"n": 3, "mode": "standard", "query": "\"Silver Oak Capital\" bridging development finance fees speed completion days silveroakcapital.co.uk"},
+    {"n": 4, "mode": "standard", "query": "\"Silver Oak Capital\" lender calculator developer scorecard tool"},
+    {"n": 5, "mode": "extended", "query": "Silver Oak Capital UK broker reviews Trustpilot Google \"Silver Oak Capital\" mortgage bridging process enquiry to completion"},
+    {"n": 6, "mode": "standard", "query": "\"Silver Oak Capital\" family offices trusts offshore structures UHNW mortgages London"},
+    {"n": 7, "mode": "extended", "query": "\"Silver Oak Capital\" LinkedIn UK specialist finance brokerage director founded FCA"}
+  ],
+  "facts": [
+    {
+      "fact": "CLIENT TYPES (third party): Property Week Commercial Property Awards 2026 organisation listing describes Silver Oak Capital as a specialist debt advisory firm serving property investors, developers and high net worth individuals.",
+      "source": "Property Week - Commercial Property Awards 2026 organisation page (via WebSearch summary, query 1)",
+      "url": "https://awards.propertyweek.com/live/en/node/organisation-silver-oak-capital",
+      "verbatim": "specialist debt advisory firm providing tailored funding solutions for property investors, developers, and high net worth individuals",
+      "confidence": "high"
+    },
+    {
+      "fact": "CLIENT TYPES - FOREIGN INVESTORS (third party): Letting Agent Today trades-directory listing positions the firm as helping foreign investors obtain prime residential or long-term commercial mortgages.",
+      "source": "Letting Agent Today trades directory (via WebSearch summary, query 1)",
+      "url": "https://www.lettingagenttoday.co.uk/trades-directory/silver-oak-capital/",
+      "verbatim": "perfectly positioned to assist foreign investors looking to secure a prime residential mortgage or a long term commercial mortgage",
+      "confidence": "high"
+    },
+    {
+      "fact": "CLIENT TYPES - EXPATS: No source surfaced that targets expatriates as a separate client category (search summary explicitly noted this). Foreign nationals / international clients are mentioned; 'expats' as a label is not.",
+      "source": "WebSearch summary, query 1 (negative finding)",
+      "url": "",
+      "verbatim": "I found no source that specifically targets expatriates as a separate category.",
+      "confidence": "medium"
+    },
+    {
+      "fact": "POSITIONING: Described as a London-based debt advisory and mortgage broker that is not a high-street mortgage broker but offers bespoke solutions for larger, more complex real estate transactions.",
+      "source": "WebSearch summary, query 1 (attribution mixed: 'its own materials and third-party listings' - treat as partly OWN-SITE)",
+      "url": "https://silveroakcapital.odoo.com/",
+      "verbatim": "does not operate as a high street mortgage broker but offers a bespoke solution for larger, more complex real estate transactions",
+      "confidence": "medium"
+    },
+    {
+      "fact": "LOAN RANGE (current): focuses on loans of GBP 500k to GBP 20m secured on assets throughout the UK and abroad; current site says it specialises in loans over GBP 500,000.",
+      "source": "WebSearch summaries, queries 1 and 7 (attribution mixed, partly OWN-SITE)",
+      "url": "https://www.silveroakcapital.co.uk/",
+      "verbatim": "focuses on loans of £500k – £20m, secured on assets throughout the UK and abroad",
+      "confidence": "medium"
+    },
+    {
+      "fact": "LOAN RANGE (older third-party listings): commercial mortgage broker focused on large loans of GBP 2m to GBP 20m, offering tailored commercial finance, lender relationships and expert funding advice. CONTRADICTION with the GBP 500k floor on the current site - older listings appear to reflect an earlier positioning.",
+      "source": "Third-party directory listings (mortgage118 / GoSimples / syob) via WebSearch summary, queries 5 and 7",
+      "url": "https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital",
+      "verbatim": "London-based commercial mortgage broker focused on large loans of £2m to £20m, with access to tailored commercial finance, lender relationships and expert funding advice",
+      "confidence": "medium"
+    },
+    {
+      "fact": "CLIENT TYPES (OWN-SITE, via summary): 'who we act for' list = High-Net-Worth and Ultra-High-Net-Worth Individuals; Property Developers and Investor Groups; Family Offices and Trustees; International Clients with UK Assets.",
+      "source": "OWN-SITE (silveroakcapital.co.uk, Complex Offshore Structures page) as cited by WebSearch summary, query 1",
+      "url": "https://www.silveroakcapital.co.uk/complex-offshore-structures/",
+      "verbatim": "High-Net-Worth and Ultra-High-Net-Worth Individuals, Property Developers and Investor Groups, Family Offices and Trustees, International Clients with UK Assets",
+      "confidence": "medium"
+    },
+    {
+      "fact": "PRODUCTS FOR DEVELOPERS/INVESTORS (OWN-SITE, via summary): has assisted property developers and investors in sourcing both short-term bridging loans and long-term whole loans.",
+      "source": "OWN-SITE (silveroakcapital.co.uk) as cited by WebSearch summary, query 1",
+      "url": "https://www.silveroakcapital.co.uk/",
+      "verbatim": "assisted property developers and investors in sourcing both short term bridging loans and long term whole loans",
+      "confidence": "medium"
+    },
+    {
+      "fact": "OFFSHORE / TRUST EXPERIENCE: the firm has experience with offshore and trust-owned assets; founder's notes mention offshore debt work in France, Spain, Dubai and South Africa.",
+      "source": "WebSearch summary, query 1 (source page not specified - possibly odoo/weebly satellite site or own site)",
+      "url": "https://silveroakcapital.odoo.com/",
+      "verbatim": "offshore debt work in France, Spain, Dubai & South Africa",
+      "confidence": "low"
+    },
+    {
+      "fact": "OTHER ASSET CLASSES: besides development and bridging finance, the firm covers yacht or business jet transactions.",
+      "source": "WebSearch summary, query 1 (attribution not specified)",
+      "url": "",
+      "verbatim": "yacht or business jet transactions",
+      "confidence": "medium"
+    },
+    {
+      "fact": "LENDER NETWORK (2021, third party): a 2021 trade article says the firm was founded by Jimmy Baillie and works with a network of more than 300 lenders.",
+      "source": "The Landsite - 'Silver Oak Capital in the News' (2021) via WebSearch summary, query 5",
+      "url": "https://www.thelandsite.co.uk/articles/silver-oak-capital-in-the-news",
+      "verbatim": "a network of more than 300 lenders",
+      "confidence": "high"
+    },
+    {
+      "fact": "LENDER NETWORK - CONTRADICTION: lender count varies across sources: 'over 300 lenders' (older directory listing / 2021 article), '700+ lenders' (website per query-5 summary) and 'over 800 lenders' (current site per query-1 summary). Figures are dated differently; do not cite a single number without checking the live site.",
+      "source": "WebSearch summaries, queries 1 and 5",
+      "url": "https://www.silveroakcapital.co.uk/",
+      "verbatim": "The lender count varies across sources, from over 300 lenders in an older directory listing to over 800 lenders on its current site.",
+      "confidence": "medium"
+    },
+    {
+      "fact": "REVIEWS (third party): mortgage118.com broker listing shows a 5/5 rating from 9 reviews; reviews are unverified and cover bridging and buy-to-let deals.",
+      "source": "mortgage118.com broker listing via WebSearch summary, query 5",
+      "url": "https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital",
+      "verbatim": "5/5 rating from 9 reviews",
+      "confidence": "high"
+    },
+    {
+      "fact": "PROCESS AS DESCRIBED BY A CLIENT (third party review): one reviewer says the firm presented clear options and guided them through each step of the process.",
+      "source": "mortgage118.com review via WebSearch summary, query 5",
+      "url": "https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital",
+      "verbatim": "presented clear options and guided me through each step of the process",
+      "confidence": "high"
+    },
+    {
+      "fact": "RESPONSIVENESS AS DESCRIBED BY A CLIENT (third party review): another reviewer says the firm was always quick to respond to questions.",
+      "source": "mortgage118.com review via WebSearch summary, query 5",
+      "url": "https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital",
+      "verbatim": "always quick to respond to any questions we had",
+      "confidence": "high"
+    },
+    {
+      "fact": "REVIEWS - NEGATIVE FINDING: no Trustpilot or Google review pages for Silver Oak Capital surfaced; no source describes the full enquiry-to-completion timeline or steps in detail.",
+      "source": "WebSearch summary, query 5",
+      "url": "",
+      "verbatim": "The results don't include Trustpilot or Google review pages, and nothing describes the enquiry-to-completion process in detail.",
+      "confidence": "high"
+    },
+    {
+      "fact": "FEES AND SPEED - NEGATIVE FINDING: no third-party (or own-site) result surfaced stating Silver Oak Capital's fees, fee structure or typical completion timescales. Only generic UK bridging-market context was returned (e.g. one UK guide: average completion 55 days from enquiry to money out, well-prepared case 2-3 weeks) - this is NOT about Silver Oak Capital.",
+      "source": "WebSearch summary, query 3",
+      "url": "",
+      "verbatim": "I found no results from silveroakcapital.co.uk or any page about Silver Oak Capital, so I can't report its fees or completion times.",
+      "confidence": "high"
+    },
+    {
+      "fact": "INTRODUCER / PARTNER PROGRAMME - NEGATIVE FINDING: no third-party result mentions a Silver Oak Capital introducer or partner programme, its commission terms, or whether it works with UK brokers. Results were about unrelated firms (White Oak UK 'introduce' scheme, V Loans, FX/CFD introducing-broker programmes) - all unrelated to Silver Oak Capital.",
+      "source": "WebSearch summary, query 2",
+      "url": "",
+      "verbatim": "I couldn't find anything about a Silver Oak Capital introducer or partner programme in these results. None of the results mention the firm",
+      "confidence": "high"
+    },
+    {
+      "fact": "LENDER CALCULATOR / DEVELOPER SCORECARD - NEGATIVE FINDING: no result mentions a Silver Oak Capital calculator or developer scorecard tool. The only comparable item was Oblix Capital's (a different lender) development finance quick-quote calculator - unrelated.",
+      "source": "WebSearch summary, query 4",
+      "url": "",
+      "verbatim": "The search didn't turn up any Silver Oak Capital calculator or developer scorecard tool. None of the results mention one.",
+      "confidence": "high"
+    },
+    {
+      "fact": "SOCIAL: a LinkedIn post uses the hashtag #silveroakcapital alongside bridging finance and UK property investment topics; the result URL is a personal LinkedIn profile (uk.linkedin.com/in/joe-berk), which appeared in both queries 3 and 4. Relationship of this person to the firm is not stated in the snippet.",
+      "source": "WebSearch summary, query 4; result link in queries 3 and 4",
+      "url": "https://uk.linkedin.com/in/joe-berk",
+      "verbatim": "#silveroakcapital appears in that post",
+      "confidence": "low"
+    },
+    {
+      "fact": "SOCIAL: a LinkedIn company page exists for Silver Oak Capital (uk.linkedin.com/company/silver-oak-capital). Content not visible in snippet.",
+      "source": "WebSearch result link, query 1",
+      "url": "https://uk.linkedin.com/company/silver-oak-capital",
+      "verbatim": "",
+      "confidence": "high"
+    },
+    {
+      "fact": "PEOPLE / HISTORY (third party): Jimmy Baillie is listed as Managing Director; The Landsite's 2021 article says the firm was started by Jimmy Baillie 'in August last year' (implying 2020). Another page says he founded it in 2019. CONTRADICTION on founding year - search summary advises treating 2019 as unverified.",
+      "source": "The Landsite article (2021) + unspecified page, via WebSearch summary, query 7",
+      "url": "https://www.thelandsite.co.uk/articles/silver-oak-capital-in-the-news",
+      "verbatim": "in August last year",
+      "confidence": "medium"
+    },
+    {
+      "fact": "DIRECTORY LISTING: The Landsite lists Silver Oak Capital under professional services (listing id 720).",
+      "source": "The Landsite professional-services directory (result link, query 7)",
+      "url": "https://www.thelandsite.co.uk/professional-services/720-silver-oak-capital",
+      "verbatim": "",
+      "confidence": "high"
+    },
+    {
+      "fact": "SERVICES AS DESCRIBED BY A THIRD PARTY: one directory source describes the firm as providing commercial mortgage brokerage, property development finance, bridging loans and development finance solutions.",
+      "source": "Unspecified directory source via WebSearch summary, query 7 (likely The Landsite or Letting Agent Today)",
+      "url": "https://www.thelandsite.co.uk/professional-services/720-silver-oak-capital",
+      "verbatim": "expert commercial mortgage brokerage services, property development finance, bridging loans, and development finance solutions",
+      "confidence": "medium"
+    },
+    {
+      "fact": "DIRECTORY LISTINGS: GoSimples UK Business Listing Directory lists 'Silver Oak Capital - Debt Advisory' under Financial Advisors, London; syob.net lists 'Silver Oak Capital - Debit Advisory' [sic]. Both are directory entries; content beyond titles not visible.",
+      "source": "WebSearch result links, queries 1 and 5",
+      "url": "https://www.gosimples.com/listing/england/london-151/financial-advisors/silver-oak-capital-debit-advisory",
+      "verbatim": "Silver Oak Capital - Debt Advisory",
+      "confidence": "high"
+    },
+    {
+      "fact": "SATELLITE SITES: two secondary web presences titled 'Silver Oak Capital - Real Estate & Finance Professionals' exist on Odoo (silveroakcapital.odoo.com) and Weebly (silveroakcapital.weebly.com). Content not visible beyond titles.",
+      "source": "WebSearch result links, queries 1 and 7",
+      "url": "https://silveroakcapital.weebly.com/",
+      "verbatim": "Silver Oak Capital - Real Estate & Finance Professionals",
+      "confidence": "high"
+    },
+    {
+      "fact": "LOCATION - CONTRADICTION/NOTE: mortgage118 files the broker under 'Hackney' (London), whereas the firm's T&Cs give 91 Wimpole St, London W1G 0EF (Marylebone) and the site's contact details list a Marylebone office. Likely an older or secondary address on the directory.",
+      "source": "mortgage118 listing title (query 5) vs OWN-SITE T&Cs PDF cited in query 7 summary",
+      "url": "https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital",
+      "verbatim": "Silver Oak Capital, Hackney",
+      "confidence": "medium"
+    },
+    {
+      "fact": "LEGAL ENTITY (OWN-SITE T&Cs, Feb 2026, via summary): Silver Oak Capital Ltd, 91 Wimpole St, London, W1G 0EF, company number 08551479.",
+      "source": "OWN-SITE T&Cs PDF (wp-content/uploads/2026/02/Ts-and-Cs.pdf) as cited by WebSearch summary, query 7",
+      "url": "https://www.silveroakcapital.co.uk/wp-content/uploads/2026/02/Ts-and-Cs.pdf",
+      "verbatim": "Silver Oak Capital Ltd – 91 Wimpole St, London, W1G 0EF",
+      "confidence": "high"
+    },
+    {
+      "fact": "REGULATORY SCOPE (OWN-SITE T&Cs, via summary): the terms state that SOC does not provide regulated mortgage and insurance advice. Relevant to how the firm frames its process (unregulated/commercial debt advisory rather than regulated mortgage advice).",
+      "source": "OWN-SITE T&Cs PDF as cited by WebSearch summary, query 7",
+      "url": "https://www.silveroakcapital.co.uk/wp-content/uploads/2026/02/Ts-and-Cs.pdf",
+      "verbatim": "SOC does not provide regulated mortgage and insurance advice",
+      "confidence": "high"
+    },
+    {
+      "fact": "REGULATORY STATUS (third party directory): a directory page lists the FCA registered name as 'Silver Oak Capital' but shows status 'Not confirmed'. Search summary advises checking the FCA register directly.",
+      "source": "Directory page (likely mortgage118) via WebSearch summary, query 7",
+      "url": "https://mortgage118.com/brokers/england/london/hackney/silver-oak-capital",
+      "verbatim": "Not confirmed",
+      "confidence": "medium"
+    },
+    {
+      "fact": "PRIME RESIDENTIAL (OWN-SITE, via summary): site says it has found mortgages for prime residential properties (GBP 1m+) since 2019.",
+      "source": "OWN-SITE prime-residential-mortgages page as cited by WebSearch summary, query 5",
+      "url": "https://www.silveroakcapital.co.uk/prime-residential-mortgages/",
+      "verbatim": "",
+      "confidence": "medium"
+    },
+    {
+      "fact": "FAMILY OFFICES / TRUSTS / OFFSHORE (third party) - NEGATIVE FINDING: query 6 returned no third-party page discussing Silver Oak Capital's work with family offices, trusts or offshore structures; results were about Investec, Burges Salmon, IQ-EQ, Clifton PF etc. (unrelated). Two Spear's 500 adviser pages for 'Jimmy Baillie' (ids 6519 and 22953) did appear in the result list, but their content and connection to Silver Oak Capital are not shown in the snippet.",
+      "source": "WebSearch summary + result links, query 6",
+      "url": "https://spears500.com/adviser/22953/jimmy-baillie",
+      "verbatim": "The search didn't turn up anything about \"Silver Oak Capital\" specifically.",
+      "confidence": "low"
+    },
+    {
+      "fact": "UNRELATED ENTITIES EXCLUDED (do not attribute to Silver Oak Capital UK): 'Oak Capital' (BrokerChooser safety page), 'Silver Oak Securities' (US broker-dealer; Secatty complaints page), 'Silver Point Capital' (PitchBook), 'White Oak UK' (introducer scheme), 'OakNorth Bank', 'Oblix Capital' (calculator), 'Silverfleet Capital', 'Montello'.",
+      "source": "WebSearch result lists, queries 2, 4, 5, 7",
+      "url": "",
+      "verbatim": "",
+      "confidence": "high"
+    }
+  ],
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/third-clients-process.json"
+}

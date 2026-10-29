@@ -1,0 +1,112 @@
+{
+  "url": "https://www.silveroakcapital.co.uk/first-time-developer-finance/",
+  "title": "First Time Developer Finance UK",
+  "summary": "Silver Oak Capital's page on development finance for first-time developers (UK). Per search summaries, the page frames the first-time developer 'catch-22' (lenders want prior experience, but experience requires finance; high-street banks almost universally reject applicants with no track record of a similar build), defines the product as development finance structured for individuals or companies undertaking their first ground-up scheme or major conversion, and explains that underwriting focuses less on the borrower's personal track record and more on the assembled team (project manager, architect, main contractor) and the economic feasibility of the scheme. Examples of who it suits: experienced flippers moving into ground-up builds, and contractors who have never been the named borrower or developer. FAQ content states Silver Oak can match a first-project borrower with a lender specialising in 'First Time Developer' products provided there is a strong team. No loan sizes, LTV/LTC/LTGDV, rates, fees, durations or timescales specific to this product were revealed by any of the 3 searches.",
+  "h1": "First Time Developer Finance UK (search-result title; H1 and meta description not confirmed)",
+  "sections": [
+    {
+      "heading": "The first-time developer problem (catch-22)",
+      "content": "[a] 'The page describes a catch-22 where lenders want prior experience but experience requires finance. High-street banks will almost universally reject an application from a developer with no track record of a similar build.'"
+    },
+    {
+      "heading": "What first-time developer finance is",
+      "content": "[b] 'development finance specifically structured for individuals or companies undertaking their first ground-up scheme or major conversion'."
+    },
+    {
+      "heading": "How the product works / underwriting approach",
+      "content": "[a] 'It focuses less on your personal track record and more on the team you have assembled around you and the economic feasibility of the scheme. First-time developer loans are underwritten based on the experience of the project manager, architect, and main contractor.' [b] repeats: 'the lender focuses less on your personal track record and more on the team you have assembled around you and the economic feasibility of the scheme'."
+    },
+    {
+      "heading": "Who it suits",
+      "content": "[a] 'The page gives examples such as experienced flippers moving into ground-up builds, and contractors who have never been the named borrower or developer.'"
+    },
+    {
+      "heading": "FAQ: first project",
+      "content": "[a][b] 'if this is your first project, Silver Oak Capital can match you with a lender who specialises in \"First Time Developer\" products, provided you have a strong team around you.' (Search (a) attributes this to the page's FAQ; search (b) attributes it to 'The FAQ' with /faq/ also in results, so it may sit on /faq/ rather than on this page.)"
+    },
+    {
+      "heading": "Related content on other Silver Oak pages (NOT confirmed as on this page)",
+      "content": "[b] 'Another page notes that a fixed-price JCT contract in place and an independent quantity surveyor may be required for some lenders to accept a first-time developer acting as main contractor.' [b] 'One says high street banks are typically unlikely to fund first-time developers, so they will likely need to approach a specialist lender.' [b] 'A scorecard page notes that there are now several specialist lenders who can provide funding for first time developers.' (developerscorecard.silveroakcapital.co.uk) [a] 'Its blog says first-time developers are accessible to finance with the right structure' (wixsite blog)."
+    }
+  ],
+  "verbatim": [
+    "[a] \"The page describes a catch-22 where lenders want prior experience but experience requires finance.\"",
+    "[a] \"High-street banks will almost universally reject an application from a developer with no track record of a similar build.\"",
+    "[a] \"It focuses less on your personal track record and more on the team you have assembled around you and the economic feasibility of the scheme.\"",
+    "[a] \"First-time developer loans are underwritten based on the experience of the project manager, architect, and main contractor.\"",
+    "[a] \"The page gives examples such as experienced flippers moving into ground-up builds, and contractors who have never been the named borrower or developer.\"",
+    "[a] \"if this is your first project, Silver Oak Capital can match you with a lender who specialises in 'First Time Developer' products, provided you have a strong team around you.\"",
+    "[a] \"The search did not turn up lender terms, rates, or loan limits specific to the first-time product\"",
+    "[b] \"development finance specifically structured for individuals or companies undertaking their first ground-up scheme or major conversion\"",
+    "[b] \"the lender focuses less on your personal track record and more on the team you have assembled around you and the economic feasibility of the scheme\"",
+    "[b] \"a fixed-price JCT contract in place and an independent quantity surveyor may be required for some lenders to accept a first-time developer acting as main contractor\" (attributed to 'another page', not this one)",
+    "[b] \"high street banks are typically unlikely to fund first-time developers, so they will likely need to approach a specialist lender\" (other page)",
+    "[b] \"there are now several specialist lenders who can provide funding for first time developers\" (developerscorecard subdomain)",
+    "[seed] navigation: 'First-Time Developer Finance' listed under Development services alongside Property Development Finance, Development Finance Brokers, Senior, Stretch Senior, Mezzanine / Junior Finance, Whole Loans",
+    "[c] no Silver Oak Capital result; search tool stated \"I couldn't find any results about Silver Oak Capital's first-time developer criteria.\""
+  ],
+  "services": [
+    "First-time developer finance: development finance structured for a first ground-up scheme or major conversion",
+    "Lender matching: introduction to lenders specialising in 'First Time Developer' products",
+    "[seed] sits within the Development Finance service family (senior, stretch senior, mezzanine/junior, whole loans, development finance brokerage)"
+  ],
+  "useCases": [
+    "First ground-up development scheme",
+    "First major conversion",
+    "Experienced flippers moving into ground-up builds",
+    "Contractors who have never been the named borrower or developer"
+  ],
+  "terms": [],
+  "eligibility": [
+    "Strong team assembled around the borrower: experienced project manager, architect and main contractor (underwriting rests on their experience)",
+    "Economic feasibility of the scheme",
+    "Personal track record weighted less than team and scheme",
+    "[other site page, b] some lenders may require a fixed-price JCT contract and an independent quantity surveyor where the first-time developer acts as main contractor"
+  ],
+  "lenderTypes": [
+    "Specialist lenders offering 'First Time Developer' products",
+    "High-street banks: described as almost universally rejecting applicants with no track record of a similar build (i.e. not the route)",
+    "[developerscorecard subdomain, b] 'several specialist lenders' now fund first-time developers"
+  ],
+  "processSteps": [
+    "Only step revealed: assessment of team and scheme feasibility, then matching with a lender specialising in 'First Time Developer' products (no application/offer/drawdown sequence surfaced)"
+  ],
+  "faq": [
+    {
+      "q": "Question wording not revealed; topic: can I get development finance if this is my first project?",
+      "a": "[a][b] 'if this is your first project, Silver Oak Capital can match you with a lender who specialises in \"First Time Developer\" products, provided you have a strong team around you.'"
+    }
+  ],
+  "claims": [
+    {"claim": "High-street banks will almost universally reject an application from a developer with no track record of a similar build.", "kind": "market assertion [a]"},
+    {"claim": "Silver Oak Capital can match you with a lender who specialises in 'First Time Developer' products, provided you have a strong team around you.", "kind": "promise / capability [a][b]"},
+    {"claim": "First-time developer loans are underwritten based on the experience of the project manager, architect, and main contractor.", "kind": "product mechanism [a]"},
+    {"claim": "There are now several specialist lenders who can provide funding for first time developers.", "kind": "market assertion [b] (developerscorecard.silveroakcapital.co.uk)"}
+  ],
+  "geography": [
+    "United Kingdom (title: 'First Time Developer Finance UK'; London focus per seed, not confirmed on this page)"
+  ],
+  "ctas": [],
+  "internalLinks": [
+    "https://www.silveroakcapital.co.uk/first-time-developer-finance/",
+    "https://www.silveroakcapital.co.uk/",
+    "https://www.silveroakcapital.co.uk/faq/",
+    "https://www.silveroakcapital.co.uk/why-lenders-reject-70-of-london-resi-led-development-deals/",
+    "https://www.silveroakcapital.co.uk/case-studies/nw-london-bridge/",
+    "https://www.silveroakcapital.co.uk/development-finance-requirements-in-the-uk-explained/",
+    "https://www.silveroakcapital.co.uk/development-finance-broker-find-the-best-funding-partner-for-your-project/",
+    "https://www.silveroakcapital.co.uk/complete-guide-to-development-loans-for-property-projects-uk/",
+    "https://www.silveroakcapital.co.uk/selecting-the-ideal-property-finance-specialist-for-successful-developments/",
+    "https://www.silveroakcapital.co.uk/how-does-property-development-finance-work-a-step-by-step-guide/",
+    "https://developerscorecard.silveroakcapital.co.uk/",
+    "https://silveroakcapitaluk.wixsite.com/blogs/post/property-development-finance-in-2026-smarter-funding-strategies-for-modern-developers (external)",
+    "https://silveroakcapitaluk.wixsite.com/blogs/post/key-strategies-for-securing-property-development-finance-in-today-s-market (external)",
+    "https://silveroakcapitaluk.wixsite.com/blogs/post/how-to-secure-property-development-finance-for-high-value-projects (external)",
+    "https://www.crunchbase.com/organization/silver-oak-capital (external)"
+  ],
+  "notes": "SOURCES: seed.json has no snippet for this path; all page content comes from the search tool's summaries for queries (a) exact URL [extended] and (b) site:silveroakcapital.co.uk first time developer finance [extended]. Query (c) \"Silver Oak Capital\" first-time developer finance criteria [standard] returned no Silver Oak content (only unrelated Australian/UK material and a LinkedIn profile for Joe Berk, a team member per seed). The Assetz Capital first-time developer product terms surfaced by (c) (up to 70% LTGDV, 85% LTC, min cash contribution 5-7.5%) belong to a DIFFERENT lender and were deliberately excluded from terms. CAVEATS: search-tool summaries are partly paraphrase; sentences are quoted as the tool wrote them and may not be the page's exact wording. The FAQ sentence about matching first-project borrowers may live on /faq/ rather than on this page (both searches list /faq/). (b) says 'the lender focuses less on...' while (a) says 'It focuses less on...' - subject ambiguity (product vs lender), not a substantive contradiction. The JCT contract / independent QS requirement and the 'high street banks unlikely to fund' line are attributed to OTHER Silver Oak pages, not this one. NOT REVEALED: H1, meta description, loan sizes, LTV/LTC/LTGDV, rates, fees, durations, timescales, security, CTAs, testimonials, awards, lender-count claims for this page (seed site-wide figures of 300+/800+ lenders and GBP 500k+ deals were not confirmed here). NEW URLS not in seed: /why-lenders-reject-70-of-london-resi-led-development-deals/, /development-finance-requirements-in-the-uk-explained/ (in seed), /development-finance-broker-find-the-best-funding-partner-for-your-project/, /complete-guide-to-development-loans-for-property-projects-uk/.",
+  "confidence": "low-medium: product positioning and underwriting logic are consistently reported across two searches, but no quantitative terms and only a handful of likely-verbatim sentences were obtained; H1/meta unconfirmed",
+  "queriesRun": 3,
+  "queriesRefused": 0,
+  "savedTo": "/home/user/araste-Capital/docs/references/silver-oak/raw/first-time-developer-finance.json"
+}
