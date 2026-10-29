@@ -18,6 +18,7 @@ export function Founder({
   locale,
   founder,
   heading,
+  headingId,
   compact = false,
 }: {
   locale: Locale;
