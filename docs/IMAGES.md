@@ -13,9 +13,9 @@ L'accueil se limite à trois images, de la même famille de lumière (lumière d
 | `pierre-ombre` (4:5) | détail architectural (accueil, « Vos conseils ») | ombres de feuillage sur un mur de pierre claire |
 | portrait du fondateur (à livrer) | page du cabinet | tant qu'il n'est pas livré, le module se présente sans image |
 | `plume-or` | approche | plume dorée d'un stylo noir |
-| `accord` | partenaires | poignée de main dans la pénombre |
+| `signature` (4:5) | partenaires | signature d'un document au stylo, en noir et blanc |
 | `stylo-dossier` | contact | stylo sur une pile de documents |
-| `villa-crepuscule`, `corniche`, `paris-balcons`, `villa-cassis`, `chantier-mer`, `travertin` | vignettes de la page des expertises | relais, complexes, refinancement, acquisition, promotion, dette privée |
+| `terrasse-mer`, `corniche`, `paris-balcons`, `villa-cassis`, `chantier-mer`, `travertin` | vignettes de la page des expertises | relais, complexes, refinancement, acquisition, promotion, dette privée |
 | `fontvieille`, `ville-fenetre`, `paris-angle`, `riviera-palmiers`, `grue`, `tour-doree` | bandeaux des pages d'expertise | une seconde image par expertise, jamais la même que la vignette |
 
 Chaque photographie n'apparaît qu'à un seul emplacement du site. Le portrait du fondateur se déclare dans `visuals.portrait` une fois la photographie déposée dans `public/images/` (voir plus bas).

@@ -97,11 +97,11 @@ export const photos = {
   },
 
   /* Vignettes des expertises (page des expertises). */
-  villaCrepuscule: {
-    ...files("villa-crepuscule"),
-    focal: { x: 50, y: 55 },
-    alt: { fr: "Villa contemporaine éclairée au crépuscule.", en: "Contemporary villa lit at dusk." },
-    credit: unsplash("Arthur Baudry", "4vioYQ9Nn9Y"),
+  terrasseMer: {
+    ...files("terrasse-mer"),
+    focal: { x: 50, y: 50 },
+    alt: { fr: "Terrasse de pierre claire ouvrant sur la mer.", en: "Light stone terrace opening onto the sea." },
+    credit: unsplash("Paréj Richárd", "Tl9ntkhaimg"),
   },
   corniche: {
     ...files("corniche"),
@@ -179,11 +179,11 @@ export const photos = {
     alt: { fr: "Plume dorée d'un stylo noir, en gros plan.", en: "Gold nib of a black fountain pen, close up." },
     credit: unsplash("Thomas Griggs", "8ylzXjzqkJQ"),
   },
-  accord: {
-    ...files("accord"),
+  signature: {
+    ...files("signature"),
     focal: { x: 50, y: 45 },
-    alt: { fr: "Poignée de main au-dessus d'une table de bois, dans la pénombre.", en: "Handshake over a wooden table, in low light." },
-    credit: unsplash("Rock Staar", "NzIV4vOBA7s"),
+    alt: { fr: "Signature d'un document au stylo, en noir et blanc.", en: "Signing a document with a pen, in black and white." },
+    credit: unsplash("Signature Pro", "MbClFGJBH6k"),
   },
   styloDossier: {
     ...files("stylo-dossier"),
@@ -218,10 +218,10 @@ export const visuals: {
   detail: { kind: "photo", photo: photos.pierreOmbre },
   portrait: null,
   approach: { kind: "photo", photo: photos.plumeOr },
-  partners: { kind: "photo", photo: photos.accord },
+  partners: { kind: "photo", photo: photos.signature },
   contact: { kind: "photo", photo: photos.styloDossier },
   expertises: {
-    bridge: { kind: "photo", photo: photos.villaCrepuscule },
+    bridge: { kind: "photo", photo: photos.terrasseMer },
     complex: { kind: "photo", photo: photos.corniche },
     refinancing: { kind: "photo", photo: photos.parisBalcons },
     acquisition: { kind: "photo", photo: photos.villaCassis },
