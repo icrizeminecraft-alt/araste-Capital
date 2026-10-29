@@ -49,15 +49,15 @@
     "width": 1600,
     "height": 2000
   },
-  "villa-crepuscule": {
-    "id": "4vioYQ9Nn9Y",
+  "terrasse-mer": {
+    "id": "Tl9ntkhaimg",
     "widths": [
       800,
       1200,
       1600
     ],
     "width": 1600,
-    "height": 1244
+    "height": 1200
   },
   "corniche": {
     "id": "uL8uhUj2gMg",
@@ -179,15 +179,15 @@
     "width": 2400,
     "height": 1350
   },
-  "accord": {
-    "id": "NzIV4vOBA7s",
+  "signature": {
+    "id": "MbClFGJBH6k",
     "widths": [
       800,
       1200,
       1600
     ],
     "width": 1600,
-    "height": 1067
+    "height": 2000
   },
   "stylo-dossier": {
     "id": "OJbjBsNIwjk",
