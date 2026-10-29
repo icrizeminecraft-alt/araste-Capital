@@ -13,7 +13,7 @@ cassis-large | A7SIkewdTIw | https://images.unsplash.com/photo-1604497853140-526
 pierre-ombre | VuBzLZqAEpg | https://images.unsplash.com/photo-1789660017459-393812b0cc26 | 800,1200,1600 | 4:5 | 0.5 | 0.5
 #
 # Vignettes des expertises (page des expertises).
-villa-crepuscule | 4vioYQ9Nn9Y | https://images.unsplash.com/photo-1748063578185-3d68121b11ff | 800,1200,1600
+terrasse-mer | Tl9ntkhaimg | https://images.unsplash.com/photo-1783538702951-c143d25be1bc | 800,1200,1600 | 4:3 | 0.5 | 0.5
 corniche | uL8uhUj2gMg | https://images.unsplash.com/photo-1777138388903-685004a7ea93 | 800,1200,1600
 paris-balcons | NmrbDuAVoDk | https://images.unsplash.com/photo-1762117863541-35fc6df17102 | 800,1200,1600 | 3:4 | 0.5 | 0.3
 villa-cassis | -chZwUizQXY | https://images.unsplash.com/photo-1629199159634-28a88785cee5 | 800,1200,1600
@@ -30,5 +30,5 @@ tour-doree | OLhtAXMgaaQ | https://images.unsplash.com/photo-1776417659908-c7c97
 #
 # Pages approche, partenaires et contact.
 plume-or | 8ylzXjzqkJQ | https://images.unsplash.com/photo-1620080207549-60efab274c16 | 960,1600,2400
-accord | NzIV4vOBA7s | https://images.unsplash.com/photo-1638262052640-82e94d64664a | 800,1200,1600
+signature | MbClFGJBH6k | https://images.unsplash.com/photo-1627517484493-c171f32999cb | 800,1200,1600 | 4:5 | 0.5 | 0.45
 stylo-dossier | OJbjBsNIwjk | https://images.unsplash.com/photo-1732408433038-73d2f6741fc5 | 800,1200,1600
