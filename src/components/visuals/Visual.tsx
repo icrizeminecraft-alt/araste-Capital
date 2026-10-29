@@ -58,7 +58,6 @@ export function Visual({
           <Source key={v.base} files={v} media={v.media} sizes={sizes} />
         ))}
         <source type="image/avif" srcSet={srcSetFor(photo, "avif")} sizes={sizes} width={photo.width} height={photo.height} />
-        {/* eslint-disable-next-line @next/next/no-img-element -- export statique : variantes de largeur servies telles quelles. */}
         <img
           src={attrs.src}
           srcSet={attrs.srcSet}

@@ -22,8 +22,8 @@ export function SheetFormLoader({ loading, ...props }: ComponentProps<typeof Con
     const node = ref.current;
     if (!node) return;
     if (typeof IntersectionObserver === "undefined" || window.location.hash) {
-      setNear(true);
-      return;
+      const timer = window.setTimeout(() => setNear(true), 0);
+      return () => window.clearTimeout(timer);
     }
     const observer = new IntersectionObserver(
       (entries) => {
