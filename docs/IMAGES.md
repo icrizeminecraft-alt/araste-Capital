@@ -7,7 +7,8 @@ Chaque emplacement visuel est servi par une **photographie d'illustration** impo
 | Fichier (`public/images/`) | Usage | Évocation |
 | --- | --- | --- |
 | `monaco-crepuscule` | ouverture de l'accueil | Monaco au crépuscule, ciel bleu nuit |
-| `galerie-voutee` | financement relais (accueil et page) | galerie voûtée menant vers la lumière |
+| `galerie-voutee` | financement relais (liste et page) | galerie voûtée menant vers la lumière |
+| `voute-pierre` | moment fort du financement relais (accueil) | voûte de pierre blonde en contre-jour |
 | `facade-monaco` | cabinet | façade Belle Époque, pins et grille |
 | `escalier-marbre` | approche | premières marches d'un escalier de marbre |
 | `corniche` | financements complexes | corniche sculptée au soleil couchant |

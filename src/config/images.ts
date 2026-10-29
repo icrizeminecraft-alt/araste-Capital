@@ -69,6 +69,15 @@ export const photos = {
     alt: { fr: "Galerie voûtée en pierre menant vers la lumière.", en: "Vaulted stone gallery leading towards the light." },
     credit: unsplash("Shapelined", "5kjDIw7STCw"),
   },
+  voutePierre: {
+    base: "voute-pierre",
+    widths: [800, 1200, 1800],
+    width: 1800,
+    height: 2700,
+    focal: { x: 50, y: 40 },
+    alt: { fr: "Voûte de pierre blonde, éclairée en contre-jour.", en: "Blond stone vault, lit from behind." },
+    credit: unsplash("Essa Mhmad", "qOIP6cDKTzY"),
+  },
   facadeMonaco: {
     base: "facade-monaco",
     widths: [800, 1200, 1800],
@@ -184,7 +193,7 @@ export const visuals: {
   places: Record<"andorra" | "london" | "monaco" | "uae", VisualSlot>;
 } = {
   hero: { kind: "photo", photo: { ...photos.monacoCrepuscule, caption: illustration } },
-  bridgeFeature: { kind: "photo", photo: photos.galerieVoutee },
+  bridgeFeature: { kind: "photo", photo: photos.voutePierre },
   firm: { kind: "photo", photo: { ...photos.facadeMonaco, caption: illustration } },
   approach: { kind: "photo", photo: photos.escalierMarbre },
   expertises: {

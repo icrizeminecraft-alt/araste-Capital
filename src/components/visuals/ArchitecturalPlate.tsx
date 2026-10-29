@@ -80,12 +80,12 @@ export function ArchitecturalPlate({
           <stop offset="1" stopColor={C.navySoft} />
         </linearGradient>
         <linearGradient id={id("glow")} x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#fbf8f1" />
+          <stop offset="0" stopColor="#f7f8fa" />
           <stop offset="1" stopColor={C.skyBottom} stopOpacity="0" />
         </linearGradient>
         <radialGradient id={id("sun")} cx="0.5" cy="0.5" r="0.5">
-          <stop offset="0" stopColor="#fffdf7" stopOpacity="0.9" />
-          <stop offset="1" stopColor="#fffdf7" stopOpacity="0" />
+          <stop offset="0" stopColor="#ffffff" stopOpacity="0.9" />
+          <stop offset="1" stopColor="#ffffff" stopOpacity="0" />
         </radialGradient>
         {kind === "arcade" ? (
           <>
