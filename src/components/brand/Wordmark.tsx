@@ -4,15 +4,15 @@ import { Monogram } from "@/components/brand/Monogram";
  * Logotype typographique ARASTE CAPITAL : monogramme et capitales espacées.
  */
 export function Wordmark({
-  tone = "forest",
+  tone = "navy",
   compact = false,
   className = "",
 }: {
-  tone?: "forest" | "ivory";
+  tone?: "navy" | "porcelain";
   compact?: boolean;
   className?: string;
 }) {
-  const text = tone === "forest" ? "text-forest" : "text-ivory";
+  const text = tone === "navy" ? "text-navy" : "text-porcelain";
   return (
     <span className={`inline-flex min-w-0 items-center gap-3 ${className}`}>
       <Monogram tone={tone} className={compact ? "h-7 w-7 shrink-0" : "h-8 w-8 shrink-0 md:h-9 md:w-9"} />

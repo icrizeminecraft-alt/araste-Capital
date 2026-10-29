@@ -5,15 +5,15 @@
  */
 export function Monogram({
   className,
-  tone = "forest",
+  tone = "navy",
   title,
 }: {
   className?: string;
-  tone?: "forest" | "ivory";
+  tone?: "navy" | "porcelain";
   title?: string;
 }) {
-  const color = tone === "forest" ? "#142a25" : "#f4f0e8";
-  const accent = tone === "forest" ? "#aa9167" : "#cdb88f";
+  const color = tone === "navy" ? "#0b1730" : "#fbfbfc";
+  const accent = tone === "navy" ? "#b8964f" : "#dcc58b";
   return (
     <svg
       viewBox="0 0 64 64"

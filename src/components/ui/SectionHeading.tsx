@@ -22,11 +22,11 @@ export function SectionHeading({
   return (
     <div className={`${align === "center" ? "mx-auto text-center" : ""} ${className}`}>
       {eyebrow ? <Eyebrow dark={dark} className="mb-5">{eyebrow}</Eyebrow> : null}
-      <h2 id={id} className={`${size === "lg" ? "display-lg" : "display-md"} ${dark ? "text-ivory" : ""}`}>
+      <h2 id={id} className={`${size === "lg" ? "display-lg" : "display-md"} ${dark ? "text-porcelain" : ""}`}>
         {title}
       </h2>
       {body ? (
-        <p className={`lead measure mt-6 ${dark ? "text-stone" : "text-ink-soft"} ${align === "center" ? "mx-auto" : ""}`}>
+        <p className={`lead measure mt-6 ${dark ? "text-silver" : "text-ink-soft"} ${align === "center" ? "mx-auto" : ""}`}>
           {body}
         </p>
       ) : null}

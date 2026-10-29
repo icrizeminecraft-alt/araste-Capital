@@ -41,24 +41,24 @@ export default async function SlugOpenGraphImage({ params }: { params: Promise<{
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          background: resolved?.kind === "guide" ? "#f4f0e8" : "#142a25",
-          color: resolved?.kind === "guide" ? "#142a25" : "#f4f0e8",
+          background: resolved?.kind === "guide" ? "#fbfbfc" : "#0b1730",
+          color: resolved?.kind === "guide" ? "#0b1730" : "#fbfbfc",
           padding: "72px 84px",
           fontFamily: "DM Sans",
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
           <svg width="56" height="56" viewBox="0 0 64 64">
-            <path d="M32 8 L8 56 H16.5 L32 25 L47.5 56 H56 Z" fill={resolved?.kind === "guide" ? "#142a25" : "#f4f0e8"} />
-            <rect x="13" y="39.6" width="38" height="2.4" fill="#aa9167" />
-            <path d="M22 56 C22 48.6 26.5 44 32 44 C37.5 44 42 48.6 42 56" fill="none" stroke="#aa9167" strokeWidth="1.7" />
+            <path d="M32 8 L8 56 H16.5 L32 25 L47.5 56 H56 Z" fill={resolved?.kind === "guide" ? "#0b1730" : "#fbfbfc"} />
+            <rect x="13" y="39.6" width="38" height="2.4" fill="#b8964f" />
+            <path d="M22 56 C22 48.6 26.5 44 32 44 C37.5 44 42 48.6 42 56" fill="none" stroke="#b8964f" strokeWidth="1.7" />
           </svg>
           <div style={{ fontFamily: "Cormorant", fontSize: 34, letterSpacing: 9, textTransform: "uppercase" }}>Araste Capital</div>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
-          <div style={{ fontSize: 22, letterSpacing: 4, textTransform: "uppercase", color: "#aa9167" }}>{eyebrow}</div>
+          <div style={{ fontSize: 22, letterSpacing: 4, textTransform: "uppercase", color: "#b8964f" }}>{eyebrow}</div>
           <div style={{ fontFamily: "Cormorant", fontSize: title.length > 40 ? 62 : 74, lineHeight: 1.02, maxWidth: 1000 }}>{title}</div>
-          <div style={{ fontSize: 22, letterSpacing: 3, textTransform: "uppercase", color: resolved?.kind === "guide" ? "#7d6740" : "#cdb88f" }}>
+          <div style={{ fontSize: 22, letterSpacing: 3, textTransform: "uppercase", color: resolved?.kind === "guide" ? "#83652a" : "#dcc58b" }}>
             {siteConfig.brand.tagline[l]}
           </div>
         </div>

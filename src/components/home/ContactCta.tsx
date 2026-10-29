@@ -18,24 +18,24 @@ export function ContactCta({
   const dark = tone === "dark";
   return (
     <section
-      className={dark ? "on-dark bg-forest text-ivory" : "border-t border-stone bg-ivory"}
+      className={dark ? "on-dark bg-navy text-porcelain" : "border-t border-silver bg-porcelain"}
       aria-labelledby="contact-cta-title"
     >
       <div className="container-x section-y grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-start lg:gap-8">
         <Reveal className="lg:col-span-8">
           {t.eyebrow ? <Eyebrow dark={dark} className="mb-6">{t.eyebrow}</Eyebrow> : null}
-          <h2 id="contact-cta-title" className={`display-lg ${dark ? "text-ivory" : ""}`}>
+          <h2 id="contact-cta-title" className={`display-lg ${dark ? "text-porcelain" : ""}`}>
             {t.title}
           </h2>
-          <p className={`lead measure-lead mt-8 ${dark ? "text-stone" : "text-ink-soft"}`}>{t.body}</p>
+          <p className={`lead measure-lead mt-8 ${dark ? "text-silver" : "text-ink-soft"}`}>{t.body}</p>
           <div className="mt-10 flex flex-col items-start gap-5 sm:flex-row sm:items-center">
-            <ButtonLink href={pagePath(locale, "contact")} variant={dark ? "ivory" : "primary"}>
+            <ButtonLink href={pagePath(locale, "contact")} variant={dark ? "porcelain" : "primary"}>
               {t.cta}
             </ButtonLink>
             {t.secondary ? (
               <Link
                 href={pagePath(locale, "approach")}
-                className={`link-line font-sans text-[0.9375rem] font-medium ${dark ? "text-ivory" : "text-forest"}`}
+                className={`link-line font-sans text-[0.9375rem] font-medium ${dark ? "text-porcelain" : "text-navy"}`}
               >
                 {t.secondary}
               </Link>
@@ -43,7 +43,7 @@ export function ContactCta({
           </div>
         </Reveal>
         <div className="hidden lg:col-span-3 lg:col-start-10 lg:flex lg:justify-end lg:pt-2" aria-hidden="true">
-          <Monogram tone={dark ? "ivory" : "forest"} className="h-24 w-24 opacity-60" />
+          <Monogram tone={dark ? "porcelain" : "navy"} className="h-24 w-24 opacity-60" />
         </div>
       </div>
     </section>

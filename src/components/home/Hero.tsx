@@ -25,11 +25,11 @@ export function Hero({ locale, t }: { locale: Locale; t: HomeContent["hero"] }) 
           </h1>
           <p className="lead measure-lead mt-8 text-ink-soft">{t.body}</p>
           {ticket.enabled ? (
-            <p className="mt-5 font-sans text-sm text-champagne-deep">{ticket.text[locale]}</p>
+            <p className="mt-5 font-sans text-sm text-gold-deep">{ticket.text[locale]}</p>
           ) : null}
           <div className="mt-10 flex flex-col items-start gap-5 sm:flex-row sm:items-center">
             <ButtonLink href={pagePath(locale, "contact")}>{t.cta}</ButtonLink>
-            <Link href="#expertises" className="link-line self-start font-sans text-[0.9375rem] font-medium text-forest sm:self-auto">
+            <Link href="#expertises" className="link-line self-start font-sans text-[0.9375rem] font-medium text-navy sm:self-auto">
               {t.secondary}
             </Link>
           </div>
@@ -37,8 +37,8 @@ export function Hero({ locale, t }: { locale: Locale; t: HomeContent["hero"] }) 
 
         <figure className="relative lg:col-span-6 lg:col-start-7">
           {/* Cadre laiton décalé : le visuel est présenté comme une planche encadrée. */}
-          <div aria-hidden="true" className="pointer-events-none absolute -bottom-3 -right-3 hidden h-full w-full border border-champagne/60 md:block" />
-          <div className="grain relative aspect-[4/5] w-full overflow-hidden bg-stone sm:aspect-[5/6] lg:aspect-[4/5] lg:max-h-[80vh] xl:aspect-[5/6]">
+          <div aria-hidden="true" className="pointer-events-none absolute -bottom-3 -right-3 hidden h-full w-full border border-gold/60 md:block" />
+          <div className="grain relative aspect-[4/5] w-full overflow-hidden bg-silver sm:aspect-[5/6] lg:aspect-[4/5] lg:max-h-[80vh] xl:aspect-[5/6]">
             <Visual slot={visuals.hero} locale={locale} priority sizes="(min-width: 64rem) 50vw, 100vw" />
           </div>
           <figcaption className="mt-3 font-sans text-xs text-ink-soft">{t.caption}</figcaption>

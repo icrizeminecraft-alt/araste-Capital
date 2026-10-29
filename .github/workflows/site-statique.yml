@@ -12,6 +12,7 @@ on:
       - "outils/**"
       - "README.md"
       - ".github/workflows/candidats-images.yml"
+      - ".github/workflows/import-photos.yml"
   workflow_dispatch:
 
 permissions:

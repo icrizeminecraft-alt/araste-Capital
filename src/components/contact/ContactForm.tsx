@@ -305,8 +305,8 @@ export function ContactForm({
         <div aria-live="polite" aria-atomic="true" className="sr-only">
           {announcement}
         </div>
-        <div className={`border-l-2 ${status.kind === "sent" ? "border-forest" : "border-champagne"} bg-ivory-deep/60 px-6 py-8 md:px-8`}>
-          <h2 ref={headingRef} tabIndex={-1} className="font-serif text-[1.75rem] font-medium leading-tight text-forest">
+        <div className={`border-l-2 ${status.kind === "sent" ? "border-navy" : "border-gold"} bg-porcelain-deep/60 px-6 py-8 md:px-8`}>
+          <h2 ref={headingRef} tabIndex={-1} className="font-serif text-[1.75rem] font-medium leading-tight text-navy">
             {status.kind === "sent" ? t.result.sentTitle : t.result.demoTitle}
           </h2>
           <p className="mt-4 max-w-prose font-sans text-[0.9375rem] leading-relaxed text-ink-soft">{status.kind === "sent" ? t.result.sentBody : t.result.demoBody}</p>
@@ -325,7 +325,7 @@ export function ContactForm({
       </div>
       <form onSubmit={submit} noValidate aria-describedby={`${uid}-required`}>
         <noscript>
-          <p className="mb-8 border-l-2 border-champagne bg-ivory-deep/60 px-4 py-3 font-sans text-sm text-ink">{t.noscript}</p>
+          <p className="mb-8 border-l-2 border-gold bg-porcelain-deep/60 px-4 py-3 font-sans text-sm text-ink">{t.noscript}</p>
         </noscript>
 
         <ol className="mb-10 flex flex-wrap items-baseline gap-x-7 gap-y-3" aria-label={t.stepsLabel}>
@@ -333,7 +333,7 @@ export function ContactForm({
             const n = (i + 1) as StepNumber;
             const isCurrent = n === step && !reviewing;
             return (
-              <li key={s.title} className={`flex items-baseline gap-3 ${isCurrent ? "text-forest" : "text-ink-soft"}`} aria-current={isCurrent ? "step" : undefined}>
+              <li key={s.title} className={`flex items-baseline gap-3 ${isCurrent ? "text-navy" : "text-ink-soft"}`} aria-current={isCurrent ? "step" : undefined}>
                 <span aria-hidden="true" className={`numeral text-base ${isCurrent ? "" : "text-ink-soft"}`}>
                   {String(n).padStart(2, "0")}
                 </span>
@@ -343,7 +343,7 @@ export function ContactForm({
           })}
         </ol>
 
-        <h2 ref={headingRef} tabIndex={-1} className="font-serif text-[1.75rem] font-medium leading-tight text-forest">
+        <h2 ref={headingRef} tabIndex={-1} className="font-serif text-[1.75rem] font-medium leading-tight text-navy">
           <span className="eyebrow mb-2 block">{reviewing ? t.summaryTitle : stepLabel}</span>
           {reviewing ? t.summaryTitle : current?.title}
         </h2>
@@ -368,15 +368,15 @@ export function ContactForm({
         {reviewing ? (
           <div className="mt-8 space-y-10">
             {([1, 2, 3, 4] as StepNumber[]).map((s) => (
-              <section key={s} aria-labelledby={`${uid}-summary-${s}`} className="border-t border-forest pt-5">
+              <section key={s} aria-labelledby={`${uid}-summary-${s}`} className="border-t border-navy pt-5">
                 <div className="flex items-baseline justify-between gap-4">
-                  <h3 id={`${uid}-summary-${s}`} className="flex items-baseline gap-3 font-serif text-xl font-medium text-forest">
+                  <h3 id={`${uid}-summary-${s}`} className="flex items-baseline gap-3 font-serif text-xl font-medium text-navy">
                     <span aria-hidden="true" className="numeral text-sm">
                       {String(s).padStart(2, "0")}
                     </span>
                     {t.steps[s - 1]?.title}
                   </h3>
-                  <button type="button" onClick={() => goTo(s)} className="link-line font-sans text-sm font-medium text-forest">
+                  <button type="button" onClick={() => goTo(s)} className="link-line font-sans text-sm font-medium text-navy">
                     {t.edit}
                   </button>
                 </div>
@@ -385,16 +385,16 @@ export function ContactForm({
                     .filter((row) => row.value)
                     .map((row) => (
                       <div key={row.label} className="contents">
-                        <dt className="text-sm text-ink-soft md:border-b md:border-stone md:py-2">{row.label}</dt>
-                        <dd className="whitespace-pre-line border-b border-stone pb-3 text-ink md:py-2">{row.value}</dd>
+                        <dt className="text-sm text-ink-soft md:border-b md:border-silver md:py-2">{row.label}</dt>
+                        <dd className="whitespace-pre-line border-b border-silver pb-3 text-ink md:py-2">{row.value}</dd>
                       </div>
                     ))}
                 </dl>
               </section>
             ))}
-            <p className="border-l border-champagne pl-4 font-sans text-sm leading-relaxed text-ink-soft">
+            <p className="border-l border-gold pl-4 font-sans text-sm leading-relaxed text-ink-soft">
               {t.privacyNotice}{" "}
-              <Link href={pagePath(locale, "privacy")} className="link-line text-forest">
+              <Link href={pagePath(locale, "privacy")} className="link-line text-navy">
                 {t.privacyLink}
               </Link>
             </p>
@@ -563,7 +563,7 @@ export function ContactForm({
                   <div className="flex flex-wrap gap-6">
                     {t.fields.channel.options.map((option) => (
                       <label key={option.value} className="flex min-h-[2.75rem] items-center gap-3 font-sans text-[0.9375rem]">
-                        <input type="radio" name="channel" value={option.value} checked={values.channel === option.value} onChange={() => setValues((prev) => ({ ...prev, channel: option.value }))} className="h-4 w-4 accent-forest" />
+                        <input type="radio" name="channel" value={option.value} checked={values.channel === option.value} onChange={() => setValues((prev) => ({ ...prev, channel: option.value }))} className="h-4 w-4 accent-navy" />
                         {option.label}
                       </label>
                     ))}

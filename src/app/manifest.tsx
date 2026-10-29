@@ -12,8 +12,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: siteConfig.brand.tagline.fr,
     start_url: publicPath("/fr"),
     display: "browser",
-    background_color: "#f4f0e8",
-    theme_color: "#142a25",
+    background_color: "#fbfbfc",
+    theme_color: "#0b1730",
     icons: [
       { src: "/icon.svg", sizes: "any", type: "image/svg+xml" },
       { src: "/apple-icon.png", sizes: "180x180", type: "image/png" },

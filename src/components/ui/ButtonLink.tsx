@@ -1,13 +1,13 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 
-export type ButtonVariant = "primary" | "outline" | "ivory" | "outline-ivory";
+export type ButtonVariant = "primary" | "outline" | "porcelain" | "outline-porcelain";
 
 const variantClass: Record<ButtonVariant, string> = {
   primary: "btn btn-primary",
   outline: "btn btn-outline",
-  ivory: "btn btn-ivory",
-  "outline-ivory": "btn btn-outline-ivory",
+  porcelain: "btn btn-porcelain",
+  "outline-porcelain": "btn btn-outline-porcelain",
 };
 
 export function ButtonLink({
@@ -43,7 +43,7 @@ export function ArrowLink({
   return (
     <Link
       href={href}
-      className={`group inline-flex items-baseline gap-2 font-sans text-[0.9375rem] font-medium ${dark ? "text-ivory" : "text-forest"} ${className}`}
+      className={`group inline-flex items-baseline gap-2 font-sans text-[0.9375rem] font-medium ${dark ? "text-porcelain" : "text-navy"} ${className}`}
     >
       <span className="link-line">{children}</span>
       <span aria-hidden="true" className="inline-block transition-transform duration-300 group-hover:translate-x-1 motion-reduce:transition-none motion-reduce:group-hover:translate-x-0">

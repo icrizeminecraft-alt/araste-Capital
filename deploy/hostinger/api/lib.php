@@ -393,8 +393,8 @@ function araste_render_text(array $sheet): string
 function araste_render_html(array $sheet, string $locale): string
 {
     $e = fn(string $s): string => htmlspecialchars($s, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
-    $html = '<!doctype html><html lang="' . $e($locale) . '"><body style="margin:0;background:#f4f0e8;padding:24px">'
-        . '<div style="max-width:680px;margin:0 auto;background:#fffdf8;border-top:3px solid #142a25;padding:28px 32px;font-family:Georgia,serif;color:#142a25">'
+    $html = '<!doctype html><html lang="' . $e($locale) . '"><body style="margin:0;background:#fbfbfc;padding:24px">'
+        . '<div style="max-width:680px;margin:0 auto;background:#ffffff;border-top:3px solid #0b1730;padding:28px 32px;font-family:Georgia,serif;color:#0b1730">'
         . '<p style="margin:0;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8a6d3b">ARASTE CAPITAL</p>'
         . '<h1 style="margin:8px 0 4px;font-size:26px;font-weight:500">' . $e($sheet['title']) . '</h1>'
         . '<p style="margin:0 0 4px;font-size:14px;color:#55605b">' . $e($sheet['reference']) . '</p>'

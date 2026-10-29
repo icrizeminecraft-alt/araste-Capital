@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 export const viewport: Viewport = {
-  themeColor: "#f4f0e8",
+  themeColor: "#fbfbfc",
   width: "device-width",
   initialScale: 1,
 };
@@ -56,7 +56,7 @@ export default async function LocaleLayout({
       <body className="flex min-h-svh flex-col">
         <a
           href="#contenu"
-          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-forest focus:px-4 focus:py-3 focus:font-sans focus:text-sm focus:text-ivory"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-navy focus:px-4 focus:py-3 focus:font-sans focus:text-sm focus:text-porcelain"
         >
           {dict.common.nav.skipToContent}
         </a>

@@ -21,8 +21,8 @@ export function LocaleSwitcher({
   className?: string;
 }) {
   const pathname = usePathname() ?? `/${locale}`;
-  const base = dark ? "text-stone hover:text-ivory" : "text-ink-soft hover:text-forest";
-  const current = dark ? "text-ivory" : "text-forest";
+  const base = dark ? "text-silver hover:text-porcelain" : "text-ink-soft hover:text-navy";
+  const current = dark ? "text-porcelain" : "text-navy";
 
   return (
     <nav aria-label={labels.switchLabel} className={`font-sans text-[0.8125rem] uppercase tracking-[0.14em] ${className}`}>
@@ -32,7 +32,7 @@ export function LocaleSwitcher({
           return (
             <li key={target} className="flex items-center gap-3">
               {i > 0 ? (
-                <span aria-hidden="true" className={dark ? "text-champagne-light/60" : "text-stone-dark"}>
+                <span aria-hidden="true" className={dark ? "text-gold-light/60" : "text-silver-dark"}>
                   /
                 </span>
               ) : null}

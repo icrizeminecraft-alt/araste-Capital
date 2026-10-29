@@ -139,24 +139,24 @@ export function renderHtml(fields: ContactFields, locale: string, receivedAt: Da
   const sections = sheet.sections
     .map(
       (section, i) => `
-      <h2 style="margin:28px 0 8px;font:500 18px Georgia,serif;color:#142a25;border-bottom:1px solid #aa9167;padding-bottom:6px"><span style="color:#aa9167;font-size:12px;margin-right:10px">${String(i + 1).padStart(2, "0")}</span>${escapeHtml(section.title)}</h2>
-      <table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;font:14px/1.5 Helvetica,Arial,sans-serif;color:#202623">
+      <h2 style="margin:28px 0 8px;font:500 18px Georgia,serif;color:#0b1730;border-bottom:1px solid #b8964f;padding-bottom:6px"><span style="color:#b8964f;font-size:12px;margin-right:10px">${String(i + 1).padStart(2, "0")}</span>${escapeHtml(section.title)}</h2>
+      <table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;font:14px/1.5 Helvetica,Arial,sans-serif;color:#141a2a">
         ${section.rows
           .map(
-            (row) => `<tr><td style="padding:6px 12px 6px 0;width:38%;vertical-align:top;color:#4a524d;font-size:12px;border-bottom:1px solid #ece6da">${escapeHtml(row.label)}</td><td style="padding:6px 0;vertical-align:top;border-bottom:1px solid #ece6da;white-space:pre-wrap">${escapeHtml(row.value || "—")}</td></tr>`,
+            (row) => `<tr><td style="padding:6px 12px 6px 0;width:38%;vertical-align:top;color:#4f576a;font-size:12px;border-bottom:1px solid #f1f2f4">${escapeHtml(row.label)}</td><td style="padding:6px 0;vertical-align:top;border-bottom:1px solid #f1f2f4;white-space:pre-wrap">${escapeHtml(row.value || "—")}</td></tr>`,
           )
           .join("")}
       </table>`,
     )
     .join("");
-  return `<!doctype html><html lang="${sheet.locale}"><body style="margin:0;background:#f4f0e8;padding:24px">
-  <div style="max-width:680px;margin:0 auto;background:#fff;border:1px solid #dad3c7">
-    <div style="background:#142a25;padding:22px 28px;color:#f4f0e8;font:500 15px Georgia,serif;letter-spacing:3px">ARASTE CAPITAL<div style="font:11px Helvetica,Arial,sans-serif;letter-spacing:1px;color:#cdb88f;margin-top:6px">${escapeHtml(sheet.reference)}</div></div>
+  return `<!doctype html><html lang="${sheet.locale}"><body style="margin:0;background:#fbfbfc;padding:24px">
+  <div style="max-width:680px;margin:0 auto;background:#fff;border:1px solid #d6d9e0">
+    <div style="background:#0b1730;padding:22px 28px;color:#fbfbfc;font:500 15px Georgia,serif;letter-spacing:3px">ARASTE CAPITAL<div style="font:11px Helvetica,Arial,sans-serif;letter-spacing:1px;color:#dcc58b;margin-top:6px">${escapeHtml(sheet.reference)}</div></div>
     <div style="padding:24px 28px 32px">
-      <h1 style="margin:0;font:500 28px Georgia,serif;color:#142a25">${escapeHtml(sheet.title)}</h1>
-      <p style="margin:6px 0 0;font:13px Helvetica,Arial,sans-serif;color:#4a524d">${escapeHtml(sheet.subtitle)}</p>
+      <h1 style="margin:0;font:500 28px Georgia,serif;color:#0b1730">${escapeHtml(sheet.title)}</h1>
+      <p style="margin:6px 0 0;font:13px Helvetica,Arial,sans-serif;color:#4f576a">${escapeHtml(sheet.subtitle)}</p>
       ${sections}
-      <p style="margin:32px 0 0;font:11px/1.5 Helvetica,Arial,sans-serif;color:#4a524d;border-top:1px solid #aa9167;padding-top:12px">${escapeHtml(sheet.footer)}</p>
+      <p style="margin:32px 0 0;font:11px/1.5 Helvetica,Arial,sans-serif;color:#4f576a;border-top:1px solid #b8964f;padding-top:12px">${escapeHtml(sheet.footer)}</p>
     </div>
   </div></body></html>`;
 }

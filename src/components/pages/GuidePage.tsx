@@ -43,7 +43,7 @@ export function GuidePage({ locale, dict, guide }: { locale: Locale; dict: Dicti
       <article className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
         <aside className="order-2 lg:order-1 lg:col-span-4">
           <div className="lg:sticky lg:top-[calc(var(--header-h)+2rem)]">
-            <Reveal className="border-t-2 border-forest pt-5">
+            <Reveal className="border-t-2 border-navy pt-5">
               <h2 className="eyebrow mb-5">{dict.common.ui.keyPoints}</h2>
               <ul className="space-y-4">
                 {g.keyPoints.map((point, i) => (
@@ -59,10 +59,10 @@ export function GuidePage({ locale, dict, guide }: { locale: Locale; dict: Dicti
             {related.length > 0 ? (
               <Reveal className="mt-12" delay={1}>
                 <h2 className="eyebrow mb-4">{dict.common.ui.relatedExpertises}</h2>
-                <ul className="space-y-3 border-t border-stone pt-4">
+                <ul className="space-y-3 border-t border-silver pt-4">
                   {related.map((key) => (
                     <li key={key}>
-                      <Link href={expertisePath(locale, key)} className="link-line font-serif text-xl text-forest">
+                      <Link href={expertisePath(locale, key)} className="link-line font-serif text-xl text-navy">
                         {dict.expertises[key].shortTitle}
                       </Link>
                     </li>
@@ -75,7 +75,7 @@ export function GuidePage({ locale, dict, guide }: { locale: Locale; dict: Dicti
 
         <div className="order-1 lg:order-2 lg:col-span-7 lg:col-start-6">
           {g.sections.map((section, i) => (
-            <Reveal as="section" key={section.title} className="border-t border-stone py-10 first:border-t-0 first:pt-0" delay={Math.min(i, 3) as 0 | 1 | 2 | 3}>
+            <Reveal as="section" key={section.title} className="border-t border-silver py-10 first:border-t-0 first:pt-0" delay={Math.min(i, 3) as 0 | 1 | 2 | 3}>
               <Eyebrow className="mb-3">{String(i + 1).padStart(2, "0")}</Eyebrow>
               <h2 className="display-sm">{section.title}</h2>
               {section.paragraphs.map((p, j) => (
@@ -87,7 +87,7 @@ export function GuidePage({ locale, dict, guide }: { locale: Locale; dict: Dicti
                 <ul className="mt-6 space-y-3">
                   {section.items.map((item) => (
                     <li key={item} className="flex gap-4 font-sans text-[1rem] leading-relaxed text-ink">
-                      <span aria-hidden="true" className="mt-[0.75em] h-px w-5 shrink-0 bg-champagne" />
+                      <span aria-hidden="true" className="mt-[0.75em] h-px w-5 shrink-0 bg-gold" />
                       {item}
                     </li>
                   ))}
@@ -95,31 +95,31 @@ export function GuidePage({ locale, dict, guide }: { locale: Locale; dict: Dicti
               ) : null}
             </Reveal>
           ))}
-          <p className="mt-10 border-l border-champagne pl-4 font-sans text-sm leading-relaxed text-ink-soft">{dict.guidesIndex.note}</p>
+          <p className="mt-10 border-l border-gold pl-4 font-sans text-sm leading-relaxed text-ink-soft">{dict.guidesIndex.note}</p>
         </div>
       </article>
 
       {g.relatedGuides.length > 0 ? (
-        <section className="bg-ivory-deep/60" aria-labelledby="related-guides-title">
+        <section className="bg-porcelain-deep/60" aria-labelledby="related-guides-title">
           <div className="container-x section-y-sm">
             <Eyebrow as="h2" id="related-guides-title" className="mb-6">
               {dict.common.ui.relatedGuides}
             </Eyebrow>
-            <ul className="grid grid-cols-1 gap-px border-t border-stone-dark/60 md:grid-cols-2">
+            <ul className="grid grid-cols-1 gap-px border-t border-silver-dark/60 md:grid-cols-2">
               {g.relatedGuides.map((key) => (
-                <li key={key} className="border-b border-stone-dark/60 md:odd:border-r md:odd:pr-8">
+                <li key={key} className="border-b border-silver-dark/60 md:odd:border-r md:odd:pr-8">
                   <Link href={guidePath(locale, key)} className="group block py-6">
                     <span className="eyebrow block">{dict.guides[key].eyebrow}</span>
-                    <span className="mt-2 inline-flex items-baseline gap-2 font-serif text-2xl font-medium text-forest transition-colors group-hover:text-champagne-deep">
+                    <span className="mt-2 inline-flex items-baseline gap-2 font-serif text-2xl font-medium text-navy transition-colors group-hover:text-gold-deep">
                       {dict.guides[key].title}
-                      <span aria-hidden="true" className="font-sans text-base text-champagne-deep">→</span>
+                      <span aria-hidden="true" className="font-sans text-base text-gold-deep">→</span>
                     </span>
                   </Link>
                 </li>
               ))}
             </ul>
             <div className="mt-8">
-              <Link href={pagePath(locale, "guides")} className="link-line font-sans text-[0.9375rem] font-medium text-forest">
+              <Link href={pagePath(locale, "guides")} className="link-line font-sans text-[0.9375rem] font-medium text-navy">
                 {dict.common.ui.allGuides}
               </Link>
             </div>

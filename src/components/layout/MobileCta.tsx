@@ -24,7 +24,7 @@ export function MobileCta({ href, label }: { href: string; label: string }) {
   return (
     <div
       aria-hidden={!visible}
-      className={`fixed inset-x-0 bottom-0 z-30 border-t border-stone bg-ivory/98 px-5 pb-[calc(0.75rem+env(safe-area-inset-bottom))] pt-3 transition-transform duration-500 ease-out-quart motion-reduce:transition-none md:hidden ${
+      className={`fixed inset-x-0 bottom-0 z-30 border-t border-silver bg-porcelain/98 px-5 pb-[calc(0.75rem+env(safe-area-inset-bottom))] pt-3 transition-transform duration-500 ease-out-quart motion-reduce:transition-none md:hidden ${
         visible ? "translate-y-0" : "translate-y-full"
       }`}
     >

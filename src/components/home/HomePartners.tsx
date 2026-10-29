@@ -7,7 +7,7 @@ import { ButtonLink } from "@/components/ui/ButtonLink";
 
 export function HomePartners({ locale, t }: { locale: Locale; t: HomeContent["partners"] }) {
   return (
-    <section className="border-t border-stone bg-ivory-deep/60" aria-labelledby="partners-title">
+    <section className="border-t border-silver bg-porcelain-deep/60" aria-labelledby="partners-title">
       <div className="container-x section-y grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-end lg:gap-8">
         <Reveal className="lg:col-span-8">
           <Eyebrow className="mb-6">{t.eyebrow}</Eyebrow>

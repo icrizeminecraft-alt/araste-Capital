@@ -40,15 +40,15 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
         <aside className="order-2 lg:order-1 lg:col-span-4">
           <div className="lg:sticky lg:top-[calc(var(--header-h)+2rem)]">
             <h2 className="eyebrow mb-4">{t.aside.title}</h2>
-            <ul className="space-y-3 border-t border-forest pt-5">
+            <ul className="space-y-3 border-t border-navy pt-5">
               {t.aside.items.map((item) => (
                 <li key={item} className="flex gap-4 font-sans text-[0.9375rem] leading-relaxed text-ink">
-                  <span aria-hidden="true" className="mt-[0.7em] h-px w-4 shrink-0 bg-champagne" />
+                  <span aria-hidden="true" className="mt-[0.7em] h-px w-4 shrink-0 bg-gold" />
                   {item}
                 </li>
               ))}
             </ul>
-            <p className="mt-8 border-l border-champagne pl-4 font-sans text-sm leading-relaxed text-ink-soft">{t.aside.confidentiality}</p>
+            <p className="mt-8 border-l border-gold pl-4 font-sans text-sm leading-relaxed text-ink-soft">{t.aside.confidentiality}</p>
 
             <h2 className="eyebrow mb-4 mt-12">{dict.common.ui.presence}</h2>
             <LocalClocks places={siteConfig.locations.map((l) => ({ key: l.key, name: l.name[locale], timeZone: l.timeZone }))} locale={locale === "fr" ? "fr-FR" : "en-GB"} label={dict.common.ui.localTime} compact />
@@ -58,7 +58,7 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
                   .filter((l) => l.addressLines.length > 0)
                   .map((l) => (
                     <li key={l.key}>
-                      <span className="block font-medium text-forest">{l.name[locale]}</span>
+                      <span className="block font-medium text-navy">{l.name[locale]}</span>
                       {l.addressLines.map((line) => (
                         <span key={line} className="block">
                           {line}
@@ -80,12 +80,12 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
                   </span>
                 ))}
                 {c.email ? (
-                  <a href={`mailto:${c.email}`} className="link-line mt-3 block text-forest">
+                  <a href={`mailto:${c.email}`} className="link-line mt-3 block text-navy">
                     {c.email}
                   </a>
                 ) : null}
                 {c.phone ? (
-                  <a href={`tel:${c.phone.replace(/\s+/g, "")}`} className="link-line mt-1 block text-forest">
+                  <a href={`tel:${c.phone.replace(/\s+/g, "")}`} className="link-line mt-1 block text-navy">
                     {c.phone}
                   </a>
                 ) : null}
@@ -98,7 +98,7 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
 
         <div className="order-1 relative lg:order-2 lg:col-span-7 lg:col-start-6">
           {demo ? (
-            <p className="mb-8 border-l-2 border-champagne bg-ivory-deep/60 px-4 py-3 font-sans text-sm text-ink-soft" role="note">
+            <p className="mb-8 border-l-2 border-gold bg-porcelain-deep/60 px-4 py-3 font-sans text-sm text-ink-soft" role="note">
               {t.form.result.demoBanner}
             </p>
           ) : null}
@@ -106,7 +106,7 @@ export async function ContactPage({ locale, dict }: { locale: Locale; dict: Dict
         </div>
       </div>
 
-      <div className="border-t border-stone">
+      <div className="border-t border-silver">
         <div className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-10 lg:col-start-2">
             <Faq id="faq-contact" title={t.faq.title} lead={t.faq.lead} items={t.faq.items} />

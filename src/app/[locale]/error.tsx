@@ -26,7 +26,7 @@ export default function ErrorPage({ error, reset }: { error: Error & { digest?: 
         <button type="button" onClick={reset} className="btn btn-primary">
           {t.retry}
         </button>
-        <Link href={`/${locale}`} className="link-line font-sans text-[0.9375rem] font-medium text-forest">
+        <Link href={`/${locale}`} className="link-line font-sans text-[0.9375rem] font-medium text-navy">
           {t.home}
         </Link>
       </div>

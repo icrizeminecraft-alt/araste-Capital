@@ -34,7 +34,7 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
       />
 
       <div className="container-x mt-12 grid grid-cols-1 gap-12 md:mt-16 lg:grid-cols-12 lg:gap-8">
-        <Reveal className="reveal-media grain relative aspect-[16/9] overflow-hidden bg-stone lg:col-span-12 lg:aspect-[21/9]">
+        <Reveal className="reveal-media grain relative aspect-[16/9] overflow-hidden bg-silver lg:col-span-12 lg:aspect-[21/9]">
           <Visual slot={visuals.expertises[expertise]} locale={locale} decorative sizes="100vw" />
         </Reveal>
       </div>
@@ -47,27 +47,27 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
           </h2>
           <p className="mt-4 font-sans text-[0.9375rem] leading-relaxed text-ink-soft">{s.needs.intro}</p>
         </Reveal>
-        <Reveal as="ul" className="space-y-5 border-t border-forest pt-6 lg:col-span-7 lg:col-start-6" delay={1}>
+        <Reveal as="ul" className="space-y-5 border-t border-navy pt-6 lg:col-span-7 lg:col-start-6" delay={1}>
           {s.needs.items.map((item) => (
             <li key={item} className="flex gap-4 font-sans text-[1.0625rem] leading-relaxed text-ink">
-              <span aria-hidden="true" className="mt-[0.75em] h-px w-5 shrink-0 bg-champagne" />
+              <span aria-hidden="true" className="mt-[0.75em] h-px w-5 shrink-0 bg-gold" />
               {item}
             </li>
           ))}
         </Reveal>
       </section>
 
-      <section className="on-dark bg-forest text-ivory" aria-labelledby="approach-title">
+      <section className="on-dark bg-navy text-porcelain" aria-labelledby="approach-title">
         <div className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
           <Reveal className="lg:col-span-4">
             <Eyebrow dark className="mb-4">02</Eyebrow>
-            <h2 id="approach-title" className="display-sm text-ivory">
+            <h2 id="approach-title" className="display-sm text-porcelain">
               {s.approach.title}
             </h2>
           </Reveal>
           <div className="lg:col-span-7 lg:col-start-6">
             {s.approach.paragraphs.map((p, i) => (
-              <Reveal as="p" key={i} className="measure mt-6 first:mt-0 font-sans text-[1.0625rem] leading-relaxed text-stone" delay={Math.min(i, 3) as 0 | 1 | 2 | 3}>
+              <Reveal as="p" key={i} className="measure mt-6 first:mt-0 font-sans text-[1.0625rem] leading-relaxed text-silver" delay={Math.min(i, 3) as 0 | 1 | 2 | 3}>
                 {p}
               </Reveal>
             ))}
@@ -83,9 +83,9 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
           </h2>
           <p className="mt-4 font-sans text-[0.9375rem] leading-relaxed text-ink-soft">{s.analysis.intro}</p>
         </Reveal>
-        <Reveal as="ol" className="grid grid-cols-1 gap-x-8 gap-y-4 border-t border-forest pt-6 sm:grid-cols-2 lg:col-span-7 lg:col-start-6" delay={1}>
+        <Reveal as="ol" className="grid grid-cols-1 gap-x-8 gap-y-4 border-t border-navy pt-6 sm:grid-cols-2 lg:col-span-7 lg:col-start-6" delay={1}>
           {s.analysis.items.map((item, i) => (
-            <li key={item} className="grid grid-cols-[2rem_minmax(0,1fr)] gap-2 border-b border-stone py-3 font-sans text-[0.9375rem] leading-relaxed text-ink">
+            <li key={item} className="grid grid-cols-[2rem_minmax(0,1fr)] gap-2 border-b border-silver py-3 font-sans text-[0.9375rem] leading-relaxed text-ink">
               <span aria-hidden="true" className="numeral text-sm">
                 {String(i + 1).padStart(2, "0")}
               </span>
@@ -95,7 +95,7 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
         </Reveal>
       </section>
 
-      <section className="bg-ivory-deep/60" aria-labelledby="limits-title">
+      <section className="bg-porcelain-deep/60" aria-labelledby="limits-title">
         <div className="container-x section-y-sm grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
           <Reveal className="lg:col-span-4">
             <Eyebrow className="mb-4">04</Eyebrow>
@@ -103,7 +103,7 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
               {s.limits.title}
             </h2>
           </Reveal>
-          <Reveal className="space-y-6 border-l border-champagne pl-5 lg:col-span-7 lg:col-start-6" delay={1}>
+          <Reveal className="space-y-6 border-l border-gold pl-5 lg:col-span-7 lg:col-start-6" delay={1}>
             {s.limits.paragraphs.map((p, i) => (
               <p key={i} className="measure font-sans text-[1.0625rem] leading-relaxed text-ink">
                 {p}
@@ -122,19 +122,19 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
       ) : null}
 
       {relatedGuides.length > 0 ? (
-        <section className="bg-ivory-deep/60" aria-labelledby="guides-related-title">
+        <section className="bg-porcelain-deep/60" aria-labelledby="guides-related-title">
           <div className="container-x section-y-sm">
             <Eyebrow as="h2" id="guides-related-title" className="mb-6">
               {dict.common.ui.relatedGuides}
             </Eyebrow>
-            <ul className="grid grid-cols-1 gap-px border-t border-stone-dark/60 md:grid-cols-2">
+            <ul className="grid grid-cols-1 gap-px border-t border-silver-dark/60 md:grid-cols-2">
               {relatedGuides.map((key) => (
-                <li key={key} className="border-b border-stone-dark/60 md:odd:border-r md:odd:pr-8">
+                <li key={key} className="border-b border-silver-dark/60 md:odd:border-r md:odd:pr-8">
                   <Link href={guidePath(locale, key)} className="group block py-6">
                     <span className="eyebrow block">{dict.guides[key].eyebrow}</span>
-                    <span className="mt-2 inline-flex items-baseline gap-2 font-serif text-2xl font-medium text-forest transition-colors group-hover:text-champagne-deep">
+                    <span className="mt-2 inline-flex items-baseline gap-2 font-serif text-2xl font-medium text-navy transition-colors group-hover:text-gold-deep">
                       {dict.guides[key].title}
-                      <span aria-hidden="true" className="font-sans text-base text-champagne-deep">→</span>
+                      <span aria-hidden="true" className="font-sans text-base text-gold-deep">→</span>
                     </span>
                   </Link>
                 </li>
@@ -147,14 +147,14 @@ export function ExpertisePage({ locale, dict, expertise }: { locale: Locale; dic
       {related.length > 0 ? (
         <section className="container-x section-y-sm" aria-labelledby="related-title">
           <Eyebrow as="h2" id="related-title" className="mb-6">{dict.common.footer.expertisesTitle}</Eyebrow>
-          <ul className="grid grid-cols-1 gap-px border-t border-stone md:grid-cols-3">
+          <ul className="grid grid-cols-1 gap-px border-t border-silver md:grid-cols-3">
             {related.map((key) => (
-              <li key={key} className="border-b border-stone md:border-b-0 md:border-r md:last:border-r-0">
+              <li key={key} className="border-b border-silver md:border-b-0 md:border-r md:last:border-r-0">
                 <Link href={expertisePath(locale, key)} className="group block py-6 md:pr-6">
                   <span className="eyebrow block">{dict.expertises[key].eyebrow}</span>
-                  <span className="mt-2 inline-flex items-baseline gap-2 font-serif text-2xl font-medium text-forest transition-colors group-hover:text-champagne-deep">
+                  <span className="mt-2 inline-flex items-baseline gap-2 font-serif text-2xl font-medium text-navy transition-colors group-hover:text-gold-deep">
                     {dict.expertises[key].title}
-                    <span aria-hidden="true" className="font-sans text-base text-champagne-deep">→</span>
+                    <span aria-hidden="true" className="font-sans text-base text-gold-deep">→</span>
                   </span>
                 </Link>
               </li>

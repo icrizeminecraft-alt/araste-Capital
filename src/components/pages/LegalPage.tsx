@@ -18,10 +18,10 @@ export function LegalPage({ locale, dict, content, crumbLabel }: { locale: Local
           <nav aria-labelledby="contents-title" className="lg:col-span-3">
             <div className="lg:sticky lg:top-[calc(var(--header-h)+2rem)]">
             <h2 id="contents-title" className="eyebrow mb-4">{dict.common.ui.contents}</h2>
-            <ol className="space-y-3 border-t border-forest pt-5 font-sans text-sm">
+            <ol className="space-y-3 border-t border-navy pt-5 font-sans text-sm">
               {content.sections.map((section, i) => (
                 <li key={section.title}>
-                  <a href={`#section-${i + 1}`} className="link-line text-ink-soft hover:text-forest">
+                  <a href={`#section-${i + 1}`} className="link-line text-ink-soft hover:text-navy">
                     {section.title}
                   </a>
                 </li>
@@ -31,7 +31,7 @@ export function LegalPage({ locale, dict, content, crumbLabel }: { locale: Local
           </nav>
           <div className="lg:col-span-8 lg:col-start-5">
             {content.sections.map((section, i) => (
-              <section key={section.title} id={`section-${i + 1}`} className="border-t border-stone py-10 first:border-t-0 first:pt-0">
+              <section key={section.title} id={`section-${i + 1}`} className="border-t border-silver py-10 first:border-t-0 first:pt-0">
                 <h2 className="display-sm">{section.title}</h2>
                 {section.paragraphs.map((p, j) => (
                   <p key={j} className="measure mt-5 font-sans text-[1.0625rem] leading-relaxed text-ink">

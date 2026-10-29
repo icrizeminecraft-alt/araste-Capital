@@ -22,7 +22,7 @@ export function NotFoundContent({ copy }: { copy: { fr: Copy; en: Copy } }) {
           <Link href={`/${locale}`} className="btn btn-primary">
             {t.cta}
           </Link>
-          <Link href={pagePath(locale, "expertises")} className="link-line font-sans text-[0.9375rem] font-medium text-forest">
+          <Link href={pagePath(locale, "expertises")} className="link-line font-sans text-[0.9375rem] font-medium text-navy">
             {t.all}
           </Link>
         </div>

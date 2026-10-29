@@ -33,11 +33,11 @@ export function LocalClocks({ places, locale, label, dark = false, compact = fal
   const now = snapshot >= 0 ? new Date() : null;
   const format = (tz: string) => (now ? new Intl.DateTimeFormat(locale, { hour: "2-digit", minute: "2-digit", timeZone: tz }).format(now) : "");
   return (
-    <ul className={`grid grid-cols-2 gap-x-6 gap-y-6 ${compact ? "" : "md:grid-cols-4 md:gap-x-8"} ${dark ? "text-ivory" : "text-forest"}`} aria-label={label}>
+    <ul className={`grid grid-cols-2 gap-x-6 gap-y-6 ${compact ? "" : "md:grid-cols-4 md:gap-x-8"} ${dark ? "text-porcelain" : "text-navy"}`} aria-label={label}>
       {places.map((place) => (
-        <li key={place.key} className={`border-t pt-4 ${dark ? "border-champagne/30" : "border-forest/30"}`}>
+        <li key={place.key} className={`border-t pt-4 ${dark ? "border-gold/30" : "border-navy/30"}`}>
           <span className={`block font-serif font-medium leading-tight ${compact ? "text-xl" : "text-2xl md:text-[1.75rem]"}`}>{place.name}</span>
-          <span className={`mt-2 block font-sans text-sm tabular-nums ${dark ? "text-stone" : "text-ink-soft"}`}>{now ? format(place.timeZone) : " "}</span>
+          <span className={`mt-2 block font-sans text-sm tabular-nums ${dark ? "text-silver" : "text-ink-soft"}`}>{now ? format(place.timeZone) : " "}</span>
         </li>
       ))}
     </ul>

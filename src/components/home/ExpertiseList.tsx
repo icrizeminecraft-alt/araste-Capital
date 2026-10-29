@@ -29,28 +29,28 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
     <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
       <ol className="lg:col-span-7">
         {items.map((item, i) => (
-          <li key={item.key} className="group border-t border-stone last:border-b">
+          <li key={item.key} className="group border-t border-silver last:border-b">
             <Link
               href={item.href}
               onMouseEnter={() => setActive(i)}
               onFocus={() => setActive(i)}
               onTouchStart={() => setActive(i)}
               className={`-mx-3 grid grid-cols-[2.5rem_minmax(0,1fr)] items-baseline gap-x-3 px-3 py-6 transition-colors md:-mx-4 md:grid-cols-[4rem_minmax(0,1fr)_auto] md:gap-x-4 md:px-4 md:py-7 ${
-                active === i ? "lg:bg-ivory-deep/50" : ""
-              } hover:bg-ivory-deep/50 focus-visible:bg-ivory-deep/50`}
+                active === i ? "lg:bg-porcelain-deep/50" : ""
+              } hover:bg-porcelain-deep/50 focus-visible:bg-porcelain-deep/50`}
             >
               <span aria-hidden="true" className="numeral pl-1 text-base md:pl-2">
                 {item.number}
               </span>
               <span className="min-w-0">
                 <span
-                  className={`block font-serif font-medium leading-tight text-forest ${
+                  className={`block font-serif font-medium leading-tight text-navy ${
                     item.featured ? "text-[1.85rem] md:text-[2.3rem]" : "text-[1.55rem] md:text-[1.9rem]"
                   }`}
                 >
                   {item.title}
                 </span>
-                <span className="mt-1 block font-sans text-xs uppercase tracking-[0.16em] text-champagne-deep">
+                <span className="mt-1 block font-sans text-xs uppercase tracking-[0.16em] text-gold-deep">
                   {item.eyebrow}
                 </span>
                 <span className="mt-3 block max-w-[52ch] font-sans text-[0.9375rem] leading-relaxed text-ink-soft">
@@ -59,7 +59,7 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
               </span>
               <span
                 aria-hidden="true"
-                className="hidden self-baseline pr-1 font-sans text-xl text-champagne-deep transition-transform duration-300 group-hover:translate-x-1 motion-reduce:transition-none motion-reduce:group-hover:translate-x-0 md:block"
+                className="hidden self-baseline pr-1 font-sans text-xl text-gold-deep transition-transform duration-300 group-hover:translate-x-1 motion-reduce:transition-none motion-reduce:group-hover:translate-x-0 md:block"
               >
                 →
               </span>
@@ -73,7 +73,7 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
           <ArrowLink href={allHref}>{allLabel}</ArrowLink>
         </div>
         <div className="hidden lg:sticky lg:top-[calc(var(--header-h)+2rem)] lg:block">
-          <div className="grain relative aspect-[4/5] overflow-hidden bg-stone">
+          <div className="grain relative aspect-[4/5] overflow-hidden bg-silver">
             {items.map((item, i) => (
               <div
                 key={item.key}
@@ -88,7 +88,7 @@ export function ExpertiseList({ items, allLabel, allHref }: { items: ExpertiseLi
             ))}
             <div
               aria-hidden="true"
-              className="absolute bottom-0 left-0 right-0 flex items-baseline justify-between bg-forest px-6 py-4 text-ivory"
+              className="absolute bottom-0 left-0 right-0 flex items-baseline justify-between bg-navy px-6 py-4 text-porcelain"
             >
               <span className="numeral numeral--dark text-sm">{current?.number}</span>
               <span className="font-serif text-lg">{current?.title}</span>

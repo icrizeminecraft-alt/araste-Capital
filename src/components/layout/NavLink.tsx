@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
 
-/** Lien de navigation signalant la page courante (aria-current + soulignement champagne). */
+/** Lien de navigation signalant la page courante (aria-current + soulignement gold). */
 export function NavLink({ href, children, className = "", currentClassName = "" }: { href: string; children: ReactNode; className?: string; currentClassName?: string }) {
   const pathname = usePathname();
   const isCurrent = pathname === href;

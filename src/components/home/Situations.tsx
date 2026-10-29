@@ -8,7 +8,7 @@ import { ArrowLink } from "@/components/ui/ButtonLink";
 
 export function Situations({ locale, t, dict }: { locale: Locale; t: HomeContent["situations"]; dict: Dictionary }) {
   return (
-    <section className="bg-ivory-deep/60" aria-labelledby="situations-title">
+    <section className="bg-porcelain-deep/60" aria-labelledby="situations-title">
       <div className="container-x section-y">
         <Reveal>
           <SectionHeading id="situations-title" eyebrow={t.eyebrow} title={t.title} className="max-w-3xl" />
@@ -17,9 +17,9 @@ export function Situations({ locale, t, dict }: { locale: Locale; t: HomeContent
           {t.cases.map((item, i) => {
             const enabled = siteConfig.expertises[item.expertise];
             return (
-              <Reveal as="article" key={item.title} className="flex flex-col border-t-2 border-forest pt-6" delay={i as 0 | 1 | 2}>
+              <Reveal as="article" key={item.title} className="flex flex-col border-t-2 border-navy pt-6" delay={i as 0 | 1 | 2}>
                 <p className="eyebrow mb-4">{String(i + 1).padStart(2, "0")}</p>
-                <h3 className="min-h-[2.4em] font-serif text-[1.6rem] font-medium leading-tight text-forest">{item.title}</h3>
+                <h3 className="min-h-[2.4em] font-serif text-[1.6rem] font-medium leading-tight text-navy">{item.title}</h3>
                 <p className="mt-4 flex-1 font-sans text-[0.9375rem] leading-relaxed text-ink-soft">{item.body}</p>
                 {enabled ? (
                   <ArrowLink href={expertisePath(locale, item.expertise)} className="mt-6 self-start text-sm">
@@ -30,7 +30,7 @@ export function Situations({ locale, t, dict }: { locale: Locale; t: HomeContent
             );
           })}
         </div>
-        <p className="mt-12 max-w-2xl border-l border-champagne pl-4 font-sans text-sm leading-relaxed text-ink-soft">
+        <p className="mt-12 max-w-2xl border-l border-gold pl-4 font-sans text-sm leading-relaxed text-ink-soft">
           {t.note}
         </p>
       </div>

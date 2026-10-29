@@ -8,7 +8,7 @@ export function Stance({ t }: { t: HomeContent["stance"] }) {
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-8">
         <Reveal className="lg:col-span-3">
           <Eyebrow>{t.eyebrow}</Eyebrow>
-          <span aria-hidden="true" className="mt-6 block h-px w-16 bg-champagne" />
+          <span aria-hidden="true" className="mt-6 block h-px w-16 bg-gold" />
         </Reveal>
         <Reveal className="lg:col-span-8 lg:col-start-5" delay={1}>
           <h2 id="stance-title" className="display-md">

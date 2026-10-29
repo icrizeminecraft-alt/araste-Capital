@@ -32,7 +32,7 @@ export function ExpertisesIndexPage({ locale, dict }: { locale: Locale; dict: Di
             return (
               <Reveal as="li" key={key} className={`reveal-media-host ${layouts[i % layouts.length]}`} delay={(i % 2) as 0 | 1}>
                 <article className="group grid grid-cols-1 gap-6">
-                  <Link href={expertisePath(locale, key)} className={`reveal-media grain relative block overflow-hidden bg-stone ${wide ? "aspect-[4/3]" : "aspect-[4/5] sm:aspect-[4/3] lg:aspect-[4/5]"}`} tabIndex={-1} aria-hidden="true">
+                  <Link href={expertisePath(locale, key)} className={`reveal-media grain relative block overflow-hidden bg-silver ${wide ? "aspect-[4/3]" : "aspect-[4/5] sm:aspect-[4/3] lg:aspect-[4/5]"}`} tabIndex={-1} aria-hidden="true">
                     <Visual slot={visuals.expertises[key]} locale={locale} decorative sizes="(min-width: 64rem) 50vw, 100vw" className="transition-transform duration-700 ease-out-quart group-hover:scale-[1.02] motion-reduce:transition-none" />
                   </Link>
                   <div className="grid grid-cols-[3.5rem_minmax(0,1fr)] gap-x-4">
@@ -41,8 +41,8 @@ export function ExpertisesIndexPage({ locale, dict }: { locale: Locale; dict: Di
                     </span>
                     <div>
                       <p className="eyebrow mb-2">{e.eyebrow}</p>
-                      <h2 className={`font-serif font-medium leading-tight text-forest ${featured ? "text-[1.85rem] lg:text-[2.5rem]" : "text-[1.6rem] lg:text-[2.1rem]"}`}>
-                        <Link href={expertisePath(locale, key)} className="decoration-champagne underline-offset-8 transition-colors group-hover:underline hover:underline">
+                      <h2 className={`font-serif font-medium leading-tight text-navy ${featured ? "text-[1.85rem] lg:text-[2.5rem]" : "text-[1.6rem] lg:text-[2.1rem]"}`}>
+                        <Link href={expertisePath(locale, key)} className="decoration-gold underline-offset-8 transition-colors group-hover:underline hover:underline">
                           {e.title}
                         </Link>
                       </h2>
