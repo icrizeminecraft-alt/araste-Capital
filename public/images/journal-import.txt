@@ -35,3 +35,6 @@ ok    public/images/monaco-640.jpg 126461 octets
 ok    public/images/monaco-1200.jpg 426035 octets
 ok    public/images/emirats-640.jpg 135957 octets
 ok    public/images/emirats-1200.jpg 389398 octets
+ok    public/images/voute-pierre-800.jpg 169589 octets
+ok    public/images/voute-pierre-1200.jpg 356373 octets
+ok    public/images/voute-pierre-1800.jpg 756393 octets
