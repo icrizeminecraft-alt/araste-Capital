@@ -10,9 +10,9 @@ ok    cassis-1200 : 1200×800, jpg 171 ko, avif 133 ko
 ok    cassis-1600 : 1600×1067, jpg 309 ko, avif 251 ko
 ok    cassis-large-1600 : 1600×686, jpg 211 ko, avif 172 ko
 ok    cassis-large-2400 : 2400×1029, jpg 460 ko, avif 371 ko
-ok    pierre-ombre-800 : 800×1000, jpg 53 ko, avif 17 ko
-ok    pierre-ombre-1200 : 1200×1500, jpg 125 ko, avif 41 ko
-ok    pierre-ombre-1600 : 1600×2000, jpg 240 ko, avif 90 ko
+ok    balcon-pierre-800 : 800×1000, jpg 81 ko, avif 27 ko
+ok    balcon-pierre-1200 : 1200×1500, jpg 168 ko, avif 45 ko
+ok    balcon-pierre-1600 : 1600×2000, jpg 311 ko, avif 73 ko
 ok    terrasse-mer-800 : 800×600, jpg 55 ko, avif 31 ko
 ok    terrasse-mer-1200 : 1200×900, jpg 110 ko, avif 58 ko
 ok    terrasse-mer-1600 : 1600×1200, jpg 180 ko, avif 91 ko
@@ -58,15 +58,9 @@ ok    signature-1600 : 1600×2000, jpg 160 ko, avif 44 ko
 ok    stylo-dossier-800 : 800×534, jpg 15 ko, avif 4 ko
 ok    stylo-dossier-1200 : 1200×800, jpg 25 ko, avif 5 ko
 ok    stylo-dossier-1600 : 1600×1067, jpg 38 ko, avif 7 ko
-retiré accord-1200.avif
-retiré accord-1200.jpg
-retiré accord-1600.avif
-retiré accord-1600.jpg
-retiré accord-800.avif
-retiré accord-800.jpg
-retiré villa-crepuscule-1200.avif
-retiré villa-crepuscule-1200.jpg
-retiré villa-crepuscule-1600.avif
-retiré villa-crepuscule-1600.jpg
-retiré villa-crepuscule-800.avif
-retiré villa-crepuscule-800.jpg
+retiré pierre-ombre-1200.avif
+retiré pierre-ombre-1200.jpg
+retiré pierre-ombre-1600.avif
+retiré pierre-ombre-1600.jpg
+retiré pierre-ombre-800.avif
+retiré pierre-ombre-800.jpg
