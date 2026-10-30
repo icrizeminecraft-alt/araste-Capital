@@ -8,7 +8,8 @@
       2040
     ],
     "width": 2040,
-    "height": 1530
+    "height": 1530,
+    "source": "71af730ee9263abb"
   },
   "altea-portrait": {
     "id": "i9PYRSr2uBc",
@@ -18,7 +19,8 @@
       2040
     ],
     "width": 2040,
-    "height": 2550
+    "height": 2550,
+    "source": "99a20cc60e7b6a70"
   },
   "cassis": {
     "id": "A7SIkewdTIw",
@@ -28,7 +30,8 @@
       1600
     ],
     "width": 1600,
-    "height": 1067
+    "height": 1067,
+    "source": "06b4adea3798eb7c"
   },
   "cassis-large": {
     "id": "A7SIkewdTIw",
@@ -37,7 +40,8 @@
       2400
     ],
     "width": 2400,
-    "height": 1029
+    "height": 1029,
+    "source": "be67e2a0b0811380"
   },
   "balcon-pierre": {
     "id": "LkYMnCsE_KU",
@@ -47,7 +51,8 @@
       1600
     ],
     "width": 1600,
-    "height": 2000
+    "height": 2000,
+    "source": "3ace9af28e018ec8"
   },
   "terrasse-mer": {
     "id": "Tl9ntkhaimg",
@@ -57,7 +62,8 @@
       1600
     ],
     "width": 1600,
-    "height": 1200
+    "height": 1200,
+    "source": "aad24754c0c0c9f8"
   },
   "corniche": {
     "id": "uL8uhUj2gMg",
@@ -67,7 +73,8 @@
       1600
     ],
     "width": 1600,
-    "height": 1067
+    "height": 1067,
+    "source": "c34fec9dcda27360"
   },
   "paris-balcons": {
     "id": "NmrbDuAVoDk",
@@ -77,7 +84,8 @@
       1600
     ],
     "width": 1600,
-    "height": 2133
+    "height": 2133,
+    "source": "4e6e573f11c3f8cf"
   },
   "villa-cassis": {
     "id": "-chZwUizQXY",
@@ -87,7 +95,8 @@
       1600
     ],
     "width": 1600,
-    "height": 1200
+    "height": 1200,
+    "source": "83db402f57c2cb9a"
   },
   "chantier-mer": {
     "id": "o_QjE648MvM",
@@ -97,7 +106,8 @@
       1600
     ],
     "width": 1600,
-    "height": 1200
+    "height": 1200,
+    "source": "9ce59c1adc37501a"
   },
   "travertin": {
     "id": "bwu6zJHrfNs",
@@ -107,7 +117,8 @@
       1600
     ],
     "width": 1600,
-    "height": 2000
+    "height": 2000,
+    "source": "10edc55b39805176"
   },
   "fontvieille": {
     "id": "RuvW7a2R8HM",
@@ -117,7 +128,8 @@
       2400
     ],
     "width": 2400,
-    "height": 1600
+    "height": 1600,
+    "source": "7d679c8265045f64"
   },
   "ville-fenetre": {
     "id": "sYtp3sQkqbM",
@@ -127,7 +139,8 @@
       2400
     ],
     "width": 2400,
-    "height": 1800
+    "height": 1800,
+    "source": "d0502463039f56ee"
   },
   "paris-angle": {
     "id": "qgfwU8JarIg",
@@ -137,7 +150,8 @@
       2400
     ],
     "width": 2400,
-    "height": 1609
+    "height": 1609,
+    "source": "0604ebaf6ce826e7"
   },
   "riviera-palmiers": {
     "id": "oSuZIcno8qc",
@@ -147,7 +161,8 @@
       2400
     ],
     "width": 2400,
-    "height": 1600
+    "height": 1600,
+    "source": "ce36c93ffc7f17ec"
   },
   "grue": {
     "id": "e8dE5m7Vsf8",
@@ -157,7 +172,8 @@
       2400
     ],
     "width": 2400,
-    "height": 3600
+    "height": 3600,
+    "source": "5830d7e29b63cafe"
   },
   "tour-doree": {
     "id": "OLhtAXMgaaQ",
@@ -167,7 +183,8 @@
       1800
     ],
     "width": 1800,
-    "height": 3200
+    "height": 3200,
+    "source": "e2a95c5126148a76"
   },
   "plume-or": {
     "id": "8ylzXjzqkJQ",
@@ -177,7 +194,8 @@
       2400
     ],
     "width": 2400,
-    "height": 1350
+    "height": 1350,
+    "source": "6e1fba02b1d67e1d"
   },
   "signature": {
     "id": "MbClFGJBH6k",
@@ -187,7 +205,8 @@
       1600
     ],
     "width": 1600,
-    "height": 2000
+    "height": 2000,
+    "source": "8807541d01256cc3"
   },
   "stylo-dossier": {
     "id": "OJbjBsNIwjk",
@@ -197,6 +216,7 @@
       1600
     ],
     "width": 1600,
-    "height": 1067
+    "height": 1067,
+    "source": "4e25249abc38c96d"
   }
 }

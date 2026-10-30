@@ -1,66 +1,20 @@
-ok    altea-800 : 800×600, jpg 40 ko, avif 16 ko
-ok    altea-1200 : 1200×900, jpg 83 ko, avif 30 ko
-ok    altea-1600 : 1600×1200, jpg 137 ko, avif 45 ko
-ok    altea-2040 : 2040×1530, jpg 216 ko, avif 66 ko
-ok    altea-portrait-960 : 960×1200, jpg 95 ko, avif 35 ko
-ok    altea-portrait-1400 : 1400×1750, jpg 185 ko, avif 58 ko
-ok    altea-portrait-2040 : 2040×2550, jpg 376 ko, avif 104 ko
-ok    cassis-800 : 800×534, jpg 77 ko, avif 60 ko
-ok    cassis-1200 : 1200×800, jpg 171 ko, avif 133 ko
-ok    cassis-1600 : 1600×1067, jpg 309 ko, avif 251 ko
-ok    cassis-large-1600 : 1600×686, jpg 211 ko, avif 172 ko
-ok    cassis-large-2400 : 2400×1029, jpg 460 ko, avif 371 ko
-ok    balcon-pierre-800 : 800×1000, jpg 81 ko, avif 27 ko
-ok    balcon-pierre-1200 : 1200×1500, jpg 168 ko, avif 45 ko
-ok    balcon-pierre-1600 : 1600×2000, jpg 311 ko, avif 73 ko
-ok    terrasse-mer-800 : 800×600, jpg 55 ko, avif 31 ko
-ok    terrasse-mer-1200 : 1200×900, jpg 110 ko, avif 58 ko
-ok    terrasse-mer-1600 : 1600×1200, jpg 180 ko, avif 91 ko
-ok    corniche-800 : 800×534, jpg 50 ko, avif 25 ko
-ok    corniche-1200 : 1200×800, jpg 103 ko, avif 50 ko
-ok    corniche-1600 : 1600×1067, jpg 175 ko, avif 90 ko
-ok    paris-balcons-800 : 800×1067, jpg 181 ko, avif 115 ko
-ok    paris-balcons-1200 : 1200×1600, jpg 364 ko, avif 214 ko
-ok    paris-balcons-1600 : 1600×2133, jpg 601 ko, avif 333 ko
-ok    villa-cassis-800 : 800×600, jpg 81 ko, avif 58 ko
-ok    villa-cassis-1200 : 1200×900, jpg 172 ko, avif 114 ko
-ok    villa-cassis-1600 : 1600×1200, jpg 284 ko, avif 180 ko
-ok    chantier-mer-800 : 800×600, jpg 110 ko, avif 71 ko
-ok    chantier-mer-1200 : 1200×900, jpg 217 ko, avif 121 ko
-ok    chantier-mer-1600 : 1600×1200, jpg 346 ko, avif 174 ko
-ok    travertin-800 : 800×1000, jpg 53 ko, avif 18 ko
-ok    travertin-1200 : 1200×1500, jpg 106 ko, avif 32 ko
-ok    travertin-1600 : 1600×2000, jpg 177 ko, avif 46 ko
-ok    fontvieille-960 : 960×640, jpg 90 ko, avif 54 ko
-ok    fontvieille-1600 : 1600×1067, jpg 240 ko, avif 133 ko
-ok    fontvieille-2400 : 2400×1600, jpg 521 ko, avif 269 ko
-ok    ville-fenetre-960 : 960×720, jpg 92 ko, avif 55 ko
-ok    ville-fenetre-1600 : 1600×1200, jpg 255 ko, avif 179 ko
-ok    ville-fenetre-2400 : 2400×1800, jpg 597 ko, avif 500 ko
-ok    paris-angle-960 : 960×644, jpg 89 ko, avif 45 ko
-ok    paris-angle-1600 : 1600×1073, jpg 211 ko, avif 88 ko
-ok    paris-angle-2400 : 2400×1609, jpg 441 ko, avif 161 ko
-ok    riviera-palmiers-960 : 960×640, jpg 110 ko, avif 74 ko
-ok    riviera-palmiers-1600 : 1600×1067, jpg 296 ko, avif 190 ko
-ok    riviera-palmiers-2400 : 2400×1600, jpg 627 ko, avif 378 ko
-ok    grue-960 : 960×1440, jpg 70 ko, avif 20 ko
-ok    grue-1600 : 1600×2400, jpg 164 ko, avif 35 ko
-ok    grue-2400 : 2400×3600, jpg 393 ko, avif 57 ko
-ok    tour-doree-800 : 800×1422, jpg 106 ko, avif 36 ko
-ok    tour-doree-1200 : 1200×2133, jpg 199 ko, avif 57 ko
-ok    tour-doree-1800 : 1800×3200, jpg 367 ko, avif 88 ko
-ok    plume-or-960 : 960×540, jpg 31 ko, avif 11 ko
-ok    plume-or-1600 : 1600×900, jpg 73 ko, avif 24 ko
-ok    plume-or-2400 : 2400×1350, jpg 160 ko, avif 49 ko
-ok    signature-800 : 800×1000, jpg 58 ko, avif 21 ko
-ok    signature-1200 : 1200×1500, jpg 105 ko, avif 33 ko
-ok    signature-1600 : 1600×2000, jpg 160 ko, avif 44 ko
-ok    stylo-dossier-800 : 800×534, jpg 15 ko, avif 4 ko
-ok    stylo-dossier-1200 : 1200×800, jpg 25 ko, avif 5 ko
-ok    stylo-dossier-1600 : 1600×1067, jpg 38 ko, avif 7 ko
-retiré pierre-ombre-1200.avif
-retiré pierre-ombre-1200.jpg
-retiré pierre-ombre-1600.avif
-retiré pierre-ombre-1600.jpg
-retiré pierre-ombre-800.avif
-retiré pierre-ombre-800.jpg
+inchangé altea
+inchangé altea-portrait
+inchangé cassis
+inchangé cassis-large
+inchangé balcon-pierre
+inchangé terrasse-mer
+inchangé corniche
+inchangé paris-balcons
+inchangé villa-cassis
+inchangé chantier-mer
+inchangé travertin
+inchangé fontvieille
+inchangé ville-fenetre
+inchangé paris-angle
+inchangé riviera-palmiers
+inchangé grue
+inchangé tour-doree
+inchangé plume-or
+inchangé signature
+inchangé stylo-dossier
