@@ -39,7 +39,8 @@ const errorSummary = (page: Page) => page.locator("form p", { hasText: /champ\(s
 
 test.describe("fiche d'opération en quatre étapes", () => {
   test("valide chaque étape, conserve les données, récapitule puis annonce le mode démonstration", async ({ page }) => {
-    await page.goto("/fr/contact");
+    // L'ancre charge la fiche détaillée immédiatement (sinon, elle n'est chargée qu'à l'approche).
+    await page.goto("/fr/contact/#fiche");
 
     // Étape 1 : résumé d'erreurs affiché, focalisé, champs marqués.
     await next(page);
@@ -111,7 +112,7 @@ test.describe("fiche d'opération en quatre étapes", () => {
   });
 
   test("être rappelé exige un numéro de téléphone", async ({ page }) => {
-    await page.goto("/fr/contact");
+    await page.goto("/fr/contact/#fiche");
     await fillStepOne(page);
     await next(page);
     await fillStepTwo(page);
@@ -125,7 +126,7 @@ test.describe("fiche d'opération en quatre étapes", () => {
   });
 
   test("rien n'est écrit dans le navigateur ni dans l'URL", async ({ page }) => {
-    await page.goto("/fr/contact");
+    await page.goto("/fr/contact/#fiche");
     await page.getByLabel("Montant recherché").fill(fake.amount);
     await page.getByLabel("Bref descriptif").fill(fake.description);
     const storage = await page.evaluate(() => ({ local: Object.keys(localStorage), session: Object.keys(sessionStorage), cookies: document.cookie }));

@@ -20,8 +20,6 @@ L'accueil se limite à trois images, de la même famille de lumière (lumière d
 
 Chaque photographie n'apparaît qu'à un seul emplacement du site. Le portrait du fondateur se déclare dans `visuals.portrait` une fois la photographie déposée dans `public/images/` (voir plus bas).
 
-Les compositions architecturales originales en SVG (`src/components/visuals/ArchitecturalPlate.tsx`, `public/plates/`) restent disponibles comme solution de repli (`kind: "plate"`).
-
 Aucune photographie n'est présentée comme un actif financé ou comme les bureaux du cabinet ; les mentions légales le rappellent (aucune légende sur les pages).
 
 ## Formats et dimensions réelles

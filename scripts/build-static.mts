@@ -126,6 +126,11 @@ AddType font/woff2 .woff2
 AddType image/svg+xml .svg
 AddType image/avif .avif
 
+# Compression des textes (LiteSpeed et Apache) ; les images et polices sont déjà compressées.
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json text/plain application/xml image/svg+xml application/manifest+json
+</IfModule>
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   # Racine : langue du navigateur (français par défaut).

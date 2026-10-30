@@ -1,7 +1,7 @@
 import type { CSSProperties } from "react";
+import { preload } from "react-dom";
 import type { Locale } from "@/lib/i18n";
 import type { PhotoAsset, PhotoFiles, VisualSlot } from "@/config/images";
-import { ArchitecturalPlate } from "@/components/visuals/ArchitecturalPlate";
 
 type Format = "avif" | "jpg";
 
@@ -23,10 +23,31 @@ export function photoAttributes(photo: PhotoAsset) {
 }
 
 /**
- * Rend un emplacement visuel du registre `config/images.ts` : photographie
- * (fichiers statiques de /public/images, plusieurs largeurs, AVIF puis JPEG)
- * ou composition SVG originale. Le site étant exporté en statique, l'image est
- * servie telle quelle : `sizes` doit décrire la largeur réellement affichée.
+ * Annonce au navigateur, dès l'en-tête du document, la photographie du premier
+ * écran : chaque recadrage avec sa requête de média, en AVIF, puis la version
+ * de base. Le navigateur ne télécharge que la source qui correspond à l'écran.
+ */
+export function preloadPhoto(photo: PhotoAsset, sizes: string) {
+  const variants = photo.variants ?? [];
+  for (const v of variants) {
+    preload(`/images/${v.base}-${v.widths[v.widths.length - 1]}.avif`, { as: "image", imageSrcSet: srcSetFor(v, "avif"), imageSizes: sizes, media: v.media, fetchPriority: "high" });
+  }
+  // La version de base sert aux écrans que le recadrage ne couvre pas (un seul recadrage pris en charge ici).
+  const base = variants.length === 1 ? { media: `not all and ${variants[0]?.media}` } : {};
+  preload(`/images/${photo.base}-${photo.widths[photo.widths.length - 1]}.avif`, {
+    as: "image",
+    imageSrcSet: srcSetFor(photo, "avif"),
+    imageSizes: sizes,
+    ...base,
+    fetchPriority: "high",
+  });
+}
+
+/**
+ * Rend un emplacement visuel du registre `config/images.ts` : une photographie
+ * (fichiers statiques de /public/images, plusieurs largeurs, AVIF puis JPEG).
+ * Le site étant exporté en statique, l'image est servie telle quelle : `sizes`
+ * doit décrire la largeur réellement affichée.
  *
  * Un seul élément `picture` par emplacement : les recadrages (`variants`)
  * sont déclarés comme sources conditionnelles, si bien qu'un seul fichier est
@@ -49,45 +70,29 @@ export function Visual({
   decorative?: boolean;
   sizes?: string;
 }) {
-  if (slot.kind === "photo") {
-    const { photo } = slot;
-    const attrs = photoAttributes(photo);
-    return (
-      <picture className="contents">
-        {(photo.variants ?? []).map((v) => (
-          <Source key={v.base} files={v} media={v.media} sizes={sizes} />
-        ))}
-        <source type="image/avif" srcSet={srcSetFor(photo, "avif")} sizes={sizes} width={photo.width} height={photo.height} />
-        <img
-          src={attrs.src}
-          srcSet={attrs.srcSet}
-          sizes={sizes}
-          width={attrs.width}
-          height={attrs.height}
-          alt={decorative ? "" : photo.alt[locale]}
-          loading={priority ? "eager" : "lazy"}
-          fetchPriority={priority ? "high" : undefined}
-          decoding={priority ? "sync" : "async"}
-          className={`h-full w-full object-cover ${className}`}
-          style={attrs.style}
-        />
-      </picture>
-    );
-  }
-  if (priority) {
-    return <ArchitecturalPlate kind={slot.plate} title={decorative ? undefined : slot.alt[locale]} className={`h-full w-full ${className}`} />;
-  }
+  const { photo } = slot;
+  const attrs = photoAttributes(photo);
+  if (priority) preloadPhoto(photo, sizes);
   return (
-    // eslint-disable-next-line @next/next/no-img-element -- SVG statique, aucune optimisation raster à appliquer.
-    <img
-      src={`/plates/${slot.plate}.svg`}
-      alt={decorative ? "" : slot.alt[locale]}
-      width={800}
-      height={1000}
-      loading="lazy"
-      decoding="async"
-      className={`h-full w-full object-cover ${className}`}
-    />
+    <picture className="contents">
+      {(photo.variants ?? []).map((v) => (
+        <Source key={v.base} files={v} media={v.media} sizes={sizes} />
+      ))}
+      <source type="image/avif" srcSet={srcSetFor(photo, "avif")} sizes={sizes} width={photo.width} height={photo.height} />
+      <img
+        src={attrs.src}
+        srcSet={attrs.srcSet}
+        sizes={sizes}
+        width={attrs.width}
+        height={attrs.height}
+        alt={decorative ? "" : photo.alt[locale]}
+        loading={priority ? "eager" : "lazy"}
+        fetchPriority={priority ? "high" : undefined}
+        decoding="async"
+        className={`h-full w-full object-cover ${className}`}
+        style={attrs.style}
+      />
+    </picture>
   );
 }
 

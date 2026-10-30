@@ -5,10 +5,9 @@ import manifest from "../../public/images/manifest.json";
 /**
  * Registre centralisé des visuels.
  *
- * Chaque emplacement est servi par une photographie (`photo`) importée depuis
- * Unsplash par le workflow `.github/workflows/import-photos.yml` à partir de
- * la liste `outils/photos.txt`, ou, à défaut, par une composition
- * architecturale originale en SVG (`plate`). Voir docs/IMAGES.md.
+ * Chaque emplacement est servi par une photographie importée depuis Unsplash
+ * par le workflow `.github/workflows/import-photos.yml` à partir de la liste
+ * `outils/photos.txt`. Voir docs/IMAGES.md.
  *
  * Les largeurs et les dimensions de chaque photographie viennent du manifeste
  * écrit par l'import (`public/images/manifest.json`) : elles décrivent les
@@ -20,15 +19,6 @@ import manifest from "../../public/images/manifest.json";
  * emplacement. L'accueil se limite à trois images : l'ouverture, une vue
  * d'ensemble et un détail, de la même famille de lumière.
  */
-export type PlateKind =
-  | "arcade"
-  | "colonnade"
-  | "stair"
-  | "facade"
-  | "horizon"
-  | "vault"
-  | "cornice";
-
 type ManifestEntry = { readonly id: string; readonly widths: readonly number[]; readonly width: number; readonly height: number };
 type ManifestName = keyof typeof manifest;
 
@@ -56,9 +46,7 @@ export type PhotoAsset = PhotoFiles & {
   variants?: readonly PhotoVariant[];
 };
 
-export type VisualSlot =
-  | { kind: "plate"; plate: PlateKind; alt: Record<Locale, string> }
-  | { kind: "photo"; photo: PhotoAsset };
+export type VisualSlot = { kind: "photo"; photo: PhotoAsset };
 
 const unsplash = (author: string, id: string) => `${author} — Unsplash (licence Unsplash), unsplash.com/photos/${id}`;
 

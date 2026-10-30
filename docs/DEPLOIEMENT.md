@@ -38,7 +38,7 @@ Variables utiles avant la construction (`.env.local` ou ligne de commande) :
 1. hPanel → **Sites web** → votre domaine → **Gestionnaire de fichiers** (ou FTP).
 2. Ouvrir `public_html`. **Vider** le dossier des anciens fichiers transférés (code source, `.next`, `node_modules`…).
 3. Téléverser `dist/araste-capital-hostinger.zip` dans `public_html`, puis clic droit → **Extraire** (ou déposer le contenu de `out/` par FTP).
-4. Vérifier que `public_html` contient directement : `index.html`, `.htaccess`, `fr/`, `en/`, `_next/`, `api/`, `plates/`, `robots.txt`, `sitemap.xml`. S'ils sont dans un sous-dossier `out/`, déplacer son contenu à la racine.
+4. Vérifier que `public_html` contient directement : `index.html`, `.htaccess`, `fr/`, `en/`, `_next/`, `api/`, `images/`, `robots.txt`, `sitemap.xml`. S'ils sont dans un sous-dossier `out/`, déplacer son contenu à la racine.
 5. Les fichiers commençant par un point sont masqués par défaut : activer **Afficher les fichiers cachés** pour voir `.htaccess`.
 6. Supprimer l'archive après extraction.
 

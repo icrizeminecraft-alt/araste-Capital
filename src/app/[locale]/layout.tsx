@@ -49,10 +49,6 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${cormorant.variable} ${dmSans.variable}`} suppressHydrationWarning>
-      <head>
-        {/* Active les apparitions au défilement uniquement si JavaScript est présent. */}
-        <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
-      </head>
       <body className="flex min-h-svh flex-col">
         <a
           href="#contenu"

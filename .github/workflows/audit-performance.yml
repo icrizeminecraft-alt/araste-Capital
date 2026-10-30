@@ -43,7 +43,7 @@ jobs:
       - name: Servir out/ et mesurer
         shell: bash
         run: |
-          (cd out && python3 -m http.server 8080 --bind 127.0.0.1 > /dev/null 2>&1 &)
+          node outils/servir-statique.mjs out 8080 &
           sleep 2
           mkdir -p audit
           for page in "/fr/|accueil" "/fr/contact/|contact" "/fr/le-cabinet/|cabinet" "/fr/expertises/|expertises"; do

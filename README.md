@@ -67,11 +67,11 @@ src/
     sitemap.tsx, robots.tsx, manifest.tsx, icon.svg, apple-icon.png
   components/
     brand/                    Wordmark, Monogram
-    layout/                   Header, MobileMenu, LocaleSwitcher, Footer, LocalClocks (heure des implantations)
+    layout/                   Header, MobileMenu, LocaleSwitcher, Footer, MobileCta
     home/                     sections de l'accueil
-    pages/                    pages intérieures
-    contact/ContactForm.tsx   fiche d'opération en quatre étapes, avec récapitulatif avant envoi
-    visuals/                  compositions SVG (source) et emplacement visuel ; fichiers statiques dans public/plates
+    pages/                    pages intérieures, module fondateur
+    contact/                  premier échange (BriefContactForm), fiche d'opération en quatre étapes (ContactForm, chargée à l'approche)
+    visuals/Visual.tsx        emplacement visuel : picture AVIF/JPEG, recadrages conditionnels, préchargement du premier écran
     seo/                      données structurées (faits confirmés seulement)
     ui/                       éléments réutilisables
   instrumentation.ts        avertissements de configuration au démarrage (production)
@@ -80,9 +80,9 @@ src/
     fr/, en/                  dictionnaires (une page par fichier, une expertise par fichier, un guide par fichier)
     index.ts                  chargement + typographie française automatique
   config/
-    site.ts                   marque, champs à confirmer, implantations, activation des expertises, montants cibles
+    site.ts                   marque, champs à confirmer, marchés d'intervention, activation des expertises, montants cibles
     routes.ts                 slugs localisés FR/EN
-    images.ts                 registre des visuels (point focal, textes alternatifs, droits)
+    images.ts                 registre des visuels (dimensions réelles depuis public/images/manifest.json, point focal, textes alternatifs, droits)
   lib/
     contact/                  schéma, jeton signé, limitation de débit, fournisseurs, fiche PDF (pdf-lib)
     i18n.ts, metadata.ts, typography.ts
@@ -90,8 +90,8 @@ src/
 deploy/hostinger/             export statique : page racine, relais PHP du formulaire (api/)
 docs/                         déploiement, images, contenus, liste avant publication, références
 scripts/render-icons.mjs      génération de l'icône Apple depuis le SVG
-scripts/render-plates.mts     génération des planches SVG statiques (npm run plates)
 scripts/build-static.mts      export statique + .htaccess + relais PHP + archive (npm run build:static)
+outils/                       photographies (liste, import AVIF/JPEG incrémental, planches de candidats), serveur d'audit, déclencheur d'audit
 tests/, e2e/                  tests unitaires et de bout en bout
 ```
 
@@ -100,10 +100,10 @@ tests/, e2e/                  tests unitaires et de bout en bout
 - Textes : `src/content/fr/*.ts` et `src/content/en/*.ts`. Chaque fichier est typé (`src/content/types.ts`) ; une clé manquante fait échouer la compilation. Les espaces insécables françaises sont ajoutées automatiquement.
 - Expertises : activer ou désactiver dans `src/config/site.ts` (`expertises`), ordre dans `expertiseOrder`. Une expertise désactivée disparaît de la navigation, des listes, du sitemap et renvoie une 404.
 - Montants cibles (5 M€ et plus) : `siteConfig.ticketSize.enabled`, désactivé par défaut tant qu'ils ne sont pas validés.
-- Coordonnées affichées (pied de page, contact, données structurées) : `siteConfig.toConfirm`. Vides par défaut, elles ne sont jamais inventées. Les informations légales (immatriculation, siège, statut, hébergeur, responsable du traitement, conservation) se renseignent directement dans `src/content/{fr,en}/legal.ts` et `privacy.ts`, dont les blocs « à compléter » disparaissent une fois les textes rédigés.
+- Coordonnées affichées (pied de page, accueil, contact, données structurées) : `siteConfig.toConfirm`. Vides par défaut, elles ne sont jamais inventées. Les informations légales (immatriculation, siège, statut, hébergeur, responsable du traitement, conservation) se renseignent directement dans `src/content/{fr,en}/legal.ts` et `privacy.ts` ; rien d'« à compléter » n'est publié (liste dans `docs/AVANT-PUBLICATION.md`).
 - Guides : `src/content/{fr,en}/guides/<clé>.ts`, clés et slugs dans `src/config/routes.ts` (`guideKeys`, `guideSlugs`). Chaque expertise porte aussi ses questions fréquentes (`faq`), la page contact les siennes.
-- Visuels : `src/config/images.ts` et `docs/IMAGES.md`. Après modification d'une composition SVG, régénérer les fichiers statiques avec `npm run plates` (commités).
-- Implantations (Andorre, Londres, Monaco, Émirats arabes unis) : `siteConfig.locations`. Les noms et fuseaux horaires sont affichés (accueil, contact, pied de page) ; les adresses (`addressLines`) sont vides par défaut et n'apparaissent qu'une fois renseignées. Ne rien inventer.
+- Visuels : `outils/photos.txt` (liste importée par le workflow), `src/config/images.ts` (registre) et `docs/IMAGES.md`.
+- Marchés d'intervention (France, Monaco, Suisse, Londres, Andorre, Émirats arabes unis) : `siteConfig.locations`, repris en une ligne sous l'ouverture, dans le pied de page, sur la page contact et dans les mentions légales. Les adresses (`addressLines`) sont vides par défaut et n'apparaissent qu'une fois renseignées. Ne rien inventer.
 - Espace partenaires (apporteurs, courtiers, conseils) : `src/content/{fr,en}/partners.ts` ; la fiche d'opération demande à chacun en quelle qualité il la présente.
 - Slugs : `src/config/routes.ts` (le sélecteur de langue et le sitemap en dépendent).
 

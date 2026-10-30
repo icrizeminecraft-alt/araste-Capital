@@ -236,23 +236,27 @@
     padding-right: 2.75rem;
   }
 
-  /* Apparition brève au défilement (mouvement secondaire : 300 ms). Le premier
-     écran n'en dépend jamais. Sans JavaScript, tout est visible ; si le script
-     ne s'exécute pas, l'animation de repli révèle tout après 1,2 s. */
+  /* Apparition brève au défilement, pilotée par le défilement lui-même
+     (animation-timeline), sans script ni observateur : rien n'est à hydrater.
+     Là où le navigateur ne la prend pas en charge, ou si l'utilisateur préfère
+     moins de mouvement, tout est visible d'emblée. Le premier écran n'en dépend
+     jamais (l'ouverture ne porte pas cette classe). */
   .reveal { opacity: 1; transform: none; }
-  .js .reveal {
-    opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.3s var(--ease-out-quart), transform 0.3s var(--ease-out-quart);
-    animation: reveal-fallback 0.3s var(--ease-out-quart) 1.2s forwards;
+  @supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+      .reveal {
+        animation: reveal-in linear both;
+        animation-timeline: view();
+        animation-range: entry 0% entry 22%;
+      }
+      .reveal[data-delay="1"] { animation-range: entry 4% entry 26%; }
+      .reveal[data-delay="2"] { animation-range: entry 8% entry 30%; }
+      .reveal[data-delay="3"] { animation-range: entry 12% entry 34%; }
+    }
   }
-  .js .reveal.is-in { opacity: 1; transform: none; }
-  @keyframes reveal-fallback { to { opacity: 1; transform: none; } }
-  .js .reveal[data-delay="1"] { transition-delay: 0.06s; }
-  .js .reveal[data-delay="2"] { transition-delay: 0.12s; }
-  .js .reveal[data-delay="3"] { transition-delay: 0.18s; }
-  @media (prefers-reduced-motion: reduce) {
-    .js .reveal { opacity: 1; transform: none; transition: none; animation: none; }
+  @keyframes reveal-in {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: none; }
   }
 
   /* Numérotation éditoriale */
@@ -278,20 +282,28 @@
   }
 }
 
-/* --- Révélation des visuels : voile qui se retire (repose sur .reveal / .is-in). */
+/* --- Révélation des visuels : voile qui se retire au défilement (même mécanisme, sans script). */
 @layer components {
   .reveal-media { position: relative; }
-  .js .reveal-media::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: var(--color-porcelain);
-    transform-origin: right;
-    transition: transform 0.35s var(--ease-out-quart);
-    pointer-events: none;
+  @supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+      .reveal-media::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: var(--color-porcelain);
+        transform-origin: right;
+        pointer-events: none;
+        animation: unveil linear both;
+        animation-timeline: view();
+        animation-range: entry 10% entry 45%;
+      }
+    }
   }
-  .js .reveal-media.is-in::after, .js .reveal.is-in .reveal-media::after { transform: scaleX(0); }
-  @media (prefers-reduced-motion: reduce) { .js .reveal-media::after { display: none; } }
+  @keyframes unveil {
+    from { transform: scaleX(1); }
+    to { transform: scaleX(0); }
+  }
   .faq-item summary::marker { content: ""; }
 }
 
@@ -299,6 +311,6 @@
 @media print {
   header, footer, .reveal-media::after, [data-print="hide"], dialog { display: none !important; }
   body { background: #fff; color: #000; }
-  .reveal, .js .reveal { opacity: 1 !important; transform: none !important; animation: none !important; }
+  .reveal { opacity: 1 !important; transform: none !important; animation: none !important; }
   a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; }
 }
