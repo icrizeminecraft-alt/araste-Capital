@@ -10,7 +10,7 @@ altea | i9PYRSr2uBc | https://images.unsplash.com/photo-1765212714774-9cec2e42e3
 altea-portrait | i9PYRSr2uBc | https://images.unsplash.com/photo-1765212714774-9cec2e42e383 | 960,1400,2040 | 4:5 | 0.5 | 0.5
 cassis | A7SIkewdTIw | https://images.unsplash.com/photo-1604497853140-526ff6807f02 | 800,1200,1600 | 3:2 | 0.5 | 0.45
 cassis-large | A7SIkewdTIw | https://images.unsplash.com/photo-1604497853140-526ff6807f02 | 1600,2400 | 21:9 | 0.5 | 0.42
-pierre-ombre | VuBzLZqAEpg | https://images.unsplash.com/photo-1789660017459-393812b0cc26 | 800,1200,1600 | 4:5 | 0.5 | 0.5
+balcon-pierre | LkYMnCsE_KU | https://images.unsplash.com/photo-1783114686177-f8746b57f6ae | 800,1200,1600 | 4:5 | 0.55 | 0.5
 #
 # Vignettes des expertises (page des expertises).
 terrasse-mer | Tl9ntkhaimg | https://images.unsplash.com/photo-1783538702951-c143d25be1bc | 800,1200,1600 | 4:3 | 0.5 | 0.5
