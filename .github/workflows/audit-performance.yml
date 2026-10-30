@@ -3,10 +3,17 @@ name: Audit de performance (Lighthouse)
 # Construit le site statique, le sert localement et mesure quatre pages avec
 # Lighthouse (mobile et bureau). Les rapports (JSON et HTML) sont publiés sur
 # la branche orpheline `audit-ci`, consultable depuis l'environnement de travail.
-# Lancement à la demande uniquement.
+# Lancement à la demande (workflow_dispatch), ou en modifiant outils/audit.txt
+# (horodatage), car GitHub n'expose pas au lancement manuel un workflow absent
+# de la branche par défaut.
 
 on:
   workflow_dispatch:
+  push:
+    branches: [claude/araste-capital-site-lcw2cv, main]
+    paths:
+      - ".github/workflows/audit-performance.yml"
+      - "outils/audit.txt"
 
 permissions:
   contents: write
