@@ -109,3 +109,9 @@ Le formulaire demande alors son jeton à `https://app.votre-domaine.com/api/cont
 - **« Le formulaire n'a pas pu être vérifié »** : `/api/contact/token` injoignable (règle de réécriture absente) ou PHP désactivé pour le domaine.
 - **Courriels non reçus** : `from` doit être une boîte existante du domaine chez Hostinger ; vérifier les indésirables ; `api/_data/` doit être inscriptible.
 - **Page blanche après mise à jour** : ancien dossier `_next/` conservé ; le supprimer et redéposer.
+
+## Audit de performance
+
+Le workflow `.github/workflows/audit-performance.yml` construit le site, le sert comme l'hébergeur (compression, en-têtes de cache, `outils/servir-statique.mjs`) et mesure quatre pages avec Lighthouse, en mobile et en bureau. Il se lance en modifiant `outils/audit.txt` (un horodatage suffit) ou à la demande. Les rapports (JSON, HTML, `synthese.txt`) sont publiés sur la branche orpheline `audit-ci`.
+
+Repères mesurés le 30 octobre 2026 (serveur local, réseau et processeur simulés par Lighthouse) : bureau 100/100 sur les quatre pages ; mobile 82 (accueil), 93 (expertises), 96 (cabinet, contact). Le reste est le socle Next/React (environ 150 ko compressés de JavaScript communs à toutes les pages), incompressible sans changer de cadre.
