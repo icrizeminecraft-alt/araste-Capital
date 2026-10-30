@@ -48,7 +48,9 @@ export default async function LocaleLayout({
   const dict = getDictionary(locale);
 
   return (
-    <html lang={locale} className={`${cormorant.variable} ${dmSans.variable}`} suppressHydrationWarning>
+    // data-scroll-behavior : le défilement doux (globals.css) ne vaut que pour les ancres ;
+    // Next le suspend pendant un changement de page, qui s'affiche alors en haut, sans glissement.
+    <html lang={locale} className={`${cormorant.variable} ${dmSans.variable}`} data-scroll-behavior="smooth" suppressHydrationWarning>
       <body className="flex min-h-svh flex-col">
         <a
           href="#contenu"
