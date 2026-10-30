@@ -30,7 +30,7 @@ export const legal: LegalContent = {
       title: "Activity and scope",
       paragraphs: [
         "The firm advises on and arranges real estate finance and complex transactions on behalf of professional borrowers: entrepreneurs, investors and family holding structures. It does not lend, does not manage assets on behalf of third parties, does not offer any investment to the public and does not deal with private individuals.",
-        "The firm acts on transactions located in France, Monaco, the United Kingdom, Andorra and the United Arab Emirates.",
+        "The firm acts on transactions located in France, Monaco, Switzerland, the United Kingdom, Andorra and the United Arab Emirates.",
         "The firm's remuneration is presented to the client before any engagement and agreed with them in writing, ahead of any search for financing.",
       ],
     },

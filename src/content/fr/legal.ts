@@ -30,7 +30,7 @@ export const legal: LegalContent = {
       title: "Activité et périmètre",
       paragraphs: [
         "Le cabinet exerce une activité de conseil et d'intermédiation en financement immobilier et opérations complexes, pour le compte d'emprunteurs professionnels : entrepreneurs, investisseurs et structures patrimoniales. Il ne consent pas de crédit, ne gère aucun actif pour compte de tiers, ne propose aucun placement au public et n'intervient pas auprès des particuliers.",
-        "Le cabinet intervient pour des opérations situées en France, à Monaco, au Royaume-Uni, en Andorre et aux Émirats arabes unis.",
+        "Le cabinet intervient pour des opérations situées en France, à Monaco, en Suisse, au Royaume-Uni, en Andorre et aux Émirats arabes unis.",
         "La rémunération du cabinet est présentée au client avant tout engagement et convenue par écrit avec lui, en amont de toute démarche de recherche de financement.",
       ],
     },

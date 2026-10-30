@@ -89,11 +89,11 @@ export const photos = {
     credit: unsplash("Jac Alexandru", "A7SIkewdTIw"),
     variants: [variant("cassis-large", "(min-width: 64rem)")],
   },
-  pierreOmbre: {
-    ...files("pierre-ombre"),
-    focal: { x: 50, y: 50 },
-    alt: { fr: "Ombres de feuillage sur un mur de pierre claire.", en: "Leaf shadows on a light stone wall." },
-    credit: unsplash("Pawel Czerwinski", "VuBzLZqAEpg"),
+  balconPierre: {
+    ...files("balcon-pierre"),
+    focal: { x: 55, y: 50 },
+    alt: { fr: "Balcon en fer forgé sur une façade de pierre claire.", en: "Wrought-iron balcony on a light stone façade." },
+    credit: unsplash("Zineddine Dinar", "LkYMnCsE_KU"),
   },
 
   /* Vignettes des expertises (page des expertises). */
@@ -215,7 +215,7 @@ export const visuals: {
 } = {
   hero: { kind: "photo", photo: photos.altea },
   overview: { kind: "photo", photo: photos.cassis },
-  detail: { kind: "photo", photo: photos.pierreOmbre },
+  detail: { kind: "photo", photo: photos.balconPierre },
   portrait: null,
   approach: { kind: "photo", photo: photos.plumeOr },
   partners: { kind: "photo", photo: photos.signature },

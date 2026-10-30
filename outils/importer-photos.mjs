@@ -5,11 +5,14 @@
 // indiqués), puis production locale de toutes les largeurs en AVIF et en JPEG.
 // Les dimensions réellement obtenues sont consignées dans
 // public/images/manifest.json : une largeur annoncée correspond toujours à un
-// fichier qui l'a réellement. Exécuté par .github/workflows/import-photos.yml
-// (Node 22, dépendance `sharp` installée à la volée).
+// fichier qui l'a réellement. Une photographie dont la ligne et les réglages
+// n'ont pas changé (empreinte `source`) est conservée telle quelle : seules
+// les nouveautés sont téléchargées et encodées. Exécuté par
+// .github/workflows/import-photos.yml (Node 22, `sharp` installé à la volée).
 
 import { createRequire } from "node:module";
-import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import { access, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 // `sharp` est installé par le workflow dans outils/.deps (hors du projet).
@@ -82,11 +85,36 @@ const dire = (ligne) => {
 
 await mkdir(dossier, { recursive: true });
 const entrees = lireListe(await readFile(liste, "utf8"));
+const precedent = await readFile(path.join(dossier, "manifest.json"), "utf8")
+  .then((texte) => JSON.parse(texte))
+  .catch(() => ({}));
 const manifest = {};
 const produits = new Set();
 
+const existe = (fichier) =>
+  access(path.join(dossier, fichier))
+    .then(() => true)
+    .catch(() => false);
+
+/** Empreinte de la ligne et des réglages : une photographie déjà produite à l'identique n'est pas refaite. */
+const empreinte = (entree) =>
+  createHash("sha256").update(JSON.stringify([urlSource(entree), entree.largeurs, JPEG, AVIF])).digest("hex").slice(0, 16);
+
 for (const entree of entrees) {
   const source = urlSource(entree);
+  const signature = empreinte(entree);
+  const connu = precedent[entree.nom];
+  // Un manifeste antérieur sans empreinte (produit avec les mêmes réglages) est accepté une fois.
+  if (connu && connu.id === entree.id && (connu.source === signature || connu.source === undefined)) {
+    const fichiers = connu.widths.flatMap((w) => [`${entree.nom}-${w}.jpg`, `${entree.nom}-${w}.avif`]);
+    const presents = await Promise.all(fichiers.map(existe));
+    if (presents.every(Boolean)) {
+      fichiers.forEach((f) => produits.add(f));
+      manifest[entree.nom] = { ...connu, source: signature };
+      dire(`inchangé ${entree.nom}`);
+      continue;
+    }
+  }
   let original;
   try {
     original = await telecharger(source);
@@ -120,7 +148,7 @@ for (const entree of entrees) {
     if (w === largeurReelle) hauteurMax = infoJpg.height;
     dire(`ok    ${entree.nom}-${w} : ${infoJpg.width}×${infoJpg.height}, jpg ${Math.round(infoJpg.size / 1024)} ko, avif ${Math.round(infoAvif.size / 1024)} ko`);
   }
-  manifest[entree.nom] = { id: entree.id, widths: largeurs, width: largeurReelle, height: hauteurMax };
+  manifest[entree.nom] = { id: entree.id, widths: largeurs, width: largeurReelle, height: hauteurMax, source: signature };
 }
 
 // Nettoyage : seuls les fichiers de la liste restent dans public/images.

@@ -10,7 +10,7 @@ L'accueil se limite à trois images, de la même famille de lumière (lumière d
 | --- | --- | --- |
 | `altea` (cadrage 4:3, petits écrans) et `altea-portrait` (4:5, grand écran) | ouverture de l'accueil | balcons d'une résidence blanche sur une mer calme, au crépuscule |
 | `cassis` (3:2) et `cassis-large` (21:9, grand écran) | vue d'ensemble (accueil, avant « La valeur du conseil ») | villas de pierre claire sur la côte |
-| `pierre-ombre` (4:5) | détail architectural (accueil, « Vos conseils ») | ombres de feuillage sur un mur de pierre claire |
+| `balcon-pierre` (4:5) | détail architectural (accueil, « Vos conseils ») | balcon en fer forgé sur une façade de pierre claire |
 | portrait du fondateur (à livrer) | page du cabinet | tant qu'il n'est pas livré, le module se présente sans image |
 | `plume-or` | approche | plume dorée d'un stylo noir |
 | `signature` (4:5) | partenaires | signature d'un document au stylo, en noir et blanc |

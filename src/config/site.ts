@@ -84,6 +84,7 @@ export const siteConfig = {
   locations: [
     { key: "france", name: { fr: "France", en: "France" }, timeZone: "Europe/Paris", addressLines: [] as string[] },
     { key: "monaco", name: { fr: "Monaco", en: "Monaco" }, timeZone: "Europe/Monaco", addressLines: [] as string[] },
+    { key: "switzerland", name: { fr: "Suisse", en: "Switzerland" }, timeZone: "Europe/Zurich", addressLines: [] as string[] },
     { key: "london", name: { fr: "Londres", en: "London" }, timeZone: "Europe/London", addressLines: [] as string[] },
     { key: "andorra", name: { fr: "Andorre", en: "Andorra" }, timeZone: "Europe/Andorra", addressLines: [] as string[] },
     { key: "uae", name: { fr: "Émirats arabes unis", en: "United Arab Emirates" }, timeZone: "Asia/Dubai", addressLines: [] as string[] },

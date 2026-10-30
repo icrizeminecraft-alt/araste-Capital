@@ -11,7 +11,7 @@ Règle de publication : aucun renseignement « à compléter » n'est affiché s
 - [ ] Adresse du siège (`legal.ts` ; `siteConfig.toConfirm.addressLines` seulement s'il s'agit d'un bureau où recevoir) — le siège étant domicilié chez le dirigeant, décider avec un conseil de la forme sous laquelle il est publié
 - [ ] Adresse électronique et téléphone professionnels (`siteConfig.toConfirm` : affichés dans le pied de page, l'accueil, la page contact et les données structurées dès qu'ils sont renseignés ; à reporter aussi dans « Éditeur du site » et « Responsable du traitement »)
 - [x] Directeur de la publication : Lucas Araste, président (`legal.ts`)
-- [ ] Marchés d'intervention affichés (France, Monaco, Londres, Andorre, Émirats arabes unis ; `siteConfig.locations` et `legal.ts`) : confirmer la liste, en particulier la France, ajoutée comme pays d'immatriculation du cabinet
+- [ ] Marchés d'intervention affichés (France, Monaco, Suisse, Londres, Andorre, Émirats arabes unis ; `siteConfig.locations` et `legal.ts`) : liste confirmée par Lucas le 30/10/2026 (Suisse ajoutée à sa demande)
 - [ ] Hébergeur : Hostinger International Ltd. (Larnaca, Chypre), mentionné dans `legal.ts` et `privacy.ts` — vérifier l'entité contractante et son adresse sur la facture Hostinger
 - [ ] Boîte de réception de la fiche d'opération (`CONTACT_TO_EMAIL`) et adresse d'expédition autorisée chez le fournisseur (`CONTACT_FROM_EMAIL`)
 
