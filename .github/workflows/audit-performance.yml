@@ -1,0 +1,78 @@
+name: Audit de performance (Lighthouse)
+
+# Construit le site statique, le sert localement et mesure quatre pages avec
+# Lighthouse (mobile et bureau). Les rapports (JSON et HTML) sont publiés sur
+# la branche orpheline `audit-ci`, consultable depuis l'environnement de travail.
+# Lancement à la demande uniquement.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  mesurer:
+    runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_SITE_URL: https://arastecapital.com
+      SITE_INDEXABLE: "false"
+      NEXT_PUBLIC_CONTACT_ENDPOINT: php
+      NEXT_TELEMETRY_DISABLED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      - name: Construire le site statique
+        run: npm run build:static
+
+      - name: Servir out/ et mesurer
+        shell: bash
+        run: |
+          (cd out && python3 -m http.server 8080 --bind 127.0.0.1 > /dev/null 2>&1 &)
+          sleep 2
+          mkdir -p audit
+          for page in "/fr/|accueil" "/fr/contact/|contact" "/fr/le-cabinet/|cabinet" "/fr/expertises/|expertises"; do
+            chemin="${page%%|*}"; nom="${page##*|}"
+            for mode in mobile desktop; do
+              preset=""; [ "$mode" = "desktop" ] && preset="--preset=desktop"
+              npx lighthouse "http://127.0.0.1:8080${chemin}" $preset \
+                --only-categories=performance,accessibility,best-practices,seo \
+                --output=json --output=html --output-path="audit/${nom}-${mode}" \
+                --chrome-flags="--headless=new --no-sandbox --disable-gpu" --quiet || echo "échec ${nom} ${mode}"
+            done
+          done
+          ls -la audit
+          node -e '
+            const fs = require("fs");
+            const lignes = [];
+            for (const f of fs.readdirSync("audit").filter((f) => f.endsWith(".report.json"))) {
+              const r = JSON.parse(fs.readFileSync("audit/" + f, "utf8"));
+              const c = r.categories, a = r.audits;
+              const s = (k) => Math.round((c[k]?.score ?? 0) * 100);
+              const v = (k) => a[k]?.displayValue ?? "";
+              lignes.push(`${f.replace(".report.json", "")} | perf ${s("performance")} | a11y ${s("accessibility")} | bp ${s("best-practices")} | seo ${s("seo")} | FCP ${v("first-contentful-paint")} | LCP ${v("largest-contentful-paint")} | TBT ${v("total-blocking-time")} | CLS ${v("cumulative-layout-shift")} | SI ${v("speed-index")}`);
+            }
+            fs.writeFileSync("audit/synthese.txt", lignes.sort().join("\n") + "\n");
+            console.log(lignes.sort().join("\n"));
+          '
+
+      - name: Publier les rapports sur la branche audit-ci
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd audit
+          git init -b audit-ci
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Rapports Lighthouse ($(date -u +%Y-%m-%dT%H:%MZ), ${GITHUB_SHA::7})"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" audit-ci
