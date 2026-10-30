@@ -1,0 +1,8 @@
+accueil-desktop | perf 100 | a11y 100 | bp 100 | seo 69 | FCP 0.2 s | LCP 0.7 s | TBT 0 ms | CLS 0 | SI 0.2 s
+accueil-mobile | perf 82 | a11y 100 | bp 100 | seo 69 | FCP 1.1 s | LCP 3.3 s | TBT 420 ms | CLS 0 | SI 2.6 s
+cabinet-desktop | perf 100 | a11y 100 | bp 100 | seo 66 | FCP 0.2 s | LCP 0.6 s | TBT 0 ms | CLS 0 | SI 0.2 s
+cabinet-mobile | perf 96 | a11y 100 | bp 100 | seo 66 | FCP 0.8 s | LCP 2.7 s | TBT 50 ms | CLS 0 | SI 0.8 s
+contact-desktop | perf 100 | a11y 100 | bp 100 | seo 69 | FCP 0.3 s | LCP 0.6 s | TBT 0 ms | CLS 0 | SI 0.3 s
+contact-mobile | perf 96 | a11y 100 | bp 100 | seo 69 | FCP 0.9 s | LCP 2.7 s | TBT 50 ms | CLS 0 | SI 0.9 s
+expertises-desktop | perf 100 | a11y 100 | bp 100 | seo 66 | FCP 0.2 s | LCP 0.6 s | TBT 0 ms | CLS 0 | SI 0.2 s
+expertises-mobile | perf 93 | a11y 100 | bp 100 | seo 66 | FCP 0.8 s | LCP 3.2 s | TBT 40 ms | CLS 0 | SI 0.8 s
