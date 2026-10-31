@@ -218,6 +218,35 @@ export async function sendBrief(fields: BriefFields, locale: string): Promise<Se
   return deliver(sheet, fields, locale, receivedAt, subject, false);
 }
 
+/**
+ * Accusé de réception au demandeur (fournisseur Resend) : texte fixe du
+ * dictionnaire, sans reprise de sa saisie. Désactivable par
+ * CONTACT_ACKNOWLEDGE=false ; un échec n'est pas bloquant.
+ */
+async function acknowledge(email: string, locale: string): Promise<void> {
+  if (process.env.CONTACT_ACKNOWLEDGE === "false") return;
+  const l: Locale = isLocale(locale) ? locale : "fr";
+  const ack = getDictionary(l).contact.acknowledgement;
+  const escape = (v: string) => v.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c] ?? c);
+  try {
+    await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}`, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        from: process.env.CONTACT_FROM_EMAIL,
+        to: [email],
+        subject: `ARASTE CAPITAL — ${ack.subject}`,
+        text: `${ack.title}\n\n${ack.body}\n\n${ack.closing}\n`,
+        html: `<p style="font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:#6f561f">ARASTE CAPITAL</p><h1 style="font-weight:500;color:#0b1730">${escape(ack.title)}</h1><p>${escape(ack.body)}</p><p style="font-size:12px;color:#4f576a">${escape(ack.closing)}</p>`,
+        headers: { "Auto-Submitted": "auto-replied" },
+      }),
+      signal: AbortSignal.timeout(10_000),
+    });
+  } catch {
+    // Non bloquant : la demande a déjà été acheminée au cabinet.
+  }
+}
+
 async function deliver(sheet: Sheet, fields: ContactFields | BriefFields, locale: string, receivedAt: Date, subject: string, withPdf: boolean): Promise<SendOutcome> {
   const provider = currentProvider();
   if (provider === "none") return "demo";
@@ -246,6 +275,7 @@ async function deliver(sheet: Sheet, fields: ContactFields | BriefFields, locale
       signal: AbortSignal.timeout(10_000),
     });
     if (!response.ok) throw new ProviderError(provider, response.status);
+    await acknowledge(fields.email, locale);
     return "sent";
   }
 

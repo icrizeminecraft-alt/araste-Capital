@@ -30,12 +30,18 @@ export const contact: ContactContent = {
     },
     responder: "Votre interlocuteur est Lucas Araste, fondateur du cabinet.",
     result: {
-      sentTitle: "Votre demande a été transmise.",
-      sentBody: "Nous reprenons contact avec vous par le canal indiqué. Aucune pièce n'est à envoyer à ce stade.",
+      sentTitle: "Nous avons bien reçu votre demande.",
+      sentBody: "Nous revenons vers vous dans les plus brefs délais, par le canal indiqué. Un accusé de réception vous est adressé par courriel. Aucune pièce n'est à envoyer à ce stade.",
       demoTitle: "Mode démonstration : votre demande n'a pas été envoyée.",
       demoBody: "L'envoi des messages n'est pas activé sur ce déploiement. Les informations saisies n'ont été ni transmises ni conservées.",
       newRequest: "Envoyer une autre demande",
     },
+  },
+  acknowledgement: {
+    subject: "Votre demande a bien été reçue",
+    title: "Nous avons bien reçu votre demande.",
+    body: "Nous en prenons connaissance et revenons vers vous dans les plus brefs délais, par le canal que vous avez indiqué. Aucune pièce n'est à envoyer à ce stade : les éléments utiles vous seront demandés, le cas échéant, par un canal convenu avec vous. Ce message est envoyé automatiquement ; il ne constitue ni une offre ni un engagement.",
+    closing: "ARASTE CAPITAL — Conseil indépendant en financement immobilier et opérations complexes",
   },
   sheet: {
     eyebrow: "Fiche d'opération",
@@ -253,8 +259,8 @@ export const contact: ContactContent = {
       token: "Le formulaire n'a pas pu être vérifié. Patientez un instant et réessayez, ou rechargez la page.",
     },
     result: {
-      sentTitle: "Votre fiche d'opération a été transmise.",
-      sentBody: "Nous en prenons connaissance et revenons vers vous par le canal indiqué, avec un premier retour franc.",
+      sentTitle: "Votre fiche d'opération nous est bien parvenue.",
+      sentBody: "Nous l'étudions et revenons vers vous dans les plus brefs délais, par le canal indiqué, avec un premier retour franc. Un accusé de réception vous est adressé par courriel. Rien n'est engagé à ce stade.",
       demoTitle: "Mode démonstration : aucun message n'a été envoyé.",
       demoBody: "Le formulaire fonctionne, mais aucun fournisseur d'envoi n'est configuré sur ce déploiement. Votre saisie n'a été ni acheminée au cabinet ni conservée.",
       demoBanner: "Mode démonstration : les messages ne sont pas envoyés depuis ce déploiement.",

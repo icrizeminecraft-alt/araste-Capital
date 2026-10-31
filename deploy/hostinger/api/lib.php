@@ -474,6 +474,60 @@ function araste_render_html(array $sheet, string $locale): string
     return $html;
 }
 
+/**
+ * Accusé de réception au demandeur : texte fixe (labels.json), sans reprise de
+ * sa saisie, envoyé depuis l'adresse du cabinet. Désactivable par
+ * `'acknowledge' => false` dans config.php. Un échec n'est pas bloquant.
+ */
+function araste_send_acknowledgement(array $fields, string $locale): bool
+{
+    $config = araste_config();
+    if (($config['acknowledge'] ?? true) === false) {
+        return false;
+    }
+    $from = araste_line((string) $config['from']);
+    $to = araste_line((string) $fields['email']);
+    if ($from === '' || !filter_var($from, FILTER_VALIDATE_EMAIL) || $to === '' || !filter_var($to, FILTER_VALIDATE_EMAIL)) {
+        return false;
+    }
+    $labels = araste_labels();
+    $ack = $labels[$locale]['ack'] ?? $labels['fr']['ack'] ?? null;
+    if (!is_array($ack)) {
+        return false;
+    }
+    $e = static fn (string $v): string => htmlspecialchars($v, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+    $subject = araste_line('ARASTE CAPITAL — ' . (string) $ack['subject']);
+    $encodedSubject = '=?UTF-8?B?' . base64_encode(mb_substr($subject, 0, 180)) . '?=';
+    $boundary = 'araste-' . bin2hex(random_bytes(12));
+    $headers = [
+        'From: ARASTE CAPITAL <' . $from . '>',
+        'Reply-To: ARASTE CAPITAL <' . $from . '>',
+        'MIME-Version: 1.0',
+        'Content-Type: multipart/alternative; boundary="' . $boundary . '"',
+        'Auto-Submitted: auto-replied',
+        'X-Mailer: araste-static-relay',
+    ];
+    $text = (string) $ack['title'] . "
+
+" . (string) $ack['body'] . "
+
+" . (string) $ack['closing'] . "
+";
+    $html = '<!DOCTYPE html><html lang="' . $e($locale) . '"><body style="margin:0;padding:32px 24px;background:#fbfbfc;font-family:Georgia,serif;color:#141a2a">'
+        . '<div style="max-width:560px;margin:0 auto">'
+        . '<p style="margin:0 0 20px;font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:#6f561f;font-family:Helvetica,Arial,sans-serif">ARASTE CAPITAL</p>'
+        . '<h1 style="margin:0 0 16px;font-size:24px;font-weight:500;color:#0b1730">' . $e((string) $ack['title']) . '</h1>'
+        . '<p style="margin:0 0 24px;font-size:16px;line-height:1.6;font-family:Helvetica,Arial,sans-serif">' . $e((string) $ack['body']) . '</p>'
+        . '<p style="margin:0;font-size:12px;color:#4f576a;font-family:Helvetica,Arial,sans-serif">' . $e((string) $ack['closing']) . '</p>'
+        . '</div></body></html>';
+    $body = "--$boundary\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: base64\r\n\r\n"
+        . chunk_split(base64_encode($text))
+        . "--$boundary\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Transfer-Encoding: base64\r\n\r\n"
+        . chunk_split(base64_encode($html))
+        . "--$boundary--\r\n";
+    return @mail($to, $encodedSubject, $body, implode("\r\n", $headers), '-f' . $from);
+}
+
 /** Envoi par mail() en multipart/alternative (texte + HTML). */
 function araste_send(array $fields, string $locale, array $sheet): bool
 {

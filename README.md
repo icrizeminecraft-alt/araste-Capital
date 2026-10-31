@@ -131,7 +131,7 @@ Fournisseurs (`CONTACT_PROVIDER`) :
 | Valeur | Comportement |
 | --- | --- |
 | `none` (défaut) | Mode démonstration : le formulaire annonce clairement qu'aucun message n'a été envoyé. Jamais de faux succès. |
-| `resend` | Envoi par l'API Resend (`RESEND_API_KEY`, `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL`). |
+| `resend` | Envoi par l'API Resend (`RESEND_API_KEY`, `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL`), puis accusé de réception au demandeur (texte fixe du dictionnaire ; `CONTACT_ACKNOWLEDGE=false` pour le désactiver). Le relais PHP de l'hébergement statique fait de même (`acknowledge` dans `config.php`). |
 | `webhook` | POST JSON vers `CONTACT_WEBHOOK_URL`, jeton Bearer facultatif (`CONTACT_WEBHOOK_TOKEN`). |
 
 Replis à connaître :

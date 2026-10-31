@@ -90,4 +90,6 @@ if (!araste_send($fields, $locale, $sheet)) {
     error_log('[araste-contact] mail() a échoué (aucun contenu journalisé)');
     araste_error(502, 'provider');
 }
+// Accusé de réception au demandeur, après l'envoi au cabinet ; non bloquant.
+araste_send_acknowledgement($fields, $locale);
 araste_json(200, ['status' => 'sent']);

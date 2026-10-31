@@ -250,6 +250,8 @@ export type ContactContent = {
   };
   /** Seconde entrée : la fiche d'opération détaillée. */
   sheet: { eyebrow: string; title: string; lead: string };
+  /** Accusé de réception envoyé par courriel au demandeur (texte fixe, sans reprise de sa saisie). */
+  acknowledgement: { subject: string; title: string; body: string; closing: string };
   aside: {
     title: string;
     items: string[];

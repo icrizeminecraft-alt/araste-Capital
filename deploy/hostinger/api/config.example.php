@@ -23,4 +23,8 @@ return [
 
     // Préfixe de l'objet des messages reçus.
     'subjectPrefix' => '[ARASTE CAPITAL]',
+
+    // Accusé de réception envoyé au demandeur depuis l'adresse `from`
+    // (texte fixe, sans reprise de sa saisie). Mettre false pour le désactiver.
+    'acknowledge' => true,
 ];

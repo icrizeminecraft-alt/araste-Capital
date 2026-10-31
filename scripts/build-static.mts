@@ -83,6 +83,8 @@ function labelsFor(locale: "fr" | "en", content: typeof frContact, financing: Re
           ? "Document généré automatiquement à partir de la fiche renseignée par le demandeur. Informations déclaratives, à vérifier lors de l'étude. Confidentiel."
           : "Generated automatically from the sheet completed by the applicant. Declarative information, to be verified during the review. Confidential.",
     },
+    // Accusé de réception envoyé au demandeur (texte fixe).
+    ack: content.acknowledgement,
     // Premier échange : libellés du courriel du relais PHP.
     brief: {
       title: locale === "fr" ? "Premier échange" : "First conversation",

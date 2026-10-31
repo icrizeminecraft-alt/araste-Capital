@@ -30,12 +30,18 @@ export const contact: ContactContent = {
     },
     responder: "Your contact is Lucas Araste, founder of the firm.",
     result: {
-      sentTitle: "Your request has been sent.",
-      sentBody: "We get back to you through the channel you indicated. No documents need to be sent at this stage.",
+      sentTitle: "We have received your request.",
+      sentBody: "We will get back to you shortly through the channel you indicated. An acknowledgement is being emailed to you. No documents need to be sent at this stage.",
       demoTitle: "Demonstration mode: your request was not sent.",
       demoBody: "Message sending is not enabled on this deployment. The information entered was neither transmitted nor stored.",
       newRequest: "Send another request",
     },
+  },
+  acknowledgement: {
+    subject: "Your request has been received",
+    title: "We have received your request.",
+    body: "We are reviewing it and will get back to you shortly through the channel you indicated. No documents need to be sent at this stage: any useful items will be requested, if needed, through a channel agreed with you. This message is sent automatically; it constitutes neither an offer nor a commitment.",
+    closing: "ARASTE CAPITAL — Independent advisory in real estate finance and complex transactions",
   },
   sheet: {
     eyebrow: "Transaction sheet",
@@ -253,8 +259,8 @@ export const contact: ContactContent = {
       token: "The form could not be verified. Wait a moment and try again, or reload the page.",
     },
     result: {
-      sentTitle: "Your transaction sheet has been sent.",
-      sentBody: "We will review it and come back to you through the channel you indicated, with a first candid answer.",
+      sentTitle: "Your transaction sheet has reached us.",
+      sentBody: "We are reviewing it and will come back to you shortly through the channel you indicated, with a candid first response. An acknowledgement is being emailed to you. Nothing is committed at this stage.",
       demoTitle: "Demonstration mode: no message was sent.",
       demoBody: "The form works, but no sending provider is configured on this deployment. Your entry has not been forwarded to anyone and has not been kept.",
       demoBanner: "Demonstration mode: messages are not sent from this deployment.",
