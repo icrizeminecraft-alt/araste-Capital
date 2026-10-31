@@ -1,0 +1,6 @@
+:HL["/_next/static/chunks/022xjm2u4dy26.css","style"]
+:HL["/_next/static/media/newsreader_latin_opsz_normal-s.p.1rg5gtjce7nqg.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/public_sans_latin_wght_normal-s.p.0dg9xfo-7oh1a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/images/altea-portrait-2040.avif","image",{"fetchPriority":"high","imageSrcSet":"/images/altea-portrait-960.avif 960w, /images/altea-portrait-1400.avif 1400w, /images/altea-portrait-2040.avif 2040w","imageSizes":"(min-width: 64rem) 50vw, 100vw","media":"(min-width: 64rem)"}]
+:HL["/images/altea-2040.avif","image",{"fetchPriority":"high","imageSrcSet":"/images/altea-800.avif 800w, /images/altea-1200.avif 1200w, /images/altea-1600.avif 1600w, /images/altea-2040.avif 2040w","imageSizes":"(min-width: 64rem) 50vw, 100vw","media":"not all and (min-width: 64rem)"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"locale","param":{"type":"d","key":"en","siblings":["api"]},"prefetchHints":4144,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4224,"slots":null}}}}},"staleTime":300,"buildId":"b-Pf7TruR6GjWkklsd4mL"}

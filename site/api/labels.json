@@ -1,0 +1,466 @@
+{
+ "fr": {
+  "steps": [
+   "L'opération",
+   "L'actif",
+   "Structure et sortie",
+   "Vous"
+  ],
+  "fields": {
+   "financingType": {
+    "label": "Nature du financement",
+    "other": "Autre (à préciser dans le descriptif)"
+   },
+   "purpose": {
+    "label": "Objet de l'opération",
+    "options": {
+     "acquisition": "Acquisition",
+     "refinancing": "Refinancement d'une dette existante",
+     "development": "Développement, travaux ou transformation",
+     "liquidity": "Besoin de trésorerie adossé à un actif",
+     "other": "Autre"
+    }
+   },
+   "amount": {
+    "label": "Montant recherché"
+   },
+   "currency": {
+    "label": "Devise"
+   },
+   "country": {
+    "label": "Pays de l'opération"
+   },
+   "timeline": {
+    "label": "Délai souhaité de mise en place",
+    "options": {
+     "under-1m": "Moins d'un mois",
+     "1-3m": "Un à trois mois",
+     "3-6m": "Trois à six mois",
+     "over-6m": "Plus de six mois",
+     "undefined": "Non définie à ce stade"
+    }
+   },
+   "description": {
+    "label": "Bref descriptif"
+   },
+   "assetType": {
+    "label": "Type d'actif",
+    "options": {
+     "residential": "Résidentiel d'investissement",
+     "commercial": "Commercial, bureaux ou logistique",
+     "hotel": "Hôtellerie",
+     "mixed": "Usage mixte",
+     "land": "Foncier ou projet",
+     "portfolio": "Portefeuille d'actifs",
+     "business": "Entreprise ou fonds de commerce",
+     "other": "Autre"
+    }
+   },
+   "assetLocation": {
+    "label": "Localisation de l'actif"
+   },
+   "assetValue": {
+    "label": "Valeur estimée"
+   },
+   "valueBasis": {
+    "label": "Base de cette valeur",
+    "options": {
+     "appraisal": "Expertise indépendante",
+     "estimate": "Estimation interne ou d'agent",
+     "price": "Prix d'acquisition",
+     "none": "Pas encore d'estimation"
+    }
+   },
+   "annualIncome": {
+    "label": "Revenus annuels de l'actif"
+   },
+   "assetStatus": {
+    "label": "État de l'actif",
+    "options": {
+     "stabilised": "Stabilisé, loué ou exploité",
+     "works": "En travaux ou en rénovation",
+     "development": "En développement",
+     "vacant": "Vacant",
+     "other": "Autre"
+    }
+   },
+   "borrowerType": {
+    "label": "Entité emprunteuse",
+    "options": {
+     "company": "Société opérationnelle",
+     "spv": "Société dédiée à l'actif",
+     "holding": "Holding",
+     "fund": "Véhicule d'investissement",
+     "professional": "Propriétaire professionnel",
+     "other": "Autre"
+    }
+   },
+   "borrowerCountry": {
+    "label": "Pays d'immatriculation de l'emprunteur"
+   },
+   "equity": {
+    "label": "Fonds propres disponibles"
+   },
+   "existingDebt": {
+    "label": "Dette existante sur l'actif"
+   },
+   "existingDebtMaturity": {
+    "label": "Échéance de cette dette"
+   },
+   "securityOffered": {
+    "label": "Garanties envisageables"
+   },
+   "exitType": {
+    "label": "Sortie envisagée",
+    "options": {
+     "sale": "Vente de l'actif",
+     "refinancing": "Refinancement de long terme",
+     "receipt": "Encaissement attendu",
+     "partner": "Entrée d'un partenaire ou levée de fonds",
+     "amortisation": "Amortissement sur les revenus",
+     "other": "Autre ou non déterminée"
+    }
+   },
+   "exitTiming": {
+    "label": "Horizon de la sortie"
+   },
+   "role": {
+    "label": "Vous présentez cette opération en qualité de",
+    "options": {
+     "borrower": "Emprunteur ou dirigeant",
+     "introducer": "Apporteur d'affaires ou courtier indépendant",
+     "adviser": "Avocat, expert-comptable ou autre conseil",
+     "other": "Autre"
+    }
+   },
+   "name": {
+    "label": "Nom et prénom"
+   },
+   "company": {
+    "label": "Société ou structure"
+   },
+   "email": {
+    "label": "Adresse électronique"
+   },
+   "phone": {
+    "label": "Téléphone"
+   },
+   "channel": {
+    "label": "Canal de contact préféré",
+    "options": {
+     "email": "Courriel",
+     "phone": "Téléphone"
+    }
+   },
+   "notes": {
+    "label": "Précisions utiles"
+   }
+  },
+  "financing": {
+   "bridge": "Financement relais",
+   "complex": "Financements complexes",
+   "refinancing": "Refinancement",
+   "acquisition": "Acquisition immobilière",
+   "development": "Promotion immobilière",
+   "privateDebt": "Dette privée"
+  },
+  "sheet": {
+   "title": "Fiche d'opération",
+   "reference": "Fiche",
+   "footer": "Document généré automatiquement à partir de la fiche renseignée par le demandeur. Informations déclaratives, à vérifier lors de l'étude. Confidentiel."
+  },
+  "ack": {
+   "subject": "Votre demande a bien été reçue",
+   "title": "Nous avons bien reçu votre demande.",
+   "body": "Nous en prenons connaissance et revenons vers vous dans les plus brefs délais, par le canal que vous avez indiqué. Aucune pièce n'est à envoyer à ce stade : les éléments utiles vous seront demandés, le cas échéant, par un canal convenu avec vous. Ce message est envoyé automatiquement ; il ne constitue ni une offre ni un engagement.",
+   "closing": "ARASTE CAPITAL — Conseil indépendant en financement immobilier et opérations complexes"
+  },
+  "brief": {
+   "title": "Premier échange",
+   "name": "Votre nom",
+   "email": "Adresse électronique",
+   "phone": "Téléphone",
+   "message": "Votre projet, en quelques lignes",
+   "footer": "Demande d'échange transmise depuis le site. Informations déclaratives. Confidentiel."
+  }
+ },
+ "en": {
+  "steps": [
+   "The transaction",
+   "The asset",
+   "Structure and exit",
+   "You"
+  ],
+  "fields": {
+   "financingType": {
+    "label": "Type of financing",
+    "other": "Other (please specify in the description)"
+   },
+   "purpose": {
+    "label": "Purpose of the transaction",
+    "options": {
+     "acquisition": "Acquisition",
+     "refinancing": "Refinancing of existing debt",
+     "development": "Development, works or conversion",
+     "liquidity": "Liquidity need secured on an asset",
+     "other": "Other"
+    }
+   },
+   "amount": {
+    "label": "Amount sought"
+   },
+   "currency": {
+    "label": "Currency"
+   },
+   "country": {
+    "label": "Country of the transaction"
+   },
+   "timeline": {
+    "label": "Intended timeframe for completion",
+    "options": {
+     "under-1m": "Less than one month",
+     "1-3m": "One to three months",
+     "3-6m": "Three to six months",
+     "over-6m": "More than six months",
+     "undefined": "Not yet defined"
+    }
+   },
+   "description": {
+    "label": "Brief description"
+   },
+   "assetType": {
+    "label": "Type of asset",
+    "options": {
+     "residential": "Residential investment",
+     "commercial": "Commercial, offices or logistics",
+     "hotel": "Hospitality",
+     "mixed": "Mixed use",
+     "land": "Land or development project",
+     "portfolio": "Portfolio of assets",
+     "business": "Business or going concern",
+     "other": "Other"
+    }
+   },
+   "assetLocation": {
+    "label": "Location of the asset"
+   },
+   "assetValue": {
+    "label": "Estimated value"
+   },
+   "valueBasis": {
+    "label": "Basis of this value",
+    "options": {
+     "appraisal": "Independent valuation",
+     "estimate": "Internal or agent's estimate",
+     "price": "Purchase price",
+     "none": "No estimate yet"
+    }
+   },
+   "annualIncome": {
+    "label": "Annual income of the asset"
+   },
+   "assetStatus": {
+    "label": "Status of the asset",
+    "options": {
+     "stabilised": "Stabilised, let or operating",
+     "works": "Under works or refurbishment",
+     "development": "Under development",
+     "vacant": "Vacant",
+     "other": "Other"
+    }
+   },
+   "borrowerType": {
+    "label": "Borrowing entity",
+    "options": {
+     "company": "Operating company",
+     "spv": "Special purpose company",
+     "holding": "Holding company",
+     "fund": "Investment vehicle",
+     "professional": "Professional owner",
+     "other": "Other"
+    }
+   },
+   "borrowerCountry": {
+    "label": "Country of incorporation of the borrower"
+   },
+   "equity": {
+    "label": "Equity available"
+   },
+   "existingDebt": {
+    "label": "Existing debt on the asset"
+   },
+   "existingDebtMaturity": {
+    "label": "Maturity of that debt"
+   },
+   "securityOffered": {
+    "label": "Security that could be offered"
+   },
+   "exitType": {
+    "label": "Intended exit",
+    "options": {
+     "sale": "Sale of the asset",
+     "refinancing": "Long-term refinancing",
+     "receipt": "Expected receipt",
+     "partner": "Entry of a partner or capital raise",
+     "amortisation": "Amortisation from income",
+     "other": "Other or not yet determined"
+    }
+   },
+   "exitTiming": {
+    "label": "Timing of the exit"
+   },
+   "role": {
+    "label": "You are presenting this transaction as",
+    "options": {
+     "borrower": "Borrower or director",
+     "introducer": "Introducer or independent broker",
+     "adviser": "Lawyer, accountant or other adviser",
+     "other": "Other"
+    }
+   },
+   "name": {
+    "label": "Full name"
+   },
+   "company": {
+    "label": "Company or entity"
+   },
+   "email": {
+    "label": "Email address"
+   },
+   "phone": {
+    "label": "Telephone"
+   },
+   "channel": {
+    "label": "Preferred contact channel",
+    "options": {
+     "email": "Email",
+     "phone": "Telephone"
+    }
+   },
+   "notes": {
+    "label": "Useful details"
+   }
+  },
+  "financing": {
+   "bridge": "Bridge finance",
+   "complex": "Complex financing",
+   "refinancing": "Refinancing",
+   "acquisition": "Investment property acquisition",
+   "development": "Property development",
+   "privateDebt": "Private debt"
+  },
+  "sheet": {
+   "title": "Transaction sheet",
+   "reference": "Sheet",
+   "footer": "Generated automatically from the sheet completed by the applicant. Declarative information, to be verified during the review. Confidential."
+  },
+  "ack": {
+   "subject": "Your request has been received",
+   "title": "We have received your request.",
+   "body": "We are reviewing it and will get back to you shortly through the channel you indicated. No documents need to be sent at this stage: any useful items will be requested, if needed, through a channel agreed with you. This message is sent automatically; it constitutes neither an offer nor a commitment.",
+   "closing": "ARASTE CAPITAL — Independent advisory in real estate finance and complex transactions"
+  },
+  "brief": {
+   "title": "First conversation",
+   "name": "Your name",
+   "email": "Email address",
+   "phone": "Telephone",
+   "message": "Your project, in a few lines",
+   "footer": "Conversation request sent from the website. Declarative information. Confidential."
+  }
+ },
+ "enums": {
+  "financingTypes": [
+   "bridge",
+   "complex",
+   "refinancing",
+   "acquisition",
+   "development",
+   "privateDebt",
+   "other"
+  ],
+  "purposes": [
+   "acquisition",
+   "refinancing",
+   "development",
+   "liquidity",
+   "other"
+  ],
+  "currencies": [
+   "EUR",
+   "GBP",
+   "USD",
+   "CHF",
+   "AED"
+  ],
+  "timelines": [
+   "under-1m",
+   "1-3m",
+   "3-6m",
+   "over-6m",
+   "undefined"
+  ],
+  "assetTypes": [
+   "residential",
+   "commercial",
+   "hotel",
+   "mixed",
+   "land",
+   "portfolio",
+   "business",
+   "other"
+  ],
+  "valueBases": [
+   "appraisal",
+   "estimate",
+   "price",
+   "none"
+  ],
+  "assetStatuses": [
+   "stabilised",
+   "works",
+   "development",
+   "vacant",
+   "other"
+  ],
+  "borrowerTypes": [
+   "company",
+   "spv",
+   "holding",
+   "fund",
+   "professional",
+   "other"
+  ],
+  "exitTypes": [
+   "sale",
+   "refinancing",
+   "receipt",
+   "partner",
+   "amortisation",
+   "other"
+  ],
+  "roles": [
+   "borrower",
+   "introducer",
+   "adviser",
+   "other"
+  ],
+  "channels": [
+   "email",
+   "phone"
+  ]
+ },
+ "limits": {
+  "amount": 20,
+  "short": 80,
+  "country": 80,
+  "descriptionMin": 20,
+  "description": 1500,
+  "medium": 600,
+  "name": 120,
+  "company": 160,
+  "email": 254,
+  "phone": 40,
+  "body": 24576
+ }
+}

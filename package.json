@@ -1,0 +1,5 @@
+{
+  "name": "araste-capital-site-statique",
+  "private": true,
+  "scripts": { "build": "node -e \"console.log('Site statique déjà construit (dossier site/).')\"" }
+}
