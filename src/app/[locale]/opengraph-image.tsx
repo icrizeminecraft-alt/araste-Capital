@@ -17,8 +17,8 @@ export default async function OpenGraphImage({ params }: { params: Promise<{ loc
   const { locale } = await params;
   const l: Locale = isLocale(locale) ? locale : "fr";
   const [serif, sans] = await Promise.all([
-    readFile(join(process.cwd(), "src/assets/fonts/cormorant-500-og.ttf")),
-    readFile(join(process.cwd(), "src/assets/fonts/dm-sans-400-og.ttf")),
+    readFile(join(process.cwd(), "src/assets/fonts/newsreader-400-og.ttf")),
+    readFile(join(process.cwd(), "src/assets/fonts/public-sans-400-og.ttf")),
   ]);
 
   return new ImageResponse(
@@ -32,7 +32,7 @@ export default async function OpenGraphImage({ params }: { params: Promise<{ loc
           justifyContent: "space-between",
           background: "#fbfbfc",
           padding: "72px 84px",
-          fontFamily: "DM Sans",
+          fontFamily: "Public Sans",
           color: "#0b1730",
         }}
       >
@@ -42,11 +42,11 @@ export default async function OpenGraphImage({ params }: { params: Promise<{ loc
             <rect x="13" y="39.6" width="38" height="2.4" fill="#b8964f" />
             <path d="M22 56 C22 48.6 26.5 44 32 44 C37.5 44 42 48.6 42 56" fill="none" stroke="#b8964f" strokeWidth="1.7" />
           </svg>
-          <div style={{ fontFamily: "Cormorant", fontSize: 40, letterSpacing: 10, textTransform: "uppercase" }}>Araste Capital</div>
+          <div style={{ fontFamily: "Newsreader", fontSize: 40, letterSpacing: 10, textTransform: "uppercase" }}>Araste Capital</div>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 28 }}>
           <div style={{ width: 96, height: 2, background: "#b8964f" }} />
-          <div style={{ fontFamily: "Cormorant", fontSize: 76, lineHeight: 1.02, maxWidth: 960 }}>
+          <div style={{ fontFamily: "Newsreader", fontSize: 76, lineHeight: 1.02, maxWidth: 960 }}>
             {l === "fr" ? "Une autre lecture de votre financement." : "A different reading of your financing."}
           </div>
           <div style={{ fontSize: 26, letterSpacing: 4, textTransform: "uppercase", color: "#83652a" }}>
@@ -58,8 +58,8 @@ export default async function OpenGraphImage({ params }: { params: Promise<{ loc
     {
       ...size,
       fonts: [
-        { name: "Cormorant", data: serif, weight: 500, style: "normal" },
-        { name: "DM Sans", data: sans, weight: 400, style: "normal" },
+        { name: "Newsreader", data: serif, weight: 400, style: "normal" },
+        { name: "Public Sans", data: sans, weight: 400, style: "normal" },
       ],
     },
   );

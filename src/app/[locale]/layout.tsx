@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
-import { cormorant, dmSans } from "@/app/fonts";
+import { newsreader, publicSans } from "@/app/fonts";
 import "@/app/globals.css";
 import { isLocale, locales, type Locale } from "@/lib/i18n";
 import { getDictionary } from "@/content";
@@ -50,7 +50,7 @@ export default async function LocaleLayout({
   return (
     // data-scroll-behavior : le défilement doux (globals.css) ne vaut que pour les ancres ;
     // Next le suspend pendant un changement de page, qui s'affiche alors en haut, sans glissement.
-    <html lang={locale} className={`${cormorant.variable} ${dmSans.variable}`} data-scroll-behavior="smooth" suppressHydrationWarning>
+    <html lang={locale} className={`${newsreader.variable} ${publicSans.variable}`} data-scroll-behavior="smooth" suppressHydrationWarning>
       <body className="flex min-h-svh flex-col">
         <a
           href="#contenu"

@@ -32,8 +32,8 @@
   --color-error-soft: #f8e7e6;
   --color-success: #16264a;
 
-  --font-serif: var(--font-cormorant), "Cormorant Garamond", Georgia, "Times New Roman", serif;
-  --font-sans: var(--font-dm-sans), "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-newsreader), "Newsreader", Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-public-sans), "Public Sans", ui-sans-serif, system-ui, sans-serif;
 
   --breakpoint-xs: 26rem;
   --breakpoint-sm: 40rem;
@@ -86,7 +86,8 @@
 
   h1, h2, h3, h4 {
     @apply font-serif text-navy;
-    font-weight: 500;
+    /* Newsreader est livrée en une seule graisse (400) : les titres s'y tiennent. */
+    font-weight: 400;
     line-height: 1.05;
     letter-spacing: -0.01em;
     text-wrap: balance;

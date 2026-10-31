@@ -28,8 +28,8 @@ export default async function SlugOpenGraphImage({ params }: { params: Promise<{
   const eyebrow = resolved ? (resolved.kind === "expertise" ? dict.common.nav.expertises : dict.common.nav.guides) : "";
   const title = content ? content.title : siteConfig.brand.name;
   const [serif, sans] = await Promise.all([
-    readFile(join(process.cwd(), "src/assets/fonts/cormorant-500-og.ttf")),
-    readFile(join(process.cwd(), "src/assets/fonts/dm-sans-400-og.ttf")),
+    readFile(join(process.cwd(), "src/assets/fonts/newsreader-400-og.ttf")),
+    readFile(join(process.cwd(), "src/assets/fonts/public-sans-400-og.ttf")),
   ]);
 
   return new ImageResponse(
@@ -44,7 +44,7 @@ export default async function SlugOpenGraphImage({ params }: { params: Promise<{
           background: resolved?.kind === "guide" ? "#fbfbfc" : "#0b1730",
           color: resolved?.kind === "guide" ? "#0b1730" : "#fbfbfc",
           padding: "72px 84px",
-          fontFamily: "DM Sans",
+          fontFamily: "Public Sans",
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
@@ -53,11 +53,11 @@ export default async function SlugOpenGraphImage({ params }: { params: Promise<{
             <rect x="13" y="39.6" width="38" height="2.4" fill="#b8964f" />
             <path d="M22 56 C22 48.6 26.5 44 32 44 C37.5 44 42 48.6 42 56" fill="none" stroke="#b8964f" strokeWidth="1.7" />
           </svg>
-          <div style={{ fontFamily: "Cormorant", fontSize: 34, letterSpacing: 9, textTransform: "uppercase" }}>Araste Capital</div>
+          <div style={{ fontFamily: "Newsreader", fontSize: 34, letterSpacing: 9, textTransform: "uppercase" }}>Araste Capital</div>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
           <div style={{ fontSize: 22, letterSpacing: 4, textTransform: "uppercase", color: "#b8964f" }}>{eyebrow}</div>
-          <div style={{ fontFamily: "Cormorant", fontSize: title.length > 40 ? 62 : 74, lineHeight: 1.02, maxWidth: 1000 }}>{title}</div>
+          <div style={{ fontFamily: "Newsreader", fontSize: title.length > 40 ? 62 : 74, lineHeight: 1.02, maxWidth: 1000 }}>{title}</div>
           <div style={{ fontSize: 22, letterSpacing: 3, textTransform: "uppercase", color: resolved?.kind === "guide" ? "#83652a" : "#dcc58b" }}>
             {siteConfig.brand.tagline[l]}
           </div>
@@ -67,8 +67,8 @@ export default async function SlugOpenGraphImage({ params }: { params: Promise<{
     {
       ...size,
       fonts: [
-        { name: "Cormorant", data: serif, weight: 500, style: "normal" },
-        { name: "DM Sans", data: sans, weight: 400, style: "normal" },
+        { name: "Newsreader", data: serif, weight: 400, style: "normal" },
+        { name: "Public Sans", data: sans, weight: 400, style: "normal" },
       ],
     },
   );

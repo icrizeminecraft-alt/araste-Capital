@@ -42,7 +42,7 @@ export const legal: LegalContent = {
       title: "Propriété intellectuelle",
       paragraphs: [
         "Les textes, le logotype, le monogramme et les compositions visuelles de ce site sont la propriété du cabinet ou font l'objet d'une autorisation d'utilisation. Toute reproduction ou réutilisation sans accord préalable est interdite.",
-        "Les polices de caractères Cormorant et DM Sans sont utilisées sous licence SIL Open Font License 1.1.",
+        "Les polices de caractères Newsreader et Public Sans sont utilisées sous licence SIL Open Font License 1.1.",
         `Les photographies sont des images d'illustration publiées sous licence Unsplash (utilisation libre, y compris commerciale, sans attribution obligatoire) ; par courtoisie, leurs auteurs : ${photoCredits.join(" ; ")}. Aucune ne représente une opération conseillée par le cabinet ni ses locaux.`,
       ],
     },

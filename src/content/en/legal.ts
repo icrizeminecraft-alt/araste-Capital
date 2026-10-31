@@ -42,7 +42,7 @@ export const legal: LegalContent = {
       title: "Intellectual property",
       paragraphs: [
         "The texts, the typographic wordmark, the monogram and the visual compositions on this site are the property of the firm or are used under licence. Any reproduction or reuse without prior consent is prohibited.",
-        "The Cormorant and DM Sans typefaces are used under the SIL Open Font License 1.1.",
+        "The Newsreader and Public Sans typefaces are used under the SIL Open Font License 1.1.",
         `The photographs are illustrative images published under the Unsplash License (free use, including commercial, with no attribution required); as a courtesy, their authors: ${photoCredits.join("; ")}. None depicts a transaction advised by the firm or its premises.`,
       ],
     },

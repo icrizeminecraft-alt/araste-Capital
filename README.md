@@ -1,12 +1,12 @@
 # ARASTE CAPITAL — site
 
-Site d'ARASTE CAPITAL LTD, boutique indépendante de conseil et d'intermédiation en financements professionnels. Bilingue (français par défaut, anglais complet), responsive, accessible, sans traceur.
+Site d'ARASTE CAPITAL, cabinet indépendant de conseil en financement immobilier et opérations complexes. Bilingue (français par défaut, anglais complet), responsive, accessible, sans traceur.
 
 > **État : préproduction.** Le site est livré non indexable (`SITE_INDEXABLE=false`) et le formulaire fonctionne en mode démonstration tant qu'aucun fournisseur d'envoi n'est configuré. Voir `docs/AVANT-PUBLICATION.md` pour la liste des éléments à renseigner et valider.
 
 ## Direction créative
 
-Ivoire chaud dominant, vert forêt profond pour les moments importants, champagne patiné pour les détails. Deux familles typographiques auto-hébergées sous licence OFL : **Cormorant** (titres) et **DM Sans** (texte et interface). Les visuels sont des compositions architecturales originales en SVG (arcades, colonnade, voûte, escalier, façade, corniche, balustrade), remplaçables par des photographies une fois les droits vérifiés. Logotype typographique et monogramme « A » (arche et tablier de laiton) en SVG, déclinés clair/sombre, favicon et icône Apple.
+Porcelaine dominante, bleu nuit pour les moments importants, or patiné pour les détails. Deux familles typographiques auto-hébergées sous licence OFL, produites par `outils/polices.py` : **Newsreader** (titres, dessin adapté à la taille par l'axe optique) et **Public Sans** (texte et interface). Les visuels sont des photographies d'illustration importées depuis Unsplash (voir `docs/IMAGES.md`). Logotype typographique et monogramme « A » (arche et tablier de laiton) en SVG, déclinés clair/sombre, favicon et icône Apple.
 
 ## Pile technique
 
@@ -91,7 +91,7 @@ deploy/hostinger/             export statique : page racine, relais PHP du formu
 docs/                         déploiement, images, contenus, liste avant publication, références
 scripts/render-icons.mjs      génération de l'icône Apple depuis le SVG
 scripts/build-static.mts      export statique + .htaccess + relais PHP + archive (npm run build:static)
-outils/                       photographies (liste, import AVIF/JPEG incrémental, planches de candidats), serveur d'audit, déclencheur d'audit
+outils/                       photographies (liste, import AVIF/JPEG incrémental, planches de candidats), polices (`polices.py`), serveur d'audit, déclencheur d'audit
 tests/, e2e/                  tests unitaires et de bout en bout
 ```
 
@@ -150,17 +150,16 @@ La limitation de débit et l'idempotence sont en mémoire par processus : sur un
 - Les données structurées (`Organization`) ne contiennent que des faits confirmés ; la dénomination sociale n'y figure qu'une fois `brand.legalNameConfirmed` passé à `true`.
 - En-têtes de sécurité (`next.config.ts`) : CSP sans aucune ressource tierce, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy`. HSTS et `upgrade-insecure-requests` ne sont émis qu'en production avec une `NEXT_PUBLIC_SITE_URL` en HTTPS, pour ne pas casser une préproduction servie en HTTP. La CSP conserve `'unsafe-inline'` pour les scripts d'amorçage des pages statiques : elle limite ce qu'une page peut charger mais n'atténue pas une injection de script. Une CSP par nonce imposerait un rendu dynamique de toutes les pages.
 - Sans `NEXT_PUBLIC_SITE_URL`, l'image d'aperçu de partage est référencée sur `localhost` (comportement de Next) : sans conséquence tant que le site n'est pas indexé, à corriger avant publication.
-- La dénomination « ARASTE CAPITAL LTD » figure dans le pied de page et le manifeste comme demandé ; elle n'est ajoutée aux données structurées qu'une fois `brand.legalNameConfirmed` passé à `true`.
 
 ## Ce qui a été vérifié
 
 - `npm run typecheck`, `npm run lint`, `npm run test` (typographie, routes, schéma et protections du formulaire, contraintes éditoriales FR/EN) et `npm run build` : passés.
 - Tests de bout en bout Playwright (Chromium) à 1440, 768 et 390 px : navigation et liens internes, 404 localisée, sélecteur de langue, menu mobile au clavier, parcours complet de la fiche en quatre étapes (validation par étape, retour, récapitulatif, envoi) en mode démonstration, réponses de l'API (jeton, pot de miel, taille, origine, méthode), axe-core WCAG 2.x A/AA, texte à 200 %, `prefers-reduced-motion`.
 - Relecture adversariale par agents indépendants (contenus FR et EN, sécurité, accessibilité, code, design, repères) et inspection visuelle des captures d'écran aux trois largeurs.
-- Lighthouse (Chromium headless, réseau mobile simulé, build de production locale) : desktop 100 / 100 / 100 en performance, accessibilité et bonnes pratiques ; mobile 92 à 97 en performance selon la page, 100 en accessibilité. Le score SEO (63 à 66) reflète uniquement le `noindex` volontaire de préproduction. Les planches SVG servies en fichiers ont ramené le blocage du fil principal de l'accueil mobile de 460 ms à 70 ms. Ces mesures dépendent de la machine et du réseau simulé : à refaire sur l'hébergement réel.
+- Lighthouse (workflow `audit-performance.yml`, site statique servi avec compression, réseau mobile simulé) : desktop 100 / 100 / 100 en performance, accessibilité et bonnes pratiques sur les quatre pages mesurées ; mobile 82 (accueil) à 96 en performance, 100 en accessibilité. Le score SEO reflète uniquement le `noindex` volontaire de préproduction. Ces mesures dépendent de la machine et du réseau simulé : à refaire sur l'hébergement réel.
 
-Non vérifié : Firefox et Safari réels, Lighthouse (aucun score n'est avancé), lecteurs d'écran réels, envoi avec un fournisseur configuré.
+Non vérifié : Firefox et Safari réels, lecteurs d'écran réels, envoi avec un fournisseur configuré.
 
 ## Licences
 
-Cormorant et DM Sans : SIL Open Font License 1.1, fichiers et licences copiés dans `src/assets/fonts/` (aucune dépendance de police à l'exécution). Compositions visuelles, logotype et monogramme : créations originales livrées avec le projet.
+Newsreader (Production Type) et Public Sans : SIL Open Font License 1.1, fontes produites à partir des sources de Google Fonts par `outils/polices.py` et copiées avec leurs licences dans `src/assets/fonts/` (aucune dépendance de police à l'exécution). Photographies : licence Unsplash, crédits dans `src/config/images.ts`. Logotype et monogramme : créations originales livrées avec le projet.

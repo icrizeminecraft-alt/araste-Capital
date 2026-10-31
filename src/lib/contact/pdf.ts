@@ -34,8 +34,8 @@ export async function renderSheetPdf({
   const doc = await PDFDocument.create();
   doc.registerFontkit(fontkit);
   const [serifBytes, sansBytes] = await Promise.all([
-    readFile(join(process.cwd(), "src/assets/fonts/cormorant-500-og.ttf")),
-    readFile(join(process.cwd(), "src/assets/fonts/dm-sans-400-og.ttf")),
+    readFile(join(process.cwd(), "src/assets/fonts/newsreader-400-og.ttf")),
+    readFile(join(process.cwd(), "src/assets/fonts/public-sans-400-og.ttf")),
   ]);
   const serif = await doc.embedFont(serifBytes, { subset: true });
   const sans = await doc.embedFont(sansBytes, { subset: true });
