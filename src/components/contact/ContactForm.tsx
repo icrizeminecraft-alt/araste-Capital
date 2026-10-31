@@ -38,6 +38,20 @@ function newKey(): string {
 }
 
 /**
+ * Enveloppe d'un champ : contenu puis message d'erreur. Définie hors du
+ * composant de la fiche : un composant créé à chaque rendu serait remonté à
+ * chaque frappe, ce qui ferait perdre le focus (et fermerait le clavier mobile).
+ */
+function Field({ name, children, error, wide = false }: { name: keyof ContactFields; children: ReactNode; error: ReactNode; wide?: boolean }) {
+  return (
+    <div className={wide ? "md:col-span-2" : ""} data-field={name}>
+      {children}
+      {error}
+    </div>
+  );
+}
+
+/**
  * Fiche d'opération en quatre étapes, avec récapitulatif avant envoi.
  * Les valeurs restent en mémoire ; rien n'est écrit dans le navigateur ni l'URL.
  */
@@ -136,12 +150,6 @@ export function ContactForm({
     </select>
   );
   const input = (name: keyof ContactFields, props: Record<string, unknown> = {}) => <input {...field(name)} type="text" className="field-input" {...props} />;
-  const Field = ({ name, children, wide = false }: { name: keyof ContactFields; children: ReactNode; wide?: boolean }) => (
-    <div className={wide ? "md:col-span-2" : ""} data-field={name}>
-      {children}
-      {errorText(name)}
-    </div>
-  );
 
   const focus = (ref: { current: HTMLElement | null }) => window.requestAnimationFrame(() => ref.current?.focus());
 
@@ -413,7 +421,7 @@ export function ContactForm({
 
             {step === 1 ? (
               <>
-                <Field name="financingType" wide>
+                <Field name="financingType" error={errorText("financingType")} wide>
                   {label("financingType", t.fields.financingType.label)}
                   <select {...field("financingType")} className="field-input">
                     <option value="">{t.fields.financingType.placeholder}</option>
@@ -425,16 +433,16 @@ export function ContactForm({
                     <option value="other">{t.fields.financingType.other}</option>
                   </select>
                 </Field>
-                <Field name="purpose" wide>
+                <Field name="purpose" error={errorText("purpose")} wide>
                   {label("purpose", t.fields.purpose.label)}
                   {select("purpose", t.fields.purpose.options)}
                 </Field>
-                <Field name="amount">
+                <Field name="amount" error={errorText("amount")}>
                   {label("amount", t.fields.amount.label)}
                   {input("amount", { inputMode: "numeric", autoComplete: "off" })}
                   {hint("amount", t.fields.amount.hint)}
                 </Field>
-                <Field name="currency">
+                <Field name="currency" error={errorText("currency")}>
                   {label("currency", t.fields.currency.label)}
                   <select {...field("currency")} className="field-input">
                     {currencies.map((c) => (
@@ -444,16 +452,16 @@ export function ContactForm({
                     ))}
                   </select>
                 </Field>
-                <Field name="country">
+                <Field name="country" error={errorText("country")}>
                   {label("country", t.fields.country.label)}
                   {input("country", { autoComplete: "country-name" })}
                   {hint("country", t.fields.country.hint)}
                 </Field>
-                <Field name="timeline">
+                <Field name="timeline" error={errorText("timeline")}>
                   {label("timeline", t.fields.timeline.label)}
                   {select("timeline", t.fields.timeline.options)}
                 </Field>
-                <Field name="description" wide>
+                <Field name="description" error={errorText("description")} wide>
                   {label("description", t.fields.description.label)}
                   <textarea {...field("description")} rows={6} maxLength={LIMITS.description} className="field-input resize-y" />
                   {hint("description", t.fields.description.hint)}
@@ -463,30 +471,30 @@ export function ContactForm({
 
             {step === 2 ? (
               <>
-                <Field name="assetType">
+                <Field name="assetType" error={errorText("assetType")}>
                   {label("assetType", t.fields.assetType.label)}
                   {select("assetType", t.fields.assetType.options)}
                 </Field>
-                <Field name="assetLocation">
+                <Field name="assetLocation" error={errorText("assetLocation")}>
                   {label("assetLocation", t.fields.assetLocation.label)}
                   {input("assetLocation")}
                   {hint("assetLocation", t.fields.assetLocation.hint)}
                 </Field>
-                <Field name="assetValue">
+                <Field name="assetValue" error={errorText("assetValue")}>
                   {label("assetValue", t.fields.assetValue.label)}
                   {input("assetValue", { inputMode: "numeric", autoComplete: "off" })}
                   {hint("assetValue", t.fields.assetValue.hint)}
                 </Field>
-                <Field name="valueBasis">
+                <Field name="valueBasis" error={errorText("valueBasis")}>
                   {label("valueBasis", t.fields.valueBasis.label)}
                   {select("valueBasis", t.fields.valueBasis.options)}
                 </Field>
-                <Field name="annualIncome">
+                <Field name="annualIncome" error={errorText("annualIncome")}>
                   {label("annualIncome", t.fields.annualIncome.label)}
                   {input("annualIncome", { inputMode: "numeric", autoComplete: "off" })}
                   {hint("annualIncome", t.fields.annualIncome.hint)}
                 </Field>
-                <Field name="assetStatus">
+                <Field name="assetStatus" error={errorText("assetStatus")}>
                   {label("assetStatus", t.fields.assetStatus.label)}
                   {select("assetStatus", t.fields.assetStatus.options)}
                 </Field>
@@ -495,39 +503,39 @@ export function ContactForm({
 
             {step === 3 ? (
               <>
-                <Field name="borrowerType">
+                <Field name="borrowerType" error={errorText("borrowerType")}>
                   {label("borrowerType", t.fields.borrowerType.label)}
                   {select("borrowerType", t.fields.borrowerType.options)}
                 </Field>
-                <Field name="borrowerCountry">
+                <Field name="borrowerCountry" error={errorText("borrowerCountry")}>
                   {label("borrowerCountry", t.fields.borrowerCountry.label)}
                   {input("borrowerCountry", { autoComplete: "country-name" })}
                 </Field>
-                <Field name="equity">
+                <Field name="equity" error={errorText("equity")}>
                   {label("equity", t.fields.equity.label)}
                   {input("equity", { inputMode: "numeric", autoComplete: "off" })}
                   {hint("equity", t.fields.equity.hint)}
                 </Field>
-                <Field name="existingDebt">
+                <Field name="existingDebt" error={errorText("existingDebt")}>
                   {label("existingDebt", t.fields.existingDebt.label)}
                   {input("existingDebt", { inputMode: "numeric", autoComplete: "off" })}
                   {hint("existingDebt", t.fields.existingDebt.hint)}
                 </Field>
-                <Field name="existingDebtMaturity">
+                <Field name="existingDebtMaturity" error={errorText("existingDebtMaturity")}>
                   {label("existingDebtMaturity", t.fields.existingDebtMaturity.label)}
                   {input("existingDebtMaturity")}
                   {hint("existingDebtMaturity", t.fields.existingDebtMaturity.hint)}
                 </Field>
-                <Field name="exitType">
+                <Field name="exitType" error={errorText("exitType")}>
                   {label("exitType", t.fields.exitType.label)}
                   {select("exitType", t.fields.exitType.options)}
                 </Field>
-                <Field name="exitTiming">
+                <Field name="exitTiming" error={errorText("exitTiming")}>
                   {label("exitTiming", t.fields.exitTiming.label)}
                   {input("exitTiming")}
                   {hint("exitTiming", t.fields.exitTiming.hint)}
                 </Field>
-                <Field name="securityOffered" wide>
+                <Field name="securityOffered" error={errorText("securityOffered")} wide>
                   {label("securityOffered", t.fields.securityOffered.label)}
                   <textarea {...field("securityOffered")} rows={3} maxLength={LIMITS.medium} className="field-input resize-y" />
                   {hint("securityOffered", t.fields.securityOffered.hint)}
@@ -537,23 +545,23 @@ export function ContactForm({
 
             {step === 4 ? (
               <>
-                <Field name="role" wide>
+                <Field name="role" error={errorText("role")} wide>
                   {label("role", t.fields.role.label)}
                   {select("role", t.fields.role.options)}
                 </Field>
-                <Field name="name">
+                <Field name="name" error={errorText("name")}>
                   {label("name", t.fields.name.label)}
                   {input("name", { autoComplete: "name" })}
                 </Field>
-                <Field name="company">
+                <Field name="company" error={errorText("company")}>
                   {label("company", t.fields.company.label)}
                   {input("company", { autoComplete: "organization" })}
                 </Field>
-                <Field name="email">
+                <Field name="email" error={errorText("email")}>
                   {label("email", t.fields.email.label)}
                   <input {...field("email")} type="email" autoComplete="email" className="field-input" />
                 </Field>
-                <Field name="phone">
+                <Field name="phone" error={errorText("phone")}>
                   {label("phone", t.fields.phone.label)}
                   <input {...field("phone")} type="tel" autoComplete="tel" className="field-input" />
                   {hint("phone", t.fields.phone.hint)}
@@ -569,7 +577,7 @@ export function ContactForm({
                     ))}
                   </div>
                 </fieldset>
-                <Field name="notes" wide>
+                <Field name="notes" error={errorText("notes")} wide>
                   {label("notes", t.fields.notes.label)}
                   <textarea {...field("notes")} rows={3} maxLength={LIMITS.medium} className="field-input resize-y" />
                   {hint("notes", t.fields.notes.hint)}
